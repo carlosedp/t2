@@ -1,0 +1,26 @@
+
+ifmap is already defined in net/if.h - so disable most parts of the file for
+user-space applications.
+
+  - Rene Rebe <rene@rocklinux-consulting.de>
+
+--- usr/include/linux/if.h.orig	2004-09-24 21:27:57.527619915 +0000
++++ usr/include/linux/if.h	2004-09-24 21:25:18.511007038 +0000
+@@ -91,6 +91,8 @@
+  *	being very small might be worth keeping for clean configuration.
+  */
+ 
++#ifndef _NET_IF_H
++
+ struct ifmap 
+ {
+ 	unsigned long mem_start;
+@@ -102,6 +104,8 @@
+ 	/* 3 bytes spare */
+ };
+ 
++#endif /* _NET_IF_H - HACK */
++
+ struct if_settings
+ {
+ 	unsigned int type;	/* Type of physical device or protocol */

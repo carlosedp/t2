@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087432248 Thu Jun 17 02:30:48 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-libsdlmm.log 9-libsdlmm.log
+
+[BUILDTIME] 4186 (9)
+[SIZE] 1.58 MB, 219 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile autoconf automake bash binutils bzip2
+[DEP] ccache coreutils diffutils esound findutils gcc glib glibc grep
+[DEP] libsdl linux-header make mktemp nas net-tools perl sed sysfiles
+[DEP] tar texinfo xorg
+

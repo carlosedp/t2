@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1087447968 Thu Jun 17 06:52:48 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-xblasttnt.log 9-xblasttnt.log
+
+[BUILDTIME] 4983 (9)
+[SIZE] 6.81 MB, 898 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils findutils gcc
+[DEP] glibc grep linux-header make sed sysfiles tar xorg
+
