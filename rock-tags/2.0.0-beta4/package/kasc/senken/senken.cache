@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1053845682 Sun May 25 08:54:42 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-senken.log 9-senken.log
+
+[BUILDTIME] 3050 (9)
+[SIZE] 1.09 MB, 125 files
+
+[DEP] alsa audiofile bash bdb33 binutils bison bzip2 coreutils diffutils
+[DEP] esound findutils gcc3 gettext glib12 glibc23 gnome-libs14 grep gtk+12
+[DEP] imlib libjpeg libpng libsdl libsdl_image linux24-header make mktemp
+[DEP] net-tools orbit10 patch sed sysfiles tar util-linux xfree86 zlib
+

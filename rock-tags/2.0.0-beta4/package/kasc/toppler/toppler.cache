@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1053845761 Sun May 25 08:56:01 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-toppler.log 9-toppler.log
+
+[BUILDTIME] 1807 (9)
+[SIZE] 1.17 MB, 38 files
+
+[DEP] alsa audiofile bash binutils bzip2 coreutils diffutils esound
+[DEP] findutils gcc3 glibc23 grep libsdl libsdl_mixer linux24-header
+[DEP] make mktemp net-tools ogg-vorbis sed smpeg sysfiles tar util-linux
+[DEP] xfree86 zlib
+

@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053845086 Sun May 25 08:44:46 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-mahjong.log 9-mahjong.log
+
+[BUILDTIME] 2305 (9)
+[SIZE] 0.11 MB, 11 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glib12 glibc23 grep
+[DEP] gtk+12 linux24-header make perl5 sed sysfiles tar xfree86
+

@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1053844615 Sun May 25 08:36:55 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-freeciv.log 9-freeciv.log
+
+[BUILDTIME] 8925 (9)
+[SIZE] 14.77 MB, 290 files
+
+[DEP] alsa audiofile bash binutils bison bzip2 coreutils diffutils
+[DEP] esound findutils gcc3 gettext glib12 glibc23 grep gtk+12 imlib
+[DEP] libsdl libsdl_mixer linux24-header make mktemp ncurses net-tools
+[DEP] ogg-vorbis readline sed smpeg sysfiles tar util-linux xfree86 zlib
+

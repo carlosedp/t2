@@ -1,0 +1,17 @@
+
+[TIMESTAMP] 1053842214 Sun May 25 07:56:54 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-smpeg.log 9-smpeg.log
+
+[BUILDTIME] 4222 (9)
+[SIZE] 0.76 MB, 44 files
+
+[DEP] alsa audiofile autoconf automake bash binutils bzip2 cinepaint
+[DEP] coreutils diffutils esound findutils gcc3 gconf110 gdk-pixbuf10
+[DEP] gimp-print42 gimp12 glib12 glibc23 gnome-libs14 gnomemm12 grep gtk+12
+[DEP] gtk+extra10 gtkmm12 imlib libglade10 libsdl linux24-header m4 make
+[DEP] mktemp net-tools oaf10 orbit10 perl5 sed smpeg soup sysfiles tar
+[DEP] util-linux xfree86
+

@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1053844487 Sun May 25 08:34:47 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-flightgear.log 9-flightgear.log
+
+[BUILDTIME] 53314 (9)
+[SIZE] 4.09 MB, 25 files
+
+[DEP] automake bash binutils bzip2 coreutils diffutils findutils gcc3
+[DEP] glibc23 glut grep linux24-header make metakit mktemp net-tools
+[DEP] perl5 plib sed simgear sysfiles tar util-linux xfree86 zlib
+

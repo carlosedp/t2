@@ -1,0 +1,12 @@
+
+[TIMESTAMP] 1053845693 Sun May 25 08:54:53 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-simutrans.log 9-simutrans.log
+
+[BUILDTIME] 923 (9)
+[SIZE] 4.74 MB, 433 files
+
+[DEP] bash bzip2 coreutils gcc3 grep sed simutrans sysfiles tar unzip
+

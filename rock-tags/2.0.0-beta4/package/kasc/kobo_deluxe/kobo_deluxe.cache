@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053846091 Sun May 25 09:01:31 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-xkobo.log 9-xkobo.log
+
+[BUILDTIME] 1598 (9)
+[SIZE] 0.42 MB, 11 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glibc23 grep
+[DEP] linux24-header make mktemp sed sysfiles tar util-linux xfree86
+

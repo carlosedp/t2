@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053846110 Sun May 25 09:01:50 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-xskat.log 9-xskat.log
+
+[BUILDTIME] 1782 (9)
+[SIZE] 0.40 MB, 16 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glibc23 grep
+[DEP] linux24-header make sed sysfiles tar xfree86
+

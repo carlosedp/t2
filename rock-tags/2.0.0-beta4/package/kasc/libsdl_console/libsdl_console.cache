@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053840977 Sun May 25 07:36:17 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-libsdl_console.log 9-libsdl_console.log
+
+[BUILDTIME] 978 (9)
+[SIZE] 0.17 MB, 15 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glibc23 grep libsdl
+[DEP] libsdl_image make sed sysfiles tar
+

@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1053845172 Sun May 25 08:46:12 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-openglad.log 9-openglad.log
+
+[BUILDTIME] 8180 (9)
+[SIZE] 2.00 MB, 40 files
+
+[DEP] alsa audiofile bash binutils bzip2 coreutils diffutils esound
+[DEP] findutils gcc3 glibc23 grep libsdl libsdl_mixer linux24-header make
+[DEP] mktemp net-tools ogg-vorbis sed smpeg sysfiles tar util-linux xfree86
+

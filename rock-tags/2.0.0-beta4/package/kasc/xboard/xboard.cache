@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1053846136 Sun May 25 09:02:16 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-xboard.log 9-xboard.log
+
+[BUILDTIME] 2436 (9)
+[SIZE] 1.51 MB, 21 files
+
+[DEP] bash binutils bzip2 coreutils diffutils findutils flex gcc3 glibc23
+[DEP] grep groff linux24-header make net-tools sed sysfiles tar texinfo
+[DEP] xaw3d xboard xfree86
+

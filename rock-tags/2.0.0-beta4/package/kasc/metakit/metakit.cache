@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053841031 Sun May 25 07:37:11 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-metakit.log 9-metakit.log
+
+[BUILDTIME] 3241 (9)
+[SIZE] 1.51 MB, 221 files
+
+[DEP] bash binutils bzip2 coreutils diffutils findutils gcc3 glibc23 grep
+[DEP] make metakit mktemp net-tools sed sysfiles tar util-linux
+

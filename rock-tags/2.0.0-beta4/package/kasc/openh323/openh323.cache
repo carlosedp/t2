@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053842011 Sun May 25 07:53:31 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-openh323.log 9-openh323.log
+
+[BUILDTIME] 96943 (9)
+[SIZE] 16.38 MB, 263 files
+
+[DEP] bash binutils bison bzip2 coreutils expat findutils flex gawk gcc3
+[DEP] glibc23 grep linux24-header m4 make openssl patch sed sysfiles tar
+

@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053845583 Sun May 25 08:53:03 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-powermanga.log 9-powermanga.log
+
+[BUILDTIME] 3340 (9)
+[SIZE] 29.74 MB, 776 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glibc23 grep
+[DEP] linux24-header make powermanga sed sysfiles tar xfree86
+

@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1053842982 Sun May 25 08:09:42 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-libsdl_ttf.log 9-libsdl_ttf.log
+
+[BUILDTIME] 1460 (9)
+[SIZE] 0.72 MB, 20 files
+
+[DEP] alsa audiofile autoconf automake bash binutils bzip2 coreutils
+[DEP] diffutils esound findutils freetype gcc3 glibc23 grep libsdl
+[DEP] libsdl_ttf linux24-header make mktemp net-tools perl5 sed sysfiles
+[DEP] tar texinfo xfree86 zlib
+

@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053845643 Sun May 25 08:54:03 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-rubiclox.log 9-rubiclox.log
+
+[BUILDTIME] 1439 (9)
+[SIZE] 0.14 MB, 13 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glibc23 grep make sed
+[DEP] sysfiles tar xfree86
+

@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1053843892 Sun May 25 08:24:52 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-corewars.log 9-corewars.log
+
+[BUILDTIME] 2710 (9)
+[SIZE] 0.37 MB, 111 files
+
+[DEP] bash binutils bzip2 coreutils diffutils findutils flex gcc3 glib12
+[DEP] glibc23 grep gtk+12 linux24-header make mktemp net-tools sed sysfiles
+[DEP] tar util-linux xfree86
+

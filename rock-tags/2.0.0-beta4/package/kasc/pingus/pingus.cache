@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1053845534 Sun May 25 08:52:14 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-pingus.log 9-pingus.log
+
+[BUILDTIME] 35484 (9)
+[SIZE] 18.64 MB, 1161 files
+
+[DEP] alsa arts31 audiofile bash binutils bison bzip2 clanlib coreutils
+[DEP] diffutils directfb esound findutils gawk gcc3 gettext glibc23 grep
+[DEP] hermes libjpeg libmikmod libpng libsdl libxml2 linux24-header make
+[DEP] mktemp net-tools ogg-vorbis sed sysfiles tar util-linux xfree86 zlib
+

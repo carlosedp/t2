@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1053846010 Sun May 25 09:00:10 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-xblasttnt.log 9-xblasttnt.log
+
+[BUILDTIME] 2905 (9)
+[SIZE] 7.08 MB, 889 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glibc23 grep
+[DEP] linux24-header make mktemp sed sysfiles tar xblasttnt xfree86
+

@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1053845979 Sun May 25 08:59:39 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-xarchon.log 9-xarchon.log
+
+[BUILDTIME] 2764 (9)
+[SIZE] 1.21 MB, 475 files
+
+[DEP] alsa audiofile autoconf automake bash binutils bzip2 coreutils
+[DEP] diffutils esound findutils gcc3 glib12 glibc23 grep gtk+12
+[DEP] linux24-header make mktemp net-tools perl5 sed sysfiles tar texinfo
+[DEP] xarchon xfree86
+

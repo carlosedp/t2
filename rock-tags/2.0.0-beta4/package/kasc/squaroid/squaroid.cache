@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1053845741 Sun May 25 08:55:41 2003
+[CONFIG-ID] 2.0.0-beta4-x86-athlon-reference
+[ROCKVER] 2.0.0-beta4
+
+[LOGS] 5-squaroid.log 9-squaroid.log
+
+[BUILDTIME] 2609 (9)
+[SIZE] 0.50 MB, 56 files
+
+[DEP] autoconf automake bash binutils bzip2 coreutils diffutils file
+[DEP] findutils gcc3 glib12 glibc23 grep gtk+12 imlib linux24-header make
+[DEP] mktemp ncurses net-tools perl5 sed sysfiles tar texinfo xfree86
+
