@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1051823218 Thu May  1 23:06:58 2003
+[CONFIG-ID] 1.7-snapshot-x86-reference
+[ROCKVER] 1.7-snapshot
+
+[LOGS] 5-rubiclox.log 9-rubiclox.log
+
+[BUILDTIME] 1424 (9)
+[SIZE] 0.14 MB, 13 files
+
+[DEP] bash binutils bzip2 coreutils findutils gcc3 glibc23 grep make sed
+[DEP] sysfiles tar xfree86
+
