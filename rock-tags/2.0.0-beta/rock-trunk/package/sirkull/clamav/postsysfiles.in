@@ -1,4 +1,0 @@
-
-safe_groupadd clamav 54
-safe_useradd clamav 54 "clamav" /var/empty /bin/false "*"
-
