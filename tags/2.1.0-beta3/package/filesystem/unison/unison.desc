@@ -32,6 +32,7 @@
 [A] Benjamin Pierce <bcpierce@cis.upenn.edu>
 [M] Nikolaus Filus <NFilus@gmx.net>
 
+[F] NOPARALLEL
 [C] extra/archive extra/filesystem
 
 [L] GPL
