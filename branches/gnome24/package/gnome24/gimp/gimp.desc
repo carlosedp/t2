@@ -6,7 +6,7 @@
 [COPY] the ROCK-COPYRIGHT-NOTE-END tag. Otherwise it might get removed by
 [COPY] the ./scripts/Create-CopyPatch script. Do not edit this copyright text!
 [COPY] 
-[COPY] ROCK Linux: rock-src/package/gnome2/gimp14/gimp14.desc
+[COPY] ROCK Linux: rock-src/package/gnome24/gimp/gimp.desc
 [COPY] ROCK Linux is Copyright (C) 1998 - 2003 Clifford Wolf
 [COPY] 
 [COPY] This program is free software; you can redistribute it and/or modify
@@ -44,14 +44,14 @@
 [U] http://www.gimp.org
 
 [A] The GIMP project
-[M] Rene Rebe <rene@rocklinux.org>
+[M] Juergen Sawinski <jsaw@gmx.net>
 
-[C] extra/multimedia
+[C] extra/multimedia extra/desktop/gnome
 
 [L] GPL
 [S] Beta
-[V] 1.3.18
+[V] 1.3.20
 [P] X -----5---9 512.000
 
-[D] 3975767859 gimp-1.3.18.tar.bz2 ftp://ftp.gimp.org/pub/gimp/v1.3/v1.3.18/
+[D] 3633962471 gimp-1.3.20.tar.bz2 ftp://ftp.gimp.org/pub/gimp/v1.3/v1.3.20/
 

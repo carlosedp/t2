@@ -5,7 +5,7 @@
 # the ROCK-COPYRIGHT-NOTE-END tag. Otherwise it might get removed by
 # the ./scripts/Create-CopyPatch script. Do not edit this copyright text!
 # 
-# ROCK Linux: rock-src/package/gnome2/glib22/config.in
+# ROCK Linux: rock-src/package/gnome24/glib/config.in
 # ROCK Linux is Copyright (C) 1998 - 2003 Clifford Wolf
 # 
 # This program is free software; you can redistribute it and/or modify
@@ -20,11 +20,11 @@
 # 
 # --- ROCK-COPYRIGHT-NOTE-END ---
 
-if pkgcheck glib22 X
+if pkgcheck glib X
 then
-	menu_begin MENU_PKG_GNOME2 'GNOME 2 Package Options'
-		text 'Install prefix for GNOME 2 Packages' \
-			ROCKCFG_PKG_GNOME2_CORE_PREFIX "opt/gnome2"
+	menu_begin MENU_PKG_GNOME24 'GNOME 2.4 Package Options'
+		text 'Install prefix for GNOME 2.4 Packages' \
+			ROCKCFG_PKG_GNOME24_CORE_PREFIX "opt/gnome24"
 	menu_end
 fi
 

@@ -6,7 +6,7 @@
 [COPY] the ROCK-COPYRIGHT-NOTE-END tag. Otherwise it might get removed by
 [COPY] the ./scripts/Create-CopyPatch script. Do not edit this copyright text!
 [COPY] 
-[COPY] ROCK Linux: rock-src/package/gnome2/libgnomeuimm14/libgnomeuimm14.desc
+[COPY] ROCK Linux: rock-src/package/gnome24/libgnomeuimm/libgnomeuimm.desc
 [COPY] ROCK Linux is Copyright (C) 1998 - 2003 Clifford Wolf
 [COPY] 
 [COPY] This program is free software; you can redistribute it and/or modify
@@ -21,22 +21,21 @@
 [COPY] 
 [COPY] --- ROCK-COPYRIGHT-NOTE-END ---
 
-[I] C++ bindings for the GNOME ui library
+[I] C++ wrapper for libgnomeui.
 
-[T] Gnomemm is the c++ wrapper for the gnome-libs. This provides a clean
-[T] C++ style enviroment for writing GNOME applications with C++.
+[T] C++ wrapper for libgnomeui.
 
-[A] Karl Nelson <kenelson@users.sourceforge.net>
-[A] Murray Cumming <murrayc@usa.net>
-[A] Many more
-[M] Rene Rebe <rene@rocklinux.org>
+[U] http://www.gnome.org/
+
+[A] Murray Cumming
+[A] <gnomemm-list@gnome.org>
+[M] Juergen Sawinski <jsaw@gmx.net>
 
 [C] extra/development extra/desktop/gnome
 
 [L] GPL
 [S] Stable
-[V] 1.3.16
+[V] 2.0.0
 [P] X -----5---9 505.000
 
-[D] 312582971 libgnomeuimm-1.3.16.tar.gz http://dl.sourceforge.net/sourceforge/gtkmm/
-
+[D] 2501399835 libgnomeuimm-2.0.0.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.0/

@@ -6,7 +6,7 @@
 [COPY] the ROCK-COPYRIGHT-NOTE-END tag. Otherwise it might get removed by
 [COPY] the ./scripts/Create-CopyPatch script. Do not edit this copyright text!
 [COPY] 
-[COPY] ROCK Linux: rock-src/package/gnome2/rep-gtk10/rep-gtk10.desc
+[COPY] ROCK Linux: rock-src/package/gnome24/rep-gtk/rep-gtk.desc
 [COPY] ROCK Linux is Copyright (C) 1998 - 2003 Clifford Wolf
 [COPY] 
 [COPY] This program is free software; you can redistribute it and/or modify
@@ -21,23 +21,25 @@
 [COPY] 
 [COPY] --- ROCK-COPYRIGHT-NOTE-END ---
 
-[I] Using librep (lisp) with GTK/GDK
+[I] A binding of the GTK+ and GDK libraries for the librep Lisp environment.
 
-[T] rep-gtk is a binding of the GTK and GDK libraries for the librep 
-[T] Lisp environment. It's currently targeted at GTK
-[T] 1.2 and is based on the guile-gtk binding by Marius Vollmer.
+[T] rep-gtk is a binding of the GTK+ and GDK libraries for the 
+[T] librep
+[T] Lisp environment. It's currently targeted at GTK+ 1.2 
+[T] and is based
+[T] on the Guile-gtk binding.
 
 [U] http://rep-gtk.sourceforge.net/
 
-[A] John Harper <jsh@users.sourceforge.net>
-[M] Rene Rebe <rene@rocklinux.org>
+[A] John Harper <jsh@unfactored.org>
+[A] Please report bugs to the mailing list <rep-gtk-list@lists.sourceforge.net>
+[M] Juergen Sawinski <jsaw@gmx.net>
 
-[C] extra/development
+[C] extra/development extra/desktop/gnome
 
 [L] GPL
-[S] Stable
-[V] 0.17
+[S] Beta
+[V] 0.18
 [P] X -----5---9 468.000
 
-[D] 3498025736 rep-gtk-0.17.tar.gz http://dl.sourceforge.net/sourceforge/rep-gtk/
-
+[D] 3057428609 rep-gtk-0.18.tar.gz http://dl.sourceforge.net/sourceforge/rep-gtk/

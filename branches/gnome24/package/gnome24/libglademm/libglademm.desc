@@ -6,7 +6,7 @@
 [COPY] the ROCK-COPYRIGHT-NOTE-END tag. Otherwise it might get removed by
 [COPY] the ./scripts/Create-CopyPatch script. Do not edit this copyright text!
 [COPY] 
-[COPY] ROCK Linux: rock-src/package/gnome2/libglademm20/libglademm20.desc
+[COPY] ROCK Linux: rock-src/package/gnome24/libglademm/libglademm.desc
 [COPY] ROCK Linux is Copyright (C) 1998 - 2003 Clifford Wolf
 [COPY] 
 [COPY] This program is free software; you can redistribute it and/or modify
@@ -21,22 +21,22 @@
 [COPY] 
 [COPY] --- ROCK-COPYRIGHT-NOTE-END ---
 
-[I] C++ bindings for the GNOME glade library
+[I] C++ wrapper for libglade.
 
-[T] Gnomemm is the c++ wrapper for the gnome-libs. This provides a clean
-[T] C++ style enviroment for writing GNOME applications with C++.
+[T] C++ wrapper for libglade.
 
-[A] Karl Nelson <kenelson@users.sourceforge.net>
-[A] Murray Cumming <murrayc@usa.net>
-[A] Many more
-[M] Rene Rebe <rene@rocklinux.org>
+[U] http://www.gnome.org/
 
-[C] extra/development extra/desktop/gnome
+[A] Murray Cumming
+[A] <gnomemm-list@gnome.org>
 
-[L] GPL
-[S] Stable
-[V] 2.0.1
+[M] Juergen Sawinski <jsaw@gmx.net>
+
+[C] extra/desktop/gnome
+
+[L] LGPL
+[S] Beta
+[V] 2.1.1
 [P] X -----5---9 500.000
 
-[D] 2224017216 libglademm-2.0.1.tar.gz http://dl.sourceforge.net/sourceforge/gtkmm/
-
+[D] 1191056905 libglademm-2.1.1.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.1/

@@ -35,7 +35,7 @@ main_begin
     block_end
 
     block_begin(stop, `Stopping gdm.')
-        check(`killall -15 D_prefix/bin/gdm')
+        check(`killall -15 D_prefix/bin/gdm-binary')
     block_end
 
 main_end

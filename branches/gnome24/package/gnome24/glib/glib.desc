@@ -6,7 +6,7 @@
 [COPY] the ROCK-COPYRIGHT-NOTE-END tag. Otherwise it might get removed by
 [COPY] the ./scripts/Create-CopyPatch script. Do not edit this copyright text!
 [COPY] 
-[COPY] ROCK Linux: rock-src/package/gnome2/glib22/glib22.desc
+[COPY] ROCK Linux: rock-src/package/gnome24/glib/glib.desc
 [COPY] ROCK Linux is Copyright (C) 1998 - 2003 Clifford Wolf
 [COPY] 
 [COPY] This program is free software; you can redistribute it and/or modify
@@ -27,7 +27,7 @@
 [T] lists, trees, hashes, memory allocation, and many other things.
 
 [A] Peter Mattis
-[M] Rene Rebe <rene@rocklinux.org>
+[M] Juergen Sawinski <jsaw@gmx.net>
 
 [C] extra/development
 
@@ -36,5 +36,5 @@
 [V] 2.2.3
 [P] X -----5---9 284.000
 
-[D] 1346316101 glib-2.2.3.tar.bz2 ftp://ftp.gtk.org/pub/gtk/v2.2/
+[D] 1346316101 glib-2.2.3.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/glib/2.2/
 
