@@ -1,0 +1,30 @@
+
+This is a changelog for Dietlibc-Target, Alpha Target and all changes esden
+does for ROCKLinux ;-)
+
+*) 2003-08-01 (2.0.0-beta7 - 2.0.0-rc1)
+ - added dvorakng package
+
+*) 2003-07-30 (2.0.0-beta7 - 2.0.0-rc1)
+ - added socket package
+ - updated cksum for services file
+ - added tetradraw package
+
+*) 2003-07-26 (2.0.0-beta7 - 2.0.0-rc1)
+ - added ekg (gadu-gadu) package
+ - changed from the outdated and crappy atstake version to the gnu version
+ - cleaned up Create-SrcTar script
+
+*) 2003-04-19 (2.0.0-alpha - 2.0.0-beta)
+
+ - fixed Build-Tools to not use parse-config*~ files
+ - added netcat package to esden repository
+ - added prefix_WRAPPER_APPEND_PO option to the command wrapper that is adding
+   an option before other wrappers are being run (needed for -lcompat in
+   dietlibc target)
+ - fixed coreutils, sed and curl in dietlibc target
+ - removed gcc2 from the dietlibc target because that package is not building
+   and to honest not nessesary for this target ...
+ - set DISABLE_NLS in dietlibc target (localization is not supported by
+   dietlibc yet)
+
