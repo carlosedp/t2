@@ -1,6 +1,0 @@
-
-if [ $ROCKCFG_ARM_OPT != generic ] ; then
-	var_append GCC_WRAPPER_INSERT " " \
-		"-mcpu=$ROCKCFG_ARM_OPT"
-fi
-

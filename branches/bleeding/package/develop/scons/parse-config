@@ -1,3 +1,0 @@
-
-[ "$ROCKCFG_PARALLEL_MAX" ] && var_insert sconsopt " " "--jobs $ROCKCFG_PARALLEL_MAX"
-

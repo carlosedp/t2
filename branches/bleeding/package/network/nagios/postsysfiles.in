@@ -1,4 +1,0 @@
-
-safe_groupadd nagios 76
-safe_useradd nagios 76 76 "Nagios Monitoring System" /var/empty /bin/false "*"
-
