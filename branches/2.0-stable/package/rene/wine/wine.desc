@@ -34,12 +34,13 @@
 [M] Rene Rebe <rene@rocklinux.org>
 
 [C] extra/emulator
-[R] + x86
+# for the others the locking functionality is not implemented ...
+[R] + x86 powerpc
 
-[L] OpenSource
+[L] LGPL
 [S] Beta
-[V] 20040213
+[V] 20040615
 [P] X -----5---9 697.000
 
-[D] 2793733117 Wine-20040213.tar.gz http://dl.sourceforge.net/sourceforge/wine/
+[D] 2556460871 Wine-20040615.tar.gz http://dl.sourceforge.net/sourceforge/wine/
 
