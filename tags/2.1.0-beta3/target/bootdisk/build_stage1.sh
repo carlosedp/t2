@@ -48,15 +48,17 @@ for x in `egrep 'X .* KERNEL .*' $base/config/$config/packages |
 
   kernel=${x/_*/}
   kernelver=${x/*_/}
+  moduledir="`grep lib/modules  $build_root/var/adm/flists/$kernel |
+              cut -d ' ' -f 2 | cut -d / -f 1-3 | uniq | head -n 1`"
   initrd="initrd${kernel/linux/}.gz"
 
   pushd . 2>&1 > /dev/null
 
-  echo_status "Creating linuxrc for $kernel ($kernelver) ..."
+  echo_header "Creating linuxrc for $kernel ($kernelver) ..."
   rm -rf lib/modules/ # remove stuff from the last loop
 
-  echo_status "  Copy scsi and network kernel modules."
-  for x in ../2nd_stage/lib/modules/$kernelver*/kernel/drivers/{scsi,net}/*.{ko,o} ; do
+  echo_status "Copy scsi and network kernel modules."
+  for x in ../2nd_stage/$moduledir/kernel/drivers/{scsi,net}/*.{ko,o} ; do
 	# this test is needed in case there are no .o or only .ko files
 	if [ -f $x ]; then
 		xx=${x#../2nd_stage/}
@@ -65,7 +67,7 @@ for x in `egrep 'X .* KERNEL .*' $base/config/$config/packages |
 	fi
   done
 
-  for x in ../2nd_stage/lib/modules/$kernelver*/modules.{dep,pcimap,isapnpmap} ; do
+  for x in ../2nd_stage/$moduledir/modules.{dep,pcimap,isapnpmap} ; do
 	cp $x ${x#../2nd_stage/} || echo "not found: $x" ;
   done
 
@@ -77,7 +79,7 @@ for x in `egrep 'X .* KERNEL .*' $base/config/$config/packages |
 
   cd ..
 
-  echo_header "Creating initrd filesystem image: $initrd"
+  echo_status "Creating initrd filesystem image: $initrd"
 
   ramdisk_size=8192
   #[ $arch = x86 ] && ramdisk_size=4096
