@@ -37,28 +37,9 @@
 [C] base/system
 
 [L] GPL
-<<<<<<< .mine
-<<<<<<< .mine
 [S] Beta
-[V] 0.0.8
-[P] X -----5---9 758.000
-=======
-[S] Alpha
-[V] 0.0.3
-=======
-[S] Beta
-[V] 0.0.7
->>>>>>> .r2590
+[V] 0.0.9
 [P] X ---3-----9 758.000
->>>>>>> .r1162
 
-<<<<<<< .mine
-<<<<<<< .mine
-[D] 0 rockplug-0.0.8.tar.bz2 http://www.rocklinux-consulting.de/oss/rockplug/src/
-=======
-[D] 3173740301 rockplug-0.0.3.tar.bz2 http://gsmp.tfh-berlin.de/ftp/software/rockplug/
-=======
-[D] 2003040161 rockplug-0.0.7.tar.bz2 http://www.rocklinux-consulting.de/oss/rockplug/src/
->>>>>>> .r2590
->>>>>>> .r1162
+[D] 0 rockplug-0.0.9.tar.bz2 http://www.rocklinux-consulting.de/oss/rockplug/src/
 
