@@ -1,3 +1,0 @@
-menu_begin MENU_PKG_LIBS_GENERAL 'Library Options'
-%include package/*/*/subconfig-libs.in
-menu_end

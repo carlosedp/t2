@@ -1,3 +1,0 @@
-flistdel="$flistdel|$prefix/include/gc/private/.*"
-flistdel="$flistdel|$prefix/include/gc/(cord\.h|ec\.h|javaxfc\.h)"
-

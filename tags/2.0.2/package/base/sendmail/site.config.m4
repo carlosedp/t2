@@ -1,2 +1,0 @@
-APPENDDEF(`confFORCE_RMAIL')
-

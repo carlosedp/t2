@@ -1,5 +1,0 @@
-
-if [ "$ROCKCFG_SPARC_OPT" != "generic" ] ; then
-	var_append GCC_WRAPPER_INSERT " " "-mcpu=$ROCKCFG_SPARC_OPT"
-fi
-
