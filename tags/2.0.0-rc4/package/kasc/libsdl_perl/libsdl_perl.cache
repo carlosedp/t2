@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1069720527 Tue Nov 25 01:35:27 2003
+[CONFIG-ID] 2.0.0-rc4-x86-pentium-mmx-32-reference-expert
+[ROCKVER] 2.0.0-rc4
+
+[LOGS] 5-libsdl_perl.log 9-libsdl_perl.log
+
+[BUILDTIME] 5368 (9)
+[SIZE] 1.10 MB, 74 files
+
+[DEP] alsa bash binutils bzip2 coreutils findutils gcc3 glibc23 grep
+[DEP] libjpeg libpng libsdl libsdl_console libsdl_gfx libsdl_image
+[DEP] libsdl_mixer libsdl_net libsdl_perl libsdl_ttf linux24-header make
+[DEP] patch perl5 sed smpeg sysfiles tar xfree86
+

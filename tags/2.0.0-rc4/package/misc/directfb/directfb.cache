@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1069601944 Sun Nov 23 16:39:04 2003
+[CONFIG-ID] 2.0.0-rc4-x86-pentium-mmx-32-reference-expert
+[ROCKVER] 2.0.0-rc4
+
+[LOGS] 5-directfb.log 9-directfb.log
+
+[BUILDTIME] 11184 (9)
+[SIZE] 2.41 MB, 337 files
+
+[DEP] alsa autoconf bash binutils bzip2 coreutils diffutils findutils
+[DEP] freetype gcc3 glibc23 grep libjpeg libpng libsdl linux24-header make
+[DEP] mktemp net-tools patch perl5 sed sysfiles tar texinfo util-linux
+[DEP] xfree86 zlib
+

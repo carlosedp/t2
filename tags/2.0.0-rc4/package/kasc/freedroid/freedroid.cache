@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1069724401 Tue Nov 25 02:40:01 2003
+[CONFIG-ID] 2.0.0-rc4-x86-pentium-mmx-32-reference-expert
+[ROCKVER] 2.0.0-rc4
+
+[LOGS] 5-freedroid.log 9-freedroid.log
+
+[BUILDTIME] 4120 (9)
+[SIZE] 5.14 MB, 118 files
+
+[DEP] alsa bash binutils bzip2 coreutils diffutils findutils gcc3 glibc23
+[DEP] grep libjpeg libpng libsdl libsdl_image libsdl_mixer linux24-header
+[DEP] make mktemp net-tools ogg-vorbis sed smpeg sysfiles tar util-linux
+[DEP] xfree86 zlib
+

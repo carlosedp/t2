@@ -1,0 +1,12 @@
+
+[TIMESTAMP] 1069559625 Sun Nov 23 04:53:45 2003
+[CONFIG-ID] 2.0.0-rc4-x86-pentium-mmx-32-reference-expert
+[ROCKVER] 2.0.0-rc4
+
+[LOGS] 5-glide3.log 9-glide3.log
+
+[BUILDTIME] 1645 (9)
+[SIZE] 0.32 MB, 15 files
+
+[DEP] bash bzip2 coreutils gcc3 glibc23 grep sed sysfiles tar
+

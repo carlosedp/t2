@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1069717561 Tue Nov 25 00:46:01 2003
+[CONFIG-ID] 2.0.0-rc4-x86-pentium-mmx-32-reference-expert
+[ROCKVER] 2.0.0-rc4
+
+[LOGS] 5-scilab.log 9-scilab.log
+
+[BUILDTIME] 35889 (9)
+[SIZE] 39.13 MB, 8538 files
+
+[DEP] bash binutils bzip2 coreutils diffutils findutils gawk gcc3 glibc23
+[DEP] grep linux24-header make mktemp ncurses net-tools scilab sed sysfiles
+[DEP] tar tcltk util-linux xaw3d xfree86
+

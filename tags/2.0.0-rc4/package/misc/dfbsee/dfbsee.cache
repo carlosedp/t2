@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1069729062 Tue Nov 25 03:57:42 2003
+[CONFIG-ID] 2.0.0-rc4-x86-pentium-mmx-32-reference-expert
+[ROCKVER] 2.0.0-rc4
+
+[LOGS] 5-dfbsee.log 9-dfbsee.log
+
+[BUILDTIME] 2079 (9)
+[SIZE] 0.15 MB, 15 files
+
+[DEP] alsa autoconf bash binutils bzip2 coreutils diffutils directfb
+[DEP] findutils gcc3 glibc23 grep libsdl linux24-header make mktemp
+[DEP] net-tools perl5 pkgconfig sed sysfiles tar texinfo xfree86
+
