@@ -1,0 +1,16 @@
+
+[TIMESTAMP] 1052263969 Wed May  7 01:32:49 2003
+[CONFIG-ID] 1.7-snapshot-x86-reference
+[ROCKVER] 1.7-snapshot
+
+[LOGS] 5-gnubg.log 9-gnubg.log
+
+[BUILDTIME] 9184 (9)
+[SIZE] 12.17 MB, 82 files
+
+[DEP] alsa arts31 atk12 audiofile bash binutils bison bzip2 coreutils
+[DEP] diffutils esound findutils freetype gcc3 gdbm gettext glib22 glibc23
+[DEP] gmp gnubg grep gtk+22 gtkextra2 guile libpng libxml2 linux24-header
+[DEP] make mktemp ncurses net-tools pango12 pkgconfig readline sed sysfiles
+[DEP] tar tetex texinfo util-linux xfree86 zlib
+
