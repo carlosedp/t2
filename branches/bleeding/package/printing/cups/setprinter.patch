@@ -1,0 +1,53 @@
+diff -ur cups-1.1.21-orig/berkeley/Makefile cups-1.1.21/berkeley/Makefile
+--- cups-1.1.21-orig/berkeley/Makefile	2004-06-29 05:44:52.000000000 +0200
++++ cups-1.1.21/berkeley/Makefile	2004-09-26 17:39:47.207420776 +0200
+@@ -57,11 +57,11 @@
+ 
+ install:	all
+ 	$(INSTALL_DIR) $(BINDIR)
+-	$(INSTALL_BIN) lpq $(BINDIR)
+-	$(INSTALL_BIN) lpr $(BINDIR)
+-	$(INSTALL_BIN) lprm $(BINDIR)
++	$(INSTALL_BIN) lpq $(BINDIR)/lpq_cups
++	$(INSTALL_BIN) lpr $(BINDIR)/lpr_cups
++	$(INSTALL_BIN) lprm $(BINDIR)/lprm_cups
+ 	$(INSTALL_DIR) $(SBINDIR)
+-	$(INSTALL_BIN) lpc $(SBINDIR)
++	$(INSTALL_BIN) lpc $(SBINDIR)/lpc_cups
+ 
+ 
+ #
+diff -ur cups-1.1.21-orig/systemv/Makefile cups-1.1.21/systemv/Makefile
+--- cups-1.1.21-orig/systemv/Makefile	2004-08-11 16:10:22.000000000 +0200
++++ cups-1.1.21/systemv/Makefile	2004-09-26 18:04:45.904584176 +0200
+@@ -60,23 +60,21 @@
+ 
+ install:	all
+ 	$(INSTALL_DIR) $(SBINDIR)
+-	$(INSTALL_BIN) accept $(SBINDIR)
+-	$(RM) $(SBINDIR)/reject
+-	$(LN) accept $(SBINDIR)/reject
++	$(INSTALL_BIN) accept $(SBINDIR)/accept_cups
++	$(LN) accept $(SBINDIR)/reject_cups
+ 	$(INSTALL_BIN) cupsaddsmb $(SBINDIR)
+ 	$(INSTALL_BIN) lpadmin $(SBINDIR)
+ 	$(INSTALL_BIN) lpinfo $(SBINDIR)
+ 	$(INSTALL_BIN) lpmove $(SBINDIR)
+ 	$(INSTALL_DIR) $(BINDIR)
+-	$(INSTALL_BIN) cancel $(BINDIR)
++	$(INSTALL_BIN) cancel $(BINDIR)/cancel_cups
+ 	$(INSTALL_BIN) cupstestppd $(BINDIR)
+-	$(RM) $(BINDIR)/disable
+-	$(LN) ../sbin/accept $(BINDIR)/disable
++	$(LN) ../sbin/accept $(BINDIR)/disable_cups
+ 	$(RM) $(BINDIR)/enable
+-	$(LN) ../sbin/accept $(BINDIR)/enable
+-	$(INSTALL_BIN) lp $(BINDIR)
++	$(LN) ../sbin/accept $(BINDIR)/enable_cups
++	$(INSTALL_BIN) lp $(BINDIR)/lp_cups
+ 	$(INSTALL_BIN) lpoptions $(BINDIR)
+-	$(INSTALL_BIN) lpstat $(BINDIR)
++	$(INSTALL_BIN) lpstat $(BINDIR)/lpstat_cups
+ 	-$(INSTALL_BIN) -m 4755 -o $(CUPS_USER) -g $(CUPS_GROUP) lppasswd $(BINDIR)
+ 	if test ! -x $(BINDIR)/lppasswd; then \
+ 		chmod 755 $(BINDIR)/lppasswd; \

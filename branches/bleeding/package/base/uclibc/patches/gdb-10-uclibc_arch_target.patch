@@ -1,0 +1,14 @@
+--- gdb-5.3/bfd/configure	2002-08-28 05:38:44.000000000 -0500
++++ gdb-5.3-new/bfd/configure	2004-01-11 06:27:15.000000000 -0600
+@@ -1677,6 +1677,11 @@
+   lt_cv_file_magic_test_file=`echo /lib/libc.so* /lib/libc-*.so`
+   ;;
+ 
++linux-uclibc*)
++  lt_cv_deplibs_check_method=pass_all
++  lt_cv_file_magic_test_file=`echo /lib/libuClibc-*.so`
++  ;;
++
+ netbsd* | knetbsd*-gnu)
+   if echo __ELF__ | $CC -E - | grep __ELF__ > /dev/null; then
+     lt_cv_deplibs_check_method='match_pattern /lib[^/\.]+\.so\.[0-9]+\.[0-9]+$'

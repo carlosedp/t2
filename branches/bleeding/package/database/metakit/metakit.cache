@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087426385 Thu Jun 17 00:53:05 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-metakit.log 9-metakit.log
+
+[BUILDTIME] 5624 (9)
+[SIZE] 1.13 MB, 124 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils diffutils file
+[DEP] findutils gcc glibc grep linux-header make mktemp net-tools
+[DEP] sed sysfiles tar util-linux
+

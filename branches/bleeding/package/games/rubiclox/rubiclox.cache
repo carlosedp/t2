@@ -1,0 +1,13 @@
+
+[TIMESTAMP] 1087441557 Thu Jun 17 05:05:57 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-rubiclox.log 9-rubiclox.log
+
+[BUILDTIME] 2100 (9)
+[SIZE] 0.08 MB, 14 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils findutils gcc
+[DEP] glibc grep make sed sysfiles tar xorg
+

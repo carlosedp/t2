@@ -1,0 +1,31 @@
+[I] OpenOffice.org Office Suite
+
+[T] OpenOffice.org is the Open Source project through which Sun
+[T] Microsystems is releasing the technology for the popular StarOffice
+[T] productivity suite. 
+
+[U] http://www.openoffice.org
+[U] http://ooo.ximian.com
+
+[A] Star
+[A] Sun Microsystems, Inc.
+[M] Juergen Sawinski <jsaw@gmx.net>
+
+[C] extra/office
+
+[L] OpenSource
+[S] Beta
+[V] 1.9-m70
+[P] O -----5---9 801.000
+
+[SRC] ooo-build
+
+[D] 3986447981 ooo-build-1.9.70.tar.gz http://ooo.ximian.com/packages/SRC680/
+
+[D] 1577861091 src680-m70-core.tar.bz2 http://ooo.ximian.com/packages/SRC680/
+[D] 268145369 ooo_custom_images-3.tar.bz2 http://ooo.ximian.com/packages/SRC680/
+[D] 3622001785 images_kde-m62-1.zip http://ooo.ximian.com/packages/SRC680/
+[D] 940978505 images_gnome-m57-1.zip http://ooo.ximian.com/packages/SRC680/
+
+#FIXME maybe it works, but until its compiles actually...
+[F] NOPARALLEL
