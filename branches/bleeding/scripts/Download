@@ -260,7 +260,7 @@ detect_mirror() {
 		if [ "$val" = "${val#ok }" -o "$val" = "ok 0.000" ] ; then
 			echo " error"
 		else
-			xval=`echo ${val#ok } | tr -d .` ; echo " $val"
+			xval=`echo ${val#ok } | tr -d .,` ; echo " $val"
 			if [ "$xval" -gt "$bestval" ] ; then
 				bestval=$xval ; mirror="${mirror_url%/}"
 				result="Using mirror <$mirror>."
@@ -324,11 +324,11 @@ download_file() {
 
 	elif [ -s "$gzfile" ] ; then
 
-		echo ; echo "Already downloaded $gzfile ..."
+		echo ; echo "Already downloaded $pkg:$gzfile ..."
 
 	else
 
-		echo ; echo "Downloading $gzfile ..."
+		echo ; echo "Downloading $pkg:$gzfile ..."
 
 		# Existing *.cksum-err
 		#
