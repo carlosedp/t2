@@ -1,0 +1,44 @@
+
+This adds some historic compatibility for -I and -y to tar. One day we should
+obsolete this ...
+
+  - Rene Rebe <rene@exactcode.de>
+
+--- tar-1.15/src/tar.c	2004-12-18 21:01:07.000000000 +0100
++++ tar-1.15-patched/src/tar.c	2004-12-22 08:27:07.469445784 +0100
+@@ -431,6 +431,10 @@
+    N_("create archive with volume name NAME. At list/extract time, use TEXT as a globbing pattern"), 68 },
+   {"bzip2", 'j', 0, 0,
+    N_("filter the archive through bzip2"), 68 },
++  {"bzip2", 'I', 0, 0,
++   N_("filter the archive through bzip2"), 68 },
++  {"bzip2", 'y', 0, 0,
++   N_("filter the archive through bzip2"), 68 },
+   {"gzip", 'z', 0, 0,
+    N_("filter the archive through gzip"), 68 },
+   {"gunzip", 0, 0, OPTION_ALIAS, NULL, 68 },
+@@ -709,11 +713,9 @@
+       break;
+       
+     case 'I':
+-      USAGE_ERROR ((0, 0,
+-		    _("Warning: the -I option is not supported;"
+-		      " perhaps you meant -j or -T?")));
++      set_use_compress_program_option ("bzip2");
+       break;
+-      
++
+     case 'j':
+       set_use_compress_program_option ("bzip2");
+       break;
+@@ -901,9 +903,7 @@
+       break;
+       
+     case 'y':
+-      USAGE_ERROR ((0, 0,
+-		    _("Warning: the -y option is not supported;"
+-		      " perhaps you meant -j?")));
++      set_use_compress_program_option ("bzip2");
+       break;
+       
+     case 'z':

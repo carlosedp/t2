@@ -1,0 +1,17 @@
+
+For some reason we do not want the example jack clients - altough right now
+I forget why :-(
+
+  - Rene Rebe <rene@exactcode.de>
+
+--- jack-audio-connection-kit-0.99.0/Makefile.in.orig	2004-09-19 16:21:17.000000000 +0200
++++ jack-audio-connection-kit-0.99.0/Makefile.in	2004-12-08 10:22:44.475392632 +0100
+@@ -226,7 +226,7 @@
+ 
+ @HAVE_DOXYGEN_FALSE@DOC_DIR = 
+ @HAVE_DOXYGEN_TRUE@DOC_DIR = doc
+-SUBDIRS = config jack libjack jackd drivers example-clients $(DOC_DIR)
++SUBDIRS = config jack libjack jackd drivers $(DOC_DIR)
+ DIST_SUBDIRS = config jack libjack jackd drivers example-clients doc
+ pkgconfigdir = $(libdir)/pkgconfig
+ pkgconfig_DATA = jack.pc

@@ -1,0 +1,16 @@
+
+Rediffed fro 2.86 (indentation change).
+
+  - Rene Rebe <reneÂ@exactcode.de>
+
+--- sysvinit-2.86/src/init.c.orig	2004-07-30 14:16:20.000000000 +0200
++++ sysvinit-2.86/src/init.c	2004-12-11 11:36:04.901749888 +0100
+@@ -93,7 +93,7 @@
+ 	"~~",
+ 	"S",
+ 	3,
+-	"/sbin/sulogin",
++	"/etc/initscript - - - /sbin/sulogin",
+ 	NULL,
+ 	NULL
+ };

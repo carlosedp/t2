@@ -1,0 +1,29 @@
+[I] SELinux documentation
+
+[T] Security-enhanced Linux is a patch of the Linux® kernel and a number
+[T] of utilities with enhanced security functionality designed to add
+[T] mandatory access controls to Linux.  The Security-enhanced Linux
+[T] kernel contains new architectural components originally developed to
+[T] improve the security of the Flask operating system. These
+[T] architectural components provide general support for the enforcement
+[T] of many kinds of mandatory access control policies, including those
+[T] based on the concepts of Type Enforcement®, Role-based Access Control,
+[T] and Multi-level Security.
+[T] This package contains build instructions, porting information, and a
+[T] CREDITS file for SELinux.  Some of these files will be split up into
+[T] per-package files in the future, and other documentation will be added
+[T] to this package (e.g. an updated form of the Configuring the SELinux
+[T] Policy report).
+
+[A] NSA SElinux Team
+[M] Miguel Bolanos <mike@hsol.net>
+
+[C] extra/security
+
+[L] GPL
+[S] Stable
+[V] 1.14
+[P] O -----5---9 811.006
+
+[D] 1540122709 selinux-doc-1.14.tgz http://www.nsa.gov/selinux/archives/
+

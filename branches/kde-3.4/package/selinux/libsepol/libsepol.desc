@@ -1,0 +1,29 @@
+[I] SELinux binary policy manipulation library
+
+[T] Security-enhanced Linux is a patch of the Linux® kernel and a number
+[T] of utilities with enhanced security functionality designed to add
+[T] mandatory access controls to Linux.  The Security-enhanced Linux
+[T] kernel contains new architectural components originally developed to
+[T] improve the security of the Flask operating system. These
+[T] architectural components provide general support for the enforcement
+[T] of many kinds of mandatory access control policies, including those
+[T] based on the concepts of Type Enforcement®, Role-based Access
+[T] Control, and Multi-level Security.
+[T] libsepol provides an API for the manipulation of SELinux binary policies.
+[T] It is used by checkpolicy (the policy compiler) and similar tools, as well
+[T] as by programs like load_policy that need to perform specific 
+[T] transformations on binary policies such as customizing policy boolean 
+[T] settings.
+
+[A] NSA SElinux Team
+[M] Miguel Bolanos <mike@hsol.net>
+
+[C] extra/security
+
+[L] GPL
+[S] Stable
+[V] 1.2
+[P] O -----5---9 811.001
+
+[D] 2287166132 libsepol-1.2.tgz http://www.nsa.gov/selinux/archives/
+

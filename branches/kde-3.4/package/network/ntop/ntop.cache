@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1104991501 Thu Jan  6 07:05:01 2005
+[CONFIG-ID] 2.1.0-beta3-powerpc-powerpc-750-desktop-expert
+[ROCKVER] 2.1.0-beta3
+
+[LOGS] 9-ntop.log
+
+[BUILDTIME] 42983 (9)
+[SIZE] 5.60 MB, 415 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils diffutils expat
+[DEP] findutils freetype gawk gcc gdbm glibc grep groff libgd libjpeg
+[DEP] libpcap libpng libtool libxml linux-header make mktemp net-tools
+[DEP] openssl pam sed sysfiles tar tcp_wrappers util-linux xorg zlib
+

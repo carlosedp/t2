@@ -1,0 +1,11 @@
+--- ./src/Makefile.orig	2004-12-28 16:32:07.000000000 -0300
++++ ./src/Makefile	2004-12-28 16:43:03.000000000 -0300
+@@ -15,7 +15,7 @@
+ 
+ # For some known distributions we do not build all programs, otherwise we do.
+ BIN	=
+-SBIN	= init halt shutdown runlevel killall5
++SBIN	= halt shutdown killall5
+ USRBIN	= last mesg
+ 
+ MAN1	= last.1 lastb.1 mesg.1

@@ -1,0 +1,11 @@
+--- ./locate/Makefile.in.orig	2004-12-06 22:41:00.127123288 -0600
++++ ./locate/Makefile.in	2004-12-06 22:41:32.304231624 -0600
+@@ -285,7 +285,7 @@
+ 
+ # The default database to build and search.
+ AUTOMAKE_OPTIONS = std-options
+-LOCATE_DB = $(localstatedir)/locatedb
++LOCATE_DB = /var/state/locatedb
+ localedir = $(datadir)/locale
+ AM_INSTALLCHECK_STD_OPTIONS_EXEMPT = frcode code bigram
+ bin_SCRIPTS = updatedb

@@ -1,0 +1,28 @@
+diff -dur rivatv-0.8.5/Makefile.in rivatv-0.8.5-patch/Makefile.in
+--- rivatv-0.8.5/Makefile.in	2004-03-15 21:21:17.000000000 +0100
++++ rivatv-0.8.5-patch/Makefile.in	2004-06-18 09:31:53.000000000 +0200
+@@ -100,7 +100,7 @@
+ 	  else \
+ 	    install -m 644 -o 0 -g 0 $$ofiles $(MODULES)$(MOD_DEST); \
+ 	  fi; \
+-	  $(DEPMOD); \
++	  \
+ 	  echo; \
+ 	  echo "RivaTV installed."; \
+ 	  echo "To load RivaTV, login as root and \`modprobe rivatv\`."; \
+@@ -108,12 +108,12 @@
+ 	fi
+ 
+ install-ko:
+-	install -m 644 -o 0 -g 0 $(TARGETS:.o=.ko) $(MODULES)$(MOD_DEST); \
+-	$(DEPMOD);
++	install -m 644 -o 0 -g 0 $(TARGETS:.o=.ko) $(MODULES)$(MOD_DEST); 
++
+ 
+ uninstall:
+ 	@(cd $(MODULES)$(MOD_DEST) && rm -f $(SOURCES:src/%.c=%.o) $(BTTV_SOURCES:bttv/%.c=%.o) rivatv.o)
+-	@$(DEPMOD)
++
+ 	@echo
+ 	@echo RivaTV uninstalled.
+ 	@echo

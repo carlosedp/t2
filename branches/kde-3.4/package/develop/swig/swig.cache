@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087242324 Mon Jun 14 21:45:24 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-swig.log 9-swig.log
+
+[BUILDTIME] 9891 (9)
+[SIZE] 2.44 MB, 202 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils diffutils findutils
+[DEP] gawk gcc glibc grep guile linux-header make mktemp mono
+[DEP] net-tools numpy ocaml perl php python ruby sed sysfiles tar tcltk
+[DEP] util-linux xorg
+
