@@ -1,0 +1,11 @@
+--- pcsc-lite-1.2.9-beta6/etc/Makefile.in~	2004-08-15 18:46:16.000000000 +0200
++++ pcsc-lite-1.2.9-beta6/etc/Makefile.in	2004-11-08 17:24:08.333173168 +0100
+@@ -164,7 +164,7 @@
+ target_alias = @target_alias@
+ usbdropdir = @usbdropdir@
+ 
+-sysconf_DATA = reader.conf
++sysconf_DATA = 
+ 
+ EXTRA_DIST = StartupParameters.plist SmartcardServices
+ subdir = etc

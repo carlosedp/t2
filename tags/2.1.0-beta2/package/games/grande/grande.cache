@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087439976 Thu Jun 17 04:39:36 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-grande.log 9-grande.log
+
+[BUILDTIME] 2815 (9)
+[SIZE] 0.56 MB, 77 files
+
+[DEP] 00-dirtree autoconf automake bash binutils bzip2 ccache coreutils
+[DEP] diffutils findutils gcc glibc grep libkxl linux-header make
+[DEP] mktemp net-tools perl sed sysfiles tar texinfo xorg
+

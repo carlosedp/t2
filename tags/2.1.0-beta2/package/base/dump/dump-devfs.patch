@@ -1,0 +1,17 @@
+
+--- ./compat/include/pathnames.h.orig	2003-10-26 17:05:46.000000000 +0100
++++ ./compat/include/pathnames.h	2004-12-21 16:03:13.700942720 +0100
+@@ -47,11 +47,11 @@
+ 
+ #ifndef _PATH_DEFTAPE
+ #ifdef __linux__
+-#define	_PATH_DEFTAPE	"/dev/st0"
++#define	_PATH_DEFTAPE	"/dev/tape/tape0"
+ #endif
+ #ifdef sunos
+ #define	_PATH_DEFTAPE	"/dev/rmt/0"
+ #endif
+ #endif
+ 
+-#define	_PATH_RMT	"/etc/rmt"		/* path on remote host */
++#define	_PATH_RMT	"/sbin/rmt"		/* path on remote host */

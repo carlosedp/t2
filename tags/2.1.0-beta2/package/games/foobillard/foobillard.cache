@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087437092 Thu Jun 17 03:51:32 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-foobillard.log 9-foobillard.log
+
+[BUILDTIME] 4438 (9)
+[SIZE] 1.29 MB, 49 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile bash binutils bzip2 ccache coreutils
+[DEP] diffutils esound findutils freetype gcc glib glibc grep libpng
+[DEP] libsdl linux-header make mktemp nas net-tools sed sysfiles tar
+[DEP] util-linux xorg zlib
+

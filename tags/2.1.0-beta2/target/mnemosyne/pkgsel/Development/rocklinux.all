@@ -1,0 +1,19 @@
+X m4
+
+X diffutils
+X patch
+X patchutils
+X file
+
+X libxml
+X neon
+X subversion
+
+X cvs
+X tla
+
+X lsof
+X dump
+X cdrtools
+
+X rock-src

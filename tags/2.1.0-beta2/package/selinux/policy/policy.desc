@@ -1,0 +1,27 @@
+[I] SELinux policy configurations
+
+[T] Security-enhanced Linux is a patch of the Linux® kernel and a number
+[T] of utilities with enhanced security functionality designed to add
+[T] mandatory access controls to Linux.  The Security-enhanced Linux
+[T] kernel contains new architectural components originally developed to
+[T] improve the security of the Flask operating system. These
+[T] architectural components provide general support for the enforcement
+[T] of many kinds of mandatory access control policies, including those
+[T] based on the concepts of Type Enforcement®, Role-based Access
+[T] Control, and Multi-level Security.
+[T] This package contains the SELinux example policy configuration along
+[T] with the Flask configuration information and the application
+[T] configuration files.  
+
+[A] NSA SElinux Team
+[M] Miguel Bolanos <mike@hsol.net>
+
+[C] extra/security
+
+[L] GPL
+[S] Stable
+[V] 1.18
+[P] O -----5---9 855.005
+
+[D] 486504219 policy-1.18.tgz http://www.nsa.gov/selinux/archives/
+

@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087440321 Thu Jun 17 04:45:21 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-lpairs.log 9-lpairs.log
+
+[BUILDTIME] 2452 (9)
+[SIZE] 0.95 MB, 48 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile autoconf automake bash binutils bzip2
+[DEP] ccache coreutils diffutils esound findutils gcc glib glibc grep
+[DEP] libsdl make mktemp nas net-tools perl sed sysfiles tar texinfo
+[DEP] xorg
+
