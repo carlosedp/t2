@@ -1,0 +1,7 @@
+for x in * ; do
+#	for y in $x/$x.* ; do
+#		svn mv $y `echo $y | \
+#			sed 's,\([^/]*\)/\([a-z_-]*\)[0-9]*.\([a-z_-]*\),\1/\2.\3,'`
+#	done
+	svn mv $x ${x/[0-9]*/}
+done
