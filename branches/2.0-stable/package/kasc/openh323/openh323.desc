@@ -58,8 +58,8 @@
 [V] 1.6.3 1.13.2
 [P] X -----5---9 853.000
 
+[SRC] .
+
 [D] 799935628 pwlib-1.6.3.tar.gz http://www.gnomemeeting.org/admin/downloads/latest/sources/sources/
 [D] 1864871504 openh323-1.13.2.tar.gz http://www.gnomemeeting.org/admin/downloads/latest/sources/sources/
-
-[SRC] pwlib openh323
 
