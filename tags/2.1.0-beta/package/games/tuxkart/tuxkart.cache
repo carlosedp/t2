@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087447543 Thu Jun 17 06:45:43 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-tuxkart.log 9-tuxkart.log
+
+[BUILDTIME] 5309 (9)
+[SIZE] 9.50 MB, 255 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils diffutils findutils
+[DEP] gawk gcc glibc grep joystick linux-header make mktemp nas
+[DEP] net-tools patch plib sed sysfiles tar util-linux xorg
+

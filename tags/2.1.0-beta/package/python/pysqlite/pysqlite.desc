@@ -1,0 +1,24 @@
+[I] PySQLite: Python DB-API 2.0 Compliant Interface Module for SQLite.  
+
+[T] PySQLite makes the SQLite database engine available to Python developers 
+[T] via the Python Database API Specification 2.0. The ambition is to expose 
+[T] all of SQLite's functionality in a pythonic way, and to offer additional 
+[T] ease-of-use features. 
+
+[U] http://pysqlite.sourceforge.net
+
+[A] Michael Owens
+[A] Gerhard Häring 
+[M] Christian Wiese <packages@t2.ixplanet.de>
+
+[C] extra/development
+
+[E] python 
+
+[L] OpenSource 
+
+[S] Stable
+[V] 1.1.3 
+[P] X -----5---9 132.400
+
+[D] 804213530 pysqlite-1.1.3.tar.gz http://dl.sourceforge.net/pysqlite/

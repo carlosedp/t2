@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087431687 Thu Jun 17 02:21:27 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-libsdl_ttf.log 9-libsdl_ttf.log
+
+[BUILDTIME] 2863 (9)
+[SIZE] 0.72 MB, 21 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile autoconf automake bash binutils
+[DEP] bzip2 ccache coreutils diffutils esound findutils freetype gcc
+[DEP] glib glibc grep libsdl linux-header make mktemp nas net-tools
+[DEP] perl sed sysfiles tar texinfo xorg zlib
+

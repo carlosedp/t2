@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1100473459 Mon Nov 15 00:04:19 2004
+[CONFIG-ID] 2.1.0-beta-x86-pentium-mmx-32-desktop
+[ROCKVER] 2.1.0-beta
+
+[LOGS] 5-liblrdf.log
+
+[BUILDTIME] 2439 (5)
+[SIZE] 0.11 MB, 24 files
+
+[DEP] 00-dirtree bash binutils bzip2 coreutils curl diffutils findutils
+[DEP] gcc glib glibc grep ladspa libxml linux-header make mktemp openssl
+[DEP] pkgconfig raptor sed sysfiles tar util-linux zlib
+

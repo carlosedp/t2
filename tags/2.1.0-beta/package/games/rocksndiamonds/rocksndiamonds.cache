@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087441513 Thu Jun 17 05:05:13 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-rocksndiamonds.log 9-rocksndiamonds.log
+
+[BUILDTIME] 7389 (9)
+[SIZE] 20.91 MB, 3546 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile bash binutils bzip2 ccache coreutils
+[DEP] esound findutils gawk gcc glib glibc grep libjpeg libpng libsdl
+[DEP] libsdl_image libsdl_mixer linux-header make nas libvorbis sed
+[DEP] smpeg sysfiles tar xorg
+
