@@ -31,7 +31,7 @@
 			pkgenable termutils
 		fi
 	else
-		pkdisable termcap termutils
+		pkgdisable termcap termutils
 		ROCKCFG_PKG_TERMCAP_USETERMUTILS=0
 	fi
     menu_end
