@@ -20,10 +20,10 @@
 # 
 # --- ROCK-COPYRIGHT-NOTE-END ---
 
-if pkgcheck kdelibs31 X ; then
- 	menu_begin MENU_PKG_KDE31 'KDE 3.1 Package Options'
-		text 'Install prefix for KDE 3.1 Packages' \
-			ROCKCFG_PKG_KDE31_CORE_PREFIX "opt/kde31"
+if pkgcheck kdelibs X ; then
+ 	menu_begin MENU_PKG_KDE31 'KDE 3.2 Package Options'
+		text 'Install prefix for KDE 3.2 Packages' \
+			ROCKCFG_PKG_KDE32_CORE_PREFIX "opt/kde32"
 	menu_end
 fi
 
