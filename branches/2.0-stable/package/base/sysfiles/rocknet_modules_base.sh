@@ -30,6 +30,7 @@ public_interface() {
 		for x in $prof; do
 			[ "$x" = "$profile" ] && ignore=0
 		done
+		[ "$ignore" = 0 ] && pmatched=1
 	fi
 
 	if [ "$ignore" = 0 ]; then
@@ -41,6 +42,13 @@ public_interface() {
 		else
 			[ "$if" = "$interface" ] || ignore=1
 		fi
+	fi
+
+	if [ "$ignore" = 0 ] ; then
+		imatched=1
+		status "Interface / profile matched: $if($prof)"
+		addcode up 9 9 "register $if\($prof\)"
+		addcode down 9 9 "unregister $if\($prof\)"
 	fi
 }
 
