@@ -1,0 +1,54 @@
+
+The usual problematic code cought by gcc >= 3.4.x
+
+  - Rene Rebe <rene@exactcode.de>
+
+--- ./mng.c.orig	2004-05-14 11:27:46.980807688 +0200
++++ ./mng.c	2004-09-25 12:39:35.849095864 +0200
+@@ -43,7 +43,7 @@
+ 	mng_uint32	delay;     /* ticks to wait before resuming decode */
+ } mngstuff;
+ 
+-void mng_window_setup __P((mngstuff *mymng, int x, int y, int width, int height));
++int mng_window_setup __P((mngstuff *mymng, int x, int y, int width, int height));
+ 
+ /* callbacks for the mng decoder */
+ 
+@@ -218,7 +218,7 @@
+ 	mymng = (mngstuff*)mng_get_userdata(mng);
+ 
+ 	/* pull out the chuck type as a string */
+-	// FIXME: does this assume unsigned char?
++	/* FIXME: does this assume unsigned char? */
+ 	chunk[0] = (char)((chunktype >> 24) & 0xFF);
+ 	chunk[1] = (char)((chunktype >> 16) & 0xFF);
+ 	chunk[2] = (char)((chunktype >>  8) & 0xFF);
+@@ -319,7 +319,7 @@
+ 	}
+ }
+ 
+-void 
++int
+ mng_window_setup(mymng, x, y, width, height)
+ 	mngstuff	*mymng;
+ 	int x, y;
+--- ./scanner.l.orig	2004-05-14 11:25:56.259639864 +0200
++++ ./scanner.l	2004-05-14 11:26:57.899269216 +0200
+@@ -59,7 +59,7 @@
+ #include "tokdefs.h"
+ 
+ static int stoi __P((char *));
+-static inline int xdtoi __P((int));
++static int xdtoi __P((int));
+ 
+ #ifdef FLEX_SCANNER
+ #define YY_NO_UNPUT
+@@ -202,7 +202,7 @@
+ }
+ 
+ /* Hex digit to integer. */
+-static inline int
++static int
+ xdtoi(c)
+ 	register int c;
+ {

@@ -1,0 +1,23 @@
+
+Well, after fixing user-space apps here and there it became too annoying
+and counter productive, since nowadays user-space expect full "i386 style",
+linux mapping anyways. So let's correct the alt and altgr mapping in the
+kernel in the first place.
+
+  - Rene Rebe <rene@exactcode.de>
+
+--- ./drivers/macintosh/adbhid.c.orig	2004-10-18 23:55:36.000000000 +0200
++++ ./drivers/macintosh/adbhid.c	2004-10-19 18:58:36.972070126 +0200
+@@ -130,10 +130,10 @@
+ 	/* 0x34 */ KEY_KPENTER,		/*  96 */
+ 	/* 0x35 */ KEY_ESC,		/*   1 */
+ 	/* 0x36 */ KEY_LEFTCTRL,	/*  29 */
+-	/* 0x37 */ KEY_LEFTMETA,	/* 125 */
++	/* 0x37 */ KEY_LEFTALT,		/* 125 */
+ 	/* 0x38 */ KEY_LEFTSHIFT,	/*  42 */
+ 	/* 0x39 */ KEY_CAPSLOCK,	/*  58 */
+-	/* 0x3a */ KEY_LEFTALT,		/*  56 */
++	/* 0x3a */ KEY_RIGHTALT,	/*  56 */
+ 	/* 0x3b */ KEY_LEFT,		/* 105 */
+ 	/* 0x3c */ KEY_RIGHT,		/* 106 */
+ 	/* 0x3d */ KEY_DOWN,		/* 108 */

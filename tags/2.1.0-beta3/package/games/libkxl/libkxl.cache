@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087434567 Thu Jun 17 03:09:27 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-libkxl.log 9-libkxl.log
+
+[BUILDTIME] 2901 (9)
+[SIZE] 0.27 MB, 79 files
+
+[DEP] 00-dirtree autoconf automake bash binutils bzip2 ccache coreutils
+[DEP] diffutils findutils gcc glibc grep linux-header make mktemp
+[DEP] net-tools perl sed sysfiles tar texinfo xorg
+

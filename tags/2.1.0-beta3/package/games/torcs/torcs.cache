@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087447361 Thu Jun 17 06:42:41 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-torcs.log 9-torcs.log
+
+[BUILDTIME] 19441 (9)
+[SIZE] 25.67 MB, 985 files
+
+[DEP] 00-dirtree autoconf automake bash binutils bzip2 ccache coreutils
+[DEP] diffutils findutils gawk gcc glibc glut grep libpng linux-header
+[DEP] make mktemp net-tools perl plib sed sysfiles tar texinfo xorg
+[DEP] zlib
+

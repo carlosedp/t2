@@ -1,0 +1,22 @@
+[I] Security-Enhanced Linux Analysis Tools
+
+[T] Security-Enhanced Linux Analysis Tools (slat) provide a systematic way
+[T] to determine if security goals are achieved by a given SELinux policy
+[T] configuration.  In particular, slat is concerned with information flow
+[T] security goals, which describe desired paths by which information
+[T] moves throughout a system.  We provide a simple syntax in which to
+[T] express these goals, and tools that check a policy configuration
+[T] against the goals.
+
+[A] The MITRE Corporation
+[M] Miguel Bolanos <mike@hsol.net>
+
+[C] extra/security
+
+[L] GPL
+[S] Stable
+[V] 1.2.2
+[P] O -----5---9 811.008
+
+[D] 2800781261 slat-1.2.2.tgz http://www.nsa.gov/selinux/archives/
+

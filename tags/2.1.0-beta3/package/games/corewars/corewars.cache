@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087435586 Thu Jun 17 03:26:26 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-corewars.log 9-corewars.log
+
+[BUILDTIME] 4795 (9)
+[SIZE] 0.35 MB, 113 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils diffutils findutils
+[DEP] flex gcc glib12 glibc grep gtk+12 linux-header m4 make mktemp
+[DEP] net-tools sed sysfiles tar util-linux xorg
+

@@ -1,0 +1,69 @@
+Do not install the bfd and obcode libraries and/or other files -
+the binutils package supplies them.
+
+  - Clifford Wolf & Rene Rebe
+  - rediffed for gdb 6.3 by valentin
+
+--- ./bfd/Makefile.in.orig	2004-11-15 00:45:38.277963424 +0100
++++ ./bfd/Makefile.in	2004-11-15 00:46:44.633875792 +0100
+@@ -253,7 +253,7 @@
+ INCDIR = $(srcdir)/../include
+ CSEARCH = -I. -I$(srcdir) -I$(INCDIR)
+ MKDEP = gcc -MM
+-SUBDIRS = doc po
++SUBDIRS = doc
+ docdir = doc
+ bfdlib_LTLIBRARIES = libbfd.la
+ AM_CFLAGS = $(WARN_CFLAGS)
+@@ -1122,7 +1122,7 @@
+ 	for dir in "$(DESTDIR)$(bfdlibdir)"; do \
+ 	  test -z "$$dir" || $(mkdir_p) "$$dir"; \
+ 	done
+-install: install-recursive
++install:
+ install-exec: install-exec-recursive
+ install-data: install-data-recursive
+ uninstall: uninstall-recursive
+--- ./etc/Makefile.in.orig	2004-11-15 00:46:56.532066992 +0100
++++ ./etc/Makefile.in	2004-11-15 00:48:00.646320144 +0100
+@@ -54,7 +54,7 @@
+ all:
+ 
+ # We want install to imply install-info as per GNU standards.
+-install: install-info
++install:
+ 
+ uninstall:
+ 
+--- ./opcodes/Makefile.in.orig	2004-11-15 00:48:33.827275872 +0100
++++ ./opcodes/Makefile.in	2004-11-15 00:49:33.870147968 +0100
+@@ -230,7 +230,7 @@
+ target_os = @target_os@
+ target_vendor = @target_vendor@
+ AUTOMAKE_OPTIONS = 1.9 cygnus
+-SUBDIRS = po
++SUBDIRS =
+ INCDIR = $(srcdir)/../include
+ BFDDIR = $(srcdir)/../bfd
+ MKDEP = gcc -MM
+@@ -778,7 +778,7 @@
+ 	for dir in "$(DESTDIR)$(bfdlibdir)"; do \
+ 	  test -z "$$dir" || $(mkdir_p) "$$dir"; \
+ 	done
+-install: install-recursive
++install:
+ install-exec: install-exec-recursive
+ install-data: install-data-recursive
+ uninstall: uninstall-recursive
+--- ./libiberty/Makefile.in.orig	2004-11-15 00:50:57.418446696 +0100
++++ ./libiberty/Makefile.in	2004-11-15 00:51:47.907771152 +0100
+@@ -268,7 +268,8 @@
+ @MAINT@	echo stamp > stamp-functions
+ 
+ INSTALL_DEST = @INSTALL_DEST@
+-install: install_to_$(INSTALL_DEST) install-subdir
++install:
++#install: install_to_$(INSTALL_DEST) install-subdir
+ 
+ install_to_libdir: all
+ 	${mkinstalldirs} $(DESTDIR)$(libdir)$(MULTISUBDIR)

@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087284412 Tue Jun 15 09:26:52 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-directfb.log 9-directfb.log
+
+[BUILDTIME] 14391 (9)
+[SIZE] 2.61 MB, 378 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile autoconf bash binutils bzip2 ccache
+[DEP] coreutils diffutils esound findutils freetype gcc glib glibc
+[DEP] grep libjpeg libpng libsdl linux-header make man mktemp net-tools
+[DEP] patch perl sed sysfiles tar texinfo util-linux zlib
+

@@ -1,0 +1,19 @@
+
+[I] XMMS output plugin to use Jack
+
+[T] XMMS output plugin utilizing the low-latency audio server Jack.
+
+[U] http://xmms-jack.sf.net/
+
+[A] Chris Morgan <cmorgan@alum.wpi.edu>
+[M] Rene Rebe <rene@exactcode.de>
+
+[C] extra/multimedia
+
+[L] GPL
+[S] Beta
+[V] 0.11
+[P] X -----5---9 195.200
+
+[D] 2187956602 xmms-jack-0.11.tar.gz http://dl.sourceforge.net/sourceforge/xmms-jack/
+

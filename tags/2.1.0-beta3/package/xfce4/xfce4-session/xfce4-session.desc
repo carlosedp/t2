@@ -1,0 +1,19 @@
+[I] Session manager for the XFce Desktop Environment
+
+[T] XFce's session manager allows you to restore your desktop the way you left
+[T] it.
+
+[U] http://www.xfce.org/
+
+[A] Jasper Huijsmans <huysmans@users.sourceforge.net>
+[M] Dimitar Zhekov <jimmy@is-vn.bg>
+
+[C] extra/desktop/xfce
+
+[L] GPL
+[S] Stable
+[V] 4.2.0
+[P] X -----5---9 800.000
+
+[D] 224309942 xfce4-session-4.2.0.tar.gz http://www.us.xfce.org/archive/xfce-4.2.0/src/
+

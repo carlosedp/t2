@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087448731 Thu Jun 17 07:05:31 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-dfbsee.log 9-dfbsee.log
+
+[BUILDTIME] 2371 (9)
+[SIZE] 0.15 MB, 17 files
+
+[DEP] 00-dirtree autoconf bash binutils bzip2 ccache coreutils diffutils
+[DEP] directfb findutils gcc glibc grep linux-header make mktemp
+[DEP] net-tools perl pkgconfig sed sysfiles tar texinfo
+

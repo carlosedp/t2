@@ -1,0 +1,20 @@
+
+[TIMESTAMP] 1087434523 Thu Jun 17 03:08:43 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-gnomemeeting.log 9-gnomemeeting.log
+
+[BUILDTIME] 24200 (9)
+[SIZE] 6.39 MB, 103 files
+
+[DEP] 00-dirtree alsa-lib arts atk audiofile autoconf bash binutils bzip2
+[DEP] ccache coreutils cyrus-sasl diffutils docbookx esound expat file
+[DEP] findutils freetype  gawk gcc gconf gconf-editor gdbm gettext
+[DEP] glib glibc gnome-keyring gnome-vfs gok gpdf grep gtk+ libart_lgpl23
+[DEP] libbonobo libbonoboui libglade libgnome libgnomecanvas libgnomeui
+[DEP] libjpeg libsdl libxml linux-header make mktemp nas net-tools
+[DEP] openh323 openldap openssl orbit2 pango perl-libxml1 perl-xml-parser
+[DEP] perl pkgconfig popt rep-gtk scrollkeeper sed sysfiles tar texinfo
+[DEP] util-linux xorg zlib
+

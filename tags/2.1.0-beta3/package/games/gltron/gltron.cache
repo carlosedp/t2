@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087437769 Thu Jun 17 04:02:49 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-gltron.log 9-gltron.log
+
+[BUILDTIME] 6689 (9)
+[SIZE] 2.50 MB, 69 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile bash binutils bzip2 ccache coreutils
+[DEP] diffutils esound findutils flac gcc glib glibc grep libmikmod
+[DEP] libpng libsdl libsdl_sound linux-header make mktemp nas net-tools
+[DEP] libvorbis sed smpeg sysfiles tar util-linux xorg zlib
+
