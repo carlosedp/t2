@@ -96,19 +96,23 @@
  hr_HR/ISO-8859-2 \
  hu_HU/ISO-8859-2 \
  id_ID/ISO-8859-1 \
-@@ -116,7 +124,7 @@
+@@ -116,10 +124,10 @@
  lv_LV/ISO-8859-13 \
  mi_NZ/ISO-8859-13 \
  mk_MK/ISO-8859-5 \
+ ml_IN/UTF-8 \
+ mn_MN/UTF-8 \
 -mr_IN/UTF-8 \
 +mr_IN.UTF-8/UTF-8 \
  ms_MY/ISO-8859-1 \
  mt_MT/ISO-8859-3 \
+ ne_NP/UTF-8 \
  nl_BE/ISO-8859-1 \
-@@ -163,3 +171,96 @@
+@@ -163,4 +171,97 @@
  zh_HK/BIG5-HKSCS \
  zh_TW/BIG5 \
  zh_TW.EUC-TW/EUC-TW \
+ zu_ZA/ISO-8859-1 \
 +da_DK.ISO-8859-15/ISO-8859-15 \
 +en_GB.ISO-8859-15/ISO-8859-15 \
 +en_US.ISO-8859-15/ISO-8859-15 \
