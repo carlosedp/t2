@@ -1,4 +1,15 @@
 
+*) 2003-11-14 (merged from trunk)
+
+ - fixed postflist_static_lib to also copy sym-links (e.g. if they dead links)
+   (r1746)
+ - fixed stage-9 horror by removing dstructive code from readline.conf (r1723)
+ - fixed ncurses in stage 9 (some more one-step-install.patch stuff) (r1729)
+ - Michael Obster: fixed compilation of xfsprogs (r1690)
+ - fixed screen's va_list useage (again - only visible on non-x86 system)
+   (r1766)
+ - Mine/gasgui "Full install" fix (bug reported by daja77) (parts of r1715)
+
 *) 2003-10-18 (2.0.0-rc2 - 2.0.0-rc3)
 
  - Alan Wylie: updated fetchmail
