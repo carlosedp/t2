@@ -1,0 +1,31 @@
+[I] A KDE theme engine
+
+[T] This style is modified from keramik as follows:
+[T] 
+[T]  * Flat Menubar and Toolbar.
+[T]  * Scrollbar-slider color.(= Window-InactiveBackground)
+[T]  * Thin push-buttons and scrollbar.
+[T]  * Selected menu-Item effect.
+[T]  * Active menubar-Item effect.
+[T]  * Pixmaps of tabs.
+[T]  * Active tab effect.
+[T]  * Striped menu.
+[T]  * Smooth kicker.
+[T]  * Menu background image.
+
+[U] http://www.kde-look.org/content/show.php?content=10919
+
+[A] Arumi Kitajima <prefsx1@yahoo.co.jp>
+[M] Chris Efant <rock@sirkull.org>
+
+[C] extra/theme extra/desktop/kde
+
+[L] GPL
+[S] Stable
+[V] 3.2.1
+[P] X -----5---9 168.200
+
+[D] 3169338602 thinkeramik-3.2.1.tar.gz http://prefsx1.hp.infoseek.co.jp/tk040429/
+
+[O] . $base/package/*/*/kde-32.conf
+
