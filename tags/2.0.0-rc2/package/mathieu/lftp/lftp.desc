@@ -31,14 +31,14 @@
 [U] http://lftp.yar.ru/
 
 [A] Alexander V. Lukyanov <lav@yars.free.net>
-[M] Mathieu <tenfingers@ifrance.com>
+[M] Mathieu Doidy <mdoidy@roulaize.net>
 
 [C] extra/network
 
 [L] GPL
 [S] Stable
-[V] 2.6.7
+[V] 2.6.8
 [P] X -----5---9 812.000
 
-[D] 2828063748 lftp-2.6.7.tar.gz http://ftp.yars.free.net/pub/software/unix/net/ftp/client/lftp/
+[D] 1981852968 lftp-2.6.8.tar.gz http://ftp.yars.free.net/pub/software/unix/net/ftp/client/lftp/
 

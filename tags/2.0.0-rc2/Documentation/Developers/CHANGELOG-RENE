@@ -1,4 +1,39 @@
 
+*) 2003-10-18 (2.0.0-rc2 - 2.0.0-rc3)
+
+ - Alan Wylie: updated fetchmail
+ - Mathieu Doidy: updated lftp (2.6.8) and added liferea
+ - Dimitar Zhekov: bootdisk fixes
+                   devfsd 'hardware' rewrite
+ - Chris Hamilton: pine exposing c-client.a and the possibility to modify the
+                   build type (e.g. to build with PAM support if available)
+ - pine cleanup
+
+*) 2003-10-17 (2.0.0-rc2 - 2.0.0-rc3)
+
+ - Mathieu Doidy: updates bitlbee (0.81a)
+
+*) 2003-10-07 (2.0.0-rc2 - 2.0.0-rc3)
+
+ - Dimitar Zhekov: updated gentoo file manager
+ - Benjamin Schieder: fixed ncurses
+
+*) 2003-10-06 (2.0.0-rc2 - 2.0.0-rc3)
+
+ - Mathieu Doidy: updated the [M] tags for his new mail address
+                  added mpc,mpd and gtk2m
+                  added [U] tags for doxygen
+
+*) 2003-10-05 (2.0.0-rc2 - 2.0.0-rc3)
+
+ - bumped version
+ - Mathieu: fixed typo in Build-Pkg
+            updated easytag and alsa-driver and added an init script for atd
+ - Juergen Sawinski: fixed rene/bsd-games, misc/directfb and rene/xawtv
+ - Dimitar Zhekov: kiss documentation permission fix
+                   mc syntax files permission fix
+ - fake: removed fake/libmpeg3
+
 *) 2003-10-01 (2.0.0-rc1 - 2.0.0-rc2)
 
  - fixed xjdic23 to build correclty and for random return value e.g. PowerPC
@@ -1490,7 +1525,7 @@
  - fixed typo in stone_mod_general.sh
  - compatibility symlinks for modutils not present in 2.5
  - updated nfs-utils
- - moved postinstall to a more usefull place
+ - moved postinstall to a more useful place
  - added a ROCK local.conf (the system-wide font config) to xfree86
  - reworked the lx_config to allow targets to disable modules
  - updated reiserfsprogs
@@ -1542,7 +1577,7 @@
 *) 2003-03-16 (1.5.12 - 1.7.0)
 
  - added libvte
- - fixed Build-Pkg for usefull flistdel handling
+ - fixed Build-Pkg for useful flistdel handling
  - fixed Gnome2 flistdel again
  - ported all remaining packages to the new category scheme
  - fixed some other tags (like [L]icense) on the way ...

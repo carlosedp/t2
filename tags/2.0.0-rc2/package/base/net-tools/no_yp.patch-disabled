@@ -5,7 +5,7 @@
 # the ROCK-COPYRIGHT-NOTE-END tag. Otherwise it might get removed by
 # the ./scripts/Create-CopyPatch script. Do not edit this copyright text!
 # 
-# ROCK Linux: rock-src/package/rene/xawtv/with-libz.patch
+# ROCK Linux: rock-src/package/base/net-tools/no_yp.patch
 # ROCK Linux is Copyright (C) 1998 - 2003 Clifford Wolf
 # 
 # This program is free software; you can redistribute it and/or modify
@@ -20,14 +20,21 @@
 # 
 # --- ROCK-COPYRIGHT-NOTE-END ---
 
---- ./Makefile.in.orig	Sat Dec 28 13:35:00 2002
-+++ ./Makefile.in	Mon Jan 20 12:27:53 2003
-@@ -46,7 +46,7 @@
- ALSA_LIBS	:= @LIBALSA@
- AA_LIBS		:= @AALIBS@
- QT_LIBS		:= @QTLIBS@
--VBI_LIBS	:= @LIBZVBI@ -lm -lpng
-+VBI_LIBS	:= @LIBZVBI@ -lz -lm -lpng
- GL_LIBS		:= @LIBGL@
- DV_LIBS		:= @LIBDV@
- FS_LIBS		:= -L@x_libraries@ @FSLIB@
+This disables the installation of ypdomainname, nisdomainname
+and domainname. They are in the yp* packages.
+
+  - Sebastian Jaenicke <tsa@jaenicke.org>
+
+diff -Nur net-tools-1.60.orig/Makefile net-tools-1.60/Makefile
+--- net-tools-1.60.orig/Makefile	2001-04-15 16:34:31.000000000 +0200
++++ net-tools-1.60/Makefile	2003-09-02 01:34:49.000000000 +0200
+@@ -240,9 +240,6 @@
+ 	install -m 0755 mii-tool   $(BASEDIR)/sbin
+ endif
+ 	ln -fs hostname $(BASEDIR)/bin/dnsdomainname
+-	ln -fs hostname $(BASEDIR)/bin/ypdomainname
+-	ln -fs hostname $(BASEDIR)/bin/nisdomainname
+-	ln -fs hostname $(BASEDIR)/bin/domainname
+ ifeq ($(HAVE_AFDECnet),1)
+ 	ln -fs hostname $(BASEDIR)/bin/nodename
+ endif
