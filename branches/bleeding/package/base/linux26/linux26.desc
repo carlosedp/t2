@@ -37,8 +37,11 @@
 
 [L] GPL
 [S] Stable
-[V] 2.6.10
+[V] 2.6.11-rc3
 [P] X -1---5---9 102.060
 
+[O] var_append patchfiles ' ' "`match_source_file -p patch`"
+
 [D] 3213835411 linux-2.6.10.tar.bz2 ftp://ftp.kernel.org/pub/linux/kernel/v2.6/
+[D] 489609510 patch-2.6.11-rc3.bz2 ftp://ftp.kernel.org/pub/linux/kernel/v2.6/testing/
 
