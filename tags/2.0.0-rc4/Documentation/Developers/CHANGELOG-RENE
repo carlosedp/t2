@@ -1,4 +1,9 @@
 
+*) 2004-01-01 (2.0.0-rc3 - 2.0.0-rc4) (merged from trunk)
+
+ - Valentin Ziegler: corrected flex command line options in bc configure script
+                     fixed unput define in scanner skeleton (flex.skl)
+
 *) 2003-12-20 (2.0.0-rc3 - 2.0.0-rc4)
 
  - enable apache's mod_deflate
