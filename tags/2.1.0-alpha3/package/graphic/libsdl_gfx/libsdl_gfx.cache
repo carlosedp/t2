@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087426317 Thu Jun 17 00:51:57 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-libsdl_gfx.log 9-libsdl_gfx.log
+
+[BUILDTIME] 3067 (9)
+[SIZE] 0.32 MB, 31 files
+
+[DEP] 00-dirtree alsa-lib arts audiofile autoconf bash binutils bzip2 ccache
+[DEP] coreutils diffutils esound findutils gcc glib glibc grep libsdl
+[DEP] make mktemp nas net-tools perl sed sysfiles tar texinfo xorg
+
