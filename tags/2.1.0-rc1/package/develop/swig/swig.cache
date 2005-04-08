@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1110654439 Sat Mar 12 16:07:19 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 8476 (5)
+[SIZE] 2.56 MB, 230 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] guile
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mono
+[DEP] net-tools
+[DEP] numpy
+[DEP] ocaml
+[DEP] perl
+[DEP] php
+[DEP] python
+[DEP] ruby
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] util-linux
+[DEP] wxpython
+[DEP] xorg

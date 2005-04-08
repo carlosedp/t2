@@ -1,0 +1,63 @@
+
+[TIMESTAMP] 1111216575 Sat Mar 19 03:16:15 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 14106 (5)
+[SIZE] 0.72 MB, 81 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] atk
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gconfmm
+[DEP] glib
+[DEP] glibc
+[DEP] glibmm
+[DEP] gnome-keyring
+[DEP] gnome-vfs
+[DEP] gnome-vfsmm
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkmm
+[DEP] howl
+[DEP] libart_lgpl23
+[DEP] libbonobo
+[DEP] libbonoboui
+[DEP] libglade
+[DEP] libglademm
+[DEP] libgnome
+[DEP] libgnomecanvas
+[DEP] libgnomecanvasmm
+[DEP] libgnomemm
+[DEP] libgnomeui
+[DEP] libjpeg
+[DEP] libsigc++
+[DEP] libxml
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] orbit2
+[DEP] pango
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

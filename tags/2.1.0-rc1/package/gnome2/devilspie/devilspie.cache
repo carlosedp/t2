@@ -1,0 +1,16 @@
+
+[TIMESTAMP] 1087304022 Tue Jun 15 14:53:42 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-devilspie.log 9-devilspie.log
+
+[BUILDTIME] 3168 (9)
+[SIZE] 0.09 MB, 17 files
+
+[DEP] 00-dirtree atk autoconf bash binutils bzip2 ccache coreutils
+[DEP] diffutils expat findutils freetype gawk gcc gettext glib glibc
+[DEP] gob grep gtk+ libglade libwnck libxml linux-header make mktemp
+[DEP] net-tools pango perl pkgconfig sed startup-notification sysfiles
+[DEP] tar texinfo util-linux xorg zlib
+

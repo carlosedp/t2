@@ -1,0 +1,38 @@
+
+[TIMESTAMP] 1111248310 Sat Mar 19 12:05:10 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 8053 (5)
+[SIZE] 2.13 MB, 96 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] freetype1
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] groff
+[DEP] imlib2
+[DEP] linux-header
+[DEP] make
+[DEP] man
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] pcre
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] xorg
+[DEP] zlib

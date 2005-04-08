@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1087419748 Wed Jun 16 23:02:28 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-licq.log 9-licq.log
+
+[BUILDTIME] 53999 (9)
+[SIZE] 5.37 MB, 408 files
+
+[DEP] 00-dirtree arts bash binutils bzip2 ccache coreutils diffutils expat
+[DEP] fam file findutils freetype gawk gcc glibc grep kdebase kdelibs
+[DEP] libart_lgpl23 libpng linux-header make mktemp ncurses net-tools
+[DEP] openssl qt sed sysfiles tar util-linux xorg
+

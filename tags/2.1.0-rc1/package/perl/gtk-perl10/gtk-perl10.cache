@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1111169130 Fri Mar 18 14:05:30 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 19245 (5)
+[SIZE] 1.97 MB, 139 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] bdb33
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] esound
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gdk-pixbuf10
+[DEP] glib12
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] gnome-print10
+[DEP] grep
+[DEP] gtk+12
+[DEP] imlib
+[DEP] libglade10
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libxml1
+[DEP] linux-header
+[DEP] make
+[DEP] patch
+[DEP] perl
+[DEP] perl-libxml
+[DEP] perl-net-ssleay
+[DEP] perl-xml-parser
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg
+[DEP] zlib

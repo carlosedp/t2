@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1111204710 Fri Mar 18 23:58:30 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 2641 (5)
+[SIZE] 0.34 MB, 51 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bluez-libs
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libusb
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openobex
+[DEP] pcmcia-cs
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

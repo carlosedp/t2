@@ -1,0 +1,54 @@
+
+[TIMESTAMP] 1111934847 Sun Mar 27 10:47:27 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 33878 (5)
+[SIZE] 10.18 MB, 492 files
+
+[DEP] 00-dirtree
+[DEP] alsa-tools
+[DEP] amule
+[DEP] atk
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] gnutls
+[DEP] grep
+[DEP] gtk+
+[DEP] libao
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libtasn1
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mozilla
+[DEP] mutt
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] startup-notification
+[DEP] sweep
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] tk
+[DEP] util-linux
+[DEP] wget
+[DEP] xmms
+[DEP] xorg

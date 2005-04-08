@@ -1,0 +1,48 @@
+
+[TIMESTAMP] 1111374677 Sun Mar 20 23:11:17 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 24749 (5)
+[SIZE] 2.80 MB, 115 files
+
+[DEP] 00-dirtree
+[DEP] amarok
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] digikam
+[DEP] djvulibre
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] k3b
+[DEP] kaxtv
+[DEP] kdelibs
+[DEP] kdesdk
+[DEP] kiosktool
+[DEP] kxdocker
+[DEP] libart_lgpl23
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xine-lib
+[DEP] xorg
+[DEP] zlib

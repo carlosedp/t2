@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1110636715 Sat Mar 12 11:11:55 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 1981 (5)
+[SIZE] 0.30 MB, 31 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] ladspa
+[DEP] ladspa-swh-plugins
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

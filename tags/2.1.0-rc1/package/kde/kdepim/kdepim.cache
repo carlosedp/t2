@@ -1,0 +1,64 @@
+
+[TIMESTAMP] 1111184623 Fri Mar 18 18:23:43 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 295417 (5)
+[SIZE] 39.25 MB, 2006 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] arts
+[DEP] audiofile
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bluez-libs
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] cyrus-sasl2
+[DEP] diffutils
+[DEP] esound
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] flex
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnokii
+[DEP] gpgme
+[DEP] grep
+[DEP] jack
+[DEP] kdebase
+[DEP] kdelibs
+[DEP] libart_lgpl23
+[DEP] libgpg-error
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
+[DEP] libpng
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] openssl
+[DEP] patch
+[DEP] pcre
+[DEP] perl
+[DEP] pilot-link
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

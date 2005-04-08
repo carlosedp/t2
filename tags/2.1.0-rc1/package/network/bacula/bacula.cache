@@ -1,0 +1,14 @@
+
+[TIMESTAMP] 1087404416 Wed Jun 16 18:46:56 2004
+[CONFIG-ID] 2.1.0-DEV-x86-reference-expert
+[ROCKVER] 2.1.0-DEV
+
+[LOGS] 5-bacula.log 9-bacula.log
+
+[BUILDTIME] 13287 (9)
+[SIZE] 6.64 MB, 333 files
+
+[DEP] 00-dirtree bash binutils bzip2 ccache coreutils diffutils findutils
+[DEP] gawk gcc glibc grep libchipcard linux-header make mktemp
+[DEP] ncurses net-tools openssl sed sysfiles tar util-linux xorg zlib
+
