@@ -1,5 +1,0 @@
-#!/bin/sh
-
-GNOME24_DIR="D_prefix"
-echo "Updating scrollkeeper database"
-/$GNOME24_DIR/bin/scrollkeeper-update -q

@@ -1,9 +1,0 @@
-#!/bin/sh
-exec 2>&1
-
-ALLOW=$( cat env/ALLOW )
-USER=$( test -f env/USER && cat env/USER )
-
-exec distccd --user ${USER:-nobody} $ALLOW \
-	--verbose --no-detach --daemon --log-stderr
-

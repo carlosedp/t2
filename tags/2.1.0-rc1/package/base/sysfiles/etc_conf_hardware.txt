@@ -1,2 +1,0 @@
-HARDWARE_SETUP=rockplug
-

@@ -1,5 +1,0 @@
-#!/bin/sh
-
-#echo "Optimizing system performance (prelinking) ..."
-#prelink -av
-
