@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1110545432 Fri Mar 11 09:50:32 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 28425 (5)
+[SIZE] 4.15 MB, 272 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] libexif
+[DEP] libjpeg
+[DEP] libusb
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] rpm
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xscreensaver

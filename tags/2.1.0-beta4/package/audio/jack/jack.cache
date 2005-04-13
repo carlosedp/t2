@@ -1,0 +1,37 @@
+
+[TIMESTAMP] 1110488609 Thu Mar 10 18:03:29 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 4618 (5)
+[SIZE] 0.75 MB, 81 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] doxygen
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] ghostscript
+[DEP] glibc
+[DEP] grep
+[DEP] libcap
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] util-linux

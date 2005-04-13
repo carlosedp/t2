@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1111227736 Sat Mar 19 06:22:16 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 11293 (5)
+[SIZE] 11.46 MB, 232 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] gdbm
+[DEP] gettext
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] imlib2
+[DEP] kdelibs
+[DEP] kiosktool
+[DEP] libgphoto
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

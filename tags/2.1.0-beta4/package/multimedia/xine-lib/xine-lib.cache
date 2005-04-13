@@ -1,0 +1,60 @@
+
+[TIMESTAMP] 1110563355 Fri Mar 11 14:49:15 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 72615 (5)
+[SIZE] 8.48 MB, 227 files
+
+[DEP] 00-dirtree
+[DEP] aalib
+[DEP] alsa-lib
+[DEP] arts
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] file
+[DEP] findutils
+[DEP] flac
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glib
+[DEP] glib12
+[DEP] glibc
+[DEP] glut
+[DEP] gnome-libs14
+[DEP] gnome-vfs
+[DEP] gpm
+[DEP] grep
+[DEP] lcms
+[DEP] libbonobo
+[DEP] libjpeg
+[DEP] libmng
+[DEP] libogg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libvorbis
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] orbit2
+[DEP] patch
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] slang
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

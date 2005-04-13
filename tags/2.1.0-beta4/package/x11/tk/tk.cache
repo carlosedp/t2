@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1110436632 Thu Mar 10 03:37:12 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 9650 (5)
+[SIZE] 6.61 MB, 469 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] xorg

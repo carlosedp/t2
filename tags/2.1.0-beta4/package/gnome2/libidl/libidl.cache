@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1111134634 Fri Mar 18 04:30:34 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 3116 (5)
+[SIZE] 0.45 MB, 29 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] dpkg
+[DEP] findutils
+[DEP] flex
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

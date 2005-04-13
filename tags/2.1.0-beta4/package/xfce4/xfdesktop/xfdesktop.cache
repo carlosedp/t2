@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1111253628 Sat Mar 19 13:33:48 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 6923 (5)
+[SIZE] 3.18 MB, 139 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] libxfce4mcs
+[DEP] libxfce4util
+[DEP] libxfcegui4
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] pkgconfig
+[DEP] sed
+[DEP] startup-notification
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xfce-mcs-manager
+[DEP] xfce4-panel
+[DEP] xorg
+[DEP] zlib

@@ -1,0 +1,15 @@
+
+[TIMESTAMP] 1073699011 Sat Jan 10 02:43:31 2004
+[CONFIG-ID] 2.0.0-rc5-powerpc-powerpc-750-desktop-expert
+[ROCKVER] 2.0.0-rc5
+
+[LOGS] 9-pbbuttons.log
+
+[BUILDTIME] 7088 (9)
+[SIZE] 0.30 MB, 47 files
+
+[DEP] autoconf automake bash binutils bison bzip2 coreutils diffutils
+[DEP] findutils gcc gettext glibc grep linux24benh-header m4 make
+[DEP] mktemp net-tools pbbuttons perl sed sysfiles sysvinit tar texinfo
+[DEP] util-linux
+
