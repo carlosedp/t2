@@ -67,8 +67,8 @@ if [ "$x" ] ; then
 	[ "$( echo "$x" | tail -n +4 )" ] &&
 	    echo_status "** list truncated to save space on the terminal **"
 
-	if [ "$ROCK_DEBUG_TOOLS_SKIP" = 1 ]; then
-		echo_error "Found \$ROCK_DEBUG_TOOLS_SKIP ..."
+	if [ "$SDEDEBUG_TOOLS_SKIP" = 1 ]; then
+		echo_error "Found \$SDEDEBUG_TOOLS_SKIP ..."
 	else
 		rm -f build/$SDECFG_ID/TOOLCHAIN/$toolsdir/.lastupdate
 

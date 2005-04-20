@@ -38,8 +38,8 @@ else
 	exit 1
 fi
 
-if [ "${!ROCK_DEBUG_*}" ]; then
-	echo "WARNING: Found ROCK_DEBUG_* in environment!" >&2
+if [ "${!SDEDEBUG_*}" ]; then
+	echo "WARNING: Found SDEDEBUG_* in environment!" >&2
 fi
 
 . misc/output/parse-config
