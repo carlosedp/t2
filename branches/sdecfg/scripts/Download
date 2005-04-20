@@ -770,7 +770,7 @@ required() {
 	fi
     done < config/$config/packages
 
-    target=`grep '^export ROCKCFG_TARGET=' config/$config/config | \
+    target=`grep '^export SDECFG_TARGET=' config/$config/config | \
 						cut -f2 -d= | tr -d "'"`
     if [ -f target/$target/download.txt ] ; then
 	while read cksum file url ; do
