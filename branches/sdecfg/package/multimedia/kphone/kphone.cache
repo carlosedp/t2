@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1110662984 Sat Mar 12 18:29:44 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 13846 (5)
+[SIZE] 0.96 MB, 31 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] libpng
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg

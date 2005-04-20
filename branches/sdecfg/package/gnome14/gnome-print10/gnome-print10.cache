@@ -1,0 +1,57 @@
+
+[TIMESTAMP] 1111155312 Fri Mar 18 10:15:12 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 12508 (5)
+[SIZE] 2.31 MB, 142 files
+
+[DEP] 00-dirtree
+[DEP] a2ps
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] bdb33
+[DEP] binutils
+[DEP] bitstream-vera-fonts
+[DEP] bzip2
+[DEP] ccache
+[DEP] cheapskatefonts
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] findutils
+[DEP] freefonts
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gdk-pixbuf10
+[DEP] gettext
+[DEP] ghostscript
+[DEP] ghostscript-fonts
+[DEP] glib12
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] gtk+12
+[DEP] imlib
+[DEP] john-stracke-fonts
+[DEP] libxml1
+[DEP] linux-header
+[DEP] magicpoint
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] orbit10
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] terminus-font
+[DEP] tetex
+[DEP] tex-ttf
+[DEP] texinfo
+[DEP] xorg
+[DEP] xorg-cyrillic-fonts
+[DEP] zlib
