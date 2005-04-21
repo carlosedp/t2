@@ -41,6 +41,10 @@ while [ "$1" ] ; do
 	esac
 done
 
+# NOTE: ROCKCFG -> SDECFG automatized convertion
+grep -q 'ROCKCFG' ./config/$config/config && 
+	sed -i -e 's,ROCKCFG,SDECFG,g' ./config/$config/config
+
 if [ "$daemon_mode" = 1 ] ; then
 	. config/$config/config
 	echo "Running $0 in the background (messages go to logfile only).."
