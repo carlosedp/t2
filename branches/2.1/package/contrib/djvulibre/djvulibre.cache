@@ -1,0 +1,42 @@
+
+[TIMESTAMP] 1110660533 Sat Mar 12 17:48:53 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 40536 (5)
+[SIZE] 3.86 MB, 125 files
+
+[DEP] 00-dirtree
+[DEP] amule
+[DEP] arts
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] kdebindings
+[DEP] kdelibs
+[DEP] kdesdk
+[DEP] kdewebdev
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] linux-header
+[DEP] make
+[DEP] man
+[DEP] mktemp
+[DEP] net-tools
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tsclient
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

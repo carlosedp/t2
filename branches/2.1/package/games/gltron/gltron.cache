@@ -1,0 +1,37 @@
+
+[TIMESTAMP] 1110700752 Sun Mar 13 03:59:12 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 5563 (5)
+[SIZE] 2.49 MB, 69 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flac
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libmikmod
+[DEP] libogg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_sound
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] sed
+[DEP] smpeg
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1112114905 Tue Mar 29 18:48:25 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium-mmx-desktop-expert
+[BUILDTIME] 5734 (9)
+[SIZE] 0.44 MB, 21 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imlib2
+[DEP] libpng
+[DEP] libtool
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

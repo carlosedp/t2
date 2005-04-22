@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1110617764 Sat Mar 12 05:56:04 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 5593 (5)
+[SIZE] 1.22 MB, 63 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] ghostscript
+[DEP] ghostscript-fonts
+[DEP] glibc
+[DEP] grep
+[DEP] libelf
+[DEP] linux-header
+[DEP] lprng
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] perl
+[DEP] perl-net-snmp
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

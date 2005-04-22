@@ -1,0 +1,50 @@
+
+[TIMESTAMP] 1111186512 Fri Mar 18 18:55:12 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 57505 (5)
+[SIZE] 17.44 MB, 2521 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] arts
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] kdebase
+[DEP] kdelibs
+[DEP] libart_lgpl23
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
+[DEP] libpng
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] perl
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

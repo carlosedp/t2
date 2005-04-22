@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1110657871 Sat Mar 12 17:04:31 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 1171 (5)
+[SIZE] 0.90 MB, 121 files
+
+[DEP] 00-dirtree
+[DEP] amule
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] numpy
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] wxpython
