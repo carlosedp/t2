@@ -7,5 +7,5 @@ s,^http://ftp.gnu.org/gnu/,http://www.mirror.ac.uk/mirror/ftp.gnu.org/gnu/,
 s,^ftp://ftp.kde.org/pub/kde/,http://ibiblio.org/pub/mirrors/kde/,
 
 # loadbalancer is working weird these days
-s,^http://.*dl.\(sourceforge\|sf\).net/,http://belnet.dl.sourceforge.net/,
+s,^http://.*dl.\(sourceforge\|sf\).net/,http://easynews.dl.sourceforge.net/,
 
