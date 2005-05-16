@@ -28,6 +28,14 @@ CONFIG_NET_ETHERNET=y
 CONFIG_NET_EISA=y
 CONFIG_DE4X5=y
 
+dnl Enable some vedor sections
+dnl
+CONFIG_NET_VENDOR_3COM=y
+CONFIG_NET_VENDOR_SMC=y
+CONFIG_NET_VENDOR_RACAL=y
+CONFIG_8139TOO=m
+CONFIG_NET_TULIP=m
+
 dnl Enable some categories so drivers are enabled as modules
 dnl
 CONFIG_NET_RADIO=y
