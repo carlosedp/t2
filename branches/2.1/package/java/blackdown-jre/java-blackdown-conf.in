@@ -26,13 +26,9 @@ makeinstopt=''
 
 # Make prefix same a java_home. This way artifacts like the bin, lib
 # and doc directory are created at the proper level.
-prefix_basename=blackdown-${java_profile_id:=jre}-${ver}
-prefix=opt/java/$prefix_basename
-set_confopt
+. $base/package/*/*/java-jdk-conf.in $1
 
 java_install_opt=""
-java_home_id=JRE_HOME
-java_home=$root/$prefix
 java_home_original=
 
 # Check if installing needs to be done with or without X11.
@@ -64,7 +60,7 @@ java_preconf() {
 	java_home_original=${tempvar/*=/}
 
 	# Ready to unpack/install the archive.
-sh ${java_srctar##*/}
+	sh ${java_srctar##*/}
 }
 
 # Custom installation.
@@ -72,19 +68,7 @@ java_postmake() {
 	# Copy all stuff from the original home to our java-home.
 	# But to make sure any possible links stay intact we use
 	# tar | untar instead of cp.
-	( cd $builddir/$java_home_original; tar -c * | tar -x -C $java_home )
-
-	# Prepare necessary environment variables.
-	cat <<-EOF > $root/etc/profile.d/$prefix_basename
-	$java_home_id=$java_home
-	export $java_home_id
-
-	PATH=\$PATH:\$$java_home_id/bin
-	export PATH
-
-	MANPATH=\$MANPATH:\$$java_home_id/man
-	export MANPATH
-	EOF
+	( cd $builddir/$java_home_original; tar -c * | tar -x -C /$prefix )
 }
 
 hook_add preconf 5 java_preconf
