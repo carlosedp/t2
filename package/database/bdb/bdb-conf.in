@@ -38,13 +38,11 @@ if [[ $pkg = *-java ]]; then
 	libversion=${ver:0:3}
 
 	# bdb doesn't like some of our make options
-	makeopt="docdir=$docdir DOCLIST=java"
-	var_append makeopt	' ' libj_jarfile=$libjso_base-${libversion}.jar
-
+	makeopt="libj_jarfile=$libjso_base-${libversion}.jar"
 	makeinstopt="$makeopt"
-	#var_append makeinstopt	' ' libdir=$( pkgprefix libdir java-dirtree )
+
 	var_append makeinstopt	' ' install_lib
-	var_append makeinstopt	' ' install_docs
+	var_append makeinstopt	' ' "install_docs docdir=$docdir DOCLIST=java"
 
 	var_append makeopt	' ' $libjso_base-${libversion}.la
 	var_append makeopt	' ' java
