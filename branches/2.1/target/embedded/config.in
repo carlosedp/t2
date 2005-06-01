@@ -101,7 +101,6 @@ EOT
 EOT
 
 	sed -f $tmp
-	cat $tmp >&2
 	rm $tmp
 }
 
