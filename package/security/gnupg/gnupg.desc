@@ -35,7 +35,7 @@
 [T] Digest algorithms available are MD5, RIPEMD160 and SHA1.
 
 [A] Werner Koch <wk@gnupg.org> {Maintainer}
-[M] Rene Rebe <rene@exactcode.de>
+[M] Rene Rebe <rene@t2-project.org>
 
 [C] base/tool
 
