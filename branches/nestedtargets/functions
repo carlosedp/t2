@@ -28,6 +28,16 @@ get_unique() {
 	date "+%s.$$.$hostsum"
 }
 
+# this functions expands an string replacing % with all possible values
+# listed after
+get_expanded() {
+	local string="$1"; shift
+	while [ $# -gt 0 ]; do
+		echo "${string//\%/$1}"
+		shift
+	done
+}
+
 # bz2filename [<filename>]
 # outputs filename converted to .bz2. stdin and $1 inputs are accepted
 #
