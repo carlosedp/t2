@@ -79,8 +79,6 @@ s,^. \(.\)[^ ]*,X \11--------,;
 
 / libpng /              { p; d; };
 
-/ gmp /			{ p; d; };
-
 EOT
 
 	case "$SDECFG_TARGET_EMBEDDED_STYLE" in
@@ -98,8 +96,6 @@ EOT
 	esac
 
 	cat >> $tmp <<-EOT
-/ perl perl /		{ p; d; };
-
 # disable the rest
 /.*/			{ s/^X /O / ; p; d; };
 EOT
@@ -110,7 +106,8 @@ EOT
 
 pkgfilter embedded_pkgfilter
 
-SDECFGSET_PKGFILE_TYPE='tarbz2'
+SDECFGSET_CREATE_TARBZ2=1
+SDECFGSET_CREATE_GEM=0
 SDECFGSET_PKGFILE_VER=0
 
 # we must set it here, since the logic pkgenables the selected libc

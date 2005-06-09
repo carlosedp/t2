@@ -58,13 +58,10 @@ if [ "$SDECFG_PKG_CCACHE_USEIT" = 1 -a "`type -p ccache`" ] ; then
 
 		# remove non-hits from the ccache cache ...
 		#
-		if [ $stagelevel -gt 4 ]; then
-		  echo_status "Cleaning up ccache ..."
-		  find $CCACHE_DIR -type f ! -anewer $CCACHE_DIR/.timestamp |
-		  sed s/\.stderr$//  | uniq | while read fn ;do
+		find $CCACHE_DIR -type f ! -anewer $CCACHE_DIR/.timestamp |
+		sed s/\.stderr$//  | uniq | while read fn ;do
 			rm -f $fn{,.stderr} 2>/dev/null
-		  done
-		fi
+		done
 	}
 
 	hook_add finish 9 ccache_print_status

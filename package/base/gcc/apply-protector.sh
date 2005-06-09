@@ -13,13 +13,13 @@
 # --- T2-COPYRIGHT-NOTE-END ---
 
 # only try to apply protector if available
-pfile=`match_source_file -p protector` || true
+pfile=`match_source_file -p protector`
 if [ "$pfile" ] ; then
 	echo "Inserting SPP ..."
 	ppatch=`tar -v $taropt $pfile | grep 'dif\$' | head -n 1`
 
 	if [ "$ppatch" -a -f $ppatch ]; then
-		[ -f $confdir/protector-adapter.diff ] &&
+		[ -f $confdir/protector-adapter.diff ] && \
 			patch -p0 $ppatch $confdir/protector-adapter.diff
 		patch -p0  < $ppatch
 	else

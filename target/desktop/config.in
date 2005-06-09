@@ -68,7 +68,6 @@ gnome-terminal,gnome-session,libidl,abiword,gnumeric}/*.cache |
 
 # not all of x11 - contains some seldom used stuff ...
 / xorg /	{ p; d; };
-/ ddcxinfo /	{ p; d; };
 / shared-mime-info /	{ p; d; };
 / hicolor-icon-theme /	{ p; d; };
 / fox /		{ p; d; };
@@ -367,15 +366,7 @@ gnome-terminal,gnome-session,libidl,abiword,gnumeric}/*.cache |
 / libesmtp /	{ p; d; }; # balsa
 / wavemon /	{ p; d; };
 / nload /	{ p; d; };
-/ libnet /	{ p; d; };
-/ arping /	{ p; d; };
-/ ifplugd /	{ p; d; };
 / acx100 /	{ p; d; };
-/ adm8211 /	{ p; d; };
-/ at76c503a /	{ p; d; };
-/ ipw2100 /	{ p; d; };
-/ ipw2200 /	{ p; d; };
-/ slmodem /	{ p; d; };
 / hostap /	{ p; d; };
 
 # emulator
@@ -400,14 +391,11 @@ gnome-terminal,gnome-session,libidl,abiword,gnumeric}/*.cache |
 
 pkgfilter desktop_pkgfilter
 
-SDECFGSET_PKGFILE_TYPE='gem'
+SDECFGSET_CREATE_TARBZ2=0
+SDECFGSET_CREATE_GEM=1
+
+SDECFGSET_DIETLIBC=0
 
 SDECFGSET_DO_REBUILD_STAGE=0
 SDECFGSET_DISABLE_NLS=0
-
-SDECFGSET_DIETLIBC='1'
-SDECFGSET_DIETLIBC_pdksh='1'
-SDECFGSET_DIETLIBC_module_init_tools='1'
-SDECFGSET_DIETLIBC_modutils='1'
-SDECFGSET_DIETLIBC_udev='1'
 
