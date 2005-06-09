@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1115101668 Tue May  3 08:27:48 2005
+[CONFIG-ID] 2.2.0-alpha-x86-pentium-mmx-desktop
+[BUILDTIME] 42574 (9)
+[SIZE] 5.62 MB, 76 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+12
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] wxwidgets
+[DEP] xorg
+[DEP] zlib

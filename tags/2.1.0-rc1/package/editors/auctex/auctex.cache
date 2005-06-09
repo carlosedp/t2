@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1110460908 Thu Mar 10 10:21:48 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 1674 (5)
+[SIZE] 2.13 MB, 229 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] texinfo
+[DEP] util-linux
+[DEP] xemacs
+[DEP] xemacs-packages

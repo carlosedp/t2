@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1111688832 Thu Mar 24 14:27:12 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 2014 (5)
+[SIZE] 0.10 MB, 16 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] librsync
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] perl
+[DEP] popt
+[DEP] sed
+[DEP] sqlite2
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

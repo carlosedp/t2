@@ -1,0 +1,46 @@
+
+[TIMESTAMP] 1111236603 Sat Mar 19 08:50:03 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic-expert
+[BUILDTIME] 237846 (5)
+[SIZE] 33.64 MB, 1660 files
+
+[DEP] 00-dirtree
+[DEP] apache
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] flex
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] kdelibs
+[DEP] kdesdk
+[DEP] libart_lgpl23
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] neon
+[DEP] net-tools
+[DEP] pcre
+[DEP] perl
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib
