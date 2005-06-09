@@ -90,6 +90,12 @@ block_begin 7
 	choice SDECFG_TARGET generic $CFGTEMP_TARGETLIST
 	SDECFG_ID="$SDECFG_ID-$SDECFG_TARGET"
 
+	targetchain="$SDECFG_TARGET"; x="SDECFG_TARGET"
+	while [ -f "target/$x/extends" ]; do
+		x="`cat target/$x/extends`"
+		targetchain="$targetchain $x"
+	done
+
 	if [ -f target/$SDECFG_TARGET/pkgsel ]; then
 		if [ target/$SDECFG_TARGET/pkgsel -nt $cfgtmpdir/pkgsel.$SDECFG_TARGET.awk ]
 		then
