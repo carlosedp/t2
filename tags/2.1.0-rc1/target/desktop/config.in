@@ -269,7 +269,11 @@ gnome-terminal,gnome-session,libidl,abiword,gnumeric}/*.cache |
 / perl-libxml1 /	{ p; d; };
 / perl-xml-parser /	{ p; d; };
 / python python /	{ p; d; };
+
+# java
 / java-dirtree /	{ p; d; };
+/ jikes /	{ p; d; };
+/ kaffe /	{ p; d; };
 
 # www
 / firefox /	{ p; d; };
