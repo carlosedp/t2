@@ -1,0 +1,63 @@
+
+[TIMESTAMP] 1119298550 Mon Jun 20 16:15:50 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 10319 (5)
+[SIZE] 1.03 MB, 57 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] atk
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] esound
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gconf-editor
+[DEP] gettext
+[DEP] ghostscript
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-keyring
+[DEP] gnome-vfs
+[DEP] grep
+[DEP] gtk+
+[DEP] libart_lgpl23
+[DEP] libbonobo
+[DEP] libbonoboui
+[DEP] libglade
+[DEP] libgnome
+[DEP] libgnomecanvas
+[DEP] libgnomeprint
+[DEP] libgnomeprintui
+[DEP] libgnomeui
+[DEP] libjpeg
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] orbit2
+[DEP] pango
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] poppler
+[DEP] popt
+[DEP] scrollkeeper
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib
