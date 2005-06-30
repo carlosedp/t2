@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117322686 Sat May 28 19:24:46 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3225 (5)
-[SIZE] 0.33 MB, 40 files
+[TIMESTAMP] 1119733756 Sat Jun 25 17:09:16 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 3066 (5)
+[SIZE] 0.34 MB, 40 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -14,6 +14,7 @@
 [DEP] diffutils
 [DEP] ffmpeg
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -23,6 +24,7 @@
 [DEP] libvorbis
 [DEP] libzvbi
 [DEP] linux-header
+[DEP] lirc
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools

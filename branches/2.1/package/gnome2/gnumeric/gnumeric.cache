@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117363362 Sun May 29 06:42:42 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 56602 (5)
+[TIMESTAMP] 1119770367 Sun Jun 26 03:19:27 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 57856 (5)
 [SIZE] 31.10 MB, 903 files
 
 [DEP] 00-dirtree
@@ -30,6 +30,7 @@
 [DEP] gnome-keyring
 [DEP] gnome-libs14
 [DEP] gnome-vfs
+[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
 [DEP] gtksourceview
@@ -59,6 +60,7 @@
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
+[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
 [DEP] pygtk
@@ -71,3 +73,4 @@
 [DEP] wxpython
 [DEP] xorg
 [DEP] zlib
+[DEP] zope

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117329541 Sat May 28 21:19:01 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 11151 (5)
+[TIMESTAMP] 1119766357 Sun Jun 26 02:12:37 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 9415 (5)
 [SIZE] 0.61 MB, 61 files
 
 [DEP] 00-dirtree
@@ -23,7 +23,6 @@
 [DEP] esound
 [DEP] evolution-data-server
 [DEP] findutils
-[DEP] gail
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
@@ -53,24 +52,22 @@
 [DEP] libgda
 [DEP] libglade
 [DEP] libgnome
-[DEP] libgnomecanvas
 [DEP] libgnomeprint
 [DEP] libgnomeprintui
 [DEP] libgnomeui
 [DEP] libgsf
 [DEP] libmrproject
 [DEP] librsvg
-[DEP] libsoup
 [DEP] libwnck
 [DEP] libxml1
 [DEP] linc
+[DEP] linphone
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] oaf10
 [DEP] orbit10
-[DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] pkgconfig

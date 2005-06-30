@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117377862 Sun May 29 10:44:22 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2986 (5)
-[SIZE] 0.12 MB, 12 files
+[TIMESTAMP] 1119980583 Tue Jun 28 13:43:03 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 1831 (5)
+[SIZE] 0.66 MB, 15 files
 
 [DEP] 00-dirtree
 [DEP] bash

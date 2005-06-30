@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1118280883 Wed Jun  8 21:34:43 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 8361 (5)
+[TIMESTAMP] 1118949309 Thu Jun 16 15:15:09 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 4555 (5)
 [SIZE] 2.97 MB, 285 files
 
 [DEP] 00-dirtree
@@ -12,9 +12,9 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] guile
 [DEP] linux-header
@@ -26,7 +26,6 @@
 [DEP] ocaml
 [DEP] perl
 [DEP] php
-[DEP] pil
 [DEP] python
 [DEP] ruby
 [DEP] sed
@@ -36,4 +35,3 @@
 [DEP] util-linux
 [DEP] wxpython
 [DEP] xorg
-[DEP] zope

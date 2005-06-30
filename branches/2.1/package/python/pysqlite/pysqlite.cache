@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117218484 Fri May 27 14:28:04 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1058 (5)
+[TIMESTAMP] 1119729908 Sat Jun 25 16:05:08 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 1582 (5)
 [SIZE] 0.09 MB, 17 files
 
 [DEP] 00-dirtree
@@ -14,11 +14,15 @@
 [DEP] findutils
 [DEP] gcc
 [DEP] glibc
+[DEP] gnue-common
 [DEP] grep
 [DEP] linux-header
 [DEP] numpy
+[DEP] pil
 [DEP] python
 [DEP] sed
 [DEP] sqlite
 [DEP] sysfiles
 [DEP] tar
+[DEP] wxpython
+[DEP] zope

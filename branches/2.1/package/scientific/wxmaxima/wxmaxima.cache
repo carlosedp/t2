@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117422521 Sun May 29 23:08:41 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 20170 (5)
+[TIMESTAMP] 1119051704 Fri Jun 17 19:41:44 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 23525 (5)
 [SIZE] 1.30 MB, 26 files
 
 [DEP] 00-dirtree
@@ -15,6 +15,7 @@
 [DEP] expat
 [DEP] findutils
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
@@ -35,5 +36,6 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] wxwidgets
+[DEP] wxwidgets24
 [DEP] xorg
 [DEP] zlib

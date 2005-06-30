@@ -1,11 +1,12 @@
 
-[TIMESTAMP] 1117352728 Sun May 29 03:45:28 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 50982 (5)
-[SIZE] 9.23 MB, 300 files
+[TIMESTAMP] 1120073183 Wed Jun 29 15:26:23 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 59182 (5)
+[SIZE] 10.54 MB, 323 files
 
 [DEP] 00-dirtree
 [DEP] a52dec
+[DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -21,14 +22,15 @@
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
-[DEP] gnome-libs14
+[DEP] gnutls
 [DEP] grep
 [DEP] lame
-[DEP] libcdio
 [DEP] libdvbpsi3
 [DEP] libdvdnav
 [DEP] libdvdread
 [DEP] libebml
+[DEP] libgcrypt
+[DEP] libgpg-error
 [DEP] libid3tag
 [DEP] libmad
 [DEP] libmatroska
@@ -36,6 +38,7 @@
 [DEP] libogg
 [DEP] libpng
 [DEP] libsdl
+[DEP] libtasn1
 [DEP] libvorbis
 [DEP] libxml
 [DEP] linux-header
@@ -43,7 +46,6 @@
 [DEP] mktemp
 [DEP] mplayer
 [DEP] net-tools
-[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] sysfsutils

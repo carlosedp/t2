@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117417090 Sun May 29 21:38:10 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 6386 (5)
+[TIMESTAMP] 1119021864 Fri Jun 17 11:24:24 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 7126 (5)
 [SIZE] 0.65 MB, 35 files
 
 [DEP] 00-dirtree
@@ -35,4 +35,5 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] wxwidgets
+[DEP] wxwidgets24
 [DEP] xorg

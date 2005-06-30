@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117263065 Sat May 28 02:51:05 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 12203 (5)
+[TIMESTAMP] 1118884671 Wed Jun 15 21:17:51 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 10689 (5)
 [SIZE] 3.61 MB, 230 files
 
 [DEP] 00-dirtree
@@ -49,7 +49,6 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] netspeed_applet
 [DEP] perl
 [DEP] quick-lounge-applet
 [DEP] scrollkeeper

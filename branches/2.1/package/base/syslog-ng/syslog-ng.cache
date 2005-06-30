@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1118277004 Wed Jun  8 20:30:04 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3179 (3)
+[TIMESTAMP] 1118812879 Wed Jun 15 01:21:19 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 2607 (3)
 [SIZE] 0.21 MB, 28 files
 
 [DEP] 00-dirtree
@@ -27,5 +27,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] tcp_wrappers
 [DEP] util-linux

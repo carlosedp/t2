@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117407994 Sun May 29 19:06:34 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 33722 (5)
-[SIZE] 23.14 MB, 179 files
+[TIMESTAMP] 1119014465 Fri Jun 17 09:21:05 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 33304 (5)
+[SIZE] 23.72 MB, 179 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
