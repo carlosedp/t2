@@ -17,7 +17,7 @@ diff -u dietlibc-0.28/CHANGES dietlibc-cvs/CHANGES
 --- dietlibc-0.28/CHANGES	2005-01-28 17:04:54.000000000 +0100
 +++ dietlibc-cvs/CHANGES	2005-02-01 13:47:15.000000000 +0100
 @@ -1,3 +1,6 @@
-+0.29
++0.28
 +  oops, fix LD_RUN_PATH unsetting (Enrico Scholz)
 +
  0.28:
