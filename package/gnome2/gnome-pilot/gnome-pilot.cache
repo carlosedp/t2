@@ -1,14 +1,13 @@
 
-[TIMESTAMP] 1117263904 Sat May 28 03:05:04 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 11806 (5)
-[SIZE] 2.15 MB, 129 files
+[TIMESTAMP] 1118885405 Wed Jun 15 21:30:05 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 12812 (5)
+[SIZE] 2.20 MB, 133 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
-[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -23,6 +22,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -57,7 +57,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux
 [DEP] xorg
 [DEP] zlib

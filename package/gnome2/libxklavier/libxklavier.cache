@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117252964 Sat May 28 00:02:44 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3873 (5)
+[TIMESTAMP] 1118877645 Wed Jun 15 19:20:45 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 3326 (5)
 [SIZE] 0.55 MB, 25 files
 
 [DEP] 00-dirtree
@@ -12,6 +12,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc

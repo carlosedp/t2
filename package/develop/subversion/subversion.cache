@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1118281684 Wed Jun  8 21:48:04 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 45709 (5)
+[TIMESTAMP] 1118977915 Thu Jun 16 23:11:55 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 33160 (5)
 [SIZE] 9.59 MB, 352 files
 
 [DEP] 00-dirtree
@@ -23,7 +23,6 @@
 [DEP] gdbm
 [DEP] gettext
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] libxml
 [DEP] linux-header
@@ -37,7 +36,6 @@
 [DEP] openssl
 [DEP] patch
 [DEP] perl
-[DEP] pil
 [DEP] python
 [DEP] ruby
 [DEP] sed
@@ -49,4 +47,3 @@
 [DEP] util-linux
 [DEP] wxpython
 [DEP] zlib
-[DEP] zope

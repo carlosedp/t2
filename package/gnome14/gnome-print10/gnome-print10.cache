@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117252000 Fri May 27 23:46:40 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 16517 (5)
+[TIMESTAMP] 1119730456 Sat Jun 25 16:14:16 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 13273 (5)
 [SIZE] 2.48 MB, 142 files
 
 [DEP] 00-dirtree
@@ -18,6 +18,7 @@
 [DEP] ccache
 [DEP] cheapskatefonts
 [DEP] coreutils
+[DEP] dfb-lite
 [DEP] diffutils
 [DEP] esound
 [DEP] findutils
@@ -36,6 +37,7 @@
 [DEP] gtk+12
 [DEP] imlib
 [DEP] john-stracke-fonts
+[DEP] libdockapp
 [DEP] libxml1
 [DEP] linux-header
 [DEP] magicpoint

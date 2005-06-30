@@ -1,44 +1,33 @@
 
-[TIMESTAMP] 1117252154 Fri May 27 23:49:14 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5833 (5)
-[SIZE] 0.56 MB, 92 files
+[TIMESTAMP] 1118876837 Wed Jun 15 19:07:17 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 5452 (5)
+[SIZE] 0.58 MB, 94 files
 
 [DEP] 00-dirtree
-[DEP] alsa-lib
 [DEP] atk
-[DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] esound
 [DEP] expat
 [DEP] findutils
 [DEP] firefox
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] gconf
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] gnome-keyring
 [DEP] gnome-libs14
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
 [DEP] gtkmm
-[DEP] libart_lgpl23
 [DEP] libbonobo
-[DEP] libbonoboui
 [DEP] libglade
-[DEP] libgnome
-[DEP] libgnomecanvas
-[DEP] libgnomeui
-[DEP] libjpeg
 [DEP] libxml
 [DEP] linux-header
 [DEP] make

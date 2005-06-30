@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117319337 Sat May 28 18:28:57 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 41743 (5)
-[SIZE] 14.81 MB, 123 files
+[TIMESTAMP] 1119733387 Sat Jun 25 17:03:07 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 15426 (5)
+[SIZE] 14.80 MB, 121 files
 
 [DEP] 00-dirtree
 [DEP] aalib
@@ -12,11 +12,9 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bio2jack
-[DEP] bitstream-vera-fonts
 [DEP] bzip2
 [DEP] ccache
 [DEP] cdparanoia
-[DEP] cheapskatefonts
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
@@ -24,7 +22,6 @@
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] freefonts
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -36,22 +33,22 @@
 [DEP] grep
 [DEP] gtk+12
 [DEP] jack
-[DEP] john-stracke-fonts
 [DEP] ladspa
 [DEP] lame
 [DEP] libdockapp
 [DEP] libdv
 [DEP] libjpeg
 [DEP] libmad
+[DEP] libogg
 [DEP] libpng
 [DEP] libsdl
+[DEP] libtheora
 [DEP] libungif
 [DEP] linux-header
 [DEP] live
 [DEP] lzo
-[DEP] magicpoint
 [DEP] make
-[DEP] microsoft-web-core-fonts
+[DEP] mplayer-fonts
 [DEP] nas
 [DEP] ncurses
 [DEP] patch
@@ -60,10 +57,7 @@
 [DEP] slang
 [DEP] sysfiles
 [DEP] tar
-[DEP] terminus-font
-[DEP] tex-ttf
 [DEP] xmms
 [DEP] xorg
-[DEP] xorg-cyrillic-fonts
 [DEP] xvid
 [DEP] zlib

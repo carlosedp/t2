@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1118283179 Wed Jun  8 22:12:59 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 26760 (5)
+[TIMESTAMP] 1118982706 Fri Jun 17 00:31:46 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 25899 (5)
 [SIZE] 3.34 MB, 82 files
 
 [DEP] 00-dirtree
@@ -19,7 +19,6 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] libjpeg
 [DEP] libpng
@@ -35,7 +34,6 @@
 [DEP] numpy
 [DEP] patch
 [DEP] perl
-[DEP] pil
 [DEP] python
 [DEP] readline
 [DEP] ruby
@@ -47,4 +45,3 @@
 [DEP] wxpython
 [DEP] xorg
 [DEP] zlib
-[DEP] zope

@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117252046 Fri May 27 23:47:26 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3623 (5)
-[SIZE] 0.08 MB, 16 files
+[TIMESTAMP] 1118876748 Wed Jun 15 19:05:48 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 3731 (5)
+[SIZE] 0.09 MB, 16 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -18,7 +18,6 @@
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
-[DEP] file
 [DEP] findutils
 [DEP] freetype
 [DEP] gail

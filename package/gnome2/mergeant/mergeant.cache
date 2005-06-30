@@ -1,18 +1,16 @@
 
-[TIMESTAMP] 1117337761 Sat May 28 23:36:01 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 15941 (5)
-[SIZE] 0.49 MB, 82 files
+[TIMESTAMP] 1119766483 Sun Jun 26 02:14:43 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 10863 (5)
+[SIZE] 0.49 MB, 81 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
-[DEP] anjuta
 [DEP] atk
 [DEP] audiofile
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
-[DEP] battfink
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
@@ -22,7 +20,6 @@
 [DEP] eog
 [DEP] epiphany
 [DEP] esound
-[DEP] evolution
 [DEP] expat
 [DEP] file-roller
 [DEP] findutils
@@ -35,13 +32,9 @@
 [DEP] gdm
 [DEP] gedit
 [DEP] gettext
-[DEP] ggv
-[DEP] ghex
+[DEP] ghex12
 [DEP] gimp
 [DEP] gimp-print
-[DEP] gjiten
-[DEP] glabels
-[DEP] glade
 [DEP] glade10
 [DEP] glib
 [DEP] glibc
@@ -52,32 +45,18 @@
 [DEP] gnome-common
 [DEP] gnome-desktop
 [DEP] gnome-doc-utils
-[DEP] gnome-games
 [DEP] gnome-keyring
 [DEP] gnome-media
-[DEP] gnome-panel
-[DEP] gnome-pilot
-[DEP] gnome-system-monitor
-[DEP] gnome-system-tools
 [DEP] gnome-system-tools-backends
-[DEP] gnome-terminal
 [DEP] gnome-utils
 [DEP] gnome-vfs
-[DEP] gnome2-user-docs
-[DEP] gnomemeeting
-[DEP] gnopernicus
 [DEP] gob
-[DEP] gok
-[DEP] gpdf
 [DEP] grep
 [DEP] gst-editor
 [DEP] gstreamer
-[DEP] gthumb
 [DEP] gtk+
-[DEP] gtkam
 [DEP] gtkdoc
 [DEP] gtksourceview
-[DEP] gucharmap
 [DEP] intltool
 [DEP] libart_lgpl23
 [DEP] libbonobo
@@ -96,13 +75,11 @@
 [DEP] libxslt
 [DEP] linc
 [DEP] linux-header
-[DEP] lock-keys-applet
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] netspeed_applet
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
@@ -111,10 +88,8 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
-[DEP] pybliographer
 [DEP] quick-lounge-applet
 [DEP] scrollkeeper
-[DEP] seahorse
 [DEP] sed
 [DEP] sound-juicer
 [DEP] sysfiles

@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117300475 Sat May 28 13:14:35 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 158376 (5)
-[SIZE] 22.84 MB, 1350 files
+[TIMESTAMP] 1119763519 Sun Jun 26 01:25:19 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 86214 (5)
+[SIZE] 22.87 MB, 1352 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -36,12 +36,14 @@
 [DEP] lame
 [DEP] libart_lgpl23
 [DEP] libcdaudio
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad
 [DEP] libogg
 [DEP] libpng
 [DEP] libsamplerate
+[DEP] libtheora
 [DEP] libtool
 [DEP] libvorbis
 [DEP] libxml
