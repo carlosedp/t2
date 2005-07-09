@@ -86,3 +86,4 @@ CONFIG_TMPFS=y
 dnl Squashfs (if patched in)
 dnl
 CONFIG_SQUASHFS=y
+
