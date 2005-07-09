@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1118966287 Thu Jun 16 19:58:07 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 3186 (5) ERROR
+[TIMESTAMP] 1117352793 Sun May 29 03:46:33 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 3272 (5) ERROR
 [SIZE] 0.01 MB, 7 files
 
 [DEP] 00-dirtree
@@ -12,7 +12,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
