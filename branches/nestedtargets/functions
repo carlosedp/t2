@@ -659,7 +659,7 @@ detect_patchfiles()
 			$confdir/*.patch_$xpkg{.$arch} \
 			2> /dev/null | tr '\n' ' '`"
 
-	for x in $targetchain; do
+	for x in $( get_reverted $targetchain ); do
 		for y in pkg_$pkg.patch{,.$arch} xpkg_$xpkg.patch{,.$arch}; do
 			if [ -f $base/target/$x/$y ]; then
 				patchfiles="$patchfiles $base/target/$x/$y"
