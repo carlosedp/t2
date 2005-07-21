@@ -38,6 +38,16 @@ get_expanded() {
 	done
 }
 
+# revert the order of the tokens
+get_reverted() {
+	local queue=
+	while [ $# -gt 0 ]; do
+		queue="$queue '$1'"
+		shift
+	done
+	echo $queue
+}
+
 # bz2filename [<filename>]
 # outputs filename converted to .bz2. stdin and $1 inputs are accepted
 #
