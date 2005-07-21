@@ -42,7 +42,7 @@ get_expanded() {
 get_reverted() {
 	local queue=
 	while [ $# -gt 0 ]; do
-		queue="'$1' $queue"
+		queue="$1 $queue"
 		shift
 	done
 	echo $queue
