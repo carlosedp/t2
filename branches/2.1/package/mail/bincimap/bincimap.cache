@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1118953742 Thu Jun 16 16:29:02 2005
+[TIMESTAMP] 1121711194 Mon Jul 18 14:26:34 2005
 [CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 12067 (5)
-[SIZE] 1.01 MB, 60 files
+[BUILDTIME] 3341 (5)
+[SIZE] 1.06 MB, 60 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -13,6 +13,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -21,6 +22,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
+[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles

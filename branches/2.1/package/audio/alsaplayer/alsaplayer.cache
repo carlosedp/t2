@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1118867206 Wed Jun 15 16:26:46 2005
+[TIMESTAMP] 1121626038 Sun Jul 17 14:47:18 2005
 [CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 10913 (5)
-[SIZE] 1.06 MB, 125 files
+[BUILDTIME] 7843 (5)
+[SIZE] 1.07 MB, 125 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
