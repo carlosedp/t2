@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117422920 Sun May 29 23:15:20 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 18727 (5)
-[SIZE] 4.36 MB, 2125 files
+[TIMESTAMP] 1121982060 Thu Jul 21 17:41:00 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 6775 (5)
+[SIZE] 4.44 MB, 2166 files
 
 [DEP] 00-dirtree
 [DEP] a52dec

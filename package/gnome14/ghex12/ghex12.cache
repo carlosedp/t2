@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1118998133 Fri Jun 17 04:48:53 2005
+[TIMESTAMP] 1121747640 Tue Jul 19 00:34:00 2005
 [CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 7541 (5)
+[BUILDTIME] 7308 (5)
 [SIZE] 0.66 MB, 111 files
 
 [DEP] 00-dirtree
@@ -43,6 +43,7 @@
 [DEP] gnome-desktop
 [DEP] gnome-games
 [DEP] gnome-libs14
+[DEP] gnome-media
 [DEP] gnome-pilot
 [DEP] gnome-print10
 [DEP] gnome-system-monitor
@@ -52,6 +53,7 @@
 [DEP] gnome2-user-docs
 [DEP] gnomeicu
 [DEP] gnomemeeting
+[DEP] gnumeric
 [DEP] gok
 [DEP] grep
 [DEP] gst-editor
@@ -71,9 +73,11 @@
 [DEP] perl
 [DEP] pybliographer
 [DEP] quick-lounge-applet
+[DEP] rhythmbox
 [DEP] scrollkeeper
 [DEP] seahorse
 [DEP] sed
+[DEP] sound-juicer
 [DEP] streamtuner
 [DEP] sysfiles
 [DEP] tar
