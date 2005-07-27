@@ -33,6 +33,7 @@ pkgfilter sed '
 / bison /	{ p; d; };
 / bdb /		{ p; d; };
 / bzip2 /	{ p; d; };
+/ ccache /	{ p; d; };
 / cracklib /	{ p; d; };
 / cron /	{ p; d; };
 / curl /	{ p; d; };
