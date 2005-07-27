@@ -23,3 +23,4 @@ SDECFG_PKG_XFREE86_CVS
 SDECFG_PKG_XFREE86_XINERAMA
   This options enables support for Xinerama globally - so many packages
   are build with special multi-head support.
+

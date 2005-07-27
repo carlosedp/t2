@@ -88,9 +88,13 @@ dnl
     block_split(`Configuring the kernel with /etc/conf/kernel.')
 	check(`sh /etc/conf/kernel')
 
-    block_split(`Activating udevsend.')
-	echo "/sbin/udevsend" > /proc/sys/kernel/hotplug
-	/sbin/hotplug++ -synth
+    if [ "$HARDWARE_SETUP" = rockplug ]; then
+	block_split(`Configuring hardware by activating rockplug.')
+	    echo "/sbin/rockplug" > /proc/sys/kernel/hotplug
+	    for file in /etc/rockplug/*.init ; do
+		[ -f $file ] && $file start
+	    done
+    fi
 dnl
     [ -f /etc/conf/clock ] && . /etc/conf/clock
     if [ "$clock_tz" = localtime ] ; then
@@ -108,6 +112,21 @@ dnl
 dnl
     block_split(`Writing /var/log/boot.msg.')
 	check(`dmesg > /var/log/boot.msg')
+dnl
+    block_split(`Setting keyboard keymappings.')
+	if [ -L /etc/default.keymap ] ; then
+		mapfile=$(ls -l /etc/default.keymap | sed 's,.* -> ,,')
+		check(`loadkeys $mapfile')
+	elif [ -f /etc/default.keymap ] ; then
+		check(`loadkeys /etc/default.keymap')
+	else
+		echo "No /etc/default.keymap found."
+	fi
+dnl
+    block_split(`Setting keyboard repeat rate and delay time.')
+	kbd_rate=30; kbd_delay=250
+        [ -f /etc/conf/kbd ] && . /etc/conf/kbd
+        check(`D_prefix/bin/kbdrate -r $kbd_rate -d $kbd_delay < /dev/console')
 dnl
     block_split(`Setting console screen font.')
 	if [ -L /etc/default.vcfont ] ; then

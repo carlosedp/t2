@@ -21,13 +21,12 @@ iproute2_init_if() {
 }
 
 public_ip() {
-	ip="${1%/*}"
 	addcode up 5 5 "ip addr add $1 dev $if"
 	iproute2_init_if
 }
 
 public_gw() {
-	code="ip route append default via $1 dev $if" ; shift
+	code="ip route add default via $1 dev $if" ; shift
 
 	case "$1" in
 	metric)

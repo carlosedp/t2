@@ -54,38 +54,19 @@ iptables_parse_conditions() {
 
 public_accept() {
 	iptables_parse_conditions "$@"
-	addcode up 1 ${ip:-6} ${ip:+5} "iptables -A firewall_$if ${ip:+-d $ip} $iptables_cond -j ACCEPT"
+	addcode up 1 5 "iptables -A firewall_$if $iptables_cond -j ACCEPT"
 	iptables_init_if
 }
 
 public_reject() {
 	iptables_parse_conditions "$@"
-	addcode up 1 ${ip:-6} ${ip:+5} "iptables -A firewall_$if ${ip:+-d $ip} $iptables_cond -j REJECT"
+	addcode up 1 5 "iptables -A firewall_$if $iptables_cond -j REJECT"
 	iptables_init_if
 }
 
 public_drop() {
 	iptables_parse_conditions "$@"
-	addcode up 1 ${ip:-6} ${ip:+5} "iptables -A firewall_$if ${ip:+-d $ip} $iptables_cond -j DROP"
-	iptables_init_if
-}
-
-public_conduit() {
-	# conduit (tcp|udp) port targetip[:targetport]
-	#
-	local proto=$1 port=$2
-	local targetip=$3 targetport=$2
-
-	if [ "${targetip/:/}" != "$targetip" ]; then
-		targetport=${targetip#*:}
-		targetip=${targetip%:*}
-	fi
-
-	addcode up 1 ${ip:-7} ${ip:+6} "iptables -t nat -A PREROUTING -i $if ${ip:+-d $ip} -p $proto \
-		 --dport $port -j DNAT --to $targetip:$targetport"
-	addcode up 1 ${ip:-7} ${ip:+6} "iptables -A FORWARD -i $if  ${ip:+-d $ip} -p $proto -d $targetip \
-		 --dport $targetport -j ACCEPT"
-
+	addcode up 1 5 "iptables -A firewall_$if $iptables_cond -j DROP"
 	iptables_init_if
 }
 
@@ -97,16 +78,9 @@ public_clamp_mtu() {
 }
 
 public_masquerade() {
-	if [ "$ip" ]; then
-		addcode up 1 6 "iptables -t nat -A POSTROUTING -o $if \
-				-j SNAT --to $ip"
-		addcode down 9 6 "iptables -t nat -D POSTROUTING -o $if \
-				-j SNAT --to $ip"
-	else
-		addcode up 1 6 "iptables -t nat -A POSTROUTING -o $if \
-				-j MASQUERADE"
-		addcode down 9 6 "iptables -t nat -D POSTROUTING -o $if \
-				-j MASQUERADE"
-	fi
+	addcode up 1 6 "iptables -t nat -A POSTROUTING -o $if \
+	                -j MASQUERADE"
+	addcode down 9 6 "iptables -t nat -D POSTROUTING -o $if \
+	                  -j MASQUERADE"
 }
 

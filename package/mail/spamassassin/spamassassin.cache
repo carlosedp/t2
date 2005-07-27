@@ -1,11 +1,12 @@
 
-[TIMESTAMP] 1117644987 Wed Jun  1 12:56:27 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1864 (5) ERROR
-[SIZE] 0.02 MB, 10 files
+[TIMESTAMP] 1121587862 Sun Jul 17 04:11:02 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 2303 (5)
+[SIZE] 1.72 MB, 113 files
 
 [DEP] 00-dirtree
 [DEP] bash
+[DEP] binutils
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
@@ -13,11 +14,15 @@
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] glibc
 [DEP] grep
+[DEP] linux-header
 [DEP] m4
 [DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
 [DEP] perl
-[DEP] perl-dbi
 [DEP] perl-digest-sha1
 [DEP] perl-html-parser
 [DEP] perl-net-dns
@@ -26,3 +31,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

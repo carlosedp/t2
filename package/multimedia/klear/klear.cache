@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117318803 Sat May 28 18:20:03 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 10322 (5)
-[SIZE] 0.53 MB, 7 files
+[TIMESTAMP] 1122158517 Sat Jul 23 18:41:57 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 12674 (5)
+[SIZE] 0.01 MB, 6 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -24,6 +24,7 @@
 [DEP] libpng
 [DEP] linux-header
 [DEP] make
+[DEP] perl
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles

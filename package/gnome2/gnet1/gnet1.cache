@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117266206 Sat May 28 03:43:26 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 4034 (5)
+[TIMESTAMP] 1118887573 Wed Jun 15 22:06:13 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 3773 (5)
 [SIZE] 0.74 MB, 73 files
 
 [DEP] 00-dirtree
@@ -16,7 +16,6 @@
 [DEP] epiphany
 [DEP] evolution-data-server
 [DEP] findutils
-[DEP] gail
 [DEP] gcc
 [DEP] gconf
 [DEP] gimp
@@ -36,20 +35,17 @@
 [DEP] libgda
 [DEP] libglade
 [DEP] libgnome
-[DEP] libgnomecanvas
 [DEP] libgnomeprint
 [DEP] libgnomeprintui
 [DEP] libgnomeui
 [DEP] libgsf
 [DEP] librsvg
-[DEP] libsoup
 [DEP] libwnck
 [DEP] linc
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] pkgconfig

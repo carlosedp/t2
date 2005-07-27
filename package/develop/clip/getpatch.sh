@@ -20,7 +20,7 @@ echo "get: $location/patch.tgz"
 if [ -f patch.tgz ]; then
 	mv patch.tgz $tempfile
 else
-	wget $location/patch.tgz -O $tempfile
+	curl -v $location/patch.tgz -o $tempfile
 	if [ $? -ne 0 ]; then
 		rm -f $tempfile
 		exit

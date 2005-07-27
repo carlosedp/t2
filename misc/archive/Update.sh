@@ -16,14 +16,8 @@
 pkg="$1" ; shift
 ver="$1" ; shift
 
-if [ -z "$ver" ]; then
-	ver=${pkg/*-/}
-	pkg=${pkg%-$ver}
-fi
-
-if [ -z "$pkg" -o -z "$ver" ]; then
+if [ -z "$pkg" -o -z "$ver" ] ; then
 	echo "Usage: $0 pkg ver"
-	echo "   or: $0 pkg-ver"
 	exit
 fi
 

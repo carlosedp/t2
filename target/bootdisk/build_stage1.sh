@@ -14,9 +14,7 @@
 
 echo_header "Creating initrd data:"
 rm -rf $disksdir/initrd
-mkdir -p $disksdir/initrd/{dev,proc,tmp,sys,scsi,net,bin}
-mknod -m 600 $disksdir/initrd/dev/console c 5 1
-mknod -m 666 $disksdir/initrd/dev/null c 1 3
+mkdir -p $disksdir/initrd/{dev,proc,tmp,scsi,net,bin}
 cd $disksdir/initrd; ln -s bin sbin; ln -s . usr
 #
 echo_status "Create linuxrc binary."
@@ -53,8 +51,6 @@ if [ "$SDECFG_BOOTDISK_USEKISS" = 1 ]; then
 	echo_status "Adding kiss shell for expert use to the initrd image."
 	cp $build_root/bin/kiss bin/
 fi
-#
-cp ../2nd_stage/sbin/udev* bin/
 
 #
 # For each available kernel:
@@ -100,7 +96,27 @@ for x in `egrep 'X .* KERNEL .*' $base/config/$config/packages |
   cd ..
 
   echo_status "Creating initrd filesystem image: $initrd"
-  mkcramfs -n $initrd $disksdir/initrd $disksdir/$initrd
+
+  ramdisk_size=8192
+  #[ $arch = x86 ] && ramdisk_size=4096
+
+  echo_status "Creating temporary files."
+  tmpdir=initrd_$$.dir; mkdir -p $disksdir/$tmpdir; cd $disksdir
+  dd if=/dev/zero of=initrd.img bs=1024 count=$ramdisk_size &> /dev/null
+
+  echo_status "Writing initrd image file."
+  mke2fs -m 0 -N 180 -qF initrd.img &> /dev/null
+  mount -t ext2 initrd.img $tmpdir -o loop
+  rmdir $tmpdir/lost+found/
+  cp -a initrd/* $tmpdir
+  umount $tmpdir
+
+  echo_status "Compressing initrd image file."
+  gzip -9 initrd.img 
+  mv initrd.img.gz $initrd
+
+  echo_status "Removing temporary files."
+  rm -rf $tmpdir
 
   popd 2>&1 > /dev/null
 done

@@ -109,7 +109,7 @@ do
 			# inside an unignored interface section ...
 			if [ $cmd = "interface" ] ; then
 				public_$cmd $para
-				global=0 ip=
+				global=0
 			elif [ $ignore -eq 0 -o $global -gt 0 ] ; then
 				public_$cmd $para
 			fi

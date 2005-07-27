@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117313718 Sat May 28 16:55:18 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 17646 (5)
-[SIZE] 2.04 MB, 46 files
+[TIMESTAMP] 1121686870 Mon Jul 18 07:41:10 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 18313 (5)
+[SIZE] 2.27 MB, 50 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -21,7 +21,6 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
 [DEP] readline
 [DEP] sed
 [DEP] sysfiles

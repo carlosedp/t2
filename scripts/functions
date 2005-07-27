@@ -17,39 +17,15 @@
 # This function returns a "uniqe id" as output
 #
 get_unique() {
-	local hostsum=`hostname`
-	if [ -z "$hostsum" -a -x /sbin/ip ]; then
-		hostsum=`/sbin/ip link show eth0 |
-		sed -e '/link\//!d' -e 's,.*link[^ ]* \([^ ]*\) .*,\1,'`
-	fi
-	if [ -z "$hostsum" -a -f /sbin/ifconfig ]; then
-		hostsum=`/sbin/ifconfig eth0 |
-		sed -e '/HWaddr/!d' -e 's/.* HWaddr \([^ ]*\)/\1/'`
-	fi
-	if [ -z "$hostsum" -a -x /usr/bin/hostid ]; then
+	local hostsum=
+	if [ -x /usr/bin/hostid ]; then
 		hostsum=`/usr/bin/hostid`
+	elif [ -x /sbin/ip ]; then
+		hostsum=`/sbin/ip link | cksum | cut -f1 -d' '`
+	else
+		hostsum=`/sbin/ifconfig -a | cksum | cut -f1 -d' '`
 	fi
-	date "+%Y%m%d.%H%M%S.$$.$hostsum"
-}
-
-# this functions expands an string replacing % with all possible values
-# listed after
-get_expanded() {
-	local string="$1"; shift
-	while [ $# -gt 0 ]; do
-		echo "${string//\%/$1}"
-		shift
-	done
-}
-
-# revert the order of the tokens
-get_reverted() {
-	local queue=
-	while [ $# -gt 0 ]; do
-		queue="$1 $queue"
-		shift
-	done
-	echo $queue
+	date "+%s.$$.$hostsum"
 }
 
 # bz2filename [<filename>]
@@ -463,7 +439,7 @@ pkgprefix() {
 	elif grep -q "^Prefix:" "$root/var/adm/packages/$pkg"; then
 		prefix=$( grep "^Prefix: " "$root/var/adm/packages/$pkg" | cut -d' ' -f2- )
 	else
-			abortmsg=`echo "$pkg record is old, please rebuild the package $pkg. As an alternative, you can insert a line into the file $root/var/adm/packages/$pkg containing the text below:\n\nPrefix: <prefix>" | fmt -w 55 | sed 's,$,\\n,g'`
+			abortmsg="$pkg record is old, please rebuild"
 	fi
 
 	if [ "$dotest" ]; then
@@ -658,18 +634,12 @@ register_badfiles() {
 #
 detect_patchfiles()
 {
-	local x= y=
-	patchfiles="`ls $confdir/*.patch{,.$arch} \
-			$confdir/*.patch_$xpkg{.$arch} \
-			2> /dev/null | tr '\n' ' '`"
-
-	for x in $( get_reverted $targetchain ); do
-		for y in pkg_$pkg.patch{,.$arch} xpkg_$xpkg.patch{,.$arch}; do
-			if [ -f $base/target/$x/$y ]; then
-				patchfiles="$patchfiles $base/target/$x/$y"
-			fi
-		done
-	done
+	patchfiles="`ls $confdir/*.patch $confdir/*.patch.$arch \
+	             $confdir/*.patch_$xpkg $confdir/*.patch_$xpkg.$arch \
+	             $targetdir/pkg_$pkg.patch $targetdir/pkg_$pkg.patch.$arch \
+	             $targetdir/xpkg_$xpkg.patch \
+	             $targetdir/xpkg_$xpkg.patch.$arch 2>/dev/null |
+	             tr '\n' ' '`"
 }
 
 # Apply the given $patchfiles
@@ -692,27 +662,6 @@ apply_patchfiles() {
 		fi
 		eval "$@"
         done
-}
-
-# -------------------------------------------------------------------
-# The automatic extraction of archive (prior to building) supports 
-# multiple archive types. For every archive type we have a separate
-# func that knows how to extract the archive. However, every func
-# should deliver two file: untar.txt and xsrcdir.txt.
-#
-# untar.txt needs to contain all extracted files.
-# xsrcdir.txt need to contain the top level extraction directories.
-# -------------------------------------------------------------------
-
-autoextract_tar_bz2() {
-	echo "Extracting $xsrctar ($taropt) ... "
-	tar -v $taropt $1 > untar.txt 
-}
-
-autoextract_zip() {
-	echo "Extracting $xsrctar ($zipopt) ... "
-	unzip $zipopt $1 | sed 's,^.*/$,,' |
-		cut -f4 -d" " | grep -v "^$" > untar.txt 
 }
 
 # Main program for building a package
@@ -744,21 +693,11 @@ build_this_package() {
 		var_append patchfiles " " \
 		           "`ls $confdir/*.patch.${xsrctar/-[v0-9]*/} 2> /dev/null`"
 		if [ $autoextract = 1 ]; then
-			if [ -z "$custextract" ]; then
-				# No custum extraction, so determine what
-				# autoextraction to use.
-				case "$xsrctar" in
-				*.tar.bz2|*.tbz2) custextract="autoextract_tar_bz2" ;;
-				*.zip) custextract="autoextract_zip" ;;
-				esac
-			fi
-			if [ -n "$custextract" ]; then
-				# Do the actual extraction of the archive.
-				eval "$custextract $archdir/$xsrctar"
-				cat untar.txt | 
-					sed 's,^\./,,' | cut -f1 -d/ |
-					sort -u > xsrcdir.txt
-			fi
+			echo "Extracting $xsrctar ($taropt) ... "
+			cd $builddir
+			tar -v $taropt $archdir/$xsrctar | tee untar.txt |
+				sed 's,^\./,,' | cut -f1 -d/ |
+				sort -u > xsrcdir.txt
 			#
 			if [ "$srcdir" = auto ]; then
 				xsrcdir=${xsrctar%.tar.bz2}
@@ -913,7 +852,6 @@ build_this_package() {
 			[ "${x#*.[cho0-9]}" ] || continue
 			[ "${x#*.info*}"    ] || continue
 			[ "${x#*.TAR*}"     ] || continue
-			[ "${x#*akefile*}"     ] || continue
                         [ -f $x ] && cp -v $x $root/$docdir/$x
 		done
 
@@ -1124,24 +1062,16 @@ build_package()
 
 	parse_desc $pkg
 
-	# Erase positional parameters to prevent unintended parameter 
-	# passing. We do not want to pass the current positional parameters
-	# to the loaded script.
-	set --
 	eval "$desc_O"
 
-	for x in $( get_expanded $base/target/%/pkg_$pkg.conf $targetchain ) \
-		$confdir/$conffile; do
-		if [ -f $x ]; then
-			if [[ $x == */$conffile ]]; then
-				echo_status "Reading package configuration ($conffile) from package directory."
-			else
-	  			echo_status "Reading package configuration from target directory."
-			fi
-	  		. $x
-			break
-		fi
-	done
+	if [ -f $targetdir/pkg_$pkg.conf ] ; then
+	  echo_status "Reading package configuration from target directory."
+	  . $targetdir/pkg_$pkg.conf
+
+	elif [ -f $confdir/$conffile ] ; then
+	  echo_status "Reading package configuration ($conffile) from package directory."
+	  . $confdir/$conffile
+	fi
 
 	# short path - to not abort on missing downloads of postlinux.conf
 	# packages that are not built anyway -ReneR

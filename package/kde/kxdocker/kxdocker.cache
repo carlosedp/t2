@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117297691 Sat May 28 12:28:11 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 11488 (5)
-[SIZE] 10.38 MB, 700 files
+[TIMESTAMP] 1121991760 Thu Jul 21 20:22:40 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 12370 (5)
+[SIZE] 10.44 MB, 703 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -16,13 +16,13 @@
 [DEP] fam
 [DEP] findutils
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
 [DEP] kdelibs
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
