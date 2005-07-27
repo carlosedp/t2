@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1117231847 Fri May 27 18:10:47 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 13919 (5)
+[SIZE] 2.58 MB, 35 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] lame
+[DEP] libsdl
+[DEP] linux-header
+[DEP] make
+[DEP] nas
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] xorg
+[DEP] zlib

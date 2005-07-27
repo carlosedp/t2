@@ -1,0 +1,61 @@
+
+[TIMESTAMP] 1121637441 Sun Jul 17 17:57:21 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 15594 (5)
+[SIZE] 6.64 MB, 138 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] atk
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-keyring
+[DEP] gnome-libs14
+[DEP] gnome-panel
+[DEP] gnome-vfs
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkhtml
+[DEP] libart_lgpl23
+[DEP] libbonobo
+[DEP] libbonoboui
+[DEP] libgda
+[DEP] libglade
+[DEP] libgnome
+[DEP] libgnomecanvas
+[DEP] libgnomeprint
+[DEP] libgnomeprintui
+[DEP] libgnomeui
+[DEP] libjpeg
+[DEP] librsvg
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mono
+[DEP] net-tools
+[DEP] orbit2
+[DEP] pango
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] vte
+[DEP] xorg
+[DEP] zlib

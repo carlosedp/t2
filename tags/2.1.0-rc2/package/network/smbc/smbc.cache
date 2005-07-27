@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1121768539 Tue Jul 19 06:22:19 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 4447 (5)
+[SIZE] 0.42 MB, 31 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] cyrus-sasl2
+[DEP] diffutils
+[DEP] dpkg
+[DEP] findutils
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openldap
+[DEP] openssl
+[DEP] perl
+[DEP] popt
+[DEP] samba
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

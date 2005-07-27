@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1117187789 Fri May 27 05:56:29 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 1044 (5)
+[SIZE] 0.59 MB, 85 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] perl
+[DEP] perl-html-parser
+[DEP] perl-uri
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

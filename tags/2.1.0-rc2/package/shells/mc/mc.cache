@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1117253479 Sat May 28 00:11:19 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 6560 (5)
+[SIZE] 1.99 MB, 163 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] groff
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pam
+[DEP] patch
+[DEP] sed
+[DEP] shadow
+[DEP] slang
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg

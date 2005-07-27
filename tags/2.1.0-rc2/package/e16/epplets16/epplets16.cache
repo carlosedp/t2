@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1117386892 Sun May 29 13:14:52 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 9951 (5)
+[SIZE] 1.54 MB, 294 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] enlightenment16
+[DEP] esound
+[DEP] findutils
+[DEP] freeglut
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imlib
+[DEP] libcdaudio
+[DEP] libdnet
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libungif
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] xorg
+[DEP] zlib
