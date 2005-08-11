@@ -17,15 +17,19 @@
 # This function returns a "uniqe id" as output
 #
 get_unique() {
-	local hostsum=
-	if [ -x /usr/bin/hostid ]; then
-		hostsum=`/usr/bin/hostid`
-	elif [ -x /sbin/ip ]; then
-		hostsum=`/sbin/ip link | cksum | cut -f1 -d' '`
-	else
-		hostsum=`/sbin/ifconfig -a | cksum | cut -f1 -d' '`
+	local hostsum=`hostname`
+	if [ -z "$hostsum" -a -x /sbin/ip ]; then
+		hostsum=`/sbin/ip link show eth0 |
+		sed -e '/link\//!d' -e 's,.*link[^ ]* \([^ ]*\) .*,\1,'`
 	fi
-	date "+%s.$$.$hostsum"
+	if [ -z "$hostsum" -a -f /sbin/ifconfig ]; then
+		hostsum=`/sbin/ifconfig eth0 |
+		sed -e '/HWaddr/!d' -e 's/.* HWaddr \([^ ]*\)/\1/'`
+	fi
+	if [ -z "$hostsum" -a -x /usr/bin/hostid ]; then
+		hostsum=`/usr/bin/hostid`
+	fi
+	date "+%Y%m%d.%H%M%S.$$.$hostsum"
 }
 
 # bz2filename [<filename>]
@@ -1062,6 +1066,10 @@ build_package()
 
 	parse_desc $pkg
 
+	# Erase positional parameters to prevent unintended parameter 
+	# passing. We do not want to pass the current positional parameters
+	# to the loaded script.
+	set --
 	eval "$desc_O"
 
 	if [ -f $targetdir/pkg_$pkg.conf ] ; then
