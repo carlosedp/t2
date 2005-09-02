@@ -1,14 +1,15 @@
 
-[TIMESTAMP] 1124975464 Thu Aug 25 15:11:04 2005
-[CONFIG-ID] 2.2.0-alpha-x86-64-athlon64-desktop
-[BUILDTIME] 438930 (5)
-[SIZE] 128.24 MB, 11363 files
+[TIMESTAMP] 1121586969 Sun Jul 17 03:56:09 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 175205 (5)
+[SIZE] 124.26 MB, 11031 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat

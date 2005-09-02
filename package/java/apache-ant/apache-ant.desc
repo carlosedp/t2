@@ -25,12 +25,12 @@
 [C] extra/development
 [F] KAFFE
 
-[L] APL
+[L] GPL
 [S] Stable
-[V] 1.6.5
+[V] 1.6.3
 [P] X -----5---9 300.000
 
-[O] . $base/package/*/*/java-conf.in NO_AUTO_DETECT
+[O] . $base/package/*/*/java-conf.in
 
-[D] 438470393 apache-ant-1.6.5-src.tar.bz2 http://www.apache.org/dist/ant/source/
+[D] 2703923072 apache-ant-1.6.3-src.tar.bz2 http://www.apache.org/dist/ant/source/
 

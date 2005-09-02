@@ -37,8 +37,6 @@
 
 [C] base/library
 
-[F] DIETLIBC
-
 [L] GPL
 [S] Stable
 [V] 4.1.4

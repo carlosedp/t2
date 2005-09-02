@@ -34,6 +34,4 @@
 [V] 0.9.1
 [P] X -----5---9 176.500
 
-[O] var_append confopt ' ' '--sysconfdir=/etc'
-
 [D] 4122343392 libchipcard-0.9.1.tar.gz http://dl.sourceforge.net/sourceforge/libchipcard/

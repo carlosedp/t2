@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117262855 Sat May 28 02:47:35 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 112233 (5)
+[TIMESTAMP] 1121643726 Sun Jul 17 19:42:06 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 74326 (5)
 [SIZE] 31.90 MB, 1917 files
 
 [DEP] 00-dirtree
@@ -49,6 +49,7 @@
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
+[DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig

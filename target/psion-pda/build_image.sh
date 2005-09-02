@@ -93,7 +93,15 @@ find $build_root -printf "%P\n" | sed '
 /\/captoinfo$/	d;
 /\/input$/	d;
 
-' > tar.input
+' | while read file ; do
+	[ "$file" ] || continue
+	mkdir -p `dirname $file`
+	if [ -d $build_root/$file ] ; then
+		mkdir $file
+	else
+		echo "$file" >> tar.input
+	fi
+done
 
 copy_with_list_from_file $build_root . $PWD/tar.input
 rm tar.input

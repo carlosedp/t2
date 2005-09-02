@@ -30,8 +30,6 @@
 
 [C] base/system
 
-[F] NOPARALLEL
-
 [L] GPL
 [S] Stable
 [V] 3.2p1

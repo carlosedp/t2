@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117288702 Sat May 28 09:58:22 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 9127 (5)
-[SIZE] 28.47 MB, 2336 files
+[TIMESTAMP] 1118907097 Thu Jun 16 03:31:37 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 13847 (5)
+[SIZE] 31.58 MB, 2412 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -12,6 +12,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
@@ -22,8 +23,6 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

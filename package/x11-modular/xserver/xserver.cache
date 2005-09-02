@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117344291 Sun May 29 01:24:51 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 6542 (5) ERROR
-[SIZE] 0.02 MB, 10 files
+[TIMESTAMP] 1119766677 Sun Jun 26 02:17:57 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 17232 (5)
+[SIZE] 13.20 MB, 29 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -11,14 +11,18 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
+[DEP] compositeext
 [DEP] coreutils
+[DEP] damageext
 [DEP] diffutils
 [DEP] findutils
+[DEP] fixesext
 [DEP] flex
 [DEP] gawk
 [DEP] gcc
 [DEP] gdbm
 [DEP] glibc
+[DEP] glitz
 [DEP] gnome-libs14
 [DEP] grep
 [DEP] libtool
@@ -29,10 +33,21 @@
 [DEP] net-tools
 [DEP] perl
 [DEP] pkgconfig
+[DEP] randr
+[DEP] recordext
+[DEP] render
+[DEP] resourceext
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] x11
+[DEP] xau
 [DEP] xext
 [DEP] xextensions
+[DEP] xfont
+[DEP] xorg
+[DEP] xproto
+[DEP] xrender
+[DEP] xtrans
+[DEP] zlib

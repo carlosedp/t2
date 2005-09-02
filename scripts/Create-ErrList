@@ -113,7 +113,7 @@ echo "  $x [ -dry-run ] [ <package> ]"
 done
 
 . scripts/parse-config
-. scripts/functions.in
+. scripts/functions
 
 logdir="${logdir:-build/$SDECFG_ID/var/adm/logs}"
 pkgdir="${logdir%/*}/packages"

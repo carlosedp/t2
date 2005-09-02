@@ -30,7 +30,7 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] extra/development
-[F] NOPARALLEL NO-AS-NEEDED
+[F] NOPARALLEL
 
 [L] LGPL
 [S] Stable

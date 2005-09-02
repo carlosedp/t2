@@ -28,12 +28,10 @@
 
 [C] extra/development
 
-[F] NOPARALLEL
-
 [L] OpenSource
 [S] Stable
-[V] 050705
-[P] X -----5---9 178.000 
+[V] 050304
+[P] X -----5---9 800.000 
 
-[D] 4125504385 tidy_src_050817.tgz http://tidy.sourceforge.net/src/
-[D] 84626291 tidy_docs_050705.tgz http://tidy.sourceforge.net/docs/
+[D] 339040552 tidy_src_050304.tgz http://tidy.sourceforge.net/src/
+

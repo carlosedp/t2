@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117182872 Fri May 27 04:34:32 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2449 (5)
-[SIZE] 0.46 MB, 41 files
+[TIMESTAMP] 1118822868 Wed Jun 15 04:07:48 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 2690 (5)
+[SIZE] 1.67 MB, 57 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -13,6 +13,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
@@ -23,7 +24,6 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

@@ -52,9 +52,7 @@ package_map='       +00-dirtree
 +sysfiles           +libpcap            +iptables           +tcp_wrappers
 -kiss               +kbd		-syslinux           +ntfsprogs
 -ethtool            -bdb		-ccache
-+libol              +embutils           +hotplug++          +memtester
-+minised            +serpnp             +udev               -pdksh
--cramfs-tools'
++libol'
 
 if [ -f ../../pkgs/bize.tar.bz2 -a ! -f ../../pkgs/mine.tar.bz2 ] ; then
 	packager=bize

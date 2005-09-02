@@ -31,7 +31,7 @@
 
 [L] GPL
 [S] Stable
-[V] 2.18
+[V] 2.14
 [P] X -----5---9 123.400
 
-[D] 783999638 ypserv-2.18.tar.bz2 ftp://ftp.kernel.org/pub/linux/utils/net/NIS/
+[D] 1364972377 ypserv-2.14.tar.bz2 ftp://ftp.kernel.org/pub/linux/utils/net/NIS/

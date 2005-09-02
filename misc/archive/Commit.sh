@@ -41,22 +41,15 @@ svn diff $* | grep -v === | awk "
 echo "Diff:"
 svn diff $*
 
-quit=0
-until [ $quit -ne 0 ]; do
+echo -e "\nLog:"
+cat $$.log
 
-	echo -e "\nLog:"
-	cat $$.log
+echo -en "\nLog ok? "
+read in
 
-	echo -en "\nLog ok (q=quit,e=edit,c=commit)? "
-	read in
-
-	case "$in" in
-	  c*) svn commit $* --file $$.log ; quit=1 ;;
-	  e*) $EDITOR $$.log ;;
-	  q*) quit=1 ;;
-	  *) echo "Excuse me?"
-	esac
-done
+if [[ "$in" == y* ]] ; then
+	svn commit $* --file $$.log
+fi
 
 rm $$.log
 

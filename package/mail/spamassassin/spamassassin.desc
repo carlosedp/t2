@@ -29,12 +29,12 @@
 
 [C] extra/server
 
-[L] APL
+[L] GPL
 [S] Stable
-[V] 3.0.4
+[V] 3.0.3
 [P] X -----5---9 114.500
 
 [CV-URL] http://spamassassin.apache.org/downloads.cgi
 
-[D] 2190520009 Mail-SpamAssassin-3.0.4.tar.gz http://www.spamassassin.org/released/
+[D] 638152099 Mail-SpamAssassin-3.0.3.tar.gz http://www.spamassassin.org/released/
 

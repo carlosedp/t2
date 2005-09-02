@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117293868 Sat May 28 11:24:28 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 263339 (5)
-[SIZE] 38.31 MB, 3331 files
+[TIMESTAMP] 1121979773 Thu Jul 21 17:02:53 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 151233 (5)
+[SIZE] 38.31 MB, 3329 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -29,9 +29,9 @@
 [DEP] imagemagick
 [DEP] kdebindings
 [DEP] kdelibs
-[DEP] kdeutils
 [DEP] lcms
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libgsf
 [DEP] libidn
 [DEP] libjpeg

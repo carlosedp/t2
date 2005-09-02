@@ -13,18 +13,22 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-if [ ! -s $cfgtmpdir/config.mnemosyne.in ]; then
-	rm -f $cfgtmpdir/{config,rules,awkgen}.mnemosyne.in
+. ./target/mnemosyne/mnemosyne.in
 
-	perl ./target/mnemosyne/mnemosyne.pl "./target/mnemosyne/pkgsel" TRG_MNEMOSYNE	\
+if [ ! -s $cfgtmpdir/config.mnemosyne.in ]; then
+	rm -f $cfgtmpdir/{config.rules}.mnemosyne.in
+
+	tgt_mnemosyne_render "./target/mnemosyne/pkgsel"	\
+		"./target/mnemosyne/pkgsel" MNEMOSYNE	\
 		$cfgtmpdir/config.mnemosyne.in		\
-		$cfgtmpdir/rules.mnemosyne.in		\
-		$cfgtmpdir/awkgen.mnemosyne.in
+		$cfgtmpdir/rules.mnemosyne.in
 
 fi
 
 bool 'Copy cache files of mnemoc`s optional packages' SDECFG_TRG_MNEMOSYNE_COPYCACHE 0
 block_end
+
+CFGTEMP_TRG_MNEMOSYNE_PKGLST=""
 
 block_begin 5
 	if [ -s $cfgtmpdir/config.mnemosyne.in ]; then
@@ -36,8 +40,8 @@ block_begin 5
 	fi
 block_end
 
-if [ -s $cfgtmpdir/awkgen.mnemosyne.in ]; then
-	. $cfgtmpdir/awkgen.mnemosyne.in DISABLE_ALL \
+if [ "$CFGTEMP_TRG_MNEMOSYNE_PKGLST" ]; then
+	trg_mnemosyne_filter $CFGTEMP_TRG_MNEMOSYNE_PKGLST \
 		> $cfgtmpdir/pkgsel.mnemosyne.awk
 	pkgfilter awk -f $cfgtmpdir/pkgsel.mnemosyne.awk
 fi
