@@ -1,0 +1,38 @@
+
+[TIMESTAMP] 1121982060 Thu Jul 21 17:41:00 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 6775 (5)
+[SIZE] 4.44 MB, 2166 files
+
+[DEP] 00-dirtree
+[DEP] a52dec
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imagemagick
+[DEP] libdvdnav
+[DEP] libid3tag
+[DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
+[DEP] libsndfile
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] ncurses
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xine-lib
+[DEP] zlib

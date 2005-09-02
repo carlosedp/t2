@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1117227787 Fri May 27 17:03:07 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 14557 (5)
+[SIZE] 5.44 MB, 683 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] libsigc++
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

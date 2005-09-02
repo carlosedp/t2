@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1117372752 Sun May 29 09:19:12 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 1889 (5)
+[SIZE] 1.77 MB, 45 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libmikmod
+[DEP] libogg
+[DEP] libsdl
+[DEP] libsdl_mixer
+[DEP] libvorbis
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] smpeg
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] xorg

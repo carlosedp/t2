@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1117284902 Sat May 28 08:55:02 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 3867 (5)
+[SIZE] 0.18 MB, 46 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bluez-libs
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openobex
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

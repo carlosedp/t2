@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1118859387 Wed Jun 15 14:16:27 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 1133 (5)
+[SIZE] 0.04 MB, 15 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

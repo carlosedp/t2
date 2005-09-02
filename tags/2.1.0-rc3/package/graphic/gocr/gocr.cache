@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1121614578 Sun Jul 17 11:36:18 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 1634 (5)
+[SIZE] 0.87 MB, 26 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] netpbm
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

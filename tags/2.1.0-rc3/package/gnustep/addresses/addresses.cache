@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1121657440 Sun Jul 17 23:30:40 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 2195 (5)
+[SIZE] 1.02 MB, 173 files
+
+[DEP] 00-dirtree
+[DEP] aspell
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] gmp
+[DEP] gnustep-base
+[DEP] gnustep-gui
+[DEP] gnustep-make
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libungif
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg

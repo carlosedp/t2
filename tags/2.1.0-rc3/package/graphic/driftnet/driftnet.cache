@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1117332747 Sat May 28 22:12:27 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 1479 (5)
+[SIZE] 0.20 MB, 13 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+12
+[DEP] libjpeg
+[DEP] libpcap
+[DEP] libungif
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg

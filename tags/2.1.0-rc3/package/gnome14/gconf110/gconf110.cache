@@ -1,0 +1,55 @@
+
+[TIMESTAMP] 1121621637 Sun Jul 17 13:33:57 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 5205 (5)
+[SIZE] 1.97 MB, 92 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] bdb
+[DEP] bdb33
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glib
+[DEP] glib12
+[DEP] glibc
+[DEP] gmime
+[DEP] gnome-libs14
+[DEP] gnome-vfs
+[DEP] grep
+[DEP] gtk+
+[DEP] gtk+12
+[DEP] gtkdoc
+[DEP] guile
+[DEP] indent
+[DEP] libglade
+[DEP] libxml1
+[DEP] linc
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] oaf10
+[DEP] orbit10
+[DEP] pango
+[DEP] perl
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

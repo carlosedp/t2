@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1121589098 Sun Jul 17 04:31:38 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 8482 (5)
+[SIZE] 7.53 MB, 230 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] miscfiles
+[DEP] ncurses
+[DEP] openssl
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

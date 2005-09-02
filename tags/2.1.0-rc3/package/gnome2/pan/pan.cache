@@ -1,0 +1,42 @@
+
+[TIMESTAMP] 1117266366 Sat May 28 03:46:06 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 10415 (5)
+[SIZE] 2.84 MB, 54 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnet
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] gtk+
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

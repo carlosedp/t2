@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1121735539 Mon Jul 18 21:12:19 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 4145 (5)
+[SIZE] 2.48 MB, 69 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flac
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libmikmod
+[DEP] libogg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_sound
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] sed
+[DEP] smpeg
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

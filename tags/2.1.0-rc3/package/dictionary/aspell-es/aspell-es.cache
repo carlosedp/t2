@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1117193730 Fri May 27 07:35:30 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 1100 (5)
+[SIZE] 10.82 MB, 15 files
+
+[DEP] 00-dirtree
+[DEP] aspell
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
