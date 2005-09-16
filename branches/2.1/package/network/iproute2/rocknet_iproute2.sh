@@ -21,12 +21,16 @@ iproute2_init_if() {
 }
 
 public_ip() {
+	ip="${1%/*}"
+	# common config error sanity check
+	[ $ip = $1 ] &&
+		echo "WARNING: IP has no CIDR network prefix (e.g. /24)!"
 	addcode up 5 5 "ip addr add $1 dev $if"
 	iproute2_init_if
 }
 
 public_gw() {
-	code="ip route add default via $1 dev $if" ; shift
+	code="ip route append default via $1 dev $if" ; shift
 
 	case "$1" in
 	metric)
