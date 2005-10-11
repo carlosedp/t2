@@ -163,7 +163,7 @@ if [ "$pkg_dietlibc_useit" = 1 ]; then
 		perl)
 			add_lib "-lm -lcompat"
 			;;
-                openssl)
+                openssl|gettext)
                         remove_lib "-ldl"
                         ;;
 		procps)
