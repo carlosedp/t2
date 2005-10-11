@@ -15,14 +15,14 @@
 # version.
 # --- T2-COPYRIGHT-NOTE-END ---
 
---- ./configure~	Sun Nov  6 03:44:17 1994
-+++ ./configure	Mon Jan  6 18:47:52 2003
-@@ -1657,7 +1657,7 @@
-   egrep "ecvt" >/dev/null 2>&1; then
-   rm -rf conftest*
-   echo "$ac_t""yes" 1>&4; cat >> confdefs.h <<\EOF
+--- ./configure.orig	2005-03-31 07:31:41.000000000 -0400
++++ ./configure	2005-10-11 18:24:52.000000000 -0300
+@@ -4934,7 +4934,7 @@
+ echo "${ECHO_T}yes" >&6
+ 
+ cat >>confdefs.h <<\_ACEOF
 -#define HAVE_EFGCVT 2
 +#undef HAVE_EFGCVT
- EOF
+ _ACEOF
  
- else
+ 
