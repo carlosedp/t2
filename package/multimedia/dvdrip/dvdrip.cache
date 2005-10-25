@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117310961 Sat May 28 16:09:21 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1456 (5)
-[SIZE] 1.26 MB, 141 files
+[TIMESTAMP] 1126475166 Sun Sep 11 17:46:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1879 (9)
+[SIZE] 1.28 MB, 146 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -18,6 +17,7 @@
 [DEP] gtk-perl10
 [DEP] make
 [DEP] perl
+[DEP] perl-libintl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

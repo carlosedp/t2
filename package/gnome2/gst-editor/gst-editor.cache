@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117272623 Sat May 28 05:30:23 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 10258 (5)
+[TIMESTAMP] 1126441392 Sun Sep 11 08:23:12 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8969 (9)
 [SIZE] 0.67 MB, 81 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -22,7 +21,6 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
-[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -31,6 +29,7 @@
 [DEP] grep
 [DEP] gstreamer
 [DEP] gtk+
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui

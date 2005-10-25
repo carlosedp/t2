@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1117297967 Sat May 28 12:32:47 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 9610 (5)
+[TIMESTAMP] 1126464011 Sun Sep 11 14:40:11 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8563 (9)
 [SIZE] 0.39 MB, 26 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] atk
 [DEP] autoconf
 [DEP] bash
@@ -29,6 +27,7 @@
 [DEP] gtk+12
 [DEP] kdelibs
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng

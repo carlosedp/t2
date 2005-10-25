@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117376409 Sun May 29 10:20:09 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 7500 (5)
-[SIZE] 6.21 MB, 71 files
+[TIMESTAMP] 1126533435 Mon Sep 12 09:57:15 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5128 (9)
+[SIZE] 5.14 MB, 34 files
 
-[DEP] 00-dirtree
 [DEP] allegro
 [DEP] bash
 [DEP] binutils
@@ -12,25 +11,17 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] dpkg
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] gzip
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
-[DEP] perl
-[DEP] python
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] tetex
-[DEP] texinfo
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xorg

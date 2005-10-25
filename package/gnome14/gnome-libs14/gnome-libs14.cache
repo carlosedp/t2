@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117219182 Fri May 27 14:39:42 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 32993 (5)
-[SIZE] 9.35 MB, 642 files
+[TIMESTAMP] 1129750356 Wed Oct 19 16:32:36 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 21322 (9)
+[SIZE] 9.34 MB, 621 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -18,24 +17,46 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] epiphany
 [DEP] esound
+[DEP] evolution-data-server
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] gconf
 [DEP] gettext
+[DEP] gimp
 [DEP] glib
 [DEP] glib12
 [DEP] glibc
+[DEP] gnet
+[DEP] gnome-panel
+[DEP] gnome-vfs
 [DEP] grep
+[DEP] gstreamer
 [DEP] gtk+
 [DEP] gtk+12
 [DEP] gtkdoc
+[DEP] gtksourceview
 [DEP] imlib
+[DEP] libbonoboui
+[DEP] libdnet
+[DEP] libgda
+[DEP] libglade
+[DEP] libgnome
+[DEP] libgnomeprint
+[DEP] libgnomeprintui
+[DEP] libgnomeui
+[DEP] libgsf
 [DEP] libjpeg
+[DEP] libmrproject
 [DEP] libpng
+[DEP] librsvg
 [DEP] libtiff
 [DEP] libungif
+[DEP] libwnck
 [DEP] linc
+[DEP] linphone
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

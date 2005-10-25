@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1119005359 Fri Jun 17 06:49:19 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 7419 (5)
-[SIZE] 3.60 MB, 147 files
+[TIMESTAMP] 1126553473 Mon Sep 12 15:31:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6138 (9)
+[SIZE] 3.61 MB, 147 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -38,7 +38,6 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xfce-mcs-manager
-[DEP] xfce-utils
 [DEP] xfce4-panel
 [DEP] xorg
 [DEP] zlib

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1119020459 Fri Jun 17 11:00:59 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 10177 (5)
+[TIMESTAMP] 1126574035 Mon Sep 12 21:13:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10275 (9)
 [SIZE] 0.64 MB, 15 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] autoconf
 [DEP] bash
@@ -18,7 +17,6 @@
 [DEP] file
 [DEP] findutils
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
@@ -26,6 +24,7 @@
 [DEP] gtk+
 [DEP] libidn
 [DEP] libjpeg
+[DEP] libmspack
 [DEP] libpng
 [DEP] libtiff
 [DEP] linux-header

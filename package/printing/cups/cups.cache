@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121594356 Sun Jul 17 05:59:16 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 8672 (5)
-[SIZE] 13.04 MB, 789 files
+[TIMESTAMP] 1126970972 Sat Sep 17 11:29:32 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9026 (9)
+[SIZE] 13.09 MB, 784 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -23,7 +22,6 @@
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] man
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openslp

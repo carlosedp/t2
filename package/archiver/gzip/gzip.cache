@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117172449 Fri May 27 01:40:49 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1636 (5)
+[TIMESTAMP] 1126310465 Fri Sep  9 20:01:05 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2505 (9)
 [SIZE] 0.37 MB, 41 files
 
 [DEP] bash
@@ -10,6 +10,7 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] findutils
 [DEP] gcc
 [DEP] glibc
@@ -19,6 +20,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] patch
+[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

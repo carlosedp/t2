@@ -1,10 +1,11 @@
 
-[TIMESTAMP] 1121578335 Sun Jul 17 01:32:15 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 147118 (5)
-[SIZE] 36.36 MB, 1431 files
+[TIMESTAMP] 1129678722 Tue Oct 18 20:38:42 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 147544 (9)
+[SIZE] 39.80 MB, 1431 files
 
 [DEP] 00-dirtree
+[DEP] alsa-lib
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -20,6 +21,8 @@
 [DEP] glibc
 [DEP] grep
 [DEP] gzip
+[DEP] libdnet
+[DEP] libusb
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -34,3 +37,4 @@
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
+[DEP] xorg

@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117405153 Sun May 29 18:19:13 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 26877 (5)
-[SIZE] 4.93 MB, 230 files
+[TIMESTAMP] 1126564471 Mon Sep 12 18:34:31 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 34580 (9)
+[SIZE] 7.80 MB, 460 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -22,9 +22,7 @@
 [DEP] glibc
 [DEP] grep
 [DEP] jack
-[DEP] libdnet
 [DEP] libidn
-[DEP] libjpeg
 [DEP] liblrdf
 [DEP] libpng
 [DEP] libsndfile
@@ -43,4 +41,3 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xorg
-[DEP] zlib

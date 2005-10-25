@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121757531 Tue Jul 19 03:18:51 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 37923 (5)
+[TIMESTAMP] 1126561493 Mon Sep 12 17:44:53 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 35378 (9)
 [SIZE] 10.31 MB, 512 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
@@ -14,7 +13,6 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] digikam
 [DEP] esound
 [DEP] expat
 [DEP] fam
@@ -31,9 +29,7 @@
 [DEP] gst-plugins
 [DEP] gstreamer
 [DEP] gtk+12
-[DEP] kde-i18n-de
-[DEP] kde-i18n-fr
-[DEP] kde-i18n-it
+[DEP] jack
 [DEP] kdebase
 [DEP] kdelibs
 [DEP] kdemultimedia

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121675521 Mon Jul 18 04:32:01 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 85546 (5)
-[SIZE] 22.84 MB, 1350 files
+[TIMESTAMP] 1126466531 Sun Sep 11 15:22:11 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 139753 (9)
+[SIZE] 23.20 MB, 1354 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
@@ -31,17 +30,18 @@
 [DEP] gst-plugins
 [DEP] gstreamer
 [DEP] jack
-[DEP] kdebase
 [DEP] kdelibs
 [DEP] lame
 [DEP] libart_lgpl23
 [DEP] libcdaudio
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad
 [DEP] libogg
 [DEP] libpng
 [DEP] libsamplerate
+[DEP] libtheora
 [DEP] libtool
 [DEP] libvorbis
 [DEP] libxml

@@ -1,10 +1,10 @@
 
-[TIMESTAMP] 1117270949 Sat May 28 05:02:29 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 28670 (5)
-[SIZE] 4.38 MB, 272 files
+[TIMESTAMP] 1127161893 Mon Sep 19 16:31:33 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 21141 (9)
+[SIZE] 4.82 MB, 277 files
 
-[DEP] 00-dirtree
+[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -25,10 +25,12 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] perl
 [DEP] pkgconfig
 [DEP] rpm
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] texinfo
 [DEP] util-linux
 [DEP] xscreensaver

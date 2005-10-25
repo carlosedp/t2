@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121613769 Sun Jul 17 11:22:49 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 7621 (5)
+[TIMESTAMP] 1126365974 Sat Sep 10 11:26:14 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8594 (9)
 [SIZE] 3.63 MB, 142 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash

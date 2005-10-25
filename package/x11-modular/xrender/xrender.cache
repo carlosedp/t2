@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117344554 Sun May 29 01:29:14 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 6053 (5)
+[TIMESTAMP] 1126505554 Mon Sep 12 02:12:34 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5995 (9)
 [SIZE] 0.11 MB, 20 files
 
 [DEP] 00-dirtree
@@ -33,5 +33,4 @@
 [DEP] util-linux
 [DEP] x11
 [DEP] xau
-[DEP] xextensions
 [DEP] xproto

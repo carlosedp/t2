@@ -1,11 +1,11 @@
 
-[TIMESTAMP] 1118979617 Thu Jun 16 23:40:17 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 3429 (5)
-[SIZE] 0.53 MB, 39 files
+[TIMESTAMP] 1127162617 Mon Sep 19 16:43:37 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3515 (9)
+[SIZE] 0.62 MB, 41 files
 
-[DEP] 00-dirtree
 [DEP] aalib
+[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -14,7 +14,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
@@ -28,6 +27,7 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] perl
 [DEP] pkgconfig
 [DEP] popt
 [DEP] readline
@@ -35,5 +35,6 @@
 [DEP] slang
 [DEP] sysfiles
 [DEP] tar
+[DEP] texinfo
 [DEP] util-linux
 [DEP] xorg

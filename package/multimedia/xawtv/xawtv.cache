@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121683538 Mon Jul 18 06:45:38 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 3904 (5)
+[TIMESTAMP] 1126474265 Sun Sep 11 17:31:05 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3254 (9) ERROR
 [SIZE] 2.26 MB, 135 files
 
-[DEP] 00-dirtree
 [DEP] aalib
 [DEP] alsa-lib
 [DEP] bash
@@ -16,22 +15,23 @@
 [DEP] expat
 [DEP] findutils
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glib12
 [DEP] glibc
-[DEP] gpm
 [DEP] grep
 [DEP] lesstif
 [DEP] libdv
 [DEP] libjpeg
 [DEP] libpng
+[DEP] libquicktime
 [DEP] libzvbi
 [DEP] linux-header
+[DEP] lirc
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] perl
 [DEP] pkgconfig
 [DEP] sed
 [DEP] slang
@@ -39,4 +39,3 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xorg
-[DEP] zlib

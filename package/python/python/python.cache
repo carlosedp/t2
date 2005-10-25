@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121998857 Thu Jul 21 22:20:57 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 17706 (5)
-[SIZE] 43.70 MB, 3780 files
+[TIMESTAMP] 1126333926 Sat Sep 10 02:32:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 17536 (9)
+[SIZE] 44.61 MB, 3813 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdb
 [DEP] bdb33

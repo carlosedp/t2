@@ -1,25 +1,26 @@
 
-[TIMESTAMP] 1117386651 Sun May 29 13:10:51 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 57564 (5)
-[SIZE] 7.69 MB, 878 files
+[TIMESTAMP] 1126543436 Mon Sep 12 12:43:56 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 66037 (9)
+[SIZE] 8.30 MB, 920 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
+[DEP] cln
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] ginac
 [DEP] glibc
+[DEP] gmp
 [DEP] grep
 [DEP] hdf5
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsndfile
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

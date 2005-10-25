@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117231676 Fri May 27 18:07:56 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 33929 (5)
-[SIZE] 8.98 MB, 709 files
+[TIMESTAMP] 1126377518 Sat Sep 10 14:38:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 29224 (9)
+[SIZE] 9.07 MB, 718 files
 
 [DEP] 00-dirtree
 [DEP] acl
@@ -13,6 +13,7 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] cairo
 [DEP] ccache
 [DEP] coreutils
 [DEP] curl
@@ -23,6 +24,7 @@
 [DEP] edje
 [DEP] eet
 [DEP] embryo
+[DEP] emotion
 [DEP] evas
 [DEP] expat
 [DEP] fam
@@ -33,6 +35,7 @@
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] gnome-libs14
 [DEP] gnome-mime-data
 [DEP] grep
@@ -43,6 +46,7 @@
 [DEP] kdelibs
 [DEP] libjpeg
 [DEP] libogg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
 [DEP] libvorbis
@@ -65,5 +69,6 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] valgrind
+[DEP] xine-lib
 [DEP] xorg
 [DEP] zlib

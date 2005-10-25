@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121636483 Sun Jul 17 17:41:23 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 12429 (5)
-[SIZE] 2.48 MB, 142 files
+[TIMESTAMP] 1126416374 Sun Sep 11 01:26:14 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 13315 (9)
+[SIZE] 2.49 MB, 142 files
 
-[DEP] 00-dirtree
 [DEP] a2ps
 [DEP] alsa-lib
 [DEP] audiofile
@@ -18,6 +17,7 @@
 [DEP] ccache
 [DEP] cheapskatefonts
 [DEP] coreutils
+[DEP] dfb-lite
 [DEP] diffutils
 [DEP] esound
 [DEP] findutils
@@ -36,10 +36,12 @@
 [DEP] gtk+12
 [DEP] imlib
 [DEP] john-stracke-fonts
+[DEP] libdockapp
 [DEP] libxml1
 [DEP] linux-header
 [DEP] magicpoint
 [DEP] make
+[DEP] microsoft-web-core-fonts
 [DEP] mktemp
 [DEP] net-tools
 [DEP] orbit10

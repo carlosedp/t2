@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117343003 Sun May 29 01:03:23 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1824 (5)
+[TIMESTAMP] 1126503951 Mon Sep 12 01:45:51 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2169 (9)
 [SIZE] 0.43 MB, 38 files
 
 [DEP] 00-dirtree
@@ -25,4 +25,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xextensions
