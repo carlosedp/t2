@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1126345779 Sat Sep 10 05:49:39 2005
+[TIMESTAMP] 1130274365 Tue Oct 25 18:06:05 2005
 [CONFIG-ID] 2.1-stable-x86-pentium4-generic
-[BUILDTIME] 60574 (9)
-[SIZE] 35.86 MB, 738 files
+[BUILDTIME] 29743 (9)
+[SIZE] 38.92 MB, 766 files
 
 [DEP] 00-dirtree
 [DEP] acl
