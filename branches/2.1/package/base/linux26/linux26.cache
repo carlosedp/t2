@@ -1,10 +1,11 @@
 
-[TIMESTAMP] 1121576178 Sun Jul 17 00:56:18 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 109922 (5)
-[SIZE] 42.83 MB, 1580 files
+[TIMESTAMP] 1129676880 Tue Oct 18 20:08:00 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 125383 (9)
+[SIZE] 45.42 MB, 1581 files
 
 [DEP] 00-dirtree
+[DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -18,6 +19,8 @@
 [DEP] glibc
 [DEP] grep
 [DEP] gzip
+[DEP] libdnet
+[DEP] libusb
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -31,3 +34,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg

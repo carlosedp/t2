@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117175762 Fri May 27 02:36:02 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 19126 (5)
+[TIMESTAMP] 1126314193 Fri Sep  9 21:03:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 21408 (9)
 [SIZE] 15.38 MB, 129 files
 
 [DEP] 00-dirtree
@@ -12,12 +12,14 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] findutils
 [DEP] flex
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
+[DEP] gmp
 [DEP] grep
 [DEP] linux-header
 [DEP] m4

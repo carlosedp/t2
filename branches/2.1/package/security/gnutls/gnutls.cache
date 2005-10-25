@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117210016 Fri May 27 12:06:56 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 17548 (5)
-[SIZE] 3.89 MB, 408 files
+[TIMESTAMP] 1127597242 Sat Sep 24 17:27:22 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 14665 (9)
+[SIZE] 4.10 MB, 417 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -21,11 +20,14 @@
 [DEP] libgpg-error
 [DEP] libtasn1
 [DEP] linux-header
+[DEP] lzo
 [DEP] make
 [DEP] mktemp
+[DEP] ncurses
 [DEP] net-tools
 [DEP] opencdk
 [DEP] perl
+[DEP] readline
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121684025 Mon Jul 18 06:53:45 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 28554 (5)
-[SIZE] 5.90 MB, 292 files
+[TIMESTAMP] 1129757087 Wed Oct 19 18:24:47 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 30251 (9)
+[SIZE] 5.94 MB, 288 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -31,13 +30,11 @@
 [DEP] glib
 [DEP] glib12
 [DEP] glibc
-[DEP] gmime
 [DEP] gnet
 [DEP] gnome-libs14
 [DEP] gnome-panel
 [DEP] gnome-print10
 [DEP] gnome-vfs
-[DEP] gok
 [DEP] grep
 [DEP] gstreamer
 [DEP] gtk+
@@ -59,6 +56,7 @@
 [DEP] libwnck
 [DEP] libxml1
 [DEP] linc
+[DEP] linphone
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117416967 Sun May 29 21:36:07 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3069 (5)
+[TIMESTAMP] 1126575703 Mon Sep 12 21:41:43 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2831 (9)
 [SIZE] 1.69 MB, 98 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -23,4 +22,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] wings3d
 [DEP] xorg

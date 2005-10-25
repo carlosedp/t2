@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117209311 Fri May 27 11:55:11 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2341 (5)
+[TIMESTAMP] 1126354561 Sat Sep 10 08:16:01 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2432 (9)
 [SIZE] 0.19 MB, 13 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -15,6 +14,7 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libdnet
 [DEP] libjpeg
 [DEP] libpng
 [DEP] linux-header

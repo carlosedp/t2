@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117328877 Sat May 28 21:07:57 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 20706 (5)
+[TIMESTAMP] 1126489723 Sun Sep 11 21:48:43 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 19672 (9)
 [SIZE] 7.86 MB, 130 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -25,11 +24,9 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
-[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] gnome-games
 [DEP] gnome-keyring
 [DEP] gnome-vfs
 [DEP] grep

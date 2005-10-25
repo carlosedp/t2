@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1121657638 Sun Jul 17 23:33:58 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 7278 (5)
+[TIMESTAMP] 1126445646 Sun Sep 11 09:34:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8286 (9)
 [SIZE] 3.80 MB, 570 files
 
-[DEP] 00-dirtree
-[DEP] aspell
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
@@ -14,6 +12,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] gmp

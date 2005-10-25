@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121763546 Tue Jul 19 04:59:06 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 21060 (5)
+[TIMESTAMP] 1126567785 Mon Sep 12 19:29:45 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 26230 (9)
 [SIZE] 4.11 MB, 1042 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -17,7 +16,6 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnome-print10
 [DEP] graphviz
 [DEP] grep
 [DEP] libdockapp

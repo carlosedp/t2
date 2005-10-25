@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117387648 Sun May 29 13:27:28 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1440 (5)
+[TIMESTAMP] 1126544578 Mon Sep 12 13:02:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1592 (9)
 [SIZE] 0.05 MB, 12 files
 
 [DEP] 00-dirtree
@@ -11,7 +11,6 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] enlightenment16
 [DEP] findutils
 [DEP] gcc
 [DEP] gdbm

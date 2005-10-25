@@ -1,16 +1,16 @@
 
-[TIMESTAMP] 1117301797 Sat May 28 13:36:37 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 15665 (5)
-[SIZE] 2.63 MB, 215 files
+[TIMESTAMP] 1126467877 Sun Sep 11 15:44:37 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 16694 (9)
+[SIZE] 3.02 MB, 225 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] autoconf
 [DEP] bash
 [DEP] bdb33
 [DEP] binutils
+[DEP] bonobo10
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils

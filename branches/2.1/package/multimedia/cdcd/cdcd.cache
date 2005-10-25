@@ -1,13 +1,13 @@
 
-[TIMESTAMP] 1120862311 Sat Jul  9 00:38:31 2005
-[CONFIG-ID] 2.2.0-alpha-x86-pentium-mmx-desktop
-[BUILDTIME] 3328 (9)
+[TIMESTAMP] 1126571854 Mon Sep 12 20:37:34 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2654 (9)
 [SIZE] 0.18 MB, 16 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] dpkg

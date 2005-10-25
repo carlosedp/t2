@@ -1,28 +1,23 @@
 
-[TIMESTAMP] 1117416107 Sun May 29 21:21:47 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 16341 (5)
+[TIMESTAMP] 1126574871 Mon Sep 12 21:27:51 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 16066 (9)
 [SIZE] 3.81 MB, 607 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] digikam
 [DEP] expat
 [DEP] fam
 [DEP] findutils
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
-[DEP] kde-i18n-it
 [DEP] kdelibs
 [DEP] libart_lgpl23
 [DEP] libdnet

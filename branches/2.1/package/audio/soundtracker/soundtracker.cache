@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121675894 Mon Jul 18 04:38:14 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 3684 (5)
+[TIMESTAMP] 1126467029 Sun Sep 11 15:30:29 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4100 (9)
 [SIZE] 0.92 MB, 43 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash
@@ -17,6 +16,7 @@
 [DEP] diffutils
 [DEP] esound
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] gdk-pixbuf10
 [DEP] gettext

@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1121980046 Thu Jul 21 17:07:26 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 10430 (5) ERROR
-[SIZE] 0.01 MB, 8 files
+[TIMESTAMP] 1126460886 Sun Sep 11 13:48:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10366 (9) ERROR
+[SIZE] 0.02 MB, 8 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] autoconf
 [DEP] automake
 [DEP] bash

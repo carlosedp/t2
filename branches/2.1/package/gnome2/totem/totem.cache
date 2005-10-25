@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1118946637 Thu Jun 16 14:30:37 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 10577 (5)
-[SIZE] 3.31 MB, 172 files
+[TIMESTAMP] 1126494278 Sun Sep 11 23:04:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 13869 (9)
+[SIZE] 3.35 MB, 173 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -22,16 +21,26 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
-[DEP] gconf-editor
 [DEP] gettext
+[DEP] ggv
+[DEP] ghex
+[DEP] glade
 [DEP] glib
 [DEP] glibc
+[DEP] gnome-applets
 [DEP] gnome-desktop
 [DEP] gnome-keyring
 [DEP] gnome-libs14
+[DEP] gnome-media
+[DEP] gnome-system-monitor
+[DEP] gnome-system-tools
+[DEP] gnome-terminal
 [DEP] gnome-vfs
+[DEP] gnomemeeting
 [DEP] grep
 [DEP] gtk+
+[DEP] gucharmap
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -42,6 +51,7 @@
 [DEP] libjpeg
 [DEP] libxml
 [DEP] linux-header
+[DEP] lirc
 [DEP] make
 [DEP] mktemp
 [DEP] nautilus
@@ -54,8 +64,10 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
+[DEP] pybliographer
 [DEP] scrollkeeper
 [DEP] sed
+[DEP] sound-juicer
 [DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar

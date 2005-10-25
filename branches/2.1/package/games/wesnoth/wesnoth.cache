@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117375387 Sun May 29 10:03:07 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 87263 (5)
+[TIMESTAMP] 1126532534 Mon Sep 12 09:42:14 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 91414 (9)
 [SIZE] 44.91 MB, 3210 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -33,7 +32,6 @@
 [DEP] libvorbis
 [DEP] linux-header
 [DEP] make
-[DEP] man
 [DEP] mktemp
 [DEP] nas
 [DEP] net-tools

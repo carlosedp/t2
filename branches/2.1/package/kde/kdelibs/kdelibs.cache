@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121604640 Sun Jul 17 08:50:40 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 181544 (5)
-[SIZE] 41.81 MB, 14868 files
+[TIMESTAMP] 1126353536 Sat Sep 10 07:58:56 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 667416 (9)
+[SIZE] 41.80 MB, 26892 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] aspell
@@ -28,9 +27,13 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] graphviz
 [DEP] grep
+[DEP] jack
 [DEP] jasper
 [DEP] libart_lgpl23
+[DEP] libdnet
+[DEP] libdockapp
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad
@@ -55,6 +58,8 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] terminus-font
 [DEP] util-linux
 [DEP] xorg
+[DEP] xorg-cyrillic-fonts
 [DEP] zlib

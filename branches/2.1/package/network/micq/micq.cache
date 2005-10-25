@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117330928 Sat May 28 21:42:08 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5857 (5)
+[TIMESTAMP] 1126492560 Sun Sep 11 22:36:00 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4729 (9)
 [SIZE] 1.81 MB, 85 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -22,11 +21,9 @@
 [DEP] libtasn1
 [DEP] linux-header
 [DEP] make
-[DEP] man
 [DEP] mktemp
 [DEP] net-tools
 [DEP] sed
-[DEP] shadow
 [DEP] sysfiles
 [DEP] tar
 [DEP] tcl

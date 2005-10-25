@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121622593 Sun Jul 17 13:49:53 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 4135 (5)
-[SIZE] 0.48 MB, 114 files
+[TIMESTAMP] 1126381541 Sat Sep 10 15:45:41 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4932 (9)
+[SIZE] 0.49 MB, 118 files
 
-[DEP] 00-dirtree
 [DEP] at-spi
 [DEP] atk
 [DEP] autoconf
@@ -18,6 +17,7 @@
 [DEP] findutils
 [DEP] freetype
 [DEP] gail
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib

@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1121637441 Sun Jul 17 17:57:21 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 15594 (5)
-[SIZE] 6.64 MB, 138 files
+[TIMESTAMP] 1126418561 Sun Sep 11 02:02:41 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 15741 (9)
+[SIZE] 6.31 MB, 132 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -29,10 +29,10 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] gtkhtml
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
-[DEP] libgda
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
@@ -42,7 +42,6 @@
 [DEP] libjpeg
 [DEP] librsvg
 [DEP] libxml
-[DEP] libxslt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117369075 Sun May 29 08:17:55 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 13675 (5)
+[TIMESTAMP] 1126525973 Mon Sep 12 07:52:53 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9809 (9)
 [SIZE] 1.16 MB, 16 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
@@ -13,13 +12,18 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] flac
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libmikmod
+[DEP] libogg
 [DEP] libpng
 [DEP] libsdl
 [DEP] libsdl_net
+[DEP] libsdl_sound
+[DEP] libvorbis
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

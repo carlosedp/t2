@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117274155 Sat May 28 05:55:55 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 16537 (5)
+[TIMESTAMP] 1126442641 Sun Sep 11 08:44:01 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8041 (9)
 [SIZE] 4.75 MB, 832 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -17,6 +16,7 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] gmp
+[DEP] gnustep-gui
 [DEP] gnustep-make
 [DEP] grep
 [DEP] gzip

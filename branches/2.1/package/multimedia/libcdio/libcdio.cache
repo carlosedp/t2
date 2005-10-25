@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121613004 Sun Jul 17 11:10:04 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 8430 (5)
+[TIMESTAMP] 1126364318 Sat Sep 10 10:58:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9341 (9)
 [SIZE] 1.43 MB, 78 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,7 +12,6 @@
 [DEP] diffutils
 [DEP] dpkg
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] gnome-libs14
@@ -30,3 +28,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] vcdimager

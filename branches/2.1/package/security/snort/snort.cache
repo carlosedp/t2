@@ -1,12 +1,10 @@
 
-[TIMESTAMP] 1117395516 Sun May 29 15:38:36 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 12954 (5)
-[SIZE] 2.46 MB, 96 files
+[TIMESTAMP] 1127597950 Sat Sep 24 17:39:10 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4984 (9)
+[SIZE] 10.73 MB, 3700 files
 
 [DEP] 00-dirtree
-[DEP] autoconf
-[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -31,9 +29,7 @@
 [DEP] mysql
 [DEP] net-tools
 [DEP] openssl
-[DEP] patch
 [DEP] pcre
-[DEP] perl
 [DEP] postgresql
 [DEP] sed
 [DEP] sysfiles

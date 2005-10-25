@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1121713489 Mon Jul 18 15:04:49 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 2429 (5)
+[TIMESTAMP] 1126505444 Mon Sep 12 02:10:44 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2761 (9)
 [SIZE] 0.16 MB, 21 files
 
 [DEP] 00-dirtree
@@ -47,4 +47,5 @@
 [DEP] xfixes
 [DEP] xorg
 [DEP] xproto
+[DEP] xrender
 [DEP] xtst

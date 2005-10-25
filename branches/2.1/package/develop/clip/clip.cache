@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117339650 Sun May 29 00:07:30 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 32484 (5)
-[SIZE] 20.70 MB, 1024 files
+[TIMESTAMP] 1126500620 Mon Sep 12 00:50:20 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 16290 (9)
+[SIZE] 20.78 MB, 1026 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -31,6 +31,7 @@
 [DEP] gnome-libs14
 [DEP] gnome-print10
 [DEP] gnomemm12
+[DEP] gnucash
 [DEP] gpm
 [DEP] grep
 [DEP] gtk+
@@ -59,5 +60,6 @@
 [DEP] soup
 [DEP] sysfiles
 [DEP] tar
+[DEP] unixodbc
 [DEP] xorg
 [DEP] zlib

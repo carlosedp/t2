@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1120073882 Wed Jun 29 15:38:02 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 10120 (5)
-[SIZE] 2.92 MB, 115 files
+[TIMESTAMP] 1126561687 Mon Sep 12 17:48:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10994 (9)
+[SIZE] 3.92 MB, 141 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -19,9 +17,11 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
+[DEP] glib
 [DEP] glibc
 [DEP] grep
-[DEP] kdebindings
+[DEP] gst-plugins
+[DEP] gstreamer
 [DEP] kdelibs
 [DEP] libart_lgpl23
 [DEP] libdnet
@@ -34,6 +34,8 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] perl
+[DEP] pkgconfig
+[DEP] popt
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles

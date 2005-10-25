@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117390372 Sun May 29 14:12:52 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5882 (5)
+[TIMESTAMP] 1126547163 Mon Sep 12 13:46:03 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4507 (9)
 [SIZE] 1.83 MB, 35 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -14,7 +13,6 @@
 [DEP] diffutils
 [DEP] findutils
 [DEP] flac
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib12

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117406143 Sun May 29 18:35:43 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2499 (5)
+[TIMESTAMP] 1126565372 Mon Sep 12 18:49:32 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2619 (9)
 [SIZE] 0.11 MB, 17 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,6 +12,7 @@
 [DEP] cyrus-sasl2
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

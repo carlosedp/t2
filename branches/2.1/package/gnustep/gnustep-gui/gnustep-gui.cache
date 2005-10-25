@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117274387 Sat May 28 05:59:47 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 15832 (5)
+[TIMESTAMP] 1126442804 Sun Sep 11 08:46:44 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6300 (9)
 [SIZE] 4.92 MB, 426 files
 
-[DEP] 00-dirtree
 [DEP] aspell
 [DEP] audiofile
 [DEP] bash

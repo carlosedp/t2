@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117386892 Sun May 29 13:14:52 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 9951 (5)
-[SIZE] 1.54 MB, 294 files
+[TIMESTAMP] 1126543701 Mon Sep 12 12:48:21 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10005 (9)
+[SIZE] 1.55 MB, 294 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -15,7 +15,6 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] enlightenment16
 [DEP] esound
 [DEP] findutils
 [DEP] freeglut

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117414220 Sun May 29 20:50:20 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1394 (5)
+[TIMESTAMP] 1126572965 Mon Sep 12 20:56:05 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1495 (9)
 [SIZE] 0.20 MB, 30 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
 [DEP] ccache
@@ -16,7 +15,6 @@
 [DEP] grep
 [DEP] make
 [DEP] patch
-[DEP] samba
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

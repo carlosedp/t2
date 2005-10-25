@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117163156 Thu May 26 23:05:56 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 10098 (3)
-[SIZE] 9.20 MB, 516 files
+[TIMESTAMP] 1126320738 Fri Sep  9 22:52:18 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 11097 (9)
+[SIZE] 9.49 MB, 593 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -11,17 +11,23 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] ghostscript
+[DEP] ghostscript-fonts
 [DEP] glibc
 [DEP] grep
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] netpbm
+[DEP] perl
+[DEP] psutils
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
+[DEP] tcsh
 [DEP] util-linux

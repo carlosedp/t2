@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117222566 Fri May 27 15:36:06 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 12502 (5)
+[TIMESTAMP] 1126366480 Sat Sep 10 11:34:40 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9646 (9)
 [SIZE] 0.88 MB, 23 files
 
 [DEP] 00-dirtree
@@ -20,7 +20,6 @@
 [DEP] glibc
 [DEP] grep
 [DEP] gtk+12
-[DEP] imlib2
 [DEP] libtool
 [DEP] linux-header
 [DEP] m4
