@@ -1,0 +1,42 @@
+
+[TIMESTAMP] 1126373660 Sat Sep 10 13:34:20 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 14407 (9)
+[SIZE] 1.17 MB, 139 files
+
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] autoconf
+[DEP] bash
+[DEP] bdb33
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glib12
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] gtk+12
+[DEP] gtkmm12
+[DEP] imlib
+[DEP] libsigc++1
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] orbit10
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] xorg

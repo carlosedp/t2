@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1126531171 Mon Sep 12 09:19:31 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2144 (9)
+[SIZE] 11.77 MB, 308 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libmikmod
+[DEP] libogg
+[DEP] libsdl
+[DEP] libsdl_mixer
+[DEP] libsdl_perl
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] nas
+[DEP] perl
+[DEP] sed
+[DEP] smpeg
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg

@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1126475527 Sun Sep 11 17:52:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1950 (9)
+[SIZE] 0.21 MB, 17 files
+
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] gkrellm
+[DEP] glib
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] gtk+12
+[DEP] linux-header
+[DEP] make
+[DEP] pango
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xmms
+[DEP] xorg

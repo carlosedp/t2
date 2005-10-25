@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1126362311 Sat Sep 10 10:25:11 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6787 (9)
+[SIZE] 3.09 MB, 311 files
+
+[DEP] acroread
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] dpkg
+[DEP] emacs
+[DEP] file
+[DEP] findutils
+[DEP] flex
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] psutils
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg

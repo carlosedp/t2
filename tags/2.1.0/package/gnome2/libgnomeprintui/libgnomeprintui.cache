@@ -1,0 +1,38 @@
+
+[TIMESTAMP] 1126386431 Sat Sep 10 17:07:11 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5972 (9)
+[SIZE] 1.49 MB, 116 files
+
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-icon-theme
+[DEP] grep
+[DEP] gtk+
+[DEP] libart_lgpl23
+[DEP] libglade
+[DEP] libgnomecanvas
+[DEP] libgnomeprint
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib

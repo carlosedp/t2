@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1126475635 Sun Sep 11 17:53:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2058 (9)
+[SIZE] 0.37 MB, 32 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mysql
+[DEP] openssl
+[DEP] perl
+[DEP] perl-dbi
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib
