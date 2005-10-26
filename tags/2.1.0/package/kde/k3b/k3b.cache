@@ -1,0 +1,52 @@
+
+[TIMESTAMP] 1126471695 Sun Sep 11 16:48:15 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 21939 (9)
+[SIZE] 6.66 MB, 240 files
+
+[DEP] alsa-lib
+[DEP] arts
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] flac
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] id3lib
+[DEP] jack
+[DEP] kdelibs
+[DEP] libart_lgpl23
+[DEP] libdnet
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
+[DEP] libpng
+[DEP] libsamplerate
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] perl
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

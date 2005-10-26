@@ -1,0 +1,45 @@
+
+[TIMESTAMP] 1118906863 Thu Jun 16 03:27:43 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 102258 (5)
+[SIZE] 45.74 MB, 1980 files
+
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] bash
+[DEP] binutils
+[DEP] boost
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] kdebindings
+[DEP] kdelibs
+[DEP] kdeutils
+[DEP] libart_lgpl23
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pcre
+[DEP] perl
+[DEP] python
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

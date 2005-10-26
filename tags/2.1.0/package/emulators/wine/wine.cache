@@ -1,0 +1,49 @@
+
+[TIMESTAMP] 1126478101 Sun Sep 11 18:35:01 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 57206 (9)
+[SIZE] 53.43 MB, 782 files
+
+[DEP] alsa-lib
+[DEP] arts
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] cups
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] freeglut
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] isdn4k-utils
+[DEP] jack
+[DEP] lcms
+[DEP] libexif
+[DEP] libgphoto
+[DEP] libjpeg
+[DEP] libungif
+[DEP] libusb
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] patch
+[DEP] sane-backends
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] valgrind
+[DEP] xorg
+[DEP] zlib

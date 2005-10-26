@@ -1,0 +1,58 @@
+
+[TIMESTAMP] 1129750448 Wed Oct 19 16:34:08 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3551 (9)
+[SIZE] 2.20 MB, 73 files
+
+[DEP] atk
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] epiphany
+[DEP] evolution-data-server
+[DEP] findutils
+[DEP] gcc
+[DEP] gconf
+[DEP] gimp
+[DEP] glib
+[DEP] glibc
+[DEP] gnet
+[DEP] gnome-panel
+[DEP] gnome-vfs
+[DEP] grep
+[DEP] gstreamer
+[DEP] gtk+
+[DEP] gtkdoc
+[DEP] gtksourceview
+[DEP] libbonoboui
+[DEP] libgda
+[DEP] libglade
+[DEP] libgnome
+[DEP] libgnomeprint
+[DEP] libgnomeprintui
+[DEP] libgnomeui
+[DEP] libgsf
+[DEP] libmrproject
+[DEP] librsvg
+[DEP] libwnck
+[DEP] linc
+[DEP] linphone
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] pkgconfig
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] zlib

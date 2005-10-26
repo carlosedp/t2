@@ -1,0 +1,55 @@
+
+[TIMESTAMP] 1126513083 Mon Sep 12 04:18:03 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 44551 (9)
+[SIZE] 10.55 MB, 323 files
+
+[DEP] a52dec
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] freetype
+[DEP] fribidi
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] lame
+[DEP] libdvbpsi3
+[DEP] libdvdnav
+[DEP] libdvdread
+[DEP] libebml
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libid3tag
+[DEP] libmad
+[DEP] libmatroska
+[DEP] libmpeg2
+[DEP] libogg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libtasn1
+[DEP] libvorbis
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mplayer
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] sysfsutils
+[DEP] tar
+[DEP] util-linux
+[DEP] wxwidgets
+[DEP] xorg
+[DEP] zlib

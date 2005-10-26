@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1121729836 Mon Jul 18 19:37:16 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 2235 (5)
+[SIZE] 0.15 MB, 20 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] gtk-sharp2
+[DEP] gtksourceview
+[DEP] libart_lgpl23
+[DEP] libgnomeprint
+[DEP] libtool
+[DEP] libxml
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] mono
+[DEP] mono-doc
+[DEP] net-tools
+[DEP] pango
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
