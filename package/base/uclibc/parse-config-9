@@ -73,7 +73,7 @@ if [ "$SDECFG_LIBC" == "uclibc" ]; then
 	# and some others
 	case "$pkg" in
 		gcc)
-		hook_add postpatch 6 'uclibc_fix_configsub libjava/libltdl/config.sub'
+		hook_add postpatch 6 'uclibc_fix_configsub boehm-gc/config.sub'
 		;;
 		apache|minicom|nmap|expat)
 		hook_add postpatch 6 'uclibc_findall_fix_configsub'
@@ -82,7 +82,7 @@ if [ "$SDECFG_LIBC" == "uclibc" ]; then
 		hook_add postpatch 6 'uclibc_fix_configsub sntp/config.sub'
 		;;
 		lzo)
-		hook_add postpatch 6 'uclibc_fix_configsub autoconf/config.sub'
+		hook_add postpatch 6 'uclibc_fix_configsub acconfig/config.sub'
 		;;
 		binutils)
 		hook_add postpatch 4 'uclibc_fix_addcases ./bfd/config.bfd ./bfd/configure \
@@ -168,9 +168,6 @@ if [ "$SDECFG_LIBC" == "uclibc" ]; then
 		;;
 		libdvdcss|libdvbpsi3|libmpeg2|a52dec)
 		hook_add postpatch 6 'uclibc_fix_configsub ./autotools/config.sub'
-		;;
-		apr|apr-util)
-		hook_add postpatch 6 'uclibc_fix_configsub ./build/config.sub'
 		;;
 	esac
 

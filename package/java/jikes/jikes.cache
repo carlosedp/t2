@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117176684 Fri May 27 02:51:24 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 16129 (5)
+[TIMESTAMP] 1126315274 Fri Sep  9 21:21:14 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 17090 (9)
 [SIZE] 1.81 MB, 23 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -16,7 +15,6 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] java-dirtree
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

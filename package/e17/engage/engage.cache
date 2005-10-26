@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117239254 Fri May 27 20:14:14 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 4558 (5)
-[SIZE] 0.23 MB, 24 files
+[TIMESTAMP] 1127330773 Wed Sep 21 15:26:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4358 (9) ERROR
+[SIZE] 0.23 MB, 25 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -13,35 +13,27 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] directfb
+[DEP] e
 [DEP] ecore
-[DEP] edb
 [DEP] edje
 [DEP] eet
-[DEP] embryo
 [DEP] esmart
 [DEP] evas
 [DEP] ewl
 [DEP] findutils
-[DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] imlib2
-[DEP] libjpeg
-[DEP] libpng
 [DEP] libtool
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] openssl
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xorg
-[DEP] zlib

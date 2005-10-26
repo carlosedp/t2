@@ -1,25 +1,28 @@
 
-[TIMESTAMP] 1117300885 Sat May 28 13:21:25 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2291 (5)
-[SIZE] 0.09 MB, 22 files
+[TIMESTAMP] 1128629683 Thu Oct  6 16:14:43 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3107 (9)
+[SIZE] 0.10 MB, 23 files
 
-[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] file
 [DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] patch
+[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

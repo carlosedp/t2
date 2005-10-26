@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117416683 Sun May 29 21:31:23 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 8106 (5)
-[SIZE] 1.68 MB, 117 files
+[TIMESTAMP] 1126575409 Mon Sep 12 21:36:49 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6672 (9)
+[SIZE] 1.90 MB, 124 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -15,6 +15,7 @@
 [DEP] expat
 [DEP] findutils
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
@@ -36,6 +37,4 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xfce-mcs-manager
-[DEP] xfce-utils
-[DEP] xfwm4
 [DEP] xorg

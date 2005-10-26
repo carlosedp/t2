@@ -13,8 +13,9 @@
 # Foundation; either version 2 of the License, or (at your option) any later
 # version.
 # --- T2-COPYRIGHT-NOTE-END ---
---- rivatv-0.8.6/Makefile.in	2004-07-30 18:43:19.000000000 +0200
-+++ rivatv-0.8.6-patch/Makefile.in	2005-07-23 22:53:21.721763168 +0200
+diff -dur rivatv-0.8.5/Makefile.in rivatv-0.8.5-patch/Makefile.in
+--- rivatv-0.8.5/Makefile.in	2004-03-15 21:21:17.000000000 +0100
++++ rivatv-0.8.5-patch/Makefile.in	2004-06-18 09:31:53.000000000 +0200
 @@ -100,7 +100,7 @@
  	  else \
  	    install -m 644 -o 0 -g 0 $$ofiles $(MODULES)$(MOD_DEST); \
@@ -24,17 +25,19 @@
  	  echo; \
  	  echo "RivaTV installed."; \
  	  echo "To load RivaTV, login as root and \`modprobe rivatv\`."; \
-@@ -109,11 +109,11 @@
+@@ -108,12 +108,12 @@
+ 	fi
  
  install-ko:
- 	install -m 644 -o 0 -g 0 $(TARGETS:.o=.ko) $(MODULES)$(MOD_DEST); \
+-	install -m 644 -o 0 -g 0 $(TARGETS:.o=.ko) $(MODULES)$(MOD_DEST); \
 -	$(DEPMOD);
-+	
++	install -m 644 -o 0 -g 0 $(TARGETS:.o=.ko) $(MODULES)$(MOD_DEST); 
++
  
  uninstall:
  	@(cd $(MODULES)$(MOD_DEST) && rm -f $(SOURCES:src/%.c=%.o) $(BTTV_SOURCES:bttv/%.c=%.o) rivatv.o)
 -	@$(DEPMOD)
-+	
++
  	@echo
  	@echo RivaTV uninstalled.
  	@echo

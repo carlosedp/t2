@@ -1,14 +1,14 @@
 
-[TIMESTAMP] 1117203972 Fri May 27 10:26:12 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 19754 (5)
-[SIZE] 33.03 MB, 2917 files
+[TIMESTAMP] 1126333926 Sat Sep 10 02:32:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 17536 (9)
+[SIZE] 44.61 MB, 3813 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdb
 [DEP] bdb33
 [DEP] binutils
+[DEP] bluez-libs
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
@@ -19,6 +19,7 @@
 [DEP] gdbm
 [DEP] glibc
 [DEP] grep
+[DEP] kdebindings
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

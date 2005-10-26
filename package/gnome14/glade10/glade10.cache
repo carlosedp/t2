@@ -1,15 +1,15 @@
 
-[TIMESTAMP] 1117263065 Sat May 28 02:51:05 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 12203 (5)
+[TIMESTAMP] 1126430779 Sun Sep 11 05:26:19 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9411 (9)
 [SIZE] 3.61 MB, 230 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] anjuta
 [DEP] audiofile
 [DEP] autoconf
 [DEP] automake
+[DEP] balsa
 [DEP] bash
 [DEP] battfink
 [DEP] bdb33
@@ -23,6 +23,7 @@
 [DEP] eog
 [DEP] epiphany
 [DEP] esound
+[DEP] evince
 [DEP] file-roller
 [DEP] findutils
 [DEP] gawk
@@ -32,8 +33,10 @@
 [DEP] gdm
 [DEP] gedit
 [DEP] gettext
+[DEP] ghex12
 [DEP] glib12
 [DEP] glibc
+[DEP] gnome-applets
 [DEP] gnome-desktop
 [DEP] gnome-doc-utils
 [DEP] gnome-libs14
@@ -44,6 +47,7 @@
 [DEP] grep
 [DEP] gtk+12
 [DEP] imlib
+[DEP] libgda
 [DEP] linux-header
 [DEP] lock-keys-applet
 [DEP] make
@@ -59,3 +63,4 @@
 [DEP] texinfo
 [DEP] util-linux
 [DEP] xorg
+[DEP] zapping

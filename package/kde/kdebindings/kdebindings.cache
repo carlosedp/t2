@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117261361 Sat May 28 02:22:41 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 347835 (5)
-[SIZE] 30.73 MB, 160 files
+[TIMESTAMP] 1118883293 Wed Jun 15 20:54:53 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 293775 (5)
+[SIZE] 30.83 MB, 160 files
 
 [DEP] 00-dirtree
 [DEP] arts

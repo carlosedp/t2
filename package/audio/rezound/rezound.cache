@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117404473 Sun May 29 18:07:53 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 61059 (5)
-[SIZE] 4.09 MB, 24 files
+[TIMESTAMP] 1126563597 Mon Sep 12 18:19:57 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 65999 (9)
+[SIZE] 4.81 MB, 26 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] autoconf
@@ -37,7 +36,6 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
 [DEP] perl
 [DEP] pkgconfig
 [DEP] sed

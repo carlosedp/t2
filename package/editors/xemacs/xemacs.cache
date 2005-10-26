@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117219364 Fri May 27 14:42:44 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 15132 (5)
-[SIZE] 23.84 MB, 1299 files
+[TIMESTAMP] 1126362804 Sat Sep 10 10:33:24 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8995 (9)
+[SIZE] 25.81 MB, 1300 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -19,6 +18,7 @@
 [DEP] gpm
 [DEP] grep
 [DEP] lesstif
+[DEP] libdnet
 [DEP] libelf
 [DEP] libjpeg
 [DEP] libpng
@@ -32,5 +32,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] xemacs-packages
 [DEP] xorg
 [DEP] zlib

@@ -1,12 +1,10 @@
 
-[TIMESTAMP] 1117360971 Sun May 29 06:02:51 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 84455 (5)
+[TIMESTAMP] 1126519927 Mon Sep 12 06:12:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 61260 (9)
 [SIZE] 2.29 MB, 78 files
 
-[DEP] 00-dirtree
 [DEP] aqbanking
-[DEP] aqhbci-qt
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2

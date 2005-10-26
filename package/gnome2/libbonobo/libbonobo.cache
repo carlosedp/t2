@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117230732 Fri May 27 17:52:12 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 16242 (5)
+[TIMESTAMP] 1126374489 Sat Sep 10 13:48:09 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 12441 (9)
 [SIZE] 3.05 MB, 193 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -14,7 +13,6 @@
 [DEP] diffutils
 [DEP] findutils
 [DEP] flex
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
@@ -27,7 +25,6 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] orbit2
-[DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig

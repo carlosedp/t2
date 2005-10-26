@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117319337 Sat May 28 18:28:57 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 41743 (5)
+[TIMESTAMP] 1126481097 Sun Sep 11 19:24:57 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 16137 (9)
 [SIZE] 14.81 MB, 123 files
 
 [DEP] 00-dirtree
@@ -24,7 +24,6 @@
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] freefonts
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -32,7 +31,6 @@
 [DEP] glib12
 [DEP] glibc
 [DEP] gnome-libs14
-[DEP] gnome-print10
 [DEP] grep
 [DEP] gtk+12
 [DEP] jack
@@ -43,15 +41,16 @@
 [DEP] libdv
 [DEP] libjpeg
 [DEP] libmad
+[DEP] libogg
 [DEP] libpng
 [DEP] libsdl
+[DEP] libtheora
 [DEP] libungif
 [DEP] linux-header
 [DEP] live
 [DEP] lzo
-[DEP] magicpoint
 [DEP] make
-[DEP] microsoft-web-core-fonts
+[DEP] mplayer-fonts
 [DEP] nas
 [DEP] ncurses
 [DEP] patch
@@ -60,10 +59,8 @@
 [DEP] slang
 [DEP] sysfiles
 [DEP] tar
-[DEP] terminus-font
 [DEP] tex-ttf
 [DEP] xmms
 [DEP] xorg
-[DEP] xorg-cyrillic-fonts
 [DEP] xvid
 [DEP] zlib

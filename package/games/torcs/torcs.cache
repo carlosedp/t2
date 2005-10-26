@@ -1,26 +1,34 @@
 
-[TIMESTAMP] 1117387409 Sun May 29 13:23:29 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 27708 (5)
-[SIZE] 194.47 MB, 2610 files
+[TIMESTAMP] 1126544221 Mon Sep 12 12:57:01 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 30055 (9)
+[SIZE] 219.85 MB, 2689 files
 
-[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] esound
 [DEP] findutils
 [DEP] freeglut
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libogg
 [DEP] libpng
+[DEP] libsdl
+[DEP] libvorbis
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
+[DEP] nas
 [DEP] net-tools
+[DEP] openal
 [DEP] patch
 [DEP] plib
 [DEP] sed

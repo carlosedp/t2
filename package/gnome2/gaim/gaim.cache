@@ -1,13 +1,10 @@
 
-[TIMESTAMP] 1117316766 Sat May 28 17:46:06 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 30964 (5)
-[SIZE] 10.94 MB, 496 files
+[TIMESTAMP] 1126479515 Sun Sep 11 18:58:35 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 23406 (9)
+[SIZE] 11.91 MB, 502 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
-[DEP] alsa-tools
-[DEP] amule
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
@@ -33,6 +30,7 @@
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
+[DEP] howl
 [DEP] libao
 [DEP] libbonobo
 [DEP] libgcrypt

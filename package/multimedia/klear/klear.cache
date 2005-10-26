@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117318803 Sat May 28 18:20:03 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 10322 (5)
-[SIZE] 0.53 MB, 7 files
+[TIMESTAMP] 1129665683 Tue Oct 18 17:01:23 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3229 (9)
+[SIZE] 1.16 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -13,8 +13,10 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
+[DEP] fam
 [DEP] findutils
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -24,6 +26,7 @@
 [DEP] libpng
 [DEP] linux-header
 [DEP] make
+[DEP] perl
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles

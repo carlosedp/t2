@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117285146 Sat May 28 08:59:06 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2251 (5)
-[SIZE] 0.16 MB, 15 files
+[TIMESTAMP] 1127162023 Mon Sep 19 16:33:43 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2160 (9)
+[SIZE] 0.20 MB, 15 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bluez-libs

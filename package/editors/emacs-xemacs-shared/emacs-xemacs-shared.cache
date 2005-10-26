@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117218761 Fri May 27 14:32:41 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5527 (5)
+[TIMESTAMP] 1126362427 Sat Sep 10 10:27:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6197 (9)
 [SIZE] 0.16 MB, 17 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
@@ -21,6 +20,7 @@
 [DEP] gpm
 [DEP] grep
 [DEP] lesstif
+[DEP] libdnet
 [DEP] libelf
 [DEP] libjpeg
 [DEP] libpng

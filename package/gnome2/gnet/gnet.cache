@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117265430 Sat May 28 03:30:30 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5842 (5)
+[TIMESTAMP] 1126434655 Sun Sep 11 06:30:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5306 (9)
 [SIZE] 0.92 MB, 80 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117417174 Sun May 29 21:39:34 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1697 (5)
-[SIZE] 0.08 MB, 10 files
+[TIMESTAMP] 1126575927 Mon Sep 12 21:45:27 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3082 (9)
+[SIZE] 0.09 MB, 15 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -24,9 +23,12 @@
 [DEP] libotr
 [DEP] linux-header
 [DEP] make
+[DEP] mktemp
+[DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xorg

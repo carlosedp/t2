@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1121384793 Fri Jul 15 01:46:33 2005
-[CONFIG-ID] 2.2.0-alpha-x86-athlon-xp-desktop
-[BUILDTIME] 40408 (9)
-[SIZE] 48.79 MB, 136 files
+[TIMESTAMP] 1126578856 Mon Sep 12 22:34:16 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 47439 (9)
+[SIZE] 8.68 MB, 136 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -37,6 +36,6 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxwidgets
+[DEP] wxwidgets24
 [DEP] xorg
 [DEP] zlib

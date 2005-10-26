@@ -1,23 +1,24 @@
 
-[TIMESTAMP] 1117295830 Sat May 28 11:57:10 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 27769 (5)
-[SIZE] 0.04 MB, 10 files
+[TIMESTAMP] 1126462427 Sun Sep 11 14:13:47 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8889 (9)
+[SIZE] 18.29 MB, 966 files
 
 [DEP] 00-dirtree
 [DEP] arts
+[DEP] autoconf
 [DEP] bash
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
 [DEP] kdelibs
+[DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools

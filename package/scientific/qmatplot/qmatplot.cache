@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1117297489 Sat May 28 12:24:49 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 43206 (5)
-[SIZE] 2.09 MB, 31 files
+[TIMESTAMP] 1126463592 Sun Sep 11 14:33:12 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 29187 (9)
+[SIZE] 2.09 MB, 32 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -21,7 +19,7 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] kdelibs
+[DEP] libdnet
 [DEP] libjpeg
 [DEP] libpng
 [DEP] linux-header

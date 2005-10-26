@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117227541 Fri May 27 16:59:01 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 8552 (5)
-[SIZE] 4.85 MB, 139 files
+[TIMESTAMP] 1126371908 Sat Sep 10 13:05:08 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 7250 (9)
+[SIZE] 5.02 MB, 140 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -22,7 +21,6 @@
 [DEP] glibc
 [DEP] grep
 [DEP] gtk+
-[DEP] gtkdoc
 [DEP] libxml
 [DEP] linux-header
 [DEP] make

@@ -63,7 +63,8 @@ read ttydevs
 [ -z "$ttydevs" ] && ttydevs="vc/1 vc/2 vc/3 vc/4 vc/5 vc/6"
 
 echo
-echo 'Just type "stone" now, if you want to perform a normal installation of T2 '
+echo 'Just type "stone" now if you want to make a normal installation of a T2'
+echo -n 'Linux build '
 if type -p dialog > /dev/null ; then
 	echo '(or type "stone -text" if you prefer non-dialog based menus).'
 else

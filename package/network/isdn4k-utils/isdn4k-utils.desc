@@ -34,7 +34,8 @@
 
 [L] GPL
 [S] Stable
-[V] 3.8-CVS
+[V] 3.2p1
 [P] X -----5---9 119.400
 
-[D] 1479718642 isdn4k-utils-CVS-2005-08-21.tar.bz2 ftp://ftp.isdn4linux.de/pub/isdn4linux/CVS-Snapshots/
+[D] 236125455 isdn4k-utils.v3.2p1.tar.bz2 ftp://ftp.franken.de/pub/isdn4linux/utils/
+

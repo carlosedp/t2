@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117203140 Fri May 27 10:12:20 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 54187 (5)
-[SIZE] 28.07 MB, 1089 files
+[TIMESTAMP] 1126343026 Sat Sep 10 05:03:46 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 41662 (9)
+[SIZE] 28.10 MB, 1095 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils

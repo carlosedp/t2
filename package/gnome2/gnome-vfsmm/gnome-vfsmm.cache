@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117238917 Fri May 27 20:08:37 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 10781 (5)
+[TIMESTAMP] 1126394599 Sat Sep 10 19:23:19 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 11582 (9)
 [SIZE] 0.48 MB, 70 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -19,6 +18,7 @@
 [DEP] glibmm
 [DEP] gnome-vfs
 [DEP] grep
+[DEP] howl
 [DEP] libbonobo
 [DEP] libsigc++
 [DEP] libxml

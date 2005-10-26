@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117424902 Sun May 29 23:48:22 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 4667 (7)
+[TIMESTAMP] 1126363633 Sat Sep 10 10:47:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4718 (9)
 [SIZE] 2.90 MB, 37 files
 
 [DEP] bash
@@ -17,6 +17,7 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] latex2html
 [DEP] libpng
 [DEP] linux-header
 [DEP] make

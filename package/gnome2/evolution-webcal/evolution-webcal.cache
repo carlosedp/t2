@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117266245 Sat May 28 03:44:05 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2393 (5)
-[SIZE] 0.31 MB, 65 files
+[TIMESTAMP] 1126435419 Sun Sep 11 06:43:39 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2776 (9)
+[SIZE] 0.38 MB, 69 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -29,6 +28,7 @@
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui

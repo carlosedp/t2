@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117246284 Fri May 27 22:11:24 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 222042 (5)
-[SIZE] 41.30 MB, 3305 files
+[TIMESTAMP] 1128639752 Thu Oct  6 19:02:32 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 69616 (9)
+[SIZE] 41.40 MB, 3304 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -10,6 +10,7 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
+[DEP] control-center
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
@@ -24,10 +25,12 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] libbonobo
+[DEP] libdnet
 [DEP] libgnome
 [DEP] libidl
 [DEP] linux-header
 [DEP] make
+[DEP] nautilus-cd-burner
 [DEP] net-tools
 [DEP] orbit2
 [DEP] pango

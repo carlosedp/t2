@@ -5,11 +5,8 @@
 s,^http://ftp.gnu.org/gnu/,http://www.mirror.ac.uk/mirror/ftp.gnu.org/gnu/,
 s,^http://www.mysql.org/Downloads/,http://www.mirror.ac.uk/sites/www.mysql.org/Downloads/,
 
-#s,^ftp://ftp.kde.org/pub/kde/,http://ibiblio.org/pub/mirrors/kde/,
+s,^ftp://ftp.kde.org/pub/kde/,http://ibiblio.org/pub/mirrors/kde/,
 
 # loadbalancer is working weird these days
 s,^http://.*dl.\(sourceforge\|sf\).net/,http://easynews.dl.sourceforge.net/,
 
-# ftp connection blocks once in a while
-s,^ftp://ftp.gnupg.org,http://ftp.gnupg.org,
-s,^ftp://ftp.kernel.org,http://ftp.kernel.org,

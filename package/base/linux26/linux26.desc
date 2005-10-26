@@ -30,10 +30,11 @@
 
 [L] GPL
 [S] Stable
-[V] 2.6.13.3
+[V] 2.6.11.12
 [P] X -1---5---9 102.060
 
-[SRC] linux-
-[D] 1362512778 linux-2.6.13.tar.bz2 http://ftp.kernel.org/pub/linux/kernel/v2.6/
-[D] 2478457410 patch-2.6.13.3.bz2 http://ftp.kernel.org/pub/linux/kernel/v2.6/
-#[D] 0 software-suspend-2.1.9.9-for-2.6.13.tar.bz2 http://www.suspend2.net/downloads/all/
+[O] . $base/package/*/linux24/linux24.conf
+
+[D] 12753856 linux-2.6.11.tar.bz2 ftp://ftp.kernel.org/pub/linux/kernel/v2.6/
+[D] 3443693272 patch-2.6.11.12.bz2 http://www.kernel.org/pub/linux/kernel/v2.6/
+

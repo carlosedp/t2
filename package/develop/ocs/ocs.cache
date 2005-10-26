@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1118113276 Mon Jun  6 23:01:16 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 10353 (5) ERROR
+[TIMESTAMP] 1126546006 Mon Sep 12 13:26:46 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3275 (9) ERROR
 [SIZE] 7.06 MB, 1037 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -18,7 +17,6 @@
 [DEP] grep
 [DEP] libdnet
 [DEP] linux-header
-[DEP] m4
 [DEP] make
 [DEP] ncurses
 [DEP] net-tools

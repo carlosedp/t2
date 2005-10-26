@@ -31,3 +31,4 @@ menu_begin MENU_PKG_XFREE86 'XFree86 Options'
 
 menu_end
 fi
+

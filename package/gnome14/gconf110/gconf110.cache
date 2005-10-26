@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117232382 Fri May 27 18:19:42 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 8222 (5)
-[SIZE] 1.97 MB, 92 files
+[TIMESTAMP] 1129750555 Wed Oct 19 16:35:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6052 (9)
+[SIZE] 1.98 MB, 92 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] autoconf
 [DEP] automake
@@ -16,34 +15,48 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] epiphany
+[DEP] evolution-data-server
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gconf
 [DEP] gettext
+[DEP] gimp
 [DEP] glib
 [DEP] glib12
 [DEP] glibc
-[DEP] gmime
+[DEP] gnet
 [DEP] gnome-libs14
+[DEP] gnome-panel
 [DEP] gnome-vfs
 [DEP] grep
+[DEP] gstreamer
 [DEP] gtk+
 [DEP] gtk+12
 [DEP] gtkdoc
+[DEP] gtksourceview
 [DEP] guile
 [DEP] indent
+[DEP] libbonoboui
+[DEP] libgda
 [DEP] libglade
-[DEP] libgnomecanvas
+[DEP] libgnome
+[DEP] libgnomeprint
+[DEP] libgnomeprintui
+[DEP] libgnomeui
+[DEP] libgsf
+[DEP] libmrproject
+[DEP] librsvg
+[DEP] libwnck
 [DEP] libxml1
 [DEP] linc
+[DEP] linphone
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] oaf10
 [DEP] orbit10
-[DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] pkgconfig

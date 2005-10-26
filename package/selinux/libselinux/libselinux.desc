@@ -31,10 +31,10 @@
 
 [C] extra/security
 
-[L] GPL 
+[L] PublicDomain 
 [S] Stable
-[V] 1.26
-[P] O -1---5---9 178.000
+[V] 1.22
+[P] O -----5---9 811.003
 
-[D] 2496875491 libselinux-1.26.tgz http://www.nsa.gov/selinux/archives/
+[D] 2928240151 libselinux-1.22.tgz http://www.nsa.gov/selinux/archives/
 

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117358521 Sun May 29 05:22:01 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3067 (5)
-[SIZE] 0.16 MB, 20 files
+[TIMESTAMP] 1126518469 Mon Sep 12 05:47:49 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3089 (9)
+[SIZE] 0.17 MB, 20 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison

@@ -14,45 +14,28 @@
 
 alter_arch()
 {
-	case "$SDECFG_SPARC64_OPT" in
-		v9vis) x=v9b ;;
-		*) x=v9 ;;
-	esac
-
-	echo_status "Altering arch_{machine,target} to sparc$x ..."
+	echo_status "Altering arch_{machine,target} to sparc ..."
 	# tweak target and other defines
-	arch_machine=${arch_machine/64/$x}
-	arch_target=${arch_target/64/$x}
-	[ "$stagelevel" -gt 1 ] && arch_build=${arch_build/64/$x}
+	arch_machine=${arch_machine/64/}
+	arch_target=${arch_target/64/}
+	[ "$stagelevel" -gt 1 ] && arch_build=${arch_build/64/}
 
 	# let the libdir and configure options regenerate
 	set_confopt
 }
 
 if [ "$SDECFG_SPARC64_32BIT" = 1 ]; then
-  # TODO: make dietlibc parse-config -7 (or so) and this one -9 (or so) ,-)
-  x="${pkg//-/_}" ; x="${x//+/_}"
-  eval x=\$SDECFG_DIETLIBC_$x
-  if [ "$x" = 1 ]; then
-	echo_status "Building package for 64bit ..."
-	var_append GCC_WRAPPER_INSERT ' ' '-m64'
-  else
-  	case $pkg in
+  case $pkg in
 	gcc)
 		echo_status "Patching package to default to -m32 ..."
 		var_append patchfiles ' ' \
 		           "$base/architecture/$arch/pkg_gcc-m32-default.diff"
 		;;
-	glibc|dietlibc)
-		echo_status "Building for 64bit ..."
-		var_append GCC_WRAPPER_INSERT ' ' '-m64'
-		;;
-	linux2*|binutils)
+	linux2*|glibc)
 		: ;;
-	*) # including glibc32
+	*)
 		alter_arch
 		;;
-	esac
-  fi
+  esac
 fi
 

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117270373 Sat May 28 04:52:53 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 25395 (5)
-[SIZE] 3.59 MB, 41 files
+[TIMESTAMP] 1126439364 Sun Sep 11 07:49:24 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 25906 (9)
+[SIZE] 3.60 MB, 41 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils

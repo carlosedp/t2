@@ -1,15 +1,15 @@
 
-[TIMESTAMP] 1117239440 Fri May 27 20:17:20 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5268 (5)
+[TIMESTAMP] 1126396954 Sat Sep 10 20:02:34 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5935 (9)
 [SIZE] 0.23 MB, 53 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] cairo
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
@@ -21,14 +21,17 @@
 [DEP] embryo
 [DEP] esmart
 [DEP] evas
+[DEP] expat
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
 [DEP] imlib2
 [DEP] libjpeg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
 [DEP] linux-header

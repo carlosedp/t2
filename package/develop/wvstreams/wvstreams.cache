@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1117307503 Sat May 28 15:11:43 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 13870 (5)
-[SIZE] 4.60 MB, 235 files
+[TIMESTAMP] 1126472176 Sun Sep 11 16:56:16 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 7717 (9)
+[SIZE] 4.80 MB, 238 files
 
-[DEP] 00-dirtree
-[DEP] alien
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
@@ -15,6 +13,7 @@
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
+[DEP] fftw
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk

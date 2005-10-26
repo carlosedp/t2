@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1117347779 Sun May 29 02:22:59 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 16854 (5)
-[SIZE] 10.74 MB, 562 files
+[TIMESTAMP] 1126508335 Mon Sep 12 02:58:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9669 (9)
+[SIZE] 10.78 MB, 565 files
 
-[DEP] 00-dirtree
-[DEP] alien
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
@@ -33,4 +31,5 @@
 [DEP] sqlite2
 [DEP] sysfiles
 [DEP] tar
+[DEP] unixodbc
 [DEP] xorg

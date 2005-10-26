@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117287187 Sat May 28 09:33:07 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 68414 (5)
-[SIZE] 18.04 MB, 2522 files
+[TIMESTAMP] 1126453578 Sun Sep 11 11:46:18 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 43797 (9)
+[SIZE] 18.06 MB, 2522 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
@@ -25,8 +24,10 @@
 [DEP] glib
 [DEP] glibc
 [DEP] grep
+[DEP] jack
 [DEP] kdelibs
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad

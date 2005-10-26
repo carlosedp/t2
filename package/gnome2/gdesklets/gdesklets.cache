@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117380686 Sun May 29 11:31:26 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 7551 (5)
-[SIZE] 2.43 MB, 674 files
+[TIMESTAMP] 1121740322 Mon Jul 18 22:32:02 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 7317 (5)
+[SIZE] 2.41 MB, 646 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -16,7 +16,6 @@
 [DEP] diffutils
 [DEP] esound
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gconf
 [DEP] gettext
@@ -43,7 +42,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] mono-develop
 [DEP] net-tools
 [DEP] numpy
 [DEP] openssl

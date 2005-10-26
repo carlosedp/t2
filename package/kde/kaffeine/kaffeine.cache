@@ -1,19 +1,17 @@
 
-[TIMESTAMP] 1123436502 Sun Aug  7 19:41:42 2005
-[CONFIG-ID] 2.2.0-alpha-powerpc-powerpc-750-desktop
-[BUILDTIME] 70464 (9)
-[SIZE] 8.85 MB, 145 files
+[TIMESTAMP] 1126561687 Mon Sep 12 17:48:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10994 (9)
+[SIZE] 3.92 MB, 141 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
-[DEP] file
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
@@ -26,6 +24,7 @@
 [DEP] gstreamer
 [DEP] kdelibs
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117264350 Sat May 28 03:12:30 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 16147 (5)
+[TIMESTAMP] 1127331533 Wed Sep 21 15:38:53 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5072 (9) ERROR
 [SIZE] 2.77 MB, 177 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -21,6 +20,7 @@
 [DEP] libdv
 [DEP] libjpeg
 [DEP] libpng
+[DEP] libquicktime
 [DEP] libsdl
 [DEP] linux-header
 [DEP] make

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1117363362 Sun May 29 06:42:42 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 56602 (5)
+[TIMESTAMP] 1121726961 Mon Jul 18 18:49:21 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 39646 (5)
 [SIZE] 31.10 MB, 903 files
 
 [DEP] 00-dirtree
@@ -30,7 +30,6 @@
 [DEP] gnome-keyring
 [DEP] gnome-libs14
 [DEP] gnome-vfs
-[DEP] goffice
 [DEP] grep
 [DEP] gtk+
 [DEP] gtksourceview

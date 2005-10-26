@@ -1,10 +1,12 @@
 
-[TIMESTAMP] 1117205513 Fri May 27 10:51:53 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 58587 (5)
-[SIZE] 35.92 MB, 738 files
+[TIMESTAMP] 1130274365 Tue Oct 25 18:06:05 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 29743 (9)
+[SIZE] 38.92 MB, 766 files
 
 [DEP] 00-dirtree
+[DEP] acl
+[DEP] attr
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -18,6 +20,7 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libcap
 [DEP] linux-header
 [DEP] m4
 [DEP] make

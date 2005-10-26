@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117336701 Sat May 28 23:18:21 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1185 (5)
-[SIZE] 0.28 MB, 41 files
+[TIMESTAMP] 1126498094 Mon Sep 12 00:08:14 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1513 (9)
+[SIZE] 0.29 MB, 41 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
 [DEP] ccache

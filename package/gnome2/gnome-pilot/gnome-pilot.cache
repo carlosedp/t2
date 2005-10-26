@@ -1,14 +1,12 @@
 
-[TIMESTAMP] 1117263904 Sat May 28 03:05:04 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 11806 (5)
-[SIZE] 2.15 MB, 129 files
+[TIMESTAMP] 1126432829 Sun Sep 11 06:00:29 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10960 (9)
+[SIZE] 2.21 MB, 133 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
-[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -32,6 +30,7 @@
 [DEP] gob
 [DEP] grep
 [DEP] gtk+
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -57,7 +56,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux
 [DEP] xorg
 [DEP] zlib

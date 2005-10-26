@@ -30,9 +30,11 @@
 
 [L] GPL
 [S] Stable
-[V] 3.4.3
+[V] 3.4.1
 [P] X -----5---9 166.700
 
 [O] . $base/package/*/*/kde-conf.in
 
-[D] 3637296191 kde-i18n-fr-3.4.3.tar.bz2 ftp://ftp.kde.org/pub/kde/stable/3.4.3/src/kde-i18n/
+#[D] 0 kde-i18n-fr-3.4.1-rc1.tar.bz2 ftp://ftp.kde.org/pub/kde/stable/3.4.1/src/kde-i18n/
+[D] 1693051686 kde-i18n-fr-3.4.1.tar.bz2 ftp://ftp.kde.org/pub/kde/stable/3.4.1/src/kde-i18n/
+

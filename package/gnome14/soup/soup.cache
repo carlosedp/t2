@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117263361 Sat May 28 02:56:01 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 6163 (5)
+[TIMESTAMP] 1126431560 Sun Sep 11 05:39:20 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5293 (9)
 [SIZE] 0.72 MB, 64 files
 
-[DEP] 00-dirtree
 [DEP] apache
 [DEP] apr
 [DEP] apr-util

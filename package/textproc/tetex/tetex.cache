@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117216927 Fri May 27 14:02:07 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 57149 (5)
-[SIZE] 352.99 MB, 19619 files
+[TIMESTAMP] 1126360517 Sat Sep 10 09:55:17 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 32731 (9)
+[SIZE] 353.03 MB, 19620 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -23,6 +22,7 @@
 [DEP] gpm
 [DEP] grep
 [DEP] lesstif
+[DEP] libdnet
 [DEP] linux-header
 [DEP] m4
 [DEP] make

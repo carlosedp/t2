@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117315128 Sat May 28 17:18:48 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 128552 (5)
-[SIZE] 49.26 MB, 776 files
+[TIMESTAMP] 1126478101 Sun Sep 11 18:35:01 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 57206 (9)
+[SIZE] 53.43 MB, 782 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] bash

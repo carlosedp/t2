@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117341110 Sun May 29 00:31:50 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1266 (5)
-[SIZE] 0.13 MB, 18 files
+[TIMESTAMP] 1129678820 Tue Oct 18 20:40:20 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1705 (9)
+[SIZE] 0.19 MB, 19 files
 
 [DEP] bash
 [DEP] binutils
@@ -10,12 +10,14 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] e2fsprogs
 [DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] linux-header
 [DEP] make
+[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117840385 Fri Jun  3 19:13:05 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 13936 (5)
-[SIZE] 2.11 MB, 123 files
+[TIMESTAMP] 1126433623 Sun Sep 11 06:13:43 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10256 (9)
+[SIZE] 2.34 MB, 130 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -29,19 +28,19 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] gnome-desktop
 [DEP] gnome-keyring
-[DEP] gnome-menus
-[DEP] gnome-mime-data
 [DEP] gnome-vfs
 [DEP] gnupg
+[DEP] gnutls
 [DEP] gpgme
 [DEP] grep
 [DEP] gtk+
 [DEP] gtksourceview
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
+[DEP] libgcrypt
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
@@ -50,6 +49,8 @@
 [DEP] libgnomeui
 [DEP] libgpg-error
 [DEP] libjpeg
+[DEP] libsoup
+[DEP] libtasn1
 [DEP] libxml
 [DEP] linux-header
 [DEP] make
@@ -66,7 +67,6 @@
 [DEP] popt
 [DEP] scrollkeeper
 [DEP] sed
-[DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1123577785 Tue Aug  9 10:56:25 2005
-[CONFIG-ID] 2.2.0-alpha-x86-athlon-xp-generic
-[BUILDTIME] 4991 (9)
-[SIZE] 0.98 MB, 39 files
+[TIMESTAMP] 1126573186 Mon Sep 12 20:59:46 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4241 (9)
+[SIZE] 0.63 MB, 21 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -13,7 +12,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

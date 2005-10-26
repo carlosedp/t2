@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117235517 Fri May 27 19:11:57 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 4059 (5)
-[SIZE] 0.42 MB, 93 files
+[TIMESTAMP] 1126386203 Sat Sep 10 17:03:23 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4408 (9)
+[SIZE] 0.45 MB, 98 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -20,6 +19,7 @@
 [DEP] glibc
 [DEP] gnome-vfs
 [DEP] grep
+[DEP] howl
 [DEP] libbonobo
 [DEP] libxml
 [DEP] linux-header
@@ -28,7 +28,6 @@
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
-[DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig

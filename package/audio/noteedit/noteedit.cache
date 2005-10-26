@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117390231 Sun May 29 14:10:31 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 38243 (5)
+[TIMESTAMP] 1126546984 Mon Sep 12 13:43:04 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 29883 (9)
 [SIZE] 5.50 MB, 773 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
@@ -22,11 +21,13 @@
 [DEP] findutils
 [DEP] flex
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] grep
+[DEP] jack
 [DEP] kdelibs
 [DEP] kdemultimedia
 [DEP] libart_lgpl23

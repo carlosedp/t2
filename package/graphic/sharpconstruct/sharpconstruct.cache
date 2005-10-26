@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117423327 Sun May 29 23:22:07 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 12722 (5)
-[SIZE] 1.44 MB, 75 files
+[TIMESTAMP] 1126605581 Tue Sep 13 05:59:41 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 13484 (9)
+[SIZE] 0.95 MB, 22 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -12,13 +11,12 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] freetype
 [DEP] gawk
 [DEP] gcc
-[DEP] glib
-[DEP] glib12
 [DEP] glibc
-[DEP] gnugts
 [DEP] grep
+[DEP] imlib2
 [DEP] libsigc++
 [DEP] linux-header
 [DEP] make
@@ -30,3 +28,4 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xorg
+[DEP] zlib

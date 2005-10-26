@@ -16,13 +16,12 @@
 
 exec 2>&1
 
-blacklist=" 00-dirtree binutils gcc glibc glibc32 uclibc linux24 linux26 linux-header "
+blacklist=" glibc glibc23 uclibc 00-dirtree linux24 linux26 "
 
 options=''
 config=default
 deps=fast
 debug=0
-downloadonly=0
 verbose=1
 ignore_chksum=1
 update=1
@@ -36,14 +35,14 @@ system=0
 # ----  Functions
 #
 
-. scripts/functions.in
+. scripts/functions
 
 help_msg() {
 	spacer="                 "
 	echo
 	echo "Usage: Emerge-Pkg [ -cfg <config> ] [ -dry-run ] [ -force ] [ -noupdate ]"
 	echo "$spacer [ -consider-chksum ] [ -norebuild ]"
-	echo "$spacer [ -deps=none|fast|indirect ] [ -download-only ]"
+	echo "$spacer [ -deps=none|fast|indirect ]"
 	echo "$spacer [ -repository repository-name ] [ -system ] [ pkg-name(s) ]"
 	echo
 	echo "pkg-name(s) are only optional if a repository is specified."
@@ -68,10 +67,8 @@ while [ "$1" ] ; do
 		-noupdate) update=0 ;;
 		-consider-chksum) ignore_chksum=0 ;;
 		-norebuild) rebuild=0 ;;
-		-download-only) downloadonly=1 ;;
 		-repository) repositories="$repositories $2"
 		             deps=none ; shift ;;
-		-prefix) options="$options -prefix $2" ; shift ;;
 		-system) system=1 ; deps=none ;;
 		-*) help_msg ; exit 1 ;;
 		*)  break ;;
@@ -80,14 +77,14 @@ while [ "$1" ] ; do
 done
 
 . ./scripts/parse-config
-. ./scripts/functions.in
+. ./scripts/functions
 
 add_if_req()
 {
 	[ "$verbose" = 1 ] && echo -n "$1"
 
 	if [ "$blacklist" != "${blacklist/ $package /}" ]; then
-                [ $verbose = 1 ] && echo " Automatic update avoided."
+                [ $verbose = 1 ] && echo " Update avoided due blacklist."
 	else
 		[ $verbose = 1 ] && echo " Added."
 		var_append deplist " " "$package"
@@ -223,16 +220,9 @@ echo "Packages scheduled to build: ${deplist:-none}"
 
 [ $update = 1 ] && options="$options -update"
 
-. config/$config/config
-
 for package in $deplist ; do
-	if ./scripts/Download $package ; then [ $downloadonly != 1 ] && \
-		if ! ./scripts/Build-Pkg $options $package; then
-			if [ $SDECFG_ABORT_ON_ERROR_AFTER -gt 8 ]; then
-				echo "Aborting further builds due to config setting ABORT_ON_ERROR_AFTER."
-				exit 1
-			fi
-		fi
+	if ./scripts/Download $package ; then
+		./scripts/Build-Pkg $options $package
 	else
 		echo "The download for package $package failed!"
 		exit -1

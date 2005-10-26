@@ -105,10 +105,7 @@ Reserved User and Group IDs:
   - jboss users:	- jboss groups:
       jboss 390		   jboss 390
 
-  - partimage users:	- partimage groups:
-      partimag 81	   partimag 81
-
-  Free IDs:  27-37,45-52,57-62,67-69,72-77,82-388,391-999
+  Free IDs:  27-37,45-52,57-62,67-69,72-77,80-388,391-999
 
 
 Filedescriptor Numbers
@@ -130,7 +127,6 @@ Licence Names (for package description):
   MPL			The Mozilla Public Licence
   MIT			The MIT License
   BSD			The BSD	Licence 
-  APL			The Apache License
 
   APSL			Apple Public Source License
 
@@ -141,5 +137,4 @@ Licence Names (for package description):
   Commercial		Any other non Open Source (commercial) licence
   Restricted		Any other restricted licence
   PublicDomain		uncopyrighted
-  Artistic 		The Artistic License	
 

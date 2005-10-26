@@ -1,13 +1,11 @@
 
-[TIMESTAMP] 1117357372 Sun May 29 05:02:52 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 237381 (5)
-[SIZE] 36.41 MB, 1660 files
+[TIMESTAMP] 1126517311 Mon Sep 12 05:28:31 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 144953 (9)
+[SIZE] 36.61 MB, 1672 files
 
-[DEP] 00-dirtree
 [DEP] apr
 [DEP] apr-util
-[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -26,7 +24,6 @@
 [DEP] grep
 [DEP] gzip
 [DEP] kdelibs
-[DEP] kdepim
 [DEP] kdesdk
 [DEP] libart_lgpl23
 [DEP] libdnet

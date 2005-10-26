@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117277613 Sat May 28 06:53:33 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 289384 (5)
-[SIZE] 52.80 MB, 4705 files
+[TIMESTAMP] 1126445157 Sun Sep 11 09:25:57 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 190375 (9)
+[SIZE] 52.92 MB, 4709 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
@@ -16,6 +15,7 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] cyrus-sasl2
+[DEP] dbus
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
@@ -28,10 +28,12 @@
 [DEP] glib
 [DEP] glibc
 [DEP] grep
+[DEP] hal
+[DEP] jack
 [DEP] kaffe
-[DEP] kdebindings
 [DEP] kdelibs
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad

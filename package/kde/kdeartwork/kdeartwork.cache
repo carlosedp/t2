@@ -1,17 +1,19 @@
 
-[TIMESTAMP] 1117286438 Sat May 28 09:20:38 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 37831 (5)
-[SIZE] 25.18 MB, 7881 files
+[TIMESTAMP] 1126452946 Sun Sep 11 11:35:46 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 34261 (9)
+[SIZE] 25.32 MB, 7883 files
 
-[DEP] 00-dirtree
+[DEP] alsa-lib
 [DEP] arts
+[DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] esound
 [DEP] expat
 [DEP] fam
 [DEP] findutils
@@ -19,18 +21,25 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
+[DEP] glib
 [DEP] glibc
 [DEP] grep
+[DEP] jack
 [DEP] kdebase
 [DEP] kdelibs
 [DEP] kdepim
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
 [DEP] libpng
+[DEP] libvorbis
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
+[DEP] nas
 [DEP] net-tools
 [DEP] perl
 [DEP] qt

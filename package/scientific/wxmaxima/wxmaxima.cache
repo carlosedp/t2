@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117422521 Sun May 29 23:08:41 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 20170 (5)
-[SIZE] 1.30 MB, 26 files
+[TIMESTAMP] 1126604398 Tue Sep 13 05:39:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 23604 (9)
+[SIZE] 1.63 MB, 25 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -15,13 +14,14 @@
 [DEP] expat
 [DEP] findutils
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
-[DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] grep
 [DEP] gtk+
 [DEP] libjpeg
+[DEP] libmspack
 [DEP] libpng
 [DEP] libtiff
 [DEP] libxml
@@ -35,5 +35,6 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] wxwidgets
+[DEP] wxwidgets24
 [DEP] xorg
 [DEP] zlib

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117192697 Fri May 27 07:18:17 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3294 (5)
+[TIMESTAMP] 1126333545 Sat Sep 10 02:25:45 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2801 (9)
 [SIZE] 0.62 MB, 95 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -12,6 +11,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -22,6 +22,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] xfig
 [DEP] xorg
 [DEP] zlib

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117348049 Sun May 29 02:27:29 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 1510 (5)
-[SIZE] 0.12 MB, 22 files
+[TIMESTAMP] 1126508686 Mon Sep 12 03:04:46 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1654 (9)
+[SIZE] 0.14 MB, 22 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -20,4 +19,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xorg

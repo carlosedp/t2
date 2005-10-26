@@ -61,9 +61,7 @@ done
 #
 if [ "$SDECFG_DEBUG" = 0 ] ; then
 	var_append GCC_WRAPPER_APPEND " " "-s"
-	var_append SYSGCC_WRAPPER_APPEND " " "-s"
 	var_insert GCC_WRAPPER_REMOVE " " "-g*"
-	var_insert SYSGCC_WRAPPER_REMOVE " " "-g*"
 else
 	if [[ $pkg != glibc* ]] ; then
 		var_append GCC_WRAPPER_APPEND " " "-ggdb"
@@ -76,33 +74,25 @@ fi
 # history this has been -m*, but this caused -msse and -maltivec style options
 # to get lost. So we better explicitly only remove some -m options ... -ReneR
 var_insert GCC_WRAPPER_REMOVE " " "-O -O[0-9s] -mtune* -march* -mcpu*"
-var_insert SYSGCC_WRAPPER_REMOVE " " "-O -O[0-9s] -mtune* -march* -mcpu*"
 
 case "$SDECFG_OPT" in
 	smart)
         	var_insert GCC_WRAPPER_INSERT " " "-SPEED-O2 -SIZE-Os -pipe"
 		var_insert GCC_WRAPPER_FILTER "|" "gawk -f $base/misc/tools-source/smartwr.awk $base/scripts/smart_db.txt -"
-		#SYSGCC - though smart is phasing out
 		;;
 	speed)
         	var_insert GCC_WRAPPER_INSERT " " "-O2 -pipe"
-		var_insert SYSGCC_WRAPPER_INSERT " " "-O2 -pipe"
 		;;
 	size)
         	var_insert GCC_WRAPPER_INSERT " " "-Os -pipe"
-		var_insert SYSGCC_WRAPPER_INSERT " " "-Os -pipe"
 		;;
 	lazy)
         	var_insert GCC_WRAPPER_INSERT " " "-O -pipe"
-		var_insert SYSGCC_WRAPPER_INSERT " " "-O -pipe"
 		;;
 esac
 
 [ "$SDECFG_LD_AS_NEEDED" != 0 ] &&
-	var_append GCC_WRAPPER_INSERT " " "-c?:-Wl,--as-needed"
-
-[ "$SDECFG_PIE" != 0 ] &&
-	var_append GCC_WRAPPER_INSERT " " "-c?-fPIE:-pie"
+	var_append GCC_WRAPPER_INSERT " " "-Wl,--as-needed"
 
 var_append GCC_WRAPPER_APPEND " " "$SDECFG_C_FLAGS"
 
@@ -130,15 +120,8 @@ if [ -f architecture/$arch/gcc-options.in ] ; then
 	. architecture/$arch/gcc-options.in
 fi
 
-# Inject -fPIC if the package is marked to need a quirk ...
+
+# inject -fPIC if the package is marked to need a quirk ...
 #
 [ "$desc_F" != "${desc_F/FPIC-QUIRK}" ] && var_append GCC_WRAPPER_APPEND ' ' '-fPIC'
-
-# Remove -W,l,--as-needed, some packages throw up with it...
-#
-if [ "$desc_F" != "${desc_F/NO-AS-NEEDED}" ]; then
-	var_remove_regex GCC_WRAPPER_INSERT ' ' ".*-Wl,--as-needed"
-	var_append GCC_WRAPPER_REMOVE ' ' "-Wl,--as-needed"
-fi
-
 

@@ -22,19 +22,19 @@
 [T] headers and body text to identify "spam", also known as unsolicited
 [T] commercial email. 
 
-[U] http://spamassassin.apache.org/
+[U] http://www.spamassassin.org
 
-[A] The spamassassin team <http://spamassassin.apache.org/>
+[A] The spamassassin team <http://www.spamassassin.org/credits.html>
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] extra/server
 
-[L] APL
+[L] GPL
 [S] Stable
-[V] 3.1.0
+[V] 3.0.3
 [P] X -----5---9 114.500
 
 [CV-URL] http://spamassassin.apache.org/downloads.cgi
 
-[D] 3595760076 Mail-SpamAssassin-3.1.0.tar.bz2 http://www.apache.org/dist/spamassassin/source/
+[D] 638152099 Mail-SpamAssassin-3.0.3.tar.gz http://www.spamassassin.org/released/
 

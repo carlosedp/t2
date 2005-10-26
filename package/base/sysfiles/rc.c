@@ -150,10 +150,9 @@ int main(int argc, char ** argv) {
 	handle_error( setrlimit(RLIMIT_LOCKS,   &rlim_locks) );
 
 	/* Reset all signal handlers */
-	for (i=1; i<NSIG; i++) {
+	for (i=1; i<64; i++) {
 		if ( i == SIGKILL ) continue;
 		if ( i == SIGSTOP ) continue;
-		if ( i > SIGUNUSED && i < SIGRTMIN ) continue;
 		if( signal(i, SIG_DFL) == SIG_ERR ) {
 			fprintf(stderr, "rc: Can't reset signal #%d: "
 			        "%s\n", i, strerror(errno) );

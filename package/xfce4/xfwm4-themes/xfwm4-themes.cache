@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117396759 Sun May 29 15:59:19 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 11312 (5)
-[SIZE] 5.78 MB, 3805 files
+[TIMESTAMP] 1126553242 Mon Sep 12 15:27:22 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 12547 (9)
+[SIZE] 5.94 MB, 3805 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -11,11 +11,9 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libxfce4util
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
@@ -23,4 +21,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xfwm4

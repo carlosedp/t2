@@ -1,10 +1,10 @@
 
-[TIMESTAMP] 1117218659 Fri May 27 14:30:59 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 7723 (5)
+[TIMESTAMP] 1126362311 Sat Sep 10 10:25:11 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6787 (9)
 [SIZE] 3.09 MB, 311 files
 
-[DEP] 00-dirtree
+[DEP] acroread
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -16,8 +16,8 @@
 [DEP] file
 [DEP] findutils
 [DEP] flex
-[DEP] gawk
 [DEP] gcc
+[DEP] gconf
 [DEP] gettext
 [DEP] glibc
 [DEP] grep

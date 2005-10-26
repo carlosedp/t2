@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117365171 Sun May 29 07:12:51 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 77861 (5)
-[SIZE] 11.80 MB, 373 files
+[TIMESTAMP] 1129758792 Wed Oct 19 18:53:12 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 46494 (9)
+[SIZE] 11.87 MB, 372 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -30,17 +29,15 @@
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
-[DEP] gtksourceview
 [DEP] gucharmap
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
 [DEP] libcroco
-[DEP] libgda
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
-[DEP] libgnomedb
 [DEP] libgnomeprint
 [DEP] libgnomeprintui
 [DEP] libgnomeui
@@ -49,7 +46,6 @@
 [DEP] libpng
 [DEP] librsvg
 [DEP] libxml
-[DEP] libxslt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

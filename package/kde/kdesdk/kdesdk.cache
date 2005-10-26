@@ -1,19 +1,18 @@
 
-[TIMESTAMP] 1117296979 Sat May 28 12:16:19 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 102159 (5)
-[SIZE] 15.42 MB, 917 files
+[TIMESTAMP] 1126463190 Sun Sep 11 14:26:30 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 57401 (9)
+[SIZE] 15.69 MB, 939 files
 
-[DEP] 00-dirtree
 [DEP] apr
 [DEP] apr-util
-[DEP] arts
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
 [DEP] bzip2
 [DEP] ccache
 [DEP] coreutils
+[DEP] cyrus-sasl2
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
@@ -22,25 +21,32 @@
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
+[DEP] gdbm
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
 [DEP] kdelibs
 [DEP] kdepim
-[DEP] kdeutils
+[DEP] kdevelop
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
+[DEP] libxml
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
+[DEP] neon
 [DEP] net-tools
+[DEP] openldap
+[DEP] openssl
 [DEP] pcre
 [DEP] perl
 [DEP] qt
 [DEP] sed
+[DEP] subversion
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

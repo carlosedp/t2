@@ -22,7 +22,7 @@
 [T] 
 [T] This package contains the utilities needed for using JFS.
 
-[U] http://jfs.sourceforge.net/
+[U] http://oss.software.ibm.com/jfs/
 
 [A] Steve Best <sbest@us.ibm.com>
 [A] Dave Kleikamp <shaggy@austin.ibm.com>
@@ -34,10 +34,10 @@
 
 [L] GPL
 [S] Stable
-[V] 1.1.10
+[V] 1.1.7
 [P] X -----5---9 183.600
 
 [O] sbindir="$root/sbin"
 
-[D] 1713266363 jfsutils-1.1.10.tar.gz http://jfs.sourceforge.net/project/pub/
+[D] 1797901565 jfsutils-1.1.7.tar.gz http://www10.software.ibm.com/developer/opensource/jfs/project/pub/
 

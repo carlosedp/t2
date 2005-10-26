@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1117414191 Sun May 29 20:49:51 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5300 (5)
+[TIMESTAMP] 1126572938 Mon Sep 12 20:55:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4019 (9)
 [SIZE] 0.42 MB, 31 files
 
-[DEP] 00-dirtree
-[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -21,7 +19,6 @@
 [DEP] glibc
 [DEP] grep
 [DEP] linux-header
-[DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
@@ -34,5 +31,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117353141 Sun May 29 03:52:21 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 7784 (5)
+[TIMESTAMP] 1126513572 Mon Sep 12 04:26:12 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5715 (9)
 [SIZE] 1.59 MB, 97 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -24,10 +23,8 @@
 [DEP] gtk+
 [DEP] linux-header
 [DEP] make
-[DEP] mixmagic
 [DEP] mktemp
 [DEP] net-tools
-[DEP] openbox
 [DEP] openssl
 [DEP] pango
 [DEP] perl

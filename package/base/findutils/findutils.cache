@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117181362 Fri May 27 04:09:22 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 4802 (5)
-[SIZE] 0.91 MB, 63 files
+[TIMESTAMP] 1126319735 Fri Sep  9 22:35:35 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5259 (9)
+[SIZE] 0.96 MB, 68 files
 
 [DEP] bash
 [DEP] binutils
@@ -10,7 +10,7 @@
 [DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] gawk
+[DEP] dpkg
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
@@ -20,8 +20,8 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] patch
+[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117334845 Sat May 28 22:47:25 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 6325 (5)
+[TIMESTAMP] 1126496327 Sun Sep 11 23:38:47 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6677 (9)
 [SIZE] 6.47 MB, 304 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] attr
 [DEP] bash
@@ -26,6 +25,7 @@
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
+[DEP] howl
 [DEP] libbonobo
 [DEP] libdnet
 [DEP] libxml

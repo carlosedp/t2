@@ -13,7 +13,7 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 #
-# TITLE: Minimalistic package selection, X.org and basic desktop
+# TITLE: Minimalistic package selection, X.org and basic desktop (BROKEN)
 
 pkgfilter sed '
 
@@ -122,14 +122,12 @@ pkgfilter sed '
 / mozilla /			{ p; d; };
 / bitstream-vera-fonts /	{ p; d; };
 / freetype /			{ p; d; };
-/ fontconfig /			{ p; d; };
 / apr.* /			{ p; d; };
 / samba /			{ p; d; };
 / cups /			{ p; d; };
 / atk /				{ p; d; };
 / glib /			{ p; d; };
 / pango /			{ p; d; };
-/ cairo /			{ p; d; };
 / gtk+ /			{ p; d; };
 / glib12 /			{ p; d; };
 / gtk+12 /			{ p; d; };

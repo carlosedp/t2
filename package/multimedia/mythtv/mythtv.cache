@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117321609 Sat May 28 19:06:49 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 196978 (5)
-[SIZE] 25.94 MB, 1214 files
+[TIMESTAMP] 1126483088 Sun Sep 11 19:58:08 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 181637 (9)
+[SIZE] 26.08 MB, 1214 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -36,6 +36,7 @@
 [DEP] libtiff
 [DEP] libvorbis
 [DEP] linux-header
+[DEP] lirc
 [DEP] make
 [DEP] perl
 [DEP] pkgconfig

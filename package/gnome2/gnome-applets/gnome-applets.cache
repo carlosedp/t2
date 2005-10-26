@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117298443 Sat May 28 12:40:43 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 27558 (5)
-[SIZE] 27.33 MB, 1340 files
+[TIMESTAMP] 1126464556 Sun Sep 11 14:49:16 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 26299 (9)
+[SIZE] 28.65 MB, 1471 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] apmd
 [DEP] atk
@@ -24,18 +23,19 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
-[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] gnome-keyring
-[DEP] gnome-libs14
 [DEP] gnome-panel
+[DEP] gnome-system-tools-backends
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gst-plugins
 [DEP] gstreamer
 [DEP] gtk+
+[DEP] gucharmap
+[DEP] howl
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui

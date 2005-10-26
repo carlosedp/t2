@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1117284359 Sat May 28 08:45:59 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 2816 (5)
-[SIZE] 28.80 MB, 11559 files
+[TIMESTAMP] 1126450678 Sun Sep 11 10:57:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3651 (9)
+[SIZE] 31.90 MB, 12340 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -15,10 +15,10 @@
 [DEP] glibc
 [DEP] grep
 [DEP] m4
-[DEP] net-tools
-[DEP] openssl
 [DEP] patch
 [DEP] perl
+[DEP] rpm
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] xscreensaver

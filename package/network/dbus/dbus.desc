@@ -31,11 +31,11 @@
 [M] Juergen "George" Sawinski <jsaw@gmx.net>
 
 [C] extra/network
-[F] NOPARALLEL NO-AS-NEEDED
+[F] NOPARALLEL
 
 [L] GPL
 [S] Alpha
-[V] 0.36.2
+[V] 0.33
 [P] X -----5---9 209.500
 
-[D] 1274425297 dbus-0.36.2.tar.gz http://dbus.freedesktop.org/releases/
+[D] 366554180 dbus-0.33.tar.gz http://dbus.freedesktop.org/releases/

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117238742 Fri May 27 20:05:42 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3879 (5)
+[TIMESTAMP] 1126394241 Sat Sep 10 19:17:21 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4516 (9)
 [SIZE] 0.12 MB, 38 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -25,6 +24,7 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] gtkmm
+[DEP] howl
 [DEP] libbonobo
 [DEP] libgnome
 [DEP] libsigc++

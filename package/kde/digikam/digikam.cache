@@ -1,11 +1,10 @@
 
-[TIMESTAMP] 1117350592 Sun May 29 03:09:52 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 10746 (5)
-[SIZE] 11.47 MB, 252 files
+[TIMESTAMP] 1127162401 Mon Sep 19 16:40:01 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 19025 (9)
+[SIZE] 5.85 MB, 164 files
 
-[DEP] 00-dirtree
-[DEP] arts
+[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,6 +12,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
+[DEP] fam
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
@@ -20,18 +20,21 @@
 [DEP] gdbm
 [DEP] gettext
 [DEP] glibc
-[DEP] gnome-libs14
 [DEP] grep
 [DEP] imlib2
-[DEP] kde-i18n-it
 [DEP] kdelibs
+[DEP] libart_lgpl23
 [DEP] libdnet
+[DEP] libexif
 [DEP] libgphoto
+[DEP] libidn
 [DEP] libjpeg
+[DEP] libkexif
+[DEP] libkipi
 [DEP] libpng
 [DEP] libtiff
-[DEP] libxml
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools

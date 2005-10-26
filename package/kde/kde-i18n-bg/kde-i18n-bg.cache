@@ -1,8 +1,8 @@
 
-[TIMESTAMP] 1118250154 Wed Jun  8 13:02:34 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3499 (5)
-[SIZE] 6.86 MB, 588 files
+[TIMESTAMP] 1126455034 Sun Sep 11 12:10:34 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5640 (9)
+[SIZE] 6.84 MB, 587 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -16,12 +16,10 @@
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
-[DEP] kdeedu
 [DEP] kdelibs
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

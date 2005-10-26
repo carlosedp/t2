@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1117294054 Sat May 28 11:27:34 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 13069 (5)
-[SIZE] 1.15 MB, 56 files
+[TIMESTAMP] 1126460886 Sun Sep 11 13:48:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10366 (9) ERROR
+[SIZE] 0.02 MB, 8 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -15,7 +13,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
-[DEP] fam
 [DEP] findutils
 [DEP] flex
 [DEP] freetype
@@ -25,17 +22,13 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imagemagick
-[DEP] kdebindings
 [DEP] kdelibs
-[DEP] kdeutils
-[DEP] koffice
-[DEP] lcms
 [DEP] libart_lgpl23
+[DEP] libdnet
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
 [DEP] libtiff
-[DEP] libtool
 [DEP] libungif
 [DEP] linux-header
 [DEP] m4

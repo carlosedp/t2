@@ -12,7 +12,7 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-disksdir="$build_toolchain/bootdisk"
+disksdir="$build_rock/bootdisk"
 
 if [ "$SDEDEBUG_BOOTDISK_NOSTAGE2" != 1 -a \
      "$SDEDEBUG_BOOTDISK_NOSTAGE1" != 1 ]
@@ -23,9 +23,6 @@ fi
 
 # Re-evaluate CC and other variables (as we have built the cross cc now)
 . scripts/parse-config
-
-# make mkcramfs be found
-PATH="$base/build/${SDECFG_ID}/TOOLCHAIN/tools.cross/bin:$PATH"
 
 # Add tools.cross/diet-bin/ to path so we find our 'diet' program
 PATH="$base/build/${SDECFG_ID}/TOOLCHAIN/tools.cross/diet-bin:$PATH"
@@ -41,8 +38,8 @@ then
 	. $base/target/$target/build_stage1.sh
 fi
 
-if [ -f $base/target/$target/arch/$arch/build.sh ]; then
-	. $base/target/$target/arch/$arch/build.sh
+if [ -f $base/target/$target/$arch/build.sh ]; then
+	. $base/target/$target/$arch/build.sh
 fi
 
 

@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117232448 Fri May 27 18:20:48 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 4870 (5)
-[SIZE] 0.77 MB, 82 files
+[TIMESTAMP] 1126379271 Sat Sep 10 15:07:51 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5334 (9)
+[SIZE] 0.91 MB, 88 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
@@ -13,7 +12,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] doxygen
-[DEP] file
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc

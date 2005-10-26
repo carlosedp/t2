@@ -31,11 +31,9 @@ pkgfilter sed '
 / setserial /	{ p; d; };	/ tcpdump /	{ p; d; };
 / libpcap /	{ p; d; };	/ tcp_wrappers / { p; d; };
 / bonnie++ /	{ p; d; };	/ ccache /	{ p; d; };
-/ wget /        { p; d; };      / modutils /    { p; d; };
 
 / e2fsprogs /	{ p; d; };	/ reiser.*progs / { p; d; };
 / jfsutils /	{ p; d; };	/ xfsprogs /	{ p; d; };
-/ udev /        { p; d; };      / cramfs-tools / {p; d; };
 
 / kbd /		{ p; d; };	/ eject /	{ p; d; };
 / popt /	{ p; d; };      / raidtools /   { p; d; };
@@ -46,11 +44,6 @@ pkgfilter sed '
 / mine /	{ p; d; };	/ nvi /		{ p; d; };
 / patch /	{ p; d; };	/ patchutils /	{ p; d; };
 / bdb /		{ p; d; };	/ perl perl /	{ p; d; };
-
-/ file /        { p; d; };      / pdksh /       { p; d; };
-
-# Select some packages needed for building only
-/ zlib /        { p; d; };
 
 # Select some packages explicitely (architectures)
 / bin86 /	{ p; d; };	/ cpuburn /	{ p; d; };
@@ -70,9 +63,10 @@ pkgfilter sed '
 / prelink /	{ s/^X /O /; p; d; };
 / cracklib /	{ s/^X /O /; p; d; };	/ hotplug /	{ s/^X /O /; p; d; };
 / syslog-ng /	{ s/^X /O /; p; d; };	/ schedutils /	{ s/^X /O /; p; d; };
-/ uml_utilities / { s/^X /O /; p; d; }; / xen-tools /   { s/^X /O /; p; d; }; '
+/ uml_utilities / { s/^X /O /; p; d; };'
 
-SDECFGSET_PKGFILE_TYPE='tarbz2'
+SDECFGSET_CREATE_TARBZ2=1
+SDECFGSET_CREATE_GEM=0
 SDECFGSET_PKGFILE_VER=0
 
 SDECFGSET_DIETLIBC=1
@@ -87,10 +81,6 @@ SDECFGSET_DIETLIBC_bzip2=1
 SDECFGSET_DIETLIBC_wget=1
 SDECFGSET_DIETLIBC_gawk=1
 SDECFGSET_DIETLIBC_iproute2=1
-SDECFGSET_DIETLIBC_embutils=1
-SDECFGSET_DIETLIBC_hotplug__=1
-SDECFGSET_DIETLIBC_minised=1
-SDECFGSET_DIETLIBC_udev=1
 SDECFGSET_DIETWANT_SYSENTER=0
 
 SDECFGSET_PKG_TERMCAP_USEIT=1

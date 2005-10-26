@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1118079127 Mon Jun  6 13:32:07 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 4447 (5)
+[TIMESTAMP] 1126473638 Sun Sep 11 17:20:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3940 (9)
 [SIZE] 0.30 MB, 26 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] autoconf
 [DEP] automake

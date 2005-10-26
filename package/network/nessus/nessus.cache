@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117214386 Fri May 27 13:19:46 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 24964 (5)
+[TIMESTAMP] 1126358127 Sat Sep 10 09:15:27 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 19602 (9)
 [SIZE] 10.68 MB, 2327 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -25,6 +24,7 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] gtk+12
+[DEP] libdnet
 [DEP] libnet
 [DEP] linux-header
 [DEP] m4

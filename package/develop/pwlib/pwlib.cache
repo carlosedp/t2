@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1117322611 Sat May 28 19:23:31 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 24174 (5)
-[SIZE] 4.64 MB, 189 files
+[TIMESTAMP] 1126483738 Sun Sep 11 20:08:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 24408 (9)
+[SIZE] 4.65 MB, 189 files
 
-[DEP] 00-dirtree
 [DEP] aalib
 [DEP] alsa-lib
 [DEP] bash
@@ -17,6 +16,7 @@
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
