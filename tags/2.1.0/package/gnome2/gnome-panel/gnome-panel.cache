@@ -15,7 +15,6 @@
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
-[DEP] evolution-data-server
 [DEP] expat
 [DEP] findutils
 [DEP] freetype
