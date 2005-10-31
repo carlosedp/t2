@@ -15,6 +15,7 @@
 
 # Disable some packages
 / gok /		{ s/^X /O /; p; d; };
+/ ghex /	{ s/^X /O /; p; d; };
 / busybox /	{ s/^X /O /; p; d; };
 / sendmail /	{ s/^X /O /; p; d; };
 / workbone /	{ s/^X /O /; p; d; };
@@ -30,6 +31,7 @@
 # gnome and it's (previouly detected) dependencies
 / abiword /	{ p; d; };
 / atk /	{ p; d; };
+/ battfink /	{ p; d; };
 / control-center /	{ p; d; };
 / eel /	{ p; d; };
 / enchant /	{ p; d; };
@@ -37,31 +39,27 @@
 / gconf-editor /	{ p; d; };
 / gconf /	{ p; d; };
 / gdm /	{ p; d; };
-/ ggv /	{ p; d; };
 / ghex /	{ p; d; };
 / gkrellm /	{ p; d; };
-/ glade /	{ p; d; };
 / glibmm /	{ p; d; };
 / glib /	{ p; d; };
 / gnome2-user-docs /	{ p; d; };
-/ gnome-applets /	{ p; d; };
 / gnome-desktop /	{ p; d; };
 / gnome-doc-utils /	{ p; d; };
 / gnome-icon-theme /	{ p; d; };
 / gnome-keyring /	{ p; d; };
-/ gnome-media /	{ p; d; };
-/ gnomemeeting /	{ p; d; };
 / gnome-menus /	{ p; d; };
 / gnome-mime-data /	{ p; d; };
 / gnome-panel /	{ p; d; };
 / gnome-session /	{ p; d; };
-/ gnome-system-monitor /	{ p; d; };
-/ gnome-system-tools /	{ p; d; };
 / gnome-terminal /	{ p; d; };
 / gnome-vfs /	{ p; d; };
 / gnumeric /	{ p; d; };
+/ goffice /	{ p; d; };
 / gst-plugins /	{ p; d; };
 / gstreamer /	{ p; d; };
+/ gtkdoc /	{ p; d; };
+/ gtk-engines /	{ p; d; };
 / gtkmm /	{ p; d; };
 / gtk+ /	{ p; d; };
 / gtksourceview /	{ p; d; };
@@ -88,10 +86,8 @@
 / nautilus /	{ p; d; };
 / orbit2 /	{ p; d; };
 / pango /	{ p; d; };
-/ pybliographer /	{ p; d; };
 / pygtk /	{ p; d; };
 / scrollkeeper /	{ p; d; };
-/ sound-juicer /	{ p; d; };
 / startup-notification /	{ p; d; };
 / totem /	{ p; d; };
 / vte /	{ p; d; };
