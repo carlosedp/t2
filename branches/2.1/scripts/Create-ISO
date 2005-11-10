@@ -33,7 +33,7 @@
 #
 
 eval `grep sdever scripts/parse-config`
-. scripts/functions.in
+. scripts/functions
 
 if [ $# -eq 0 ] ; then
 	echo

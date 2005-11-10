@@ -152,7 +152,7 @@ fi
 
 bprof main start
 
-. scripts/config-functions.in
+. scripts/config.func
 
 arch=none
 if expr "`uname -m`" : "i.86"    > /dev/null ; then arch=x86     ; fi
