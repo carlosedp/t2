@@ -17,7 +17,7 @@
 # This function returns a "uniqe id" as output
 #
 get_unique() {
-	local hostsum=`hostname`
+	local hostsum=`hostname 2>/dev/null`
 	if [ -z "$hostsum" -a -x /sbin/ip ]; then
 		hostsum=`/sbin/ip link show eth0 |
 		sed -e '/link\//!d' -e 's,.*link[^ ]* \([^ ]*\) .*,\1,'`
@@ -920,6 +920,7 @@ build_this_package() {
 			[ "${x#*.[cho0-9]}" ] || continue
 			[ "${x#*.info*}"    ] || continue
 			[ "${x#*.TAR*}"     ] || continue
+			[ "${x#*akefile*}"     ] || continue
                         [ -f $x ] && cp -v $x $root/$docdir/$x
 		done
 
