@@ -30,9 +30,9 @@
 [R] + x86 x86-64 powerpc powerpc64
 
 [L] LGPL
-[S] Alpha
-[V] 20050524
+[S] Stable
+[V] 0.9.1
 [P] X -----5---9 177.100
 
-[D] 550189491 Wine-20050524.tar.gz http://dl.sourceforge.net/sourceforge/wine/
+[D] 1054391164 wine-0.9.1.tar.bz2 http://dl.sourceforge.net/sourceforge/wine/
 
