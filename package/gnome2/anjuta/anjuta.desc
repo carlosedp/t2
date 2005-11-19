@@ -32,10 +32,10 @@
 
 [L] GPL
 [S] Stable
-[V] 1.2.3
+[V] 1.2.4
 [P] X -----5---9 154.700
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 2225217315 anjuta-1.2.3.tar.gz http://dl.sourceforge.net/sourceforge/anjuta/
+[D] 1868697959 anjuta-1.2.4.tar.gz http://dl.sourceforge.net/sourceforge/anjuta/
 
