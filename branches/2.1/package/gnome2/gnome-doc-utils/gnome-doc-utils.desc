@@ -11,6 +11,7 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
+
 [I] Dcumentation utilities for the Gnome project
 
 [T] gnome-doc-utils is a collection of documentation utilities for the Gnome
@@ -28,10 +29,10 @@
 
 [L] LGPL
 [S] Alpha
-[V] 0.3.2
-[P] X -----5---9 150.000
+[V] 0.4.3
+[P] X -----5---9 149.400
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 1112314694 gnome-doc-utils-0.3.2.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/gnome-doc-utils/0.3/
+[D] 2577141670 gnome-doc-utils-0.4.3.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/gnome-doc-utils/0.4/
 
