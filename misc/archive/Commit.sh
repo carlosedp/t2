@@ -25,15 +25,17 @@ svn diff $* | grep -v === | awk "
 	BEGIN { FS=\"[ /]\" }
 
 	/^\+\+\+ / { pkg = \$4 }
+	{ if (sub(/^\+\[I\]/,\" -\") ) { info = \$0 } }
 
 	/^\-\[V\] / { oldver=\$2 }
 	/^\+\[V\] / {
 		newver=\$2
 		if ( oldver )
 		  print \"\t* updated \" pkg \" (\" oldver \" -> \" newver \")\"
-		else
-		  print \"\t* added \" pkg \" (\" newver \")\"
-		oldver=\"\" ; newver=\"\"
+		else {
+		  print \"\t* added \" pkg \" (\" newver \")\" info
+		}
+		oldver=\"\" ; newver=\"\" ; info=\"\"
 	}
 
 " > $$.log
@@ -41,15 +43,22 @@ svn diff $* | grep -v === | awk "
 echo "Diff:"
 svn diff $*
 
-echo -e "\nLog:"
-cat $$.log
+quit=0
+until [ $quit -ne 0 ]; do
 
-echo -en "\nLog ok? "
-read in
+	echo -e "\nLog:"
+	cat $$.log
 
-if [[ "$in" == y* ]] ; then
-	svn commit $* --file $$.log
-fi
+	echo -en "\nLog ok (q=quit,e=edit,c=commit)? "
+	read in
+
+	case "$in" in
+	  c*) svn commit $* --file $$.log ; quit=1 ;;
+	  e*) $EDITOR $$.log ;;
+	  q*) quit=1 ;;
+	  *) echo "Excuse me?"
+	esac
+done
 
 rm $$.log
 
