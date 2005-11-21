@@ -21,6 +21,13 @@ fi
 
 found_error=0
 
+if [ $UID -ne 0 ] ; then
+	echo
+	echo "Paranoia Check: You are building as non-root!"
+	echo "This does not yet work for many configurations such as"
+	echo "whole system builds that require chroot()."
+fi
+
 if [ "`date '+%Y'`" -lt 1990 ] ; then
 	echo
 	echo "Paranoia Check: Your clock is not set!"
@@ -44,6 +51,30 @@ if [ -z "`type -p curl`" ] ; then
 	found_error=1
 fi
 
+if [ -z "`type -p flex`" ] ; then
+	echo
+	echo "Paranoia Check: Program 'Flex' not found!"
+	echo "The Flex utility is needed for scanning"
+	echo "Install the latest Flex version."
+	found_error=1
+fi
+
+if [ -z "`type -p m4`" ] ; then
+	echo
+	echo "Paranoia Check: Program 'm4' not found!"
+	echo "The m4 utility is needed as a front"
+	echo "end for gcc. Install the latest m4 version."
+	found_error=1
+fi 
+
+if [ -z "`type -p patch`" ] ; then
+	echo
+	echo "Paranoia Check: Program 'patch' not found!"
+	echo "The patch program is needed to work"
+	echo "with source files. Install the latest patch version."
+	found_error=1
+fi
+
 if [ -z "`type -p bzip2`" ] ; then
 	echo
 	echo "Paranoia Check: Program 'bzip2' not found!"
@@ -61,6 +92,15 @@ if [ -z "`type -p makeinfo`" ] ; then
 	found_error=1
 fi
 
+if [ -z "`type -p bison`" ] ; then
+	echo
+	echo "Paranoia Check: Program 'bison' not found!"
+	echo "The bison program is needed for compiling T2 targets."
+	echo "Please make sure that a current version of the"
+	echo "bison package is installed on your system."
+	found_error=1
+fi
+
 case $BASH_VERSION in
   2.05b*) ;;
   3.0*) ;;
@@ -69,6 +109,10 @@ case $BASH_VERSION in
 	found_error=1
 esac
 
+if [ ! -e /usr/lib/libc.a ] ; then
+	echo "/usr/lib/libc.a not found on host machine"
+	echo "more info at http://trac.t2-project.org/wiki/FAQ/libc.a"
+fi
 
 x="`mktemp -p /tmp 2> /dev/null`"
 if [ -z "$x" -o ! -f "$x" ] ; then
