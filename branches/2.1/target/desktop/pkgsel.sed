@@ -25,6 +25,7 @@
 / rpm /		{ s/^X /O /; p; d; };
 / lprng /	{ s/^X /O /; p; d; };
 / alien /	{ s/^X /O /; p; d; };
+/ xmlstarlet /	{ s/^X /O /; p; d; };
 / evolution /	{ s/^X /O /; p; d; };
 / evolution-data-server /	{ s/^X /O /; p; d; };
 
