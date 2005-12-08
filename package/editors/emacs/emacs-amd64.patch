@@ -28,21 +28,6 @@ diff -Naur emacs-21.3-old/configure emacs-21.3/configure
    ## Intel 386 machines where we don't care about the manufacturer
    i[3456]86-*-* )
      machine=intel386
-diff -Naur emacs-21.3-old/configure.in emacs-21.3/configure.in
---- emacs-21.3-old/configure.in	2003-12-14 03:34:27.000000000 +0000
-+++ emacs-21.3/configure.in	2003-12-14 03:35:04.000000000 +0000
-@@ -1006,6 +1006,11 @@
-     machine=ia64 opsys=gnu-linux
-   ;;
- 
-+  ## X86-64
-+  x86_64*-*-linux* )
-+    machine=x86_64 opsys=gnu-linux
-+  ;;
-+
-   ## Intel 386 machines where we don't care about the manufacturer
-   i[3456]86-*-* )
-     machine=intel386
 diff -Naur emacs-21.3-old/src/m/x86_64.h emacs-21.3/src/m/x86_64.h
 --- emacs-21.3-old/src/m/x86_64.h	1970-01-01 00:00:00.000000000 +0000
 +++ emacs-21.3/src/m/x86_64.h	2003-12-14 03:35:04.000000000 +0000
