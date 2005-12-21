@@ -22,14 +22,14 @@
 [T] against the goals.
 
 [A] The MITRE Corporation
-[M] Miguel Bolanos <codetux@codetux.com>
+[M] Miguel Bolanos <miguel@geekpreview.org>
 
 [C] extra/security
 
 [L] GPL
 [S] Stable
-[V] 1.2.6
+[V] 2.0
 [P] O -----5---9 811.008
 
-[D] 1311133203 slat-1.2.6.tar.gz http://www.mitre.org/tech/selinux/
+[D] 3797849980 slat-2.0.tar.gz http://www.mitre.org/tech/selinux/
 
