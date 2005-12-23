@@ -1,13 +1,11 @@
 
-[TIMESTAMP] 1121979773 Thu Jul 21 17:02:53 2005
-[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
-[BUILDTIME] 151233 (5)
-[SIZE] 38.31 MB, 3329 files
+[TIMESTAMP] 1135359711 Fri Dec 23 14:41:51 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 252655 (9)
+[SIZE] 57.53 MB, 4359 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
-[DEP] aspell
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
@@ -25,8 +23,10 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] imagemagick
+[DEP] jack
 [DEP] kdebindings
 [DEP] kdelibs
 [DEP] lcms
@@ -46,13 +46,18 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
+[DEP] mysql
 [DEP] nas
+[DEP] ncurses
 [DEP] net-tools
+[DEP] openssl
+[DEP] patch
 [DEP] pcre
 [DEP] perl
 [DEP] pkgconfig
 [DEP] python
 [DEP] qt
+[DEP] readline
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
