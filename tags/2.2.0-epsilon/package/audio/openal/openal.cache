@@ -1,0 +1,39 @@
+
+[TIMESTAMP] 1134167750 Fri Dec  9 23:35:50 2005
+[BUILDTIME] 15 (9)
+[SIZE] 0.91 MB, 27 files
+
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libogg
+[DEP] libsdl
+[DEP] libvorbis
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] nasm
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] util-linux

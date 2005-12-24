@@ -1,0 +1,11 @@
+
+[TIMESTAMP] 1134318803 Sun Dec 11 17:33:23 2005
+[BUILDTIME] 5 (9) ERROR
+[SIZE] 0.01 MB, 6 files
+
+[DEP] bash
+[DEP] coreutils
+[DEP] diffutils
+[DEP] gcc
+[DEP] grep
+[DEP] sed
