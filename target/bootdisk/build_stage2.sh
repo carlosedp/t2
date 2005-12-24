@@ -130,7 +130,7 @@ tar -czf ../2nd_stage.tar.gz * ; cd ..
 
 echo_header "Creating small 2nd stage filesystem:"
 mkdir -p 2nd_stage_small ; cd 2nd_stage_small
-mkdir -p dev proc tmp bin lib etc share
+mkdir -p dev proc tmp bin etc share
 mkdir -p mnt/source mnt/target
 ln -s bin sbin ; ln -s . usr
 
@@ -172,15 +172,16 @@ echo_status "Copy the required libraries ..."
 found=1 ; while [ $found = 1 ]
 do
 	found=0
-	for x in ../2nd_stage/lib ../2nd_stage/usr/lib
+	for x in ../2nd_stage/{,usr/}lib{64,}
 	do
-		for y in $( cd $x ; ls *.so.* 2> /dev/null )
+		for y in $( cd $x 2>/dev/null && ls *.so.* 2>/dev/null )
 		do
-			if [ ! -f lib/$y ] &&
-			   grep -q $y bin/* lib/* 2> /dev/null
+			dir=${x#../2nd_stage/}
+			if [ ! -f $dir/$y ] &&
+			   grep -q $y bin/* lib{64,}/* 2> /dev/null
 			then
-				echo_status "\`- Found $y."
-				cp $x/$y lib/$y ; found=1
+				echo_status "\`- Found $dir/$y."
+				mkdir -p $dir ; cp $x/$y $dir/$y ; found=1
 			fi
 		done
 	done
