@@ -87,17 +87,19 @@ x_postmake() {
 	register_wm twm TWM /usr/X11/bin/twm
 
 	echo "Copying default example configs ..."
-	cp -fv $confdir/xorg.conf.example $root/etc/X11/
-	if [ ! -f $root/etc/X11/xorg.conf ]; then
-		cp -v $root/etc/X11/xorg.conf{.example,}
-	else
+	cp -fv $confdir/xorg.conf{.example,.template} $root/etc/X11/
+	if [ -s $root/etc/X11/xorg.conf ]; then
 		touch $root/etc/X11/xorg.conf
+	else
+		cp -v $root/etc/X11/xorg.conf{.example,}
 	fi
 
 	cp -fv $confdir/local.conf.example $root/etc/fonts/local.conf
 
 	echo "Installing xvfb-run script..."
 	install -m 755 $confdir/xvfb-run.sh $bindir/xvfb-run
+	echo "Installing xcfgt2 script..."
+	install -m 755 $confdir/xcfgt2.sh $bindir/xcfgt2
 
 	echo "Installing xfs init script ..."
 	install_init xfs $base/package/x11/xorg/xfs.init
