@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1126371300 Sat Sep 10 12:55:00 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 34272 (9)
+[SIZE] 3.25 MB, 79 files
+
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] libidl
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] orbit2
+[DEP] perl
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] util-linux

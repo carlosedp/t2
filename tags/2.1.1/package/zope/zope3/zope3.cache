@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1119008386 Fri Jun 17 07:39:46 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 5527 (5)
+[SIZE] 31.48 MB, 5832 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] numpy
+[DEP] patch
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] wxpython
+[DEP] zope

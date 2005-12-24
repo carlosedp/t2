@@ -1,0 +1,61 @@
+
+[TIMESTAMP] 1126435419 Sun Sep 11 06:43:39 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2776 (9)
+[SIZE] 0.38 MB, 69 files
+
+[DEP] alsa-lib
+[DEP] atk
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] evolution-data-server
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-keyring
+[DEP] gnome-vfs
+[DEP] gnutls
+[DEP] grep
+[DEP] gtk+
+[DEP] howl
+[DEP] libart_lgpl23
+[DEP] libbonobo
+[DEP] libbonoboui
+[DEP] libgcrypt
+[DEP] libgnome
+[DEP] libgnomecanvas
+[DEP] libgnomeui
+[DEP] libgpg-error
+[DEP] libjpeg
+[DEP] libsoup
+[DEP] libtasn1
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mozilla
+[DEP] net-tools
+[DEP] openssl
+[DEP] orbit2
+[DEP] pango
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

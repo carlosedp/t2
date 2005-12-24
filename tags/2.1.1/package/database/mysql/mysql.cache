@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1126337650 Sat Sep 10 03:34:10 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 36436 (9)
+[SIZE] 26.08 MB, 1206 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] orbit10
+[DEP] perl
+[DEP] procps
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib

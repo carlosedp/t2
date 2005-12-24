@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1135360244 Fri Dec 23 14:50:44 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 37027 (9)
+[SIZE] 18.38 MB, 966 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] kdelibs
+[DEP] libxml
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

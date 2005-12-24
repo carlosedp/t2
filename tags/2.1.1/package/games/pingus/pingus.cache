@@ -1,0 +1,42 @@
+
+[TIMESTAMP] 1126534908 Mon Sep 12 10:21:48 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 47228 (9)
+[SIZE] 18.84 MB, 1240 files
+
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] clanlib06
+[DEP] coreutils
+[DEP] diffutils
+[DEP] directfb
+[DEP] findutils
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] hermes
+[DEP] libjpeg
+[DEP] libmikmod
+[DEP] libogg
+[DEP] libpng
+[DEP] libvorbis
+[DEP] libxml
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

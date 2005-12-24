@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1126451827 Sun Sep 11 11:17:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1572 (9)
+[SIZE] 0.10 MB, 17 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libdockapp
+[DEP] linux-header
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorg

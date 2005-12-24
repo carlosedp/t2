@@ -1,0 +1,51 @@
+
+[TIMESTAMP] 1133482358 Thu Dec  1 21:12:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9530 (9)
+[SIZE] 1.41 MB, 116 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-python
+[DEP] gnue-common
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkdoc
+[DEP] libart_lgpl23
+[DEP] libgnomecanvas
+[DEP] libgnomeprint
+[DEP] libgnomeprintui
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] numpy
+[DEP] pango
+[DEP] patch
+[DEP] perl
+[DEP] pil
+[DEP] pkgconfig
+[DEP] pygtk
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] wxpython
+[DEP] xorg
+[DEP] zlib

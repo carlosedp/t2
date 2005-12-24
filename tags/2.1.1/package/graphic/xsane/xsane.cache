@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1118980071 Thu Jun 16 23:47:51 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 5900 (5)
+[SIZE] 4.16 MB, 154 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] gimp
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] libexif
+[DEP] libgphoto
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libusb
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] pkgconfig
+[DEP] sane-backends
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

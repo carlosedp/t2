@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1133481062 Thu Dec  1 20:51:02 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1663 (9)
+[SIZE] 0.17 MB, 11 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] gnue-common
+[DEP] grep
+[DEP] linux-header
+[DEP] numpy
+[DEP] pil
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] wxpython
+[DEP] zope

@@ -1,0 +1,47 @@
+
+[TIMESTAMP] 1133498695 Fri Dec  2 01:44:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5632 (9)
+[SIZE] 1.29 MB, 74 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] dbus
+[DEP] diffutils
+[DEP] docbookx
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] libexo
+[DEP] libxfce4util
+[DEP] libxfcegui4
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] startup-notification
+[DEP] subversion
+[DEP] sysfiles
+[DEP] taglib
+[DEP] tar
+[DEP] util-linux
+[DEP] xine-lib
+[DEP] xorg
+[DEP] zlib

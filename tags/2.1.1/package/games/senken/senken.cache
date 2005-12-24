@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1126535215 Mon Sep 12 10:26:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4083 (9)
+[SIZE] 1.41 MB, 185 files
+
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_image
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] pango
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg

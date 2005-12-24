@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1126468345 Sun Sep 11 15:52:25 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1634 (9)
+[SIZE] 0.06 MB, 14 files
+
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libdvdread
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo

@@ -1,0 +1,45 @@
+
+[TIMESTAMP] 1121670907 Mon Jul 18 03:15:07 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 7181 (5) ERROR
+[SIZE] 0.01 MB, 7 files
+
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+12
+[DEP] kdelibs
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtool
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] python
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xmms
+[DEP] xorg
+[DEP] zlib

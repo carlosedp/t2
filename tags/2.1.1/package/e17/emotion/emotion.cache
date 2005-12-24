@@ -1,0 +1,48 @@
+
+[TIMESTAMP] 1126468080 Sun Sep 11 15:48:00 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5524 (9)
+[SIZE] 0.20 MB, 33 files
+
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] directfb
+[DEP] ecore
+[DEP] edb
+[DEP] edje
+[DEP] eet
+[DEP] embryo
+[DEP] evas
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] glitz
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpixman
+[DEP] libpng
+[DEP] libtool
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xine-lib
+[DEP] xorg
+[DEP] zlib

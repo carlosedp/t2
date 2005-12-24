@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1126380948 Sat Sep 10 15:35:48 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 11283 (9)
+[SIZE] 1.06 MB, 94 files
+
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkdoc
+[DEP] libart_lgpl23
+[DEP] libgnomecanvas
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
