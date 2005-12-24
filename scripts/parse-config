@@ -19,7 +19,7 @@
 # configuration file config/$config/config
 #
 # [BEGIN] of version section
-sdever=2.1-stable
+sdever=2.1.1
 # [END] of version section
 
 crossnative=native           ; stagelevel=${stagelevel:-1} ; arch=any
