@@ -43,8 +43,8 @@ get_expanded() {
 		shift
 	done
 }
-;;
-3*)
+	;;
+    3*)
 get_expanded() {
 	local string="$1"; shift
 	while [ $# -gt 0 ]; do
@@ -52,7 +52,7 @@ get_expanded() {
 		shift
 	done
 }
-;;
+	;;
 esac
 
 # revert the order of the tokens
@@ -270,8 +270,7 @@ function eval_config_command() {
 	for x ; do
 		if grep -q "[[ ]${x%%=*}[]= ):]" $configscript $sub_scripts ; then
 			config_command="$config_command $x"
-		elif [[ $x = --*able-* ]] && egrep -q "\-\-(en|dis)able-\*" $configscript ||
-		     [[ $x = --with* ]] && egrep -q "\-\-with(|out)-\*" $configscript; then
+		elif [[ $x = --*able-* ]] && egrep -q "\-\-(en|dis)able-\*" $configscript ; then
 			echo "Autodetection for option impossible: " \
 			     "$x passed thru."
 			config_command="$config_command $x"
@@ -506,16 +505,12 @@ pkggetdir() {
 		bindir)  echo "$xprefix/bin"	;;
 		sbindir) echo "$xprefix/sbin"	;;
 		libdir)
-		  if [ "$SDECFG_MULTILIB" = 1 ]; then
-		    case $arch_machine in
-			powerpc64|sparc64|x86_64|mips64)
+		  case $arch_machine in
+			powerpc64|sparc64|x86_64)
 				echo "$xprefix/lib64"	;;
 			*)
 				echo "$xprefix/lib"	;;
-		    esac
-		  else
-			echo "$xprefix/lib"
-		  fi
+		  esac
 		  ;;
 		datadir) echo "${xprefix:-/usr}/share"	;;
 		infodir) echo "${xprefix:-/usr}/info"	;;
@@ -594,7 +589,11 @@ create_package_db() {
 		else
 			v=""
 		fi
-		bfile=${pkg}${v}.$SDECFG_PKGFILE_TYPE
+		if [ "$SDECFG_CREATE_GEM" = 1 ] ; then
+			bfile=${pkg}${v}.gem
+		else
+			bfile=${pkg}${v}.tar.bz2
+		fi
 
 		if [ -e $2/$bfile ] ; then
 			[ "$pkg" = TRANS.TBL ] && continue
@@ -602,7 +601,7 @@ create_package_db() {
 			( echo -e "$pkg"
 			  echo -e "\027"
 
-			  cat $1/descs/$pkg | grep -v '\[COPY\]'
+			  cat $1/descs/$pkg
 			  echo -e "\027"
 
 			  cat $1/dependencies/$pkg
@@ -788,8 +787,8 @@ build_this_package() {
 
 		if [ "$createprefix" = 1 ]; then
 			echo "Creating $root/$prefix/<..> if required ..."
-			for x in $root$docdir $root/$prefix/{bin,lib,share} \
-			         $root$sysconfdir $root$localstatedir
+			for x in $root/$docdir $root/$prefix/{bin,lib,share} \
+			         $root/$sysconfdir $root/$localstatedir
 			do
 				if [ ! -e $x ]; then
 					mkdir -p $x
@@ -850,12 +849,12 @@ build_this_package() {
 				#
 				hook_eval premake
 				if [ "$makeopt" ]; then
-					eval echo "Running $MAKE $makeopt"
+					eval echo "Running $MAKE $makeopt."
 					eval "$MAKE $makeopt"
 				fi
 				hook_eval inmake
 				if [ "$makeinstopt" ]; then
-					eval echo "Running $MAKE $makeinstopt"
+					eval echo "Running $MAKE $makeinstopt."
 					eval "$MAKE $makeinstopt"
 				fi
 				hook_eval postmake
@@ -871,9 +870,9 @@ build_this_package() {
 		fi
 
 		if [ "$createdocs" != 0 ]; then
-			if [ ! -e $root$docdir ]; then
+			if [ ! -e $root/$docdir ]; then
 				mkdir -p $docdir
-				rmemptydir="$rmemptydir $root$docdir"
+				rmemptydir="$rmemptydir $root/$docdir"
 			fi
 			[ -z "$createdocs" ] && createdocs="$SDECFG_CREATE_DOCS"
 		fi
@@ -896,7 +895,7 @@ build_this_package() {
 			[ "${x#*.info*}"    ] || continue
 			[ "${x#*.TAR*}"     ] || continue
 			[ "${x#*akefile*}"     ] || continue
-                        [ -f $x ] && cp -v $x $root$docdir/$x
+                        [ -f $x ] && cp -v $x $root/$docdir/$x
 		done
 
 		if [ "$createdocs" = 1 ]; then
@@ -906,16 +905,16 @@ build_this_package() {
 			               -o -name '[Dd]ocumentation' \) ! -empty`
 			do
 				if [ -d "$x" -a "`echo $x/*`" != "$x/*" ]
-				then cp -rLv $x/* $root$docdir || true ; fi
+				then cp -rLv $x/* $root/$docdir || true ; fi
 			done
 			for x in $confdir/*.doc; do
 				if [ -f $x ]
-				then cp -v $x $root$docdir/${x%.doc}; fi
+				then cp -v $x $root/$docdir/${x%.doc}; fi
 			done
-			find $root$docdir/ -name '*.[0-9]' -o -name '*.info*' \
+			find $root/$docdir/ -name '*.[0-9]' -o -name '*.info*' \
 				-o -name '[Mm]akefile*' |
 				xargs -r rm -f 2> /dev/null || true
-			find $root$docdir/* -type d -empty 2> /dev/null |
+			find $root/$docdir/* -type d -empty 2> /dev/null |
 				xargs -r rmdir 2> /dev/null || true
 		fi
 

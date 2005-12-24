@@ -1,18 +1,18 @@
 
-[TIMESTAMP] 1133763936 Mon Dec  5 07:25:36 2005
-[BUILDTIME] 25 (5)
-[SIZE] 1.85 MB, 36 files
+[TIMESTAMP] 1126547163 Mon Sep 12 13:46:03 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4507 (9)
+[SIZE] 1.83 MB, 35 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] flac
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib12
@@ -22,11 +22,6 @@
 [DEP] id3lib
 [DEP] libogg
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -35,4 +30,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg
 [DEP] zlib

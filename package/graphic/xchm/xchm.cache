@@ -1,42 +1,30 @@
 
-[TIMESTAMP] 1133837350 Tue Dec  6 03:49:10 2005
-[BUILDTIME] 20 (5)
-[SIZE] 0.67 MB, 37 files
+[TIMESTAMP] 1126575846 Mon Sep 12 21:44:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6945 (9)
+[SIZE] 0.65 MB, 35 files
 
-[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] chmlib
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
 [DEP] gtk+
 [DEP] libjpeg
+[DEP] libmspack
 [DEP] libpng
 [DEP] libtiff
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -48,4 +36,4 @@
 [DEP] util-linux
 [DEP] wxwidgets
 [DEP] wxwidgets24
-[DEP] zlib
+[DEP] xorg

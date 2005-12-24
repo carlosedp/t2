@@ -1,19 +1,19 @@
 
-[TIMESTAMP] 1133819910 Mon Dec  5 22:58:30 2005
-[BUILDTIME] 190 (5)
-[SIZE] 8.70 MB, 1651 files
+[TIMESTAMP] 1117412573 Sun May 29 20:22:53 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 39675 (5)
+[SIZE] 8.56 MB, 1622 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] fftw
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -23,29 +23,21 @@
 [DEP] gnome-libs14
 [DEP] grep
 [DEP] imagemagick
-[DEP] imake
 [DEP] lcms
-[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
 [DEP] libtiff
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxt
+[DEP] libtool
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pango
 [DEP] perl
-[DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
+[DEP] xorg
 [DEP] zlib

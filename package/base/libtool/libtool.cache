@@ -1,15 +1,18 @@
 
-[TIMESTAMP] 1133889435 Tue Dec  6 18:17:15 2005
-[BUILDTIME] 30 (9)
-[SIZE] 2.65 MB, 48 files
+[TIMESTAMP] 1127151485 Mon Sep 19 13:38:05 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6327 (9)
+[SIZE] 2.61 MB, 48 files
 
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc

@@ -1,23 +1,21 @@
 
-[TIMESTAMP] 1134063476 Thu Dec  8 18:37:56 2005
-[BUILDTIME] 30 (9)
-[SIZE] 1.95 MB, 105 files
+[TIMESTAMP] 1126406092 Sat Sep 10 22:34:52 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5255 (9)
+[SIZE] 1.68 MB, 96 files
 
 [DEP] alsa-lib
-[DEP] aspell
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -25,16 +23,12 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-vfs
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
 [DEP] howl
-[DEP] imake
-[DEP] inputproto
-[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -44,23 +38,9 @@
 [DEP] libgnomecanvas
 [DEP] libgnomeui
 [DEP] libgpg-error
-[DEP] libice
 [DEP] libjpeg
-[DEP] libpng
-[DEP] libsm
 [DEP] libtasn1
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxscrnsaver
 [DEP] libxslt
 [DEP] linux-header
 [DEP] loudmouth
@@ -74,12 +54,9 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
-[DEP] renderproto
-[DEP] scrnsaverproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,12 +1,14 @@
 
-[TIMESTAMP] 1133970056 Wed Dec  7 16:40:56 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.40 MB, 66 files
+[TIMESTAMP] 1126342084 Sat Sep 10 04:48:04 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4279 (9)
+[SIZE] 0.38 MB, 66 files
 
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils

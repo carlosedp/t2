@@ -20,14 +20,15 @@
 
 [A] Kristian Hogsberg <krh@bitplanet.net>
 [A] Derek Noonburg <derekn@foolabs.com> {xpdf author}
+
 [M] The T2 Project <t2@t2-project.org>
 
 [C] extra/development
 
 [L] GPL
 [S] Beta
-[V] 0.4.3
+[V] 0.4.2
 [P] X -----5---9 800.000
 
-[D] 1877672638 poppler-0.4.3.tar.gz http://poppler.freedesktop.org/
+[D] 1345508602 poppler-0.4.2.tar.gz http://poppler.freedesktop.org/
 

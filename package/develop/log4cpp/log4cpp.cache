@@ -1,13 +1,15 @@
 
-[TIMESTAMP] 1133804824 Mon Dec  5 18:47:04 2005
-[BUILDTIME] 45 (5)
-[SIZE] 4.33 MB, 1048 files
+[TIMESTAMP] 1126567785 Mon Sep 12 19:29:45 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 26230 (9)
+[SIZE] 4.11 MB, 1042 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
+[DEP] dfb-lite
 [DEP] diffutils
 [DEP] doxygen
 [DEP] findutils
@@ -16,6 +18,7 @@
 [DEP] glibc
 [DEP] graphviz
 [DEP] grep
+[DEP] libdockapp
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -24,3 +27,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg

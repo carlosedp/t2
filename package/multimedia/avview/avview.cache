@@ -1,13 +1,14 @@
 
-[TIMESTAMP] 1134218803 Sat Dec 10 13:46:43 2005
-[BUILDTIME] 10 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1126484029 Sun Sep 11 20:13:49 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3118 (9)
+[SIZE] 0.34 MB, 40 files
 
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] ffmpeg
@@ -15,22 +16,15 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] lame
-[DEP] libice
 [DEP] libogg
 [DEP] libpng
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxinerama
-[DEP] libxv
 [DEP] libzvbi
 [DEP] linux-header
 [DEP] lirc
 [DEP] make
+[DEP] mktemp
 [DEP] net-tools
 [DEP] patch
 [DEP] sed
@@ -39,7 +33,5 @@
 [DEP] tcl
 [DEP] tk
 [DEP] util-linux
-[DEP] xineramaproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,22 +1,25 @@
 
-[TIMESTAMP] 1133850622 Tue Dec  6 07:30:22 2005
-[BUILDTIME] 45 (5)
-[SIZE] 4.71 MB, 1270 files
+[TIMESTAMP] 1126604963 Tue Sep 13 05:49:23 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 11032 (9)
+[SIZE] 4.45 MB, 2166 files
 
-[DEP] 00-dirtree
 [DEP] a52dec
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] ffmpeg
+[DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] imagemagick
+[DEP] libdvdnav
 [DEP] libid3tag
 [DEP] libjpeg
 [DEP] libmad
@@ -30,4 +33,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] xine-lib
 [DEP] zlib

@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134222428 Sat Dec 10 14:47:08 2005
-[BUILDTIME] 150 (9)
-[SIZE] 5.03 MB, 69 files
+[TIMESTAMP] 1130258299 Tue Oct 25 13:38:19 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 16205 (9)
+[SIZE] 4.34 MB, 62 files
 
 [DEP] alsa-lib
 [DEP] atk
@@ -9,20 +10,18 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
 [DEP] flac
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
 [DEP] gtk+
 [DEP] gzip
@@ -35,16 +34,6 @@
 [DEP] libsndfile
 [DEP] libtiff
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -58,5 +47,6 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] wxwidgets24
+[DEP] xorg
 [DEP] zip
 [DEP] zlib

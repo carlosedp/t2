@@ -1,23 +1,23 @@
 
-[TIMESTAMP] 1134066312 Thu Dec  8 19:25:12 2005
-[BUILDTIME] 25 (9)
-[SIZE] 2.17 MB, 186 files
+[TIMESTAMP] 1126408642 Sat Sep 10 23:17:22 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4498 (9)
+[SIZE] 1.75 MB, 175 files
 
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
+[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -25,16 +25,11 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
 [DEP] howl
-[DEP] imake
-[DEP] inputproto
-[DEP] kbproto
-[DEP] lcms
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -42,24 +37,9 @@
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
-[DEP] libgnomeprint
-[DEP] libgnomeprintui
 [DEP] libgnomeui
-[DEP] libice
 [DEP] libjpeg
-[DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -71,12 +51,11 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
-[DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] texinfo
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

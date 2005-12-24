@@ -29,11 +29,10 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] base/x11
-[F] NO-AS-NEEDED
 
 [L] GPL
 [S] Beta
-[V] 0.16
+[V] 0.15
 [P] X -----5---9 121.000
 
-[D] 2600052870 shared-mime-info-0.16.tar.gz http://freedesktop.org/~jrb/
+[D] 23840778 shared-mime-info-0.15.tar.gz http://freedesktop.org/software/shared-mime-info/

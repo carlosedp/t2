@@ -23,9 +23,9 @@ make_fstab() {
 none /proc proc defaults 0 0
 none /dev devfs defaults 0 0
 none /dev/pts devpts defaults 0 0
-none /dev/shm tmpfs defaults 0 0
+none /dev/shm ramfs defaults 0 0
 none /sys sysfs defaults 0 0
-none /tmp tmpfs defaults 0 0
+#none /tmp tmpfs defaults 0 0
 EOT
 
 	for x in /dev/cdroms/cdrom[0-9] ; do

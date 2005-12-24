@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1133950855 Wed Dec  7 11:20:55 2005
-[BUILDTIME] 35 (9)
-[SIZE] 4.36 MB, 71 files
+[TIMESTAMP] 1126331303 Sat Sep 10 01:48:23 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 7006 (9)
+[SIZE] 4.29 MB, 67 files
 
 [DEP] autoconf
 [DEP] automake
@@ -9,26 +10,25 @@
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] cyrus-sasl2
 [DEP] diffutils
+[DEP] dpkg
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
-[DEP] libusb
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] openldap
 [DEP] openssl
 [DEP] patch
 [DEP] perl
-[DEP] readline
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

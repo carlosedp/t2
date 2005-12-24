@@ -96,30 +96,17 @@ fi
 . ./scripts/functions.in
 . ./scripts/parse-config
 
-if [ -z "$root" -a $stagelevel -le 1 ] ||
-   [ -z "$root" -a $chroot -eq 1 ] ||
+if [ -z "$root" -a $stagelevel -le 1 ] || \
+   [ -z "$root" -a $chroot -eq 1 ] || \
    [ "$root" = auto ]; then
-	# stage 0 cross compiler build
-	if [ $stagelevel -eq 0 ]; then root="build/$SDECFG_ID/TOOLCHAIN/$toolsdir"
-	# the new systems root
-	else root="build/$SDECFG_ID"; fi
+		if [ $stagelevel -gt 0 ]; then root="build/$SDECFG_ID"
+		else root="build/$SDECFG_ID/TOOLCHAIN/$toolsdir"; fi
 fi
 
 [ "$pkgdir" -a "${pkgdir#/}" = "$pkgdir" ] && pkgdir="$base/$pkgdir"
 [ "$root" -a "${root#/}" = "$root" ] && root="$base/$root"
-
-# remove leading and trailing / on prefix and root
 prefix=${prefix%/} ; prefix=${prefix#/} ; root=${root%/}
-
-# xroot is for internal use and always points to the new system
-xroot="$root"
-if [ $stagelevel -le 1 ]; then
-	sysroot="$base/build/$SDECFG_ID" # always fresh sandbox
-else
-	root=
-	sysroot=
-fi
-
+xroot="$root" ; [ $stagelevel -gt 1 ] && root=""
 
 if [ -z "$id" ] ; then
 	id=`get_unique`
@@ -316,21 +303,9 @@ if [ $this_is_the_2nd_run = 0 ] ; then
 		eval "`grep -v '^Command ' < $root/var/adm/cache/$xpkg.tm`"
 		rm -f $root/var/adm/cache/$xpkg.tm
 
-		# store reference time
-		if [ $pkg = binutils ]; then
-			echo $buildtime > $sysroot/TOOLCHAIN/reftime
-		fi
-		# compute relative build time to binutils (LFS-style)
-		if [ -e $root/TOOLCHAIN/reftime ]; then
-			reftime=`cat $root/TOOLCHAIN/reftime`
-		else
-			reftime=$buildtime # so until we have a ref all will be 100%
-		fi
-		# quantisized to 5% steps
-		buildtime=`gawk "BEGIN { printf(\"%d\n\", int($buildtime * 20 / $reftime) * 5 ); }"`
-
 		{
 			date '+%n[TIMESTAMP] %s %c'
+			echo "[CONFIG-ID] ${SDECFG_ID#*-}"
 
 			[ -f $root/var/adm/logs/$stagelevel-$xpkg.err ] &&
 				x=" ERROR" || x=""
@@ -390,14 +365,9 @@ targetdir="$base/target/$target"
 
 detect_patchfiles
 
-if [ $stagelevel -eq 0 ]; then
-	var_append patchfiles ' ' "`ls $confdir/*.patch.cross0{,.$arch} \
-	                            2>/dev/null | tr '\n' ' '`"
-fi
-
 if [ $stagelevel -le 1 ]; then
-	var_append patchfiles ' ' "`ls $confdir/*.patch.cross{,.$arch} \
-	                            2>/dev/null | tr '\n' ' '`"
+	patchfiles="`ls $patchfiles $confdir/*.patch.cross \
+	             $confdir/*.patch.cross.$arch 2>/dev/null | tr '\n' ' '`"
 fi
 
 if [ $stagelevel -gt 1 ]; then
@@ -743,9 +713,23 @@ abort() {
 			# iterate over the read file list streamed to stdin
 			ARGIND == ARGC-1 {
 			    file = $2;
+			# v- The code commented out iterates thru any sub-
+			#    part of the filename and thus matches also the
+			#    lower directory parts. However this gives no
+			#    value and just false deps on randomly created
+			#    directories. -ReneR
+			#     while ( file != "" ) {
 				if ( f[file] ) {
 				    print f[file] " " file;
+			#	    split(f[file], a);
+			#	    for (i in a)
+			#		if (! d[a[i] " " file]) {
+			#		    d[a[i] " " file] = 1;
+			#		    print a[i] " " file;
+			#		}
 				}
+			#	sub("/?[^/]*$", "", file)
+			#    }
 			}
 		' var/adm/flists/* - >> $builddir/dependencies.debug
 

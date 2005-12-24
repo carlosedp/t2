@@ -37,14 +37,12 @@
 [M] Juergen "George" Sawinski <jsaw@gmx.net>
 
 [C] extra/scientific
-[F] NO-AS-NEEDED
 
 [L] Free-to-use
-[S] Beta
-[V] 5.04.00
+[S] Stable
+[V] 4.04.02
 [P] X -----5---9 221.300
 
-[D] 3047419708 root_v5.04.00.source.tar.gz ftp://root.cern.ch/root/
-# xrootd disabled in 5.4.0 due to compile failure,
-# re-enable with new version
+[D] 2474034835 root_v4.04.02.source.tar.gz ftp://root.cern.ch/root/
+
 

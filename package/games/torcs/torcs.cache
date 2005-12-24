@@ -1,15 +1,15 @@
 
-[TIMESTAMP] 1133760256 Mon Dec  5 06:24:16 2005
-[BUILDTIME] 110 (5)
-[SIZE] 219.72 MB, 2689 files
+[TIMESTAMP] 1126544221 Mon Sep 12 12:57:01 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 30055 (9)
+[SIZE] 219.85 MB, 2689 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
@@ -19,38 +19,21 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] imake
-[DEP] libdrm
-[DEP] libice
 [DEP] libogg
 [DEP] libpng
 [DEP] libsdl
-[DEP] libsm
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
+[DEP] nas
 [DEP] net-tools
 [DEP] openal
 [DEP] patch
 [DEP] plib
-[DEP] randrproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xf86vidmodeproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,45 +1,28 @@
 
-[TIMESTAMP] 1134135988 Fri Dec  9 14:46:28 2005
-[BUILDTIME] 30 (9)
-[SIZE] 2.74 MB, 31 files
+[TIMESTAMP] 1117269105 Sat May 28 04:31:45 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 8087 (5)
+[SIZE] 4.91 MB, 61 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
-[DEP] gconf
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
-[DEP] inputproto
-[DEP] kbproto
-[DEP] libpng
-[DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -48,16 +31,12 @@
 [DEP] openssl
 [DEP] pango
 [DEP] perl
-[DEP] pil
 [DEP] pkgconfig
 [DEP] python
-[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] tcl
 [DEP] util-linux
 [DEP] wxpython
-[DEP] xproto
-[DEP] zlib
-[DEP] zope
+[DEP] xorg

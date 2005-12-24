@@ -7,6 +7,7 @@
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] cabextract
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils

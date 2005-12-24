@@ -1,12 +1,14 @@
 
-[TIMESTAMP] 1134030504 Thu Dec  8 09:28:24 2005
-[BUILDTIME] 20 (9)
+[TIMESTAMP] 1126379271 Sat Sep 10 15:07:51 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5334 (9)
 [SIZE] 0.91 MB, 88 files
 
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] doxygen

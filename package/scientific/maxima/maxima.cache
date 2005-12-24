@@ -1,14 +1,16 @@
 
-[TIMESTAMP] 1133850053 Tue Dec  6 07:20:53 2005
-[BUILDTIME] 135 (5)
-[SIZE] 40.08 MB, 1189 files
+[TIMESTAMP] 1121809228 Tue Jul 19 17:40:28 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 10278 (5)
+[SIZE] 46.18 MB, 1145 files
 
 [DEP] 00-dirtree
 [DEP] bash
-[DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] expect
 [DEP] findutils
 [DEP] gawk
@@ -24,7 +26,6 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] perl
-[DEP] rrdtool
 [DEP] sed
 [DEP] sqlite
 [DEP] sysfiles

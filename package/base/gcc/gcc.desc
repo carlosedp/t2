@@ -14,10 +14,10 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] The GNU Compiler Collection Version 4 (aka GNU C Compiler)
+[I] The GNU Compiler Collection Version 3 (aka GNU C Compiler)
 
 [T] This package contains the GNU Compiler Collection. It includes compilers
-[T] for the languages C, C++, Objective C, Fortran 95, Java and others ...
+[T] for the languages C, C++, Objective C, Fortran 77, Java and others ...
 [T]
 [T] This GCC contains the Stack-Smashing Protector Patch which can be enabled
 [T] with the -fstack-protector command-line option. More information about it
@@ -35,9 +35,9 @@
 
 [L] GPL
 [S] Stable
-[V] 4.0.2
+[V] 3.4.4
 [P] X 012--5---9 102.300
 
-[D] 2297749519 gcc-4.0.2.tar.bz2 ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.0.2/
-# [D] 1657281882 protector-3.4.1-1.tar.gz http://www.research.ibm.com/trl/projects/security/ssp/gcc3_4_1/
+[D] 1929991607 gcc-3.4.4.tar.bz2 ftp://gcc.gnu.org/pub/gcc/releases/gcc-3.4.4/
+[D] 365541092 protector-3.4.4-1.tar.gz http://researchweb.watson.ibm.com/trl/projects/security/ssp/gcc3_4_4/
 

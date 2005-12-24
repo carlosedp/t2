@@ -79,38 +79,35 @@ int main(int argc, char ** argv) {
 	if ( getenv("TERM") )
 		sprintf(env_TERM, "TERM=%.50s", getenv("TERM"));
 
-	/* we never need argv[0] - skipt it */
-	argv++; argc--;
-
 	/* Handle --nobtee option */
-	if ( argc > 0 && !strcmp(*argv, "--nobtee") ) {
+	if ( argc > 1 && !strcmp(argv[1], "--nobtee") ) {
 		use_btee = 0;
 		argv++; argc--;
 	}
 
 	/* Display help message */
-	if ( argc < 2 ) {
+	if ( argc != 3 ) {
 		fprintf(stderr,
 "\n"
 "  Run SystemV Init-Scripts with a clean environment and detached from\n"
 "  the terminal.\n"
 "\n"
-"  Usage: rc [ --nobtee ] <service> { start | stop | ... | help } [ script options ]\n");
+"  Usage: rc [ --nobtee ] <service> { start | stop | ... | help }\n");
 	}
-	if ( argc == 0 ) {
+	if ( argc == 1 ) {
 		fprintf(stderr, "\n"
 "  <service> might be one of:\n"
 "\n");
 		fflush(stderr);
 		system("ls /etc/rc.d/init.d >&2");
 	}
-	if ( argc < 2 ) {
+	if ( argc != 3 ) {
 		fprintf(stderr, "\n");
 		return 1;
 	}
 
 	/* No btee when viewing the help screen for this service */
-	if ( !strcmp(argv[1], "help") ) use_btee = 0;
+	if ( !strcmp(argv[2], "help") ) use_btee = 0;
 
 	/* Forward output to a 'btee' process */
 	if ( use_btee ) {
@@ -153,10 +150,9 @@ int main(int argc, char ** argv) {
 	handle_error( setrlimit(RLIMIT_LOCKS,   &rlim_locks) );
 
 	/* Reset all signal handlers */
-	for (i=1; i<NSIG; i++) {
+	for (i=1; i<64; i++) {
 		if ( i == SIGKILL ) continue;
 		if ( i == SIGSTOP ) continue;
-		if ( i >= __SIGRTMIN && i < SIGRTMIN ) continue;
 		if( signal(i, SIG_DFL) == SIG_ERR ) {
 			fprintf(stderr, "rc: Can't reset signal #%d: "
 			        "%s\n", i, strerror(errno) );
@@ -179,13 +175,9 @@ int main(int argc, char ** argv) {
 	/* Run the command in a (non-interactive) login shell (i.e. read
 	 * /etc/profile) and send \004 after running the script if we are
 	 * using btee. */
-	i = snprintf(command, sizeof(command), "%s%s",
-	         strchr(*argv, '/') ? "" : "/etc/rc.d/init.d/", *argv);
-	argv++;
-	while (*argv) /* copy args */
-		i += snprintf(command+i, sizeof(command)-i, " %s", *argv++);
-	i+=snprintf(command+i, sizeof(command)-i, " </dev/null 2>&1%s",
-	         use_btee ? "; echo -ne '\004'" : "");
+	snprintf(command, 1024, "%s%s %s </dev/null 2>&1%s",
+	         strchr(argv[1], '/') ? "" : "/etc/rc.d/init.d/",
+	         argv[1], argv[2], use_btee ? "; echo -ne '\004'" : "");
 	execle("/bin/bash", "-bash", "-l", "-c", command, NULL, clean_env);
 
 	/* Oups! Can't exec the shell. */

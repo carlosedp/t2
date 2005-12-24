@@ -1,14 +1,16 @@
 
-[TIMESTAMP] 1134047038 Thu Dec  8 14:03:58 2005
-[BUILDTIME] 20 (9)
-[SIZE] 5.64 MB, 46 files
+[TIMESTAMP] 1126396482 Sat Sep 10 19:54:42 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5136 (9)
+[SIZE] 5.65 MB, 47 files
 
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
@@ -19,33 +21,18 @@
 [DEP] embryo
 [DEP] esmart
 [DEP] evas
+[DEP] expat
 [DEP] findutils
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnutls
+[DEP] glitz
 [DEP] grep
-[DEP] imake
 [DEP] imlib2
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libice
 [DEP] libjpeg
+[DEP] libpixman
 [DEP] libpng
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxinerama
-[DEP] libxp
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -53,12 +40,10 @@
 [DEP] net-tools
 [DEP] openssl
 [DEP] pam
-[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

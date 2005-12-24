@@ -1,14 +1,15 @@
 
-[TIMESTAMP] 1118278880 Wed Jun  8 21:01:20 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 119313 (5)
-[SIZE] 42.83 MB, 1569 files
+[TIMESTAMP] 1129676880 Tue Oct 18 20:08:00 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 125383 (9)
+[SIZE] 45.42 MB, 1581 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] e2fsprogs

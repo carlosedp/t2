@@ -1,66 +1,40 @@
 
-[TIMESTAMP] 1134161328 Fri Dec  9 21:48:48 2005
-[BUILDTIME] 65 (9)
-[SIZE] 33.79 MB, 3224 files
+[TIMESTAMP] 1121664022 Mon Jul 18 01:20:22 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 10518 (5)
+[SIZE] 31.16 MB, 3194 files
 
 [DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] expat
 [DEP] findutils
 [DEP] flex
 [DEP] fltk
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
 [DEP] gtk+
-[DEP] imake
-[DEP] inputproto
-[DEP] kbproto
-[DEP] libdrm
-[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
 [DEP] libtiff
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
-[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xextproto
-[DEP] xineramaproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,13 +1,24 @@
 
-[TIMESTAMP] 1134313251 Sun Dec 11 16:00:51 2005
-[BUILDTIME] 10 (9) ERROR
-[SIZE] 0.01 MB, 6 files
+[TIMESTAMP] 1121728550 Mon Jul 18 19:15:50 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 3394 (5)
+[SIZE] 9.68 MB, 66 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
+[DEP] glibc
 [DEP] grep
+[DEP] make
+[DEP] mktemp
+[DEP] mono
+[DEP] net-tools
 [DEP] sed
+[DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

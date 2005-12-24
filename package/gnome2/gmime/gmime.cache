@@ -1,11 +1,13 @@
 
-[TIMESTAMP] 1134024559 Thu Dec  8 07:49:19 2005
-[BUILDTIME] 35 (9)
-[SIZE] 2.28 MB, 162 files
+[TIMESTAMP] 1126372309 Sat Sep 10 13:11:49 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8228 (9)
+[SIZE] 1.37 MB, 84 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -14,7 +16,7 @@
 [DEP] glib
 [DEP] glibc
 [DEP] grep
-[DEP] gtk-sharp2
+[DEP] gtk-sharp
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

@@ -1,22 +1,19 @@
 
-[TIMESTAMP] 1133759837 Mon Dec  5 06:17:17 2005
-[BUILDTIME] 15 (5)
-[SIZE] 1.62 MB, 80 files
+[TIMESTAMP] 1122323092 Mon Jul 25 16:24:52 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 1632 (5) ERROR
+[SIZE] 0.01 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] bash
-[DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
-[DEP] glibc
+[DEP] gnue-common
 [DEP] grep
-[DEP] hdf5
-[DEP] linux-header
-[DEP] lzo
 [DEP] numpy
 [DEP] pynumarray
 [DEP] pyrexc
@@ -24,5 +21,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] ucl
 [DEP] wxpython
+[DEP] zope

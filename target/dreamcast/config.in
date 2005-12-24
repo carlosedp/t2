@@ -11,7 +11,6 @@
 # the Free Software Foundation; version 2 of the License. A copy of the
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
-
 pkgfilter sed '
 
 # mangle all packages to only build them in the cross stage (1)
@@ -30,7 +29,6 @@ s,^. \(.\)[^ ]*,X \11--------,;
 / minit /		{ p; d; };
 / fgetty /		{ p; d; };
 
-/ libowfat /		{ p; d; };
 / busybox /		{ p; d; };
 
 / zlib /		{ p; d; };
@@ -41,14 +39,16 @@ s,^. \(.\)[^ ]*,X \11--------,;
 / dropbear /		{ p; d; };
 / rsync /		{ p; d; };
 
-# / gpm /			{ p; d; };
+/ gpm /			{ p; d; };
 
 / strace /		{ p; d; };
 # disable the rest
 /.*/			{ s/^X /O / ; p; d; };'
 
+SDECFG_TARGET='desktop'
 
-SDECFGSET_PKGFILE_TYPE='tarbz2'
+SDECFGSET_CREATE_TARBZ2=1
+SDECFGSET_CREATE_GEM=0
 SDECFGSET_PKGFILE_VER=0
 
 SDECFGSET_LIBC='uclibc'

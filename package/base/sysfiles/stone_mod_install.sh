@@ -14,25 +14,25 @@
 # --- T2-COPYRIGHT-NOTE-END ---
 
 part_mounted_action() {
-	if gui_yesno "Do you want to un-mount the filesystem on $1?"
-	then umount /dev/$1; fi
+	if gui_yesno "Do you want to un-mount the filesystem on $1/$2?"
+	then umount /dev/$1/$2; fi
 }
 
 part_swap_action() {
-	if gui_yesno "Do you want to de-activate the swap space on $1?"
-	then swapoff /dev/$1; fi
+	if gui_yesno "Do you want to de-activate the swap space on $1/$2?"
+	then swapoff /dev/$1/$2; fi
 }
 
 part_mount() {
 	local dir
-	gui_input "Mount device $1 on directory
+	gui_input "Mount device $1/$2 on directory
 (for example /, /home, /var, ...)" '/' dir
 	if [ "$dir" ] ; then
 		dir="$( echo $dir | sed 's,^/*,,; s,/*$,,' )"
 		if [ -z "$dir" ] || grep -q " /mnt/target " /proc/mounts
 		then
 			mkdir -p /mnt/target/$dir
-			mount /dev/$1 /mnt/target/$dir
+			mount /dev/$1/$2 /mnt/target/$dir
 		else
 			gui_message "Please mount a root filesystem first."
 		fi
@@ -40,50 +40,55 @@ part_mount() {
 }
 
 part_mkfs() {
-	dev=$1
-	cmd="gui_menu part_mkfs 'Create filesystem on $dev'"
+	cmd="gui_menu part_mkfs 'Create filesystem on $1/$2'"
 
-	maybe_add () {
-	  if grep -q $1 /proc/filesystems && type -p $3 > /dev/null ; then
-		cmd="$cmd '$1 ($2 filesystem)' '$3 $4 /dev/$dev'"
-	  fi
-	}
+	cmd="$cmd 'ext3fs   (journaling filesystem)'"
+	cmd="$cmd 'mke2fs -j /dev/$1/$2'"
 
-	maybe_add ext3	'journaling'		'mkfs.ext2' '-j'
-	maybe_add ext2	'non-journaling'	'mkfs.ext2'
-	maybe_add reiserfs 'journaling'		'mkfs.reiserfs'
-	maybe_add reiser4 'high-performance journaling' 'mkfs.reiser4'
-	maybe_add jfs	'IBM journaling'	'mkfs.jfs'
-	maybe_add xfs	'Sgi journaling'	'mkfs.xfs' '-f'
+	cmd="$cmd 'ext2fs   (non-journaling fs)'"
+	cmd="$cmd 'mke2fs /dev/$1/$2'"
 
-	eval "$cmd" && part_mount $dev
+	cmd="$cmd 'reiserfs (journaling filesystem)'"
+	cmd="$cmd 'mkreiserfs /dev/$1/$2'"
+
+	if type -p jfs_mkfs > /dev/null ; then
+		cmd="$cmd 'IBM JFS  (journaling filesystem)'"
+		cmd="$cmd 'jfs_mkfs /dev/$1/$2'"
+	fi
+
+	if type -p mkfs.xfs > /dev/null ; then
+		cmd="$cmd 'SGI XFS  (journaling filesystem)'"
+		cmd="$cmd 'mkfs.xfs -f /dev/$1/$2'"
+	fi
+
+	eval "$cmd" && part_mount $1 $2
 }
 
 part_unmounted_action() {
-	gui_menu part "$1" \
+	gui_menu part "$1/$2" \
 		"Create a filesystem on the partition" \
-				"part_mkfs $1" \
+				"part_mkfs $1 $2" \
 		"Mount an existing filesystem from the partition" \
-				"part_mount $1" \
+				"part_mount $1 $2" \
 		"Create a swap space on the partition" \
-				"mkswap /dev/$1; swapon /dev/$1" \
+				"mkswap /dev/$1/$2; swapon /dev/$1/$2" \
 		"Activate an existing swap space on the partition" \
-				"swapon /dev/$1"
+				"swapon /dev/$1/$2"
 }
 
 part_add() {
 	local action="unmounted" location="currently not mounted"
-	if grep -q "^/dev/$1 " /proc/swaps; then
+	if grep -q "^/dev/$1/$2 " /proc/swaps; then
 		action=swap ; location="swap  <no mount point>"
-	elif grep -q "^/dev/$1 " /proc/mounts; then
+	elif grep -q "^/dev/$1/$2 " /proc/mounts; then
 		action=mounted
-		location="`grep "^/dev/$1 " /proc/mounts | cut -d ' ' -f 2 |
+		location="`grep "^/dev/$1/$2 " /proc/mounts | cut -d ' ' -f 2 | \
 			  sed "s,^/mnt/target,," `"
 		[ "$location" ] || location="/"
 	fi
 
 	# save partition information
-	disktype /dev/$1 > /tmp/stone-install
+	disktype /dev/$1/$2 > /tmp/stone-install
 	type="`grep /tmp/stone-install -v -e '^  ' -e '^Block device' \
 	       -e '^Partition' -e '^---' | \
 	       sed -e 's/[,(].*//' -e '/^$/d' -e 's/ $//' | tail -n 1`"
@@ -91,20 +96,25 @@ part_add() {
 	       sed 's/.* size \(.*\) (.*/\1/'`"
 
 	[ "$type" ] || type="undetected"
-	cmd="$cmd '`printf "%-6s %-24s %-10s" $1 "$location" "$size"` $type' 'part_${action}_action $1 $2'"
+	cmd="$cmd '`printf "%-6s %-24s %-10s" $2 "$location" "$size"` $type' 'part_${action}_action $1 $2'"
 }
 
 disk_action() {
-	if grep -q "^/dev/$1 " /proc/swaps /proc/mounts; then
+	if grep -q "^/dev/$1/" /proc/swaps /proc/mounts; then
 		gui_message "Partitions from $1 are currently in use, so you
 can't modify this disks partition table."
 		return
 	fi
 
 	cmd="gui_menu disk 'Edit partition table of $1'"
-	for x in parted cfdisk fdisk pdisk mac-fdisk ; do
-		type -p $x > /dev/null &&
-		  cmd="$cmd \"Edit partition table using '$x'\" \"$x /dev/$1\""
+	for x in cfdisk fdisk pdisk mac-fdisk ; do
+		fn=""
+		[ -f /bin/$x ] && fn="/bin/$x"
+		[ -f /sbin/$x ] && fn="/sbin/$x"
+		[ -f /usr/bin/$x ] && fn="/usr/bin/$x"
+		[ -f /usr/sbin/$x ] && fn="/usr/sbin/$x"
+		[ "$fn" ] && \
+		  cmd="$cmd \"Edit partition table using '$x'\" \"$x /dev/$1/disc\""
 	done
 
 	eval $cmd
@@ -133,12 +143,14 @@ de-activate it.\" ''"
 
 disk_add() {
 	local x y=0
-	cmd="$cmd 'Edit partition table of $1:' 'disk_action $1'"
-	for x in $( cd /dev/ ; ls $1[0-9]* 2> /dev/null )
+	cmd="$cmd 'Partition table of $1:' 'disk_action $1'"
+	for x in $( cd /dev/$1 ; ls part* 2> /dev/null )
 	do
-		part_add $x ; y=1
+		part_add $1 $x ; y=1
 	done
-	[ $y = 0 ] && cmd="$cmd 'Partition table is empty.' ''"
+	if [ $y = 0 ]; then
+		cmd="$cmd 'Partition table is empty.' ''"
+	fi
 	cmd="$cmd '' ''"
 }
 
@@ -164,26 +176,24 @@ main() {
 
 	local cmd install_now=0
 	while
-		cmd="gui_menu install 'Disc setup (partitions and mount-points)
+		cmd="gui_menu install 'Partitioning your discs
 
 This dialog allows you to modify your discs parition layout and to create filesystems and swap-space - as well as mouting / activating it. Everything you can do using this tool can also be done manually on the command line.'"
 
 		# protect for the case no discs are present ...
-		found=0
-		for x in $( cd /dev/; ls hd[a-z] sd[a-z] 2> /dev/null ); do
-			grep -q cdrom /proc/ide/$x/media 2>/dev/null && continue
+		if [ -e /dev/discs ] ; then
+		  for x in $( cd /dev/discs
+		            ls -l * | grep ' -> ' | cut -f2- -d/ | sort )
+		  do
 			disk_add $x
-			found=1
-		done
-		for x in $( cat /etc/lvmtab 2> /dev/null ); do
+		  done
+		  for x in $( cat /etc/lvmtab 2> /dev/null ); do
 			vg_add "$x"
-			found=1
-		done
-		[ -x /sbin/vgs ] && for x in $( vgs --noheadings -o name 2> /dev/null ); do
+		  done
+		  [ -x /sbin/vgs ] && for x in $( vgs --noheadings -o name 2> /dev/null ); do
 			vg_add "$x"
-			found=1
-		done
-		if [ $found = 0 ]; then
+		  done
+		else
 		  cmd="$cmd 'No hard-disc found!' ''"
 		fi
 
@@ -194,16 +204,14 @@ This dialog allows you to modify your discs parition layout and to create filesy
 
 	if [ "$install_now" -ne 0 ] ; then
 		$STONE packages
-		mount -v /dev /mnt/target/dev --bind
 		cat > /mnt/target/tmp/stone_postinst.sh << EOT
 #!/bin/sh
+mount -v /dev
 mount -v /proc
-mount -v /sys
 . /etc/profile
 stone setup
 umount -v /dev
 umount -v /proc
-umount -v /sys
 EOT
 		chmod +x /mnt/target/tmp/stone_postinst.sh
 		grep ' /mnt/target[/ ]' /proc/mounts | \

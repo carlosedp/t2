@@ -1,13 +1,14 @@
 
-[TIMESTAMP] 1133748525 Mon Dec  5 03:08:45 2005
-[BUILDTIME] 25 (5)
+[TIMESTAMP] 1126533435 Mon Sep 12 09:57:15 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5128 (9)
 [SIZE] 5.14 MB, 34 files
 
-[DEP] 00-dirtree
 [DEP] allegro
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -15,15 +16,6 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxpm
-[DEP] libxrender
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -32,3 +24,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg

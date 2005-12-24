@@ -1,27 +1,26 @@
 
-[TIMESTAMP] 1133955679 Wed Dec  7 12:41:19 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.61 MB, 96 files
+[TIMESTAMP] 1126333545 Sat Sep 10 02:25:45 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2801 (9)
+[SIZE] 0.62 MB, 95 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
-[DEP] gccmakedep
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] libpng
 [DEP] linux-header
 [DEP] make
 [DEP] patch
-[DEP] rman
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] xmkmf
+[DEP] xorg
 [DEP] zlib

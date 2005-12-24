@@ -1,13 +1,16 @@
 
-[TIMESTAMP] 1134187160 Sat Dec 10 04:59:20 2005
-[BUILDTIME] 20 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1126468080 Sun Sep 11 15:48:00 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5524 (9)
+[SIZE] 0.20 MB, 33 files
 
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
@@ -17,29 +20,18 @@
 [DEP] eet
 [DEP] embryo
 [DEP] evas
+[DEP] expat
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
-[DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
-[DEP] gst-plugins
-[DEP] gstreamer
 [DEP] libjpeg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxinerama
-[DEP] libxml
-[DEP] libxp
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -47,10 +39,10 @@
 [DEP] net-tools
 [DEP] openssl
 [DEP] perl
-[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] xine-lib
+[DEP] xorg
 [DEP] zlib

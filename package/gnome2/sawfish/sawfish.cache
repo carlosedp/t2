@@ -1,23 +1,23 @@
 
-[TIMESTAMP] 1117321925 Sat May 28 19:12:05 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 5697 (5)
+[TIMESTAMP] 1126433738 Sun Sep 11 06:15:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6450 (9)
 [SIZE] 5.71 MB, 684 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] esound
 [DEP] expat
 [DEP] findutils
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
@@ -25,6 +25,7 @@
 [DEP] gmp
 [DEP] grep
 [DEP] gtk+
+[DEP] libdnet
 [DEP] librep
 [DEP] linux-header
 [DEP] make

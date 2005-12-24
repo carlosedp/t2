@@ -27,14 +27,14 @@
 [U] http://www.balabit.com/products/syslog_ng/
 
 [A] Balazs Scheidler
-[M] Christian Wiese <jeru@ixplanet.org> 
+[M] Rene Rebe <rene@t2-project.org>
 
 [C] base/system
 
 [L] OpenSource
-[S] Beta 
-[V] 1.9.5+20050913
-[P] X -----5---9 186.900
+[S] Stable 
+[V] 1.6.8
+[P] X ---3-----9 186.900
 
-[D] 603022377 syslog-ng-1.9.5+20050913.tar.gz http://www.balabit.hu/downloads/syslog-ng/1.9/src-snapshot/
+[D] 2297149478 syslog-ng-1.6.8.tar.gz http://www.balabit.hu/downloads/syslog-ng/1.6/src/
 

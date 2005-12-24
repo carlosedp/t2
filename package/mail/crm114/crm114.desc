@@ -29,13 +29,13 @@
 [U] http://crm114.sourceforge.net/
 
 [A] Bill Yerazunis <wsy@merl.com>
-[M] Alejandro Mery <amery@t2-project.org>
+[M] The T2 Project <t2@t2-project.org>
 
 [C] extra/tool
 
 [L] GPL
-[S] Stable
-[V] 20051001-BlameRaulMiller
+[S] Beta
+[V] 20041231.BlameSanAndreas
 [P] X -----5---9 196.700
 
-[D] 319171681 crm114-20051001-BlameRaulMiller.src.tar.gz http://crm114.sourceforge.net/
+[D] 423057052 crm114-20041231.BlameSanAndreas.src.tar.gz http://crm114.sourceforge.net/

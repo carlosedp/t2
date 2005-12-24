@@ -1,12 +1,13 @@
 
-[TIMESTAMP] 1133775314 Mon Dec  5 10:35:14 2005
-[BUILDTIME] 65 (5)
-[SIZE] 2.16 MB, 146 files
+[TIMESTAMP] 1126555665 Mon Sep 12 16:07:45 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8614 (9)
+[SIZE] 2.21 MB, 146 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -14,7 +15,6 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] java-dirtree
 [DEP] jikes
 [DEP] kaffe
 [DEP] linux-header

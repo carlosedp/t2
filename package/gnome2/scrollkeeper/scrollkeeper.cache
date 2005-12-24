@@ -1,9 +1,11 @@
 
-[TIMESTAMP] 1134041765 Thu Dec  8 12:36:05 2005
-[BUILDTIME] 45 (9)
-[SIZE] 4.97 MB, 770 files
+[TIMESTAMP] 1126392250 Sat Sep 10 18:44:10 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 13700 (9)
+[SIZE] 5.71 MB, 1069 files
 
 [DEP] 00-dirtree
+[DEP] anjuta
 [DEP] balsa
 [DEP] bash
 [DEP] battfink
@@ -11,9 +13,8 @@
 [DEP] bison
 [DEP] bug-buddy
 [DEP] bzip2
-[DEP] control-center
+[DEP] ccache
 [DEP] coreutils
-[DEP] dasher
 [DEP] diffutils
 [DEP] docbookx
 [DEP] eog
@@ -31,6 +32,7 @@
 [DEP] gettext
 [DEP] ggv
 [DEP] ghex
+[DEP] ghex12
 [DEP] gjiten
 [DEP] glabels
 [DEP] glade
@@ -40,9 +42,7 @@
 [DEP] gnome-desktop
 [DEP] gnome-doc-utils
 [DEP] gnome-games
-[DEP] gnome-keyring-manager
 [DEP] gnome-media
-[DEP] gnome-netstatus
 [DEP] gnome-panel
 [DEP] gnome-pilot
 [DEP] gnome-system-monitor
@@ -50,12 +50,12 @@
 [DEP] gnome-terminal
 [DEP] gnome-utils
 [DEP] gnome2-user-docs
-[DEP] gnomebaker
 [DEP] gnomeicu
 [DEP] gnomemeeting
 [DEP] gnopernicus
 [DEP] gnumeric
 [DEP] gok
+[DEP] gpdf
 [DEP] grep
 [DEP] gst-editor
 [DEP] gthumb
@@ -69,13 +69,15 @@
 [DEP] make
 [DEP] mergeant
 [DEP] mktemp
+[DEP] mrproject
 [DEP] net-tools
 [DEP] netspeed_applet
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] planner
+[DEP] pybliographer
 [DEP] quick-lounge-applet
 [DEP] rhythmbox
+[DEP] seahorse
 [DEP] sed
 [DEP] sound-juicer
 [DEP] streamtuner

@@ -1,42 +1,35 @@
 
-[TIMESTAMP] 1133750201 Mon Dec  5 03:36:41 2005
-[BUILDTIME] 85 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1126534908 Mon Sep 12 10:21:48 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 47228 (9)
+[SIZE] 18.84 MB, 1240 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] clanlib06
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
 [DEP] hermes
-[DEP] libdrm
 [DEP] libjpeg
 [DEP] libmikmod
 [DEP] libogg
 [DEP] libpng
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
 [DEP] libxml
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
 [DEP] patch
@@ -45,4 +38,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg
 [DEP] zlib

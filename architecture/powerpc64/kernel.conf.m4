@@ -15,27 +15,14 @@ define(`PPC', 'PowerPC')dnl
 
 dnl System type (default=Macintosh)
 dnl
+# CONFIG_PPC_ISERIES is not set
+CONFIG_PPC_MULTIPLATFORM=y
+CONFIG_PPC_PSERIES=y
+CONFIG_PPC_PMAC=y
+# CONFIG_PPC_MAPLE is not set
 CONFIG_PPC=y
-CONFIG_6xx=y
-# CONFIG_4xx is not set
-# CONFIG_PPC64 is not set
-# CONFIG_82xx is not set
-# CONFIG_8xx is not set
-CONFIG_PMAC=y
-# CONFIG_PREP is not set
-# CONFIG_CHRP is not set
-# CONFIG_ALL_PPC is not set
-# CONFIG_GEMINI is not set
-# CONFIG_APUS is not set
-# CONFIG_SMP is not set
-# CONFIG_ALTIVEC is not set
-CONFIG_MACH_SPECIFIC=y
-
-# additional 2.6 kernel configs
-CONFIG_PPC32=y
-# CONFIG_40x is not set
-# CONFIG_POWER3 is not set
-
+CONFIG_PPC64=y
+CONFIG_PPC_OF=y
 CONFIG_ALTIVEC=y
 
 include(`kernel-common.conf.m4')
@@ -46,9 +33,9 @@ include(`kernel-fs.conf.m4')
 dnl macs need a special RTC ... (this needs to be fixed in the kernel so we
 dnl can have generic support for the rs6k and mac support at the same time)
 dnl
-# CONFIG_RTC is not set
-CONFIG_GEN_RTC=y
-CONFIG_PPC_RTC=y
+CONFIG_RTC=y
+#CONFIG_GEN_RTC=y
+#CONFIG_PPC_RTC=y
 
 dnl macs need an FB
 dnl

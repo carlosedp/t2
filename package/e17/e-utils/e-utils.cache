@@ -1,48 +1,43 @@
 
-[TIMESTAMP] 1133781974 Mon Dec  5 12:26:14 2005
-[BUILDTIME] 20 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1126560666 Mon Sep 12 17:31:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5319 (9)
+[SIZE] 0.33 MB, 21 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
+[DEP] e
 [DEP] ecore
 [DEP] edb
 [DEP] edje
 [DEP] eet
 [DEP] embryo
 [DEP] engrave
-[DEP] epsilon
 [DEP] esmart
 [DEP] evas
 [DEP] ewl
+[DEP] expat
 [DEP] findutils
 [DEP] flex
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
 [DEP] imlib2
 [DEP] libjpeg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxinerama
-[DEP] libxp
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -54,5 +49,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

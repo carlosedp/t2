@@ -1,17 +1,18 @@
 
-[TIMESTAMP] 1133954959 Wed Dec  7 12:29:19 2005
-[BUILDTIME] 10 (9)
-[SIZE] 2.23 MB, 630 files
+[TIMESTAMP] 1126333282 Sat Sep 10 02:21:22 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2673 (9)
+[SIZE] 2.22 MB, 618 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] flex
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc

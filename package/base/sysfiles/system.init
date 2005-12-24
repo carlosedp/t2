@@ -20,7 +20,10 @@
 #
 
 main_begin
-    block_begin(start, `Mounting /dev/shm and /dev/pts.')
+    block_begin(start, `Mounting /dev, /proc, /sys and /dev/shm.')
+	check(`[ -e /dev/.devfsd ] || mount -n /dev')
+	check(`mount -n /proc')
+	mount -n /sys 2> /dev/null
 	mkdir -p /dev/shm
 	check(`mount -n /dev/shm')
 	mkdir -p /dev/pts
@@ -68,7 +71,9 @@ dnl
 dnl
     block_split(`Mounting local file systems.')
 	check(`mount -n -o remount,rw /')
-	cat /proc/mounts > /etc/mtab
+	rootdev="/dev/$(ls -l /dev/root | sed 's,.* -> ,,')"
+	check(`grep -v "^rootfs " /proc/mounts | \
+		sed "s,^/dev/root ,$rootdev ," > /etc/mtab')
 	check(`mount -a -t nocoda,nfs,devfs,proc,sysfs')
 dnl
     block_split(`Refresh utmp, delete lock and tmp files and other stuff.')
@@ -80,14 +85,16 @@ dnl
     block_split(`Setting hostname to $(cat /etc/HOSTNAME).')
 	check(`hostname "$(cat /etc/HOSTNAME)"')
 dnl
-    block_split(`Activating udevd.')
-	echo "" > /proc/sys/kernel/hotplug
-	udevd -d
-    block_split(`Running hotplug++.')
-	check(`/sbin/hotplug++ -synth')
-
     block_split(`Configuring the kernel with /etc/conf/kernel.')
 	check(`sh /etc/conf/kernel')
+
+    if [ "$HARDWARE_SETUP" = rockplug ]; then
+	block_split(`Configuring hardware by activating rockplug.')
+	    echo "/sbin/rockplug" > /proc/sys/kernel/hotplug
+	    for file in /etc/rockplug/*.init ; do
+		[ -f $file ] && $file start
+	    done
+    fi
 dnl
     [ -f /etc/conf/clock ] && . /etc/conf/clock
     if [ "$clock_tz" = localtime ] ; then
@@ -105,6 +112,21 @@ dnl
 dnl
     block_split(`Writing /var/log/boot.msg.')
 	check(`dmesg > /var/log/boot.msg')
+dnl
+    block_split(`Setting keyboard keymappings.')
+	if [ -L /etc/default.keymap ] ; then
+		mapfile=$(ls -l /etc/default.keymap | sed 's,.* -> ,,')
+		check(`loadkeys $mapfile')
+	elif [ -f /etc/default.keymap ] ; then
+		check(`loadkeys /etc/default.keymap')
+	else
+		echo "No /etc/default.keymap found."
+	fi
+dnl
+    block_split(`Setting keyboard repeat rate and delay time.')
+	kbd_rate=30; kbd_delay=250
+        [ -f /etc/conf/kbd ] && . /etc/conf/kbd
+        check(`D_prefix/bin/kbdrate -r $kbd_rate -d $kbd_delay < /dev/console')
 dnl
     block_split(`Setting console screen font.')
 	if [ -L /etc/default.vcfont ] ; then

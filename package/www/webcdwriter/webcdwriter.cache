@@ -1,25 +1,20 @@
 
-[TIMESTAMP] 1133833496 Tue Dec  6 02:44:56 2005
-[BUILDTIME] 20 (5)
-[SIZE] 3.21 MB, 294 files
+[TIMESTAMP] 1126574984 Mon Sep 12 21:29:44 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2531 (9)
+[SIZE] 4.82 MB, 428 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
-[DEP] blackdown-jdk
 [DEP] bzip2
-[DEP] cdrtools
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -28,6 +23,6 @@
 [DEP] patch
 [DEP] sed
 [DEP] shadow
+[DEP] sun-jdk-150
 [DEP] sysfiles
 [DEP] tar
-[DEP] zlib

@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134069114 Thu Dec  8 20:11:54 2005
-[BUILDTIME] 50 (9)
-[SIZE] 2.37 MB, 141 files
+[TIMESTAMP] 1126416374 Sun Sep 11 01:26:14 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 13315 (9)
+[SIZE] 2.49 MB, 142 files
 
 [DEP] a2ps
 [DEP] alsa-lib
@@ -11,11 +12,16 @@
 [DEP] bash
 [DEP] bdb33
 [DEP] binutils
+[DEP] bitstream-vera-fonts
 [DEP] bzip2
+[DEP] ccache
+[DEP] cheapskatefonts
 [DEP] coreutils
+[DEP] dfb-lite
 [DEP] diffutils
 [DEP] esound
 [DEP] findutils
+[DEP] freefonts
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -29,19 +35,13 @@
 [DEP] grep
 [DEP] gtk+12
 [DEP] imlib
+[DEP] john-stracke-fonts
 [DEP] libdockapp
-[DEP] libice
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] libxml1
-[DEP] libxpm
 [DEP] linux-header
 [DEP] magicpoint
 [DEP] make
+[DEP] microsoft-web-core-fonts
 [DEP] mktemp
 [DEP] net-tools
 [DEP] orbit10
@@ -50,7 +50,10 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] terminus-font
 [DEP] tetex
+[DEP] tex-ttf
 [DEP] texinfo
-[DEP] xproto
+[DEP] xorg
+[DEP] xorg-cyrillic-fonts
 [DEP] zlib

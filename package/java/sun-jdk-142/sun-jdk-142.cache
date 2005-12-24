@@ -6,6 +6,7 @@
 
 [DEP] 00-dirtree
 [DEP] bash
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils

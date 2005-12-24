@@ -1,18 +1,21 @@
 
-[TIMESTAMP] 1133789853 Mon Dec  5 14:37:33 2005
-[BUILDTIME] 5 (5)
+[TIMESTAMP] 1133481112 Thu Dec  1 20:51:52 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1613 (9)
 [SIZE] 0.24 MB, 45 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
+[DEP] gnue-common
 [DEP] grep
 [DEP] numpy
+[DEP] pil
 [DEP] python
 [DEP] sed
 [DEP] sysfiles

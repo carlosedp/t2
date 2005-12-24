@@ -34,10 +34,8 @@
 
 [L] BSD
 [S] Stable
-[V] 5.20.1
+[V] 5.18
 [P] X -----5---9 131.800
 
-[O] . package/*/*/modular-x-conf.in
-
-[D] 546979409 xlockmore-5.20.1.tar.bz2 http://ftp.tux.org/pub/tux/bagleyd/xlockmore/
+[D] 2232285746 xlockmore-5.18.tar.bz2 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 

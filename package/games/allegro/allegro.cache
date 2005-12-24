@@ -1,16 +1,16 @@
 
-[TIMESTAMP] 1133747869 Mon Dec  5 02:57:49 2005
-[BUILDTIME] 65 (5)
-[SIZE] 3.27 MB, 125 files
+[TIMESTAMP] 1126532966 Mon Sep 12 09:49:26 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 8544 (9)
+[SIZE] 3.26 MB, 125 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
@@ -20,18 +20,7 @@
 [DEP] glib
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] jack
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxpm
-[DEP] libxrender
-[DEP] libxxf86dga
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -42,8 +31,4 @@
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
-[DEP] xextproto
-[DEP] xf86dgaproto
-[DEP] xf86vidmodeproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg

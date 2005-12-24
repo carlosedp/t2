@@ -1,12 +1,14 @@
 
-[TIMESTAMP] 1134205107 Sat Dec 10 09:58:27 2005
-[BUILDTIME] 15 (9)
+[TIMESTAMP] 1126475720 Sun Sep 11 17:55:20 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4219 (9)
 [SIZE] 1.40 MB, 37 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -19,12 +21,11 @@
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] makedepend
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
-[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg

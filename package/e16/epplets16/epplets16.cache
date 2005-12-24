@@ -1,6 +1,7 @@
 
-[TIMESTAMP] 1133759470 Mon Dec  5 06:11:10 2005
-[BUILDTIME] 50 (5)
+[TIMESTAMP] 1126543701 Mon Sep 12 12:48:21 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10005 (9)
 [SIZE] 1.55 MB, 294 files
 
 [DEP] 00-dirtree
@@ -11,10 +12,9 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] enlightenment16
 [DEP] esound
 [DEP] findutils
 [DEP] freeglut
@@ -22,34 +22,21 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] imlib
 [DEP] libcdaudio
 [DEP] libdnet
-[DEP] libdrm
-[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
 [DEP] libtiff
 [DEP] libungif
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
-[DEP] xextproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

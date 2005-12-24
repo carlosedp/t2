@@ -1,16 +1,18 @@
 
-[TIMESTAMP] 1133828578 Tue Dec  6 01:22:58 2005
-[BUILDTIME] 20 (5)
-[SIZE] 0.31 MB, 31 files
+[TIMESTAMP] 1126572938 Mon Sep 12 20:55:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4019 (9)
+[SIZE] 0.42 MB, 31 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] cyrus-sasl2
 [DEP] diffutils
+[DEP] dpkg
 [DEP] findutils
 [DEP] gcc
 [DEP] gettext

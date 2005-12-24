@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134180591 Sat Dec 10 03:09:51 2005
-[BUILDTIME] 555 (9)
-[SIZE] 15.88 MB, 1030 files
+[TIMESTAMP] 1126463190 Sun Sep 11 14:26:30 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 57401 (9)
+[SIZE] 15.69 MB, 939 files
 
 [DEP] apr
 [DEP] apr-util
@@ -9,7 +10,7 @@
 [DEP] bdb
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] cyrus-sasl2
 [DEP] diffutils
@@ -17,7 +18,6 @@
 [DEP] fam
 [DEP] findutils
 [DEP] flex
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -25,35 +25,18 @@
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] kdelibs
+[DEP] kdepim
 [DEP] kdevelop
 [DEP] libart_lgpl23
 [DEP] libdnet
-[DEP] libdrm
-[DEP] libice
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxft
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] neon
 [DEP] net-tools
@@ -67,6 +50,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

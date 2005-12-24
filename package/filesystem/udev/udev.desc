@@ -19,20 +19,17 @@
 [T] /dev entries for devices that are in the system at any point in time).
 [T] It is an attempt to move all naming policy out of the kernel.
 
-[U] http://ftp.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+[U] http://ftp.kernel.org/pub/linux/utils/kernel/hotplug/
 
 [A] Greg Kroah-Hartman <greg@kroah.com>
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] base/system base/kernel
 
-[F] DIETLIBC NOPARALLEL
-
 [L] GPL
 [S] Beta
-[V] 077
-[P] X -1---5---9 187.500
+[V] 052
+[P] X ---3-----9 187.500
 
-# versions above 058 are incompatible and require major adaption ... -ReneR
-[D] 1496491118 udev-077.tar.bz2 http://ftp.kernel.org/pub/linux/utils/kernel/hotplug/
+[D] 1613352522 udev-052.tar.bz2 ftp://ftp.kernel.org/pub/linux/utils/kernel/hotplug/
 

@@ -32,10 +32,10 @@
 
 [L] GPL
 [S] Stable
-[V] 2.0.4
+[V] 1.0.4
 [P] X -----5---9 174.000
 
-[O] . $base/package/*/*/gnome2-conf.in
+[O] . $base/package/*/*/gnome14-conf.in
 
-[D] 3244449375 sylpheed-2.0.4.tar.bz2 http://sylpheed.good-day.net/sylpheed/v2.0/
+[D] 147846513 sylpheed-1.0.4.tar.bz2 http://sylpheed.good-day.net/sylpheed/v1.0/
 

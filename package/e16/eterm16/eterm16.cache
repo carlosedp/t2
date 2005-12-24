@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1133759705 Mon Dec  5 06:15:05 2005
-[BUILDTIME] 50 (5)
-[SIZE] 2.29 MB, 96 files
+[TIMESTAMP] 1126543815 Mon Sep 12 12:50:15 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 7963 (9)
+[SIZE] 2.33 MB, 96 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -9,10 +10,9 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] enlightenment16
 [DEP] findutils
 [DEP] freetype
 [DEP] freetype1
@@ -21,31 +21,19 @@
 [DEP] glibc
 [DEP] grep
 [DEP] groff
-[DEP] imake
 [DEP] imlib2
 [DEP] libdnet
-[DEP] libice
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxmu
-[DEP] libxt
 [DEP] linux-header
 [DEP] make
 [DEP] man
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] patch
 [DEP] pcre
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
-[DEP] xextproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

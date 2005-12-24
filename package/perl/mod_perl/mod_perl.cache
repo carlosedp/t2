@@ -1,9 +1,9 @@
 
-[TIMESTAMP] 1133830029 Tue Dec  6 01:47:09 2005
-[BUILDTIME] 45 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1129735045 Wed Oct 19 12:17:25 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 12924 (9)
+[SIZE] 4.71 MB, 434 files
 
-[DEP] 00-dirtree
 [DEP] apache
 [DEP] apr
 [DEP] apr-util
@@ -11,9 +11,11 @@
 [DEP] bdb
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] gdbm

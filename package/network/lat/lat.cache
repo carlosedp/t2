@@ -1,15 +1,16 @@
 
-[TIMESTAMP] 1133852183 Tue Dec  6 07:56:23 2005
-[BUILDTIME] 10 (6)
-[SIZE] 2.71 MB, 144 files
+[TIMESTAMP] 1117423834 Sun May 29 23:30:34 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 3147 (6)
+[SIZE] 0.40 MB, 20 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] docbookx
 [DEP] file
 [DEP] findutils
 [DEP] gawk
@@ -17,9 +18,8 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] gnome-keyring
 [DEP] grep
-[DEP] gtk-sharp2
+[DEP] gtk-sharp
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -28,7 +28,6 @@
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
-[DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

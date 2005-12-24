@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134212254 Sat Dec 10 11:57:34 2005
-[BUILDTIME] 125 (9)
-[SIZE] 7.88 MB, 375 files
+[TIMESTAMP] 1129734828 Wed Oct 19 12:13:48 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 35298 (9)
+[SIZE] 7.26 MB, 340 files
 
 [DEP] 00-dirtree
 [DEP] apache
@@ -11,6 +12,7 @@
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] cyrus-sasl2
 [DEP] diffutils
@@ -21,7 +23,6 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libjpeg
 [DEP] libmcrypt
 [DEP] libmhash
 [DEP] libpng
