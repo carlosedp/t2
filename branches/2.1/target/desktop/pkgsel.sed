@@ -28,6 +28,9 @@
 / xmlstarlet /	{ s/^X /O /; p; d; };
 / evolution /	{ s/^X /O /; p; d; };
 / evolution-data-server /	{ s/^X /O /; p; d; };
+/ elementtree /		{ s/^X /O /; p; d; };
+/ celementtree /	{ s/^X /O /; p; d; };
+/ text2pdf /		{ s/^X /O /; p; d; };
 
 # gnome and it's (previouly detected) dependencies
 / abiword /	{ p; d; };
