@@ -1,0 +1,47 @@
+
+[TIMESTAMP] 1129734828 Wed Oct 19 12:13:48 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 35298 (9)
+[SIZE] 7.26 MB, 340 files
+
+[DEP] 00-dirtree
+[DEP] apache
+[DEP] apr
+[DEP] apr-util
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] cyrus-sasl2
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libmcrypt
+[DEP] libmhash
+[DEP] libpng
+[DEP] libtool
+[DEP] libxml
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] mysql
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openldap
+[DEP] openssl
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] postgresql
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

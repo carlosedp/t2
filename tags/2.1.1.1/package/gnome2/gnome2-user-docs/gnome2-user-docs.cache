@@ -1,0 +1,25 @@
+
+[TIMESTAMP] 1126432207 Sun Sep 11 05:50:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2314 (9)
+[SIZE] 2.14 MB, 168 files
+
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] scrollkeeper
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

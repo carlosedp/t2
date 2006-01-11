@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1126576756 Mon Sep 12 21:59:16 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 17310 (9)
+[SIZE] 87.27 MB, 1409 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] m4
+[DEP] sed
+[DEP] sun-jdk-150
+[DEP] sysfiles
+[DEP] tar

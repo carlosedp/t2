@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1126365631 Sat Sep 10 11:20:31 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 2443 (9)
+[SIZE] 2.13 MB, 229 files
+
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] dpkg
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] texinfo
+[DEP] util-linux
+[DEP] xemacs
+[DEP] xemacs-packages

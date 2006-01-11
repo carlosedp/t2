@@ -1,0 +1,47 @@
+
+[TIMESTAMP] 1118982706 Fri Jun 17 00:31:46 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 25899 (5)
+[SIZE] 3.34 MB, 82 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_image
+[DEP] libtiff
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] ncurses
+[DEP] net-tools
+[DEP] numpy
+[DEP] patch
+[DEP] perl
+[DEP] python
+[DEP] readline
+[DEP] ruby
+[DEP] sed
+[DEP] swig
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] wxpython
+[DEP] xorg
+[DEP] zlib

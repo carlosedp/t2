@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1121587749 Sun Jul 17 04:09:09 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 5481 (5)
+[SIZE] 0.71 MB, 103 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdb
+[DEP] bdb33
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] groff
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] pam
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
