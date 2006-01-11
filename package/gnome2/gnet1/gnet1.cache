@@ -1,48 +1,46 @@
 
-[TIMESTAMP] 1134129896 Fri Dec  9 13:04:56 2005
-[BUILDTIME] 15 (9)
+[TIMESTAMP] 1129752705 Wed Oct 19 17:11:45 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3857 (9)
 [SIZE] 0.74 MB, 73 files
 
-[DEP] anjuta
-[DEP] at-spi
+[DEP] atk
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] epiphany
 [DEP] evolution-data-server
 [DEP] findutils
-[DEP] gail
-[DEP] gawk
 [DEP] gcc
 [DEP] gconf
 [DEP] gimp
 [DEP] glib
 [DEP] glib12
 [DEP] glibc
-[DEP] gmime
 [DEP] gnet
 [DEP] gnome-panel
+[DEP] gnome-vfs
 [DEP] grep
 [DEP] gstreamer
 [DEP] gtk+
 [DEP] gtkdoc
-[DEP] gtkglext
 [DEP] gtksourceview
-[DEP] libbonobo
 [DEP] libbonoboui
 [DEP] libgda
 [DEP] libglade
 [DEP] libgnome
-[DEP] libgnomecanvas
 [DEP] libgnomeprint
+[DEP] libgnomeprintui
 [DEP] libgnomeui
 [DEP] libgsf
+[DEP] libmrproject
 [DEP] librsvg
-[DEP] libsoup
 [DEP] libwnck
+[DEP] linc
 [DEP] linphone
 [DEP] linux-header
 [DEP] make
@@ -51,7 +49,6 @@
 [DEP] pango
 [DEP] perl
 [DEP] pkgconfig
-[DEP] rhythmbox
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

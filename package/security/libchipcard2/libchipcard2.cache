@@ -1,12 +1,13 @@
 
-[TIMESTAMP] 1134205896 Sat Dec 10 10:11:36 2005
-[BUILDTIME] 55 (9)
-[SIZE] 1.89 MB, 223 files
+[TIMESTAMP] 1126476116 Sun Sep 11 18:01:56 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9813 (9)
+[SIZE] 1.78 MB, 201 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -15,7 +16,6 @@
 [DEP] glibc
 [DEP] grep
 [DEP] gwenhywfar
-[DEP] libtool
 [DEP] libusb
 [DEP] linux-header
 [DEP] make
@@ -25,7 +25,6 @@
 [DEP] opensc
 [DEP] openssl
 [DEP] pcsc-lite
-[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] sysfsutils

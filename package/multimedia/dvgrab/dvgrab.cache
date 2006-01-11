@@ -1,13 +1,14 @@
 
-[TIMESTAMP] 1133740377 Mon Dec  5 00:52:57 2005
-[BUILDTIME] 15 (5)
-[SIZE] 0.22 MB, 16 files
+[TIMESTAMP] 1126526752 Mon Sep 12 08:05:52 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3397 (9) ERROR
+[SIZE] 0.23 MB, 16 files
 
-[DEP] 00-dirtree
 [DEP] a52dec
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -20,6 +21,7 @@
 [DEP] libmpeg3
 [DEP] libogg
 [DEP] libpng
+[DEP] libquicktime
 [DEP] libraw1394
 [DEP] libvorbis
 [DEP] linux-header
@@ -30,4 +32,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] zlib

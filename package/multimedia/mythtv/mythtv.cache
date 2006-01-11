@@ -1,32 +1,49 @@
 
-[TIMESTAMP] 1134216711 Sat Dec 10 13:11:51 2005
-[BUILDTIME] 15 (9) ERROR
-[SIZE] 0.02 MB, 14 files
+[TIMESTAMP] 1126483088 Sun Sep 11 19:58:08 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 181637 (9)
+[SIZE] 26.08 MB, 1214 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
+[DEP] cdparanoia
 [DEP] coreutils
 [DEP] diffutils
 [DEP] distcc
+[DEP] expat
 [DEP] findutils
+[DEP] flac
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
 [DEP] grep
 [DEP] jack
-[DEP] libx11
+[DEP] lame
+[DEP] libcdaudio
+[DEP] libdvdread
+[DEP] libexif
+[DEP] libid3tag
+[DEP] libmad
+[DEP] libogg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libvorbis
 [DEP] linux-header
 [DEP] lirc
 [DEP] make
 [DEP] perl
+[DEP] pkgconfig
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] tetex
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

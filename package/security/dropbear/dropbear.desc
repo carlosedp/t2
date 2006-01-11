@@ -22,14 +22,12 @@
 [A] Matt Johnston <matt@ucc.asn.au>
 [M] Rene Rebe <rene@t2-project.org>
 
-[F] DIETLIBC
-
 [C] base/system extra/network
 
 [L] MIT
 [S] Beta
-[V] 0.47
+[V] 0.45
 [P] X -----5---9 191.100
 
-[D] 2304399928 dropbear-0.47.tar.bz2 http://matt.ucc.asn.au/dropbear/releases/
+[D] 2894534956 dropbear-0.45.tar.bz2 http://matt.ucc.asn.au/dropbear/releases/
 

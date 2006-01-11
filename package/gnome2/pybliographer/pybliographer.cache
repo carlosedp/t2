@@ -1,35 +1,40 @@
 
-[TIMESTAMP] 1134200509 Sat Dec 10 08:41:49 2005
-[BUILDTIME] 5 (9) ERROR
-[SIZE] 0.09 MB, 12 files
+[TIMESTAMP] 1117309162 Sat May 28 15:39:22 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 2378 (5)
+[SIZE] 1.83 MB, 252 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
+[DEP] docbookx
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
+[DEP] gconf-editor
+[DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] gnome-python
-[DEP] gnue-common
 [DEP] grep
-[DEP] libx11
 [DEP] linux-header
 [DEP] make
+[DEP] mktemp
 [DEP] net-tools
 [DEP] numpy
 [DEP] patch
-[DEP] pil
 [DEP] pkgconfig
 [DEP] pygtk
 [DEP] python
 [DEP] recode
+[DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] wxpython
-[DEP] zope
+[DEP] xorg

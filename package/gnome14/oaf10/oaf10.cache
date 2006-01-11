@@ -1,6 +1,7 @@
 
-[TIMESTAMP] 1134016281 Thu Dec  8 05:31:21 2005
-[BUILDTIME] 20 (9)
+[TIMESTAMP] 1126368843 Sat Sep 10 12:14:03 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4952 (9)
 [SIZE] 0.65 MB, 85 files
 
 [DEP] autoconf
@@ -9,6 +10,7 @@
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils

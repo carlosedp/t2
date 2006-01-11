@@ -1,22 +1,23 @@
 
-[TIMESTAMP] 1133744206 Mon Dec  5 01:56:46 2005
-[BUILDTIME] 5 (5) ERROR
-[SIZE] 0.02 MB, 14 files
+[TIMESTAMP] 1117372914 Sun May 29 09:21:54 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 8573 (5)
+[SIZE] 33.94 MB, 2641 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libx11
 [DEP] make
-[DEP] mesa
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] xproto
+[DEP] xorg

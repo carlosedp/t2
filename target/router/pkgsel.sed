@@ -50,9 +50,6 @@
 / sed / { p; d; }
 / strace / { p; d; }
 / sysfiles / { p; d; }
-/ stone / { p; d; }
-/ rocknet / { p; d; }
-/ mkinitrd / { p; d; }
 / sysvinit / { p; d; }
 / tar / { p; d; }
 / tcp_wrappers / { p; d; }

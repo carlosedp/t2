@@ -27,14 +27,15 @@
 [A] Marco Pesenti Gritti <marco@it.gnome.org>
 [M] Susanne Klaus <vadja@gmx.de>
 
+[F] NOPARALLEL
 [C] extra/office extra/desktop/gnome
 
 [L] GPL
-[S] Stable
-[V] 1.8.3
+[S] Beta
+[V] 1.6.4
 [P] X -----5---9 155.000
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 2196135982 epiphany-1.8.3.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/epiphany/1.8/
+[D] 640438077 epiphany-1.6.4.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/epiphany/1.6/
 

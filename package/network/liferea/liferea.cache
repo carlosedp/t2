@@ -1,21 +1,18 @@
 
-[TIMESTAMP] 1134262918 Sun Dec 11 02:01:58 2005
-[BUILDTIME] 30 (9)
-[SIZE] 1.28 MB, 87 files
+[TIMESTAMP] 1126498778 Mon Sep 12 00:19:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5938 (9)
+[SIZE] 1.15 MB, 68 files
 
 [DEP] atk
-[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gail
 [DEP] gawk
@@ -24,29 +21,12 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
 [DEP] gtk+
-[DEP] imake
-[DEP] inputproto
-[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libgnomecanvas
 [DEP] libgtkhtml
-[DEP] libice
-[DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -54,15 +34,11 @@
 [DEP] net-tools
 [DEP] orbit2
 [DEP] pango
-[DEP] perl
 [DEP] pkgconfig
 [DEP] popt
-[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

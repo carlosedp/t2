@@ -1,23 +1,20 @@
 
-[TIMESTAMP] 1133804574 Mon Dec  5 18:42:54 2005
-[BUILDTIME] 45 (5)
-[SIZE] 1.29 MB, 16 files
+[TIMESTAMP] 1126567438 Mon Sep 12 19:23:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5378 (9)
+[SIZE] 1.45 MB, 16 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] flex
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -29,4 +26,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg

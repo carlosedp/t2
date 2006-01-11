@@ -1,42 +1,31 @@
 
-[TIMESTAMP] 1134204302 Sat Dec 10 09:45:02 2005
-[BUILDTIME] 5 (9)
+[TIMESTAMP] 1126475527 Sun Sep 11 17:52:07 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1950 (9)
 [SIZE] 0.21 MB, 17 files
 
 [DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] fontconfig
-[DEP] freetype
+[DEP] findutils
 [DEP] gcc
 [DEP] gkrellm
 [DEP] glib
 [DEP] glib12
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
 [DEP] gtk+
 [DEP] gtk+12
-[DEP] inputproto
-[DEP] kbproto
-[DEP] libpng
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] pango
 [DEP] pkgconfig
-[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] xmms
-[DEP] xproto
+[DEP] xorg

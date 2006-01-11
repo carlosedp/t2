@@ -1,59 +1,43 @@
 
-[TIMESTAMP] 1134199388 Sat Dec 10 08:23:08 2005
-[BUILDTIME] 150 (9)
-[SIZE] 10.17 MB, 1467 files
+[TIMESTAMP] 1121681997 Mon Jul 18 06:19:57 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 29075 (5)
+[SIZE] 9.49 MB, 1467 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-vfs
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
-[DEP] inputproto
-[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
 [DEP] libgnome
 [DEP] libgnomecanvas
 [DEP] libgnomeui
-[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] libxslt
 [DEP] linux-header
 [DEP] make
@@ -66,18 +50,15 @@
 [DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
 [DEP] pygtk
 [DEP] python
-[DEP] pyxml
-[DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] wxpython
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

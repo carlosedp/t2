@@ -1,58 +1,38 @@
 
-[TIMESTAMP] 1133770767 Mon Dec  5 09:19:27 2005
-[BUILDTIME] 20 (5)
-[SIZE] 1.29 MB, 110 files
+[TIMESTAMP] 1119004618 Fri Jun 17 06:36:58 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 5062 (5)
+[SIZE] 1.02 MB, 99 files
 
 [DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] expat
 [DEP] findutils
-[DEP] fontconfig
-[DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
 [DEP] gtk+
-[DEP] imake
-[DEP] kbproto
-[DEP] libice
-[DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
 [DEP] libxfce4mcs
 [DEP] libxfce4util
 [DEP] libxfcegui4
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
-[DEP] randrproto
-[DEP] renderproto
 [DEP] sed
 [DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xf86vidmodeproto
 [DEP] xfce-mcs-manager
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg

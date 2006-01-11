@@ -1,27 +1,24 @@
 
-[TIMESTAMP] 1134005939 Thu Dec  8 02:38:59 2005
-[BUILDTIME] 20 (9)
-[SIZE] 2.90 MB, 36 files
+[TIMESTAMP] 1126363633 Sat Sep 10 10:47:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4718 (9)
+[SIZE] 2.90 MB, 37 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] emacs
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] latex2html
-[DEP] libice
 [DEP] libpng
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -36,6 +33,5 @@
 [DEP] tetex
 [DEP] texinfo
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

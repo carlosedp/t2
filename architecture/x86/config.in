@@ -12,21 +12,20 @@
 # the Free Software Foundation; version 2 of the License. A copy of the
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
-#Description: Intel x86 and compatible PCs
 
-choice SDECFG_X86_OPT i486   \
+choice SDECFG_X86_OPT generic   \
 	generic		"No special optimisation"		\
 	i386		"Optimised for Intel 386"		\
 	i486		"Optimised for Intel 486"		\
-	c3		"Optimised for VIA CyrixIII/VIA-C3"	\
-	c3-2		"Optimised for VIA-C3-2 Nemiah"		\
+	via-c3		"Optimised for VIA CyrixIII/VIA-C3"	\
+	via-c3-improved "Improved  for VIA CyrixIII/VIA-C3"     \
+	via-c3-2	"Optimised for VIA-C3-2 Nemiah"		\
 	pentium		"Optimised for Intel Pentium"		\
 	pentium-mmx	"Optimised for Intel Pentium with MMX"	\
 	pentiumpro	"Optimised for Intel Pentium-Pro"	\
 	pentium2	"Optimised for Intel Pentium 2"		\
 	pentium3	"Optimised for Intel Pentium 3"		\
 	pentium4	"Optimised for Intel Pentium 4"		\
-	pentium-m	"Optimised for Intel Pentium M (Centrino)"		\
 	k6		"Optimised for AMD K6"			\
 	k6-2		"Optimised for AMD K6-2"		\
 	k6-3		"Optimised for AMD K6-3"		\

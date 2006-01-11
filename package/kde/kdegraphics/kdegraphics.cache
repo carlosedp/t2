@@ -1,59 +1,40 @@
 
-[TIMESTAMP] 1134289182 Sun Dec 11 09:19:42 2005
-[BUILDTIME] 645 (9)
-[SIZE] 18.07 MB, 947 files
+[TIMESTAMP] 1126512371 Mon Sep 12 04:06:11 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 87201 (9)
+[SIZE] 16.65 MB, 793 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] fribidi
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
-[DEP] gnome-libs14
 [DEP] grep
-[DEP] imake
 [DEP] imlib
 [DEP] kdelibs
 [DEP] lcms
 [DEP] libart_lgpl23
 [DEP] libdnet
-[DEP] libdrm
 [DEP] libexif
 [DEP] libgphoto
-[DEP] libice
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
 [DEP] libtiff
 [DEP] libungif
 [DEP] libusb
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxft
-[DEP] libxinerama
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openexr
@@ -61,15 +42,11 @@
 [DEP] perl
 [DEP] pkgconfig
 [DEP] qt
-[DEP] renderproto
 [DEP] sane-backends
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] tetex
 [DEP] util-linux
-[DEP] xextproto
-[DEP] xf86vidmodeproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

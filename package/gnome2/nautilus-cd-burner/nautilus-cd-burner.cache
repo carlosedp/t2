@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134227655 Sat Dec 10 16:14:15 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.43 MB, 109 files
+[TIMESTAMP] 1126487220 Sun Sep 11 21:07:00 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5915 (9)
+[SIZE] 1.17 MB, 107 files
 
 [DEP] alsa-lib
 [DEP] atk
@@ -9,15 +10,13 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] eel
 [DEP] esound
 [DEP] expat
-[DEP] fam
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gail
 [DEP] gawk
@@ -26,7 +25,6 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-desktop
 [DEP] gnome-keyring
 [DEP] gnome-menus
@@ -34,8 +32,6 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] howl
-[DEP] inputproto
-[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -43,21 +39,8 @@
 [DEP] libgnome
 [DEP] libgnomecanvas
 [DEP] libgnomeui
-[DEP] libice
 [DEP] libjpeg
-[DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -70,11 +53,10 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
-[DEP] renderproto
 [DEP] sed
 [DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,12 +1,13 @@
 
-[TIMESTAMP] 1133797458 Mon Dec  5 16:44:18 2005
-[BUILDTIME] 25 (5)
-[SIZE] 0.62 MB, 60 files
+[TIMESTAMP] 1126564577 Mon Sep 12 18:36:17 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4457 (9)
+[SIZE] 0.43 MB, 52 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] curl
 [DEP] diffutils
@@ -27,7 +28,6 @@
 [DEP] net-tools
 [DEP] openssl
 [DEP] sed
-[DEP] speex
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

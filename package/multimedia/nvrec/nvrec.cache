@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134318357 Sun Dec 11 17:25:57 2005
-[BUILDTIME] 10 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1126473638 Sun Sep 11 17:20:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3940 (9)
+[SIZE] 0.30 MB, 26 files
 
 [DEP] alsa-lib
 [DEP] autoconf
@@ -10,6 +11,7 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -33,3 +35,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] zlib

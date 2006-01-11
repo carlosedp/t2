@@ -29,8 +29,8 @@ while [ "$1" ] ; do
     esac
 done
 
-. scripts/parse-config
-. scripts/functions.in
+. ./scripts/parse-config
+. ./scripts/functions.in
 
 var_remove PATH ":" $base/build/$SDECFG_ID/TOOLCHAIN/$toolsdir/bin
 var_remove PATH ":" $base/build/$SDECFG_ID/TOOLCHAIN/$toolsdir/wrapper
@@ -236,7 +236,7 @@ EOT
 		echo_status "Building $toolsdir/lib/fl_wrapper.so."
 		FLWRAPPER_LIBC=$( ls $xroot/{lib64,lib}/libc.* 2>/dev/null |
 		                  head -n1 )
-		if [ ! -f "$FLWRAPPER_LIBC" ]; then
+		if [ ! -f $FLWRAPPER_LIBC ]; then
 			abort 'Unable to detect /lib/libc.* for flwrapper'
 		fi
 

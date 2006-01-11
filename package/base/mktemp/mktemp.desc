@@ -23,7 +23,7 @@
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] base/tool
-[F] DIETLIBC AUTOMAKE-QUIRK
+[F] DIETLIBC
 
 [L] BSD
 [S] Stable

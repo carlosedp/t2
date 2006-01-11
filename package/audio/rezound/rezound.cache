@@ -1,9 +1,9 @@
 
-[TIMESTAMP] 1133794623 Mon Dec  5 15:57:03 2005
-[BUILDTIME] 205 (5)
-[SIZE] 3.81 MB, 26 files
+[TIMESTAMP] 1126563597 Mon Sep 12 18:19:57 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 65999 (9)
+[SIZE] 4.81 MB, 26 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] autoconf
@@ -11,6 +11,7 @@
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] fftw
@@ -25,32 +26,21 @@
 [DEP] glibc
 [DEP] grep
 [DEP] jack
-[DEP] libdrm
 [DEP] libjpeg
 [DEP] libogg
 [DEP] libpng
 [DEP] libtiff
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
 [DEP] perl
 [DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg
 [DEP] zlib

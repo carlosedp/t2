@@ -14,7 +14,29 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-. scripts/core-functions.in
+# This function appends or inserts values to a variable:
+#
+#       var_append PATH ":" "$HOME/bin"
+#       var_insert PATH ":" "$HOME/bin"
+#
+var_append() {
+        eval "[ \"\$$1\" ] && $1=\"\${$1}$2\""
+        eval "$1=\"\${$1}$3\""
+}
+var_insert() {
+        eval "[ \"\$$1\" ] && $1=\"$2\$$1\""
+        eval "$1=\"$3\$$1\""
+}
+
+# revert the order of the tokens
+get_reverted() {
+	local queue=
+	while [ $# -gt 0 ]; do
+		queue="$1 $queue"
+		shift
+	done
+	echo $queue
+}
 
 # Function to cache config.in and subconfig.in file lists
 #
@@ -55,31 +77,6 @@ create_configin_list() {
 		done
 	fi
 	bprof cache_configin_list stop
-}
-
-# Function to cache config.in and subconfig.in file lists
-#
-create_dot_in_lists() {
-	local file= x= y=
-	# {architecture,misc,target,package/*}/*/{pre,post}config.in
-	bprof cache_dotin_list start
-	for x in preconfig.in postconfig.in; do
-		for y in architecture misc target; do
-			file=$cfgtmpdir/$y-$x
-			if [ ! -f $file ]; then
-				ls -1 $y/*/$x 2> /dev/null | sed 's,^,. ,' > $file
-			fi
-		done
-		y=package
-		file=$cfgtmpdir/$y-$x
-		if [ ! -f $file ]; then
-			ls -1 $y/*/*/$x 2> /dev/null | sed 's,^,. ,' > $file
-		fi
-	done
-	bprof cache_dotin_list stop
-
-	# and {sub,}config.in, which is more complex
-	create_configin_list
 }
 
 # Functions for working with config/$config/packages
@@ -204,8 +201,6 @@ pkgchecklicense() {
 #     Result: ( / perl\/[^/]* / ) { $1="O"; }
 #   pkgsel_parse < config/${config}/pkgsel
 #     Result: creates pkgsel.awk output
-#   pkgsel include file
-#     Result: continues processing file specified
 pkgsel_parse() {
 	local action patterlist pattern
 	local address first others
@@ -217,38 +212,34 @@ pkgsel_parse() {
 			action='$1="O"' ;;
 		    -)
 			action='next'   ;;
-		    =)
-			action='$1=def' ;;
-		    include)
-			pkgsel_parse < $patternlist
-			continue ;;
 		    *)
 			echo '{ exit; }'
 			continue ;;
 		esac
-		address=""
-		while read xpattern ; do
-			pattern="${xpattern#\!}"
-			[ "$pattern" = "$xpattern" ]; neg=$?
-			[ "${pattern}" = "${pattern//\//}" ] && pattern="*/$pattern"
-			pattern="$( echo "$pattern" | sed \
-			            -e 's,[^a-zA-Z0-9_/\*+\-\[\]],,g' \
-			            -e 's,[/\.\+],\\\\&,g' \
-			            -e 's,\*,[^/]*,g' )"
-			if [ $neg -eq 0 ]; then
-				address="if ( \$5 ~ \"^${pattern}\$\" )"
+		address="" ; first="( " ; others="&& "
+		while read pattern ; do
+			if [ -z "$address" ] && \
+			   [ "$pattern" = "!" ] ; then
+				address="! " ; others="|| \$4\"/\"\$5 ~"
 			else
-				address="if ( \$5 !~ \"^${pattern}\$\" )"
+				[ "${pattern}" = "${pattern//\//}" ] && pattern="*/$pattern"
+				pattern="$( echo "$pattern" | sed \
+					-e 's,[^a-zA-Z0-9_/\*+\.-],,g' \
+					-e 's,[/\.\+],\\&,g' \
+					-e 's,\*,[^/]*,g' )"
+				[ "$pattern" ] || continue
+				address="$address$first"
+				address="$address / $pattern /"
+				first=" $others"
 			fi
 		done < <( echo "$patternlist" | tr '\t ' '\n\n' )
-		echo "{ $address { $action; } }"
+		echo "$address ) { $action; }"
 	done < <( if [ "$*" ]; then echo "$*"; else cat | egrep -v "^((^#.*$)|())$"; fi)
 }
 
 pkgsel_init() {
     cat <<EOF
 { 
-  def=\$1 ;
   repo=\$4 ;
   pkg=\$5 ;
   \$5 = \$4 "/" \$5 ;
@@ -369,7 +360,7 @@ choice() {
 }
 
 choice_action() {
-	command="./src/confdialog.bin --title 'Build Config' \
+	command="./src/rockdialog.bin --title 'Build Config' \
 		--backtitle '$configtitle' \
 		--radiolist 'Arrow keys navigate the menu.  Press <Enter> to activate menu items.  Highlighted letters are hotkeys.' \
 		$(( $lines - 4 )) $(( $columns - 5 )) $(( $lines - 12 ))"
@@ -419,7 +410,7 @@ text() {
 }
 
 text_action() {
-	./src/confdialog.bin --title 'Build Config' \
+	./src/rockdialog.bin --title 'Build Config' \
 		--backtitle "$configtitle" \
 		--inputbox "$1" 9 $(( $columns - 5 )) "$3" 2> $cfgtmpdir/config.out
 	[ "$?" -eq 0 -o "$?" -eq 1 ] && eval "$2=\"\$(cat $cfgtmpdir/config.out)\""
@@ -500,7 +491,7 @@ editfile() {
 editfile_action() {
 	line="`tail -n +$2 $1 | head -n 1`"
 
-	./src/confdialog.bin --title 'Build Config' \
+	./src/rockdialog.bin --title 'Build Config' \
 		--backtitle "$configtitle" \
 		--inputbox "$3 - Line $3"  \
 		9 $(( $columns - 5 )) "$line" 2> $cfgtmpdir/config.out

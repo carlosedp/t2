@@ -1,14 +1,15 @@
 
-[TIMESTAMP] 1134145519 Fri Dec  9 17:25:19 2005
-[BUILDTIME] 90 (9)
-[SIZE] 4.68 MB, 424 files
+[TIMESTAMP] 1126442804 Sun Sep 11 08:46:44 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6300 (9)
+[SIZE] 4.92 MB, 426 files
 
 [DEP] aspell
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] cups
 [DEP] diffutils
@@ -20,16 +21,10 @@
 [DEP] gnustep-base
 [DEP] gnustep-make
 [DEP] grep
-[DEP] imake
-[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
 [DEP] libtiff
 [DEP] libungif
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
 [DEP] libxml
 [DEP] libxslt
 [DEP] linux-header
@@ -41,5 +36,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
+[DEP] xorg
 [DEP] zlib

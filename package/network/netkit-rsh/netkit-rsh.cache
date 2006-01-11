@@ -1,23 +1,19 @@
 
-[TIMESTAMP] 1133907526 Tue Dec  6 23:18:46 2005
-[BUILDTIME] 5 (9)
+[TIMESTAMP] 1126492194 Sun Sep 11 22:29:54 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1893 (9)
 [SIZE] 0.15 MB, 30 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] linux-header
 [DEP] make
 [DEP] ncurses
@@ -25,4 +21,3 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] zlib

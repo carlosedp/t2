@@ -1,74 +1,52 @@
 
-[TIMESTAMP] 1134196783 Sat Dec 10 07:39:43 2005
-[BUILDTIME] 210 (9)
-[SIZE] 9.84 MB, 290 files
+[TIMESTAMP] 1126471695 Sun Sep 11 16:48:15 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 21939 (9)
+[SIZE] 6.66 MB, 240 files
 
+[DEP] alsa-lib
 [DEP] arts
+[DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
+[DEP] esound
 [DEP] expat
 [DEP] fam
-[DEP] ffmpeg
 [DEP] findutils
 [DEP] flac
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
+[DEP] glib
 [DEP] glibc
 [DEP] grep
-[DEP] hal
-[DEP] imake
+[DEP] id3lib
+[DEP] jack
 [DEP] kdelibs
-[DEP] lame
 [DEP] libart_lgpl23
 [DEP] libdnet
-[DEP] libdrm
-[DEP] libice
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad
-[DEP] libmusicbrainz
 [DEP] libogg
 [DEP] libpng
 [DEP] libsamplerate
-[DEP] libsm
-[DEP] libsndfile
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxft
-[DEP] libxinerama
-[DEP] libxml
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
+[DEP] nas
 [DEP] net-tools
 [DEP] perl
-[DEP] pkgconfig
-[DEP] popt
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles
-[DEP] taglib
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

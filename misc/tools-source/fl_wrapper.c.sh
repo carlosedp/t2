@@ -49,27 +49,17 @@ cat << EOT
 #define _LARGEFILE_SOURCE
 #define _LARGEFILE64_SOURCE
 
-#include <dlfcn.h>
-#include <errno.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <sys/stat.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <utime.h>
-#include <stdarg.h>
-#include <limits.h>
-/* somehow it can happen that PATH_MAX does not get defined...? -- jsaw */
-#ifndef PATH_MAX
-#include <linux/limits.h>
-#endif
-#ifndef PATH_MAX
-#warning "PATH_MAX was not defined - BUG in your system headers?"
-#define PATH_MAX 4095
-#endif
-#include <libgen.h>
+#  include <dlfcn.h>
+#  include <errno.h>
+#  include <fcntl.h>
+#  include <stdio.h>
+#  include <stdlib.h>
+#  include <string.h>
+#  include <sys/stat.h>
+#  include <sys/types.h>
+#  include <unistd.h>
+#  include <utime.h>
+#  include <stdarg.h>
 
 #undef _LARGEFILE64_SOURCE
 #undef _LARGEFILE_SOURCE
@@ -93,7 +83,7 @@ static void check_write_access(const char * , const char * );
 static void handle_file_access_before(const char *, const char *, struct status_t *);
 static void handle_file_access_after(const char *, const char *, struct status_t *);
 
-char filterdir[PATH_MAX], wlog[PATH_MAX], rlog[PATH_MAX], *cmdname = "unkown";
+char filterdir[2048], wlog[2048], rlog[2048], *cmdname = "unkown";
 
 /* Wrapper Functions */
 EOT
@@ -270,11 +260,10 @@ static void * get_dl_symbol(char * symname)
         return rc;
 }
 
-static pid_t pid2ppid(pid_t pid)
+static int pid2ppid(int pid)
 {
 	char buffer[100];
-	int fd, rc;
-	pid_t ppid = 0;
+	int fd, rc, ppid = 0;
 
 	sprintf(buffer, "/proc/%d/stat", pid);
 	if ( (fd = open(buffer, O_RDONLY, 0)) < 0 ) return 0;
@@ -405,7 +394,7 @@ static void handle_file_access_before(const char * func, const char * file,
 static void handle_file_access_after(const char * func, const char * file,
                               struct status_t * status)
 {
-	char buf[PATH_MAX], buf2 [PATH_MAX], *logfile, filterdir2 [PATH_MAX], *tfilterdir;
+	char buf[1024], buf2 [1024], *logfile, filterdir2 [1024], *tfilterdir;
 	const char *absfile;
 	int fd; struct stat st;
 
@@ -427,9 +416,7 @@ static void handle_file_access_after(const char * func, const char * file,
 	if (file[0] == '/') {
 		absfile = file;
         } else {
-		char cwd[PATH_MAX];
-		getcwd(cwd, PATH_MAX);
-                snprintf(buf2, PATH_MAX, "%s/%s", cwd, file);
+                sprintf(buf2, "%s/%s", get_current_dir_name(), file);
 		absfile = buf2;
 	}
 

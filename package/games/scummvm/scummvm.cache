@@ -1,13 +1,14 @@
 
-[TIMESTAMP] 1133768986 Mon Dec  5 08:49:46 2005
-[BUILDTIME] 10 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1126551133 Mon Sep 12 14:52:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5267 (9)
+[SIZE] 3.16 MB, 13 files
 
-[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -24,7 +25,10 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
+[DEP] nas
+[DEP] nasm
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] xorg
 [DEP] zlib

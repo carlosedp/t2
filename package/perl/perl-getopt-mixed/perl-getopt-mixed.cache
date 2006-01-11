@@ -1,12 +1,15 @@
 
-[TIMESTAMP] 1134044368 Thu Dec  8 13:19:28 2005
-[BUILDTIME] 5 (9)
+[TIMESTAMP] 1126393468 Sat Sep 10 19:04:28 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1605 (9)
 [SIZE] 0.06 MB, 14 files
 
 [DEP] bash
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

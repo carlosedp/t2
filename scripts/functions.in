@@ -14,12 +14,10 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-. scripts/core-functions.in
-
 # This function returns a "uniqe id" as output
 #
 get_unique() {
-	local hostsum=`hostname 2>/dev/null | tr '()' _`
+	local hostsum=`hostname 2>/dev/null`
 	if [ -z "$hostsum" -a -x /sbin/ip ]; then
 		hostsum=`/sbin/ip link show eth0 |
 		sed -e '/link\//!d' -e 's,.*link[^ ]* \([^ ]*\) .*,\1,'`
@@ -45,8 +43,8 @@ get_expanded() {
 		shift
 	done
 }
-;;
-3*)
+	;;
+    3*)
 get_expanded() {
 	local string="$1"; shift
 	while [ $# -gt 0 ]; do
@@ -54,8 +52,18 @@ get_expanded() {
 		shift
 	done
 }
-;;
+	;;
 esac
+
+# revert the order of the tokens
+get_reverted() {
+	local queue=
+	while [ $# -gt 0 ]; do
+		queue="$1 $queue"
+		shift
+	done
+	echo $queue
+}
 
 # bz2filename [<filename>]
 # outputs filename converted to .bz2. stdin and $1 inputs are accepted
@@ -119,6 +127,44 @@ hook_dump() {
 		fi
 	done
 	echo
+}
+
+# This functions append, insert or remove values in variables:
+#
+#	var_append PATH ":" "$HOME/bin"
+#	var_insert CC_WRAPPER_INSERT " " "-O3"
+#	var_remove CC_WRAPPER_INSERT " " "-O3"
+#
+#	var_remove_regex CC_WRAPPER_INSERT " " "-O.*"
+#
+#	var_insert_before_regex patchfiles " " "mypatch.diff" ".*\/foo.diff"
+#
+# 1st Parameter: Variable Name
+# 2nd Parameter: Delimiter Text
+# 3rd Parameter: Value (or regex)
+# 4th Parameter: regex for insert_before
+#
+var_append() {
+	eval "[ \"\$$1\" ] && $1=\"\${$1}$2\"" || true
+	eval "$1=\"\${$1}\$3\""
+}
+var_insert() {
+	eval "[ \"\$$1\" ] && $1=\"$2\$$1\"" || true
+	eval "$1=\"\$3\$$1\""
+}
+var_remove() {
+	local a=${2//\/\\/}
+	local b=${3//\/\\/}
+	eval '[ "$'$1'" = "$3" ] && '$1'="" || true'
+	eval $1'="${'$1'//$a$b$a/$2}"'
+	eval $1'="${'$1'%$a$b}"'
+	eval $1'="${'$1'#$b$a}"'
+}
+var_remove_regex() {
+	eval "$1=\"\`echo \"\$$1\" | awk -- ' { split(\$0, a, \"$2\"); for (c1=c2=1; c1 in a; c1++) if ( a[c1] !~ /^$3\\\$/ ) b[c2++]=a[c1]; for (c1=1; c1 in b; c1++) printf \"%s%s\", (c1 > 0 ? \"$2\" : \"\"), b[c1]; }'\`\""
+}
+var_insert_before_regex() {
+	eval "$1=\"\`echo \"\$$1\" | awk -- '{ split(\$0, a, \"$2\"); for (d=c1=c2=1; c1 in a; c1++) { if ( d && a[c1] ~ /^$4\\\$/ ) { b[c2++]=\"$3\"; d=0; } b[c2++]=a[c1]; } if (d) b[c2++]=\"$3\"; for (c1=1; c1 in b; c1++) printf \"%s%s\", (c1 > 0 ? \"$2\" : \"\"), b[c1]; }'\`\""
 }
 
 # This function can be used to duplicate a shell-function. E.g. when
@@ -224,8 +270,7 @@ function eval_config_command() {
 	for x ; do
 		if grep -q "[[ ]${x%%=*}[]= ):]" $configscript $sub_scripts ; then
 			config_command="$config_command $x"
-		elif [[ $x = --*able-* ]] && egrep -q "\-\-(en|dis)able-\*" $configscript ||
-		     [[ $x = --with* ]] && egrep -q "\-\-with(|out)-\*" $configscript; then
+		elif [[ $x = --*able-* ]] && egrep -q "\-\-(en|dis)able-\*" $configscript ; then
 			echo "Autodetection for option impossible: " \
 			     "$x passed thru."
 			config_command="$config_command $x"
@@ -265,11 +310,6 @@ postflist_static_lib() {
 		else
 			sed "s,\([ =']\)/lib\(.*\),\1/usr/lib\2,g" \
 				$root/$fn > $root/usr/$fn
-			so=${fn%.la}.so
-			if [ ! -h $root/usr/$so ]; then
-				ln -svf $root/$so $root/usr/$so
-				add_flist $root/usr/$so
-			fi 
 			rm $root/$fn
 		fi
 		add_flist $root/usr/$fn
@@ -283,14 +323,6 @@ postflist_static_lib() {
 	            cut -d : -f1 | sort -u | tr '\n' ' '`"
 	if [ "$defect_la" ] ; then
 		abort "-pthread in: $defect_la!"
-	fi
-
-	defect_la="`egrep '(lib|lib64)/.*\.la$' $builddir/flist.txt |
-	            xargs egrep "dependency_libs=.*(TOOLCHAIN|BACKUP|$SDECFG_ID).*" |
-	            cut -d : -f1 | sort -u | tr '\n' ' '`"
-	if [ "$defect_la" ]; then
-		echo_error "$defect_la contains build system paths!"
-		echo_error "The package should possibly flagged with \"LIBTOOL-QUIRK\""
 	fi
 }
 
@@ -347,20 +379,6 @@ rock_substitute() {
 #
 create_config_cache() {
 	cat $base/scripts/config.cache
-
-	if [ $createarchcache -eq 1 ]; then
-		cat  <<-EOT
-		# Architecture specific stuff\n"
-		arch_sizeof_char=1
-		ac_cv_sizeof_short=$arch_sizeof_short
-		ac_cv_sizeof_int=$arch_sizeof_int
-		ac_cv_sizeof_long=$arch_sizeof_long
-		ac_cv_sizeof_long_long=$arch_sizeof_long_long
-		ac_cv_sizeof_char_p=$arch_sizeof_char_p
-		ac_cv_sizeof_void_p=$arch_sizeof_char_p
-		ac_cv_c_bigendian=$arch_bigendian
-EOT
-	fi
 }
 
 # Abort build before actual build starts
@@ -487,16 +505,12 @@ pkggetdir() {
 		bindir)  echo "$xprefix/bin"	;;
 		sbindir) echo "$xprefix/sbin"	;;
 		libdir)
-		  if [ "$SDECFG_MULTILIB" = 1 ]; then
-		    case $arch_machine in
-			powerpc64|sparc64|x86_64|mips64)
+		  case $arch_machine in
+			powerpc64|sparc64|x86_64)
 				echo "$xprefix/lib64"	;;
 			*)
 				echo "$xprefix/lib"	;;
-		    esac
-		  else
-			echo "$xprefix/lib"
-		  fi
+		  esac
 		  ;;
 		datadir) echo "${xprefix:-/usr}/share"	;;
 		infodir) echo "${xprefix:-/usr}/info"	;;
@@ -536,6 +550,30 @@ pkgchksum() {
   )
 }
 
+# Register a window-manager
+#
+register_wm() {
+	[ -e $root/usr/share/rock-registry/wm ] ||
+		mkdir -p $root/usr/share/rock-registry/wm
+	echo -e "name=\"$2\"\nexec=\"$3\"\n" > $root/usr/share/rock-registry/wm/$1
+}
+
+# Register an application
+#
+register_application() {
+	[ -e $root/usr/share/rock-registry/app ] ||
+		mkdir -p $root/usr/share/rock-registry/app
+	echo -e "name=\"$2\"\nexec=\"$3\"\n" > $root/usr/share/rock-registry/app/$1
+}
+
+# Register a xdm - display manager
+#
+register_xdm() {
+	[ -e $root/usr/share/rock-registry/xdm ] ||
+		mkdir -p $root/usr/share/rock-registry/xdm
+	echo -e "name=\"$2\"\nexec=\"$3\"\n" > $root/usr/share/rock-registry/xdm/$1
+}
+
 # Create Package Database for gasgui install tool
 #
 create_package_db() {
@@ -551,7 +589,11 @@ create_package_db() {
 		else
 			v=""
 		fi
-		bfile=${pkg}${v}.$SDECFG_PKGFILE_TYPE
+		if [ "$SDECFG_CREATE_GEM" = 1 ] ; then
+			bfile=${pkg}${v}.gem
+		else
+			bfile=${pkg}${v}.tar.bz2
+		fi
 
 		if [ -e $2/$bfile ] ; then
 			[ "$pkg" = TRANS.TBL ] && continue
@@ -559,7 +601,7 @@ create_package_db() {
 			( echo -e "$pkg"
 			  echo -e "\027"
 
-			  cat $1/descs/$pkg | grep -v '\[COPY\]'
+			  cat $1/descs/$pkg
 			  echo -e "\027"
 
 			  cat $1/dependencies/$pkg
@@ -610,12 +652,8 @@ detect_patchfiles()
 }
 
 # Apply the given $patchfiles
-# [ hook called for each patch ] [ filter script ]
 #
 apply_patchfiles() {
-	local hook="$1"
-	local filter="$2"
-	[ "$filter" ] || filter=cat
 	for x in $patchfiles; do
 		# correct the abolute path - e.g  for patchfiles supplied
 		# in the .desc file
@@ -627,16 +665,11 @@ apply_patchfiles() {
 		echo "Apply patch $x ..."
 
 		if [[ $x = *.bz2 ]] ; then
-			patch_file=`mktemp` ; patch_del=1
-			bzcat $x > $patch_file
+			bzcat $x | patch $patchopt
 		else
-			patch_file=$x ; patch_del=0
+			patch $patchopt < $x
 		fi
-
-		$filter $patch_file | patch $patchopt
-
-		[ $patch_del = 1 ] && rm $patch_file
-		eval "$hook"
+		eval "$@"
         done
 }
 
@@ -754,8 +787,9 @@ build_this_package() {
 
 		if [ "$createprefix" = 1 ]; then
 			echo "Creating $root/$prefix/<..> if required ..."
-			for x in $foodirlist; do
-				eval "x=\"$root\$$x\""
+			for x in $root/$docdir $root/$prefix/{bin,lib,share} \
+			         $root/$sysconfdir $root/$localstatedir
+			do
 				if [ ! -e $x ]; then
 					mkdir -p $x
 					rmemptydir="$rmemptydir $x"
@@ -815,12 +849,12 @@ build_this_package() {
 				#
 				hook_eval premake
 				if [ "$makeopt" ]; then
-					eval echo "Running $MAKE $makeopt"
+					eval echo "Running $MAKE $makeopt."
 					eval "$MAKE $makeopt"
 				fi
 				hook_eval inmake
 				if [ "$makeinstopt" ]; then
-					eval echo "Running $MAKE $makeinstopt"
+					eval echo "Running $MAKE $makeinstopt."
 					eval "$MAKE $makeinstopt"
 				fi
 				hook_eval postmake
@@ -836,12 +870,24 @@ build_this_package() {
 		fi
 
 		if [ "$createdocs" != 0 ]; then
-			if [ ! -e $root$docdir ]; then
+			if [ ! -e $root/$docdir ]; then
 				mkdir -p $docdir
-				rmemptydir="$rmemptydir $root$docdir"
+				rmemptydir="$rmemptydir $root/$docdir"
 			fi
 			[ -z "$createdocs" ] && createdocs="$SDECFG_CREATE_DOCS"
 		fi
+
+		for file in $confdir/*.desktop ; do 
+			[ -f $file ] || continue
+	
+			echo -n "Install desktop file '$file': "
+
+			mkdir -p $root/usr/share/rock-registry/app
+
+			rock_substitute $file > \
+			  $root/usr/share/rock-registry/app/`basename $file`
+		done
+
 
 		echo "Trying to copy the default documentation ..."
 		for x in [A-Z][A-Z]* *.lsm ChangeLog*; do
@@ -849,7 +895,7 @@ build_this_package() {
 			[ "${x#*.info*}"    ] || continue
 			[ "${x#*.TAR*}"     ] || continue
 			[ "${x#*akefile*}"     ] || continue
-                        [ -f $x ] && cp -v $x $root$docdir/$x
+                        [ -f $x ] && cp -v $x $root/$docdir/$x
 		done
 
 		if [ "$createdocs" = 1 ]; then
@@ -859,16 +905,16 @@ build_this_package() {
 			               -o -name '[Dd]ocumentation' \) ! -empty`
 			do
 				if [ -d "$x" -a "`echo $x/*`" != "$x/*" ]
-				then cp -rLv $x/* $root$docdir || true ; fi
+				then cp -rLv $x/* $root/$docdir || true ; fi
 			done
 			for x in $confdir/*.doc; do
 				if [ -f $x ]
-				then cp -v $x $root$docdir/${x%.doc}; fi
+				then cp -v $x $root/$docdir/${x%.doc}; fi
 			done
-			find $root$docdir/ -name '*.[0-9]' -o -name '*.info*' \
+			find $root/$docdir/ -name '*.[0-9]' -o -name '*.info*' \
 				-o -name '[Mm]akefile*' |
 				xargs -r rm -f 2> /dev/null || true
-			find $root$docdir/* -type d -empty 2> /dev/null |
+			find $root/$docdir/* -type d -empty 2> /dev/null |
 				xargs -r rmdir 2> /dev/null || true
 		fi
 
@@ -1008,7 +1054,7 @@ init_vars_and_hooks()
 
 	if [ $stagelevel -eq 1 ] ; then
 		makeinstopt="$makeopt"' DESTDIR="$root" DEST_DIR="$root"'
-		makeinstopt="$makeinstopt"' INSTROOT="$root" INSTALLROOT="$root" install'
+		makeinstopt="$makeinstopt"' INSTROOT="$root" install'
 	else
 		makeinstopt="$makeopt"' install'
 	fi
@@ -1017,8 +1063,6 @@ init_vars_and_hooks()
 
 	[ "$SDECFG_DO_CHECK" = 1 ] && hook_add inmake 6 'run_check'
 	hook_add postflist 3 'postflist_static_lib'
-
-	createarchcache=0
 
 	configprefix="" ; autogen=0
 	configscript="./configure" ; extraconfopt=""
@@ -1048,11 +1092,10 @@ build_package()
   (
 	pushd $base
 
-	super=$pkg
 	pkg="$1" ; xpkg="$pkg"
 	conffile="$2" ; [ "$conffile" ] || conffile="$pkg.conf"
 
-	unset ${!hook*}
+	unset hook_functions hook_fcounter
 	declare -a hook_functions='()'
 	hook_fcounter=0
 	init_vars_and_hooks
@@ -1068,15 +1111,13 @@ build_package()
 	set --
 	eval "$desc_O"
 
-	echo_status "Building $xpkg within $super (using $conffile)."
-
 	for x in $( get_expanded $base/target/%/pkg_$pkg.conf $targetchain ) \
 		$confdir/$conffile; do
 		if [ -f $x ]; then
 			if [[ $x == */$conffile ]]; then
-				echo "Reading package configuration ($conffile) from package directory."
+				echo_status "Reading package configuration ($conffile) from package directory."
 			else
-	  			echo "Reading package configuration from target directory."
+	  			echo_status "Reading package configuration from target directory."
 			fi
 	  		. $x
 			break
@@ -1093,20 +1134,8 @@ build_package()
 	populate_archdir
 	popd
 
-	# dump for debugging
-	hook_dump > $builddir/debug.hooks.$pkg
-	dump_env > $builddir/debug.buildenv.$pkg
-
 	echo "Running main build function '$mainfunction' ..."
-	cd $builddir
-
-	# the reliable error catching is a bit tricky here ... if someone
-	# has a cleaner code chunk it is welcome
-	error=0; abort() { error=1 ; }
-	( eval "$mainfunction" )
-	[ $? -ne 0 ] && error=1
-	
-	[ $error = 0 ] || echo_error "Warning: Failed building $xpkg."
+	cd $builddir ; eval "$mainfunction"
   )
 }
 

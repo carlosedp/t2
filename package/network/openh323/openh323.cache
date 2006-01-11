@@ -1,11 +1,13 @@
 
-[TIMESTAMP] 1134220274 Sat Dec 10 14:11:14 2005
-[BUILDTIME] 230 (9)
-[SIZE] 11.27 MB, 95 files
+[TIMESTAMP] 1126484724 Sun Sep 11 20:25:24 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 50675 (9)
+[SIZE] 9.38 MB, 95 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] cyrus-sasl2
 [DEP] diffutils
@@ -24,7 +26,6 @@
 [DEP] openssl
 [DEP] pwlib
 [DEP] sed
-[DEP] speex
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

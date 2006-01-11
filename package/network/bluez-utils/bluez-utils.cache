@@ -1,6 +1,7 @@
 
-[TIMESTAMP] 1134157643 Fri Dec  9 20:47:23 2005
-[BUILDTIME] 20 (9)
+[TIMESTAMP] 1127161984 Mon Sep 19 16:33:04 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4108 (9)
 [SIZE] 0.42 MB, 54 files
 
 [DEP] alsa-lib
@@ -8,12 +9,12 @@
 [DEP] binutils
 [DEP] bluez-libs
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] dbus
 [DEP] diffutils
 [DEP] findutils
 [DEP] flex
-[DEP] fuse
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc

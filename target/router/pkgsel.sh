@@ -27,7 +27,7 @@ perl -e '
 		 e2fsprogs gcc gdbm glibc gzip linux26 linux-header
 		 man module-init-tools modutils net-tools openssl
 		 patch pcmcia-cs perl psutils tar tcsh zlib 
-		 sysvinit 00-dirtree stone mkinitrd rocknet/;
+		 sysvinit 00-dirtree/;
 	$b{$_}=1 foreach @x;
 	print "\n";
 	print "ALL: ".join(" ", @x)."\n";

@@ -1,29 +1,27 @@
 
-[TIMESTAMP] 1134276633 Sun Dec 11 05:50:33 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.36 MB, 19 files
+[TIMESTAMP] 1117345765 Sun May 29 01:49:25 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 2072 (5)
+[SIZE] 0.35 MB, 19 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
-[DEP] libx11
-[DEP] libxext
 [DEP] linux-header
 [DEP] make
 [DEP] numpy
-[DEP] pil
 [DEP] python
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] wxpython
-[DEP] zope
+[DEP] xorg

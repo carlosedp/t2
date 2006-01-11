@@ -1,16 +1,17 @@
 
-[TIMESTAMP] 1133760492 Mon Dec  5 06:28:12 2005
-[BUILDTIME] 5 (5)
+[TIMESTAMP] 1126544578 Mon Sep 12 13:02:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1592 (9)
 [SIZE] 0.05 MB, 12 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
-[DEP] enlightenment16
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
 [DEP] gdbm
 [DEP] glib12
@@ -18,15 +19,10 @@
 [DEP] grep
 [DEP] gtk+12
 [DEP] imlib
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] linux-header
 [DEP] make
 [DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] xproto
+[DEP] xorg

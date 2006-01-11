@@ -1,18 +1,20 @@
 
-[TIMESTAMP] 1133979427 Wed Dec  7 19:17:07 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.56 MB, 36 files
+[TIMESTAMP] 1126340528 Sat Sep 10 04:22:08 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4229 (9)
+[SIZE] 0.52 MB, 36 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] curl
 [DEP] diffutils
+[DEP] file
 [DEP] findutils
 [DEP] flac
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
@@ -26,9 +28,8 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
-[DEP] pkgconfig
+[DEP] perl
 [DEP] sed
-[DEP] speex
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134144537 Fri Dec  9 17:08:57 2005
-[BUILDTIME] 305 (9)
-[SIZE] 6.13 MB, 409 files
+[TIMESTAMP] 1121654146 Sun Jul 17 22:35:46 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 55016 (5)
+[SIZE] 5.85 MB, 396 files
 
+[DEP] 00-dirtree
 [DEP] a52dec
 [DEP] aalib
 [DEP] alsa-lib
@@ -12,20 +14,17 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] cdparanoia
-[DEP] cf
 [DEP] coreutils
-[DEP] damageproto
 [DEP] diffutils
 [DEP] directfb
 [DEP] divx4linux
+[DEP] docbookx
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] fixesproto
 [DEP] flac
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -33,7 +32,6 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-libs14
 [DEP] gnome-vfs
 [DEP] gpm
@@ -41,22 +39,17 @@
 [DEP] gsm
 [DEP] gstreamer
 [DEP] gtk+
+[DEP] gtkdoc
 [DEP] hermes
-[DEP] howl
-[DEP] imake
-[DEP] inputproto
 [DEP] jack
-[DEP] kbproto
 [DEP] ladspa
 [DEP] lame
 [DEP] lcms
-[DEP] libavc1394
 [DEP] libbonobo
 [DEP] libcdaudio
-[DEP] libcdio
 [DEP] libdv
+[DEP] libdvdnav
 [DEP] libdvdread
-[DEP] libice
 [DEP] libid3tag
 [DEP] libjpeg
 [DEP] libmad
@@ -67,47 +60,31 @@
 [DEP] libpng
 [DEP] libraw1394
 [DEP] libsdl
-[DEP] libshout
-[DEP] libsm
 [DEP] libsndfile
-[DEP] libtheora
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdamage
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxv
+[DEP] libxslt
 [DEP] linux-header
 [DEP] make
 [DEP] mjpegtools
 [DEP] mktemp
 [DEP] nas
-[DEP] ncurses
 [DEP] net-tools
+[DEP] numpy
 [DEP] orbit2
 [DEP] pango
 [DEP] patch
+[DEP] perl
 [DEP] pkgconfig
 [DEP] popt
-[DEP] renderproto
+[DEP] python
 [DEP] sed
 [DEP] slang
-[DEP] speex
 [DEP] sysfiles
 [DEP] tar
+[DEP] transfig
 [DEP] util-linux
-[DEP] videoproto
-[DEP] xextproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] wxpython
+[DEP] xorg
 [DEP] xvid
 [DEP] zlib

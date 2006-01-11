@@ -1,55 +1,32 @@
 
-[TIMESTAMP] 1133833088 Tue Dec  6 02:38:08 2005
-[BUILDTIME] 60 (5)
-[SIZE] 3.71 MB, 607 files
+[TIMESTAMP] 1126574871 Mon Sep 12 21:27:51 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 16066 (9)
+[SIZE] 3.81 MB, 607 files
 
-[DEP] 00-dirtree
-[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
-[DEP] imake
-[DEP] k3b-i18n
-[DEP] kde-i18n-it
 [DEP] kdelibs
 [DEP] libart_lgpl23
 [DEP] libdnet
-[DEP] libdrm
-[DEP] libice
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxft
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pcre
@@ -59,6 +36,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134124801 Fri Dec  9 11:40:01 2005
-[BUILDTIME] 55 (9)
-[SIZE] 2.18 MB, 133 files
+[TIMESTAMP] 1126432829 Sun Sep 11 06:00:29 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 10960 (9)
+[SIZE] 2.21 MB, 133 files
 
 [DEP] alsa-lib
 [DEP] atk
@@ -9,14 +10,13 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -24,7 +24,6 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-panel
 [DEP] gnome-vfs
@@ -32,8 +31,6 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] howl
-[DEP] inputproto
-[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -41,25 +38,11 @@
 [DEP] libgnome
 [DEP] libgnomecanvas
 [DEP] libgnomeui
-[DEP] libice
 [DEP] libjpeg
-[DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
@@ -69,12 +52,10 @@
 [DEP] pilot-link
 [DEP] pkgconfig
 [DEP] popt
-[DEP] readline
-[DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

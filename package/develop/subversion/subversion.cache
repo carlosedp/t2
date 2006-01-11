@@ -1,19 +1,20 @@
 
-[TIMESTAMP] 1134320309 Sun Dec 11 17:58:29 2005
-[BUILDTIME] 210 (9)
-[SIZE] 11.00 MB, 399 files
+[TIMESTAMP] 1121730930 Mon Jul 18 19:55:30 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 33452 (5)
+[SIZE] 9.62 MB, 352 files
 
+[DEP] 00-dirtree
 [DEP] apache
 [DEP] apr
 [DEP] apr-util
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
-[DEP] blackdown-jdk
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] cyrus-sasl2
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
@@ -22,7 +23,6 @@
 [DEP] gdbm
 [DEP] gettext
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] libxml
 [DEP] linux-header
@@ -36,10 +36,10 @@
 [DEP] openssl
 [DEP] patch
 [DEP] perl
-[DEP] pil
 [DEP] python
 [DEP] ruby
 [DEP] sed
+[DEP] sun-jdk-150
 [DEP] swig
 [DEP] sysfiles
 [DEP] tar

@@ -1,12 +1,13 @@
 
-[TIMESTAMP] 1117834398 Fri Jun  3 17:33:18 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 3204 (5)
+[TIMESTAMP] 1121629074 Sun Jul 17 15:37:54 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 2720 (5)
 [SIZE] 58.31 MB, 290 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils

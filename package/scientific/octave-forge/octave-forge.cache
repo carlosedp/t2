@@ -1,30 +1,26 @@
 
-[TIMESTAMP] 1133759113 Mon Dec  5 06:05:13 2005
-[BUILDTIME] 205 (5)
-[SIZE] 7.84 MB, 878 files
+[TIMESTAMP] 1126543436 Mon Sep 12 12:43:56 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 66037 (9)
+[SIZE] 8.30 MB, 920 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
+[DEP] cln
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] ginac
 [DEP] glibc
+[DEP] gmp
 [DEP] grep
 [DEP] hdf5
-[DEP] imake
-[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libsm
-[DEP] libsndfile
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -40,6 +36,5 @@
 [DEP] tetex
 [DEP] texinfo
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

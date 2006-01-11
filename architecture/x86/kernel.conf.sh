@@ -23,15 +23,14 @@
 	linux_arch=386
 	for x in "i386		386"		\
 		 "i486		486"		\
-		 "c3		MCYRIXIII"	\
-		 "c3-2		MVIAC3_2"	\
+		 "via-c3	MCYRIXIII"	\
+		 "via-c3-2	MVIAC3_2"	\
 		 "pentium	586"		\
 		 "pentium-mmx	586MMX"		\
 		 "pentiumpro	686"		\
 		 "pentium2	PENTIUMII"	\
 		 "pentium3	PENTIUMIII"	\
 		 "pentium4	PENTIUM4"	\
-		 "pentium-m	MPENTIUMM"	\
 		 "k6		K6"		\
 		 "k6-2		K6"		\
 		 "k6-3		K6"		\
@@ -65,6 +64,11 @@
 		dnl
 		CONFIG_MTRR=y
 
+		dnl Some AGP support not enabled by default
+		dnl
+		CONFIG_AGP_AMD_8151=y
+		CONFIG_AGP_SWORKS=y
+
 		dnl PC Speaker for 2.5/6 kernel
 		CONFIG_INPUT_PCSPKR=y
 
@@ -74,19 +78,31 @@
 
 		include(`kernel-common.conf.m4')
 		include(`kernel-block.conf.m4')
+
+		dnl SATA stuff that is mostly x86 right now
+		dnl we need a modular kernel anyway ... :-(
+		dnl
+		CONFIG_BLK_DEV_SX8=y
+		CONFIG_SCSI_SATA_AHCI=y
+		CONFIG_SCSI_SATA_SVW=y
+		CONFIG_SCSI_SATA_NV=y
+		CONFIG_SCSI_SATA_PROMISE=y
+		CONFIG_SCSI_SATA_SX4=y
+		CONFIG_SCSI_SATA_SIL=y
+		CONFIG_SCSI_SATA_SIS=y
+		CONFIG_SCSI_SATA_ULI=y
+		CONFIG_SCSI_SATA_VIA=y
+		CONFIG_SCSI_SATA_VITESSE=y
+
 		include(`kernel-net.conf.m4')
 		include(`kernel-fs.conf.m4')
-
-		CONFIG_FB_VESA=y
 
 		dnl The default is to support those old ISA boxes.
 		dnl A target might get rid of it.
 		dnl
-		CONFIG_ISA=y
 		CONFIG_ISAPNP=y
 		CONFIG_PNPBIOS=y
 
-		CONFIG_PNP=y
 	EOT
 } | m4 -I $base/architecture/$arch -I $base/architecture/share
 

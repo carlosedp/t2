@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134209859 Sat Dec 10 11:17:39 2005
-[BUILDTIME] 540 (9)
-[SIZE] 51.94 MB, 808 files
+[TIMESTAMP] 1133388306 Wed Nov 30 19:05:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 60182 (9)
+[SIZE] 53.44 MB, 807 files
 
 [DEP] alsa-lib
 [DEP] arts
@@ -10,7 +11,7 @@
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] cups
 [DEP] diffutils
@@ -24,37 +25,19 @@
 [DEP] glib
 [DEP] glibc
 [DEP] grep
-[DEP] imake
-[DEP] inputproto
 [DEP] isdn4k-utils
 [DEP] jack
-[DEP] kbproto
 [DEP] lcms
-[DEP] libdrm
 [DEP] libexif
 [DEP] libgphoto
-[DEP] libice
 [DEP] libjpeg
-[DEP] libsm
 [DEP] libungif
 [DEP] libusb
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] libxml
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] libxslt
-[DEP] libxt
-[DEP] libxxf86dga
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] nas
 [DEP] ncurses
@@ -62,17 +45,11 @@
 [DEP] openssl
 [DEP] pkgconfig
 [DEP] prelink
-[DEP] randrproto
-[DEP] renderproto
 [DEP] sane-backends
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] valgrind
-[DEP] xextproto
-[DEP] xf86dgaproto
-[DEP] xf86vidmodeproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

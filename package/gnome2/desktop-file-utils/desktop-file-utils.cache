@@ -1,11 +1,13 @@
 
-[TIMESTAMP] 1134235005 Sat Dec 10 18:16:45 2005
-[BUILDTIME] 10 (9)
+[TIMESTAMP] 1126489873 Sun Sep 11 21:51:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3365 (9)
 [SIZE] 0.18 MB, 18 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] emacs
@@ -25,3 +27,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xorg

@@ -12,7 +12,7 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-build_result="$build_toolchain/result"
+build_result="$build_rock/result"
 
 pkgloop_action() {
 

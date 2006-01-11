@@ -26,12 +26,11 @@
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] base/library
-[F] DIETLIBC
 
 [L] LGPL
 [S] Stable
-[V] 2.6.22
+[V] 2.6.19
 [P] X -----5---9 120.800
 
-[D] 2806174007 libxml2-2.6.22.tar.gz ftp://xmlsoft.org/
+[D] 3088662145 libxml2-2.6.19.tar.gz ftp://xmlsoft.org/
 

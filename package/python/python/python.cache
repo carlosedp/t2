@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1133956688 Wed Dec  7 12:58:08 2005
-[BUILDTIME] 80 (9)
-[SIZE] 47.48 MB, 4326 files
+[TIMESTAMP] 1126333926 Sat Sep 10 02:32:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 17536 (9)
+[SIZE] 44.61 MB, 3813 files
 
 [DEP] bash
 [DEP] bdb
@@ -9,6 +10,7 @@
 [DEP] binutils
 [DEP] bluez-libs
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -18,7 +20,6 @@
 [DEP] glibc
 [DEP] grep
 [DEP] kdebindings
-[DEP] libx11
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -33,5 +34,5 @@
 [DEP] tcl
 [DEP] tk
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

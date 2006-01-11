@@ -1,17 +1,19 @@
 
-[TIMESTAMP] 1133858455 Tue Dec  6 09:40:55 2005
-[BUILDTIME] 850 (9)
-[SIZE] 82.02 MB, 3134 files
+[TIMESTAMP] 1126309933 Fri Sep  9 19:52:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 219966 (9)
+[SIZE] 65.76 MB, 3050 files
 
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -20,10 +22,6 @@
 [DEP] gzip
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxpm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -36,4 +34,5 @@
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
+[DEP] xorg
 [DEP] zlib

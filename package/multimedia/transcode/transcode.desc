@@ -31,12 +31,12 @@
 [A] Dr. Thomas Östreich <ostreich@theorie.physik.uni-goettingen.de>
 [M] Rene Rebe <rene@t2-project.org>
 
-[F] NOPARALLEL NO-AS-NEEDED
+[F] NOPARALLEL
 [C] extra/multimedia
 
 [L] GPL
 [S] Beta
-[V] 1.0.1
+[V] 0.6.14
 [P] X -----5---9 185.000
 
-[D] 1267477512 transcode-1.0.1.tar.gz http://kraymer.de/mirroring/
+[D] 3329038962 transcode-0.6.14.tar.gz http://www.ligo.caltech.edu/~pehrens/

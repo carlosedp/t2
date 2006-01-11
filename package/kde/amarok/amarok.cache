@@ -1,20 +1,22 @@
 
-[TIMESTAMP] 1133788475 Mon Dec  5 14:14:35 2005
-[BUILDTIME] 175 (5)
-[SIZE] 13.95 MB, 542 files
+[TIMESTAMP] 1126561493 Mon Sep 12 17:44:53 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 35378 (9)
+[SIZE] 10.31 MB, 512 files
 
-[DEP] 00-dirtree
+[DEP] alsa-lib
 [DEP] arts
+[DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] esound
 [DEP] expat
 [DEP] fam
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -27,41 +29,25 @@
 [DEP] gst-plugins
 [DEP] gstreamer
 [DEP] gtk+12
-[DEP] imake
-[DEP] k3b-i18n
-[DEP] kde-i18n-de
-[DEP] kde-i18n-fr
-[DEP] kde-i18n-it
+[DEP] jack
 [DEP] kdebase
 [DEP] kdelibs
+[DEP] kdemultimedia
 [DEP] libart_lgpl23
 [DEP] libdnet
-[DEP] libdrm
-[DEP] libice
 [DEP] libidn
 [DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
 [DEP] libpng
 [DEP] libsdl
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxft
-[DEP] libxi
-[DEP] libxinerama
+[DEP] libtool
+[DEP] libvorbis
 [DEP] libxml
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
+[DEP] nas
 [DEP] net-tools
 [DEP] pcre
 [DEP] perl
@@ -74,7 +60,6 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xine-lib
-[DEP] xmkmf
 [DEP] xmms
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

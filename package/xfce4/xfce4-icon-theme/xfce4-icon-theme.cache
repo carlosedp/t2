@@ -1,18 +1,19 @@
 
-[TIMESTAMP] 1133835227 Tue Dec  6 03:13:47 2005
-[BUILDTIME] 20 (5)
+[TIMESTAMP] 1126575217 Mon Sep 12 21:33:37 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5712 (9)
 [SIZE] 5.53 MB, 1248 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libxfce4util
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
@@ -20,4 +21,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xfce-mcs-manager

@@ -19,13 +19,6 @@ CONFIG_EXPERIMENTAL=y
 dnl On default we build SMP kernels and mods
 dnl
 CONFIG_SMP=y
-CONFIG_IRQ_ALL_CPUS=y
-
-dnl Power Management
-dnl
-CONFIG_PM=y
-CONFIG_PM_LEGACY=y
-CONFIG_SOFTWARE_SUSPEND=y
 
 dnl CPU frequency scaling is nice to have
 dnl
@@ -57,7 +50,7 @@ dnl Loopback device can always be useful
 dnl
 CONFIG_BLK_DEV_LOOP=y
 
-dnl We need initrd for install system and fully modular kernel early userspace
+dnl We need initrd for install system and other stuff
 dnl
 CONFIG_BLK_DEV_RAM=y
 CONFIG_BLK_DEV_INITRD=y
@@ -72,16 +65,11 @@ CONFIG_I82092=y
 CONFIG_I82365=y
 
 dnl Misc stuff
-CONFIG_NVRAM=y
-
 CONFIG_BINFMT_AOUT=m
 CONFIG_BINFMT_MISC=m
 
-CONFIG_SYSVIPC=y
-CONFIG_SUNRPC=y
-
 dnl Math emulation in the default kernel
-dnl (we could also run this on an old 386, sparcv7)
+dnl (we could also run this on an old 386)
 dnl
 CONFIG_MATH_EMULATION=y
 
@@ -138,16 +126,20 @@ dnl
 CONFIG_VGA_CONSOLE=y
 CONFIG_VIDEO_SELECT=y
 CONFIG_FB=y
-CONFIG_FRAMEBUFFER_CONSOLE=y
-CONFIG_LOGO=y
+CONFIG_FB_VESA=y
+dnl some modules we might never need built-in the details are controlled
+dnl by the architecture, e.g. radeon/riva built-in for PowerPC ...
+CONFIG_FB_VOODOO1=m
+CONFIG_FB_TRIDENT=m
+CONFIG_FB_SIS=m
+CONFIG_FB_CYBER2000=m
+CONFIG_FB_PM2=m
+
 
 dnl Console (Serial) Options
 dnl
 CONFIG_SERIAL=y
-CONFIG_SERIAL_CORE=y
 CONFIG_SERIAL_CONSOLE=y
-
-CONFIG_PARPORT=y
 
 dnl Video for Linux
 dnl
@@ -174,11 +166,3 @@ dnl
 CONFIG_PROFILING=y
 CONFIG_OPROFILE=m
 
-dnl Other stuff normally needed
-dnl
-CONFIG_POSIX_MQUEUE=y
-CONFIG_SYSCTL=y
-
-dnl On architectures with OpenFirmware we want the framebuffer
-dnl
-CONFIG_FB_OF=y

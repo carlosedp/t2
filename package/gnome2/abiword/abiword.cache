@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134313976 Sun Dec 11 16:12:56 2005
-[BUILDTIME] 210 (9) ERROR
-[SIZE] 11.06 MB, 294 files
+[TIMESTAMP] 1129758792 Wed Oct 19 18:53:12 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 46494 (9)
+[SIZE] 11.87 MB, 372 files
 
 [DEP] alsa-lib
 [DEP] atk
@@ -9,15 +10,13 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] enchant
 [DEP] esound
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] fribidi
 [DEP] gawk
@@ -25,21 +24,17 @@
 [DEP] gconf
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-libs14
 [DEP] gnome-vfs
-[DEP] goffice
 [DEP] grep
 [DEP] gtk+
 [DEP] gucharmap
 [DEP] howl
-[DEP] imake
-[DEP] inputproto
-[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
+[DEP] libcroco
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
@@ -47,23 +42,10 @@
 [DEP] libgnomeprintui
 [DEP] libgnomeui
 [DEP] libgsf
-[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
 [DEP] librsvg
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxft
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -73,15 +55,11 @@
 [DEP] orbit2
 [DEP] pango
 [DEP] pkgconfig
-[DEP] poppler
 [DEP] popt
 [DEP] readline
-[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] valgrind
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

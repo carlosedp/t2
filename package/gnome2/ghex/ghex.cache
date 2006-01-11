@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134142484 Fri Dec  9 16:34:44 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.68 MB, 150 files
+[TIMESTAMP] 1126441645 Sun Sep 11 08:27:25 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5373 (9)
+[SIZE] 1.70 MB, 150 files
 
 [DEP] alsa-lib
 [DEP] atk
@@ -9,11 +10,9 @@
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
-[DEP] bug-buddy
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
-[DEP] dasher
 [DEP] diffutils
 [DEP] docbookx
 [DEP] eog
@@ -22,7 +21,6 @@
 [DEP] expat
 [DEP] file-roller
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gail
 [DEP] gawk
@@ -32,23 +30,19 @@
 [DEP] gdm
 [DEP] gedit
 [DEP] gettext
+[DEP] ghex12
 [DEP] glade10
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-applets
 [DEP] gnome-desktop
 [DEP] gnome-keyring
-[DEP] gnome-netstatus
-[DEP] gnome-panel
 [DEP] gnome-utils
 [DEP] gnome-vfs
 [DEP] gnomeicu
 [DEP] grep
 [DEP] gtk+
 [DEP] howl
-[DEP] inputproto
-[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -57,21 +51,8 @@
 [DEP] libgnomeprint
 [DEP] libgnomeprintui
 [DEP] libgnomeui
-[DEP] libice
 [DEP] libjpeg
-[DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -84,12 +65,11 @@
 [DEP] pkgconfig
 [DEP] popt
 [DEP] quick-lounge-applet
-[DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

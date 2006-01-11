@@ -1,41 +1,35 @@
 
-[TIMESTAMP] 1134014066 Thu Dec  8 04:54:26 2005
-[BUILDTIME] 60 (9)
-[SIZE] 1.83 MB, 123 files
+[TIMESTAMP] 1126368081 Sat Sep 10 12:01:21 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 11894 (9)
+[SIZE] 1.66 MB, 113 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
 [DEP] edb
 [DEP] eet
 [DEP] evas
+[DEP] expat
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
-[DEP] imake
-[DEP] libice
 [DEP] libjpeg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxinerama
-[DEP] libxp
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -44,14 +38,9 @@
 [DEP] openssl
 [DEP] perl
 [DEP] pkgconfig
-[DEP] printproto
-[DEP] randrproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xextproto
-[DEP] xineramaproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

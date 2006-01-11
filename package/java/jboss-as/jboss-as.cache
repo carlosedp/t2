@@ -1,15 +1,13 @@
 
-[TIMESTAMP] 1118200183 Tue Jun  7 23:09:43 2005
-[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
-[BUILDTIME] 19556 (5)
-[SIZE] 87.27 MB, 1410 files
+[TIMESTAMP] 1126576756 Mon Sep 12 21:59:16 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 17310 (9)
+[SIZE] 87.27 MB, 1409 files
 
 [DEP] 00-dirtree
-[DEP] apache-ant
 [DEP] bash
-[DEP] bdb-java
-[DEP] bdb33-java
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils

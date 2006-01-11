@@ -22,11 +22,13 @@ CONFIG_6xx=y
 # CONFIG_82xx is not set
 # CONFIG_8xx is not set
 CONFIG_PMAC=y
-CONFIG_PREP=u
-CONFIG_CHRA=y
-CONFIG_ALL_PPC=y
+# CONFIG_PREP is not set
+# CONFIG_CHRP is not set
+# CONFIG_ALL_PPC is not set
 # CONFIG_GEMINI is not set
 # CONFIG_APUS is not set
+# CONFIG_SMP is not set
+# CONFIG_ALTIVEC is not set
 CONFIG_MACH_SPECIFIC=y
 
 # additional 2.6 kernel configs
@@ -35,21 +37,6 @@ CONFIG_PPC32=y
 # CONFIG_POWER3 is not set
 
 CONFIG_ALTIVEC=y
-
-dnl Platform specific support
-dnl
-CONFIG_ADB=y
-CONFIG_ADB_CUDA=y
-CONFIG_ADB_PMU=y
-CONFIG_PMAC_APM_EMU=y
-CONFIG_PMAC_MEDIABAY=y
-CONFIG_PMAC_BACKLIGHT=y
-CONFIG_ADB_MACIO=y
-CONFIG_INPUT_ADBHID=y
-CONFIG_MAC_EMUMOUSEBTN=y
-
-dnl older IBM machines
-CONFIG_ISA=y
 
 include(`kernel-common.conf.m4')
 include(`kernel-block.conf.m4')
@@ -65,16 +52,15 @@ CONFIG_PPC_RTC=y
 
 dnl macs need an FB
 dnl
-CONFIG_FB_CONTROL=y
+CONFIG_FB_RIVA=y
+CONFIG_FB_MATROX=m
 CONFIG_FB_ATY=y
 CONFIG_FB_RADEON=y
-CONFIG_FB_ATY128=y
-CONFIG_FB_RIVA=y
-CONFIG_FB_PLATINUM=y
-CONFIG_FB_VALKYRIE=y
-CONFIG_FB_CT65550=y
-CONFIG_FB_IMSTT=y
-CONFIG_FB_MATROX=y
+
+dnl AGP
+dnl
+CONFIG_AGP=y
+CONFIG_AGP_UNINORTH=m
 
 dnl power management
 dnl
@@ -87,25 +73,23 @@ CONFIG_I2C=y
 CONFIG_I2C_KEYWEST=y
 CONFIG_THERM_WINDTUNNEL=y
 CONFIG_THERM_ADT746X=y
-CONFIG_WINDFARM=y
 
-
-dnl for 2.6 kernels
+# for 2.6 kernels
 dnl
 CONFIG_TAU=y
 
 CONFIG_CPU_FREQ_PMAC=y
 
-CONFIG_BLK_DEV_IDE_PMAC=y
-CONFIG_BLK_DEV_IDE_PMAC_ATA100FIRST=y
-CONFIG_BLK_DEV_IDEDMA_PMAC=y
-CONFIG_BLK_DEV_IDE_PMAC_BLINK=y
 CONFIG_PMU_HD_BLINK=y
 # CONFIG_MAC_ADBKEYCODES is not set
+
+dnl make sure old OSS modules are build (ALSA does not yet work correct)
+dnl
+CONFIG_DMASOUND_PMAC=m
+CONFIG_DMASOUND=m
 
 dnl some network teaks (the GMAC is obsoleted by SUNGEM)
 dnl
 # CONFIG_GMAC is not set
 CONFIG_SUNGEM=y
 
-CONFIG_XMON=y

@@ -1,16 +1,17 @@
 
-[TIMESTAMP] 1133957183 Wed Dec  7 13:06:23 2005
-[BUILDTIME] 45 (9)
-[SIZE] 1.25 MB, 51 files
+[TIMESTAMP] 1126334124 Sat Sep 10 02:35:24 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 9143 (9)
+[SIZE] 1.15 MB, 50 files
 
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] flac
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -19,9 +20,7 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] pkgconfig
 [DEP] sed
-[DEP] sqlite
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

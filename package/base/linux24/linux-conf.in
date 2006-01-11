@@ -15,11 +15,11 @@
 
 treever=${pkg/linux/} ; treever=${treever/-*/}
 
-[ "$lx_cpu" ] ||
-# powerpc and mips share the same arch for 32/64, maybe more follow
-lx_cpu=`echo $arch | arch2uname | sed -e s/ppc.*/powerpc/ -e s/mips64/mips/`
+lx_cpu=`echo "$arch_machine" | sed -e s/i.86/i386/ -e s/powerpc/ppc/ \
+        -e s/sh.$/sh/ -e s/hppa/parisc/`
 lx_extraversion=""
 lx_kernelrelease=""
+lx_defconfig="arch/$lx_cpu/defconfig arch/$lx_cpu/configs/common_defconfig"
 lx_customconf="\$base/config/$config/linux.cfg"
 
 [ $arch = sparc -a "$SDECFG_SPARC_64BIT_KERNEL" = 1 ] && \
@@ -54,9 +54,15 @@ auto_config ()
 		echo "  using: architecture/$arch/kernel.conf"
 		cp $base/architecture/$arch/kernel.conf .config
 	else
-		echo "  using: no SDE kernel config found"
+		echo "  using: no rock kernel config found"
 		cp arch/$lx_cpu/defconfig .config
 	fi
+
+	echo "  merging (system default(s)): $lx_defconfig"
+	grep -h '^CONF.*=y' $lx_defconfig | cut -f1 -d= | while read tag
+	do
+		egrep -q "(^| )$tag[= ]" .config || echo "$tag=y"
+	done >> .config ; cp .config .config.1
 
 	# all modules needs to be first so modules can be disabled by i.e.
 	# the targets later
@@ -133,7 +139,7 @@ lx_grabextraversion () {
 	local ev
 	ev=$( sed -n -e 's,^[ \t]*EXTRAVERSION[ \t]*=[ \t]*\([^ \t]*\),\1,p' Makefile | tail -n 1 )
 	if [ "$ev" ]; then
-		lx_extraversion="${lx_extraversion}${ev}"
+		lx_extraversion="${ev}${lx_extraversion}"
 		# keep intact but commented since the second EXTRAVERSION
 		# definition, and clean the first.
 		sed -e 's,^\([ \t]*EXTRAVERSION[ \t]*=.*\),#\1,g' \
@@ -162,15 +168,6 @@ lx_injectextraversion () {
                     | cut -d '"' -f 2 && rm -f conftest.c )"
 }
 
-lx_filter_patch ()
-{
-	pref=`sed -n '/^-EXTRAVERSION =/ {
-	              s/^-EXTRAVERSION =//p
-	              q }' $1`
-	sed -e "s/^-EXTRAVERSION =.*/-EXTRAVERSION =/" \
-	    -e "s/^+EXTRAVERSION = *$pref/+EXTRAVERSION = /" $1
-}
-
 lx_patch ()
 {
 	echo "Generic linux patching ..."
@@ -179,7 +176,7 @@ lx_patch ()
 	lx_grabextraversion
 
 	hook_eval prepatch
-	apply_patchfiles lx_grabextraversion lx_filter_patch
+	apply_patchfiles "lx_grabextraversion"
 	hook_eval postpatch
 
 	echo "Redefining some VERSION flags ..."
@@ -226,7 +223,8 @@ lx_config() {
 	echo "... configuration of $lx_kernelrelease finished!"
 }
 
-pkg_linux_brokenfiles="$base/architecture/$arch/kernel$treever-disable.lst \
+pkg_linux_brokenfiles="$base/architecture/$arch/kernel-disable.lst \
+	$base/architecture/$arch/kernel$treever-disable.lst \
 	$base/package/*/linux$treever/disable-broken.lst \
 	$pkg_linux_brokenfiles"
 

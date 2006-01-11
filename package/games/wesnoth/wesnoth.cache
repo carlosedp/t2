@@ -1,13 +1,14 @@
 
-[TIMESTAMP] 1133747029 Mon Dec  5 02:43:49 2005
-[BUILDTIME] 230 (5)
-[SIZE] 55.15 MB, 4038 files
+[TIMESTAMP] 1126532534 Mon Sep 12 09:42:14 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 91414 (9)
+[SIZE] 44.91 MB, 3210 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
+[DEP] bison
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -18,9 +19,7 @@
 [DEP] glibc
 [DEP] gnome-libs14
 [DEP] grep
-[DEP] imake
 [DEP] kdelibs
-[DEP] libice
 [DEP] libjpeg
 [DEP] libmikmod
 [DEP] libogg
@@ -29,22 +28,17 @@
 [DEP] libsdl_image
 [DEP] libsdl_mixer
 [DEP] libsdl_net
+[DEP] libsdl_ttf
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
 [DEP] linux-header
 [DEP] make
-[DEP] man
 [DEP] mktemp
+[DEP] nas
 [DEP] net-tools
 [DEP] sed
-[DEP] shadow
 [DEP] smpeg
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

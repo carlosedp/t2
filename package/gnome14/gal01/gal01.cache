@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134186622 Sat Dec 10 04:50:22 2005
-[BUILDTIME] 90 (9)
-[SIZE] 4.11 MB, 247 files
+[TIMESTAMP] 1126467598 Sun Sep 11 15:39:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 14456 (9)
+[SIZE] 4.22 MB, 247 files
 
 [DEP] alsa-lib
 [DEP] audiofile
@@ -10,6 +11,7 @@
 [DEP] bdb33
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
@@ -28,15 +30,7 @@
 [DEP] gtk+12
 [DEP] imlib
 [DEP] libglade10
-[DEP] libice
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] libxml1
-[DEP] libxpm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -49,5 +43,5 @@
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

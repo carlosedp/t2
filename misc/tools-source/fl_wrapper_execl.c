@@ -257,12 +257,7 @@ execvp (file, argv)
 	  char *startp;
 
 	  path = p;
-#ifndef __dietlibc__
 	  p = strchrnul (path, ':');
-#else
-          p = strchr(path, ':');
-          if (NULL == p) p = path + strlen(path) + 1;
-#endif
 
 	  if (p == path)
 	    /* Two adjacent colons, or a colon at the beginning or the end

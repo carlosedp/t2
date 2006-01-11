@@ -1,27 +1,22 @@
 
-[TIMESTAMP] 1134211609 Sat Dec 10 11:46:49 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.46 MB, 46 files
+[TIMESTAMP] 1126604642 Tue Sep 13 05:44:02 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4123 (9)
+[SIZE] 0.52 MB, 45 files
 
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] libdnet
-[DEP] libice
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
+[DEP] libusb
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -29,5 +24,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg

@@ -13,33 +13,19 @@
 # Foundation; either version 2 of the License, or (at your option) any later
 # version.
 # --- T2-COPYRIGHT-NOTE-END ---
---- psmisc-21.9/src/Makefile.in.orig	2005-12-22 23:00:00.000000000 +0100
-+++ psmisc-21.9/src/Makefile.in	2005-12-23 08:30:15.000000000 +0100
-@@ -54,13 +54,13 @@
- PROGRAMS = $(bin_PROGRAMS)
- am_fuser_OBJECTS = fuser.$(OBJEXT) signals.$(OBJEXT)
- fuser_OBJECTS = $(am_fuser_OBJECTS)
--fuser_LDADD = $(LDADD)
-+fuser_LDADD = $(LDADD) @LTLIBINTL@
- am_killall_OBJECTS = killall.$(OBJEXT) signals.$(OBJEXT)
- killall_OBJECTS = $(am_killall_OBJECTS)
- killall_DEPENDENCIES =
- am_oldfuser_OBJECTS = oldfuser.$(OBJEXT) signals.$(OBJEXT)
- oldfuser_OBJECTS = $(am_oldfuser_OBJECTS)
--oldfuser_LDADD = $(LDADD)
-+oldfuser_LDADD = $(LDADD) @LTLIBINTL@
- am_pstree_OBJECTS = pstree.$(OBJEXT)
- pstree_OBJECTS = $(am_pstree_OBJECTS)
- pstree_DEPENDENCIES =
-@@ -179,9 +179,9 @@
- oldfuser_SOURCES = oldfuser.c comm.h signals.c signals.h loop.h i18n.h
- fuser_SOURCES = fuser.c comm.h signals.c signals.h i18n.h fuser.h
- killall_SOURCES = killall.c comm.h signals.c signals.h i18n.h
--killall_LDADD = @SELINUX_LIB@
-+killall_LDADD = @SELINUX_LIB@ @LTLIBINTL@
- pstree_SOURCES = pstree.c comm.h i18n.h
--pstree_LDADD = @TERMCAP_LIB@ @SELINUX_LIB@
-+pstree_LDADD = @TERMCAP_LIB@ @SELINUX_LIB@ @LTLIBINTL@
+--- ./src/Makefile.in.orig	2005-01-19 23:36:21.000000000 -0300
++++ ./src/Makefile.in	2005-01-19 23:44:29.000000000 -0300
+@@ -192,10 +192,11 @@
+ AM_CFLAGS = -Wall -DLOCALEDIR=\"/usr/share/locale\"
+ bin_SCRIPTS = pstree.x11
+ fuser_SOURCES = fuser.c comm.h signals.c signals.h loop.h
++fuser_LDADD = @LTLIBINTL@
+ killall_SOURCES = killall.c comm.h signals.c signals.h 
+-killall_LDADD = @FLASK_LIB@
++killall_LDADD = @FLASK_LIB@ @LTLIBINTL@
+ pstree_SOURCES = pstree.c comm.h
+-pstree_LDADD = @TERMCAP_LIB@ @FLASK_LIB@
++pstree_LDADD = @TERMCAP_LIB@ @FLASK_LIB@ @LTLIBINTL@
  BUILT_SOURCES = signames.h
  EXTRA_DIST = signames.c 
- CLEANFILES = signames.h
+ CLEANFILES = signames.h pstree.x11

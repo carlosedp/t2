@@ -1,12 +1,14 @@
 
-[TIMESTAMP] 1134020545 Thu Dec  8 06:42:25 2005
-[BUILDTIME] 120 (9)
-[SIZE] 1.24 MB, 71 files
+[TIMESTAMP] 1126370694 Sat Sep 10 12:44:54 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 21308 (9)
+[SIZE] 1.14 MB, 63 files
 
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] courier-authlib
 [DEP] diffutils
@@ -21,7 +23,6 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] pcre
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles

@@ -1,15 +1,18 @@
 
-[TIMESTAMP] 1134039996 Thu Dec  8 12:06:36 2005
-[BUILDTIME] 15 (9) ERROR
-[SIZE] 0.21 MB, 34 files
+[TIMESTAMP] 1126389824 Sat Sep 10 18:03:44 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4298 (9)
+[SIZE] 0.25 MB, 36 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
-[DEP] blackdown-jdk
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
@@ -23,6 +26,7 @@
 [DEP] pkgconfig
 [DEP] popt
 [DEP] sed
+[DEP] sun-jdk-150
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

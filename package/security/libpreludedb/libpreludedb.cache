@@ -1,20 +1,21 @@
 
-[TIMESTAMP] 1134278568 Sun Dec 11 06:22:48 2005
-[BUILDTIME] 25 (9)
-[SIZE] 0.78 MB, 77 files
+[TIMESTAMP] 1121715705 Mon Jul 18 15:41:45 2005
+[CONFIG-ID] 2.1.0-rc2-x86-pentium4-generic
+[BUILDTIME] 4582 (5)
+[SIZE] 0.75 MB, 73 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] file
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] gnutls
 [DEP] grep
 [DEP] libgcrypt
@@ -29,7 +30,6 @@
 [DEP] numpy
 [DEP] openssl
 [DEP] perl
-[DEP] pil
 [DEP] postgresql
 [DEP] python
 [DEP] sed

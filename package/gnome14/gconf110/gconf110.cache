@@ -1,9 +1,10 @@
 
-[TIMESTAMP] 1134030302 Thu Dec  8 09:25:02 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.93 MB, 92 files
+[TIMESTAMP] 1129750555 Wed Oct 19 16:35:55 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 6052 (9)
+[SIZE] 1.98 MB, 92 files
 
-[DEP] at-spi
+[DEP] atk
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -11,13 +12,12 @@
 [DEP] bdb33
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] epiphany
 [DEP] evolution-data-server
 [DEP] findutils
-[DEP] gail
-[DEP] gawk
 [DEP] gcc
 [DEP] gconf
 [DEP] gettext
@@ -25,37 +25,31 @@
 [DEP] glib
 [DEP] glib12
 [DEP] glibc
-[DEP] gmime
 [DEP] gnet
 [DEP] gnome-libs14
 [DEP] gnome-panel
+[DEP] gnome-vfs
 [DEP] grep
 [DEP] gstreamer
 [DEP] gtk+
 [DEP] gtk+12
 [DEP] gtkdoc
-[DEP] gtkglext
 [DEP] gtksourceview
 [DEP] guile
 [DEP] indent
-[DEP] libbonobo
 [DEP] libbonoboui
 [DEP] libgda
 [DEP] libglade
 [DEP] libgnome
-[DEP] libgnomecanvas
 [DEP] libgnomeprint
+[DEP] libgnomeprintui
 [DEP] libgnomeui
 [DEP] libgsf
+[DEP] libmrproject
 [DEP] librsvg
-[DEP] libsoup
 [DEP] libwnck
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] libxml1
+[DEP] linc
 [DEP] linphone
 [DEP] linux-header
 [DEP] make
@@ -64,14 +58,13 @@
 [DEP] oaf10
 [DEP] orbit10
 [DEP] pango
-[DEP] patch
 [DEP] perl
 [DEP] pkgconfig
 [DEP] popt
-[DEP] rhythmbox
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
+[DEP] xorg
 [DEP] zlib

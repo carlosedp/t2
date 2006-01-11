@@ -14,8 +14,10 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-# Remember the type of package (jre or jdk)
-java_pkg_type=$1
+# Prevent normal package extraction. However since auto package
+# extraction is turned off, so are the pre and post patch hooks.
+# Instead we abuse the preconf hook to do the necessary patching.
+autoextract=0
 
 # Prevent executing normal make and install build steps.
 # This package has custom make and install.
@@ -24,36 +26,35 @@ makeinstopt=''
 
 # Make prefix same a java_home. This way artifacts like the bin, lib
 # and doc directory are created at the proper level.
-. $base/package/*/*/java-jdk-conf.in $java_pkg_type
+. $base/package/*/*/java-jdk-conf.in $1
+
+java_home_original=IBMJava2-142
 
 # The archive to be installed/patched depends on the 
 # current architecture.
+java_srctar=
 case $arch in
-	x86)		srctar="`match_source_file 386.tgz`";
-			if [ -z "$srctar" ]; then
-				srctar="`match_source_file 142.tgz`";
-			fi ;;
-	x86-64)		srctar="`match_source_file x86_64`" ;;
-	powerpc64)	srctar="`match_source_file ppc64`" ;;
-	powerpc)	srctar="`match_source_file ppc`" ;;
+	x86)		java_srctar="`match_source_file -p 142.tgz`" ;;
+	x86-64)		java_srctar="`match_source_file -p x86_64`" ;;
+	powerpc64)	java_srctar="`match_source_file -p ppc64`" ;;
+	powerpc)	java_srctar="`match_source_file -p ppc`" ;;
 esac
 
 # Make sure there is a file to be patched. If not we 
 # apparently do not support the current architecture.
-[ "$srctar" ] || abort "No binary for this architecture ($arch) detected!"
+[ "$java_srctar" ] || abort "No binary for this architecture ($arch) detected!"
 
 
 # Custom installation.
 java_postmake() {
-	if [ $java_pkg_type == jre ]; then
-		# Move the contents of the jre directory up one dir.
-		mv jre/{.,}[a-zA-Z0-9]* .
-		rm -rf jre 
-	fi
+	# Extract the proper archive. However since we want to
+	# Control the final installation directory (not the one
+	# in the archive) we first extract is locally.
+	tar -xjf $java_srctar
 
 	# Copy the extracted archive to the current prefix location.
 	# But make sure to preserve any possible links.
-	tar -c {.,}[a-zA-Z0-9]* | tar -x -C /$prefix 
+	( cd $builddir/$java_home_original; tar -c * | tar -x -C /$prefix )
 }
 
 hook_add postmake 5 java_postmake

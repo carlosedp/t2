@@ -1,20 +1,20 @@
 
-[TIMESTAMP] 1134156090 Fri Dec  9 20:21:30 2005
-[BUILDTIME] 55 (9)
-[SIZE] 2.84 MB, 162 files
+[TIMESTAMP] 1126450552 Sun Sep 11 10:55:52 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 11238 (9)
+[SIZE] 3.08 MB, 154 files
 
 [DEP] aalib
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] curl
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -23,24 +23,8 @@
 [DEP] gnome-libs14
 [DEP] gpm
 [DEP] grep
-[DEP] imake
-[DEP] inputproto
-[DEP] kbproto
-[DEP] libice
 [DEP] libidn
 [DEP] libpng
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxft
-[DEP] libxinerama
-[DEP] libxrender
-[DEP] libxt
-[DEP] libxtst
-[DEP] libxv
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] lirc
 [DEP] make
@@ -50,17 +34,11 @@
 [DEP] openssl
 [DEP] pkgconfig
 [DEP] readline
-[DEP] renderproto
 [DEP] sed
 [DEP] slang
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] videoproto
-[DEP] xextproto
-[DEP] xf86vidmodeproto
 [DEP] xine-lib
-[DEP] xineramaproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

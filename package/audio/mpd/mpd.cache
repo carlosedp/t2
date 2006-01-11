@@ -1,6 +1,7 @@
 
-[TIMESTAMP] 1134263114 Sun Dec 11 02:05:14 2005
-[BUILDTIME] 15 (9)
+[TIMESTAMP] 1126498853 Mon Sep 12 00:20:53 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4120 (9)
 [SIZE] 0.22 MB, 19 files
 
 [DEP] alsa-lib
@@ -8,12 +9,12 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] file
 [DEP] findutils
 [DEP] flac
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

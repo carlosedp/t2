@@ -1,13 +1,13 @@
 
-[TIMESTAMP] 1133847424 Tue Dec  6 06:37:04 2005
-[BUILDTIME] 25 (5)
-[SIZE] 0.42 MB, 32 files
+[TIMESTAMP] 1126577886 Mon Sep 12 22:18:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4610 (9)
+[SIZE] 0.38 MB, 32 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
-[DEP] blackdown-jdk
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -23,6 +23,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] sed
+[DEP] sun-jdk-150
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

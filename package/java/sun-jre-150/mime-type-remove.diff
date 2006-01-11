@@ -23,11 +23,6 @@ we can't add new lines to .bin file because it does tail to checksum and to
 generate tarball
 Alejandro
 
-Just a remark without modification: safe_mimetypeadd can not be used to add
-mimetypes safely. This is done in postsysfiles.in. Create both mimetype and
-mailcap entries.
-Minto
-
 --- jdk-1_5_0_03-linux-i586-orig.bin	2005-06-08 17:26:07.000000000 +0000
 +++ jdk-1_5_0_03-linux-i586.bin	2005-06-08 17:50:13.000000000 +0000
 @@ -356,7 +356,7 @@

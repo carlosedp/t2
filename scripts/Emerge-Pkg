@@ -73,7 +73,6 @@ while [ "$1" ] ; do
 		-download-only) downloadonly=1 ;;
 		-repository) repositories="$repositories $2"
 		             deps=none ; shift ;;
-		-prefix) options="$options -prefix $2" ; shift ;;
 		-system) system=1 ; deps=none ;;
 		-*) help_msg ; exit 1 ;;
 		*)  break ;;
@@ -82,12 +81,13 @@ while [ "$1" ] ; do
 done
 
 . ./scripts/parse-config
+. ./scripts/functions.in
 
 add_if_req()
 {
 	[ "$verbose" = 1 ] && echo -n "$1"
 
-	if [  $depth != 0  -a "$blacklist" != "${blacklist/ $package /}" ]; then
+	if [ "$blacklist" != "${blacklist/ $package /}" ]; then
                 [ $verbose = 1 ] && echo " Automatic update avoided."
 	else
 		[ $verbose = 1 ] && echo " Added."

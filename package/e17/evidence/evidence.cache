@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134028894 Thu Dec  8 09:01:34 2005
-[BUILDTIME] 135 (9)
-[SIZE] 9.05 MB, 718 files
+[TIMESTAMP] 1126377518 Sat Sep 10 14:38:38 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 29224 (9)
+[SIZE] 9.07 MB, 718 files
 
+[DEP] 00-dirtree
 [DEP] acl
 [DEP] atk
 [DEP] attr
@@ -12,7 +14,7 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] curl
 [DEP] diffutils
@@ -22,12 +24,12 @@
 [DEP] edje
 [DEP] eet
 [DEP] embryo
+[DEP] emotion
 [DEP] evas
 [DEP] expat
 [DEP] fam
 [DEP] file
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -40,28 +42,14 @@
 [DEP] gtk+
 [DEP] gzip
 [DEP] id3lib
-[DEP] imake
 [DEP] imlib2
-[DEP] inputproto
-[DEP] kbproto
 [DEP] kdelibs
 [DEP] libjpeg
 [DEP] libogg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
-[DEP] libxp
-[DEP] libxrandr
-[DEP] libxrender
-[DEP] libxt
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -75,7 +63,6 @@
 [DEP] perl
 [DEP] pkgconfig
 [DEP] readline
-[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] taglib
@@ -83,6 +70,5 @@
 [DEP] util-linux
 [DEP] valgrind
 [DEP] xine-lib
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,14 +1,18 @@
 
-[TIMESTAMP] 1134269774 Sun Dec 11 03:56:14 2005
-[BUILDTIME] 155 (9)
-[SIZE] 9.10 MB, 245 files
+[TIMESTAMP] 1126502050 Mon Sep 12 01:14:10 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 25425 (9)
+[SIZE] 7.94 MB, 197 files
 
 [DEP] bash
 [DEP] binutils
-[DEP] blackdown-jdk
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
+[DEP] curl
 [DEP] diffutils
+[DEP] dmalloc
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -17,7 +21,9 @@
 [DEP] make
 [DEP] ncurses
 [DEP] net-tools
-[DEP] qt
+[DEP] openssl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] xorg
+[DEP] zlib

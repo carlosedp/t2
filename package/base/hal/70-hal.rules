@@ -1,3 +1,0 @@
-
-ENV{UDEVD_EVENT}=="1",	RUN+="/usr/libexec/hal.hotplug"
-

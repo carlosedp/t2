@@ -19,7 +19,7 @@
 # configuration file config/$config/config
 #
 # [BEGIN] of version section
-sdever=2.2.0-alpha
+sdever=2.1.1
 # [END] of version section
 
 crossnative=native           ; stagelevel=${stagelevel:-1} ; arch=any
@@ -126,7 +126,7 @@ then
 
 	arch_build="$arch_target" ; archprefix=""
 else
-	arch_build="`uname -m | sed 's/ppc/powerpc/'`-nocross-linux-gnu"
+	arch_build="`uname -m`-nocross-linux-gnu"
 
 	if [ -f $base/build/$SDECFG_ID/TOOLCHAIN/$toolsdir/lib/parse-config-fixarch ]
 	then . $base/build/$SDECFG_ID/TOOLCHAIN/$toolsdir/lib/parse-config-fixarch ; fi
@@ -146,8 +146,4 @@ export AR="${archprefix}ar"	RANLIB="${archprefix}ranlib"
 export NM="${archprefix}nm"	KCC="${archprefix}kcc"
 export F77="${archprefix}f77"	MAKE="make"
 export AWK="gawk"		SED="sed"
-
-# silently ignore tail / head and co related errors due to obsolete argument
-# usage (fixes a lot of stuff)
-export _POSIX2_VERSION=199209
 

@@ -1,36 +1,26 @@
 
-[TIMESTAMP] 1133995280 Wed Dec  7 23:41:20 2005
-[BUILDTIME] 105 (9)
-[SIZE] 4.27 MB, 456 files
+[TIMESTAMP] 1117213502 Fri May 27 13:05:02 2005
+[CONFIG-ID] 2.1.0-rc1-x86-pentium4-generic
+[BUILDTIME] 22151 (5)
+[SIZE] 4.25 MB, 455 files
 
+[DEP] 00-dirtree
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] ctags
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
 [DEP] flex
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] imake
-[DEP] libice
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxft
-[DEP] libxp
-[DEP] libxrender
-[DEP] libxt
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -39,13 +29,8 @@
 [DEP] net-tools
 [DEP] patch
 [DEP] perl
-[DEP] printproto
-[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xextproto
-[DEP] xmkmf
-[DEP] xproto
-[DEP] zlib
+[DEP] xorg

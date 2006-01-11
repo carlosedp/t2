@@ -1,12 +1,13 @@
 
-[TIMESTAMP] 1134074343 Thu Dec  8 21:39:03 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.95 MB, 163 files
+[TIMESTAMP] 1126420284 Sun Sep 11 02:31:24 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4332 (9)
+[SIZE] 1.99 MB, 163 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] e2fsprogs
@@ -16,16 +17,9 @@
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
 [DEP] groff
-[DEP] imake
 [DEP] libdnet
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libice
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] linux-header
 [DEP] make
 [DEP] net-tools
@@ -36,5 +30,4 @@
 [DEP] slang
 [DEP] sysfiles
 [DEP] tar
-[DEP] xmkmf
-[DEP] zlib
+[DEP] xorg

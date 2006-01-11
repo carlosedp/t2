@@ -1,14 +1,15 @@
 
-[TIMESTAMP] 1134226981 Sat Dec 10 16:03:01 2005
-[BUILDTIME] 15 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1126487059 Sun Sep 11 21:04:19 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4666 (9)
+[SIZE] 1.49 MB, 229 files
 
 [DEP] aalib
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
@@ -18,15 +19,7 @@
 [DEP] glibc
 [DEP] gpm
 [DEP] grep
-[DEP] imake
-[DEP] libice
 [DEP] libpng
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxxf86dga
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -37,9 +30,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xextproto
-[DEP] xf86dgaproto
-[DEP] xf86vidmodeproto
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134177464 Sat Dec 10 02:17:44 2005
-[BUILDTIME] 3270 (9)
-[SIZE] 56.39 MB, 4359 files
+[TIMESTAMP] 1135359711 Fri Dec 23 14:41:51 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 252655 (9)
+[SIZE] 57.53 MB, 4359 files
 
 [DEP] alsa-lib
 [DEP] arts
@@ -9,14 +10,13 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
 [DEP] fam
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -26,44 +26,25 @@
 [DEP] gnome-libs14
 [DEP] grep
 [DEP] imagemagick
-[DEP] imake
-[DEP] inputproto
 [DEP] jack
 [DEP] kdebindings
 [DEP] kdelibs
 [DEP] lcms
 [DEP] libart_lgpl23
 [DEP] libdnet
-[DEP] libdrm
 [DEP] libgsf
-[DEP] libice
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad
 [DEP] libogg
 [DEP] libpng
-[DEP] libsm
 [DEP] libtiff
+[DEP] libtool
 [DEP] libvorbis
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxft
-[DEP] libxi
-[DEP] libxinerama
 [DEP] libxml
-[DEP] libxmu
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] libxslt
-[DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
 [DEP] mysql
 [DEP] nas
@@ -84,6 +65,5 @@
 [DEP] tk
 [DEP] util-linux
 [DEP] wv2
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

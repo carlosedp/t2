@@ -1,17 +1,25 @@
 
-[TIMESTAMP] 1134202937 Sat Dec 10 09:22:17 2005
-[BUILDTIME] 20 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1126475048 Sun Sep 11 17:44:08 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 29809 (9)
+[SIZE] 2.34 MB, 343 files
 
+[DEP] alsa-lib
+[DEP] audiofile
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
+[DEP] bdb33
 [DEP] binutils
+[DEP] bonobo10
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] esound
 [DEP] findutils
 [DEP] flex
+[DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gdk-pixbuf10
@@ -24,27 +32,21 @@
 [DEP] gtk+12
 [DEP] imlib
 [DEP] libglade10
-[DEP] libice
-[DEP] libsm
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] libxml1
-[DEP] libxpm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] oaf10
 [DEP] orbit10
 [DEP] patch
 [DEP] perl
+[DEP] popt
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -1,60 +1,41 @@
 
-[TIMESTAMP] 1134273984 Sun Dec 11 05:06:24 2005
-[BUILDTIME] 365 (9)
-[SIZE] 23.73 MB, 214 files
+[TIMESTAMP] 1126503543 Mon Sep 12 01:39:03 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 51726 (9)
+[SIZE] 17.73 MB, 139 files
 
 [DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
 [DEP] flex
-[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
 [DEP] gtk+
-[DEP] inputproto
-[DEP] kbproto
-[DEP] libelf
 [DEP] libpcap
-[DEP] libpng
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxi
-[DEP] libxinerama
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-snmp
 [DEP] net-tools
-[DEP] openssl
 [DEP] pango
-[DEP] patch
 [DEP] pcre
 [DEP] perl
 [DEP] pkgconfig
-[DEP] renderproto
 [DEP] rpm
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] tcp_wrappers
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

@@ -26,7 +26,6 @@
 [T] page).
 
 [U] http://www.dansguardian.org/
-[U] http://devel.squid-cache.org/follow_xff/
 [U] http://www.harvest.com.br/asp/afn/dg.nsf
 [A] Daniel Barron <daniel@jadeb.com>
 [M] Alejandro Mery <amery@t2-project.org>
@@ -35,9 +34,9 @@
 
 [L] GPL
 [S] Stable
-[V] 2.8.0.6
-[P] X -----5---9 150.500
+[V] 2.8.0.4
+[P] X -----5---9 123.900
 
-[D] 1265659442 dansguardian-2.8.0.6.source.tar.gz http://sun.dansguardian.org/downloads/2/Stable/
-[D] 4134748463 follow_xff-2.5.patch http://devel.squid-cache.org/follow_xff/
-[D] 0 dansguardian-2.8.0.6-antivirus-6.4.3.patch.bz2 http://dl.sourceforge.net/sourceforge/dgav/
+[D] 1823772380 dansguardian-2.8.0.4.source.tar.gz http://sun.dansguardian.org/downloads/2/Stable/
+[D] 1647486319 follow_xff-2.5-rediff-1.patch.bz2 http://www.sirkull.org/downloads/rock/patches/
+[D] 377403239 dansguardian-2.8.0.3-antivirus-6.3.8.patch.bz2 http://dl.sourceforge.net/sourceforge/dgav/

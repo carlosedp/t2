@@ -1,13 +1,16 @@
 
-[TIMESTAMP] 1134274449 Sun Dec 11 05:14:09 2005
-[BUILDTIME] 5 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1126505011 Mon Sep 12 02:03:31 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 7697 (9)
+[SIZE] 0.71 MB, 20 files
 
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc

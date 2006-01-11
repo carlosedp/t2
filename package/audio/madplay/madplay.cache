@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1133963575 Wed Dec  7 14:52:55 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.25 MB, 26 files
+[TIMESTAMP] 1126336203 Sat Sep 10 03:10:03 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4438 (9)
+[SIZE] 0.24 MB, 26 files
 
 [DEP] alsa-lib
 [DEP] audiofile
@@ -9,11 +10,11 @@
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc

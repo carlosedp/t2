@@ -1,20 +1,19 @@
 
-[TIMESTAMP] 1133739999 Mon Dec  5 00:46:39 2005
-[BUILDTIME] 15 (5)
-[SIZE] 0.90 MB, 56 files
+[TIMESTAMP] 1126526529 Mon Sep 12 08:02:09 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 4072 (9)
+[SIZE] 1.12 MB, 81 files
 
-[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libdrm
 [DEP] libjpeg
 [DEP] libpng
 [DEP] libsdl
@@ -23,17 +22,13 @@
 [DEP] libsdl_mixer
 [DEP] libsdl_net
 [DEP] libsdl_ttf
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
-[DEP] mesa
+[DEP] nas
 [DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] smpeg
 [DEP] sysfiles
 [DEP] tar
+[DEP] xorg

@@ -1,10 +1,11 @@
 
-[TIMESTAMP] 1134004136 Thu Dec  8 02:08:56 2005
-[BUILDTIME] 115 (9)
-[SIZE] 9.29 MB, 642 files
+[TIMESTAMP] 1129750356 Wed Oct 19 16:32:36 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 21322 (9)
+[SIZE] 9.34 MB, 621 files
 
 [DEP] alsa-lib
-[DEP] at-spi
+[DEP] atk
 [DEP] audiofile
 [DEP] autoconf
 [DEP] automake
@@ -13,14 +14,13 @@
 [DEP] bdb33
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] epiphany
 [DEP] esound
 [DEP] evolution-data-server
 [DEP] findutils
-[DEP] gail
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
@@ -29,44 +29,33 @@
 [DEP] glib
 [DEP] glib12
 [DEP] glibc
-[DEP] gmime
 [DEP] gnet
 [DEP] gnome-panel
+[DEP] gnome-vfs
 [DEP] grep
 [DEP] gstreamer
 [DEP] gtk+
 [DEP] gtk+12
 [DEP] gtkdoc
-[DEP] gtkglext
 [DEP] gtksourceview
-[DEP] imake
 [DEP] imlib
-[DEP] libbonobo
 [DEP] libbonoboui
 [DEP] libdnet
 [DEP] libgda
 [DEP] libglade
 [DEP] libgnome
-[DEP] libgnomecanvas
 [DEP] libgnomeprint
+[DEP] libgnomeprintui
 [DEP] libgnomeui
 [DEP] libgsf
-[DEP] libice
 [DEP] libjpeg
+[DEP] libmrproject
 [DEP] libpng
 [DEP] librsvg
-[DEP] libsm
-[DEP] libsoup
 [DEP] libtiff
 [DEP] libungif
 [DEP] libwnck
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
-[DEP] libxpm
-[DEP] libxt
+[DEP] linc
 [DEP] linphone
 [DEP] linux-header
 [DEP] make
@@ -77,11 +66,9 @@
 [DEP] patch
 [DEP] perl
 [DEP] pkgconfig
-[DEP] rhythmbox
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

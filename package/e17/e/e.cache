@@ -1,15 +1,16 @@
 
-[TIMESTAMP] 1133781638 Mon Dec  5 12:20:38 2005
-[BUILDTIME] 50 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1127330942 Wed Sep 21 15:29:02 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 12069 (9)
+[SIZE] 10.17 MB, 173 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
+[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
@@ -19,29 +20,18 @@
 [DEP] eet
 [DEP] embryo
 [DEP] evas
+[DEP] expat
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
-[DEP] gettext
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
-[DEP] imake
-[DEP] imlib2
-[DEP] libice
 [DEP] libjpeg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxinerama
-[DEP] libxp
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -49,12 +39,9 @@
 [DEP] net-tools
 [DEP] openssl
 [DEP] perl
-[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] valgrind
-[DEP] xmkmf
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

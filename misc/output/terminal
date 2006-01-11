@@ -106,8 +106,6 @@ echo_pkg_abort_terminal() {
 # E.g. echo_errorquote "`tail $root/var/adm/logs/$stagelevel-$pkg.out`"
 #
 echo_errorquote_terminal() {
-	echo "$@" | grep -vx -- -- | grep . |
-	sed -e 's/^\(.\{'$(( columns - 6 ))'\}\).\{3,\}/\1 ../' \
-	    -e 's,^,'"${term_color_error}!>${term_color_normal} "','
+	echo "$*" | grep . | sed 's,^,'"${term_color_error}!>${term_color_normal} "',; s/^\(.\{70\}\).\{3,\}/\1 ../'
 }
 

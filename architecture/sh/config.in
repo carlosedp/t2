@@ -11,7 +11,6 @@
 # the Free Software Foundation; version 2 of the License. A copy of the
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
-#Description: SuperH
 
 choice SDECFG_SH_OPT sh	\
 	sh		"No special optimisation (SH1)"	\
@@ -34,8 +33,4 @@ choice SDECFG_SH_BOARDDEF dreamcast \
 	systemh		"Renesas SystemH 7751R evaluation board"
 
 SDECFG_ID="$SDECFG_ID-$SDECFG_SH_OPT"
-
-SDECFGSET_MULTILIB=1
-const SDECFG_MULTILIBLIST "m4,m4-nofpu"
-SDECFGSET_MULTILIBLIST="m4,m4-nofpu"
 

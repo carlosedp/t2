@@ -1,13 +1,17 @@
 
-[TIMESTAMP] 1134015732 Thu Dec  8 05:22:12 2005
-[BUILDTIME] 30 (9)
-[SIZE] 0.32 MB, 67 files
+[TIMESTAMP] 1126368650 Sat Sep 10 12:10:50 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 7190 (9)
+[SIZE] 0.33 MB, 67 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] cairo
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
 [DEP] directfb
@@ -16,29 +20,21 @@
 [DEP] edje
 [DEP] eet
 [DEP] embryo
-[DEP] epeg
 [DEP] epsilon
 [DEP] evas
+[DEP] expat
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
 [DEP] imlib2
 [DEP] libjpeg
+[DEP] libpixman
 [DEP] libpng
 [DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxcursor
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxfixes
-[DEP] libxinerama
-[DEP] libxp
-[DEP] libxrandr
-[DEP] libxrender
 [DEP] linux-header
 [DEP] m4
 [DEP] make
@@ -50,5 +46,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] xproto
+[DEP] xorg
 [DEP] zlib

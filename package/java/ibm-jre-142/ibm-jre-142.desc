@@ -27,10 +27,11 @@
 [M] Minto van der Sluis <Minto@MultiMach.com>
 
 [C] extra/emulator
+[R] + x86 
 
 [L] Restricted
 [S] Stable
-[V] 1.4.2-3
+[V] 1.4.2-1a
 [P] O -----5---9 150.000
 
 [O] . $base/package/*/*/java-ibm-conf.in jre

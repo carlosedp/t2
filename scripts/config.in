@@ -62,9 +62,8 @@
 
 CFGTEMP_ARCHLIST=""
 CFGTEMP_TARGETLIST=""
-CFGTEMP_IMAGELIST=""
 
-. $cfgtmpdir/architecture-preconfig.in
+%include architecture/*/preconfig.in
 
 comment_id '- Architecture, CPU and Optimization' COMMENT_ARCHCPUOPT
 block_begin 7
@@ -80,9 +79,9 @@ block_begin 7
 	fi
 block_end
 
-. $cfgtmpdir/misc-preconfig.in
-. $cfgtmpdir/target-preconfig.in
-. $cfgtmpdir/package-preconfig.in
+%include misc/*/preconfig.in
+%include target/*/preconfig.in
+%include package/*/*/preconfig.in
 
 comment ' '
 comment_id '- Target Distribution' COMMENT_TARGET
@@ -134,8 +133,6 @@ block_begin 7
 		fi
 	done
 
-	choice SDECFG_IMAGE install $CFGTEMP_IMAGELIST
-
 block_end
 
 if test -f config/$config/license-issue.ask; then
@@ -165,6 +162,12 @@ fi
 comment ' '
 comment_id '- Build System Configuration' COMMENT_BUILD_SYS_CONF
 block_begin 3
+	#bool 'Make a parallel (cluster) build' SDECFG_PARALLEL 0
+	if [ "$SDECFG_PARALLEL" = 1 ] ; then
+	    block_begin 10
+		text 'Command for adding jobs' SDECFG_PARALLEL_ADDJOB ''
+	    block_end
+	else
 		choice SDECFG_ABORT_ON_ERROR_AFTER 4 \
 			0	'Continue if package-build fails after toolchain (native)'	\
 			1	'Continue if package-build fails after toolchain (cross)'	\
@@ -176,6 +179,7 @@ block_begin 3
 			7	'Continue if package-build fails after stage 7'	\
 			8	'Continue if package-build fails on rebuild stage' \
 			9	'Always abort if package-build fails'
+	fi
 
 	bool 'Retry building broken packages' SDECFG_RETRY_BROKEN 0
 	bool 'Do not try building packages if deps failed' \
@@ -209,7 +213,7 @@ if [ "$SDECFG_PKGSEL" = 1 -a -f config/$config/pkgsel ] ; then
 			grep "$filter" config/$config/pkgsel \
 				> $cfgtmpdir/pkgsel.new
 			mv $cfgtmpdir/pkgsel.new config/$config/pkgsel
-		elif ./src/confdialog.bin --title "Build Config" --yesno \
+		elif ./src/rockdialog.bin --title "Build Config" --yesno \
 			"Invalid line(s) in package rule set. Remove?" 5 50
 		then
 			grep "$filter" config/$config/pkgsel \
@@ -239,7 +243,7 @@ fi
 
 comment ' '
 cpus=`grep '^processor[[:blank:]]:' /proc/cpuinfo  | wc -l`
-cpus=${cpus:-1}
+cpus=${cpus:-1} ; cpus=$(( cpus * 2 ))
 SDECFG_PARALLEL_MAX="`echo $SDECFG_PARALLEL_MAX | sed 's,[^0-9],,g'`"
 text 'Maximum number of jobs to be executed in parallel' \
      SDECFG_PARALLEL_MAX $cpus
@@ -261,12 +265,8 @@ expert_begin
     comment ' '
     comment '- Binary package format'
     block_begin 3
-	choice SDECFG_PKGFILE_TYPE tar.bz2 \
-		tar.bz2	'Create tar.bz2 binary packages' \
-		tar.gz	'Create tar.gz binary packages' \
-		tar.lzo	'Create tar.lzo binary packages' \
-		gem	'Create gem binary packages' \
-		none	'Create no binary packages'
+	bool 'Create *.tar.bz2 binary packages' SDECFG_CREATE_TARBZ2 0
+	bool 'Create *.gem binary packages' SDECFG_CREATE_GEM 1
 	bool 'Append version number to package files' SDECFG_PKGFILE_VER 1
     block_end
 
@@ -289,7 +289,7 @@ expert_begin
 	rm -f config/$config/pkgsel $cfgtmpdir/pkgsel.awk
       fi
       startprog SDECFG_SHOW_PKGLIST 'Show the current package list' \
-              "./src/confdialog.bin --title 'T2 Config - Package List' \
+              "./src/rockdialog.bin --title 'T2 Config - Package List' \
                         --backtitle 'T2 $sdever Configuration' \
                         --textbox $cfgtmpdir/packages.txt \
                         $(( $lines - 4 )) $(( $columns - 5 ))"
@@ -362,7 +362,6 @@ break packages!'
 	bool 'Create statically linked binaries' SDECFG_STATIC 0
 
 	bool 'Enable ld --as-needed' SDECFG_LD_AS_NEEDED 0
-	bool 'Enable PIE (Position Independent Code)' SDECFG_PIE 0
 
 	bool 'Disable exceptions and rtti in C++' SDECFG_LIMITCXX 0
 	bool 'Enable c-compiler multilib support' SDECFG_MULTILIB 0
@@ -384,10 +383,10 @@ break packages!'
     block_end
 expert_end
 
-. $cfgtmpdir/package-postconfig.in
-. $cfgtmpdir/misc-postconfig.in
-. $cfgtmpdir/architecture-postconfig.in
-. $cfgtmpdir/target-postconfig.in
+%include package/*/*/postconfig.in
+%include misc/*/postconfig.in
+%include architecture/*/postconfig.in
+%include target/*/postconfig.in
 
 pkgfilter sed '/^[XO] --* / d;'
 

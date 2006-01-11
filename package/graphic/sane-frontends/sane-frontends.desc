@@ -14,27 +14,26 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] The Scanner Access Now Easy example frontends
+[I] Scanner Access Now Easy - The frontends
 
-[T] SANE (Scanner Access Now Easy) defomes am API to access various kinds of
-[T] image  aquisition devices such as flatbed, auto document and film
-[T] scanners from applications. It is a TWAIN-like couterpart for the Unix
-[T] world. This are example frontends which can also be uses as a GIMP plugin.
-[T] A more advanced frontend named xsane is seperately packaged.
+[T] SANE (Scanner Access Now Easy) implements access to various SCSI, 
+[T] PARPOT and USB scanner. This package includes a console and gtk+
+[T] frontend which can be uses as a GIMP plugin.
 
-[U] http://www.sane-project.org
+[U] http://www.mostang.com/sane/
 
 [A] Andreas Beck <becka@sunserver1.rz.uni-duesseldorf.de>
 [A] David Mosberger <david.mosberger@acm.org>
 [A] more than 60 other backend maintainers
 [M] Rene Rebe <rene@t2-project.org>
+[M] The T2 Project <t2@t2-project.org>
 
 [C] extra/office
 
 [L] GPL
 [S] Stable
-[V] 1.0.14
+[V] 1.0.13
 [P] X -----5---9 211.200
 
-[D] 59005056 sane-frontends-1.0.14.tar.gz ftp://ftp.sane-project.org/pub/sane/sane-frontends-1.0.14/
+[D] 2446877634 sane-frontends-1.0.13.tar.gz ftp://ftp.mostang.com/pub/sane/sane-frontends-1.0.13/
 

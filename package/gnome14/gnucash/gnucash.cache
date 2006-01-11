@@ -1,7 +1,8 @@
 
-[TIMESTAMP] 1134308254 Sun Dec 11 14:37:34 2005
-[BUILDTIME] 15 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1126520710 Mon Sep 12 06:25:10 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 62073 (9)
+[SIZE] 14.46 MB, 843 files
 
 [DEP] alsa-lib
 [DEP] aqbanking
@@ -13,15 +14,20 @@
 [DEP] bdb33
 [DEP] binutils
 [DEP] bison
+[DEP] bonobo10
 [DEP] bzip2
+[DEP] ccache
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] esound
 [DEP] findutils
 [DEP] freetype
 [DEP] g-wrap
 [DEP] gal01
+[DEP] gawk
 [DEP] gcc
+[DEP] gconf110
 [DEP] gdk-pixbuf10
 [DEP] gettext
 [DEP] glib12
@@ -30,23 +36,22 @@
 [DEP] gnome-print10
 [DEP] grep
 [DEP] gtk+12
+[DEP] gtkhtml10
 [DEP] guile
+[DEP] guppi
+[DEP] gwenhywfar
 [DEP] imlib
+[DEP] libghttp10
 [DEP] libglade10
-[DEP] libice
-[DEP] libsm
 [DEP] libtool
-[DEP] libx11
-[DEP] libxau
-[DEP] libxdmcp
-[DEP] libxext
-[DEP] libxi
 [DEP] libxml1
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] oaf10
+[DEP] openssl
 [DEP] orbit10
 [DEP] perl
 [DEP] pkgconfig
@@ -56,4 +61,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
+[DEP] xorg
 [DEP] zlib
