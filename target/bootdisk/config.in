@@ -54,6 +54,9 @@ pkgfilter sed '
 / mac-fdisk /	{ p; d; };	/ pdisk /       { p; d; };
 / linux24benh/  { p; d; };	/ syslinux /	{ p; d; };
 
+# enable some packages which are disabled by default
+/ lvm2 /         { s/^O /X /; p; d; };	/ device-mapper /	{ s/^O /X /; p; d; };
+
 # Disable packages which are not in base or not build in stages 0-4
 / base / !  { s/^X /O /; p; d; };		/^. -----/ { s/^X /O /; p; d; };
 
