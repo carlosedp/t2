@@ -21,7 +21,7 @@ cd $disksdir/2nd_stage
 mkdir -p mnt/source mnt/target
 #
 package_map='       +00-dirtree
-+glibc	            -gcc                -linux-header
++glibc	            -gcc                -linux-header       -glibc32
 +linux24            +linux26            +linux24benh
 -binutils           -bin86              -nasm               -dietlibc
 +lilo               +yaboot             +aboot              +grub
