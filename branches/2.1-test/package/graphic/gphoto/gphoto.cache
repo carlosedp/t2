@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1127162617 Mon Sep 19 16:43:37 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3515 (9)
+[SIZE] 0.62 MB, 41 files
+
+[DEP] aalib
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] gpm
+[DEP] grep
+[DEP] libexif
+[DEP] libgphoto
+[DEP] libjpeg
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] popt
+[DEP] readline
+[DEP] sed
+[DEP] slang
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] util-linux
+[DEP] xorg

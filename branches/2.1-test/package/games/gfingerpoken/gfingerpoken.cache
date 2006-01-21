@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1126510993 Mon Sep 12 03:43:13 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 1875 (9)
+[SIZE] 0.39 MB, 14 files
+
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+12
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] xorg

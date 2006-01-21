@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1126520779 Mon Sep 12 06:26:19 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3299 (9)
+[SIZE] 1.22 MB, 134 files
+
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] libart_lgpl23
+[DEP] libglade
+[DEP] libgnomecanvas
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] scrollkeeper
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

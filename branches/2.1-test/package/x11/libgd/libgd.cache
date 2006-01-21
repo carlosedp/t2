@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1126340892 Sat Sep 10 04:28:12 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 5739 (9)
+[SIZE] 0.65 MB, 39 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorg
+[DEP] zlib

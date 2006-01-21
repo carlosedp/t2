@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1126450678 Sun Sep 11 10:57:58 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 3651 (9)
+[SIZE] 31.90 MB, 12340 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] m4
+[DEP] patch
+[DEP] perl
+[DEP] rpm
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xscreensaver

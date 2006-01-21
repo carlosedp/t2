@@ -1,0 +1,55 @@
+
+[TIMESTAMP] 1133388306 Wed Nov 30 19:05:06 2005
+[CONFIG-ID] 2.1-stable-x86-pentium4-generic
+[BUILDTIME] 60182 (9)
+[SIZE] 53.44 MB, 807 files
+
+[DEP] alsa-lib
+[DEP] arts
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] ccache
+[DEP] coreutils
+[DEP] cups
+[DEP] diffutils
+[DEP] esound
+[DEP] findutils
+[DEP] flex
+[DEP] freeglut
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] isdn4k-utils
+[DEP] jack
+[DEP] lcms
+[DEP] libexif
+[DEP] libgphoto
+[DEP] libjpeg
+[DEP] libungif
+[DEP] libusb
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] prelink
+[DEP] sane-backends
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] valgrind
+[DEP] xorg
+[DEP] zlib
