@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1138341397 Fri Jan 27 02:56:37 2006
+[CONFIG-ID] 2.1-test-x86-pentium4-azazel
+[BUILDTIME] 853295 (5)
+[SIZE] 70.97 MB, 1224 files
+
+[DEP] 00-dirtree
+[DEP] apache-ant
+[DEP] bash
+[DEP] ccache
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] jikes
+[DEP] kaffe
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] unzip
