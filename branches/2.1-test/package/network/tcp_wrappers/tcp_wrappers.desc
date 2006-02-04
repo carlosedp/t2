@@ -28,6 +28,8 @@
 
 [C] base/system
 
+[F] FPIC-QUIRK
+
 [L] OpenSource
 [S] Stable
 [V] 7.6
