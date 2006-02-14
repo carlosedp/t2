@@ -185,7 +185,12 @@ This dialog allows you to modify your discs parition layout and to create filesy
 		  for x in $( cd /dev/discs
 		            ls -l * | grep ' -> ' | cut -f2- -d/ | sort )
 		  do
-			disk_add $x
+			disktype /dev/$x/disc > /tmp/stone-install
+			size="`sed -n -e 's/^Block device, size \(.*\)/\1/p' /tmp/stone-install | sed -e 's/ (.*)//'`"
+
+			if [ "$size" != '0 bytes' ]; then
+				disk_add $x
+			fi
 		  done
 		  for x in $( cat /etc/lvmtab 2> /dev/null ); do
 			vg_add "$x"
