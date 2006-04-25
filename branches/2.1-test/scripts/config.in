@@ -29,6 +29,8 @@
 #
 #	* Selecting Target
 #	* target/$SDECFG_TARGET/config.in
+#	- target/$SDECFG_TARGET/inconfig.in
+#
 #	- target/$SDECFG_TARGET/pkgsel{,.sed,.awk,.in}
 #
 #	* {package/*,misc}/*/config-n.in (n<500)
@@ -101,6 +103,11 @@ block_begin 7
 	for target in $targetchain; do
 		if [ -f target/$target/config.in ]
 		then . target/$target/config.in ; fi
+	done
+
+	for target in $( get_reverted $targetchain ); do
+		if [ -f target/$target/inconfig.in ]
+		then . target/$target/inconfig.in ; fi
 	done
 
 	# pkgsel in backward order
