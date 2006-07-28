@@ -139,11 +139,10 @@ d; b loop
 fi
 
 # exim, incoming
-if [ "$update_mail_incoming" ]; then
+if [ "$update_incoming_mail" ]; then
 	echo "incoming mail server enabled"
 	if [ $doit = 1 ]; then
-		sed -i -e 's/^\([^# ]*local_interfaces \)/# \1/' \
-		       -e "s|^\(hostlist .*relay_from_hosts = 127.0.0.1\).*|\1 : $update_mail_relay|" \
+		sed -i 's/^\([^# ]*local_interfaces \)/# \1/' \
 		    etc/exim/configure
 	fi
 fi

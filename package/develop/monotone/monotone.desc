@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A distributed version control system
+[I] A distributed version control system.
 
 [T] monotone is a distributed version control system with a flat
 [T] peer model, cryptographic version naming, meta-data certificates,
@@ -29,7 +29,7 @@
 
 [L] GPL
 [S] Beta
-[V] 0.27
+[V] 0.26
 [P] X -----5---9 209.700
 
-[D] 1798589400 monotone-0.27.tar.gz http://www.venge.net/monotone/downloads/
+[D] 3418048415 monotone-0.26.tar.gz http://www.venge.net/monotone/downloads/

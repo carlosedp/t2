@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A Zeroconf mDNS/DNS-SD responder
+[I] A Zeroconf mDNS/DNS-SD responder.
 
 [T] Avahi is a framework for Multicast DNS Service Discovery
 [T] (mDNS/DNS-SD a.k.a. Zeroconf) on Linux. It allows programs
@@ -30,9 +30,9 @@
 
 [L] GPL
 [S] Beta
-[V] 0.6.11
+[V] 0.6.10
 [P] X -----5---9 209.000
 
-[D] 3243094264 avahi-0.6.11.tar.gz http://avahi.org/download/
+[D] 464514989 avahi-0.6.10.tar.gz http://avahi.org/download/
 
 [O] var_append confopt ' ' "--with-distro=none"

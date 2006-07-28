@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1152982332 Sat Jul 15 16:52:12 2006
-[BUILDTIME] 10 (5)
-[SIZE] 0.03 MB, 10 files
+[TIMESTAMP] 1137515964 Tue Jan 17 17:39:24 2006
+[BUILDTIME] 100 (9)
+[SIZE] 0.18 MB, 47 files
 
-[DEP] autoconf
-[DEP] automake
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -16,12 +15,10 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libtool
-[DEP] m4
+[DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

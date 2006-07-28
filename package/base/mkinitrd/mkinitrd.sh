@@ -31,7 +31,7 @@ while [ "$1" ]; do
   shift
 done
 
-[ "$root" ] || root=""
+[ "$root" ] || root="/"
 [ "$kernelver" ] || kernelver=`uname -r`
 [ "$moddir" ] || moddir="${root}/lib/modules/$kernelver"
 
@@ -54,7 +54,7 @@ echo "System.map: $sysmap"
 
 # check needed tools
 for x in cpio gzip ; do
-	if ! which $x >/dev/null ; then
+	if ! which -p $x >/dev/null ; then
 		echo "$x not found!"
 		exit 2
 	fi
@@ -79,8 +79,7 @@ echo "Copying kernel modules ..."
   find $moddir/kernel -type f | grep \
 	-e reiserfs -e reiser4 -e ext2 -e ext3 -e /jfs -e /xfs \
 	-e isofs -e udf -e /unionfs -e ntfs -e fat -e dm-mod \
-	-e /ide/ -e /scsi/ -e /message/ -e hci -e usb-storage -e sbp2 \
-	-e drivers/net/ -e '/ipv6\.' |
+	-e /ide/ -e /scsi/ -e /message/ -e hci -e usb-storage -e sbp2 |
   while read fn ; do
 
 	for x in $fn `modinfo $fn | grep depends |

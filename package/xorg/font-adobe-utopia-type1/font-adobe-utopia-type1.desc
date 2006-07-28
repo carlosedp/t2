@@ -11,10 +11,9 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
+[I] A modular X package
 
-[I] Adobe Utopia Type1 font family
-
-[T] Adobe Utopia Type1 font family.
+[T] A modular X package
 
 [U] http://www.X.org
 
@@ -30,4 +29,4 @@
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 321599221 font-adobe-utopia-type1-1.0.1.tar.bz2 http://xorg.freedesktop.org/releases/individual/font/
+[D] 321599221 font-adobe-utopia-type1-1.0.1.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/

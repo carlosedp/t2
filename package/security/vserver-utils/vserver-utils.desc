@@ -13,7 +13,7 @@
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
 
-[I] An alternative userspace tools implementation for Linux-VServer
+[I] An alternative userspace tools implementation for Linux-VServer.
 
 [T] Currently vserver-utils is under heavy development and therefore targeted on
 [T] the devel branch of Linux-VServer (2.1) and does not contain all the features
@@ -31,8 +31,8 @@
 [L] OpenSource
 
 [S] Alpha
-[V] r303
-[P] X -----5---9 400.000
+[V] 1.0.2
+[P] X -----5---9 200.400
 
-[D] X vserver-utils-svn-r303.tar.bz2 svn+http://dev.croup.de/repos/vserver-utils/trunk -r303
+[D] 3486505924 vserver-utils-1.0.2.tar.bz2 http://dev.gentoo.org/~hollow/vserver-utils/
 

@@ -28,10 +28,10 @@
 [T] (http://libcddb.sourceforge.net) is available, the cdinfo program will
 [T] display CDDB matches on CD-DA discs. 
 
-[U] http://www.gnu.org/software/libcdio/
+[U] http://www.gnu.org/directory/GNU/libcdio.html
 
 [A] Rocky Bernstein <rocky@panix.com>
-[M] Rene Rebe <rene@t2-project.org>
+[M] The T2 Project <t2@t2-project.org>
 
 [F] NOPARALLEL
 [C] base/library

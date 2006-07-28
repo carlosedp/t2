@@ -18,7 +18,7 @@ if [ -z "$1" ] ; then
 	exit
 fi
 
-trap 'echo "Got SIGINT (Crtl-C)." ; rm $$.log $$.diff ; exit 1' INT
+trap 'echo "Got SIGINT (Crtl-C)." ; rm $$.log ; exit 1' INT
 
 locations=
 for x; do
@@ -26,13 +26,7 @@ for x; do
 		x=`echo package/*/$x`
 	locations="$locations $x"
 done	
-
-svn st $locations | grep '^\(A\|M\)' | cut -c8- | while read f; do
-	if [ -f $f ]; then
-		./scripts/Create-CopyPatch $f | patch -p0
-	fi
-done
-
+		
 echo "Diff:"
 svn diff $locations | tee $$.diff
 

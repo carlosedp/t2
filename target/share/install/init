@@ -94,8 +94,8 @@ select_2nd_stage()
 {
 	# choices
 	case $1 in
-	  http://*|ftp://*)
-		images=`fget $1/ | sed 's/[<>"]/\n/g' | sed -n '/2nd_stage/p'`
+	  http://|ftp://)
+		images=`fget $1/ | tr '"' '\n' | grep 2nd_stage`
 		;;
 	  *)
 		mkdir /mnt_source
@@ -105,9 +105,7 @@ select_2nd_stage()
 		;;
 	esac
 
-	[ "$images" ] || return 1
-
-	echo "Select a second stage image file:"
+	echo "Select a stage 2 image file:"
 	mem=`sed -n '/MemTotal/{s/.* \([[:digit:]]*\) .*/\1/p}' /proc/meminfo`
 	i=1; default=$i
 	for x in $images; do
@@ -144,25 +142,21 @@ httpload()
 	[ "$baseurl" ] || return
 
 	select_2nd_stage "$baseurl" filename
-	if [ -z "$filename" ]; then
-		echo "Failure retrieving the second stage image."
-		return
-	fi
 
 	exit_init=1
 	url=$baseurl/$filename
 
 	echo -e "[ $url ]\n"
-	export ROCK_INSTALL_SOURCE_URL=$baseurl
+	export ROCK_INSTALL_SOURCE_URL=baseurl
 
 	exit_linuxrc=1
 	mkdir /mnt_root || exit_linuxrc=0
 
 	mount none /mnt_root -t tmpfs || exit_linuxrc=0
 
-	fget $url | ( cd /mnt_root; tar x ) # -z
+	curl $url | ( cd /mnt_root; tar x ) # -z
 	
-	echo "finished ... continuing execution of second stage"
+	echo "finished ... continuing execution of 2nd stage"
 	doboot
 }
 
@@ -247,7 +241,7 @@ load_ramdisk_file()
 	devicefile=
 	filename=
 
-	echo -e "\nSelect a device for loading the second stage system from:\n"
+	echo -e "\nSelect a device for loading the 2nd stage system from:\n"
 
 	getdevice devicefile
 	if [ -z "$devicefile" ]; then
@@ -256,10 +250,6 @@ load_ramdisk_file()
 	fi
 
 	select_2nd_stage $devicefile filename
-	if [ -z "$filename" ]; then
-		echo "No image found."
-		return
-	fi
 
 	exit_linuxrc=1
 	echo "Using $devicefile:$filename"
@@ -270,7 +260,7 @@ load_ramdisk_file()
 	mkdir /mnt_root || exit_linuxrc=0
 	mount none /mnt_root -t tmpfs || exit_linuxrc=0
 
-	echo "Extracting second stage filesystem ..."
+	echo "Extracting 2nd stage filesystem ..."
 	cat /mnt_source/$filename | ( cd /mnt_root; tar x ) || # -z
 	echo "Can't run tar on $fielname."
 	
@@ -290,25 +280,27 @@ activate_swap()
 	[ "$in" ] && swapon $in
 }
 
-net_config()
+config_net()
 {
-	echo -n "Interfaces: "; ls -A /sys/class/net/
+	ip addr ; echo
+	ip route ; echo
 
-	echo -n "Enter interface name (eth0): "
+	echo "Enter interface name (eth0): "
 	read dev ; [ "$dev" ] || dev="eth0"
 
-	echo -n "Enter IP address (auto): "
-	read ip
-	if [ "$ip" ]; then
-		echo -n "Enter default gateway (none): "
-		read gw
-		ipconfig $ip::$gw:::$dev:none 
-	else
-		# let the link autoneg.
-		ipconfig :::::$dev:none > /dev/null 2>&1 ; sleep 4
-		echo "Auto configuration via DHCP, BOOTP, RARP ..."
-		ipconfig -d $dev -t 10
-	fi
+	echo "Enter ip (192.168.0.254/24): "
+	read ip ; [ "$ip" ] || ip="192.168.0.254/24"
+
+	ip addr add $ip broadcast + dev $dev
+	ip link set $dev up
+
+	echo "Enter default gateway (none): "
+	read gw
+	[ "$gw" ] && ip route add default via $gw
+	echo
+
+	ip addr ; echo
+	ip route
 }
 
 exec_sh()
@@ -336,14 +328,14 @@ T2 SDE installer (1st stage - loader) ...
 
 The T2 install system boots up in two stages. You are now in the first stage
 and if everything goes right, you will not spend much time here. Just 
-configure the installation source so the second stage boot system can be
-loaded and you can start the installation."
+configure the installation source so the 2nd stage boot system can be loaded
+and you can start the installation."
 exit_init=0
 while [ $exit_init = 0 ]; do
 	echo -n "
-     0. Load second stage system from local device
-     1. Load second stage system from network
-     2. Configure network interfaces
+     0. Load 2nd stage system from local device
+     1. Load 2nd stage system from network
+     2. Configure network interfaces (IPv4 only)
      3. Load kernel modules from this disk
      4. Load kernel modules from another disk
      5. Activate already formatted swap device
@@ -356,7 +348,7 @@ What do you want to do [0-8] (default=0)? "
 	case $in in
 	  0)	load_ramdisk_file ;;
 	  1)	httpload ;;
-	  2)	net_config ;;
+	  2)	config_net ;;
 	  3)	load_modules ;;
 	  4)	load_modules_disk ;;
 	  5)	activate_swap ;;

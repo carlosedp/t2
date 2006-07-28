@@ -18,7 +18,7 @@
 [T] Command line utilities for the Linux inotify filesystem change
 [T] notification system.
 
-[U] http://inotify-tools.sourceforge.net/
+[U] http://rohanpm.net/inotify-tools
 
 [A] Rohan McGovern
 [M] Rene Rebe <rene@t2-project.org>
@@ -27,8 +27,8 @@
 
 [L] GPL
 [S] Stable
-[V] 2.2
+[V] 1.5
 [P] X -----5---9 137.000
 
-[D] 1928080289 inotify-tools-2.2.tar.gz http://dl.sourceforge.net/sourceforge/inotify-tools/
+[D] 3108045021 inotify-tools-1.5.tar.gz http://rohanpm.net/files/
 

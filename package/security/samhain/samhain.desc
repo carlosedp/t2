@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A file integrity checker and host-based intrusion detection
+[I] A file integrity checker and host-based intrusion detection.
 
 [T] samhain is a multiplatform, open source solution for centralized file
 [T] integrity checking / host-based intrusion detection on POSIX systems
@@ -30,7 +30,7 @@
 [L] OpenSource
 
 [S] Stable
-[V] 2.2.2
+[V] 2.2.0
 [P] X -----5---9 200.401
 
-[D] 2900027842 samhain_signed-2.2.2.tar.gz http://la-samhna.de/archive/
+[D] 2710976367 samhain_signed-2.2.0.tar.gz http://la-samhna.de/archive/

@@ -9,7 +9,7 @@ Servername:	____________________
 IP-Address:	____________________
 
 
- *) Installed local software (in /usr/local):
+ *) Installed services (what you compiled in /usr/local):
 
 [ Put detailed description here ]
 

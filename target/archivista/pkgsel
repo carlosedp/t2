@@ -117,9 +117,7 @@ X hdparm
 X hicolor-icon-theme
 X hotplug
 X hotplug++
-X htmldoc
 X id-utils
-X inotify-tools
 X imagemagick
 X imlib
 X indent
@@ -272,16 +270,6 @@ X perl-xml-rss
 X perl-xml-libxml-xpathcontext
 X perl-date-calc
 X perl-bit-vector
-# perl-mail-box and deps
-X perl-uri
-X perl-mime-types
-X perl-io-stringy
-X perl-user-identity
-X perl-mailtools
-X perl-mail-box
-# more perl
-X perl-ui-dialog
-X perl-reform
 X pkgconfig
 X popt
 X portmap

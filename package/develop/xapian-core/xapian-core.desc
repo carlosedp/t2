@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] Information retrieval library
+[I] Information retrieval library.
 
 [T] Xapian is a Probabilistic Information Retrieval library. It is
 [T] written in C++ with bindings to Perl, Python, PHP, Java, Tcl, and
@@ -28,7 +28,7 @@
 
 [L] GPL
 [S] Stable
-[V] 0.9.6
+[V] 0.9.5
 [P] X -----5---9 650.000
 
-[D] 4103763888 xapian-core-0.9.6.tar.gz http://www.oligarchy.co.uk/xapian/0.9.6/
+[D] 1772506044 xapian-core-0.9.5.tar.gz http://www.oligarchy.co.uk/xapian/0.9.5/

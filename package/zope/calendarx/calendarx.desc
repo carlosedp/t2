@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A customizable calendar product for Plone
+[I] A customizable calendar product for Plone.
 
 [T] CalendarX is a Plone Calendar providing metacalendar functionality 
 [T] for the Plone content management system. It is highly customizable, 
@@ -30,7 +30,7 @@
 [L] GPL 
 
 [S] Stable
-[V] 0.4.15
+[V] 0.4.15 
 [P] X -----5---9 300.300
 
 [O] . $base/package/*/zope/zope-conf.in
