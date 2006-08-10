@@ -510,7 +510,6 @@ X curl
 X wget
 
 # emulator
-X qemu
 X wine
 
 # scientific
