@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A Notifications Library
+[I] A Notifications Library.
 
 [T] Galago is a desktop presence framework, designed to transmit presence
 [T] information between programs. To put it in simpler terms, it takes
@@ -31,6 +31,6 @@
 
 [L] GPL
 [S] Stable
-[V] 0.4.2
+[V] 0.4.0
 [P] X -----5---9 300.000
-[D] 36209428 libnotify-0.4.2.tar.bz2 http://www.galago-project.org/files/releases/source/libnotify/
+[D] 3525373362 libnotify-0.4.0.tar.bz2 http://www.galago-project.org/files/releases/source/libnotify/

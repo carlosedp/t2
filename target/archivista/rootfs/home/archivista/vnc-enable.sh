@@ -9,7 +9,9 @@ fi
 
 . /etc/profile
 
-x11vnc -forever -passwd $PASSWD -skip_lockkeys &
+x11vnc -forever -passwd $PASSWD &
+
 
 Xdialog --stdout --msgbox "Graphical remote access (VNC) is enabled" 0 0
+
 

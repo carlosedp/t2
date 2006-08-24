@@ -60,9 +60,7 @@ if grep -q '^<DefaultPrinter' etc/cups/printers.conf; then
 fi
 
 # exim
-grep -q '^# *local_interface' etc/exim/configure && update_mail_incoming=1
-update_mail_relay="`sed -n 's/^hostlist .*relay_from_hosts = 127.0.0.1 : //p' \
-                        /etc/exim/configure`"
+grep -q '^# *local_interface' etc/exim/configure && update_incoming_mail=1
 
 # admin mail
 [ -f etc/mail.conf ] && . etc/mail.conf

@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] The Xorg driver for Geode integrated video chips
+[I] The Xorg driver for Geode integrated video chips.
 
 [T] This driver supports the National Semiconductors, now Advanced Micro
 [T] Devices Geode integrated video chips.
@@ -26,12 +26,11 @@
 
 [L] OpenSource
 [S] Stable
-[V] 2.8.1
+[V] 2.7.6.5
 [P] X -----5---9 112.600
 
 [R] + x86
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 774185045 xf86-video-nsc-2.8.1.tar.bz2 http://xorg.freedesktop.org/releases/individual/driver/
-[D] 781273801 nsc-amd-geode-lx-R6.patch http://dl.exactcode.de/oss/xorg/
+[D] 4272197000 xf86-video-nsc-2.7.6.5.tar.bz2 http://xorg.freedesktop.org/releases/individual/driver/

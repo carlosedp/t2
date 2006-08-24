@@ -144,7 +144,7 @@ if [ "$chroot" = 1 ] ; then
 	cd "$xroot" || exit 1
 
 	x_mknod() {
-		if [ ! -c "$1" -a ! -b "$1" ]; then
+		if [ ! -e "$1" ]; then
 			mknod "$@"
 		fi
 	}
@@ -548,8 +548,6 @@ abort() {
 		fixfile () {
 		  # we use .vanilla to not rediff backup .orig from patch
 		  [ -f \$1.vanilla ] || cp \$1 \$1.vanilla
-		  # maybe we do not have the editor yet?
-		  which \$EDITOR > /dev/null || EDITOR=nvi
 		  \$EDITOR \$1
 		}
 		fixfilediff() {

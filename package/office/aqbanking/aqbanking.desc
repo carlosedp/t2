@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A generic interface to online banking
+[I] A generic interface to online banking.
 
 [T] AqBanking provides a generic interface to online banking. Online
 [T] banking is provided via backends (currently only HBCI is
@@ -28,7 +28,7 @@
 
 [L] GPL
 [S] Stable
-[V] 2.2.0
+[V] 2.0.0
 [P] X -----5---9 207.500
 
-[D] 3417526105 aqbanking-2.2.0.tar.gz http://dl.sourceforge.net/sourceforge/aqbanking/
+[D] 4257297437 aqbanking-2.0.0.tar.gz http://dl.sourceforge.net/sourceforge/aqbanking/
