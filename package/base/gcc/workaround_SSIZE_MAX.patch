@@ -1,0 +1,12 @@
+--- gcc-3.4.5/gcc/config/host-linux.c.orig	2006-01-17 22:23:24.000000000 -0300
++++ gcc-3.4.5/gcc/config/host-linux.c	2006-01-17 22:31:53.000000000 -0300
+@@ -26,6 +26,9 @@
+ #include "hosthooks.h"
+ #include "hosthooks-def.h"
+ 
++#ifndef SSIZE_MAX
++#  define SSIZE_MAX LONG_MAX
++#endif
+ 
+ /* Linux has a feature called exec-shield-randomize that perturbs the
+    address of non-fixed mapped segments by a (relatively) small amount.
