@@ -1,6 +1,0 @@
-#!/bin/sh
-mkdir -p /etc/dropbear
-for x in rsa dss; do
-        [ -f /etc/dropbear/dropbear_${x}_host_key ] || \
-                D_bindir/dropbearkey -t $x -f /etc/dropbear/dropbear_${x}_host_key
-done
