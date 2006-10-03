@@ -35,9 +35,9 @@
 
 [L] OpenSource
 [S] Stable
-[V] 0.9.7g
+[V] 0.9.7i
 [P] X -----5---9 104.600
 
 # FROZEN - 0.9.8 has important API changes
-[D] 3732977064 openssl-0.9.7g.tar.gz ftp://ftp.openssl.org/source/
+[D] 2426774023 openssl-0.9.7i.tar.gz ftp://ftp.openssl.org/source/
 
