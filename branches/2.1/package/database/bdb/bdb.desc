@@ -26,9 +26,10 @@
 
 [C] base/library
 
+[F] FPIC-QUIRK
+
 [L] BSD
 [S] Stable
-
 [V] 4.3.28
 [P] X -----5---9 107.000
   
