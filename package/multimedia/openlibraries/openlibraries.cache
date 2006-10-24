@@ -1,0 +1,56 @@
+
+[TIMESTAMP] 1161454439 Sat Oct 21 18:13:59 2006
+[BUILDTIME] 140 (5)
+[SIZE] 18.01 MB, 303 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] boost
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] ffmpeg
+[DEP] file
+[DEP] findutils
+[DEP] freeglut
+[DEP] gawk
+[DEP] gcc
+[DEP] glew
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] lame
+[DEP] libdrm
+[DEP] libice
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsm
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxi
+[DEP] libxml
+[DEP] libxmu
+[DEP] libxt
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] mlt
+[DEP] mlt++
+[DEP] net-tools
+[DEP] openal
+[DEP] openexr
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sqlite
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xproto
+[DEP] zlib
