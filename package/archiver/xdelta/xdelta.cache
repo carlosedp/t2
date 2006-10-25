@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133988362 Wed Dec  7 21:46:02 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.39 MB, 31 files
+[TIMESTAMP] 1160311343 Sun Oct  8 12:42:23 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.52 MB, 24 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -13,9 +14,10 @@
 [DEP] file
 [DEP] findutils
 [DEP] gcc
-[DEP] glib12
+[DEP] glib
 [DEP] glibc
 [DEP] grep
+[DEP] libtool
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

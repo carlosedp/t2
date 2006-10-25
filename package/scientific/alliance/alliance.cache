@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133753679 Mon Dec  5 04:34:39 2005
-[BUILDTIME] 40 (5) ERROR
-[SIZE] 0.02 MB, 14 files
+[TIMESTAMP] 1160537401 Wed Oct 11 03:30:01 2006
+[BUILDTIME] 35 (5) ERROR
+[SIZE] 0.02 MB, 16 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -42,4 +42,3 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xproto
-[DEP] zlib

@@ -1,8 +1,12 @@
 
-[TIMESTAMP] 1134289182 Sun Dec 11 09:19:42 2005
-[BUILDTIME] 645 (9)
-[SIZE] 18.07 MB, 947 files
+[TIMESTAMP] 1160496024 Tue Oct 10 16:00:24 2006
+[BUILDTIME] 625 (5)
+[SIZE] 22.45 MB, 1339 files
 
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -23,6 +27,8 @@
 [DEP] grep
 [DEP] imake
 [DEP] imlib
+[DEP] inputproto
+[DEP] kbproto
 [DEP] kdelibs
 [DEP] lcms
 [DEP] libart_lgpl23
@@ -45,6 +51,7 @@
 [DEP] libxext
 [DEP] libxfixes
 [DEP] libxft
+[DEP] libxi
 [DEP] libxinerama
 [DEP] libxmu
 [DEP] libxrandr
@@ -52,11 +59,13 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openexr
+[DEP] patch
 [DEP] pcre
 [DEP] perl
 [DEP] pkgconfig

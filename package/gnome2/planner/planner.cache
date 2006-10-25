@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134309432 Sun Dec 11 14:57:12 2005
-[BUILDTIME] 60 (9) ERROR
-[SIZE] 3.88 MB, 249 files
+[TIMESTAMP] 1160507039 Tue Oct 10 19:03:59 2006
+[BUILDTIME] 50 (5)
+[SIZE] 3.79 MB, 231 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -11,7 +12,6 @@
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
@@ -22,16 +22,16 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] glibmm
 [DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-vfs
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -61,19 +61,19 @@
 [DEP] libxrandr
 [DEP] libxrender
 [DEP] libxslt
+[DEP] liferea
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
+[DEP] pygobject
 [DEP] pygtk
 [DEP] python
 [DEP] renderproto
@@ -82,6 +82,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

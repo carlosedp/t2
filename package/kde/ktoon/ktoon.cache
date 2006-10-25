@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133821200 Mon Dec  5 23:20:00 2005
-[BUILDTIME] 15 (5)
-[SIZE] 3.58 MB, 11 files
+[TIMESTAMP] 1160619759 Thu Oct 12 02:22:39 2006
+[BUILDTIME] 55 (5)
+[SIZE] 3.72 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -11,6 +11,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
+[DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -42,4 +43,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] xproto
-[DEP] zlib

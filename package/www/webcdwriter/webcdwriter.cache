@@ -1,16 +1,18 @@
 
-[TIMESTAMP] 1133833496 Tue Dec  6 02:44:56 2005
-[BUILDTIME] 20 (5)
-[SIZE] 3.21 MB, 294 files
+[TIMESTAMP] 1160635671 Thu Oct 12 06:47:51 2006
+[BUILDTIME] 15 (5)
+[SIZE] 3.72 MB, 290 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] blackdown-jdk
 [DEP] bzip2
+[DEP] cdrdao
 [DEP] cdrtools
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -30,4 +32,3 @@
 [DEP] shadow
 [DEP] sysfiles
 [DEP] tar
-[DEP] zlib

@@ -1,9 +1,12 @@
 
-[TIMESTAMP] 1134212735 Sat Dec 10 12:05:35 2005
-[BUILDTIME] 120 (9)
-[SIZE] 11.78 MB, 496 files
+[TIMESTAMP] 1160458303 Tue Oct 10 05:31:43 2006
+[BUILDTIME] 100 (5)
+[SIZE] 11.60 MB, 480 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
+[DEP] alsa-utils
+[DEP] aspell
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
@@ -23,6 +26,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] geany
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -32,7 +36,7 @@
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
+[DEP] gtkspell
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
@@ -60,7 +64,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
 [DEP] orbit2
 [DEP] pango

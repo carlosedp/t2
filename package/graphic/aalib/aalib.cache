@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133985765 Wed Dec  7 21:02:45 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.62 MB, 96 files
+[TIMESTAMP] 1160292399 Sun Oct  8 07:26:39 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.57 MB, 86 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -18,7 +19,6 @@
 [DEP] gpm
 [DEP] grep
 [DEP] imake
-[DEP] libdnet
 [DEP] libice
 [DEP] libx11
 [DEP] libxau
@@ -26,7 +26,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] perl
 [DEP] sed

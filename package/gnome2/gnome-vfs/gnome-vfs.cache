@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134028346 Thu Dec  8 08:52:26 2005
-[BUILDTIME] 100 (9)
-[SIZE] 5.56 MB, 213 files
+[TIMESTAMP] 1160355278 Mon Oct  9 00:54:38 2006
+[BUILDTIME] 100 (5)
+[SIZE] 6.13 MB, 268 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -16,9 +17,9 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] gnome-libs14
 [DEP] gnome-mime-data
 [DEP] grep
-[DEP] howl
 [DEP] libbonobo
 [DEP] libxml
 [DEP] linux-header
@@ -27,6 +28,7 @@
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
+[DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig

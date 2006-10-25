@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134201926 Sat Dec 10 09:05:26 2005
-[BUILDTIME] 20 (9) ERROR
-[SIZE] 2.32 MB, 40 files
+[TIMESTAMP] 1160450664 Tue Oct 10 03:24:24 2006
+[BUILDTIME] 15 (5)
+[SIZE] 2.33 MB, 39 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,6 +9,8 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

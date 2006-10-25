@@ -1,20 +1,18 @@
 
-[TIMESTAMP] 1133911529 Wed Dec  7 00:25:29 2005
-[BUILDTIME] 5 (9)
-[SIZE] 1.28 MB, 38 files
+[TIMESTAMP] 1160270442 Sun Oct  8 01:20:42 2006
+[BUILDTIME] 0 (5)
+[SIZE] 1.26 MB, 30 files
 
+[DEP] 00-dirtree
 [DEP] bash
+[DEP] bigreqsproto
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] encodings
 [DEP] findutils
 [DEP] font-adobe-utopia-type1
-[DEP] font-bitstream-type1
-[DEP] font-ibm-type1
-[DEP] font-xfree86-type1
 [DEP] fontconfig
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

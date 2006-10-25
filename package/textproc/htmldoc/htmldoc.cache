@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1148920956 Mon May 29 18:42:36 2006
-[BUILDTIME] 100 (9)
-[SIZE] 5.94 MB, 90 files
+[TIMESTAMP] 1160368975 Mon Oct  9 04:42:55 2006
+[BUILDTIME] 10 (5)
+[SIZE] 6.02 MB, 90 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -10,11 +10,18 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] fltk
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] libjpeg
 [DEP] libpng
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxpm
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -24,4 +31,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xproto
 [DEP] zlib

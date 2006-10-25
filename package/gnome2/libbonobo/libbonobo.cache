@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134027310 Thu Dec  8 08:35:10 2005
-[BUILDTIME] 55 (9)
-[SIZE] 4.48 MB, 287 files
+[TIMESTAMP] 1160354778 Mon Oct  9 00:46:18 2006
+[BUILDTIME] 55 (5)
+[SIZE] 4.32 MB, 278 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -24,6 +25,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] orbit2
+[DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig

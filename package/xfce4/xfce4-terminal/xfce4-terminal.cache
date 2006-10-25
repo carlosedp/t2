@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133836231 Tue Dec  6 03:30:31 2005
-[BUILDTIME] 20 (5)
-[SIZE] 1.32 MB, 83 files
+[TIMESTAMP] 1160639121 Thu Oct 12 07:45:21 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.25 MB, 72 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -24,6 +24,8 @@
 [DEP] glitz
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libexo
 [DEP] libice
 [DEP] libpng
@@ -47,13 +49,16 @@
 [DEP] ncurses
 [DEP] net-tools
 [DEP] pango
+[DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
+[DEP] thunar
 [DEP] util-linux
 [DEP] vte
 [DEP] xproto

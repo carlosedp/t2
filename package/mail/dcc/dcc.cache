@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133944594 Wed Dec  7 09:36:34 2005
-[BUILDTIME] 20 (9)
-[SIZE] 2.10 MB, 79 files
+[TIMESTAMP] 1160276505 Sun Oct  8 03:01:45 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.96 MB, 72 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -17,6 +17,8 @@
 [DEP] linux-header
 [DEP] make
 [DEP] net-tools
+[DEP] procps
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] wget

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134068815 Thu Dec  8 20:06:55 2005
-[BUILDTIME] 25 (9)
-[SIZE] 2.00 MB, 154 files
+[TIMESTAMP] 1160377380 Mon Oct  9 07:03:00 2006
+[BUILDTIME] 20 (5)
+[SIZE] 2.10 MB, 151 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -24,7 +25,6 @@
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -32,7 +32,9 @@
 [DEP] libgnomecanvas
 [DEP] libgnomeprint
 [DEP] libgnomeprintui
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -54,7 +56,6 @@
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
-[DEP] popt
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles

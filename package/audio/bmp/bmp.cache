@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1142848231 Mon Mar 20 10:50:31 2006
-[BUILDTIME] 100 (9)
-[SIZE] 3.06 MB, 214 files
+[TIMESTAMP] 1160592474 Wed Oct 11 18:47:54 2006
+[BUILDTIME] 75 (5)
+[SIZE] 2.93 MB, 241 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -17,7 +17,6 @@
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
-[DEP] file
 [DEP] findutils
 [DEP] flex
 [DEP] fontconfig
@@ -27,6 +26,8 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] glitz
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gst-plugins-base
 [DEP] gstreamer
@@ -60,7 +61,6 @@
 [DEP] openssl
 [DEP] pango
 [DEP] pkgconfig
-[DEP] popt
 [DEP] renderproto
 [DEP] sed
 [DEP] startup-notification

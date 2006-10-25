@@ -1,41 +1,47 @@
 
-[TIMESTAMP] 1134215439 Sat Dec 10 12:50:39 2005
-[BUILDTIME] 30 (9)
-[SIZE] 5.01 MB, 161 files
+[TIMESTAMP] 1160459385 Tue Oct 10 05:49:45 2006
+[BUILDTIME] 20 (5)
+[SIZE] 5.35 MB, 170 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
+[DEP] anjuta
 [DEP] atk
 [DEP] audiofile
+[DEP] balsa
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
+[DEP] dasher
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
 [DEP] expat
+[DEP] file-roller
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
+[DEP] gdm
 [DEP] gettext
-[DEP] ggv
-[DEP] glade
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-applets
 [DEP] gnome-doc-utils
 [DEP] gnome-keyring
-[DEP] gnome-system-monitor
-[DEP] gnome-system-tools
-[DEP] gnome-terminal
+[DEP] gnome-netstatus
+[DEP] gnome-panel
 [DEP] gnome-vfs
+[DEP] gnopernicus
+[DEP] gossip
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -73,9 +79,13 @@
 [DEP] popt
 [DEP] renderproto
 [DEP] scrollkeeper
+[DEP] seahorse
 [DEP] sed
+[DEP] sylpheed-claws
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] vino
 [DEP] xproto
+[DEP] yelp
 [DEP] zlib

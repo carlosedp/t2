@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134186622 Sat Dec 10 04:50:22 2005
-[BUILDTIME] 90 (9)
-[SIZE] 4.11 MB, 247 files
+[TIMESTAMP] 1160441235 Tue Oct 10 00:47:15 2006
+[BUILDTIME] 75 (5)
+[SIZE] 4.09 MB, 237 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] autoconf

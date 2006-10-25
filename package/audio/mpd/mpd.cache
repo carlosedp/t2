@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134263114 Sun Dec 11 02:05:14 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.22 MB, 19 files
+[TIMESTAMP] 1160479623 Tue Oct 10 11:27:03 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.19 MB, 14 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash
@@ -13,7 +14,6 @@
 [DEP] file
 [DEP] findutils
 [DEP] flac
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

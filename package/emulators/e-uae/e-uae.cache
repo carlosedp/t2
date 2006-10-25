@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133810022 Mon Dec  5 20:13:42 2005
-[BUILDTIME] 110 (5)
-[SIZE] 3.08 MB, 12 files
+[TIMESTAMP] 1160608814 Wed Oct 11 23:20:14 2006
+[BUILDTIME] 75 (5)
+[SIZE] 2.91 MB, 8 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -24,6 +24,7 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
+[DEP] inputproto
 [DEP] kbproto
 [DEP] libice
 [DEP] libpng
@@ -47,6 +48,7 @@
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

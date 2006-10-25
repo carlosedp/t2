@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134135357 Fri Dec  9 14:35:57 2005
-[BUILDTIME] 35 (9)
-[SIZE] 0.97 MB, 85 files
+[TIMESTAMP] 1160401057 Mon Oct  9 13:37:37 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.92 MB, 77 files
 
+[DEP] 00-dirtree
 [DEP] a52dec
 [DEP] alsa-lib
 [DEP] bash

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133776598 Mon Dec  5 10:56:38 2005
+[TIMESTAMP] 1160562232 Wed Oct 11 10:23:52 2006
 [BUILDTIME] 55 (5)
-[SIZE] 1.23 MB, 65 files
+[SIZE] 1.36 MB, 51 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -14,10 +14,10 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
-[DEP] ffmpeg
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
@@ -26,15 +26,15 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
+[DEP] inputproto
+[DEP] kbproto
 [DEP] lame
-[DEP] libavc1394
 [DEP] libdrm
 [DEP] libdv
 [DEP] libice
 [DEP] libjpeg
 [DEP] libogg
 [DEP] libpng
-[DEP] libraw1394
 [DEP] libsm
 [DEP] libvorbis
 [DEP] libx11
@@ -47,6 +47,7 @@
 [DEP] libxi
 [DEP] libxinerama
 [DEP] libxmu
+[DEP] libxp
 [DEP] libxpm
 [DEP] libxrandr
 [DEP] libxrender
@@ -60,6 +61,7 @@
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

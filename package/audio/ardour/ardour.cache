@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134226590 Sat Dec 10 15:56:30 2005
-[BUILDTIME] 365 (9)
-[SIZE] 6.03 MB, 47 files
+[TIMESTAMP] 1160465732 Tue Oct 10 07:35:32 2006
+[BUILDTIME] 295 (5)
+[SIZE] 7.08 MB, 37 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] autoconf
 [DEP] automake
@@ -11,17 +12,14 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] curl
-[DEP] dbus
 [DEP] diffutils
 [DEP] findutils
-[DEP] flac
 [DEP] flex
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib12
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+12
 [DEP] gtkmm12
@@ -42,11 +40,9 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] patch
 [DEP] perl
-[DEP] pil
 [DEP] pkgconfig
 [DEP] python
 [DEP] raptor
@@ -55,7 +51,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib
-[DEP] zope

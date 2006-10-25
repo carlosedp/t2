@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1143688506 Thu Mar 30 05:15:06 2006
-[BUILDTIME] 100 (9)
-[SIZE] 45.38 MB, 3866 files
+[TIMESTAMP] 1160377219 Mon Oct  9 07:00:19 2006
+[BUILDTIME] 1030 (5)
+[SIZE] 52.54 MB, 3877 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -21,6 +21,7 @@
 [DEP] gconf
 [DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-vfs
 [DEP] grep
@@ -56,6 +57,7 @@
 [DEP] linux-header
 [DEP] make
 [DEP] net-tools
+[DEP] nvu
 [DEP] orbit2
 [DEP] pango
 [DEP] patch

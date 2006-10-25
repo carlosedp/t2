@@ -1,12 +1,12 @@
 
-[TIMESTAMP] 1134142484 Fri Dec  9 16:34:44 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.68 MB, 150 files
+[TIMESTAMP] 1160404530 Mon Oct  9 14:35:30 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.69 MB, 146 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
-[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bug-buddy
@@ -29,6 +29,7 @@
 [DEP] gcalctool
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gdm
 [DEP] gedit
 [DEP] gettext
@@ -36,17 +37,14 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnome-applets
 [DEP] gnome-desktop
 [DEP] gnome-keyring
 [DEP] gnome-netstatus
 [DEP] gnome-panel
-[DEP] gnome-utils
 [DEP] gnome-vfs
 [DEP] gnomeicu
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -86,10 +84,10 @@
 [DEP] quick-lounge-applet
 [DEP] renderproto
 [DEP] scrollkeeper
+[DEP] seahorse
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux
 [DEP] xproto
 [DEP] zlib

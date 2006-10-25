@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134151475 Fri Dec  9 19:04:35 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.83 MB, 153 files
+[TIMESTAMP] 1160410619 Mon Oct  9 16:16:59 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.81 MB, 144 files
 
+[DEP] 00-dirtree
 [DEP] aspell
 [DEP] audiofile
 [DEP] bash
@@ -10,6 +11,8 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] ffcall
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -34,4 +37,3 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] zlib

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133751560 Mon Dec  5 03:59:20 2005
-[BUILDTIME] 190 (5)
-[SIZE] 11.04 MB, 35 files
+[TIMESTAMP] 1160535720 Wed Oct 11 03:02:00 2006
+[BUILDTIME] 155 (5)
+[SIZE] 11.34 MB, 27 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -10,7 +10,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
-[DEP] file
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
@@ -34,11 +33,10 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] paragui
+[DEP] physfs
 [DEP] pkgconfig
-[DEP] readline
 [DEP] sed
 [DEP] smpeg
 [DEP] sysfiles

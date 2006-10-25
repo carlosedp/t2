@@ -1,27 +1,18 @@
 
-[TIMESTAMP] 1133912165 Wed Dec  7 00:36:05 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.03 MB, 14 files
+[TIMESTAMP] 1160270527 Sun Oct  8 01:22:07 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.02 MB, 7 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdftopcf
+[DEP] bigreqsproto
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] font-alias
 [DEP] font-arabic-misc
-[DEP] font-daewoo-misc
-[DEP] font-dec-misc
-[DEP] font-isas-misc
-[DEP] font-jis-misc
-[DEP] font-micro-misc
-[DEP] font-misc-misc
-[DEP] font-mutt-misc
-[DEP] font-schumacher-misc
-[DEP] font-sony-misc
-[DEP] font-sun-misc
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

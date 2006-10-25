@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134064000 Thu Dec  8 18:46:40 2005
-[BUILDTIME] 80 (9)
-[SIZE] 9.12 MB, 512 files
+[TIMESTAMP] 1160370225 Mon Oct  9 05:03:45 2006
+[BUILDTIME] 60 (5)
+[SIZE] 9.93 MB, 509 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -12,11 +13,9 @@
 [DEP] cairo
 [DEP] cf
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
-[DEP] evolution-data-server
 [DEP] expat
 [DEP] fam
 [DEP] findutils
@@ -25,6 +24,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -32,13 +32,11 @@
 [DEP] gnome-desktop
 [DEP] gnome-doc-utils
 [DEP] gnome-keyring
+[DEP] gnome-libs14
 [DEP] gnome-menus
 [DEP] gnome-vfs
-[DEP] gnopernicus
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
@@ -70,15 +68,12 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
 [DEP] python
@@ -89,6 +84,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

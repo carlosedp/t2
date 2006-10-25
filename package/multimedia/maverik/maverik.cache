@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133744206 Mon Dec  5 01:56:46 2005
-[BUILDTIME] 5 (5) ERROR
-[SIZE] 0.02 MB, 14 files
+[TIMESTAMP] 1160530318 Wed Oct 11 01:31:58 2006
+[BUILDTIME] 25 (5)
+[SIZE] 33.55 MB, 2633 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,13 +9,20 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libdrm
 [DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxxf86vm
 [DEP] make
 [DEP] mesa
+[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

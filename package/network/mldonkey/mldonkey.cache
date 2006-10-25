@@ -1,14 +1,16 @@
 
-[TIMESTAMP] 1134285733 Sun Dec 11 08:22:13 2005
-[BUILDTIME] 45 (9)
-[SIZE] 4.41 MB, 14 files
+[TIMESTAMP] 1160492900 Tue Oct 10 15:08:20 2006
+[BUILDTIME] 35 (5)
+[SIZE] 4.52 MB, 12 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
+[DEP] file
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype

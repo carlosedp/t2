@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134177776 Sat Dec 10 02:22:56 2005
-[BUILDTIME] 55 (9)
-[SIZE] 1.09 MB, 58 files
+[TIMESTAMP] 1160433437 Mon Oct  9 22:37:17 2006
+[BUILDTIME] 55 (5)
+[SIZE] 1.15 MB, 58 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -27,9 +27,9 @@
 [DEP] imagemagick
 [DEP] imake
 [DEP] kdelibs
+[DEP] kdewebdev
 [DEP] lcms
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libice
 [DEP] libidn

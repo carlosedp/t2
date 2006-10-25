@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134251176 Sat Dec 10 22:46:16 2005
-[BUILDTIME] 10 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1161452348 Sat Oct 21 17:39:08 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.39 MB, 32 files
 
 [DEP] bash
 [DEP] bdb
@@ -20,15 +20,19 @@
 [DEP] libnet
 [DEP] libnids
 [DEP] libpcap
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
+[DEP] libxext
 [DEP] libxmu
+[DEP] libxt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
+[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

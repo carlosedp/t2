@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134136631 Fri Dec  9 14:57:11 2005
-[BUILDTIME] 100 (9)
-[SIZE] 14.52 MB, 848 files
+[TIMESTAMP] 1160401761 Mon Oct  9 13:49:21 2006
+[BUILDTIME] 110 (5)
+[SIZE] 14.16 MB, 817 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -21,18 +22,19 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
 [DEP] gnome-keyring
+[DEP] gnome-libs14
 [DEP] gnome-vfs
 [DEP] gob
+[DEP] gossip
 [DEP] grep
-[DEP] gstreamer
 [DEP] gtk+
 [DEP] guile
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23

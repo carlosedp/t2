@@ -1,11 +1,10 @@
 
-[TIMESTAMP] 1134064753 Thu Dec  8 18:59:13 2005
-[BUILDTIME] 75 (9)
-[SIZE] 9.29 MB, 288 files
+[TIMESTAMP] 1160370535 Mon Oct  9 05:08:55 2006
+[BUILDTIME] 45 (5)
+[SIZE] 9.51 MB, 278 files
 
-[DEP] alsa-lib
+[DEP] 00-dirtree
 [DEP] atk
-[DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -15,7 +14,6 @@
 [DEP] diffutils
 [DEP] dmxproto
 [DEP] docbookx
-[DEP] esound
 [DEP] expat
 [DEP] findutils
 [DEP] fontconfig
@@ -23,39 +21,31 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnome-keyring
-[DEP] gnome-netstatus
+[DEP] gnome-doc-utils
+[DEP] gnome-icon-theme
 [DEP] gnome-vfs
-[DEP] gnutls
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
-[DEP] libbonoboui
 [DEP] libcroco
 [DEP] libdmx
-[DEP] libgcrypt
 [DEP] libglade
-[DEP] libgnome
 [DEP] libgnomecanvas
 [DEP] libgnomeui
-[DEP] libgpg-error
 [DEP] libgsf
 [DEP] libice
-[DEP] libjpeg
 [DEP] libpng
-[DEP] libprelude
 [DEP] librsvg
 [DEP] libsm
-[DEP] libtasn1
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -67,6 +57,7 @@
 [DEP] libxml
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxslt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -75,6 +66,7 @@
 [DEP] orbit2
 [DEP] pam
 [DEP] pango
+[DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
