@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133787427 Mon Dec  5 13:57:07 2005
-[BUILDTIME] 1025 (5)
-[SIZE] 34.26 MB, 3064 files
+[TIMESTAMP] 1160579297 Wed Oct 11 15:08:17 2006
+[BUILDTIME] 745 (5)
+[SIZE] 40.09 MB, 3074 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -27,6 +27,7 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
+[DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
@@ -57,6 +58,7 @@
 [DEP] linux-header
 [DEP] make
 [DEP] net-tools
+[DEP] nvu
 [DEP] orbit2
 [DEP] pango
 [DEP] perl

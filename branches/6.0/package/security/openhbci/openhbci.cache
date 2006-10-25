@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134206355 Sat Dec 10 10:19:15 2005
-[BUILDTIME] 115 (9)
-[SIZE] 6.56 MB, 113 files
+[TIMESTAMP] 1160453358 Tue Oct 10 04:09:18 2006
+[BUILDTIME] 105 (5)
+[SIZE] 6.00 MB, 97 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,7 +14,9 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] gwenhywfar
 [DEP] libchipcard
+[DEP] libtool
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

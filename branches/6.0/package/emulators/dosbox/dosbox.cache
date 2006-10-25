@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133739005 Mon Dec  5 00:30:05 2005
-[BUILDTIME] 45 (5)
-[SIZE] 1.03 MB, 16 files
+[TIMESTAMP] 1160525326 Wed Oct 11 00:08:46 2006
+[BUILDTIME] 40 (5)
+[SIZE] 1.16 MB, 8 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -15,6 +15,7 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libdrm
 [DEP] libpng
 [DEP] libsdl
 [DEP] libsdl_net
@@ -22,6 +23,7 @@
 [DEP] libxau
 [DEP] libxdmcp
 [DEP] libxext
+[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
 [DEP] mesa

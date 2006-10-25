@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134032699 Thu Dec  8 10:04:59 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.45 MB, 55 files
+[TIMESTAMP] 1160357617 Mon Oct  9 01:33:37 2006
+[BUILDTIME] 30 (5)
+[SIZE] 1.41 MB, 47 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -12,11 +13,13 @@
 [DEP] diffutils
 [DEP] file
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glib12
 [DEP] glibc
 [DEP] grep
 [DEP] gtk+12
+[DEP] libtool
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp

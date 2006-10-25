@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1144981738 Fri Apr 14 04:28:58 2006
-[BUILDTIME] 150 (5)
-[SIZE] 3.04 MB, 8 files
+[TIMESTAMP] 1160406205 Mon Oct  9 15:03:25 2006
+[BUILDTIME] 95 (5)
+[SIZE] 2.96 MB, 8 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -34,6 +34,7 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] tetex
 [DEP] util-linux
 [DEP] xproto
 [DEP] zlib

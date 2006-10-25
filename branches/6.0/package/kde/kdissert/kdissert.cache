@@ -1,13 +1,14 @@
 
-[TIMESTAMP] 1134324074 Sun Dec 11 19:01:14 2005
-[BUILDTIME] 45 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1160515335 Tue Oct 10 21:22:15 2006
+[BUILDTIME] 50 (5)
+[SIZE] 1.61 MB, 83 files
 
+[DEP] 00-dirtree
+[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
@@ -18,8 +19,8 @@
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
+[DEP] kde-i18n-fr
 [DEP] kdelibs
 [DEP] libart_lgpl23
 [DEP] libdrm
@@ -42,15 +43,13 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] make
 [DEP] mesa
-[DEP] numpy
-[DEP] pil
+[DEP] patch
 [DEP] python
+[DEP] pyxml
 [DEP] qt
 [DEP] scons
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] wxpython
-[DEP] zlib
-[DEP] zope

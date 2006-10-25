@@ -1,14 +1,17 @@
 
-[TIMESTAMP] 1134291742 Sun Dec 11 10:02:22 2005
-[BUILDTIME] 205 (9) ERROR
-[SIZE] 12.17 MB, 381 files
+[TIMESTAMP] 1161453545 Sat Oct 21 17:59:05 2006
+[BUILDTIME] 245 (5)
+[SIZE] 12.70 MB, 452 files
 
+[DEP] 00-dirtree
 [DEP] a52dec
 [DEP] alsa-lib
+[DEP] avahi
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] cf
 [DEP] coreutils
 [DEP] dbus
 [DEP] diffutils
@@ -26,7 +29,9 @@
 [DEP] gnome-vfs
 [DEP] gnutls
 [DEP] grep
+[DEP] gzip
 [DEP] hal
+[DEP] imake
 [DEP] lame
 [DEP] libbonobo
 [DEP] libcdio
@@ -35,6 +40,7 @@
 [DEP] libebml
 [DEP] libgcrypt
 [DEP] libgpg-error
+[DEP] libice
 [DEP] libid3tag
 [DEP] libjpeg
 [DEP] libmad
@@ -44,6 +50,7 @@
 [DEP] libpng
 [DEP] libsdl
 [DEP] libsdl_image
+[DEP] libsm
 [DEP] libtasn1
 [DEP] libtiff
 [DEP] libvorbis
@@ -54,15 +61,16 @@
 [DEP] libxinerama
 [DEP] libxml
 [DEP] libxv
+[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
+[DEP] mozplugger
 [DEP] net-tools
 [DEP] orbit2
 [DEP] perl
 [DEP] pkgconfig
-[DEP] popt
 [DEP] sed
 [DEP] speex
 [DEP] subversion
@@ -73,7 +81,9 @@
 [DEP] vcdimager
 [DEP] videoproto
 [DEP] wxwidgets
+[DEP] x264
 [DEP] xextproto
+[DEP] xf86vidmodeproto
 [DEP] xineramaproto
 [DEP] xproto
 [DEP] zlib

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133880134 Tue Dec  6 15:42:14 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.87 MB, 41 files
+[TIMESTAMP] 1160260581 Sat Oct  7 22:36:21 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.68 MB, 31 files
 
 [DEP] bash
 [DEP] binutils
@@ -17,7 +17,6 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

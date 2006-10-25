@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133888094 Tue Dec  6 17:54:54 2005
-[BUILDTIME] 10 (9)
-[SIZE] 1.64 MB, 60 files
+[TIMESTAMP] 1160262679 Sat Oct  7 23:11:19 2006
+[BUILDTIME] 10 (5)
+[SIZE] 1.70 MB, 61 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
@@ -10,7 +11,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc

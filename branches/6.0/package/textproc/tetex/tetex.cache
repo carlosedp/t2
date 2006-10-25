@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134000792 Thu Dec  8 01:13:12 2005
-[BUILDTIME] 145 (9)
-[SIZE] 353.05 MB, 19620 files
+[TIMESTAMP] 1160339299 Sun Oct  8 20:28:19 2006
+[BUILDTIME] 175 (5)
+[SIZE] 352.92 MB, 19611 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -23,7 +24,6 @@
 [DEP] grep
 [DEP] imake
 [DEP] lesstif
-[DEP] libdnet
 [DEP] libice
 [DEP] libsm
 [DEP] libx11

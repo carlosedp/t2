@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133835907 Tue Dec  6 03:25:07 2005
+[TIMESTAMP] 1160638751 Thu Oct 12 07:39:11 2006
 [BUILDTIME] 10 (5)
-[SIZE] 0.10 MB, 21 files
+[SIZE] 0.08 MB, 14 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -16,6 +16,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
@@ -23,6 +24,8 @@
 [DEP] glitz
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libice
 [DEP] libpng
 [DEP] libsm
@@ -39,6 +42,7 @@
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] startup-notification
 [DEP] sysfiles

@@ -1,9 +1,9 @@
 
-[TIMESTAMP] 1134011706 Thu Dec  8 04:15:06 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.14 MB, 31 files
+[TIMESTAMP] 1160347132 Sun Oct  8 22:38:52 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.16 MB, 21 files
 
-[DEP] autoconf
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -12,6 +12,7 @@
 [DEP] edb
 [DEP] eet
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -22,11 +23,9 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux
 [DEP] xextproto
 [DEP] xproto

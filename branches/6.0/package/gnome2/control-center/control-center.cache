@@ -1,12 +1,14 @@
 
-[TIMESTAMP] 1134235674 Sat Dec 10 18:27:54 2005
-[BUILDTIME] 150 (9)
-[SIZE] 7.33 MB, 252 files
+[TIMESTAMP] 1160470325 Tue Oct 10 08:52:05 2006
+[BUILDTIME] 125 (5)
+[SIZE] 7.69 MB, 252 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
+[DEP] battfink
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
@@ -24,6 +26,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -31,14 +34,13 @@
 [DEP] gnome-desktop
 [DEP] gnome-doc-utils
 [DEP] gnome-keyring
+[DEP] gnome-libs14
 [DEP] gnome-menus
 [DEP] gnome-vfs
-[DEP] gnomemeeting
 [DEP] grep
-[DEP] gst-plugins
+[DEP] gst-plugins-base
 [DEP] gstreamer
 [DEP] gtk+
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto

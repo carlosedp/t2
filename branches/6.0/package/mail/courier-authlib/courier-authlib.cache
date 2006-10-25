@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134137354 Fri Dec  9 15:09:14 2005
-[BUILDTIME] 115 (9)
-[SIZE] 0.83 MB, 116 files
+[TIMESTAMP] 1160402272 Mon Oct  9 13:57:52 2006
+[BUILDTIME] 100 (5)
+[SIZE] 0.58 MB, 97 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
@@ -14,12 +15,7 @@
 [DEP] gcc
 [DEP] gdbm
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] libtool
 [DEP] linux-header
 [DEP] make

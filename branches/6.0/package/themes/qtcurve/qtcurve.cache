@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134182184 Sat Dec 10 03:36:24 2005
-[BUILDTIME] 40 (9)
-[SIZE] 0.38 MB, 26 files
+[TIMESTAMP] 1160436747 Mon Oct  9 23:32:27 2006
+[BUILDTIME] 35 (5)
+[SIZE] 0.36 MB, 21 files
 
+[DEP] 00-dirtree
+[DEP] arts
 [DEP] atk
 [DEP] autoconf
 [DEP] bash
@@ -32,7 +34,6 @@
 [DEP] kbproto
 [DEP] kdelibs
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libice
 [DEP] libidn

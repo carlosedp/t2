@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133811763 Mon Dec  5 20:42:43 2005
+[TIMESTAMP] 1160610484 Wed Oct 11 23:48:04 2006
 [BUILDTIME] 15 (5)
-[SIZE] 0.17 MB, 37 files
+[SIZE] 0.08 MB, 32 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -22,10 +22,14 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gtk+
-[DEP] gtkdoc
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -42,9 +46,9 @@
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] xproto
-[DEP] zlib

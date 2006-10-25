@@ -1,20 +1,18 @@
 
-[TIMESTAMP] 1134136193 Fri Dec  9 14:49:53 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.15 MB, 59 files
+[TIMESTAMP] 1160401367 Mon Oct  9 13:42:47 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.94 MB, 50 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cf
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] imake
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp

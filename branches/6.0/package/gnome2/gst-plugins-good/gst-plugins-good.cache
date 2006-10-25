@@ -1,9 +1,10 @@
 
-[TIMESTAMP] 1144979947 Fri Apr 14 03:59:07 2006
-[BUILDTIME] 105 (5)
-[SIZE] 2.05 MB, 122 files
+[TIMESTAMP] 1160405871 Mon Oct  9 14:57:51 2006
+[BUILDTIME] 100 (5)
+[SIZE] 2.95 MB, 159 files
 
 [DEP] 00-dirtree
+[DEP] aalib
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -11,44 +12,68 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
+[DEP] cf
 [DEP] coreutils
+[DEP] damageproto
+[DEP] dbus
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
 [DEP] findutils
+[DEP] fixesproto
+[DEP] flac
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
+[DEP] gconf
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] glitz
+[DEP] gnome-libs14
+[DEP] gpm
 [DEP] grep
 [DEP] gst-plugins-base
 [DEP] gstreamer
 [DEP] gtk+
+[DEP] hal
+[DEP] imake
 [DEP] inputproto
 [DEP] kbproto
+[DEP] ladspa
 [DEP] libcdio
+[DEP] libdv
+[DEP] libice
 [DEP] libjpeg
 [DEP] liboil
 [DEP] libpng
+[DEP] libraw1394
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
+[DEP] libxdamage
 [DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
 [DEP] libxml
 [DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] orbit2
 [DEP] pango
 [DEP] pkgconfig
 [DEP] python
 [DEP] renderproto
 [DEP] sed
+[DEP] slang
+[DEP] speex
 [DEP] sysfiles
+[DEP] taglib
 [DEP] tar
 [DEP] util-linux
+[DEP] xextproto
 [DEP] xproto
 [DEP] zlib

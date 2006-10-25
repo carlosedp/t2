@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134156337 Fri Dec  9 20:25:37 2005
-[BUILDTIME] 10 (9)
-[SIZE] 32.76 MB, 12520 files
+[TIMESTAMP] 1160417577 Mon Oct  9 18:12:57 2006
+[BUILDTIME] 10 (5)
+[SIZE] 40.19 MB, 14734 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -14,10 +14,13 @@
 [DEP] glibc
 [DEP] grep
 [DEP] m4
+[DEP] net-tools
+[DEP] openssl
 [DEP] patch
 [DEP] perl
-[DEP] rpm
+[DEP] perl-convert-asn1
+[DEP] perl-net-ldap
+[DEP] perl-net-ssleay
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] xscreensaver

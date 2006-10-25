@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134229239 Sat Dec 10 16:40:39 2005
-[BUILDTIME] 60 (9)
-[SIZE] 3.60 MB, 123 files
+[TIMESTAMP] 1160467032 Tue Oct 10 07:57:12 2006
+[BUILDTIME] 45 (5)
+[SIZE] 3.74 MB, 128 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -14,6 +15,7 @@
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] gettext
 [DEP] glibc
 [DEP] grep
 [DEP] gzip

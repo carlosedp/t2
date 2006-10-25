@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133748306 Mon Dec  5 03:05:06 2005
+[TIMESTAMP] 1160533575 Wed Oct 11 02:26:15 2006
 [BUILDTIME] 5 (5) ERROR
-[SIZE] 0.02 MB, 14 files
+[SIZE] 0.02 MB, 16 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,6 +9,7 @@
 [DEP] coreutils
 [DEP] cpio
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

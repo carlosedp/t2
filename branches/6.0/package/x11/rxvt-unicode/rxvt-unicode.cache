@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134162407 Fri Dec  9 22:06:47 2005
-[BUILDTIME] 20 (9)
-[SIZE] 2.26 MB, 20 files
+[TIMESTAMP] 1160420010 Mon Oct  9 18:53:30 2006
+[BUILDTIME] 30 (5)
+[SIZE] 4.43 MB, 41 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,6 +14,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -26,12 +28,13 @@
 [DEP] libxft
 [DEP] libxpm
 [DEP] libxrender
-[DEP] libxt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] patch
+[DEP] perl
 [DEP] pkgconfig
 [DEP] renderproto
 [DEP] sed

@@ -1,25 +1,41 @@
 
-[TIMESTAMP] 1134008591 Thu Dec  8 03:23:11 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.90 MB, 31 files
+[TIMESTAMP] 1160345945 Sun Oct  8 22:19:05 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.33 MB, 29 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
+[DEP] boehm-gc
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] gdk-pixbuf10
+[DEP] gettext
+[DEP] glib12
 [DEP] glibc
 [DEP] grep
+[DEP] gtk+12
+[DEP] imlib
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxi
+[DEP] libxt
 [DEP] linux-header
 [DEP] make
+[DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
-[DEP] patch
+[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
+[DEP] xproto
 [DEP] zlib

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134249793 Sat Dec 10 22:23:13 2005
-[BUILDTIME] 55 (9)
-[SIZE] 4.05 MB, 195 files
+[TIMESTAMP] 1160474093 Tue Oct 10 09:54:53 2006
+[BUILDTIME] 50 (5)
+[SIZE] 4.40 MB, 209 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -23,6 +24,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -33,8 +35,9 @@
 [DEP] gnome-libs14
 [DEP] gnome-vfs
 [DEP] grep
+[DEP] gst-plugins-base
+[DEP] gstreamer
 [DEP] gtk+
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] iso-codes
@@ -48,7 +51,6 @@
 [DEP] libgnomeui
 [DEP] libice
 [DEP] libjpeg
-[DEP] libmusicbrainz
 [DEP] libpng
 [DEP] libsm
 [DEP] libx11
@@ -68,7 +70,6 @@
 [DEP] lirc
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] nautilus
 [DEP] net-tools
 [DEP] openssl
@@ -81,6 +82,7 @@
 [DEP] randrproto
 [DEP] renderproto
 [DEP] scrollkeeper
+[DEP] seamonkey
 [DEP] sed
 [DEP] startup-notification
 [DEP] sysfiles
@@ -88,6 +90,5 @@
 [DEP] util-linux
 [DEP] xextproto
 [DEP] xf86vidmodeproto
-[DEP] xine-lib
 [DEP] xproto
 [DEP] zlib

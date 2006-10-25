@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133749024 Mon Dec  5 03:17:04 2005
-[BUILDTIME] 10 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160533980 Wed Oct 11 02:33:00 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.94 MB, 72 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -31,8 +31,8 @@
 [DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
+[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] zlib

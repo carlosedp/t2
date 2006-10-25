@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134212906 Sat Dec 10 12:08:26 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.22 MB, 23 files
+[TIMESTAMP] 1160458348 Tue Oct 10 05:32:28 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.19 MB, 20 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -11,11 +12,11 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] imake
-[DEP] libdnet
 [DEP] libice
 [DEP] libsm
 [DEP] libx11

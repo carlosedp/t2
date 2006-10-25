@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1138702132 Tue Jan 31 11:08:52 2006
-[BUILDTIME] 100 (9)
-[SIZE] 7.36 MB, 1388 files
+[TIMESTAMP] 1160486857 Tue Oct 10 13:27:37 2006
+[BUILDTIME] 10 (5)
+[SIZE] 7.51 MB, 1515 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -13,17 +13,25 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] imagemagick
 [DEP] linux-header
 [DEP] make
 [DEP] perl
 [DEP] perl-appconfig
 [DEP] perl-date-calc
+[DEP] perl-dbi
+[DEP] perl-gd
+[DEP] perl-gd-graph
 [DEP] perl-gd-graph3d
+[DEP] perl-gd-text
 [DEP] perl-image-info
+[DEP] perl-image-size
+[DEP] perl-libwww
 [DEP] perl-pod-pom
 [DEP] perl-text-autoformat
 [DEP] perl-text-reform
 [DEP] perl-tie-dbi
+[DEP] perl-uri
 [DEP] perl-xml-dom
 [DEP] perl-xml-parser
 [DEP] perl-xml-regexp

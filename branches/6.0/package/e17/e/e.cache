@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133781638 Mon Dec  5 12:20:38 2005
-[BUILDTIME] 50 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160569032 Wed Oct 11 12:17:12 2006
+[BUILDTIME] 80 (5)
+[SIZE] 8.71 MB, 332 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -11,26 +11,33 @@
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
+[DEP] curl
 [DEP] diffutils
 [DEP] directfb
 [DEP] ecore
-[DEP] edb
 [DEP] edje
 [DEP] eet
 [DEP] embryo
 [DEP] evas
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
+[DEP] gnutls
 [DEP] grep
 [DEP] imake
 [DEP] imlib2
+[DEP] libgcrypt
+[DEP] libgpg-error
 [DEP] libice
+[DEP] libidn
 [DEP] libjpeg
-[DEP] libpng
+[DEP] libprelude
+[DEP] libtasn1
 [DEP] libtool
 [DEP] libx11
 [DEP] libxau
@@ -42,18 +49,18 @@
 [DEP] libxp
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxscrnsaver
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
+[DEP] pam
 [DEP] perl
-[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] valgrind
 [DEP] xproto
 [DEP] zlib

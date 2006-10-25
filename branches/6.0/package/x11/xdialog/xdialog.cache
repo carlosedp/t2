@@ -1,13 +1,11 @@
 
-[TIMESTAMP] 1133986111 Wed Dec  7 21:08:31 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.61 MB, 79 files
+[TIMESTAMP] 1160292449 Sun Oct  8 07:27:29 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.60 MB, 114 files
 
-[DEP] autoconf
-[DEP] automake
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
-[DEP] bison
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
@@ -28,8 +26,8 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] perl
+[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
+[DEP] util-linux

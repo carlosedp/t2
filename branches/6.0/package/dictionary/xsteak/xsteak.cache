@@ -1,13 +1,15 @@
 
-[TIMESTAMP] 1134008978 Thu Dec  8 03:29:38 2005
-[BUILDTIME] 5 (9)
-[SIZE] 5.41 MB, 39 files
+[TIMESTAMP] 1160346074 Sun Oct  8 22:21:14 2006
+[BUILDTIME] 5 (5)
+[SIZE] 5.39 MB, 32 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glib12

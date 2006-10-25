@@ -1,23 +1,5 @@
 
-[TIMESTAMP] 1134255616 Sun Dec 11 00:00:16 2005
-[BUILDTIME] 5 (9) ERROR
+[TIMESTAMP] 1161456115 Sat Oct 21 18:41:55 2006
+[BUILDTIME] 15 (5)
 [SIZE] 0.02 MB, 7 files
 
-[DEP] bash
-[DEP] binutils
-[DEP] bzip2
-[DEP] coreutils
-[DEP] diffutils
-[DEP] file
-[DEP] findutils
-[DEP] gcc
-[DEP] glibc
-[DEP] grep
-[DEP] linux-header
-[DEP] make
-[DEP] mktemp
-[DEP] net-tools
-[DEP] sed
-[DEP] sysfiles
-[DEP] tar
-[DEP] util-linux

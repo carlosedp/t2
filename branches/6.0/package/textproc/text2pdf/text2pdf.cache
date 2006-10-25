@@ -1,5 +1,5 @@
 
-[TIMESTAMP] 1133833329 Tue Dec  6 02:42:09 2005
+[TIMESTAMP] 1160635336 Thu Oct 12 06:42:16 2006
 [BUILDTIME] 5 (5)
 [SIZE] 0.03 MB, 7 files
 
@@ -8,7 +8,7 @@
 [DEP] binutils
 [DEP] coreutils
 [DEP] diffutils
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134037606 Thu Dec  8 11:26:46 2005
-[BUILDTIME] 20 (9)
-[SIZE] 4.21 MB, 140 files
+[TIMESTAMP] 1160361675 Mon Oct  9 02:41:15 2006
+[BUILDTIME] 40 (5)
+[SIZE] 3.97 MB, 133 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -49,4 +50,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] zlib

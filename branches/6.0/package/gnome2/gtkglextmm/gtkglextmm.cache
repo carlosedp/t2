@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1137558829 Wed Jan 18 05:33:49 2006
-[BUILDTIME] 100 (9)
-[SIZE] 2.19 MB, 335 files
+[TIMESTAMP] 1160354582 Mon Oct  9 00:43:02 2006
+[BUILDTIME] 35 (5)
+[SIZE] 2.05 MB, 341 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -20,6 +20,7 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glibmm
+[DEP] glitz
 [DEP] grep
 [DEP] gtk+
 [DEP] gtkglext

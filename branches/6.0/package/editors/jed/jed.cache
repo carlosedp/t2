@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134195709 Sat Dec 10 07:21:49 2005
-[BUILDTIME] 15 (9)
-[SIZE] 1.76 MB, 223 files
+[TIMESTAMP] 1160446458 Tue Oct 10 02:14:18 2006
+[BUILDTIME] 10 (5)
+[SIZE] 1.71 MB, 214 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -15,7 +16,6 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imake
-[DEP] libdnet
 [DEP] libice
 [DEP] linux-header
 [DEP] make

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133837173 Tue Dec  6 03:46:13 2005
+[TIMESTAMP] 1160639808 Thu Oct 12 07:56:48 2006
 [BUILDTIME] 10 (5)
-[SIZE] 1.44 MB, 97 files
+[SIZE] 1.44 MB, 95 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -10,6 +10,8 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] erlang-otp
+[DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -18,7 +20,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mesa
-[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

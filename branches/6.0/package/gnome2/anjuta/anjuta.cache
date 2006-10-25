@@ -1,23 +1,22 @@
 
-[TIMESTAMP] 1134075464 Thu Dec  8 21:57:44 2005
-[BUILDTIME] 245 (9)
-[SIZE] 10.05 MB, 718 files
+[TIMESTAMP] 1160384335 Mon Oct  9 08:58:55 2006
+[BUILDTIME] 195 (5)
+[SIZE] 12.97 MB, 902 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
-[DEP] apr
-[DEP] apr-util
 [DEP] atk
 [DEP] audiofile
+[DEP] balsa
 [DEP] bash
-[DEP] bdb
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] cyrus-sasl2
+[DEP] dasher
 [DEP] devhelp
 [DEP] diffutils
+[DEP] docbookx
 [DEP] esound
 [DEP] expat
 [DEP] findutils
@@ -26,8 +25,9 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
-[DEP] gdbm
+[DEP] gconf-editor
 [DEP] gdl
+[DEP] gdm
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -36,11 +36,14 @@
 [DEP] gnome-build
 [DEP] gnome-keyring
 [DEP] gnome-libs14
+[DEP] gnome-netstatus
+[DEP] gnome-panel
 [DEP] gnome-vfs
+[DEP] gnopernicus
+[DEP] gossip
 [DEP] grep
 [DEP] gtk+
-[DEP] gtkdoc
-[DEP] howl
+[DEP] gtksourceview
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -56,6 +59,7 @@
 [DEP] libjpeg
 [DEP] libpng
 [DEP] libsm
+[DEP] libwnck
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -68,14 +72,13 @@
 [DEP] libxml
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxres
 [DEP] libxslt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
-[DEP] neon
 [DEP] net-tools
-[DEP] openldap
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
@@ -86,11 +89,13 @@
 [DEP] pkgconfig
 [DEP] popt
 [DEP] renderproto
+[DEP] scrollkeeper
 [DEP] sed
-[DEP] subversion
+[DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] vino
 [DEP] vte
 [DEP] xproto
 [DEP] zlib
