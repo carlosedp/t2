@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1160472218 Tue Oct 10 09:23:38 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.36 MB, 53 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] cyrus-sasl2
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libevent
+[DEP] libnfsidmap
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openldap
+[DEP] openssl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

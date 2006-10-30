@@ -1,0 +1,65 @@
+
+[TIMESTAMP] 1160397621 Mon Oct  9 12:40:21 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.63 MB, 60 files
+
+[DEP] 00-dirtree
+[DEP] anjuta
+[DEP] at-spi
+[DEP] atk
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] epiphany
+[DEP] evolution-data-server
+[DEP] findutils
+[DEP] gail
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gimp
+[DEP] glib
+[DEP] glib12
+[DEP] glibc
+[DEP] gmime
+[DEP] gnet
+[DEP] gnome-desktop
+[DEP] gnome-panel
+[DEP] gnome-python-extras
+[DEP] gnome-utils
+[DEP] gnome-vfs
+[DEP] gok
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkdoc
+[DEP] gtkglext
+[DEP] gtksourceview
+[DEP] gtkspell
+[DEP] libbonobo
+[DEP] libbonoboui
+[DEP] libgda
+[DEP] libglade
+[DEP] libgnome
+[DEP] libgnomecanvas
+[DEP] libgnomeprint
+[DEP] libgnomeui
+[DEP] libgsf
+[DEP] libsoup
+[DEP] libwnck
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] orbit2
+[DEP] pango
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] util-linux
+[DEP] vte

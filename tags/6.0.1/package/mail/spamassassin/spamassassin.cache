@@ -1,0 +1,39 @@
+
+[TIMESTAMP] 1160590043 Wed Oct 11 18:07:23 2006
+[BUILDTIME] 10 (5)
+[SIZE] 2.06 MB, 152 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] perl
+[DEP] perl-archive-tar
+[DEP] perl-compress-zlib
+[DEP] perl-dbi
+[DEP] perl-digest-sha1
+[DEP] perl-html-parser
+[DEP] perl-io-socket-ssl
+[DEP] perl-io-zlib
+[DEP] perl-libwww
+[DEP] perl-net-dns
+[DEP] perl-net-ssleay
+[DEP] perl-uri
+[DEP] razor
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

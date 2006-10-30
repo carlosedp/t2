@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1160447602 Tue Oct 10 02:33:22 2006
+[BUILDTIME] 5 (5)
+[SIZE] 5.63 MB, 370 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] ghostscript
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] net-tools
+[DEP] netpbm
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex

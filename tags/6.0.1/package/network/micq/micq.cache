@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1160472044 Tue Oct 10 09:20:44 2006
+[BUILDTIME] 20 (5)
+[SIZE] 2.06 MB, 72 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libtasn1
+[DEP] linux-header
+[DEP] make
+[DEP] man
+[DEP] mktemp
+[DEP] net-tools
+[DEP] rpm
+[DEP] sed
+[DEP] shadow
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] util-linux

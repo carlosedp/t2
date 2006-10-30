@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1160266516 Sun Oct  8 00:15:16 2006
+[BUILDTIME] 40 (5)
+[SIZE] 1.09 MB, 26 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bigreqsproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] fontcacheproto
+[DEP] fontsproto
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libfontenc
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xproto
+[DEP] xtrans
+[DEP] zlib

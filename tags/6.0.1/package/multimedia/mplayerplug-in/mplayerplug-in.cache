@@ -1,0 +1,53 @@
+
+[TIMESTAMP] 1160524469 Tue Oct 10 23:54:29 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.25 MB, 32 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] firefox
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] glitz
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] gtk+
+[DEP] imake
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libice
+[DEP] libpng
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxpm
+[DEP] libxrender
+[DEP] libxt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] pkgconfig
+[DEP] renderproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xextproto
+[DEP] xproto

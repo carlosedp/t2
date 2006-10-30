@@ -1,0 +1,18 @@
+
+[TIMESTAMP] 1160643955 Thu Oct 12 09:05:55 2006
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 0.01 MB, 7 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] grep
+[DEP] java-dirtree
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1160543230 Wed Oct 11 05:07:10 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.35 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto

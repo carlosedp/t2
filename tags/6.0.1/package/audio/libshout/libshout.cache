@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1160593618 Wed Oct 11 19:06:58 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.18 MB, 20 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libogg
+[DEP] libtheora
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] speex
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

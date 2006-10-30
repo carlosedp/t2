@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1160618776 Thu Oct 12 02:06:16 2006
+[BUILDTIME] 50 (5)
+[SIZE] 1.52 MB, 29 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] linux-header
+[DEP] openexr
+[DEP] python
+[DEP] scons
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

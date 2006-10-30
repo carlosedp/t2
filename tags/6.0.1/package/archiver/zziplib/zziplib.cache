@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1160261721 Sat Oct  7 22:55:21 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.36 MB, 65 files
+
+[DEP] 00-dirtree
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib

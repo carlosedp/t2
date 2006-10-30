@@ -1,0 +1,25 @@
+
+[TIMESTAMP] 1160259743 Sat Oct  7 22:22:23 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.64 MB, 13 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1160396112 Mon Oct  9 12:15:12 2006
+[BUILDTIME] 20 (5)
+[SIZE] 0.65 MB, 28 files
+
+[DEP] 00-dirtree
+[DEP] aspell
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

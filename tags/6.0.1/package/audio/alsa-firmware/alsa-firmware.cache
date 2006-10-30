@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1160285633 Sun Oct  8 05:33:53 2006
+[BUILDTIME] 5 (5)
+[SIZE] 3.54 MB, 79 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

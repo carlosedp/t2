@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1160553995 Wed Oct 11 08:06:35 2006
+[BUILDTIME] 25 (5)
+[SIZE] 160.96 MB, 14 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libsdl
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxxf86dga
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] sed
+[DEP] sysfiles
+[DEP] unzip
+[DEP] xextproto
+[DEP] xf86dgaproto
+[DEP] xf86vidmodeproto
+[DEP] xproto

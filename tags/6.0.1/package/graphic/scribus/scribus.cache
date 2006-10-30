@@ -1,0 +1,66 @@
+
+[TIMESTAMP] 1160536933 Wed Oct 11 03:22:13 2006
+[BUILDTIME] 295 (5)
+[SIZE] 24.79 MB, 1105 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] cups
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] ghostscript
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] lcms
+[DEP] libart_lgpl23
+[DEP] libdnet
+[DEP] libdrm
+[DEP] libice
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsm
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxft
+[DEP] libxinerama
+[DEP] libxml
+[DEP] libxmu
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxt
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xproto
+[DEP] zlib

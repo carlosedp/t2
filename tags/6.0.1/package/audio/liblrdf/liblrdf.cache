@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1160464582 Tue Oct 10 07:16:22 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.08 MB, 15 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] ladspa
+[DEP] libidn
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] raptor
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib

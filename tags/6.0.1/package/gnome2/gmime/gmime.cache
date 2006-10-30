@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1161375293 Fri Oct 20 20:14:53 2006
+[BUILDTIME] 40 (7)
+[SIZE] 2.14 MB, 153 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk-sharp2
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mono
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib

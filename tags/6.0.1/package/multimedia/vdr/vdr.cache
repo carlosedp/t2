@@ -1,0 +1,37 @@
+
+[TIMESTAMP] 1161365548 Fri Oct 20 17:32:28 2006
+[BUILDTIME] 50 (5)
+[SIZE] 4.99 MB, 1251 files
+
+[DEP] 00-dirtree
+[DEP] a52dec
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imagemagick
+[DEP] libcap
+[DEP] libcdio
+[DEP] libexif
+[DEP] libgphoto
+[DEP] libid3tag
+[DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
+[DEP] libsndfile
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] ncurses
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

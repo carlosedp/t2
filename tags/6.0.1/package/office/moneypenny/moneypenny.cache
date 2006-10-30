@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1160506851 Tue Oct 10 19:00:51 2006
+[BUILDTIME] 5 (5)
+[SIZE] 1.20 MB, 77 files
+
+[DEP] 00-dirtree
+[DEP] aqmoney2
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gwenhywfar
+[DEP] linux-header
+[DEP] make
+[DEP] openhbci2
+[DEP] openssl
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

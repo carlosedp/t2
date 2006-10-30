@@ -1,0 +1,42 @@
+
+[TIMESTAMP] 1160424742 Mon Oct  9 20:12:22 2006
+[BUILDTIME] 225 (5)
+[SIZE] 11.09 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freealut
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gnupth
+[DEP] grep
+[DEP] libcdaudio
+[DEP] libdrm
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] mesa
+[DEP] openal
+[DEP] patch
+[DEP] pkgconfig
+[DEP] python
+[DEP] scons
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto
+[DEP] zlib

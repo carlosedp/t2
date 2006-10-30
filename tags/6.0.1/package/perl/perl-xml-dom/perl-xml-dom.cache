@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1160486716 Tue Oct 10 13:25:16 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.21 MB, 38 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] perl
+[DEP] perl-libwww
+[DEP] perl-uri
+[DEP] perl-xml-parser
+[DEP] perl-xml-regexp
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

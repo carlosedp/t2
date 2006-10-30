@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1160626731 Thu Oct 12 04:18:51 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.99 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1160270510 Sun Oct  8 01:21:50 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.35 MB, 70 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdftopcf
+[DEP] bigreqsproto
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] font-alias
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] make
+[DEP] mkfontdir
+[DEP] mkfontscale
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

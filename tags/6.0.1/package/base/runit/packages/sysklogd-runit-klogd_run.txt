@@ -1,0 +1,10 @@
+#!/bin/sh
+exec 2>&1
+
+if [[ "`uname -r`" = 2.4.* ]]; then
+	USER="chpst -Unobody"
+else
+	# on 2.6 you have to use root
+	USER=
+fi
+exec $USER D_sbindir/klogd -n 

@@ -1,0 +1,37 @@
+
+[TIMESTAMP] 1160287455 Sun Oct  8 06:04:15 2006
+[BUILDTIME] 65 (5)
+[SIZE] 11.04 MB, 3606 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gdbm
+[DEP] glibc
+[DEP] grep
+[DEP] groff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] tk
+[DEP] util-linux
+[DEP] xproto
+[DEP] zlib

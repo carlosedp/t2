@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1160335950 Sun Oct  8 19:32:30 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.45 MB, 67 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdftopcf
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mkfontdir
+[DEP] mkfontscale
+[DEP] ncurses
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

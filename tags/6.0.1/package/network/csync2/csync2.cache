@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1160510510 Tue Oct 10 20:01:50 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.10 MB, 11 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gcc
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] librsync
+[DEP] libtasn1
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] popt
+[DEP] sed
+[DEP] sqlite2
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

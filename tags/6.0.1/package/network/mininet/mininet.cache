@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1159960838 Wed Oct  4 11:20:38 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.10 MB, 16 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libowfat
+[DEP] linux-header
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
