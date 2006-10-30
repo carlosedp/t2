@@ -1,15 +1,16 @@
 
-[TIMESTAMP] 1134039996 Thu Dec  8 12:06:36 2005
-[BUILDTIME] 15 (9) ERROR
-[SIZE] 0.21 MB, 34 files
+[TIMESTAMP] 1160362396 Mon Oct  9 02:53:16 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.14 MB, 26 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
-[DEP] blackdown-jdk
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc

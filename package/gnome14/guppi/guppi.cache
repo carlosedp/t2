@@ -1,17 +1,24 @@
 
-[TIMESTAMP] 1134202937 Sat Dec 10 09:22:17 2005
-[BUILDTIME] 20 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1160451761 Tue Oct 10 03:42:41 2006
+[BUILDTIME] 115 (5)
+[SIZE] 2.03 MB, 333 files
 
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
+[DEP] bdb33
 [DEP] binutils
+[DEP] bonobo10
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] esound
 [DEP] findutils
 [DEP] flex
+[DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gdk-pixbuf10
@@ -38,9 +45,11 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] oaf10
 [DEP] orbit10
 [DEP] patch
 [DEP] perl
+[DEP] popt
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

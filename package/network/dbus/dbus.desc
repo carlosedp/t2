@@ -26,15 +26,16 @@
 
 [U] http://freedesktop.org/wiki/Software/dbus
 
-[A] Havoc Pennington <hp@redhat.com> etal.
+[A] Havoc Pennington <hp@redhat.com>
+[A] etal.
 [M] Juergen "George" Sawinski <jsaw@gmx.net>
 
 [C] extra/network
 [F] NOPARALLEL NO-AS-NEEDED
 
 [L] GPL
-[S] Stable
-[V] 0.94
-[P] X -----5---9 142.100
+[S] Alpha
+[V] 0.61
+[P] X -----5---9 149.500
 
-[D] 4024048517 dbus-0.94.tar.gz http://dbus.freedesktop.org/releases/dbus/
+[D] 1734199751 dbus-0.61.tar.gz http://dbus.freedesktop.org/releases/

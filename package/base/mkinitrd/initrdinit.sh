@@ -13,7 +13,7 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-echo "T2 early userspace (C) Rene Rebe - ExactCODE"
+echo "T2 early userspace ..."
 
 PATH=/sbin:/bin
 
@@ -24,9 +24,12 @@ mount -t usbfs none /proc/bus/usb
 mount -t sysfs none /sys
 ln -s /proc/self/fd /dev/fd
 
-echo "Populating u/dev ..."
-udevd -d
-udevtrigger
+# later on we might reverse these, that is run udevstart first,
+# and let udev add new ones as hotplug agents ...
+
+echo "Running hotplug++ hardware detection ..."
+/sbin/hotplug++ -synth
+echo "/sbin/hotplug++" > /proc/sys/kernel/hotplug
 
 echo "Loading additional subsystem and filesystem driver ..."
 # hack to be removed
@@ -46,21 +49,14 @@ for x in /lib/modules/*/kernel/fs/{*/,}*.*o ; do
 	modprobe $x
 done
 
+echo "Populating /dev (udev) ..."
+/sbin/udevstart
+
 echo "Mounting rootfs ..."
 
 # get the root device and init
 root="root= `cat /proc/cmdline`" ; root=${root##*root=} ; root=${root%% *}
 init="init= `cat /proc/cmdline`" ; init=${init##*init=} ; init=${init%% *}
-
-# maybe resume from disk?
-resume="`cat /proc/cmdline`"
-if [[ "$resume" = *resume* ]] && [[ "$resume" != *noresume* ]]; then
-	resume=${resume##*resume=} ; resume=${resume%% *}
-	resume=`ls -l $resume |
-sed 's/[^ ]* *[^ t]* *[^ ]* *[^ ]* *\([0-9]*\), *\([0-9]*\) .*/\1:\2/'`
-	echo "Attempting to resume from disk $resume."
-	echo "$resume" > /sys/power/resume
-fi
 
 # try best match / detected rootfs first, all the others thereafter
 filesystems=`disktype $root 2>/dev/null |

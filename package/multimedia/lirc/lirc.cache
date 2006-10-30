@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134211609 Sat Dec 10 11:46:49 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.46 MB, 46 files
+[TIMESTAMP] 1160457429 Tue Oct 10 05:17:09 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.45 MB, 45 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
@@ -16,9 +17,9 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imake
-[DEP] libdnet
 [DEP] libice
 [DEP] libsm
+[DEP] libusb
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
@@ -26,6 +27,7 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

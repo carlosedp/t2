@@ -1,11 +1,11 @@
 
-[TIMESTAMP] 1133986723 Wed Dec  7 21:18:43 2005
-[BUILDTIME] 60 (9)
-[SIZE] 4.74 MB, 166 files
+[TIMESTAMP] 1160293143 Sun Oct  8 07:39:03 2006
+[BUILDTIME] 160 (5)
+[SIZE] 6.09 MB, 190 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
-[DEP] bison
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
@@ -15,8 +15,7 @@
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
-[DEP] libgcrypt
-[DEP] libgpg-error
+[DEP] libtool
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

@@ -1,5 +1,5 @@
 
-[TIMESTAMP] 1133791751 Mon Dec  5 15:09:11 2005
+[TIMESTAMP] 1160584489 Wed Oct 11 16:34:49 2006
 [BUILDTIME] 5 (5)
 [SIZE] 2.95 MB, 9 files
 
@@ -8,6 +8,7 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] grep
 [DEP] sed

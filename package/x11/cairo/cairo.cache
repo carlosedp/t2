@@ -1,11 +1,13 @@
 
-[TIMESTAMP] 1133982223 Wed Dec  7 20:03:43 2005
-[BUILDTIME] 30 (9)
-[SIZE] 1.92 MB, 77 files
+[TIMESTAMP] 1160310748 Sun Oct  8 12:32:28 2006
+[BUILDTIME] 35 (5)
+[SIZE] 1.56 MB, 80 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] cf
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
@@ -17,9 +19,12 @@
 [DEP] glibc
 [DEP] glitz
 [DEP] grep
+[DEP] imake
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
@@ -28,7 +33,6 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
 [DEP] pkgconfig
 [DEP] renderproto
 [DEP] sed

@@ -1,22 +1,20 @@
 
-[TIMESTAMP] 1133911378 Wed Dec  7 00:22:58 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.89 MB, 27 files
+[TIMESTAMP] 1160270422 Sun Oct  8 01:20:22 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.88 MB, 19 files
 
+[DEP] 00-dirtree
 [DEP] bash
-[DEP] bitstream-vera-fonts
+[DEP] bigreqsproto
 [DEP] bzip2
-[DEP] cheapskatefonts
 [DEP] coreutils
 [DEP] diffutils
 [DEP] encodings
 [DEP] findutils
 [DEP] fontconfig
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] john-stracke-fonts
 [DEP] make
 [DEP] mkfontdir
 [DEP] mkfontscale
@@ -25,5 +23,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] tex-ttf
 [DEP] util-linux
+[DEP] xproto

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1161701313 Tue Oct 24 17:48:33 2006
-[BUILDTIME] 390 (5)
-[SIZE] 22.12 MB, 358 files
+[TIMESTAMP] 1161454439 Sat Oct 21 18:13:59 2006
+[BUILDTIME] 140 (5)
+[SIZE] 18.01 MB, 303 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -11,7 +11,6 @@
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
-[DEP] faac
 [DEP] ffmpeg
 [DEP] file
 [DEP] findutils
@@ -26,12 +25,9 @@
 [DEP] libdrm
 [DEP] libice
 [DEP] libjpeg
-[DEP] libogg
 [DEP] libpng
 [DEP] libsm
-[DEP] libtheora
 [DEP] libtiff
-[DEP] libvorbis
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
@@ -51,13 +47,10 @@
 [DEP] openal
 [DEP] openexr
 [DEP] pkgconfig
-[DEP] python
 [DEP] sed
 [DEP] sqlite
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] x264
 [DEP] xproto
-[DEP] xvid
 [DEP] zlib

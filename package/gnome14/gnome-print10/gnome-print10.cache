@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134069114 Thu Dec  8 20:11:54 2005
-[BUILDTIME] 50 (9)
-[SIZE] 2.37 MB, 141 files
+[TIMESTAMP] 1160377564 Mon Oct  9 07:06:04 2006
+[BUILDTIME] 50 (5)
+[SIZE] 2.32 MB, 132 files
 
+[DEP] 00-dirtree
 [DEP] a2ps
 [DEP] alsa-lib
 [DEP] audiofile
@@ -29,7 +30,6 @@
 [DEP] grep
 [DEP] gtk+12
 [DEP] imlib
-[DEP] libdockapp
 [DEP] libice
 [DEP] libsm
 [DEP] libx11

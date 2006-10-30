@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133818319 Mon Dec  5 22:31:59 2005
-[BUILDTIME] 50 (5)
-[SIZE] 1.37 MB, 47 files
+[TIMESTAMP] 1160612672 Thu Oct 12 00:24:32 2006
+[BUILDTIME] 35 (5)
+[SIZE] 1.44 MB, 45 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,7 +9,9 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -17,6 +19,7 @@
 [DEP] grep
 [DEP] imagemagick
 [DEP] lcms
+[DEP] libgd
 [DEP] libice
 [DEP] libjpeg
 [DEP] libpng
@@ -26,11 +29,13 @@
 [DEP] libxau
 [DEP] libxdmcp
 [DEP] libxext
+[DEP] libxpm
 [DEP] libxt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

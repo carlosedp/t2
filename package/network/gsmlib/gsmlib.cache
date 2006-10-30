@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134012924 Thu Dec  8 04:35:24 2005
-[BUILDTIME] 10 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1160347816 Sun Oct  8 22:50:16 2006
+[BUILDTIME] 45 (5)
+[SIZE] 1.76 MB, 49 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -10,6 +11,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc

@@ -24,8 +24,6 @@
 
 [C] base/library
 
-[F] FPIC-QUIRK
-
 [L] LGPL
 [S] Stable
 [V] 1.06.1

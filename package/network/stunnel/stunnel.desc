@@ -35,7 +35,8 @@
 
 [L] GPL
 [S] Stable
-[V] 4.18
+[V] 4.15
 [P] X -----5---9 203.600
 
-[D] 1917517749 stunnel-4.18.tar.gz ftp://stunnel.mirt.net/stunnel/
+[D] 579685283 stunnel-4.15.tar.gz ftp://stunnel.mirt.net/stunnel/
+

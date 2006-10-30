@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134274628 Sun Dec 11 05:17:08 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.16 MB, 20 files
+[TIMESTAMP] 1160487230 Tue Oct 10 13:33:50 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.11 MB, 12 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -55,4 +56,3 @@
 [DEP] util-linux
 [DEP] xextproto
 [DEP] xproto
-[DEP] zlib

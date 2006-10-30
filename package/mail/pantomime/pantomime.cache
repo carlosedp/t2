@@ -1,18 +1,19 @@
 
-[TIMESTAMP] 1134145129 Fri Dec  9 17:18:49 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.01 MB, 103 files
+[TIMESTAMP] 1160405512 Mon Oct  9 14:51:52 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.89 MB, 99 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] gnustep-base
-[DEP] gnustep-gui
 [DEP] gnustep-make
 [DEP] grep
 [DEP] linux-header

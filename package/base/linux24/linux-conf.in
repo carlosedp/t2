@@ -81,7 +81,6 @@ auto_config ()
 
 	# merge various text/plain config files
 	for x in $base/config/$config/linux.cfg \
-	         $base/target/$target/kernel${treever}.conf \
 	         $base/target/$target/kernel.conf ; do
 	   if [ -f $x ] ; then
 		echo "  merging: '$x'"
@@ -152,27 +151,20 @@ lx_injectextraversion () {
 	# update version.h - we only do this, because some other freaky
 	# projects like rsbac change EXTRAVERSION in other Makefiles ...
 	local rerun=""
-	( eval $MAKE $makeopt include/linux/utsrelease.h ||
-	  eval $MAKE $makeopt include/linux/version.h ) |
-		grep -q "is up to date" && rerun=1
+	eval $MAKE $makeopt include/linux/version.h | grep -q "is up to date" && rerun=1
 	if [ "$rerun" ] ; then
 		echo "WARNING: Your system's timer resolution is too low ..."
 		sleep 1 ; touch Makefile
-		eval $MAKE $makeopt include/linux/utsrelease.h ||
 		eval $MAKE $makeopt include/linux/version.h
 	fi
 
 	# get kernel_release
 	rerun=1
 	while true; do
-		for fn in include/linux/utsrelease.h include/linux/version.h; do
-			[ -f $fn ] && versionh=$fn && break
-		done
-
-		lx_kernelrelease="$( echo -e "#include \"$versionh\"\nUTS_RELEASE" |
-		                     gcc -E - | tail -n 1 | cut -d '"' -f 2 )"
+		lx_kernelrelease="$( echo -e "#include <linux/version.h>\nUTS_RELEASE" |
+		                     gcc -E -I./include - | tail -n 1 | cut -d '"' -f 2 )"
 		if [ -z "$lx_kernelrelease" -a "$rerun" ]; then
-			$MAKE $makeopt .kernelrelease include/linux/utsrelease.h include/linux/version.h
+			$MAKE $makeopt .kernelrelease include/linux/version.h
 			rerun= ; continue
 		fi
 		break
@@ -213,6 +205,16 @@ lx_patch ()
 	echo "Correcting user and permissions ..."
 	chown -R root:root . ; chmod -R u=rwX,go=rX .
 
+	if [[ $treever = 24* ]] ; then
+		echo "Create symlinks and a few headers for <$lx_cpu> ... "
+		eval $MAKE $makeopt symlinks
+		cp $base/package/base/linux24/autoconf.h include/linux/
+		touch include/linux/modversions.h
+	else
+		echo "Create symlinks and a few headers for <$lx_cpu> ... "
+		eval $MAKE $makeopt include/asm
+	fi
+
 	echo "Clean up the *.orig and *~ files ... "
 	rm -f .config.old
 	find -name '*.orig' -o -name '*~' | xargs rm -f
@@ -232,16 +234,6 @@ lx_config() {
 
 	# regrab for stuff like rsbac ... :-(
 	lx_injectextraversion
-
-	if [[ $treever = 24* ]] ; then
-		echo "Create symlinks and a few headers for <$lx_cpu> ... "
-		eval $MAKE $makeopt symlinks
-		cp $base/package/base/linux24/autoconf.h include/linux/
-		touch include/linux/modversions.h
-	else
-		echo "Create symlinks and a few headers for <$lx_cpu> ... "
-		eval $MAKE $makeopt include/asm
-	fi
 
 	echo "... configuration of $lx_kernelrelease finished!"
 }

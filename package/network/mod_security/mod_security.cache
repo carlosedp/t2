@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133827028 Tue Dec  6 00:57:08 2005
+[TIMESTAMP] 1160625173 Thu Oct 12 03:52:53 2006
 [BUILDTIME] 5 (5)
-[SIZE] 0.41 MB, 16 files
+[SIZE] 0.24 MB, 9 files
 
 [DEP] 00-dirtree
 [DEP] apache
@@ -12,6 +12,8 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

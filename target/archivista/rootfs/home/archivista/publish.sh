@@ -272,28 +272,15 @@ cleanup
 
 ### ISO generation END ###
 
-# when uncompressed we must write it the USB device, otherwise we ask
-# whether to write it and how
-kind=USB
-write_err=0
 if [ -z "$uncompr" ]; then
-	# only remove when not uncompressed, as compressed it is inside the ISO
 	rm live.squash
-
-	kind=`Xdialog --title 'Archive publishing' --stdout --no-tags --seperator ' ' \
-	              --radiolist "Disc image generation completed.
-The compressed ISO image is $(ls -sh $isoname | sed 's/ .*// ; s/\([MGT]\)/ \1B/') \
+	Xdialog --title 'Archive publishing' \
+	        --yesno "Disc image generation completed.
+The compressed ISO image is `ls -sh $isoname | sed 's/ .*// ; s/\([MGT]\)/ \1B /'` \
 and named
 $PWD/$isoname.
-Do you want to copy write it onto a connected device?" 0 0 3 \
-USB USB on ISO CD/DVD off` || exit
+Do you want to copy the archive to an USB device?" 0 0 || exit
 fi
-
-if [ "$kind" = ISO ]; then
-	# use the external Write Optical DIsc Media script
-	${0%/*}/wodim.sh $isoname || write_err=1
-	
-else # USB
 
 ### USB device install BEGIN ###
 
@@ -306,15 +293,15 @@ rc hal stop
 usbdev=
 
 get_device_list () {
-	# from livecd init, best kept in sync ,-) -ReneR
+# from livecd init, best kept in sync ,-) -ReneR
 	for x in /sys/block/*/device; do
 		case "`ls -l $x`" in
-			*/usb*|*/ieee1394) : ;;
-			*) continue ;;
+	     */usb*|*/ieee1394) : ;;
+	     *) continue ;;
 		esac
 		x=${x%/device}; x=/dev/${x#/sys/block/}
 		echo -n " $x "
-	done
+		done
 }
 
 archived=0
@@ -341,7 +328,7 @@ while [ -z "$dev" ] && jobs %- ; do # while no device and not cancel
 	done
 	if [ $new_one -eq 0 ]; then
 		# update the list, so pulling a device and inserting one works (both sda)
-		initial_list="$new_list"
+  	initial_list="$new_list"
 	fi
 done
 usbdev=$dev
@@ -399,13 +386,9 @@ rc hal start
 Xdialog --no-cancel --title "Archive publishing" \
         --msgbox "Archive copied to the USB device." 0 0
 
+# do not ask when uncompressed, the ISO is boot code only in this case
+if [ "$uncompr" ] || Xdialog --default-no --title "Archive publishing" \
+           --yesno "Delete published archive now?" 0 0; then
+	rm -v ./$isoname
 fi
 
-# do not ask when uncompressed, the ISO is boot code only in this case
-# or on write error
-if [ "$uncompr" -a $write_err = 0 ]; then
-	if Xdialog --default-no --title "Archive publishing" \
-           --yesno "Delete published archive now?" 0 0; then
-		rm -v ./$isoname
-	fi
-fi

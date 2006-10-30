@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134059285 Thu Dec  8 17:28:05 2005
-[BUILDTIME] 40 (9)
-[SIZE] 0.74 MB, 80 files
+[TIMESTAMP] 1160368817 Mon Oct  9 04:40:17 2006
+[BUILDTIME] 35 (5)
+[SIZE] 0.75 MB, 79 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,16 +9,24 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] fam
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] gdbm
 [DEP] glibc
 [DEP] grep
+[DEP] libmemcache
 [DEP] linux-header
+[DEP] lua
 [DEP] make
 [DEP] mktemp
+[DEP] mysql
+[DEP] ncurses
 [DEP] net-tools
+[DEP] openssl
 [DEP] pcre
+[DEP] readline
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

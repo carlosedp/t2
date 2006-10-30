@@ -1,9 +1,8 @@
 
-[TIMESTAMP] 1133774821 Mon Dec  5 10:27:01 2005
+[TIMESTAMP] 1161453763 Sat Oct 21 18:02:43 2006
 [BUILDTIME] 20 (5) ERROR
 [SIZE] 0.02 MB, 8 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -15,6 +14,7 @@
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
+[DEP] fixesproto
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -23,8 +23,11 @@
 [DEP] glitz
 [DEP] grep
 [DEP] imake
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libsvg
 [DEP] libsvg-cairo
 [DEP] libx11
@@ -32,6 +35,7 @@
 [DEP] libxcursor
 [DEP] libxdmcp
 [DEP] libxext
+[DEP] libxfixes
 [DEP] libxinerama
 [DEP] libxml
 [DEP] libxrandr
@@ -43,7 +47,6 @@
 [DEP] net-tools
 [DEP] perl
 [DEP] pkgconfig
-[DEP] randrproto
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
@@ -52,4 +55,3 @@
 [DEP] xextproto
 [DEP] xineramaproto
 [DEP] xproto
-[DEP] zlib

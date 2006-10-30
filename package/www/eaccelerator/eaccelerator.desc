@@ -44,13 +44,14 @@
 [A] Dmitry Stogov {Turck MMCache author}
 [A] Shin Seung Woo <segv74@gmail.com>
 [A] Bart Vanbrabant <bart.vanbrabant@zoeloelip.be>
-[M] Vlad Glagolev <stelzy@gmail.com>
+[M] Alejandro Mery <amery@geeks.cl>
 
 [C] extra/tool
 
 [L] GPL
 [S] Stable
-[V] 0.9.5
+[V] svn203
 [P] X -----5---9 800.000
 
-[D] 3053273020 eaccelerator-0.9.5.tar.bz2 http://dl.sourceforge.net/sourceforge/eaccelerator/
+#[D] 819540783 eaccelerator-0.9.4.tar.bz2 http://dl.sourceforge.net/sourceforge/eaccelerator/
+[D] 2082549102 eaccelerator-svn203.tar.gz http://snapshots.eaccelerator.net/

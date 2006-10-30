@@ -11,7 +11,7 @@ fi
 # include shared code
 . ${0%/*}/Global.pm.in
 . ${0%/*}/perl-var.in
-. ${0%/*}/multi-cpu.in
+
 
 cd $from
 
@@ -60,9 +60,7 @@ if grep -q '^<DefaultPrinter' etc/cups/printers.conf; then
 fi
 
 # exim
-grep -q '^# *local_interface' etc/exim/configure && update_mail_incoming=1
-update_mail_relay="`sed -n 's/^hostlist .*relay_from_hosts = 127.0.0.1 : //p' \
-                        /etc/exim/configure`"
+grep -q '^# *local_interface' etc/exim/configure && update_incoming_mail=1
 
 # admin mail
 [ -f etc/mail.conf ] && . etc/mail.conf
@@ -108,9 +106,8 @@ update_button_db=`get_perl_var '\$val{db1}' $from/home/cvs/archivista/jobs/sane-
 update_button_user=`get_perl_var '\$val{user1}' $from/home/cvs/archivista/jobs/sane-button.pl`
 update_button_pw=`get_perl_var '\$val{pw1}' $from/home/cvs/archivista/jobs/sane-button.pl`
 
-update_multi_cpu=`get_max_cpus $from/boot/grub/menu.lst`
-
 # store all update variables
 for var in ${!update_*}; do
 	declare -p $var
 done > $to/config
+

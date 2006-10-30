@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1133969252 Wed Dec  7 16:27:32 2005
-[BUILDTIME] 10 (9)
-[SIZE] 3.58 MB, 83 files
+[TIMESTAMP] 1160285633 Sun Oct  8 05:33:53 2006
+[BUILDTIME] 5 (5)
+[SIZE] 3.54 MB, 79 files
 
+[DEP] 00-dirtree
+[DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2

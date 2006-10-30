@@ -4,7 +4,6 @@
 # 
 # T2 SDE: target/bootdisk/linuxrc2.sh
 # Copyright (C) 2004 - 2005 The T2 SDE Project
-# Copyright (C) 2006 Rene Rebe
 # 
 # More information can be found in the files COPYING and README.
 # 
@@ -48,22 +47,12 @@ for x in /etc/setup-*.sh /setup/setup.sh ; do
    fi
 done
 
-while true; do
-	echo -n "
+echo -n "
 If you use a serial terminal, enter the names of terminal devices to use,
-for example 'ttyS0' for the first serial port or just 'console',
+for example '/dev/ttyS0' for the first serial port or just '/dev/console',
 just hit enter otherwise. (default=vc/1 vc/2 vc/3 vc/4 vc/5 vc/6): "
-	read ttydevs
-	if [ "$ttydevs" ]; then # check
-		for x in $ttydevs; do
-			[ ! -c /dev/$x ] &&
-				echo "$x is not a char-device."&& continue 2
-		done
-	else
-		ttydevs="vc/1 vc/2 vc/3 vc/4 vc/5 vc/6"
-	fi
-	break
-done
+read ttydevs
+[ -z "$ttydevs" ] && ttydevs="vc/1 vc/2 vc/3 vc/4 vc/5 vc/6"
 
 echo "
 Just type 'stone' now, if you want to perform a normal installation of T2 "
@@ -82,3 +71,4 @@ done
 
 exec < /dev/null > /dev/null 2>&1
 while : ; do sleep 1 ; done
+

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134226981 Sat Dec 10 16:03:01 2005
-[BUILDTIME] 15 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1160465922 Tue Oct 10 07:38:42 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.55 MB, 229 files
 
+[DEP] 00-dirtree
 [DEP] aalib
 [DEP] bash
 [DEP] binutils
@@ -32,6 +33,7 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] perl
 [DEP] sed
 [DEP] slang
 [DEP] sysfiles

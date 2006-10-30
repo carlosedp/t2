@@ -12,9 +12,9 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] Userspace interface to kernel DRM services
+[I] A modular X package
 
-[T] The userspace interface library to kernel DRM services.
+[T] A modular X package
 
 [U] http://people.freedesktop.org/~ajax/libdrm/
 
@@ -25,10 +25,10 @@
 
 [L] OpenSource
 [S] Stable
-[V] 2.0.2
+[V] 2.0
 [P] X -----5---9 112.445
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 2302413273 libdrm-2.0.2.tar.gz http://people.freedesktop.org/~ajax/libdrm/
+[D] 906935345 libdrm-2.0.tar.gz http://people.freedesktop.org/~ajax/libdrm/
 

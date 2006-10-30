@@ -26,14 +26,14 @@
 [U] http://www.etpan.org/ 
 
 [A] DINH Viet Hoa <hoa@users.sourceforge.net> 
-[M] T2 Project <t2@t2-project.org> 
+[M] Christian Wiese <jeru@ixplanet.org> 
 
 [C] extra/office
 [F] NOPARALLEL
 
 [L] GPL
 [S] Stable
-[V] 0.48
+[V] 0.45
 [P] X -----5---9 173.500
 
-[D] 233070807 libetpan-0.48.tar.gz http://dl.sourceforge.net/sourceforge/libetpan/
+[D] 2962412912 libetpan-0.45.tar.gz http://dl.sourceforge.net/sourceforge/libetpan/

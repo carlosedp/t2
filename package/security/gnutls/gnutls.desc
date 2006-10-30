@@ -31,14 +31,16 @@
 [A] Fabio Fiorina <fiorinaf@gnutls.org>
 [A] Timo Schulz <twoaday@freakmail.de>
 [A] Andrew McDonald <andrew@mcdonald.org.uk> 
-[M] Rene Rebe <rene@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/security extra/development 
 
-[L] LGPL
+[L] OpenSource 
+
+[E] libtasn1 opencdk libgcrypt
 
 [S] Stable
-[V] 1.4.4
+[V] 1.2.11
 [P] X -----5---9 130.000
 
-[D] 2064622690 gnutls-1.4.4.tar.bz2 ftp://ftp.gnutls.org/pub/gnutls/ 
+[D] 1042671884 gnutls-1.2.11.tar.bz2 ftp://ftp.gnutls.org/pub/gnutls/ 

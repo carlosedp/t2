@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134068166 Thu Dec  8 19:56:06 2005
-[BUILDTIME] 310 (9)
-[SIZE] 42.21 MB, 3248 files
+[TIMESTAMP] 1160373414 Mon Oct  9 05:56:54 2006
+[BUILDTIME] 545 (5)
+[SIZE] 42.53 MB, 3256 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -10,7 +10,6 @@
 [DEP] bzip2
 [DEP] cairo
 [DEP] cf
-[DEP] control-center
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
@@ -30,11 +29,9 @@
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libbonobo
-[DEP] libdnet
 [DEP] libgnome
 [DEP] libice
 [DEP] libidl
-[DEP] libjpeg
 [DEP] libpng
 [DEP] libsm
 [DEP] libx11
@@ -52,7 +49,7 @@
 [DEP] libxt
 [DEP] linux-header
 [DEP] make
-[DEP] nautilus-cd-burner
+[DEP] mktemp
 [DEP] net-tools
 [DEP] orbit2
 [DEP] pango

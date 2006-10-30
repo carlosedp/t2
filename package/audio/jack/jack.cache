@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134030504 Thu Dec  8 09:28:24 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.91 MB, 88 files
+[TIMESTAMP] 1160356495 Mon Oct  9 01:14:55 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.91 MB, 78 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
@@ -15,6 +16,7 @@
 [DEP] gcc
 [DEP] ghostscript
 [DEP] glibc
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] libcap
 [DEP] libsndfile

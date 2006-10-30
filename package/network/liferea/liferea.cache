@@ -1,10 +1,10 @@
 
-[TIMESTAMP] 1134262918 Sun Dec 11 02:01:58 2005
-[BUILDTIME] 30 (9)
-[SIZE] 1.28 MB, 87 files
+[TIMESTAMP] 1160479556 Tue Oct 10 11:25:56 2006
+[BUILDTIME] 25 (5)
+[SIZE] 5.01 MB, 116 files
 
+[DEP] 00-dirtree
 [DEP] atk
-[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -25,6 +25,7 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
@@ -50,18 +51,14 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
 [DEP] orbit2
 [DEP] pango
-[DEP] perl
 [DEP] pkgconfig
-[DEP] popt
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux
 [DEP] xproto
 [DEP] zlib

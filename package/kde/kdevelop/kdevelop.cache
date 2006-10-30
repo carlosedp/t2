@@ -1,11 +1,14 @@
 
-[TIMESTAMP] 1134304949 Sun Dec 11 13:42:29 2005
-[BUILDTIME] 1405 (9) ERROR
-[SIZE] 35.81 MB, 1670 files
+[TIMESTAMP] 1160503280 Tue Oct 10 18:01:20 2006
+[BUILDTIME] 925 (5)
+[SIZE] 31.29 MB, 1704 files
 
-[DEP] apr
-[DEP] apr-util
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
+[DEP] bdb
 [DEP] binutils
 [DEP] bzip2
 [DEP] cf

@@ -11,13 +11,12 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
-[I] Renders realistic skies in real time with openGL
+[I] renders realistic skies in real time with openGL
 
 [T] With Stellarium, you really see what you can see with
 [T] your eyes, binoculars or a small telescope. It displays
 [T] stars, constellations, planets, nebulas and others things
-[T] like ground, landscape, atmophere, etc ...
+[T] like ground, landscape, atmophere, etc...
 
 [U] http://www.stellarium.org/
 
@@ -28,7 +27,8 @@
 
 [L] GPL
 [S] Stable
-[V] 0.8.2
+[V] 0.7.1
 [P] X -----5---9 195.600
 
-[D] 1551868554 stellarium-0.8.2.tar.gz http://dl.sourceforge.net/sourceforge/stellarium/
+[D] 3010129959 stellarium-0.7.1.tar.gz http://dl.sourceforge.net/sourceforge/stellarium/
+

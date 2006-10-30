@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134233647 Sat Dec 10 17:54:07 2005
-[BUILDTIME] 120 (9)
-[SIZE] 5.08 MB, 360 files
+[TIMESTAMP] 1161452232 Sat Oct 21 17:37:12 2006
+[BUILDTIME] 105 (5)
+[SIZE] 4.88 MB, 354 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -10,8 +11,10 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] divx4linux
+[DEP] expat
 [DEP] ffmpeg
 [DEP] findutils
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc

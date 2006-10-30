@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133834088 Tue Dec  6 02:54:48 2005
+[TIMESTAMP] 1160636253 Thu Oct 12 06:57:33 2006
 [BUILDTIME] 20 (5)
-[SIZE] 0.53 MB, 33 files
+[SIZE] 0.37 MB, 32 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -24,10 +24,12 @@
 [DEP] libxau
 [DEP] libxdmcp
 [DEP] libxpm
+[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

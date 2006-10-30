@@ -11,8 +11,7 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
-[I] A Reverse-Proxy and Loadbalancer 
+[I] Pound - Reverse-Proxy and Loadbalancer 
 
 [T] The Pound program is a reverse proxy, load balancer and HTTPS front-end 
 [T] for Web server(s). Pound was developed to enable distributing the load 
@@ -22,13 +21,14 @@
 [U] http://www.apsis.ch/pound/ 
 
 [A] Robert Segall <roseg@apsis.ch> 
-[M] Rene Rebe <rene@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/network
+
 [L] OpenSource 
 
 [S] Stable
-[V] 2.1.5
+[V] 2.1
 [P] X -----5---9 200.400
 
-[D] 3151447207 Pound-2.1.5.tgz http://www.apsis.ch/pound/ 
+[D] 182545162 Pound-2.1.tgz http://www.apsis.ch/pound/ 

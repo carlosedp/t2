@@ -1,23 +1,51 @@
 
-[TIMESTAMP] 1134010532 Thu Dec  8 03:55:32 2005
-[BUILDTIME] 80 (9)
-[SIZE] 6.19 MB, 196 files
+[TIMESTAMP] 1160346681 Sun Oct  8 22:31:21 2006
+[BUILDTIME] 55 (5)
+[SIZE] 5.88 MB, 190 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash
 [DEP] bdb33
 [DEP] binutils
+[DEP] bitstream-vera-fonts
 [DEP] bzip2
 [DEP] cf
+[DEP] cheapskatefonts
 [DEP] coreutils
 [DEP] diffutils
+[DEP] encodings
 [DEP] esound
 [DEP] expat
 [DEP] findutils
+[DEP] font-adobe
+[DEP] font-adobe-utopia
+[DEP] font-alias
+[DEP] font-arabic-misc
+[DEP] font-bh
+[DEP] font-bh-lucidatypewriter
+[DEP] font-bh-ttf
+[DEP] font-bitstream
+[DEP] font-cronyx-cyrillic
+[DEP] font-cursor-misc
+[DEP] font-daewoo-misc
+[DEP] font-dec-misc
+[DEP] font-isas-misc
+[DEP] font-jis-misc
+[DEP] font-micro-misc
+[DEP] font-misc-cyrillic
+[DEP] font-misc-misc
+[DEP] font-mutt-misc
+[DEP] font-schumacher-misc
+[DEP] font-screen-cyrillic
+[DEP] font-sony-misc
+[DEP] font-sun-misc
+[DEP] font-util
+[DEP] font-winitzki-cyrillic
 [DEP] fontconfig
+[DEP] freefonts
 [DEP] freetype
-[DEP] fribidi
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
@@ -54,6 +82,7 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] terminus-font
 [DEP] util-linux
 [DEP] xextproto
 [DEP] xineramaproto

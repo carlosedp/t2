@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134126206 Fri Dec  9 12:03:26 2005
-[BUILDTIME] 40 (9)
-[SIZE] 4.60 MB, 2053 files
+[TIMESTAMP] 1160395310 Mon Oct  9 12:01:50 2006
+[BUILDTIME] 30 (5)
+[SIZE] 4.34 MB, 2036 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -19,6 +20,7 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-icon-theme
 [DEP] grep
 [DEP] gtk+
 [DEP] gtk-engines
@@ -31,6 +33,7 @@
 [DEP] libxrender
 [DEP] linux-header
 [DEP] make
+[DEP] metacity
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pango

@@ -16,10 +16,6 @@ sync ; sleep 1
 echo "Unmounting filesystems."
 umount -avf || error=$?
 
-if [[ "$*" = *-h* ]]; then
-	echo "Powering off."
-	halt -pf
-else
-	echo "Rebooting the system."
-	reboot -f
-fi
+echo "Reboot ..."
+reboot -f
+

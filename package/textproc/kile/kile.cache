@@ -1,10 +1,12 @@
 
-[TIMESTAMP] 1133833088 Tue Dec  6 02:38:08 2005
-[BUILDTIME] 60 (5)
-[SIZE] 3.71 MB, 607 files
+[TIMESTAMP] 1160635115 Thu Oct 12 06:38:35 2006
+[BUILDTIME] 100 (5)
+[SIZE] 9.74 MB, 1073 files
 
 [DEP] 00-dirtree
 [DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -23,6 +25,7 @@
 [DEP] grep
 [DEP] imake
 [DEP] k3b-i18n
+[DEP] kde-i18n-es
 [DEP] kde-i18n-it
 [DEP] kdelibs
 [DEP] libart_lgpl23
@@ -48,6 +51,7 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp

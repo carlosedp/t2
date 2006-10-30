@@ -11,8 +11,7 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
-[I] A language-neutral HTML template system  
+[I] Clearsilver - language-neutral HTML template system  
 
 [T] Clearsilver is a fast, powerful, and language-neutral HTML template system. 
 [T] In both static content sites and dynamic HTML applications, it provides a 
@@ -22,7 +21,7 @@
 [U] http://www.clearsilver.net/ 
 
 [A] Brandon Long 
-[M] Rene Rebe <rene@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/development
 [F] FPIC-QUIRK

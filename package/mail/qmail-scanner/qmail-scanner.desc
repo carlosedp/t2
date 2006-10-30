@@ -45,8 +45,8 @@
 
 [L] GPL
 [S] Stable
-[V] 2.00st-20060416
+[V] 1.25st-20050406
 [P] O -------7-9 800.000
 
-[D] 1400505392 qmail-scanner-2.00.tgz http://dl.sourceforge.net/sourceforge/qmail-scanner/
-[D] 3661380608 q-s-2.00st-20060416.patch.gz http://toribio.apollinare.org/qmail-scanner/download/
+[D] 4264434250 qmail-scanner-1.25.tgz http://dl.sourceforge.net/sourceforge/qmail-scanner/
+[D] 2987310235 q-s-1.25st-20050406.patch.gz http://toribio.apollinare.org/qmail-scanner/download/

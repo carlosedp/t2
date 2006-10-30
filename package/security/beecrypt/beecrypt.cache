@@ -1,32 +1,26 @@
 
-[TIMESTAMP] 1134246685 Sat Dec 10 21:31:25 2005
-[BUILDTIME] 45 (9) ERROR
-[SIZE] 0.99 MB, 74 files
+[TIMESTAMP] 1160348864 Sun Oct  8 23:07:44 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.75 MB, 62 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
-[DEP] pil
 [DEP] python
-[DEP] rpm
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
-[DEP] zope

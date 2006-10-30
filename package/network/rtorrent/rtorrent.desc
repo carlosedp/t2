@@ -24,8 +24,8 @@
 [C] extra/network
 
 [L] GPL
-[S] Beta
-[V] 0.6.3
+[S] Stable
+[V] 0.5.3
 [P] X -----5---9 801.000 
 
-[D] 1135204329 rtorrent-0.6.3.tar.gz http://libtorrent.rakshasa.no/downloads/
+[D] 2672341356 rtorrent-0.5.3.tar.gz http://libtorrent.rakshasa.no/downloads/

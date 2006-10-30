@@ -1,16 +1,17 @@
 
-[TIMESTAMP] 1134029922 Thu Dec  8 09:18:42 2005
-[BUILDTIME] 10 (9)
-[SIZE] 2.54 MB, 58 files
+[TIMESTAMP] 1160356279 Mon Oct  9 01:11:19 2006
+[BUILDTIME] 5 (5)
+[SIZE] 5.76 MB, 72 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] ghostscript
-[DEP] ghostscript-fonts
 [DEP] glibc
 [DEP] grep
 [DEP] groff

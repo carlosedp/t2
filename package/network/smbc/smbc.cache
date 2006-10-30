@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133828578 Tue Dec  6 01:22:58 2005
-[BUILDTIME] 20 (5)
-[SIZE] 0.31 MB, 31 files
+[TIMESTAMP] 1160626864 Thu Oct 12 04:21:04 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.37 MB, 22 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -12,6 +12,7 @@
 [DEP] cyrus-sasl2
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc

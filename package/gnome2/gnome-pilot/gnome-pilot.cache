@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134124801 Fri Dec  9 11:40:01 2005
-[BUILDTIME] 55 (9)
-[SIZE] 2.18 MB, 133 files
+[TIMESTAMP] 1160394727 Mon Oct  9 11:52:07 2006
+[BUILDTIME] 45 (5)
+[SIZE] 2.05 MB, 125 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -21,6 +22,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -31,7 +33,6 @@
 [DEP] gob
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -59,7 +60,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
@@ -69,7 +69,6 @@
 [DEP] pilot-link
 [DEP] pkgconfig
 [DEP] popt
-[DEP] readline
 [DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed

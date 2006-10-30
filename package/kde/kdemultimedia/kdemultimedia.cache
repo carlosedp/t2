@@ -1,15 +1,84 @@
 
-[TIMESTAMP] 1134183730 Sat Dec 10 04:02:10 2005
-[BUILDTIME] 5 (9) ERROR
-[SIZE] 0.01 MB, 6 files
+[TIMESTAMP] 1160439635 Tue Oct 10 00:20:35 2006
+[BUILDTIME] 600 (5)
+[SIZE] 23.15 MB, 1305 files
 
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] arts
+[DEP] audiofile
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
+[DEP] binutils
 [DEP] bzip2
+[DEP] cdparanoia
+[DEP] cf
 [DEP] coreutils
 [DEP] diffutils
+[DEP] esound
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] flac
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
 [DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
 [DEP] grep
-[DEP] patch
+[DEP] gstreamer
+[DEP] imake
+[DEP] kdelibs
+[DEP] lame
+[DEP] libart_lgpl23
+[DEP] libcdaudio
+[DEP] libdrm
+[DEP] libice
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libmad
+[DEP] libogg
+[DEP] libpng
+[DEP] libsm
+[DEP] libvorbis
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxft
+[DEP] libxinerama
+[DEP] libxml
+[DEP] libxmu
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxt
+[DEP] libxv
+[DEP] libxxf86dga
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] pcre
+[DEP] perl
+[DEP] pkgconfig
+[DEP] qt
 [DEP] sed
 [DEP] sysfiles
+[DEP] taglib
 [DEP] tar
+[DEP] util-linux
+[DEP] videoproto
+[DEP] xextproto
+[DEP] xf86dgaproto
+[DEP] xf86vidmodeproto
+[DEP] xproto
+[DEP] zlib

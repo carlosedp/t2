@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134294684 Sun Dec 11 10:51:24 2005
-[BUILDTIME] 285 (9)
-[SIZE] 14.47 MB, 243 files
+[TIMESTAMP] 1160498554 Tue Oct 10 16:42:34 2006
+[BUILDTIME] 180 (5)
+[SIZE] 14.28 MB, 185 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bc
 [DEP] binutils
@@ -20,7 +21,10 @@
 [DEP] libdrm
 [DEP] libice
 [DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
 [DEP] libsdl
+[DEP] libsdl_image
 [DEP] libsm
 [DEP] libx11
 [DEP] libxau

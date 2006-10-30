@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133811054 Mon Dec  5 20:30:54 2005
-[BUILDTIME] 15 (5)
-[SIZE] 1.49 MB, 80 files
+[TIMESTAMP] 1160610007 Wed Oct 11 23:40:07 2006
+[BUILDTIME] 10 (5)
+[SIZE] 1.68 MB, 76 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -22,6 +22,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -31,6 +32,8 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] hal
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -40,6 +43,7 @@
 [DEP] libgnomeui
 [DEP] libice
 [DEP] libjpeg
+[DEP] libnotify
 [DEP] libpng
 [DEP] libsm
 [DEP] libx11
@@ -55,6 +59,7 @@
 [DEP] libxrender
 [DEP] linux-header
 [DEP] make
+[DEP] memprof
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
@@ -64,6 +69,7 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

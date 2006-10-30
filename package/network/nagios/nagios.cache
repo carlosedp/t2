@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134275207 Sun Dec 11 05:26:47 2005
-[BUILDTIME] 35 (9)
-[SIZE] 4.62 MB, 311 files
+[TIMESTAMP] 1160487527 Tue Oct 10 13:38:47 2006
+[BUILDTIME] 25 (5)
+[SIZE] 4.72 MB, 305 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -28,9 +28,11 @@
 [DEP] libxpm
 [DEP] linux-header
 [DEP] make
+[DEP] mktemp
 [DEP] net-tools
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] zlib

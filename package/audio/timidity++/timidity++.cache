@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134254385 Sat Dec 10 23:39:45 2005
-[BUILDTIME] 40 (9)
-[SIZE] 0.94 MB, 19 files
+[TIMESTAMP] 1160475703 Tue Oct 10 10:21:43 2006
+[BUILDTIME] 30 (5)
+[SIZE] 0.85 MB, 9 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
@@ -15,6 +16,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -44,4 +46,3 @@
 [DEP] xaw3d
 [DEP] xextproto
 [DEP] xproto
-[DEP] zlib

@@ -14,9 +14,9 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] C support library
+[I] Needed by syslog-ng (compile time)
 
-[T] Libol is a C support library simillar to glib abd used by syslog-ng.
+[T] Needed by syslog-ng (compile time). 
 
 [U] http://www.balabit.hu/en/downloads/syslog-ng/
 

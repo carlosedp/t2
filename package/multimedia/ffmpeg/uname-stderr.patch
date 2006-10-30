@@ -26,7 +26,7 @@ Our sandbox yields warnings on stderr about not to use uname in the build.
  # to the Makefile, so it can distinguish between flavors
  # of AltiVec on PowerPC.
 -TARGET_OS=`( uname -s ) 2>&1`
-+TARGET_OS=`uname -s`
++TARGET_OS=`uname -s 2>/dev/null`
    case "$TARGET_OS" in
    Linux|FreeBSD|NetBSD|BSD/OS|OpenBSD|SunOS|QNX|Darwin|GNU|BeOS|MorphOS)
      ;;
