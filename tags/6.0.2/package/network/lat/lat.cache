@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1161370065 Fri Oct 20 18:47:45 2006
+[BUILDTIME] 10 (6)
+[SIZE] 2.80 MB, 134 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-keyring
+[DEP] grep
+[DEP] gtk-sharp2
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mono
+[DEP] net-tools
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] scrollkeeper
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

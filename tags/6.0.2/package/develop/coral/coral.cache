@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1160598342 Wed Oct 11 20:25:42 2006
+[BUILDTIME] 15 (5) ERROR
+[SIZE] 0.01 MB, 7 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libxml
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] python
+[DEP] qt
+[DEP] sed
+[DEP] swig
+[DEP] sysfiles
+[DEP] tar

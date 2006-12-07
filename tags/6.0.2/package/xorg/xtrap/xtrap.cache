@@ -1,0 +1,38 @@
+
+[TIMESTAMP] 1160275096 Sun Oct  8 02:38:16 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.07 MB, 21 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bigreqsproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libice
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxt
+[DEP] libxtrap
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] trapproto
+[DEP] util-linux
+[DEP] xextproto
+[DEP] xproto

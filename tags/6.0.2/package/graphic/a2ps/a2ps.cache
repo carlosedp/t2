@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1160342769 Sun Oct  8 21:26:09 2006
+[BUILDTIME] 25 (5)
+[SIZE] 2.81 MB, 288 files
+
+[DEP] 00-dirtree
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] file
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] psutils
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

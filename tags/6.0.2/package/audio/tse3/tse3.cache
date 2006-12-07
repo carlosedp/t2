@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1160475040 Tue Oct 10 10:10:40 2006
+[BUILDTIME] 60 (5)
+[SIZE] 2.46 MB, 172 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] arts
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] kdelibs
+[DEP] kdemultimedia
+[DEP] libice
+[DEP] libmad
+[DEP] libogg
+[DEP] libsm
+[DEP] libvorbis
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] nas
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

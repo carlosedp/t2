@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1160395343 Mon Oct  9 12:02:23 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.54 MB, 12 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+12
+[DEP] gzip
+[DEP] imlib
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxi
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto
+[DEP] zlib

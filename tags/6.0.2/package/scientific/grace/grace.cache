@@ -1,0 +1,49 @@
+
+[TIMESTAMP] 1160533547 Wed Oct 11 02:25:47 2006
+[BUILDTIME] 30 (5)
+[SIZE] 4.57 MB, 149 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] fftw
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] lesstif
+[DEP] libice
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxft
+[DEP] libxmu
+[DEP] libxp
+[DEP] libxpm
+[DEP] libxrender
+[DEP] libxt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] printproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] t1lib
+[DEP] tar
+[DEP] util-linux
+[DEP] xproto
+[DEP] zlib

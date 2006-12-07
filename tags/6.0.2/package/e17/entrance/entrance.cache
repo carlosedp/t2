@@ -1,0 +1,61 @@
+
+[TIMESTAMP] 1160364780 Mon Oct  9 03:33:00 2006
+[BUILDTIME] 15 (5)
+[SIZE] 5.62 MB, 38 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] directfb
+[DEP] ecore
+[DEP] edje
+[DEP] eet
+[DEP] embryo
+[DEP] esmart
+[DEP] evas
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] imlib2
+[DEP] libice
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libtool
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxinerama
+[DEP] libxp
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxscrnsaver
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] pam
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xproto
+[DEP] zlib

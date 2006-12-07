@@ -1,0 +1,39 @@
+
+[TIMESTAMP] 1160394452 Mon Oct  9 11:47:32 2006
+[BUILDTIME] 5 (5)
+[SIZE] 1.60 MB, 138 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] dbus
+[DEP] diffutils
+[DEP] findutils
+[DEP] font-alias
+[DEP] font-cursor-misc
+[DEP] font-misc-misc
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-python
+[DEP] gnome-python-extras
+[DEP] grep
+[DEP] intltool
+[DEP] libx11
+[DEP] libxml
+[DEP] libxslt
+[DEP] mktemp
+[DEP] perl
+[DEP] pygobject
+[DEP] pygtk
+[DEP] python
+[DEP] rgb
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xauth
+[DEP] xorg-server

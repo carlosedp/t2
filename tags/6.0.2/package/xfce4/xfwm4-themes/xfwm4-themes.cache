@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1160554664 Wed Oct 11 08:17:44 2006
+[BUILDTIME] 40 (5)
+[SIZE] 5.58 MB, 3797 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libxfce4util
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xfwm4

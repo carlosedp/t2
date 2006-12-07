@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1160264478 Sat Oct  7 23:41:18 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.08 MB, 14 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bigreqsproto
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

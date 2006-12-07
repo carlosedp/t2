@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1160418146 Mon Oct  9 18:22:26 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.38 MB, 47 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bluez-libs
+[DEP] bzip2
+[DEP] coreutils
+[DEP] dbus
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] fuse
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libusb
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openobex
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

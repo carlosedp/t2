@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1160543975 Wed Oct 11 05:19:35 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.24 MB, 30 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] perl-mp3-info
+[DEP] perl-unicode
+[DEP] perl-xml-parser
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

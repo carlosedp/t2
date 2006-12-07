@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1161169368 Wed Oct 18 11:02:48 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.24 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libart_lgpl23
+[DEP] libnl
+[DEP] libpng
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] patch
+[DEP] rrdtool
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

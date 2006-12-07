@@ -1,0 +1,67 @@
+
+[TIMESTAMP] 1160593462 Wed Oct 11 19:04:22 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.77 MB, 12 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glib12
+[DEP] glibc
+[DEP] glitz
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] gtk+
+[DEP] gtk+12
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libglade
+[DEP] libice
+[DEP] libpng
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxml
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxscrnsaver
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] pcre
+[DEP] perl
+[DEP] pkgconfig
+[DEP] renderproto
+[DEP] scrnsaverproto
+[DEP] sed
+[DEP] sqlite
+[DEP] sysfiles
+[DEP] taglib
+[DEP] tar
+[DEP] util-linux
+[DEP] xmms
+[DEP] xproto
+[DEP] zlib

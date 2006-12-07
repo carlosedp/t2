@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1160347132 Sun Oct  8 22:38:52 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.16 MB, 21 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] edb
+[DEP] eet
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imlib2
+[DEP] libjpeg
+[DEP] libx11
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xextproto
+[DEP] xproto
+[DEP] zlib

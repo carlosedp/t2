@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1160270401 Sun Oct  8 01:20:01 2006
+[BUILDTIME] 10 (5)
+[SIZE] 1.77 MB, 286 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdftopcf
+[DEP] bigreqsproto
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] font-adobe
+[DEP] font-adobe-utopia
+[DEP] font-alias
+[DEP] font-bh
+[DEP] font-util
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] make
+[DEP] mkfontdir
+[DEP] mkfontscale
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1160346190 Sun Oct  8 22:23:10 2006
+[BUILDTIME] 30 (5)
+[SIZE] 1.78 MB, 114 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] linux-header
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] unzip
+[DEP] xproto
+[DEP] zlib

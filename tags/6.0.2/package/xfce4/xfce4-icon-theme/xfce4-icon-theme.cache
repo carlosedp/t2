@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1160637995 Thu Oct 12 07:26:35 2006
+[BUILDTIME] 20 (5)
+[SIZE] 5.38 MB, 1239 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libxfce4util
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xfce-mcs-manager

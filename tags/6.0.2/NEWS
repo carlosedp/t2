@@ -1,0 +1,10 @@
+
+ABI / API changes since T2 2.1:
+ - GCC-3.4 -> GCC 4.0
+ - GLibC 2.3 -> 2.4-CVS with NPTL instead of linuxthreads by default
+ - monolithic X11R6 -> modular X11R7
+
+Renames since T2 2.1:
+ - network/ipw2100 -> firmware/ipw2100-fw
+ - network/ipw2200 -> firmware/ipw2200-fw
+
