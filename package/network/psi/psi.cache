@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133738783 Mon Dec  5 00:26:23 2005
-[BUILDTIME] 160 (5)
-[SIZE] 5.08 MB, 260 files
+[TIMESTAMP] 1160525062 Wed Oct 11 00:04:22 2006
+[BUILDTIME] 120 (5)
+[SIZE] 5.29 MB, 181 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -40,7 +40,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mesa
-[DEP] patch
 [DEP] qt
 [DEP] qt-qca
 [DEP] scrnsaverproto

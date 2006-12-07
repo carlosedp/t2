@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134123284 Fri Dec  9 11:14:44 2005
-[BUILDTIME] 35 (9)
-[SIZE] 1.04 MB, 67 files
+[TIMESTAMP] 1160394264 Mon Oct  9 11:44:24 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.89 MB, 57 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -11,7 +12,6 @@
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
@@ -26,10 +26,8 @@
 [DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-vfs
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -51,12 +49,11 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
 [DEP] orbit2
 [DEP] pango
-[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
+[DEP] pygobject
 [DEP] pygtk
 [DEP] pyorbit
 [DEP] python
@@ -65,6 +62,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

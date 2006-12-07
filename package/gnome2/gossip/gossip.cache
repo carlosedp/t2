@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134063476 Thu Dec  8 18:37:56 2005
-[BUILDTIME] 30 (9)
-[SIZE] 1.95 MB, 105 files
+[TIMESTAMP] 1160369975 Mon Oct  9 04:59:35 2006
+[BUILDTIME] 35 (5)
+[SIZE] 1.88 MB, 97 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] aspell
 [DEP] atk
@@ -13,7 +14,9 @@
 [DEP] cairo
 [DEP] cf
 [DEP] coreutils
+[DEP] dasher
 [DEP] diffutils
+[DEP] docbookx
 [DEP] esound
 [DEP] expat
 [DEP] findutils
@@ -22,18 +25,22 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-doc-utils
 [DEP] gnome-keyring
+[DEP] gnome-libs14
 [DEP] gnome-vfs
+[DEP] gnopernicus
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
+[DEP] iso-codes
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
@@ -76,9 +83,11 @@
 [DEP] popt
 [DEP] renderproto
 [DEP] scrnsaverproto
+[DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] vino
 [DEP] xproto
 [DEP] zlib

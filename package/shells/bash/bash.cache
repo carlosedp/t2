@@ -1,14 +1,13 @@
 
-[TIMESTAMP] 1133877957 Tue Dec  6 15:05:57 2005
-[BUILDTIME] 35 (9)
-[SIZE] 1.82 MB, 28 files
+[TIMESTAMP] 1160236779 Sat Oct  7 15:59:39 2006
+[BUILDTIME] 35 (3)
+[SIZE] 1.50 MB, 15 files
 
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
-[DEP] emacs
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
@@ -21,9 +20,7 @@
 [DEP] ncurses
 [DEP] net-tools
 [DEP] patch
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux

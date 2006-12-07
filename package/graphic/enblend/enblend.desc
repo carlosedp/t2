@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A tool for compositing images
 
 [T] Given a set of images that overlap in some irregular way, Enblend overlays
@@ -20,7 +19,7 @@
 
 [U] http://enblend.sourceforge.net/
 
-[A] Andrew Mihal <mihal@eecs.berkeley.edu>
+[A] Andrew Mihal <mihal@eecs.berkeley.edu> 
 [M] Sebastian Czech <t2_@arcor.de>
 
 [C] extra/multimedia

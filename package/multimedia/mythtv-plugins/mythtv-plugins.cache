@@ -1,19 +1,16 @@
 
-[TIMESTAMP] 1139827210 Mon Feb 13 11:40:10 2006
-[BUILDTIME] 180 (5)
-[SIZE] 8.16 MB, 342 files
+[TIMESTAMP] 1160462025 Tue Oct 10 06:33:45 2006
+[BUILDTIME] 135 (5)
+[SIZE] 8.40 MB, 342 files
 
 [DEP] 00-dirtree
-[DEP] acl
 [DEP] alsa-lib
-[DEP] attr
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cdparanoia
 [DEP] coreutils
 [DEP] diffutils
-[DEP] distcc
 [DEP] expat
 [DEP] fam
 [DEP] fftw
@@ -31,7 +28,6 @@
 [DEP] libart_lgpl23
 [DEP] libcdaudio
 [DEP] libdrm
-[DEP] libdvdnav
 [DEP] libexif
 [DEP] libice
 [DEP] libid3tag

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134284592 Sun Dec 11 08:03:12 2005
-[BUILDTIME] 30 (9)
-[SIZE] 1.35 MB, 175 files
+[TIMESTAMP] 1160492384 Tue Oct 10 14:59:44 2006
+[BUILDTIME] 25 (5)
+[SIZE] 1.17 MB, 160 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -12,7 +13,6 @@
 [DEP] fam
 [DEP] file
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib12

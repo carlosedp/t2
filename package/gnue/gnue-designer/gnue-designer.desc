@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] IDE for the GNUe tools
 
 [T] GNUe Designer is the IDE for the GNUe tools. It allows you to visually
@@ -25,7 +24,7 @@
 [U] http://www.gnuenterprise.org/tools/designer/
 
 [A] GNUe Project <gnue@gnu.org>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/development
 
@@ -37,3 +36,4 @@
 [O] . $base/package/*/*/gnue-conf.in
 
 [D] 2299869277 gnue-designer-0.5.7.tar.gz http://www.gnuenterprise.org/downloads/releases/
+

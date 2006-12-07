@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133775039 Mon Dec  5 10:30:39 2005
-[BUILDTIME] 70 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160557625 Wed Oct 11 09:07:05 2006
+[BUILDTIME] 10 (5) ERROR
+[SIZE] 0.01 MB, 8 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -19,8 +19,6 @@
 [DEP] jikes
 [DEP] kaffe
 [DEP] linux-header
-[DEP] make
-[DEP] mktemp
 [DEP] net-tools
 [DEP] patch
 [DEP] sed

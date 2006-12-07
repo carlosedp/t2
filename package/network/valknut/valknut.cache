@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133829805 Tue Dec  6 01:43:25 2005
-[BUILDTIME] 75 (5)
-[SIZE] 2.61 MB, 135 files
+[TIMESTAMP] 1160628243 Thu Oct 12 04:44:03 2006
+[BUILDTIME] 60 (5)
+[SIZE] 2.69 MB, 124 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -46,6 +46,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
+[DEP] patch
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles

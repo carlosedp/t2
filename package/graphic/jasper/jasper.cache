@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133969607 Wed Dec  7 16:33:27 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.57 MB, 38 files
+[TIMESTAMP] 1160285713 Sun Oct  8 05:35:13 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.54 MB, 31 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] cf

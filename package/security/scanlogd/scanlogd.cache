@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133832665 Tue Dec  6 02:31:05 2005
-[BUILDTIME] 5 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160634057 Thu Oct 12 06:20:57 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.20 MB, 9 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,10 +9,15 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libnet
+[DEP] libnids
+[DEP] libpcap
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] patch
 [DEP] sed

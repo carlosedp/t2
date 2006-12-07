@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133847711 Tue Dec  6 06:41:51 2005
-[BUILDTIME] 55 (5)
-[SIZE] 28.79 MB, 316 files
+[TIMESTAMP] 1160653525 Thu Oct 12 11:45:25 2006
+[BUILDTIME] 45 (5)
+[SIZE] 28.72 MB, 308 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -30,6 +30,8 @@
 [DEP] gtk+
 [DEP] imagemagick
 [DEP] imake
+[DEP] inputproto
+[DEP] kbproto
 [DEP] lcms
 [DEP] libice
 [DEP] libjpeg
@@ -57,9 +59,11 @@
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] vips
+[DEP] xproto
 [DEP] zlib

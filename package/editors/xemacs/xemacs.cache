@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134004484 Thu Dec  8 02:14:44 2005
-[BUILDTIME] 70 (9)
-[SIZE] 49.17 MB, 2578 files
+[TIMESTAMP] 1160343474 Sun Oct  8 21:37:54 2006
+[BUILDTIME] 65 (5)
+[SIZE] 24.47 MB, 1291 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -20,7 +21,6 @@
 [DEP] grep
 [DEP] imake
 [DEP] lesstif
-[DEP] libdnet
 [DEP] libelf
 [DEP] libice
 [DEP] libjpeg
@@ -49,7 +49,6 @@
 [DEP] tar
 [DEP] texinfo
 [DEP] xbitmaps
-[DEP] xemacs-packages
 [DEP] xextproto
 [DEP] xproto
 [DEP] zlib

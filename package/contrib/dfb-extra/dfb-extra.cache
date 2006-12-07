@@ -1,10 +1,9 @@
 
-[TIMESTAMP] 1133761653 Mon Dec  5 06:47:33 2005
-[BUILDTIME] 15 (5)
-[SIZE] 0.43 MB, 26 files
+[TIMESTAMP] 1160543876 Wed Oct 11 05:17:56 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.25 MB, 14 files
 
 [DEP] 00-dirtree
-[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -23,9 +22,13 @@
 [DEP] gnome-libs14
 [DEP] grep
 [DEP] imlib2
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libice
 [DEP] libjpeg
 [DEP] libmpeg3
 [DEP] libpng
+[DEP] libsm
 [DEP] libsvg
 [DEP] libsvg-cairo
 [DEP] libx11
@@ -38,12 +41,11 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] perl
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux
-[DEP] xine-lib
+[DEP] xproto
 [DEP] zlib

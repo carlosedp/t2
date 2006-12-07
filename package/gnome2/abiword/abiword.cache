@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134313976 Sun Dec 11 16:12:56 2005
-[BUILDTIME] 210 (9) ERROR
-[SIZE] 11.06 MB, 294 files
+[TIMESTAMP] 1160509890 Tue Oct 10 19:51:30 2006
+[BUILDTIME] 305 (5)
+[SIZE] 13.13 MB, 373 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -33,13 +34,13 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] gucharmap
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
+[DEP] libcroco
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
@@ -52,6 +53,7 @@
 [DEP] libpng
 [DEP] librsvg
 [DEP] libsm
+[DEP] libwpd
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -73,7 +75,6 @@
 [DEP] orbit2
 [DEP] pango
 [DEP] pkgconfig
-[DEP] poppler
 [DEP] popt
 [DEP] readline
 [DEP] renderproto

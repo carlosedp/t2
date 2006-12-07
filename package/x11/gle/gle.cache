@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133991400 Wed Dec  7 22:36:40 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.05 MB, 142 files
+[TIMESTAMP] 1160327464 Sun Oct  8 17:11:04 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.02 MB, 139 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils

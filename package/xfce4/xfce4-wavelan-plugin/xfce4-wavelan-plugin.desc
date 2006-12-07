@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Wireless lan interface monitor panel plugin for Xfce4
 
 [T] This plugin is used to display stats from a wireless lan interface
@@ -21,7 +20,7 @@
 [U] http://xfce-goodies.berlios.de/
 
 [A] Benedikt Meurer
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/desktop/xfce
 
@@ -33,3 +32,4 @@
 [O] . $base/package/xfce4/*/xfce4-conf.in
 
 [D] 409577704 xfce4-wavelan-plugin-0.4.1.tar.bz2 http://download.berlios.de/xfce-goodies/
+

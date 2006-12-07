@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134026997 Thu Dec  8 08:29:57 2005
-[BUILDTIME] 75 (9)
-[SIZE] 38.38 MB, 4421 files
+[TIMESTAMP] 1160354419 Mon Oct  9 00:40:19 2006
+[BUILDTIME] 50 (5)
+[SIZE] 37.70 MB, 4413 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -14,8 +15,10 @@
 [DEP] diffutils
 [DEP] findutils
 [DEP] flex
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
+[DEP] glib
 [DEP] glibc
 [DEP] grep
 [DEP] libjpeg

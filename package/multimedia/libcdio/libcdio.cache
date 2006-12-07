@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134007382 Thu Dec  8 03:03:02 2005
-[BUILDTIME] 40 (9)
-[SIZE] 1.47 MB, 78 files
+[TIMESTAMP] 1160345487 Sun Oct  8 22:11:27 2006
+[BUILDTIME] 45 (5)
+[SIZE] 1.29 MB, 98 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -21,9 +22,7 @@
 [DEP] net-tools
 [DEP] perl
 [DEP] pkgconfig
-[DEP] popt
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] vcdimager

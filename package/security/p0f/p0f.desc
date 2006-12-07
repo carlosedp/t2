@@ -23,13 +23,13 @@
 [U] http://lcamtuf.coredump.cx/p0f.shtml
 
 [A] Michal Zalewski "The Evil Twin" <lcamtuf@coredump.cx>
-[M] The T2 Project <t2@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/tool
 
 [L] GPL
 [S] Stable
-[V] 2.0.8
+[V] 2.0.6
 [P] X -----5---9 800.000
 
-[D] 2324248907 p0f-2.0.8.tgz http://lcamtuf.coredump.cx/p0f/
+[D] 632759988 p0f-2.0.6.tgz http://lcamtuf.coredump.cx/p0f/

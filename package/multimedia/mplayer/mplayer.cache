@@ -1,14 +1,16 @@
 
-[TIMESTAMP] 1134216568 Sat Dec 10 13:09:28 2005
-[BUILDTIME] 160 (9) ERROR
-[SIZE] 14.97 MB, 119 files
+[TIMESTAMP] 1161446259 Sat Oct 21 15:57:39 2006
+[BUILDTIME] 155 (5) ERROR
+[SIZE] 14.68 MB, 114 files
 
+[DEP] 00-dirtree
 [DEP] aalib
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
+[DEP] bio2jack
 [DEP] bzip2
 [DEP] cdparanoia
 [DEP] coreutils
@@ -31,7 +33,6 @@
 [DEP] jack
 [DEP] ladspa
 [DEP] lame
-[DEP] libdockapp
 [DEP] libdrm
 [DEP] libdv
 [DEP] libice
@@ -58,6 +59,7 @@
 [DEP] live
 [DEP] make
 [DEP] mesa
+[DEP] mplayer-fonts
 [DEP] nas
 [DEP] ncurses
 [DEP] patch
@@ -67,6 +69,7 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] videoproto
+[DEP] x264
 [DEP] xextproto
 [DEP] xf86dgaproto
 [DEP] xf86vidmodeproto

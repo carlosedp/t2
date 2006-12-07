@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133889435 Tue Dec  6 18:17:15 2005
-[BUILDTIME] 30 (9)
-[SIZE] 2.65 MB, 48 files
+[TIMESTAMP] 1160256904 Sat Oct  7 21:35:04 2006
+[BUILDTIME] 25 (5)
+[SIZE] 2.50 MB, 40 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -20,6 +21,7 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles

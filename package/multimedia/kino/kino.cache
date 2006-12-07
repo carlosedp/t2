@@ -1,12 +1,11 @@
 
-[TIMESTAMP] 1133741732 Mon Dec  5 01:15:32 2005
-[BUILDTIME] 45 (5)
-[SIZE] 2.33 MB, 116 files
+[TIMESTAMP] 1160528202 Wed Oct 11 00:56:42 2006
+[BUILDTIME] 50 (5)
+[SIZE] 3.16 MB, 170 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
-[DEP] audiofile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -14,34 +13,26 @@
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
-[DEP] esound
 [DEP] expat
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
-[DEP] gconf
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnome-keyring
-[DEP] gnome-vfs
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
-[DEP] libart_lgpl23
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libavc1394
-[DEP] libbonobo
-[DEP] libbonoboui
 [DEP] libdv
 [DEP] libglade
-[DEP] libgnome
-[DEP] libgnomecanvas
-[DEP] libgnomeui
 [DEP] libice
-[DEP] libjpeg
 [DEP] libpng
 [DEP] libraw1394
 [DEP] libsamplerate
@@ -62,12 +53,11 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] openssl
-[DEP] orbit2
 [DEP] pango
-[DEP] pcmciautils
+[DEP] perl
+[DEP] perl-xml-parser
 [DEP] pkgconfig
-[DEP] popt
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

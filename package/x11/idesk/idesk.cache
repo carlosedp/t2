@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133773610 Mon Dec  5 10:06:50 2005
+[TIMESTAMP] 1160556039 Wed Oct 11 08:40:39 2006
 [BUILDTIME] 20 (5)
-[SIZE] 0.22 MB, 21 files
+[SIZE] 0.24 MB, 13 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -21,6 +21,8 @@
 [DEP] grep
 [DEP] imake
 [DEP] imlib2
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libice
 [DEP] libsm
 [DEP] libx11

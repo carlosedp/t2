@@ -1,18 +1,20 @@
 
-[TIMESTAMP] 1133941794 Wed Dec  7 08:49:54 2005
-[BUILDTIME] 5 (9)
-[SIZE] 1.03 MB, 125 files
+[TIMESTAMP] 1160275822 Sun Oct  8 02:50:22 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.55 MB, 78 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] make
 [DEP] perl
+[DEP] perl-compress-zlib
 [DEP] perl-html-parser
 [DEP] perl-uri
 [DEP] sed

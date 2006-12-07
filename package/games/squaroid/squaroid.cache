@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133753062 Mon Dec  5 04:24:22 2005
-[BUILDTIME] 5 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1161169088 Wed Oct 18 10:58:08 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.48 MB, 52 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -13,7 +13,6 @@
 [DEP] diffutils
 [DEP] file
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glib12
 [DEP] glibc
@@ -36,3 +35,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
+[DEP] xproto

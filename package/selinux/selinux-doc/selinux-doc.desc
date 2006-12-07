@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] SELinux documentation
 
 [T] Security-enhanced Linux is a patch of the Linux® kernel and a number
@@ -40,3 +39,4 @@
 [P] O -----5---9 811.006
 
 [D] 3711745452 selinux-doc-1.24.tgz http://www.nsa.gov/selinux/archives/
+

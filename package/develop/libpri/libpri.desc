@@ -12,20 +12,21 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] Primary Rate ISDN (PRI) library for the Asterisk PBX
+[I] Primary Rate ISDN (PRI) library for the Asterisk PBX. 
 
-[T] Asterisk Primary Rate ISDN (PRI) library for T1/E1/J1 interfaces.
+[T] Asterisk Primary Rate ISDN (PRI) library for T1/E1/J1 interfaces. 
 
-[U] http://www.asterisk.org
+[U] http://www.asterisk.org 
 
 [A] The Asterisk Project
-[M] The T2 Project <t2@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/development
 
 [L] GPL
 [S] Stable
-[V] 1.2.4
+[V] 1.2.3
 [P] X -----5---9 800.000
 
-[D] 3305248363 libpri-1.2.4.tar.gz http://ftp.digium.com/pub/libpri/releases/
+[D] 1760493992 libpri-1.2.3.tar.gz http://ftp.digium.com/pub/libpri/releases/
+

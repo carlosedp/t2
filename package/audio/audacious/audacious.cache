@@ -1,10 +1,11 @@
 
-[TIMESTAMP] 1141678875 Mon Mar  6 22:01:15 2006
-[BUILDTIME] 100 (9)
-[SIZE] 4.82 MB, 122 files
+[TIMESTAMP] 1160591821 Wed Oct 11 18:37:01 2006
+[BUILDTIME] 70 (5)
+[SIZE] 4.08 MB, 124 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
+[DEP] arts
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
@@ -27,15 +28,20 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gtk+
 [DEP] inputproto
 [DEP] jack
 [DEP] kbproto
 [DEP] libglade
+[DEP] libice
+[DEP] libidn
+[DEP] libmusicbrainz
 [DEP] libogg
 [DEP] libpng
 [DEP] libsamplerate
+[DEP] libsm
 [DEP] libsndfile
 [DEP] libvorbis
 [DEP] libx11
@@ -50,9 +56,11 @@
 [DEP] libxrandr
 [DEP] libxrender
 [DEP] linux-header
+[DEP] lirc
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] openssl
 [DEP] pango
 [DEP] pkgconfig
 [DEP] renderproto

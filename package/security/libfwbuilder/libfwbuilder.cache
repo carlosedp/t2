@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134275647 Sun Dec 11 05:34:07 2005
-[BUILDTIME] 40 (9)
-[SIZE] 1.57 MB, 119 files
+[TIMESTAMP] 1160487722 Tue Oct 10 13:42:02 2006
+[BUILDTIME] 40 (5)
+[SIZE] 1.71 MB, 121 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,7 +14,6 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libelf
 [DEP] libxml
 [DEP] libxslt
 [DEP] linux-header

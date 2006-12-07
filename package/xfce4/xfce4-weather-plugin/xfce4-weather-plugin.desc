@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Weather condition panel plugin for Xfce4
 
 [T] This panel plugin shows the current temperature and weather condition,
@@ -20,7 +19,7 @@
 [U] http://xfce-goodies.berlios.de/
 
 [A] Bob Schlärmann
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/desktop/xfce
 
@@ -32,3 +31,4 @@
 [O] . $base/package/xfce4/*/xfce4-conf.in
 
 [D] 16402671 xfce4-weather-plugin-0.4.9.tar.gz http://download.berlios.de/xfce-goodies/
+

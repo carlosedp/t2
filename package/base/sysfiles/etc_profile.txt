@@ -22,7 +22,7 @@
 
 # set the PATH-variable
 
-if [ -w / -o $UID = 0 ] ; then
+if [ -w / ] ; then
 	PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 	for x in /usr/X11/bin /usr/X11/sbin /usr/games /usr/local/games \
 	         /opt/*/bin /opt/*/sbin /opt/*/games $HOME/bin $HOME/sbin
@@ -66,6 +66,14 @@ do [ -d $x ] && MANPATH="$MANPATH:$x" ; done
 export INFOPATH=/usr/share/info
 for x in /usr/X11/info /usr/local/info /usr/local/share/info /opt/*/info
 do [ -d $x ] && INFOPATH="$INFOPATH:$x" ; done
+
+# set the PKG_CONFIG_PATH variable
+#
+export PKG_CONFIG_PATH="/usr/lib/pkgconfig"
+for x in /usr/lib64 /usr/X11*/lib{,64} /usr/local/lib{,64} /opt/*/lib{,64} \
+         $HOME/lib{,64} ; do
+	[ -d $x/pkgconfig ] && PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$x/pkgconfig"
+done
 
 # some useful aliases (only if this is an interactive shell)
 #

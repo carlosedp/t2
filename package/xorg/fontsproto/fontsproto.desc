@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Fonts extension headers
 
 [T] Fonts extension headers
@@ -30,4 +29,4 @@
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 2792901686 fontsproto-2.0.2.tar.bz2 http://xorg.freedesktop.org/releases/individual/proto/
+[D] 2792901686 fontsproto-2.0.2.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/

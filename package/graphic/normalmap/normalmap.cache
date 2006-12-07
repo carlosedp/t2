@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133847845 Tue Dec  6 06:44:05 2005
+[TIMESTAMP] 1160653815 Thu Oct 12 11:50:15 2006
 [BUILDTIME] 5 (5)
-[SIZE] 0.42 MB, 11 files
+[SIZE] 0.40 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -12,8 +12,10 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
+[DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gimp
 [DEP] glew
@@ -23,6 +25,8 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] gtkglext
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libdrm
 [DEP] libice
 [DEP] libpng
@@ -46,7 +50,8 @@
 [DEP] pango
 [DEP] patch
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] zlib
+[DEP] xproto

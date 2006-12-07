@@ -1,12 +1,12 @@
 
-[TIMESTAMP] 1134115548 Fri Dec  9 09:05:48 2005
-[BUILDTIME] 90 (9)
-[SIZE] 9.64 MB, 251 files
+[TIMESTAMP] 1160385303 Mon Oct  9 09:15:03 2006
+[BUILDTIME] 130 (5)
+[SIZE] 9.69 MB, 276 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
-[DEP] balsa
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -15,18 +15,15 @@
 [DEP] dbus
 [DEP] diffutils
 [DEP] docbookx
-[DEP] eog
 [DEP] esound
 [DEP] expat
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
-[DEP] gcalctool
 [DEP] gcc
 [DEP] gconf
-[DEP] gdm
-[DEP] gedit
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -35,12 +32,10 @@
 [DEP] gnome-doc-utils
 [DEP] gnome-keyring
 [DEP] gnome-libs14
-[DEP] gnome-python
+[DEP] gnome-panel
 [DEP] gnome-vfs
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] iso-codes
 [DEP] kbproto
@@ -72,26 +67,24 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
+[DEP] pygobject
 [DEP] pygtk
 [DEP] python
 [DEP] renderproto
 [DEP] scrollkeeper
+[DEP] seamonkey
 [DEP] sed
 [DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133768892 Mon Dec  5 08:48:12 2005
-[BUILDTIME] 45 (5)
-[SIZE] 1.71 MB, 166 files
+[TIMESTAMP] 1160552058 Wed Oct 11 07:34:18 2006
+[BUILDTIME] 35 (5)
+[SIZE] 1.67 MB, 158 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -17,6 +17,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc

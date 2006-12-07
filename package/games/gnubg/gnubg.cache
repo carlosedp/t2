@@ -1,5 +1,5 @@
 
-[TIMESTAMP] 1133748006 Mon Dec  5 03:00:06 2005
+[TIMESTAMP] 1160533425 Wed Oct 11 02:23:45 2006
 [BUILDTIME] 20 (5) ERROR
 [SIZE] 0.01 MB, 7 files
 
@@ -15,7 +15,6 @@
 [DEP] cairo
 [DEP] cf
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
@@ -37,6 +36,8 @@
 [DEP] gtkglext
 [DEP] guile
 [DEP] imake
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libdrm
 [DEP] libice
 [DEP] libpng
@@ -62,16 +63,15 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] numpy
 [DEP] pango
 [DEP] patch
 [DEP] pkgconfig
 [DEP] python
 [DEP] readline
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

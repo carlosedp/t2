@@ -25,4 +25,3 @@ log=`mktemp`
 
 mail_or_display "SCSI backup" $log ; rm $log
 
-fixocr

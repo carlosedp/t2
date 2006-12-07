@@ -1,29 +1,58 @@
 
-[TIMESTAMP] 1134018028 Thu Dec  8 06:00:28 2005
-[BUILDTIME] 20 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1160365006 Mon Oct  9 03:36:46 2006
+[BUILDTIME] 60 (5)
+[SIZE] 0.86 MB, 91 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
+[DEP] curl
 [DEP] diffutils
+[DEP] directfb
 [DEP] ecore
+[DEP] edje
+[DEP] eet
+[DEP] embryo
+[DEP] epeg
+[DEP] epsilon
 [DEP] etk
+[DEP] evas
+[DEP] evfs
 [DEP] ewl
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] imlib2
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
 [DEP] libtool
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxinerama
+[DEP] libxp
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxscrnsaver
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] openssl
 [DEP] perl
 [DEP] pkgconfig
 [DEP] sed
@@ -31,3 +60,5 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] valgrind
+[DEP] xproto
+[DEP] zlib

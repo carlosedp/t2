@@ -1,12 +1,11 @@
 
-[TIMESTAMP] 1134016901 Thu Dec  8 05:41:41 2005
-[BUILDTIME] 170 (9) ERROR
-[SIZE] 7.65 MB, 226 files
+[TIMESTAMP] 1160349874 Sun Oct  8 23:24:34 2006
+[BUILDTIME] 175 (5)
+[SIZE] 7.15 MB, 175 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
-[DEP] beecrypt
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134246385 Sat Dec 10 21:26:25 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.83 MB, 87 files
+[TIMESTAMP] 1160472817 Tue Oct 10 09:33:37 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.79 MB, 79 files
 
 [DEP] bash
 [DEP] bdb
@@ -12,6 +12,7 @@
 [DEP] diffutils
 [DEP] findutils
 [DEP] flex
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

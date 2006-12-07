@@ -21,20 +21,20 @@
 [T] popular e-mail clients for Windows, such as Outlook Express,
 [T] Becky!, and Datula. The interface is also designed to emulate
 [T] the mailers on Emacsen, and almost all commands are accessible
-[T] with the keyboard.
+[T] with the keyboard. 
 
-[U] http://claws.sylpheed.org/
+[U] http://claws.sylpheed.org/ 
 
-[A] The Sylpheed-Claws Team <http://claws.sylpheed.org/theteam.php>
-[M] Rene Rebe <rene@t2-project.org>
+[A] The Sylpheed-Claws Team <http://claws.sylpheed.org/theteam.php> 
+[M] Christian Wiese <jeru@ixplanet.org> 
 
 [C] extra/office
 
 [L] GPL
 [S] Stable
-[V] 2.6.0
+[V] 2.3.1
 [P] X -----5---9 174.000
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 2305038018 sylpheed-claws-2.6.0.tar.bz2 http://dl.sourceforge.net/sourceforge/sylpheed-claws/
+[D] 1743787036 sylpheed-claws-2.3.1.tar.bz2 http://dl.sourceforge.net/sourceforge/sylpheed-claws/

@@ -1,6 +1,6 @@
 
-[TIMESTAMP] 1133944179 Wed Dec  7 09:29:39 2005
-[BUILDTIME] 5 (9)
+[TIMESTAMP] 1160276329 Sun Oct  8 02:58:49 2006
+[BUILDTIME] 5 (5)
 [SIZE] 0.11 MB, 11 files
 
 [DEP] 00-dirtree
@@ -9,13 +9,14 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] liblockfile
 [DEP] linux-header
 [DEP] make
+[DEP] mktemp
 [DEP] patch
 [DEP] sed
 [DEP] sysfiles

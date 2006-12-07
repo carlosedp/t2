@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134181190 Sat Dec 10 03:19:50 2005
-[BUILDTIME] 110 (9)
-[SIZE] 1.95 MB, 32 files
+[TIMESTAMP] 1160436201 Mon Oct  9 23:23:21 2006
+[BUILDTIME] 90 (5)
+[SIZE] 2.02 MB, 25 files
 
+[DEP] 00-dirtree
+[DEP] arts
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -20,7 +22,7 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imake
-[DEP] libdnet
+[DEP] kdelibs
 [DEP] libdrm
 [DEP] libice
 [DEP] libjpeg

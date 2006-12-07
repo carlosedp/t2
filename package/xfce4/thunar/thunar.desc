@@ -12,9 +12,9 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A new modern file manager for Xfce
+[I] a new modern file manager for Xfce
 
-[T] Thunar is a new modern file manager for the Xfce Desktop Environment.
+[T] Thunar is a new modern file manager for the Xfce Desktop Environment. 
 [T] Thunar has been designed from the ground up to be fast and easy-to-use.
 [T] Its user interface is clean and intuitive, and does not include any
 [T] confusing or useless options. Thunar is fast and responsive with a good
@@ -23,7 +23,7 @@
 [U] http://thunar.xfce.org/
 
 [A] Benedikt Meurer <benny@xfce.org>
-[M] Rene Rebe <rene@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/desktop/xfce
 
@@ -35,3 +35,4 @@
 [O] . $base/package/xfce4/*/xfce4-conf.in
 
 [D] 4251193172 Thunar-0.2.0alpha-r19548.tar.bz2 http://thunar.xfce.org/download/releases/alpha/
+

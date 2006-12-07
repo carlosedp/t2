@@ -12,7 +12,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Volume control plugin for XFce 4 panel and a simple mixer
 
 [T] Volume control plugin for the XFce 4 panel and a simple sound mixer
@@ -21,7 +20,7 @@
 
 [A] Danny Milosavljevic <danny_milo@yahoo.com>
 [A] Benedikt Meurer <Benedikt.Meurer@unix-ag.uni-siegen.de>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/desktop/xfce
 

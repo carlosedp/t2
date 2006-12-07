@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1141418109 Fri Mar  3 20:35:09 2006
-[BUILDTIME] 180 (5)
-[SIZE] 5.72 MB, 218 files
+[TIMESTAMP] 1160566485 Wed Oct 11 11:34:45 2006
+[BUILDTIME] 110 (5)
+[SIZE] 5.81 MB, 219 files
 
 [DEP] 00-dirtree
 [DEP] apollon
@@ -17,6 +17,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
@@ -57,7 +58,6 @@
 [DEP] pcre
 [DEP] perl
 [DEP] qt
-[DEP] rrdtool
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

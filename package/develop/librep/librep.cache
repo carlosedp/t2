@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134019263 Thu Dec  8 06:21:03 2005
-[BUILDTIME] 45 (9)
-[SIZE] 2.65 MB, 318 files
+[TIMESTAMP] 1160350671 Sun Oct  8 23:37:51 2006
+[BUILDTIME] 35 (5)
+[SIZE] 2.55 MB, 306 files
 
+[DEP] 00-dirtree
 [DEP] automake
 [DEP] bash
 [DEP] binutils

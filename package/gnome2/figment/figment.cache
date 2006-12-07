@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134062247 Thu Dec  8 18:17:27 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.09 MB, 20 files
+[TIMESTAMP] 1160369556 Mon Oct  9 04:52:36 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.06 MB, 13 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] autoconf
 [DEP] bash
@@ -25,7 +26,9 @@
 [DEP] gtk+
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor

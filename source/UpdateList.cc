@@ -15,7 +15,7 @@
 
 using namespace Utility;
 
-const bool debug = false;
+const bool debug = 0;
 
 std::vector <std::string> suffixes;
 
@@ -418,15 +418,12 @@ void Check4Updates (const Package& package)
   unsigned int no_downloads = package.download.download_infos.size();
   for (unsigned int dln = 0; dln < no_downloads; ++dln) {
     DownloadInfo info = package.download.download_infos[dln];
-    if (info.protocol != "http" && info.protocol != "https" &&
-	info.protocol != "ftp")
+    if (info.protocol != "http" && info.protocol != "ftp")
       continue;
 
     // Apply translations ...
     pstream sed ("sed", (char*[]){"sed", "-f", "misc/share/CVTranslations", 0} );
-    
-    if (!package.cv_url.value.empty())
-      info.url = package.cv_url.value;
+
     sed << info.url << std::endl;
     sed.close_sink();
 
@@ -451,11 +448,9 @@ int main (int argc, char* argv[])
   suffixes.push_back(".tar.bz2");
   suffixes.push_back(".tar.gz");
   suffixes.push_back(".tbz2");
-  suffixes.push_back(".tbz");
   suffixes.push_back(".tgz");
   suffixes.push_back(".bz2");
   suffixes.push_back(".gz");
-  suffixes.push_back(".zip");
 
 #ifdef TESTING
   std::vector<Version> versions;

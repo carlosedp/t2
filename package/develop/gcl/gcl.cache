@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133804340 Mon Dec  5 18:39:00 2005
-[BUILDTIME] 160 (5)
-[SIZE] 22.95 MB, 179 files
+[TIMESTAMP] 1160602070 Wed Oct 11 21:27:50 2006
+[BUILDTIME] 110 (5)
+[SIZE] 22.86 MB, 170 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -29,6 +29,7 @@
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxmu
+[DEP] libxp
 [DEP] libxpm
 [DEP] libxt
 [DEP] linux-header
@@ -36,6 +37,7 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] patch
 [DEP] perl
 [DEP] readline
 [DEP] sed

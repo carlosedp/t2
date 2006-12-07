@@ -1,0 +1,66 @@
+
+[TIMESTAMP] 1160310567 Sun Oct  8 12:29:27 2006
+[BUILDTIME] 75 (5)
+[SIZE] 14.51 MB, 31 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] bigreqsproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] compositeproto
+[DEP] coreutils
+[DEP] damageproto
+[DEP] diffutils
+[DEP] findutils
+[DEP] fixesproto
+[DEP] flex
+[DEP] fontsproto
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gdbm
+[DEP] glibc
+[DEP] glitz
+[DEP] grep
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libdrm
+[DEP] libfontenc
+[DEP] libtool
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdamage
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxfont
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxres
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] randrproto
+[DEP] recordproto
+[DEP] renderproto
+[DEP] resourceproto
+[DEP] scrnsaverproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] videoproto
+[DEP] xcmiscproto
+[DEP] xextproto
+[DEP] xproto
+[DEP] xtrans
+[DEP] zlib

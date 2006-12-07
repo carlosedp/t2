@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134014474 Thu Dec  8 05:01:14 2005
-[BUILDTIME] 25 (9)
-[SIZE] 0.19 MB, 31 files
+[TIMESTAMP] 1160572766 Wed Oct 11 13:19:26 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.18 MB, 27 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -10,8 +10,10 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
+[DEP] curl
 [DEP] diffutils
 [DEP] directfb
+[DEP] e
 [DEP] ecore
 [DEP] edb
 [DEP] edje
@@ -19,15 +21,22 @@
 [DEP] embryo
 [DEP] esmart
 [DEP] evas
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
+[DEP] gnutls
 [DEP] grep
 [DEP] imlib2
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libidn
 [DEP] libjpeg
-[DEP] libpng
+[DEP] libprelude
+[DEP] libtasn1
 [DEP] libtool
 [DEP] libx11
 [DEP] libxau
@@ -40,12 +49,14 @@
 [DEP] libxp
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxscrnsaver
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
+[DEP] pam
 [DEP] perl
 [DEP] pkgconfig
 [DEP] sed

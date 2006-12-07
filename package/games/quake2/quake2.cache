@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133771969 Mon Dec  5 09:39:29 2005
-[BUILDTIME] 80 (5)
-[SIZE] 3.30 MB, 37 files
+[TIMESTAMP] 1160554489 Wed Oct 11 08:14:49 2006
+[BUILDTIME] 75 (5)
+[SIZE] 4.57 MB, 33 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -16,6 +16,7 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imake
+[DEP] libdrm
 [DEP] libice
 [DEP] libsdl
 [DEP] libsm

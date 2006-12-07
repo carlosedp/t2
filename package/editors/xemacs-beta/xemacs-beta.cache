@@ -1,26 +1,32 @@
 
-[TIMESTAMP] 1134211423 Sat Dec 10 11:43:43 2005
-[BUILDTIME] 85 (9) ERROR
-[SIZE] 0.16 MB, 31 files
+[TIMESTAMP] 1160457321 Tue Oct 10 05:15:21 2006
+[BUILDTIME] 75 (5)
+[SIZE] 39.38 MB, 1474 files
 
+[DEP] 00-dirtree
+[DEP] alsa-lib
 [DEP] bash
 [DEP] binutils
+[DEP] bitstream-vera-fonts
 [DEP] bzip2
 [DEP] cf
+[DEP] cheapskatefonts
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
+[DEP] font-bh-ttf
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
+[DEP] gnome-print10
 [DEP] gpm
 [DEP] grep
 [DEP] imake
+[DEP] john-stracke-fonts
 [DEP] lesstif
-[DEP] libdockapp
 [DEP] libelf
 [DEP] libice
 [DEP] libjpeg
@@ -39,6 +45,7 @@
 [DEP] libxrender
 [DEP] libxt
 [DEP] linux-header
+[DEP] magicpoint
 [DEP] make
 [DEP] mktemp
 [DEP] nas
@@ -49,6 +56,8 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] tex-ttf
+[DEP] texinfo
 [DEP] util-linux
 [DEP] xbitmaps
 [DEP] xemacs

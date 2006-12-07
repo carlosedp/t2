@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Menu plugin for the XFce4 panel
 
 [T] Xfce4 Panel Menu is a plugin for the Xfce4 panel that provides a menu
@@ -25,7 +24,7 @@
 [U] https://developer.berlios.de/projects/xfce4panelmenu/
 
 [A] Radoslaw Pociecha <rpociecha@poczta.onet.pl>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/desktop/xfce
 
@@ -37,3 +36,4 @@
 [O] . $base/package/xfce4/*/xfce4-conf.in
 
 [D] 1404302828 xfce4-panel-menu-plugin-0.3.1.tar.gz http://download.berlios.de/xfce4panelmenu/
+

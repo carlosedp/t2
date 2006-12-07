@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Courier Authentication Library
 
 [T] The Courier Authentication Library is a generic authentication
@@ -37,3 +36,4 @@
 [P] X -----5---9 160.000
 
 [D] 1416071016 courier-authlib-0.58.tar.bz2 http://dl.sourceforge.net/sourceforge/courier/
+

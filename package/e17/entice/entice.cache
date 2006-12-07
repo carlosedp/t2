@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133774688 Mon Dec  5 10:24:48 2005
-[BUILDTIME] 20 (5)
-[SIZE] 1.24 MB, 32 files
+[TIMESTAMP] 1160557341 Wed Oct 11 09:02:21 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.22 MB, 23 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -10,6 +10,7 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
+[DEP] curl
 [DEP] diffutils
 [DEP] directfb
 [DEP] ecore
@@ -21,13 +22,16 @@
 [DEP] epsilon
 [DEP] esmart
 [DEP] evas
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] imlib2
+[DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
 [DEP] libtool
@@ -41,6 +45,7 @@
 [DEP] libxp
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxscrnsaver
 [DEP] linux-header
 [DEP] m4
 [DEP] make

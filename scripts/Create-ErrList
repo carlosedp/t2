@@ -32,17 +32,6 @@ copydir=""
 movedir=""
 logdir=""
 
-# uninstall sysroot package
-uninstall_pkg()
-{
-	pushd $1 > /dev/null
-	cut -d ' ' -f 2- var/adm/flists/$2 | tac | while read fn; do
-		if [ -d "$fn" ]; then rmdir "$fn" 
-		else rm -f "$fn"; fi
-	done
-	popd > /dev/null
-}
-
 while [ "$1" ] ; do
         case "$1" in
 	    -cfg)
@@ -113,7 +102,7 @@ while [ "$1" ] ; do
 x="${0//?/ }" ; x="${x#         }"
 echo "Usage: $0 [ -cfg config ] [ -repository repository ] \\"
 echo "  $x [ -copydir copydir | -movedir movedir ] [ -repstat ] \\"
-echo "  $x [ -stage stage ] [ -logdir logdir ] [ -remove ] [ -[full|new]delete ] \\"
+echo "  $x [ -stage stage ] [ -logdir logdir ] [ -[full|new]delete ] \\"
 echo "  $x [ -updated ] [ -showerr ] [ -showtree ] [ -showdepc ] \\"
 echo "  $x [ -dry-run ] [ <package> ]"
 		exit 1 ;;
@@ -136,7 +125,7 @@ if [ "$newdelete" = 1 ]; then
 		if [ "$cksum1" != "$cksum2" ]; then
 			echo "Scheduling package '$pkg' for rebuild ..."
 			if [ ! "$dryrun" = "1" ]; then 
-				uninstall_pkg build/$SDECFG_ID $pkg
+				mine -rf -R build/$SDECFG_ID $pkg
 				rm -f build/$SDECFG_ID/var/adm/*/?-$pkg.*
 			fi
 		fi
@@ -184,7 +173,7 @@ if [ "$1" ] ; then
 	elif [ "$remove" = 1 ] ; then
 		for x ; do  
 			echo "Scheduling package '$x' for rebuild ..."
-			uninstall_pkg build/$SDECFG_ID $x
+			mine -rf -R build/$SDECFG_ID $x
 			rm -f build/$SDECFG_ID/var/adm/*/?-$x.*
 		done
 	elif [ "$delete" = 1 ] ; then

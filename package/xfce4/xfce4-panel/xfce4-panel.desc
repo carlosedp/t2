@@ -12,7 +12,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Next generation panel for xfce
 
 [T] The panel for the XFce desktop environment.
@@ -30,7 +29,7 @@
 [A] Erik Touve <etouve@earthlink.net>
 [A] Benedikt Meurer <benedikt.meurer@unix-ag.uni-siegen.de>
 [A] Bernhard Walle <Bernhard.Walle@gmx.de>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/desktop/xfce
 

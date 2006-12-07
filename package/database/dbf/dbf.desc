@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] dbf command line tool
 
 [T] dbf is an easy-to-use command line tool to show and convert the content
@@ -23,7 +22,7 @@
 [U] http://www.anubisnet.de/products/dbf
 
 [A] anubisnet <info@anubisnet.de>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/database
 
@@ -33,3 +32,4 @@
 [P] X -----5---9 800.000
 
 [D] 2305773172 dbf-0.8.3.1.src.tar.gz http://download.berlios.de/dbf/
+

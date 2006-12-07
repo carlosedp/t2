@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134156090 Fri Dec  9 20:21:30 2005
-[BUILDTIME] 55 (9)
-[SIZE] 2.84 MB, 162 files
+[TIMESTAMP] 1161449632 Sat Oct 21 16:53:52 2006
+[BUILDTIME] 50 (5)
+[SIZE] 3.04 MB, 155 files
 
+[DEP] 00-dirtree
 [DEP] aalib
 [DEP] bash
 [DEP] binutils

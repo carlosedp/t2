@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134122895 Fri Dec  9 11:08:15 2005
-[BUILDTIME] 60 (9)
-[SIZE] 7.62 MB, 702 files
+[TIMESTAMP] 1160394074 Mon Oct  9 11:41:14 2006
+[BUILDTIME] 50 (5)
+[SIZE] 9.19 MB, 831 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] at-spi
 [DEP] atk
@@ -20,7 +21,6 @@
 [DEP] eog
 [DEP] epiphany
 [DEP] esound
-[DEP] evince
 [DEP] expat
 [DEP] file-roller
 [DEP] findutils
@@ -31,6 +31,7 @@
 [DEP] gcalctool
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gdm
 [DEP] gedit
 [DEP] gettext
@@ -38,25 +39,24 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnome-applets
 [DEP] gnome-desktop
+[DEP] gnome-doc-utils
 [DEP] gnome-keyring
+[DEP] gnome-keyring-manager
 [DEP] gnome-netstatus
 [DEP] gnome-panel
 [DEP] gnome-speech
 [DEP] gnome-utils
 [DEP] gnome-vfs
+[DEP] gossip
 [DEP] grep
 [DEP] gtk+
-[DEP] gtkdoc
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
-[DEP] libgda
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
@@ -81,7 +81,6 @@
 [DEP] libxtst
 [DEP] linux-header
 [DEP] make
-[DEP] mergeant
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
@@ -100,5 +99,4 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xproto
-[DEP] zenity
 [DEP] zlib

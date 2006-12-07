@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133747590 Mon Dec  5 02:53:10 2005
-[BUILDTIME] 170 (5) ERROR
-[SIZE] 0.81 MB, 36 files
+[TIMESTAMP] 1160533140 Wed Oct 11 02:19:00 2006
+[BUILDTIME] 140 (5)
+[SIZE] 0.95 MB, 39 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -34,6 +34,8 @@
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -62,7 +64,6 @@
 [DEP] m4
 [DEP] make
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] openldap
 [DEP] openssl
@@ -72,7 +73,7 @@
 [DEP] pilot-link
 [DEP] pkgconfig
 [DEP] popt
-[DEP] readline
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

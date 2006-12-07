@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134135761 Fri Dec  9 14:42:41 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.63 MB, 34 files
+[TIMESTAMP] 1160401202 Mon Oct  9 13:40:02 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.69 MB, 32 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -11,6 +12,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
+[DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -41,10 +43,10 @@
 [DEP] make
 [DEP] openssl
 [DEP] pango
+[DEP] patch
 [DEP] pkgconfig
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] xproto
-[DEP] zlib

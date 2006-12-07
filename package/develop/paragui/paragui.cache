@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133743894 Mon Dec  5 01:51:34 2005
-[BUILDTIME] 50 (5) ERROR
-[SIZE] 3.18 MB, 82 files
+[TIMESTAMP] 1160530127 Wed Oct 11 01:28:47 2006
+[BUILDTIME] 75 (5)
+[SIZE] 3.22 MB, 72 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -9,7 +9,6 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] file
@@ -33,7 +32,6 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] numpy
 [DEP] patch
 [DEP] perl
 [DEP] physfs
@@ -45,5 +43,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
-[DEP] wxpython
 [DEP] zlib

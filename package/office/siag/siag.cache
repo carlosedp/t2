@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133843044 Tue Dec  6 05:24:04 2005
-[BUILDTIME] 30 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160646963 Thu Oct 12 09:56:03 2006
+[BUILDTIME] 40 (5)
+[SIZE] 0.01 MB, 518 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -31,8 +31,9 @@
 [DEP] mktemp
 [DEP] mowitz
 [DEP] ncurses
-[DEP] neXtaw
 [DEP] net-tools
+[DEP] nextaw
+[DEP] patch
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

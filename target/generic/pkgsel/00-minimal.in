@@ -101,7 +101,6 @@ X parted
 X pdksh
 X patch
 X perl
-X ppp
 X procinfo
 X procps
 X psmisc
@@ -135,14 +134,9 @@ X apr-util
 X neon
 X subversion
 
-# too bad people still use it
-X cvs
-
-# and let people create T2 ISOs and LiveCDs
+# and let people create T2 ISOs here
 X cdrtools
 X popt
-X squashfs-tools
-X unionfs
 
 # Add architecture-specific-packages for booting
 X aboot

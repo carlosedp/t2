@@ -1,25 +1,20 @@
 
-[TIMESTAMP] 1133992211 Wed Dec  7 22:50:11 2005
-[BUILDTIME] 5 (9)
-[SIZE] 1.33 MB, 61 files
+[TIMESTAMP] 1160327847 Sun Oct  8 17:17:27 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.31 MB, 59 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] linux-header
-[DEP] patch
-[DEP] pil
 [DEP] python
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] wxpython
-[DEP] zope

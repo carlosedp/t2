@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133762121 Mon Dec  5 06:55:21 2005
+[TIMESTAMP] 1160544283 Wed Oct 11 05:24:43 2006
 [BUILDTIME] 30 (5)
-[SIZE] 1.03 MB, 83 files
+[SIZE] 1.36 MB, 87 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -13,16 +13,20 @@
 [DEP] fuse
 [DEP] gawk
 [DEP] gcc
+[DEP] gconf
+[DEP] glib
 [DEP] glibc
-[DEP] gnome-libs14
+[DEP] gnome-vfs
 [DEP] gnutls
 [DEP] grep
+[DEP] libbonobo
 [DEP] libgcrypt
 [DEP] libgpg-error
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] orbit2
 [DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles

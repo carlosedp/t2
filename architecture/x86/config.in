@@ -21,7 +21,6 @@ choice SDECFG_X86_OPT i486   \
 	i486		"Optimised for Intel 486"		\
 	c3		"Optimised for VIA CyrixIII/VIA-C3"	\
 	c3-2		"Optimised for VIA-C3-2 Nemiah"		\
-	c7		"Optimised for VIA-C7 Eden"		\
 	pentium		"Optimised for Intel Pentium"		\
 	pentium-mmx	"Optimised for Intel Pentium with MMX"	\
 	pentiumpro	"Optimised for Intel Pentium-Pro"	\
@@ -38,8 +37,7 @@ choice SDECFG_X86_OPT i486   \
 	athlon-xp	"Optimised for AMD Athlon XP"		\
 	athlon-mp	"Optimised for AMD Athlon MP"
 
-bool 'Optimize for the Xen hypervisor' SDECFG_X86_OPT_XEN 0
-
 if [ $SDECFG_X86_OPT != generic ] ; then
 	SDECFG_ID="$SDECFG_ID-$SDECFG_X86_OPT"
 fi
+

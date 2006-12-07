@@ -11,10 +11,9 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
+[I] A modular X package
 
-[I] Bitstream font family
-
-[T] Bitstream font family.
+[T] A modular X package
 
 [U] http://www.X.org
 
@@ -31,5 +30,5 @@
 [O] . package/*/*/modular-x-conf.in
 
 [SRC] .
-[D] 999410888 font-bitstream-75dpi-1.0.0.tar.bz2 http://xorg.freedesktop.org/releases/individual/font/
-[D] 2560461543 font-bitstream-100dpi-1.0.0.tar.bz2 http://xorg.freedesktop.org/releases/individual/font/
+[D] 999410888 font-bitstream-75dpi-1.0.0.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/
+[D] 2560461543 font-bitstream-100dpi-1.0.0.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/

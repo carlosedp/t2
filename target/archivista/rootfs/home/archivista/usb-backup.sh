@@ -14,7 +14,6 @@ export DISPLAY=:0
 
 # include shared code
 . ${0%/*}/usb-backup.in
-. ${0%/*}/backup.in
 
 log=`mktemp`
 (
@@ -48,4 +47,3 @@ fi
 
 rm $log
 
-fixocr

@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] LDAP client based on GTK+/GTK2
 
 [T] GQ is a GTK-based LDAP client.
@@ -32,13 +31,14 @@
 
 [A] Bert Vermeulen <bert@biot.com>
 [A] Peter Stamfest <peter@stamfest.at>
-[M] T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/tool
 
 [L] GPL
 [S] Beta
-[V] 1.2.0
+[V] 1.0rc1
 [P] X -----5---9 800.000
 
-[D] 2549396428 gq-1.2.0.tar.gz http://dl.sourceforge.net/sourceforge/gqclient/
+[D] 859077505 gq-1.0rc1.tar.gz http://dl.sourceforge.net/sourceforge/gqclient/
+

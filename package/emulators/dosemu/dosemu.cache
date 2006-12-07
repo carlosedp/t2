@@ -1,10 +1,13 @@
 
-[TIMESTAMP] 1134207963 Sat Dec 10 10:46:03 2005
-[BUILDTIME] 15 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1160454539 Tue Oct 10 04:28:59 2006
+[BUILDTIME] 45 (5)
+[SIZE] 5.12 MB, 498 files
 
+[DEP] 00-dirtree
 [DEP] bash
+[DEP] bdftopcf
 [DEP] binutils
+[DEP] bison
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
@@ -20,14 +23,18 @@
 [DEP] imake
 [DEP] kbproto
 [DEP] libice
+[DEP] libsdl
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
+[DEP] libxext
+[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
+[DEP] mkfontdir
+[DEP] mkfontscale
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] sed
 [DEP] slang

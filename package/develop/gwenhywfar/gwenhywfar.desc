@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A multi-purpose system abstraction library
 
 [T] Gwenhywfar is a multi-purpose library that provides useful
@@ -29,7 +28,7 @@
 
 [L] GPL
 [S] Stable
-[V] 2.4.1
+[V] 2.2.0
 [P] X -----5---9 175.000
 
-[D] 3253911667 gwenhywfar-2.4.1.tar.gz http://dl.sourceforge.net/sourceforge/gwenhywfar/
+[D] 3593647423 gwenhywfar-2.2.0.tar.gz http://dl.sourceforge.net/sourceforge/gwenhywfar/

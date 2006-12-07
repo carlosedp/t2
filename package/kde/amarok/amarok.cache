@@ -1,10 +1,12 @@
 
-[TIMESTAMP] 1133788475 Mon Dec  5 14:14:35 2005
-[BUILDTIME] 175 (5)
-[SIZE] 13.95 MB, 542 files
+[TIMESTAMP] 1160579945 Wed Oct 11 15:19:05 2006
+[BUILDTIME] 65 (5)
+[SIZE] 14.99 MB, 426 files
 
 [DEP] 00-dirtree
 [DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -19,17 +21,14 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
-[DEP] glib
-[DEP] glib12
 [DEP] glibc
 [DEP] gnome-libs14
 [DEP] grep
-[DEP] gst-plugins
-[DEP] gstreamer
 [DEP] gtk+12
 [DEP] imake
 [DEP] k3b-i18n
 [DEP] kde-i18n-de
+[DEP] kde-i18n-es
 [DEP] kde-i18n-fr
 [DEP] kde-i18n-it
 [DEP] kdebase
@@ -40,9 +39,11 @@
 [DEP] libice
 [DEP] libidn
 [DEP] libjpeg
+[DEP] libnjb
 [DEP] libpng
 [DEP] libsdl
 [DEP] libsm
+[DEP] libusb
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -50,7 +51,6 @@
 [DEP] libxext
 [DEP] libxfixes
 [DEP] libxft
-[DEP] libxi
 [DEP] libxinerama
 [DEP] libxml
 [DEP] libxmu
@@ -59,21 +59,19 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
-[DEP] pcre
 [DEP] perl
 [DEP] pkgconfig
-[DEP] popt
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles
 [DEP] taglib
 [DEP] tar
 [DEP] util-linux
-[DEP] xine-lib
 [DEP] xmms
 [DEP] xproto
 [DEP] zlib

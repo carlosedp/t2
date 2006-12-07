@@ -15,7 +15,7 @@
 [I] Video Interface for *niX
 
 [T] VIDIX is VIDeo Interface for *niX. VIDIX is portable interface which
-[T] was designed and introduced as interface to userspace drivers to
+[T] was designed and introduced as interface to userspace drivers to 
 [T] provide DGA everywhere where it's possible.
 
 [U] http://vidix.sf.net/
@@ -27,7 +27,7 @@
 
 [L] GPL
 [S] Beta
-[V] 0.9.9.2
+[V] 0.9.9.1
 [P] O -----5---9 136.401
 
-[D] 647740376 vidix-0.9.9.2.tar.bz2 http://dl.sourceforge.net/sourceforge/vidix/
+[D] 2981994964 vidix-0.9.9.1.tar.bz2 http://dl.sourceforge.net/sourceforge/vidix/

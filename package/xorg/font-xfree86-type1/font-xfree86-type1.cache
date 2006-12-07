@@ -1,9 +1,11 @@
 
-[TIMESTAMP] 1133914503 Wed Dec  7 01:15:03 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.07 MB, 14 files
+[TIMESTAMP] 1160270860 Sun Oct  8 01:27:40 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.07 MB, 7 files
 
+[DEP] 00-dirtree
 [DEP] bash
+[DEP] bigreqsproto
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
@@ -14,7 +16,6 @@
 [DEP] font-bitstream-type1
 [DEP] font-ibm-type1
 [DEP] fontconfig
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

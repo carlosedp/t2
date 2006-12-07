@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133797278 Mon Dec  5 16:41:18 2005
-[BUILDTIME] 85 (5)
-[SIZE] 7.45 MB, 460 files
+[TIMESTAMP] 1160593130 Wed Oct 11 18:58:50 2006
+[BUILDTIME] 75 (5)
+[SIZE] 7.86 MB, 459 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -56,4 +56,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] zlib

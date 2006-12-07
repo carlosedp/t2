@@ -1,11 +1,13 @@
 
-[TIMESTAMP] 1133824524 Tue Dec  6 00:15:24 2005
-[BUILDTIME] 120 (5)
-[SIZE] 3.92 MB, 332 files
+[TIMESTAMP] 1160622056 Thu Oct 12 03:00:56 2006
+[BUILDTIME] 110 (5)
+[SIZE] 3.84 MB, 323 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -54,6 +56,7 @@
 [DEP] libxxf86vm
 [DEP] libzvbi
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp

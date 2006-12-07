@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133837500 Tue Dec  6 03:51:40 2005
+[TIMESTAMP] 1160640161 Thu Oct 12 08:02:41 2006
 [BUILDTIME] 10 (5)
-[SIZE] 0.13 MB, 15 files
+[SIZE] 0.08 MB, 8 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -15,17 +15,22 @@
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gaim
+[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libgcrypt
 [DEP] libgpg-error
 [DEP] libotr
 [DEP] libpng
 [DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
 [DEP] libxrender
 [DEP] linux-header
 [DEP] make
@@ -34,6 +39,7 @@
 [DEP] pango
 [DEP] patch
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

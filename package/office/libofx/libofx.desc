@@ -16,7 +16,7 @@
 
 [T] LibOFX is a parser and an API designed to allow applications to
 [T] very easily support OFX command responses, usually provided
-[T] by financial institutions for statement downloads. To my
+[T] by financial institutions for statement downloads. To my 
 [T] knowledge, it is the first working OpenSource implementation
 [T] of the OFX (Open Financial eXchange) specification on the
 [T] client side.
@@ -30,7 +30,7 @@
 
 [L] GPL
 [S] Beta
-[V] 0.8.2
+[V] 0.8.0
 [P] X -----5---9 176.500
 
-[D] 2803596043 libofx-0.8.2.tar.gz http://dl.sourceforge.net/sourceforge/libofx/
+[D] 455834225 libofx-0.8.0.tar.gz http://dl.sourceforge.net/sourceforge/libofx/

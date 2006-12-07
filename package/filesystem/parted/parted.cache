@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133464959 Thu Dec  1 20:22:39 2005
+[TIMESTAMP] 1160239141 Sat Oct  7 16:39:01 2006
 [BUILDTIME] 30 (3)
-[SIZE] 1.67 MB, 64 files
+[SIZE] 1.69 MB, 54 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -21,9 +21,9 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] patch
 [DEP] readline
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux

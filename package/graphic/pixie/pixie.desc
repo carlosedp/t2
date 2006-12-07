@@ -11,12 +11,11 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A Renderman(tm) like photorealistic renderer
 
-[T] Pixie is a photorealistic renderer that uses a RenderMan-like interface.
-[T] Features include programmable shading, motion blur, depth of field,
-[T] raytracing, scan-line rendering, occlusion culling, global illumination,
+[T] Pixie is a photorealistic renderer that uses a RenderMan-like interface. 
+[T] Features include programmable shading, motion blur, depth of field, 
+[T] raytracing, scan-line rendering, occlusion culling, global illumination, 
 [T] caustics ...
 
 [U] http://pixie.sourceforge.net/
@@ -28,7 +27,7 @@
 
 [L] GPL
 [S] Stable
-[V] 1.7.6
+[V] 1.6.3
 [P] X -----5---9 800.000
 
-[D] 1742563413 Pixie-src-1.7.6.tgz http://dl.sourceforge.net/sourceforge/pixie/
+[D] 3194970546 Pixie-src-1.6.3.tgz http://dl.sourceforge.net/sourceforge/pixie/

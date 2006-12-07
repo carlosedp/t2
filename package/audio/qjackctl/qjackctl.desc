@@ -26,13 +26,14 @@
 [U] http://qjackctl.sourceforge.net
 
 [A] Rui Nuno Capela
-[M] Rene Rebe <rene@t2-project.org>
+[M] The T2 Project <t2@t2-project.org>
 
 [C] extra/multimedia
 
 [L] GPL
 [S] Beta
-[V] 0.2.21
+[V] 0.2.20
 [P] X -----5---9 182.400
 
-[D] 1044622457 qjackctl-0.2.21.tar.gz http://dl.sourceforge.net/sourceforge/qjackctl/
+[D] 208232452 qjackctl-0.2.20.tar.gz http://dl.sourceforge.net/sourceforge/qjackctl/
+

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134308446 Sun Dec 11 14:40:46 2005
-[BUILDTIME] 15 (9)
-[SIZE] 1.76 MB, 165 files
+[TIMESTAMP] 1160506407 Tue Oct 10 18:53:27 2006
+[BUILDTIME] 15 (5)
+[SIZE] 2.14 MB, 192 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -18,11 +19,13 @@
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
 [DEP] gnome-doc-utils
+[DEP] gnome-panel
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
@@ -54,10 +57,10 @@
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
+[DEP] python
 [DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
-[DEP] streamtuner
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

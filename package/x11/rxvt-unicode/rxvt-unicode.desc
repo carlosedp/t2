@@ -17,7 +17,7 @@
 
 [T] Rxvt-unicode is a unicode improved version of rxvt.
 
-[U] http://software.schmorp.de/pkg/rxvt-unicode
+[U] http://freshmeat.net/projects/rxvt-unicode
 
 [A] Marc Alexander Lehmann <pcg@goof.com>
 [M] Rene Rebe <rene@t2-project.org>
@@ -26,9 +26,10 @@
 
 [L] GPL
 [S] Stable
-[V] 8.0
+[V] 7.7
 [P] X -----5---9 165.700
 
 [SRC] .
-[D] 2873473230 libptytty-1.0.tar.bz2 http://dist.schmorp.de/libptytty/
-[D] 3844898366 rxvt-unicode-8.0.tar.bz2 http://rxvt-unicode-dist.plan9.de/
+[D] 2307310606 libptytty-0.1.tar.bz2 http://dist.schmorp.de/libptytty/
+[D] 4043186030 rxvt-unicode-7.7.tar.bz2 http://rxvt-unicode-dist.plan9.de/
+

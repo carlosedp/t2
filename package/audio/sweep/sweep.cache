@@ -1,41 +1,60 @@
 
-[TIMESTAMP] 1134186240 Sat Dec 10 04:44:00 2005
-[BUILDTIME] 30 (9)
-[SIZE] 1.25 MB, 67 files
+[TIMESTAMP] 1160440971 Tue Oct 10 00:42:51 2006
+[BUILDTIME] 30 (5)
+[SIZE] 1.33 MB, 55 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
+[DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
+[DEP] cairo
 [DEP] coreutils
 [DEP] diffutils
+[DEP] expat
 [DEP] findutils
-[DEP] flac
+[DEP] fontconfig
+[DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
-[DEP] glib12
+[DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
-[DEP] gtk+12
+[DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libice
 [DEP] libmad
 [DEP] libogg
+[DEP] libpng
 [DEP] libsamplerate
+[DEP] libsm
 [DEP] libsndfile
 [DEP] libvorbis
 [DEP] libx11
 [DEP] libxau
+[DEP] libxcursor
 [DEP] libxdmcp
 [DEP] libxext
+[DEP] libxfixes
 [DEP] libxi
+[DEP] libxinerama
+[DEP] libxrandr
+[DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] pango
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] speex
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xproto

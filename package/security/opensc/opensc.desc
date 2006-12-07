@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A general SmartCard library and applications with PKCS #15 support
 
 [T] OpenSC consists of a SmartCard library that uses any common
@@ -26,7 +25,7 @@
 [U] http://www.opensc-project.org/
 
 [A] Juha Yrj"ol"a <juha.yrjola@iki.fi>
-[M] The T2 Project <t2@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/security
 

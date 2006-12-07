@@ -15,12 +15,14 @@
 [I] Advanced Linux Sound Architecture Plugins
 
 [T] ALSA (Advanced Linux Sound Architecture) is the next generation
-[T] Linux Sound API.
+[T] Linux Sound API. It may go into the devel 2.5 Kernel.
 [T] It provides much finer (->better) access to the sound hardware,
-[T] has a unbeatable mixer API and supports stuff like multi channel
-[T] hardware, digital outs and ins, uninterleaved sound data access,
-[T] ..., ... and an oss emulation layer (for the old applications).
-[T] It is the prefered API for professional sound apps under Linux.
+[T] has a unbeatable mixer api and supports stuff like multi track
+[T] hardware, digital outs and ins, uninterleaved sound data access
+[T] ... ... and an oss emulation layer (for the old apps).
+[T] It is (not looking to the last major api changes) the prefered
+[T] api for professional sound apps under Linux. (Lets hope they'll
+[T] come.)
 
 [U] http://www.alsa-project.org
 
@@ -31,7 +33,8 @@
 
 [L] GPL
 [S] Stable
-[V] 1.0.13
+[V] 1.0.11
 [P] X -----5---9 110.800
 
-[D] 2719189724 alsa-plugins-1.0.13.tar.bz2 ftp://ftp.alsa-project.org/pub/plugins/
+[D] 1771202387 alsa-plugins-1.0.11.tar.bz2 ftp://ftp.alsa-project.org/pub/plugins/
+

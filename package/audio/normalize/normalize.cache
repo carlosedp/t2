@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134251761 Sat Dec 10 22:56:01 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.20 MB, 22 files
+[TIMESTAMP] 1160474829 Tue Oct 10 10:07:09 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.15 MB, 15 files
 
+[DEP] 00-dirtree
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils

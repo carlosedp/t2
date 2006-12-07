@@ -27,10 +27,10 @@
 [C] extra/office
 
 [L] MPL
-[S] Alpha
-[V] 2.0a1
+[S] Stable
+[V] 1.5.0.8
 [P] X -----5---9 152.700
 
 [O] . $base/package/*/*/mozilla-conf.in
 
-[D] 688377329 thunderbird-2.0a1-source.tar.bz2 http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0a1/source/
+[D] 554055647 thunderbird-1.5.0.8-source.tar.bz2 http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5.0.8/source/

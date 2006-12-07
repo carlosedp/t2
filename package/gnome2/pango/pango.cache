@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133983466 Wed Dec  7 20:24:26 2005
-[BUILDTIME] 50 (9)
-[SIZE] 2.36 MB, 145 files
+[TIMESTAMP] 1160322078 Sun Oct  8 15:41:18 2006
+[BUILDTIME] 40 (5)
+[SIZE] 2.19 MB, 133 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -25,6 +26,7 @@
 [DEP] kbproto
 [DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp

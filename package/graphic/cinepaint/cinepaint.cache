@@ -1,22 +1,20 @@
 
-[TIMESTAMP] 1133995947 Wed Dec  7 23:52:27 2005
-[BUILDTIME] 140 (9)
-[SIZE] 12.31 MB, 604 files
+[TIMESTAMP] 1160335083 Sun Oct  8 19:18:03 2006
+[BUILDTIME] 115 (5)
+[SIZE] 11.79 MB, 598 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] findutils
-[DEP] fltk1
+[DEP] fltk
 [DEP] gawk
 [DEP] gcc
 [DEP] glib12
 [DEP] glibc
-[DEP] gnome-libs14
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+12
 [DEP] lcms
@@ -36,15 +34,12 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
 [DEP] openexr
-[DEP] pil
 [DEP] pkgconfig
 [DEP] python
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

@@ -13,7 +13,7 @@
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
 
-[I] Sun Java 6 Runtime Environment
+[I] SUN Java Runtime Environment
 
 [T] Java SE 6 ("Mustang") Beta offers the first 'feature complete' version
 [T] of Sun's next major release of the Java SE platform. Sun has endeavored
@@ -27,15 +27,15 @@
 [M] Minto van der Sluis <Minto@MultiMach.com>
 
 [C] extra/emulator
-[F] BINARY
-[R] + x86 x86-64
+[R] + x86 x86-64 
 
 [L] Restricted
 [S] Beta
-[V] 6.0-rc
+[V] 6-beta
 [P] O -----5---9 150.000
 
 [O] . $base/package/*/*/java-sun-conf.in jre
 
-[D] 2200589301 jre-6-rc-linux-i586.bin -manual://java.sun.com/javase/6/download.jsp
-[D] 3846779076 jre-6-rc-linux-amd64.bin -manual://java.sun.com/javase/6/download.jsp
+[D] 514502745 jre-6-beta-linux-i586.bin -manual://java.sun.com/javase/6/download.jsp
+[D] 2011040881 jre-6-beta-linux-amd64.bin -manual://java.sun.com/javase/6/download.jsp
+

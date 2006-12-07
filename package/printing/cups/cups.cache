@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133965144 Wed Dec  7 15:19:04 2005
-[BUILDTIME] 40 (9)
-[SIZE] 12.94 MB, 794 files
+[TIMESTAMP] 1160283444 Sun Oct  8 04:57:24 2006
+[BUILDTIME] 55 (5)
+[SIZE] 8.83 MB, 1034 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -12,15 +13,10 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
-[DEP] groff
-[DEP] libgcrypt
-[DEP] libgpg-error
+[DEP] gzip
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] libtiff
 [DEP] linux-header
 [DEP] m4
@@ -30,7 +26,7 @@
 [DEP] openslp
 [DEP] openssl
 [DEP] pam
-[DEP] patch
+[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

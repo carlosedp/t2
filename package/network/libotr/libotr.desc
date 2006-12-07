@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] This is the portable OTR Messaging Library
 
 [T] You need this library in order to use the other OTR software, for example
@@ -27,6 +26,6 @@
 [L] GPL
 [S] Stable
 [V] 3.0.0
-[P] X -----5---9 800.000
+[P] X -----5---9 800.000 
 
 [D] 2364969307 libotr-3.0.0.tar.gz http://www.cypherpunks.ca/otr/

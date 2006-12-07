@@ -34,13 +34,16 @@
 [U] http://www.mesa3d.org/
 
 [C] base/x11
+
 [F] NOPARALLEL
 
 [L] OpenSource
 [S] Stable
-[V] 6.5.1
-[P] X -----5---9 112.467
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 1291250069 MesaLib-6.5.1.tar.bz2 http://dl.sourceforge.net/sourceforge/mesa3d/
+[V] 6.4.2
+[P] X -----5---9 112.467
+
+[D] 1984483066 MesaLib-6.4.2.tar.bz2 http://dl.sourceforge.net/sourceforge/mesa3d/
+

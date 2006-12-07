@@ -1,12 +1,14 @@
 
-[TIMESTAMP] 1134306956 Sun Dec 11 14:15:56 2005
-[BUILDTIME] 200 (9)
-[SIZE] 16.91 MB, 409 files
+[TIMESTAMP] 1160504422 Tue Oct 10 18:20:22 2006
+[BUILDTIME] 175 (5)
+[SIZE] 16.70 MB, 467 files
 
 [DEP] 00-dirtree
+[DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
+[DEP] cairo
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
@@ -17,13 +19,19 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
+[DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
+[DEP] gtk+
 [DEP] gwenhywfar
+[DEP] inputproto
+[DEP] kbproto
 [DEP] kdelibs
 [DEP] libart_lgpl23
 [DEP] libchipcard2
 [DEP] libdrm
+[DEP] libglade
 [DEP] libice
 [DEP] libidn
 [DEP] libofx
@@ -36,7 +44,9 @@
 [DEP] libxext
 [DEP] libxfixes
 [DEP] libxft
+[DEP] libxi
 [DEP] libxinerama
+[DEP] libxml
 [DEP] libxmu
 [DEP] libxrandr
 [DEP] libxrender
@@ -49,10 +59,13 @@
 [DEP] net-tools
 [DEP] openjade
 [DEP] openssl
-[DEP] patch
+[DEP] pango
+[DEP] pkgconfig
 [DEP] qt
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xproto
 [DEP] zlib

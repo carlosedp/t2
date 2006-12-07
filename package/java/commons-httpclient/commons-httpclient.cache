@@ -1,5 +1,5 @@
 
-[TIMESTAMP] 1133840943 Tue Dec  6 04:49:03 2005
+[TIMESTAMP] 1160644006 Thu Oct 12 09:06:46 2006
 [BUILDTIME] 5 (5) ERROR
 [SIZE] 0.01 MB, 7 files
 
@@ -8,7 +8,7 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
-[DEP] gawk
+[DEP] findutils
 [DEP] gcc
 [DEP] grep
 [DEP] java-dirtree

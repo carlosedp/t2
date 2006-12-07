@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134265114 Sun Dec 11 02:38:34 2005
-[BUILDTIME] 125 (9) ERROR
-[SIZE] 4.00 MB, 123 files
+[TIMESTAMP] 1160480662 Tue Oct 10 11:44:22 2006
+[BUILDTIME] 90 (5)
+[SIZE] 3.92 MB, 118 files
 
+[DEP] 00-dirtree
+[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -19,6 +21,7 @@
 [DEP] grep
 [DEP] imake
 [DEP] kdelibs
+[DEP] kdewebdev
 [DEP] libdrm
 [DEP] libice
 [DEP] libjpeg

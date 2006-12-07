@@ -1,11 +1,14 @@
 
-[TIMESTAMP] 1134259056 Sun Dec 11 00:57:36 2005
-[BUILDTIME] 385 (9)
-[SIZE] 7.18 MB, 428 files
+[TIMESTAMP] 1160477934 Tue Oct 10 10:58:54 2006
+[BUILDTIME] 365 (5)
+[SIZE] 8.59 MB, 492 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
@@ -28,11 +31,13 @@
 [DEP] grep
 [DEP] gtk+12
 [DEP] imake
-[DEP] jack
 [DEP] kdebase
+[DEP] kdebindings
 [DEP] kdegames
 [DEP] kdelibs
-[DEP] kdevelop
+[DEP] kdemultimedia
+[DEP] kdenetwork
+[DEP] kdepim
 [DEP] libart_lgpl23
 [DEP] libdnet
 [DEP] libdrm
@@ -60,6 +65,7 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp

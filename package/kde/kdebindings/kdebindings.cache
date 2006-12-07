@@ -1,15 +1,18 @@
 
-[TIMESTAMP] 1134119005 Fri Dec  9 10:03:25 2005
-[BUILDTIME] 1025 (9)
-[SIZE] 28.43 MB, 158 files
+[TIMESTAMP] 1160390559 Mon Oct  9 10:42:39 2006
+[BUILDTIME] 775 (5)
+[SIZE] 29.75 MB, 148 files
 
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] blackdown-jdk
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
@@ -21,14 +24,13 @@
 [DEP] gettext
 [DEP] glib12
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+12
 [DEP] imake
 [DEP] kaffe
 [DEP] kdelibs
+[DEP] kdewebdev
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libice
 [DEP] libidn
@@ -50,16 +52,15 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] patch
 [DEP] pcre
 [DEP] perl
-[DEP] pil
 [DEP] python
 [DEP] qt
 [DEP] ruby
@@ -69,6 +70,5 @@
 [DEP] tcl
 [DEP] tk
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

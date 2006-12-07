@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133946457 Wed Dec  7 10:07:37 2005
-[BUILDTIME] 20 (9)
-[SIZE] 3.61 MB, 107 files
+[TIMESTAMP] 1160277259 Sun Oct  8 03:14:19 2006
+[BUILDTIME] 20 (5)
+[SIZE] 3.70 MB, 100 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -17,22 +18,17 @@
 [DEP] gdbm
 [DEP] gettext
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
+[DEP] pam
 [DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
-[DEP] zlib

@@ -47,9 +47,7 @@ esac
 java_postmake() {
 	if [ $java_pkg_type == jre ]; then
 		# Move the contents of the jre directory up one dir.
-		for entry in $(ls -A jre); do
-			mv jre/$entry .
-		done
+		mv jre/{.,}[a-zA-Z0-9]* .
 		rm -rf jre 
 	fi
 

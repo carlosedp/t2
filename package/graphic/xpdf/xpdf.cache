@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134588811 Wed Dec 14 20:33:31 2005
-[BUILDTIME] 100 (9)
-[SIZE] 5.34 MB, 28 files
+[TIMESTAMP] 1160456997 Tue Oct 10 05:09:57 2006
+[BUILDTIME] 25 (5)
+[SIZE] 5.08 MB, 22 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -10,7 +10,9 @@
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -24,8 +26,10 @@
 [DEP] libxau
 [DEP] libxdmcp
 [DEP] libxext
+[DEP] libxft
 [DEP] libxp
 [DEP] libxpm
+[DEP] libxrender
 [DEP] libxt
 [DEP] linux-header
 [DEP] make

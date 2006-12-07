@@ -1,9 +1,8 @@
 
-[TIMESTAMP] 1133841544 Tue Dec  6 04:59:04 2005
+[TIMESTAMP] 1161455643 Sat Oct 21 18:34:03 2006
 [BUILDTIME] 10 (5)
-[SIZE] 0.19 MB, 33 files
+[SIZE] 0.14 MB, 19 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -12,6 +11,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib12
@@ -27,6 +27,7 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles

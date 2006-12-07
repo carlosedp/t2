@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134150926 Fri Dec  9 18:55:26 2005
-[BUILDTIME] 1820 (9)
-[SIZE] 54.54 MB, 4828 files
+[TIMESTAMP] 1160410403 Mon Oct  9 16:13:23 2006
+[BUILDTIME] 1140 (5)
+[SIZE] 55.74 MB, 4843 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
@@ -32,32 +33,27 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
 [DEP] gzip
 [DEP] hal
 [DEP] imake
 [DEP] inputproto
-[DEP] jack
 [DEP] kaffe
 [DEP] kbproto
+[DEP] kdebindings
 [DEP] kdelibs
+[DEP] kdewebdev
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libfontenc
-[DEP] libgcrypt
-[DEP] libgpg-error
 [DEP] libice
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libmad
 [DEP] libogg
 [DEP] libpng
-[DEP] libprelude
 [DEP] libraw1394
 [DEP] libsm
-[DEP] libtasn1
 [DEP] libusb
 [DEP] libvorbis
 [DEP] libx11
@@ -71,7 +67,6 @@
 [DEP] libxft
 [DEP] libxinerama
 [DEP] libxkbfile
-[DEP] libxml
 [DEP] libxmu
 [DEP] libxrandr
 [DEP] libxrender
@@ -84,7 +79,6 @@
 [DEP] lm_sensors
 [DEP] m4
 [DEP] make
-[DEP] mdnsresponder
 [DEP] mesa
 [DEP] mkfontdir
 [DEP] mkfontscale
@@ -100,7 +94,6 @@
 [DEP] pcre
 [DEP] perl
 [DEP] pkgconfig
-[DEP] popt
 [DEP] qt
 [DEP] randrproto
 [DEP] renderproto
@@ -111,6 +104,7 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xdm
 [DEP] xextproto
 [DEP] xf86miscproto
 [DEP] xineramaproto

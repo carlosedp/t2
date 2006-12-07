@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Direct Connect Filesharing library
 
 [T] Valknut needs this library.
@@ -27,6 +26,7 @@
 [L] GPL
 [S] Beta
 [V] 0.3.7
-[P] X -----5---9 800.000
+[P] X -----5---9 800.000 
 
 [D] 4161139304 dclib-0.3.7.tar.bz2 http://download.berlios.de/dcgui/
+

@@ -11,13 +11,12 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A Tcl package for GTK and Gnome libraries
 
 [T] gnocl is a GTK+ / Gnome extension for the programming language
 [T] Tcl, loosely modeled after the Tk package.  It provides easy to use
 [T] commands to build quickly GTK+ / Gnome-compliant applications
-[T] including a canvas widget, GConf, and drag and drop.
+[T] including a canvas widget, GConf, and drag and drop. 
 
 [U] http://www.dr-baum.net/gnocl/
 

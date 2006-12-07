@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133792440 Mon Dec  5 15:20:40 2005
-[BUILDTIME] 55 (5)
-[SIZE] 1.41 MB, 116 files
+[TIMESTAMP] 1160585757 Wed Oct 11 16:55:57 2006
+[BUILDTIME] 45 (5)
+[SIZE] 0.67 MB, 71 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -10,7 +10,6 @@
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
@@ -28,12 +27,15 @@
 [DEP] gnome-python
 [DEP] grep
 [DEP] gtk+
-[DEP] gtkdoc
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libgnomecanvas
 [DEP] libgnomeprint
 [DEP] libgnomeprintui
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -49,18 +51,19 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
 [DEP] pango
-[DEP] patch
 [DEP] perl
 [DEP] pkgconfig
+[DEP] pygobject
 [DEP] pygtk
 [DEP] python
+[DEP] renderproto
+[DEP] rgb
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xauth
 [DEP] xorg-server
+[DEP] xproto
 [DEP] zlib

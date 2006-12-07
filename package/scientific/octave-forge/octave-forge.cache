@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133759113 Mon Dec  5 06:05:13 2005
-[BUILDTIME] 205 (5)
-[SIZE] 7.84 MB, 878 files
+[TIMESTAMP] 1160541738 Wed Oct 11 04:42:18 2006
+[BUILDTIME] 175 (5)
+[SIZE] 7.83 MB, 754 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -15,7 +15,9 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] gsl
 [DEP] hdf5
+[DEP] imagemagick
 [DEP] imake
 [DEP] libice
 [DEP] libjpeg
@@ -32,12 +34,14 @@
 [DEP] net-tools
 [DEP] octave
 [DEP] openssl
+[DEP] pcre
 [DEP] perl
 [DEP] readline
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] tetex
+[DEP] texi2html
 [DEP] texinfo
 [DEP] util-linux
 [DEP] xproto

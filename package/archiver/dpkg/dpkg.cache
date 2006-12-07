@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1161423425 Sat Oct 21 11:37:05 2006
-[BUILDTIME] 100 (9)
-[SIZE] 7.03 MB, 255 files
+[TIMESTAMP] 1160276931 Sun Oct  8 03:08:51 2006
+[BUILDTIME] 20 (5)
+[SIZE] 5.62 MB, 205 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -22,7 +22,6 @@
 [DEP] ncurses
 [DEP] net-tools
 [DEP] perl
-[DEP] po4a
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

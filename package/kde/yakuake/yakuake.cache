@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1137437188 Mon Jan 16 19:46:28 2006
-[BUILDTIME] 100 (9)
-[SIZE] 0.22 MB, 53 files
+[TIMESTAMP] 1160620079 Thu Oct 12 02:27:59 2006
+[BUILDTIME] 35 (5)
+[SIZE] 0.19 MB, 54 files
 
 [DEP] 00-dirtree
 [DEP] arts
@@ -14,7 +14,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
-[DEP] file
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
@@ -27,6 +26,7 @@
 [DEP] kdelibs
 [DEP] libart_lgpl23
 [DEP] libdnet
+[DEP] libdrm
 [DEP] libice
 [DEP] libidn
 [DEP] libjpeg
@@ -40,12 +40,15 @@
 [DEP] libxfixes
 [DEP] libxft
 [DEP] libxinerama
+[DEP] libxmu
 [DEP] libxrandr
 [DEP] libxrender
 [DEP] libxt
+[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
+[DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
 [DEP] perl

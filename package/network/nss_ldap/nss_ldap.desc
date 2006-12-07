@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] LDAP Nameservice Switch (NSS) module
 
 [T] The LDAP Nameservice Switch (NSS) module is an open source
@@ -21,7 +20,7 @@
 [U] http://www.padl.com/OSS/nss_ldap.html
 
 [A] Luke Howard <lukeh@padl.com>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/base
 
@@ -30,4 +29,4 @@
 [V] 248
 [P] X -----5---9 800.000
 
-[D] 816010611 nss_ldap-248.tar.gz http://www.padl.com/download/
+[D] 816010611 nss_ldap-248.tar.gz http://www.padl.com/download/ 

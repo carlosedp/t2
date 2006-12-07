@@ -14,9 +14,9 @@
 
 [I] Apache Maven 2
 
-[T] Maven is a software project management and comprehension tool.
-[T] Based on the concept of a project object model (POM), Maven can
-[T] manage a project's build, reporting and documentation from a
+[T] Maven is a software project management and comprehension tool. 
+[T] Based on the concept of a project object model (POM), Maven can 
+[T] manage a project's build, reporting and documentation from a 
 [T] central piece of information.
 
 [U] http://maven.apache.org/
@@ -25,12 +25,11 @@
 [M] Minto van der Sluis <Minto@MultiMach.com>
 
 [C] extra/development
-[F] BINARY
 
 [L] APL
 [S] Stable
 [V] 2.0.4
 [P] X -----5---9 800.050
 
+#[D] 0 maven-2.0.3-src.tar.bz2 svn+http://svn.apache.org/repos/asf/maven/components/trunk maven-components -r389387
 [D] 2700414326 maven-2.0.4-bin.tar.bz2 http://www.eu.apache.org/dist/maven/binaries/
-#[D] 2700414326 maven-2.0.4-src.tar.bz2 http://www.eu.apache.org/dist/maven/source/

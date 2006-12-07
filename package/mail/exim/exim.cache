@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133945147 Wed Dec  7 09:45:47 2005
-[BUILDTIME] 15 (9)
-[SIZE] 1.27 MB, 53 files
+[TIMESTAMP] 1161167346 Wed Oct 18 10:29:06 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.99 MB, 32 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
@@ -17,6 +18,7 @@
 [DEP] linux-header
 [DEP] m4
 [DEP] make
+[DEP] openssl
 [DEP] patch
 [DEP] sed
 [DEP] sysfiles

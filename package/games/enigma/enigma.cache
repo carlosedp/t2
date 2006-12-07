@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133843470 Tue Dec  6 05:31:10 2005
-[BUILDTIME] 105 (5)
-[SIZE] 14.88 MB, 2763 files
+[TIMESTAMP] 1160647756 Thu Oct 12 10:09:16 2006
+[BUILDTIME] 95 (5)
+[SIZE] 14.66 MB, 2758 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -34,12 +34,13 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] smpeg
 [DEP] sysfiles
 [DEP] tar
-[DEP] tetex
+[DEP] texi2html
 [DEP] util-linux
 [DEP] xproto
 [DEP] zlib

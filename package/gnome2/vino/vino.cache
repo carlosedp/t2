@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134049281 Thu Dec  8 14:41:21 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.11 MB, 83 files
+[TIMESTAMP] 1160365954 Mon Oct  9 03:52:34 2006
+[BUILDTIME] 25 (5)
+[SIZE] 1.00 MB, 76 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -23,6 +24,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -32,7 +34,6 @@
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133850622 Tue Dec  6 07:30:22 2005
-[BUILDTIME] 45 (5)
-[SIZE] 4.71 MB, 1270 files
+[TIMESTAMP] 1161365548 Fri Oct 20 17:32:28 2006
+[BUILDTIME] 50 (5)
+[SIZE] 4.99 MB, 1251 files
 
 [DEP] 00-dirtree
 [DEP] a52dec
@@ -10,13 +10,17 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
-[DEP] ffmpeg
+[DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] imagemagick
+[DEP] libcap
+[DEP] libcdio
+[DEP] libexif
+[DEP] libgphoto
 [DEP] libid3tag
 [DEP] libjpeg
 [DEP] libmad

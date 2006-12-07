@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134315922 Sun Dec 11 16:45:22 2005
-[BUILDTIME] 160 (9)
-[SIZE] 3.98 MB, 70 files
+[TIMESTAMP] 1160511266 Tue Oct 10 20:14:26 2006
+[BUILDTIME] 125 (5)
+[SIZE] 3.94 MB, 58 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison

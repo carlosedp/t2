@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133840269 Tue Dec  6 04:37:49 2005
+[TIMESTAMP] 1160643641 Thu Oct 12 09:00:41 2006
 [BUILDTIME] 30 (5)
-[SIZE] 6.28 MB, 360 files
+[SIZE] 1.04 MB, 171 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -12,6 +12,7 @@
 [DEP] erlang-otp
 [DEP] esdl
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

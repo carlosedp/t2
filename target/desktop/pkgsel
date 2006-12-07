@@ -162,7 +162,6 @@ X kde/k*-i18n*
 
 X enlightenment16
 X e17/*
-O emphasis
 
 X gimp-print
 
@@ -177,8 +176,6 @@ X libglade
 X gconf
 X glibmm
 X gtkmm
-X pygobject
-X pycairo
 X pygtk
 X libbonobo
 X gnome-keyring
@@ -190,7 +187,6 @@ X libgnome
 X libbonoboui
 X gail
 X libgnomeui
-X icon-naming-utils
 X gnome-icon-theme
 X libgnomecups
 X libgnomeprint
@@ -288,7 +284,6 @@ X dvbd
 X ffmpeg
 X fftw
 X flac
-X libiec61883
 X kino
 X klear
 X libcss
@@ -377,7 +372,6 @@ X openjade
 X perl perl
 X perl-libxml1
 X perl-xml-parser
-X perl-xml-simple
 X python python
 X ruby ruby
 
@@ -468,7 +462,6 @@ X sqlite
 # some network stuff
 X rocknet
 X dbus
-X dbus-glib
 X net-tools
 X iproute2
 X iptables
@@ -512,10 +505,6 @@ X ifplugd
 X acx100
 X adm8211
 X at76c503a
-X rt2400
-X rt2500
-X rt2570
-X rt61
 X bcm43xx-fw
 X ipw2100-fw
 X ipw2200-fw
@@ -526,7 +515,6 @@ X curl
 X wget
 
 # emulator
-X qemu
 X wine
 
 # scientific
@@ -538,9 +526,3 @@ X qcad
 X pwlib
 X openh323
 
-# x11 libs
-X cairomm
-
-# theming
-X neutral
-X dotcurve

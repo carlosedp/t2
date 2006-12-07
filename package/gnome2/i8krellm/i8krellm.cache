@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134262676 Sun Dec 11 01:57:56 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.06 MB, 11 files
+[TIMESTAMP] 1160479450 Tue Oct 10 11:24:10 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.05 MB, 7 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -10,9 +11,9 @@
 [DEP] cairo
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] gkrellm
 [DEP] glib

@@ -12,7 +12,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A disk based hash library
 
 [T] Disk based hashes is a method to create multidimensional binary trees
@@ -20,7 +19,7 @@
 [T] plethora of electronic data, such as graphic information.
 
 [A] Edscott Wilson Garca <edscott@users.sourceforge.net>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] base/library
 

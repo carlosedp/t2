@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133980702 Wed Dec  7 19:38:22 2005
-[BUILDTIME] 30 (9)
-[SIZE] 6.20 MB, 198 files
+[TIMESTAMP] 1161169015 Wed Oct 18 10:56:55 2006
+[BUILDTIME] 25 (5)
+[SIZE] 6.39 MB, 192 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
@@ -10,6 +11,7 @@
 [DEP] coreutils
 [DEP] cyrus-sasl2
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -21,6 +23,7 @@
 [DEP] openldap
 [DEP] openssl
 [DEP] pcre
+[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

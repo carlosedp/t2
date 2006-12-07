@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134157137 Fri Dec  9 20:38:57 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.75 MB, 109 files
+[TIMESTAMP] 1160418006 Mon Oct  9 18:20:06 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.41 MB, 98 files
 
+[DEP] 00-dirtree
+[DEP] alien
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -21,7 +23,6 @@
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxi
-[DEP] libxpm
 [DEP] linux-header
 [DEP] make
 [DEP] man
@@ -29,6 +30,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] xforms
 [DEP] xproto
 [DEP] xterm

@@ -1,6 +1,6 @@
 
-[TIMESTAMP] 1147878328 Wed May 17 17:05:28 2006
-[BUILDTIME] 100 (9)
+[TIMESTAMP] 1160561468 Wed Oct 11 10:11:08 2006
+[BUILDTIME] 20 (5)
 [SIZE] 0.08 MB, 17 files
 
 [DEP] 00-dirtree
@@ -25,7 +25,9 @@
 [DEP] gtk+
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor

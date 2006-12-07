@@ -1,22 +1,22 @@
 
-[TIMESTAMP] 1133830029 Tue Dec  6 01:47:09 2005
-[BUILDTIME] 45 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160628602 Thu Oct 12 04:50:02 2006
+[BUILDTIME] 50 (5)
+[SIZE] 3.42 MB, 339 files
 
 [DEP] 00-dirtree
 [DEP] apache
 [DEP] apr
 [DEP] apr-util
 [DEP] bash
-[DEP] bdb
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] e2fsprogs
 [DEP] expat
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
-[DEP] gdbm
 [DEP] glibc
 [DEP] grep
 [DEP] linux-header

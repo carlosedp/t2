@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134206687 Sat Dec 10 10:24:47 2005
-[BUILDTIME] 70 (9)
-[SIZE] 2.59 MB, 122 files
+[TIMESTAMP] 1160453571 Tue Oct 10 04:12:51 2006
+[BUILDTIME] 55 (5)
+[SIZE] 2.30 MB, 105 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -15,7 +15,7 @@
 [DEP] glibc
 [DEP] grep
 [DEP] gwenhywfar
-[DEP] libchipcard
+[DEP] libchipcard2
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp

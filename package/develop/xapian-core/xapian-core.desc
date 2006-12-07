@@ -22,13 +22,13 @@
 [U] http://www.xapian.org/
 
 [A] Olly Betts <olly@survex.com>
-[M] Rene Rebe <rene@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/tool
 
 [L] GPL
 [S] Stable
-[V] 0.9.9
+[V] 0.9.5
 [P] X -----5---9 650.000
 
-[D] 590528225 xapian-core-0.9.9.tar.gz http://www.oligarchy.co.uk/xapian/0.9.9/
+[D] 1772506044 xapian-core-0.9.5.tar.gz http://www.oligarchy.co.uk/xapian/0.9.5/

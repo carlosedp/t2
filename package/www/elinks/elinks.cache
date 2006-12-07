@@ -1,14 +1,14 @@
 
-[TIMESTAMP] 1133907763 Tue Dec  6 23:22:43 2005
-[BUILDTIME] 30 (9)
-[SIZE] 3.43 MB, 55 files
+[TIMESTAMP] 1160269588 Sun Oct  8 01:06:28 2006
+[BUILDTIME] 40 (5)
+[SIZE] 2.50 MB, 42 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
-[DEP] cf
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
@@ -17,15 +17,14 @@
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
-[DEP] gpm
 [DEP] grep
-[DEP] imake
 [DEP] libidn
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
+[DEP] libxt
 [DEP] linux-header
-[DEP] lua
+[DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
@@ -36,6 +35,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
+[DEP] util-linux
 [DEP] xproto
 [DEP] zlib

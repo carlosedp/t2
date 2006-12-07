@@ -1,13 +1,15 @@
 
-[TIMESTAMP] 1134132867 Fri Dec  9 13:54:27 2005
-[BUILDTIME] 715 (9)
-[SIZE] 29.36 MB, 782 files
+[TIMESTAMP] 1160400203 Mon Oct  9 13:23:23 2006
+[BUILDTIME] 655 (5)
+[SIZE] 33.45 MB, 815 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
 [DEP] binutils
+[DEP] boehm-gc
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
@@ -27,6 +29,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -38,11 +41,10 @@
 [DEP] gnome-vfs
 [DEP] gnutls
 [DEP] grep
-[DEP] gstreamer
 [DEP] gtk+
 [DEP] gtkdoc
 [DEP] gtkhtml
-[DEP] howl
+[DEP] hal
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -77,21 +79,21 @@
 [DEP] m4
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
-[DEP] ncurses
+[DEP] mono
 [DEP] net-tools
 [DEP] openldap
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
+[DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pilot-link
 [DEP] pkgconfig
 [DEP] popt
-[DEP] readline
 [DEP] renderproto
 [DEP] scrollkeeper
+[DEP] seamonkey
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

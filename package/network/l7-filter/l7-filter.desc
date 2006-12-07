@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Application Layer Packet Classifier for Linux
 
 [T] This is a classifier for the Linux kernel's Netfilter subsystem that
@@ -26,14 +25,15 @@
 [U] http://l7-filter.sourceforge.net/
 
 [A] Matthew Strait <quadong@users.sf.net>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/network
 
 [L] GPL
 [S] Stable
-[V] 2.5
+[V] 2006-06-03
 [P] X -----5---9 800.000
 
-[D] 771370948 l7-protocols-2006-09-10.tar.gz http://dl.sourceforge.net/sourceforge/l7-filter/
-[D] 1515419040 netfilter-layer7-v2.5.tar.gz http://dl.sourceforge.net/sourceforge/l7-filter/
+[D] 3423767537 l7-protocols-2006-06-03.tar.gz http://dl.sourceforge.net/sourceforge/l7-filter/
+[D] 2492610551 netfilter-layer7-v2.3.tar.gz http://dl.sourceforge.net/sourceforge/l7-filter/
+

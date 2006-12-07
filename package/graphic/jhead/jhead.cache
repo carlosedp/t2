@@ -1,6 +1,6 @@
 
-[TIMESTAMP] 1133971741 Wed Dec  7 17:09:01 2005
-[BUILDTIME] 5 (9)
+[TIMESTAMP] 1160286357 Sun Oct  8 05:45:57 2006
+[BUILDTIME] 0 (5)
 [SIZE] 0.06 MB, 7 files
 
 [DEP] 00-dirtree
@@ -9,6 +9,7 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

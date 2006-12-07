@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133797809 Mon Dec  5 16:50:09 2005
-[BUILDTIME] 20 (5)
-[SIZE] 0.18 MB, 21 files
+[TIMESTAMP] 1160593618 Wed Oct 11 19:06:58 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.18 MB, 20 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -21,7 +21,9 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] pkgconfig
 [DEP] sed
+[DEP] speex
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

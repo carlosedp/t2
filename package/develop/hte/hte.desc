@@ -11,10 +11,9 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] File editor/viewer/analyzer for executables
 
-[T] This program is a file viewer, editor and analyzer for text,
+[T] This program is a file viewer, editor and analyzer for text, 
 [T] binary, and (especially) executable files.
 [T] Supported formats:
 [T] - COFF/XCOFF32 (common object file format)
@@ -33,13 +32,14 @@
 
 [A] Stefan Weyergraf
 [A] Sebastian Biallas <sb@biallas.net>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/development
 
 [L] GPL
-[S] Beta
-[V] 2.0beta
+[S] Stable
+[V] 0.9.2
 [P] X -----5---9 800.000
 
-[D] 2848465764 ht-2.0beta.tar.bz2 http://dl.sourceforge.net/sourceforge/hte/
+[D] 2637376340 ht-0.9.2.tar.bz2 http://dl.sourceforge.net/sourceforge/hte/
+

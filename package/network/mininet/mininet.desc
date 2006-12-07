@@ -23,7 +23,7 @@
 
 [C] extra/network
 
-[F] DIETLIBC NOPARALLEL
+[F] DIETLIBC
 
 [L] GPL
 [S] Beta

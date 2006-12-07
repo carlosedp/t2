@@ -12,7 +12,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Systray for the XFce4 Desktop Environment
 
 [T] This is a systemtray plugin for xfce4.
@@ -20,7 +19,7 @@
 [U] http://www.xfce.org/
 
 [A] Tobias Henle <tobias@page23.de>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/desktop/xfce
 

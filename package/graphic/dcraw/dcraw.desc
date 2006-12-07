@@ -19,13 +19,14 @@
 [U] http://www.cybercom.net/~dcoffin/dcraw/
 
 [A] Dave Coffin <dcoffin@cybercom.net>
+[M] Nagy Karoly Gabriel <karasz@x5.ro>
 [M] Rene Rebe <rene@exactcode.de>
 
 [C] extra/graphic
 
 [L] PublicDomain GPL
 [S] Stable
-[V] 8.44
+[V] 8.20
 [P] X -----5---9 800.000
 
-[D] 2105937572 dcraw-8.44.tar.gz http://www.cybercom.net/~dcoffin/dcraw/
+[D] 470659800 dcraw-8.20.tar.gz http://www.cybercom.net/~dcoffin/dcraw/

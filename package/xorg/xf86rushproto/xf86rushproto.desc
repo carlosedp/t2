@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] XF86Rush extension headers
 
 [T] XF86Rush extension headers
@@ -30,4 +29,4 @@
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 1711569921 xf86rushproto-1.1.2.tar.bz2 http://xorg.freedesktop.org/releases/individual/proto/
+[D] 1711569921 xf86rushproto-1.1.2.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/

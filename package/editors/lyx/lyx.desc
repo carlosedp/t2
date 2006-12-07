@@ -30,9 +30,9 @@
 
 [L] GPL
 [S] Stable
-[V] 1.4.3
+[V] 1.3.7
 [P] X -----5---9 800.000
 
 [O] prefix="usr/X11"; set_confopt
 
-[D] 2395847737 lyx-1.4.3.tar.bz2 ftp://ftp.lyx.org/pub/lyx/stable/
+[D] 3244195890 lyx-1.3.7.tar.bz2 ftp://ftp.lyx.org/pub/lyx/stable/

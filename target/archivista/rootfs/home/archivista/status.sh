@@ -3,7 +3,6 @@
 . /etc/profile
 
 tmp=`mktemp`
-tmp2=`mktemp`
 
 cron_status ()
 {
@@ -80,17 +79,10 @@ ethtool eth0 >> $tmp
 		echo "Remote access (SSH) not active"
 	fi
 
-	if [ -e /etc/rc.d/rc5.d/S*sshd ]; then
-		echo "Remote access (SSH) enabled permanently"
-	fi
-
 	if ps -C x11vnc >/dev/null; then
 		echo "Graphical remote access (VNC) active"
 	else
 		echo "Graphical remote access (VNC) not active"
-	fi
-	if grep -q "autostart=1" /etc/vnc.conf 2>/dev/null; then
-		echo "Graphical remote access (VNC) enabled permanently"
 	fi
 	echo
 
@@ -100,15 +92,10 @@ ethtool eth0 >> $tmp
 	cron_status "/usb-backup.sh" "USB hard-disk backup"
 	echo
 
-	echo "Hard-disk usage"
-	df -h / /home/data | tr -s ' ' |
-		sed '1d; s,\([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\),\5 of \2 used on \6,'
-	echo
-
 	cat /etc/VERSION
 ) | sed -e 's/^[[:space:]]\+//' -e 's/inet /Inet /' -e 's/HWaddr /HWaddr:/' \
-        -e 's/Bcast:/Bcast: /' -e 's/Mask:/Mask: /' -e 's/addr:/addr: /' > $tmp2
+        -e 's/Bcast:/Bcast: /' -e 's/Mask:/Mask: /' -e 's/addr:/addr: /' |
 
-Xdialog --no-cancel --title "System status" --msgbox "`cat $tmp2`" 0 0
+Xdialog --no-cancel --title "System status" --logbox - 35 45
 
-rm -f $tmp $tmp2
+rm -f $tmp

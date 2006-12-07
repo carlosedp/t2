@@ -1,23 +1,18 @@
 
-[TIMESTAMP] 1133907526 Tue Dec  6 23:18:46 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.15 MB, 30 files
+[TIMESTAMP] 1160269430 Sun Oct  8 01:03:50 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.13 MB, 23 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] linux-header
 [DEP] make
 [DEP] ncurses
@@ -25,4 +20,3 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] zlib

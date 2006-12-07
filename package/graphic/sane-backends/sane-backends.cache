@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134167230 Fri Dec  9 23:27:10 2005
-[BUILDTIME] 110 (9)
-[SIZE] 8.14 MB, 532 files
+[TIMESTAMP] 1160423598 Mon Oct  9 19:53:18 2006
+[BUILDTIME] 95 (5)
+[SIZE] 8.66 MB, 534 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -17,9 +18,11 @@
 [DEP] libexif
 [DEP] libgphoto
 [DEP] libjpeg
+[DEP] libtiff
 [DEP] libusb
 [DEP] linux-header
 [DEP] make
+[DEP] makedepend
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pkgconfig
@@ -28,3 +31,4 @@
 [DEP] tar
 [DEP] tetex
 [DEP] util-linux
+[DEP] zlib

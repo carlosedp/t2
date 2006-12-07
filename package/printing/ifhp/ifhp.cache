@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134201564 Sat Dec 10 08:59:24 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.51 MB, 64 files
+[TIMESTAMP] 1160450513 Tue Oct 10 03:21:53 2006
+[BUILDTIME] 20 (5)
+[SIZE] 0.94 MB, 42 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -19,6 +20,7 @@
 [DEP] grep
 [DEP] libelf
 [DEP] linux-header
+[DEP] lprng
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses

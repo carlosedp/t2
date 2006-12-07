@@ -1,15 +1,17 @@
 
-[TIMESTAMP] 1133810142 Mon Dec  5 20:15:42 2005
-[BUILDTIME] 10 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160608983 Wed Oct 11 23:23:03 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.42 MB, 15 files
 
 [DEP] 00-dirtree
+[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -23,10 +25,14 @@
 [DEP] libxext
 [DEP] linux-header
 [DEP] make
+[DEP] mesa
 [DEP] mktemp
+[DEP] nasm
 [DEP] net-tools
+[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] texinfo
 [DEP] util-linux
 [DEP] zlib

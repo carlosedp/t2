@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] SELinux policy compiler
 
 [T] Security-enhanced Linux is a patch of the Linux® kernel and a number
@@ -23,8 +22,8 @@
 [T] of many kinds of mandatory access control policies, including those
 [T] based on the concepts of Type Enforcement®, Role-based Access
 [T] Control, and Multi-level Security.
-[T] This package contains checkpolicy, the SELinux policy compiler.
-[T] Only required for building policies.
+[T] This package contains checkpolicy, the SELinux policy compiler.  
+[T] Only required for building policies. 
 
 [A] NSA SElinux Team
 [M] Miguel Bolanos <miguel@geekpreview.org>
@@ -37,3 +36,4 @@
 [P] O -----5---9 811.002
 
 [D] 226003459 checkpolicy-1.28.tgz http://www.nsa.gov/selinux/archives/
+

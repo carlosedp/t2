@@ -1,20 +1,24 @@
 
-[TIMESTAMP] 1134193719 Sat Dec 10 06:48:39 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.59 MB, 26 files
+[TIMESTAMP] 1160446093 Tue Oct 10 02:08:13 2006
+[BUILDTIME] 30 (5)
+[SIZE] 1.50 MB, 20 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
+[DEP] damageproto
 [DEP] diffutils
 [DEP] findutils
+[DEP] fixesproto
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] imake
+[DEP] inputproto
 [DEP] kbproto
 [DEP] libice
 [DEP] libjpeg
@@ -33,10 +37,13 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
+[DEP] randrproto
+[DEP] recordproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xextproto
+[DEP] xineramaproto
 [DEP] xproto
 [DEP] zlib

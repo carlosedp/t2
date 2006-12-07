@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133968336 Wed Dec  7 16:12:16 2005
-[BUILDTIME] 60 (9)
-[SIZE] 4.51 MB, 337 files
+[TIMESTAMP] 1160285359 Sun Oct  8 05:29:19 2006
+[BUILDTIME] 55 (5)
+[SIZE] 3.85 MB, 324 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -21,7 +22,6 @@
 [DEP] grep
 [DEP] imake
 [DEP] inputproto
-[DEP] libdnet
 [DEP] libice
 [DEP] libx11
 [DEP] libxau

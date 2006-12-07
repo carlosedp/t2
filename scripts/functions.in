@@ -497,10 +497,8 @@ pkginstalled() {
 	fi
 }
 
-# pkgprefix [-t] [ <type> ] <package>
-# Returns the prefix or the location of a 'type' of an already built package,
-# or aborts the build if not yet installed.
-# When run in the test mode [-t] it returns an error code accordingly.
+# pkgprefix [-t] [<type>] <package>
+# returns the prefix or the location of a 'type' of an already build package
 #
 pkgprefix() {
 	local type= pkg=
@@ -519,20 +517,19 @@ pkgprefix() {
 
 	# test usual error causes
 	if [ -z "$pkg" ]; then
-		abort "pkgprefix: you must specify a package"
+		abortmsg="you must specify a package"
 	elif [ ! -f "$root/var/adm/packages/$pkg" ]; then
 		abortmsg="package $pkg is not present"
 	elif grep -q "^Prefix:" "$root/var/adm/packages/$pkg"; then
 		prefix=$( grep "^Prefix: " "$root/var/adm/packages/$pkg" | cut -d' ' -f2- )
 	else
-		abort "pkgprefix: $pkg record is to old (no Prefix: entry), please rebuild it."
+			abortmsg=`echo "$pkg record is old, please rebuild the package $pkg. As an alternative, you can insert a line into the file $root/var/adm/packages/$pkg containing the text below:\n\nPrefix: <prefix>" | fmt -w 55 | sed 's,$,\\n,g'`
 	fi
 
 	if [ "$dotest" ]; then
 		# test mode: abort or continue
 		if [ "$abortmsg" ]; then
-			echo "pkgprefix: $abortmsg" 1>&2
-			return 1
+			abort "pkgprefix: $abortmsg"
 		else
 			return 0
 		fi
@@ -640,7 +637,7 @@ create_package_db() {
 			  cat $1/dependencies/$pkg
 			  echo -e "\027"
 
-			  cat $1/md5sums/$pkg
+			  cat $1/cksums/$pkg
 			  echo -e "\027"
 
 			  echo -e "\004"
@@ -764,7 +761,7 @@ build_this_package() {
 		saved_patchfiles="$patchfiles"
 		var_append patchfiles " " \
 		           "`ls $confdir/*.patch.${xsrctar/-[v0-9]*/} 2> /dev/null`"
-		if [ "$xsrctar" != none -a "$autoextract" = 1 ]; then
+		if [ $autoextract = 1 ]; then
 			cd $builddir
 			if [ -z "$custextract" ]; then
 				# No custom extraction, so determine what
@@ -1085,8 +1082,8 @@ init_vars_and_hooks()
 	fi
 
 	if atstage cross; then
-		# everyting non-DESTDIR is passed in the specific packages
-		makeinstopt="$makeopt"' DESTDIR="$root" install'
+		makeinstopt="$makeopt"' DESTDIR="$root" DEST_DIR="$root"'
+		makeinstopt="$makeinstopt"' INSTROOT="$root" INSTALLROOT="$root" install'
 	else
 		makeinstopt="$makeopt"' install'
 	fi

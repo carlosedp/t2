@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] libstdc++ v3 (compatibility package)
 
 [T] This package contains libstdc++ v3 from the GNU Compiler Collection
@@ -31,3 +30,4 @@
 
 [D] 1892323860 gcc-3.3.5.tar.bz2 ftp://gcc.gnu.org/pub/gcc/releases/gcc-3.3.5/
 [O] libage=5.0.7
+

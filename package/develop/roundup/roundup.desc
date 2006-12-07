@@ -22,7 +22,7 @@
 [T] - submit new issues
 [T] - find and edit existing issues
 [T] - and discuss issues with other participants
-[T]
+[T] 
 [T] The system will facilitate communication among the
 [T] participants by managing discussions, and notifying
 [T] interested parties when issues are edited.
@@ -30,13 +30,13 @@
 [U] http://roundup.sourceforge.net/
 
 [A] Richard Jones <richard@users.sourceforge.net>
-[M] T2 Project <t2@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/tool
 
 [L] OpenSource
-[S] Stable
-[V] 1.2.1
+[S] Stable 
+[V] 1.1.2
 [P] X -----5---9 800.000
 
-[D] 2221135674 roundup-1.2.1.tar.gz http://cheeseshop.python.org/packages/source/r/roundup/
+[D] 456783236 roundup-1.1.2.tar.gz http://cheeseshop.python.org/packages/source/r/roundup/

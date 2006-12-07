@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133769754 Mon Dec  5 09:02:34 2005
-[BUILDTIME] 30 (5)
-[SIZE] 10.76 MB, 3700 files
+[TIMESTAMP] 1160552998 Wed Oct 11 07:49:58 2006
+[BUILDTIME] 25 (5)
+[SIZE] 10.76 MB, 3695 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -27,6 +27,7 @@
 [DEP] mysql
 [DEP] net-tools
 [DEP] openssl
+[DEP] patch
 [DEP] pcre
 [DEP] postgresql
 [DEP] sed

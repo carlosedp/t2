@@ -12,21 +12,22 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] Various modules and addons for the Asterisk Open Source PBX
+[I] Various modules and addons for the Asterisk Open Source PBX. 
 
 [T] Contains the source code to various modules and addons for the
-[T] Asterisk Open Source PBX.
+[T] Asterisk Open Source PBX. 
 
 [U] http://www.asterisk.org/
 
-[A] The Asterisk Project
-[M] T2 Project <t2@t2-project.org>
+[A] The Asterisk Project 
+[M] Christian Wiese <jeru@ixplanet.org> 
 
 [C] extra/tool
 
-[L] GPL
+[L] GPL 
 [S] Stable
-[V] 1.2.5
+[V] 1.2.2
 [P] X -----5---9 800.000
 
-[D] 4238166453 asterisk-addons-1.2.5.tar.gz http://ftp.digium.com/pub/asterisk/
+[D] 326553010 asterisk-addons-1.2.2.tar.gz http://ftp.digium.com/pub/asterisk/
+

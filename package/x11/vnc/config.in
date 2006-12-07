@@ -16,7 +16,7 @@ if pkgcheck vnc X
 then
 	menu_begin MENU_PKG_FOX 'VNC Options'
 		bool 'Build the stand-alone VNC X server' \
-		SDECFG_PKG_VNC_X_SERVER 1
+		SDECFG_PKG_VNC_X_SERVER 0
 	menu_end
 fi
 

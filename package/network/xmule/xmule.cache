@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133999392 Thu Dec  8 00:49:52 2005
-[BUILDTIME] 95 (9)
-[SIZE] 3.16 MB, 27 files
+[TIMESTAMP] 1160337571 Sun Oct  8 19:59:31 2006
+[BUILDTIME] 95 (5)
+[SIZE] 3.18 MB, 23 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -15,6 +16,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
@@ -24,8 +26,10 @@
 [DEP] gtk+
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
+[DEP] libsm
 [DEP] libtiff
 [DEP] libx11
 [DEP] libxau
@@ -42,6 +46,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pango
+[DEP] patch
 [DEP] pkgconfig
 [DEP] renderproto
 [DEP] sed

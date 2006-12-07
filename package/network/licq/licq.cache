@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134286291 Sun Dec 11 08:31:31 2005
-[BUILDTIME] 155 (9) ERROR
-[SIZE] 6.03 MB, 687 files
+[TIMESTAMP] 1160493405 Tue Oct 10 15:16:45 2006
+[BUILDTIME] 135 (5)
+[SIZE] 6.37 MB, 702 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -12,6 +13,7 @@
 [DEP] expat
 [DEP] fam
 [DEP] file
+[DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -47,13 +49,15 @@
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
+[DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
+[DEP] patch
 [DEP] qt
 [DEP] scrnsaverproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xosd
 [DEP] xproto
-[DEP] zlib

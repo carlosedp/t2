@@ -1,17 +1,20 @@
 
-[TIMESTAMP] 1134234507 Sat Dec 10 18:08:27 2005
-[BUILDTIME] 75 (9)
-[SIZE] 9.42 MB, 135 files
+[TIMESTAMP] 1160510387 Tue Oct 10 19:59:47 2006
+[BUILDTIME] 70 (5)
+[SIZE] 10.72 MB, 224 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
+[DEP] avahi
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
 [DEP] cyrus-sasl2
+[DEP] dbus
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
@@ -24,15 +27,17 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-doc-utils
 [DEP] gnome-keyring
 [DEP] gnome-vfs
+[DEP] gossip
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -57,17 +62,17 @@
 [DEP] libxml
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxslt
+[DEP] liferea
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
-[DEP] openh323
+[DEP] opal
 [DEP] openldap
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
-[DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
@@ -76,7 +81,7 @@
 [DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
-[DEP] sound-juicer
+[DEP] speex
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

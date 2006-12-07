@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133826504 Tue Dec  6 00:48:24 2005
-[BUILDTIME] 45 (5)
-[SIZE] 2.85 MB, 239 files
+[TIMESTAMP] 1160624327 Thu Oct 12 03:38:47 2006
+[BUILDTIME] 40 (5)
+[SIZE] 2.95 MB, 236 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -16,6 +16,7 @@
 [DEP] glibc
 [DEP] gnutls
 [DEP] grep
+[DEP] jbigkit
 [DEP] libgcrypt
 [DEP] libgpg-error
 [DEP] libjpeg
@@ -24,6 +25,7 @@
 [DEP] libtiff
 [DEP] linux-header
 [DEP] make
+[DEP] mktemp
 [DEP] pam
 [DEP] patch
 [DEP] sed

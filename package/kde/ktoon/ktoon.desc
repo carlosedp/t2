@@ -11,16 +11,15 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] 2D Animation Toolkit
 
 [T] KToon is a 2D Animation Toolkit designed by animators (Toonka Films)
-[T] for animators, focused to the Cartoon Industry.
+[T] for animators, focused to the Cartoon Industry. 
 
 [U] http://ktoon.toonka.com/
 
 [A] Gustavo Gonzales <xtingray@kazak.ws>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/multimedia
 
@@ -32,3 +31,4 @@
 [O] . $base/package/*/*/kde-conf.in
 
 [D] 2558885490 ktoonsrc-0.7.3.tar.gz http://ktoon.toonka.com/download/
+

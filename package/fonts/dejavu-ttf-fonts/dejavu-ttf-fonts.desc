@@ -22,13 +22,14 @@
 [U] http://dejavu.sourceforge.net
 
 [A] Stepan Roh <src@srnet.cz>
-[M] Vlad Glagolev <stelzy@gmail.com>
+[M] The T2 Project <t2@t2-project.org>
 
 [C] extra/font
 
 [L] OpenSource
 [S] Stable
-[V] 2.12
+[V] 2.4
 [P] X -----5---9 800.000
 
-[D] 1228380013 dejavu-ttf-2.12.tar.bz2 http://dl.sourceforge.net/sourceforge/dejavu/
+[D] 1435705563 dejavu-ttf-2.4.tar.gz http://dl.sourceforge.net/sourceforge/dejavu/
+

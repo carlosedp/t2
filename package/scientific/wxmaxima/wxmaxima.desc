@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] wxWidgets GUI for Maxima
 
 [T] wxMaxima is a wxWidgets GUI for the computer algebra system maxima.
@@ -20,7 +19,7 @@
 [T] native widget sets. Most of maxima functions are accessible through
 [T] menus, some have dialogs. The input line has command history (up-key,
 [T] down-key) and completion based on previous input (tab-key). wxMaxima
-[T] provides 2d formated display of maxima output.
+[T] provides 2d formated display of maxima output. 
 
 [U] http://wxmaxima.sourceforge.net/
 
@@ -31,7 +30,7 @@
 
 [L] GPL
 [S] Beta
-[V] 0.7.0a
+[V] 0.6.5
 [P] X -----5---9 815.000
 
-[D] 1170123283 wxMaxima-0.7.0a.tar.gz http://dl.sourceforge.net/sourceforge/wxmaxima/
+[D] 854615643 wxMaxima-0.6.5.tar.gz http://dl.sourceforge.net/sourceforge/wxmaxima/

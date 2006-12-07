@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134011343 Thu Dec  8 04:09:03 2005
-[BUILDTIME] 40 (9)
-[SIZE] 0.76 MB, 24 files
+[TIMESTAMP] 1160347026 Sun Oct  8 22:37:06 2006
+[BUILDTIME] 40 (5)
+[SIZE] 0.86 MB, 17 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -17,6 +18,7 @@
 [DEP] glibc
 [DEP] grep
 [DEP] gtk+12
+[DEP] imlib2
 [DEP] libtool
 [DEP] libx11
 [DEP] libxau

@@ -11,22 +11,26 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] The GNU Privacy Guard v2
 
 [T] GnuPG is GNU's tool for secure communication and data storage.
 [T] It can be used to encrypt data and to create digital signatures.
 [T] It includes an advanced key management facility and is compliant
 [T] with the proposed OpenPGP Internet standard as described in RFC2440.
+[T]
+[T] Note that GnuPG 1.9.x is quite different from the older versions and under
+[T] heavy development.
 
-[A] Werner Koch <wk@gnupg.org> et.al.
+[A] Werner Koch <wk@gnupg.org>
+[A] etal.
 [M] Juergen "George" Sawinski <jsaw@gmx.net>
 
 [C] extra/crypto
 
 [L] GPL
 [S] Stable
-[V] 2.0.1
+[V] 1.9.22
 [P] X -----5---9 118.201
 
-[D] 4039968255 gnupg-2.0.1.tar.bz2 ftp://ftp.gnupg.org/gcrypt/gnupg/
+[D] 799915311 gnupg-1.9.22.tar.bz2 ftp://ftp.gnupg.org/gcrypt/alpha/gnupg/
+

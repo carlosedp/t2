@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134316795 Sun Dec 11 16:59:55 2005
-[BUILDTIME] 35 (5) ERROR
-[SIZE] 2.41 MB, 645 files
+[TIMESTAMP] 1160537102 Wed Oct 11 03:25:02 2006
+[BUILDTIME] 25 (5)
+[SIZE] 2.71 MB, 646 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -11,7 +12,6 @@
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
@@ -28,10 +28,8 @@
 [DEP] gnome-keyring
 [DEP] gnome-python
 [DEP] gnome-vfs
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -57,15 +55,13 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
-[DEP] openssl
 [DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
+[DEP] pygobject
 [DEP] pygtk
 [DEP] pyorbit
 [DEP] python
@@ -75,7 +71,5 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib
-[DEP] zope

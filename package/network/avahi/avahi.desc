@@ -30,8 +30,9 @@
 
 [L] GPL
 [S] Beta
-[V] 0.6.15
-[P] X -----5---9 142.200
+[V] 0.6.10
+[P] X -----5---9 209.000
+
+[D] 464514989 avahi-0.6.10.tar.gz http://avahi.org/download/
 
 [O] var_append confopt ' ' "--with-distro=none"
-[D] 4083258329 avahi-0.6.15.tar.gz http://avahi.org/download/

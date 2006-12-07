@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134319324 Sun Dec 11 17:42:04 2005
-[BUILDTIME] 80 (9)
-[SIZE] 3.29 MB, 147 files
+[TIMESTAMP] 1160366168 Mon Oct  9 03:56:08 2006
+[BUILDTIME] 55 (5)
+[SIZE] 2.63 MB, 131 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -22,7 +23,6 @@
 [DEP] glibc
 [DEP] glitz
 [DEP] gnome-libs14
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
 [DEP] gtk-sharp
@@ -49,17 +49,15 @@
 [DEP] mktemp
 [DEP] mono
 [DEP] net-tools
-[DEP] numpy
 [DEP] pango
-[DEP] pil
 [DEP] pkgconfig
 [DEP] pyrexc
 [DEP] python
+[DEP] qt
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

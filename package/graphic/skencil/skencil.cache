@@ -1,5 +1,5 @@
 
-[TIMESTAMP] 1133818760 Mon Dec  5 22:39:20 2005
+[TIMESTAMP] 1160612815 Thu Oct 12 00:26:55 2006
 [BUILDTIME] 5 (5) ERROR
 [SIZE] 0.01 MB, 7 files
 
@@ -7,16 +7,11 @@
 [DEP] bash
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
-[DEP] gnue-common
 [DEP] grep
-[DEP] numpy
-[DEP] pil
 [DEP] python
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] wxpython
-[DEP] zope

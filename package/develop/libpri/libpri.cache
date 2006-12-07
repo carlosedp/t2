@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1161626368 Mon Oct 23 20:59:28 2006
-[BUILDTIME] 10 (5)
-[SIZE] 0.28 MB, 11 files
+[TIMESTAMP] 1160602485 Wed Oct 11 21:34:45 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.27 MB, 11 files
 
 [DEP] 00-dirtree
 [DEP] asterisk
@@ -11,6 +11,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -19,3 +20,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] zaptel

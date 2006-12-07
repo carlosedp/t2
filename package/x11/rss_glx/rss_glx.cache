@@ -1,18 +1,19 @@
 
-[TIMESTAMP] 1134292369 Sun Dec 11 10:12:49 2005
-[BUILDTIME] 25 (9)
-[SIZE] 5.38 MB, 51 files
+[TIMESTAMP] 1160497546 Tue Oct 10 16:25:46 2006
+[BUILDTIME] 30 (5)
+[SIZE] 3.85 MB, 67 files
 
-[DEP] alsa-lib
-[DEP] audiofile
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
-[DEP] esound
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
+[DEP] freealut
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -24,11 +25,8 @@
 [DEP] libdrm
 [DEP] libice
 [DEP] libjpeg
-[DEP] libogg
-[DEP] libsdl
 [DEP] libsm
 [DEP] libtiff
-[DEP] libvorbis
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
@@ -41,6 +39,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openal
+[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

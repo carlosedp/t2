@@ -11,16 +11,15 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] An implementation of the freedesktop menu specification for GNOME
 
 [T] The package contains an implementation of the draft "Desktop Menu
 [T] Specification" from freedesktop.org:
 [T]
 [T] http://www.freedesktop.org/Standards/menu-spec
-[T]
+[T] 
 [T] Also contained here are the GNOME menu layout configuration files,
-[T] .directory files and assorted menu related utility programs.
+[T] .directory files and assorted menu related utility programs. 
 
 [U] http://www.gnome.org
 
@@ -31,9 +30,10 @@
 
 [L] LGPL
 [S] Stable
-[V] 2.16.1
+[V] 2.14.3
 [P] X -----5---9 145.000
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 202192189 gnome-menus-2.16.1.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/gnome-menus/2.16/
+[D] 3429071685 gnome-menus-2.14.3.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/gnome-menus/2.14/
+

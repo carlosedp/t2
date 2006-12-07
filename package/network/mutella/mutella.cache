@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134305169 Sun Dec 11 13:46:09 2005
-[BUILDTIME] 35 (9) ERROR
-[SIZE] 0.02 MB, 7 files
+[TIMESTAMP] 1160503497 Tue Oct 10 18:04:57 2006
+[BUILDTIME] 35 (5)
+[SIZE] 1.12 MB, 83 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -18,6 +19,7 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] patch
 [DEP] readline
 [DEP] sed
 [DEP] sysfiles

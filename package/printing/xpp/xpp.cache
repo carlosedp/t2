@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133830410 Tue Dec  6 01:53:30 2005
-[BUILDTIME] 10 (5)
-[SIZE] 0.41 MB, 11 files
+[TIMESTAMP] 1160629590 Thu Oct 12 05:06:30 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.12 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -13,7 +13,7 @@
 [DEP] cups
 [DEP] diffutils
 [DEP] findutils
-[DEP] fltk1
+[DEP] fltk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -35,6 +35,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] openssl
+[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles

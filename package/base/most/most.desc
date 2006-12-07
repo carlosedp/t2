@@ -15,7 +15,7 @@
 [I] A most powerful paging program
 
 [T] Most is a powerful paging program for Unix, VMS, MSDOS, and win32 systems.
-[T] Unlike other well-known paging programs most supports multiple windows and
+[T] Unlike other well-known paging programs most supports multiple windows and 
 [T] can scroll left and right.
 
 [U] http://www.jedsoft.org/most/
@@ -27,7 +27,7 @@
 
 [L] GPL
 [S] Stable
-[V] 4.10.2
+[V] 4.9.5
 [P] X -----5---9 187.100
 
 [D] 1568449903 most-4.10.2.tar.bz2 ftp://space.mit.edu/pub/davis/most/

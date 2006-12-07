@@ -1,24 +1,28 @@
 
-[TIMESTAMP] 1134155803 Fri Dec  9 20:16:43 2005
-[BUILDTIME] 235 (9)
-[SIZE] 6.67 MB, 240 files
+[TIMESTAMP] 1161449267 Sat Oct 21 16:47:47 2006
+[BUILDTIME] 265 (5)
+[SIZE] 6.85 MB, 237 files
 
+[DEP] 00-dirtree
 [DEP] aalib
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
-[DEP] bison
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
+[DEP] expat
 [DEP] ffmpeg
 [DEP] file
 [DEP] findutils
 [DEP] flac
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -30,7 +34,7 @@
 [DEP] gnome-vfs
 [DEP] gpm
 [DEP] grep
-[DEP] howl
+[DEP] gtk+
 [DEP] imagemagick
 [DEP] imake
 [DEP] lame
@@ -58,14 +62,14 @@
 [DEP] libxvmc
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
-[DEP] ncurses
 [DEP] net-tools
 [DEP] orbit2
+[DEP] perl
 [DEP] pkgconfig
-[DEP] popt
 [DEP] rte
 [DEP] sed
 [DEP] slang

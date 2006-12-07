@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133991737 Wed Dec  7 22:42:17 2005
-[BUILDTIME] 5 (9)
-[SIZE] 4.14 MB, 393 files
+[TIMESTAMP] 1160327604 Sun Oct  8 17:13:24 2006
+[BUILDTIME] 0 (5)
+[SIZE] 4.13 MB, 386 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -12,7 +12,6 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] iso-codes
 [DEP] libxml
 [DEP] make
 [DEP] sed

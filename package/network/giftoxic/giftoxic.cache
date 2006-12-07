@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133844069 Tue Dec  6 05:41:09 2005
-[BUILDTIME] 15 (5)
-[SIZE] 0.24 MB, 38 files
+[TIMESTAMP] 1160648442 Thu Oct 12 10:20:42 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.16 MB, 28 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -16,6 +16,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
@@ -23,8 +24,12 @@
 [DEP] glitz
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libgift
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -41,8 +46,9 @@
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] zlib
+[DEP] xproto

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134027861 Thu Dec  8 08:44:21 2005
-[BUILDTIME] 10 (9)
-[SIZE] 3.47 MB, 90 files
+[TIMESTAMP] 1160354917 Mon Oct  9 00:48:37 2006
+[BUILDTIME] 5 (5)
+[SIZE] 3.39 MB, 83 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -11,6 +12,7 @@
 [DEP] findutils
 [DEP] gcc
 [DEP] gettext
+[DEP] glib
 [DEP] glibc
 [DEP] grep
 [DEP] linux-header

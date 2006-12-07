@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133772954 Mon Dec  5 09:55:54 2005
-[BUILDTIME] 30 (5)
-[SIZE] 0.71 MB, 75 files
+[TIMESTAMP] 1160555374 Wed Oct 11 08:29:34 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.41 MB, 65 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -24,6 +24,8 @@
 [DEP] glitz
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libice
 [DEP] libpng
 [DEP] libsm
@@ -48,6 +50,7 @@
 [DEP] pango
 [DEP] patch
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] startup-notification
 [DEP] sysfiles

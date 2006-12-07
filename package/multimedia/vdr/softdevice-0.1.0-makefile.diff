@@ -1,0 +1,55 @@
+--- softdevice/Makefile~	2006-04-29 08:20:28.000000000 +0200
++++ softdevice/Makefile	2006-05-02 12:43:11.000000000 +0200
+@@ -25,7 +25,7 @@
+ VDRDIR     = ../../..
+ LIBDIR     = ../../lib
+ TMPDIR     = /tmp
+-PLUGINLIBDIR = ./PLUGINS/lib
++PLUGINLIBDIR = /usr/lib/vdr
+ 
+ -include config.mak
+ 
+@@ -81,7 +81,7 @@
+ #   install -m 644 postprocess.h /usr/local/include/postproc/postprocess.h
+ #   cp libpostproc.a /usr/local/lib/
+ #
+-PP_LIBAVCODEC=1
++#PP_LIBAVCODEC=1
+ 
+ # -----------------------------------------------------------------------------
+ # if you want output methods build as a single lib comment the following line
+@@ -94,7 +94,7 @@
+ #VIDIX_DIR    = /opt/vidix
+ #VIDIX_DIR    = /usr/local/
+ 
+-VIDIX_DIR    = /usr/local
++VIDIX_DIR    = /usr
+ 
+ # -----------------------------------------------------------------------------
+ # Set up these paths to your enviroment!
+@@ -103,7 +103,7 @@
+ #FFMPEGCFLAGS=-I../../../../ffmpeg/libavcodec
+ #
+ # If you installed ffmpeg's lib (make installlib)
+-FFMPEGCFLAGS=-I/usr/local/include/ffmpeg/
++FFMPEGCFLAGS=-I/usr/include/ffmpeg/
+ #FFMPEGCFLAGS=-I/home/extra/src/video/ffmpeg-0.4.8/libavcodec
+ #
+ #
+@@ -143,13 +143,13 @@
+ endif
+ 
+ ifdef DFB_SUPPORT
+-  DFB_LIBS  = -L/usr/local/lib -ldfb++
+-  DFB_CFLAGS = -I/usr/local/include/dfb++ -I/usr/local/include/directfb
++  DFB_LIBS  = -L/usr/lib -ldfb++
++  DFB_CFLAGS = -I/usr/include/dfb++ -I/usr/include/directfb
+   DEFINES  += -DDFB_SUPPORT
+ endif
+ 
+ ifdef XV_SUPPORT
+-  XV_LIBS   = -L/usr/X11R6/lib -lXi -lXext -lX11 -lm -lXv
++  XV_LIBS   = -L/usr/X11R7/lib -lXi -lXext -lX11 -lm -lXv
+   ifdef LIBXDPMS_SUPPORT
+     DEFINES += -DLIBXDPMS_SUPPORT
+   endif

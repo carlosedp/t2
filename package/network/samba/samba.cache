@@ -1,11 +1,9 @@
 
-[TIMESTAMP] 1133988018 Wed Dec  7 21:40:18 2005
-[BUILDTIME] 275 (9)
-[SIZE] 37.83 MB, 777 files
+[TIMESTAMP] 1160311258 Sun Oct  8 12:40:58 2006
+[BUILDTIME] 95 (5)
+[SIZE] 43.72 MB, 820 files
 
 [DEP] 00-dirtree
-[DEP] acl
-[DEP] attr
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -17,13 +15,7 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
-[DEP] libcap
-[DEP] libgcrypt
-[DEP] libgpg-error
-[DEP] libprelude
-[DEP] libtasn1
 [DEP] linux-header
 [DEP] m4
 [DEP] make

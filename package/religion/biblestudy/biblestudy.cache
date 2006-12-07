@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133830994 Tue Dec  6 02:03:14 2005
-[BUILDTIME] 30 (5)
-[SIZE] 0.64 MB, 15 files
+[TIMESTAMP] 1160631387 Thu Oct 12 05:36:27 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.62 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -25,9 +25,11 @@
 [DEP] glitz
 [DEP] grep
 [DEP] gtk+
+[DEP] libice
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
+[DEP] libsm
 [DEP] libtiff
 [DEP] libx11
 [DEP] libxau

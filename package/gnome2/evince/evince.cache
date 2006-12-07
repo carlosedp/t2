@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133845933 Tue Dec  6 06:12:13 2005
-[BUILDTIME] 55 (5)
-[SIZE] 2.14 MB, 99 files
+[TIMESTAMP] 1160650376 Thu Oct 12 10:52:56 2006
+[BUILDTIME] 50 (5)
+[SIZE] 1.92 MB, 91 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -33,9 +33,10 @@
 [DEP] gnome-keyring
 [DEP] gnome-panel
 [DEP] gnome-vfs
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -65,25 +66,25 @@
 [DEP] libxt
 [DEP] linux-header
 [DEP] make
+[DEP] memprof
 [DEP] mktemp
 [DEP] nautilus
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
 [DEP] poppler
 [DEP] popt
 [DEP] python
+[DEP] rat
+[DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib

@@ -1,36 +1,52 @@
 
-[TIMESTAMP] 1133811282 Mon Dec  5 20:34:42 2005
-[BUILDTIME] 20 (5)
-[SIZE] 1.26 MB, 89 files
+[TIMESTAMP] 1160610125 Wed Oct 11 23:42:05 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.99 MB, 167 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
+[DEP] anjuta
 [DEP] atk
 [DEP] audiofile
+[DEP] balsa
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
+[DEP] control-center
 [DEP] coreutils
+[DEP] dasher
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
 [DEP] expat
+[DEP] file-roller
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
+[DEP] gdm
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-applets
+[DEP] gnome-cups-manager
 [DEP] gnome-keyring
+[DEP] gnome-netstatus
+[DEP] gnome-panel
 [DEP] gnome-vfs
+[DEP] gnopernicus
+[DEP] gossip
 [DEP] grep
 [DEP] gstreamer
 [DEP] gtk+
+[DEP] gucharmap
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -60,11 +76,21 @@
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
+[DEP] perl
+[DEP] perl-xml-parser
 [DEP] pkgconfig
+[DEP] planner
 [DEP] popt
+[DEP] renderproto
 [DEP] scrollkeeper
+[DEP] seahorse
 [DEP] sed
+[DEP] sound-juicer
+[DEP] sylpheed-claws
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] vino
+[DEP] xproto
+[DEP] yelp
 [DEP] zlib

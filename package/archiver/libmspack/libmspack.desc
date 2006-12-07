@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A library for Microsoft compression formats
 
 [T] The purpose of libmspack is to provide both compression and
@@ -40,3 +39,4 @@
 
 #[D] 2389544820 libmspack-0.0.20040308alpha.tar.gz http://www.kyz.uklinux.net/downloads/
 [D] X libmspack-cvs-2005-02-28.tar.gz cvs://:pserver:anonymous@cvs.sourceforge.net:/cvsroot/libmspack libmspack -D 2005-02-28
+

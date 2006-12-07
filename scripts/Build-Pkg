@@ -144,7 +144,7 @@ if [ "$chroot" = 1 ] ; then
 	cd "$xroot" || exit 1
 
 	x_mknod() {
-		if [ ! -c "$1" -a ! -b "$1" ]; then
+		if [ ! -e "$1" ]; then
 			mknod "$@"
 		fi
 	}
@@ -284,6 +284,7 @@ fi
 mkdir -p $root/var/adm/logs
 mkdir -p $root/var/adm/flists
 mkdir -p $root/var/adm/olists
+mkdir -p $root/var/adm/cksums
 mkdir -p $root/var/adm/md5sums
 mkdir -p $root/var/adm/packages
 mkdir -p $root/var/adm/dependencies
@@ -547,8 +548,6 @@ abort() {
 		fixfile () {
 		  # we use .vanilla to not rediff backup .orig from patch
 		  [ -f \$1.vanilla ] || cp \$1 \$1.vanilla
-		  # maybe we do not have the editor yet?
-		  which \$EDITOR > /dev/null || EDITOR=nvi
 		  \$EDITOR \$1
 		}
 		fixfilediff() {
@@ -627,7 +626,7 @@ abort() {
 	[ -s "var/adm/parse-config/$xpkg" ] &&
 		echo "var/adm/parse-config/$xpkg" >> $builddir/flist.txt
 	for x in var/adm/flists/$xpkg var/adm/md5sums/$xpkg \
-	         var/adm/packages/$xpkg \
+	         var/adm/cksums/$xpkg var/adm/packages/$xpkg \
 	         var/adm/descs/$xpkg var/adm/dependencies/$xpkg ; do
 			touch $x ; echo "$x" >> $builddir/flist.txt
 	done
@@ -726,8 +725,9 @@ abort() {
 	echo Found `wc -l < var/adm/flists/$xpkg` "files for this package."
 	echo Found `wc -l < var/adm/olists/$xpkg` "orphaned files for this package."
 
-	echo "Clear (old) md5sums ..."
+	echo "Clear (old) md5sums and cksums ..."
 	echo -n > var/adm/md5sums/$xpkg
+	echo -n > var/adm/cksums/$xpkg
 
 	if [ "$SDECFG_FLIST" = "flwrapper" -o \
 	     "$SDECFG_FLIST" = "strace" ] && [ $stagelevel -gt 1 ] ; then
@@ -779,12 +779,15 @@ abort() {
 		sort -u $builddir/dependencies.txt > var/adm/dependencies/$xpkg
 	fi
 
-	echo -n "Creating md5sum files ..."
+	echo -n "Creating md5sum and cksum files ..."
 	getfiles < var/adm/flists/$xpkg > $builddir/files.lst
 	if [ -s $builddir/files.lst ] ; then
-		cat $builddir/files.lst |
-			grep -v '^var/adm/' | sed -e 's,^.*,"\0",' |
+		cat $builddir/files.lst | \
+			grep -v '^var/adm/' | sed -e 's,^.*,"\0",' | \
 			xargs -r md5sum > var/adm/md5sums/$xpkg
+		cat $builddir/files.lst | \
+			grep -v '^var/adm/' | sed -e 's,^.*,"\0",' | \
+			xargs -r cksum > var/adm/cksums/$xpkg
 	fi
 	echo ' done.'
 
