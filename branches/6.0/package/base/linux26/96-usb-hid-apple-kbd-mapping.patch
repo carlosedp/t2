@@ -21,7 +21,7 @@ So we swap the events here simillar as in the 95-adb-mapping patch.
 
 --- linux-2.6.16/drivers/usb/input/hid-input.c	2006-03-20 06:53:29.000000000 +0100
 +++ linux-2.6.16/drivers/usb/input/hid-input.c	2006-06-09 14:24:12.000000000 +0200
-@@ -256,8 +256,27 @@
+@@ -256,8 +256,28 @@
  			set_bit(EV_REP, input->evbit);
  
  			if ((usage->hid & HID_USAGE) < 256) {
@@ -41,7 +41,8 @@ So we swap the events here simillar as in the 95-adb-mapping patch.
 +					}
 +					/* ISO key exchange */
 +					if (input->id.product == 0x0215 ||
-+					    input->id.product == 0x0218)
++					    input->id.product == 0x0218 ||
++					    input->id.product == 0x021B)
 +					switch (code) {
 +					  case 41: code = 86; break;
 +					  case 86: code = 41; break;
