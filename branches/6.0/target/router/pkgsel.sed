@@ -53,6 +53,7 @@
 / stone / { p; d; }
 / rocknet / { p; d; }
 / mkinitrd / { p; d; }
+/ cpio / { p; d; }
 / sysvinit / { p; d; }
 / tar / { p; d; }
 / tcp_wrappers / { p; d; }
