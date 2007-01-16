@@ -130,6 +130,7 @@ CONFIG_USB_HID=y
 CONFIG_USB_HIDINPUT=y
 CONFIG_USB_HIDDEV=y
 dnl allows manual vendor/product ID override
+CONFIG_USB_SERIAL=m
 CONFIG_USB_SERIAL_GENERIC=y
 
 dnl USB - some others should be modular ...
