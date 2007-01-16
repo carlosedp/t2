@@ -52,6 +52,11 @@
 / stone / { p; d; }
 / rocknet / { p; d; }
 / mkinitrd / { p; d; }
+/ hotplug++ / { p; d; }
+/ udev / { p; d; }
+/ disktype / { p; d; }
+/ minised / { p; d; }
+/ pdksh / { p; d; }
 / cpio / { p; d; }
 / sysvinit / { p; d; }
 / tar / { p; d; }
