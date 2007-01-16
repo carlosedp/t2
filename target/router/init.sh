@@ -30,7 +30,7 @@ sh /etc/hwscan.sh 2> /dev/null
 echo
 echo "                     *************************************"
 echo "                     **            T2 Router            **"
-echo "                     **   http://www.exactcode.de/t2/   **"
+echo "                     **   http://www.t2-project.org/    **"
 echo "                     *************************************"
 echo
 
