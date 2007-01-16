@@ -28,7 +28,6 @@
 / iptables / { p; d; }
 / liblockfile / { p; d; }
 / libtool / { p; d; }
-/ linux24 / { p; d; }
 / linux26 / { p; d; }
 / linux-header / { p; d; }
 / m4 / { p; d; }
