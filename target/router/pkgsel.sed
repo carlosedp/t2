@@ -43,7 +43,7 @@
 / patch / { p; d; }
 / pciutils / { p; d; }
 / pcmcia-cs / { p; d; }
-/ perl / { p; d; }
+/ perl perl / { p; d; }
 / procps / { p; d; }
 / psutils / { p; d; }
 / sed / { p; d; }
