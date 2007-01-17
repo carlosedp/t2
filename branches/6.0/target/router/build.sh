@@ -11,6 +11,7 @@
 # the Free Software Foundation; version 2 of the License. A copy of the
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
+
 syslinux_ver="`sed -n 's,.*syslinux-\(.*\).tar.*,\1,p' \
                $base/target/router/download.txt`"
 
@@ -79,12 +80,12 @@ echo_status "Create init script."
 echo -e '#!/bin/bash\ncd; exec /bin/bash --login' > initrd/bin/login-shell
 cp $base/target/$target/init.sh initrd/bin/init
 chmod +x initrd/bin/login-shell initrd/bin/init
-cp $build_root/sbin/{hwscan,dumpnetcfg} initrd/bin/
+cp $build_root/sbin/{hotplug++,dumpnetcfg} initrd/bin/
 cp $build_root/usr/share/pci.ids initrd/share/
 ln -s bash initrd/bin/sh
 
 echo_status "Creating initrd image."
-dd if=/dev/zero of=initrd.img count=16384 bs=1024 2>/dev/null
+dd if=/dev/zero of=initrd.img count=32000 bs=1024 2>/dev/null
 mke2fs -qF initrd.img 2>/dev/null
 mount -o loop initrd.img initrd.mnt
 cp -a initrd/* initrd.mnt/
@@ -112,4 +113,3 @@ if [ "$SDEDEBUG_ROUTER_NOCLEANUP" != 1 ]; then
 	echo_status "Cleaning up."
 	rm -rf initrd.mnt/ initrd
 fi
-
