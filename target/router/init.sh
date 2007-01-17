@@ -24,8 +24,7 @@ ln -sf fd/0             /dev/stdin
 ln -sf fd/1             /dev/stdout
 ln -sf fd/2             /dev/stderr
 
-hwscan > /etc/hwscan.sh
-sh /etc/hwscan.sh 2> /dev/null
+hotplug++ -synth
 
 echo
 echo "                     *************************************"
