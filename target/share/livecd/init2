@@ -10,10 +10,14 @@ mkdir -p /mnt/overlay
 mount -nt tmpfs none /mnt/overlay
 mount -nt unionfs -o dirs=/mnt/overlay:/mnt/live=ro none /mnt/live
 
-echo "Finalizing configuration ..."
+echo "Finalizing setup ..."
 cat /proc/mounts > /etc/mtab
 
-rm -f /init{,2}
+find /tmp/lib -type f -name '*.ko' | while read f; do
+	f=${f#/tmp}
+	[ -e $f ] || mv -f /tmp/$f $f
+done
+rm -rf /tmp/lib /init{,2}
 
 init="init= `cat /proc/cmdline`" ; init=${init##*init=} ; init=${init%% *}
 # TODO: later on search other places if we want 100% backward compat.
