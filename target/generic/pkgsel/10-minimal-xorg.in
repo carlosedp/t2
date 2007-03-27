@@ -58,6 +58,8 @@ X imake
 X cf
 X gccmakedep
 
+X xconsole
+X xsm
 X xhost
 x xkill
 X xdpyinfo
