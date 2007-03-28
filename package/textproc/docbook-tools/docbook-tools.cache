@@ -1,14 +1,14 @@
 
-[TIMESTAMP] 1171313829 Mon Feb 12 20:57:09 2007
+[TIMESTAMP] 1160484373 Tue Oct 10 12:46:13 2006
 [BUILDTIME] 5 (5) ERROR
-[SIZE] 0.02 MB, 6 files
+[SIZE] 0.01 MB, 7 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] grep
 [DEP] make
@@ -19,3 +19,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

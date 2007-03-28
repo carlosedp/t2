@@ -1,10 +1,11 @@
 
-[TIMESTAMP] 1142630374 Fri Mar 17 22:19:34 2006
-[BUILDTIME] 100 (9)
-[SIZE] 0.61 MB, 19 files
+[TIMESTAMP] 1160654170 Thu Oct 12 11:56:10 2006
+[BUILDTIME] 40 (5)
+[SIZE] 0.71 MB, 8 files
 
 [DEP] 00-dirtree
 [DEP] bash
+[DEP] bc
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
@@ -15,6 +16,7 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] libidn
 [DEP] libsigc++
 [DEP] libtorrent
 [DEP] linux-header

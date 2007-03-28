@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133963575 Wed Dec  7 14:52:55 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.25 MB, 26 files
+[TIMESTAMP] 1160282857 Sun Oct  8 04:47:37 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.14 MB, 16 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash

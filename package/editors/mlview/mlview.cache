@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133808353 Mon Dec  5 19:45:53 2005
-[BUILDTIME] 220 (5)
-[SIZE] 3.91 MB, 95 files
+[TIMESTAMP] 1160607230 Wed Oct 11 22:53:50 2006
+[BUILDTIME] 175 (5)
+[SIZE] 3.77 MB, 85 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -32,6 +32,8 @@
 [DEP] gtk+
 [DEP] gtkmm
 [DEP] gtksourceview
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -61,16 +63,19 @@
 [DEP] libxslt
 [DEP] linux-header
 [DEP] make
+[DEP] memprof
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
+[DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

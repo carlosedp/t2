@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133825690 Tue Dec  6 00:34:50 2005
+[TIMESTAMP] 1160623401 Thu Oct 12 03:23:21 2006
 [BUILDTIME] 60 (5)
-[SIZE] 2.85 MB, 313 files
+[SIZE] 2.72 MB, 314 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -10,6 +10,7 @@
 [DEP] bash
 [DEP] binutils
 [DEP] bison
+[DEP] boost
 [DEP] bzip2
 [DEP] cairo
 [DEP] cf
@@ -23,6 +24,7 @@
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
+[DEP] gengetopt
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
@@ -30,7 +32,11 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -48,9 +54,9 @@
 [DEP] openssl
 [DEP] pango
 [DEP] pkgconfig
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
 [DEP] xproto
-[DEP] zlib

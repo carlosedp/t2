@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134130117 Fri Dec  9 13:08:37 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.40 MB, 73 files
+[TIMESTAMP] 1160397663 Mon Oct  9 12:41:03 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.30 MB, 64 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -31,7 +32,6 @@
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -62,7 +62,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2

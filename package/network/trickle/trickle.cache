@@ -1,9 +1,8 @@
 
-[TIMESTAMP] 1172389086 Sun Feb 25 07:38:06 2007
+[TIMESTAMP] 1161455027 Sat Oct 21 18:23:47 2006
 [BUILDTIME] 10 (5)
-[SIZE] 0.09 MB, 13 files
+[SIZE] 0.09 MB, 15 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -25,3 +24,4 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
+[DEP] util-linux

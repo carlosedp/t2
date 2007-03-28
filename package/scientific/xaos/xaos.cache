@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171289416 Mon Feb 12 14:10:16 2007
-[BUILDTIME] 25 (5)
-[SIZE] 1.64 MB, 234 files
+[TIMESTAMP] 1160465922 Tue Oct 10 07:38:42 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.55 MB, 229 files
 
 [DEP] 00-dirtree
 [DEP] aalib
@@ -12,7 +12,6 @@
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
-[DEP] dpkg
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
@@ -25,7 +24,6 @@
 [DEP] libpng
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxxf86dga
@@ -36,11 +34,11 @@
 [DEP] ncurses
 [DEP] net-tools
 [DEP] perl
-[DEP] perl-gettext
 [DEP] sed
 [DEP] slang
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xextproto
 [DEP] xf86dgaproto
 [DEP] xf86vidmodeproto

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134259962 Sun Dec 11 01:12:42 2005
-[BUILDTIME] 60 (9)
-[SIZE] 17.26 MB, 359 files
+[TIMESTAMP] 1160478435 Tue Oct 10 11:07:15 2006
+[BUILDTIME] 50 (5)
+[SIZE] 17.27 MB, 350 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bison
@@ -19,12 +20,8 @@
 [DEP] imake
 [DEP] libdrm
 [DEP] libice
-[DEP] libmikmod
-[DEP] libogg
 [DEP] libpng
 [DEP] libsdl
-[DEP] libsdl_mixer
-[DEP] libvorbis
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
@@ -35,8 +32,8 @@
 [DEP] mesa
 [DEP] mktemp
 [DEP] net-tools
+[DEP] patch
 [DEP] sed
-[DEP] smpeg
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

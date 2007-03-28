@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134120103 Fri Dec  9 10:21:43 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.11 MB, 17 files
+[TIMESTAMP] 1160391159 Mon Oct  9 10:52:39 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.05 MB, 9 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -54,4 +55,3 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xproto
-[DEP] zlib

@@ -24,15 +24,16 @@
 [U] http://gnomebaker.sourceforge.net/
 
 [A] Luke Biddell <luke.biddell@gmail.com>
-[M] Susanne Klaus <vadja@gmx.de>
+[M] Alejandro Mery <amery@geeks.cl>
 
 [C] extra/tool
 
 [L] LGPL
 [S] Beta
-[V] 0.6.1
+[V] 0.6.0
 [P] X -----5---9 800.000
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 3073481890 gnomebaker-0.6.1.tar.gz http://dl.sourceforge.net/sourceforge/gnomebaker/
+[D] 2355837265 gnomebaker-0.6.0.tar.gz http://dl.sourceforge.net/sourceforge/gnomebaker/
+

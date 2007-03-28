@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133859355 Tue Dec  6 09:55:55 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.38 MB, 41 files
+[TIMESTAMP] 1160244172 Sat Oct  7 18:02:52 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.26 MB, 31 files
 
 [DEP] bash
 [DEP] binutils
@@ -9,6 +9,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -17,7 +18,6 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] patch
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

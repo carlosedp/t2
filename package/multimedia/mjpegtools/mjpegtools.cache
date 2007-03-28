@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134125788 Fri Dec  9 11:56:28 2005
-[BUILDTIME] 80 (9)
-[SIZE] 2.88 MB, 197 files
+[TIMESTAMP] 1160395165 Mon Oct  9 11:59:25 2006
+[BUILDTIME] 65 (5)
+[SIZE] 2.76 MB, 178 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -20,6 +21,7 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
@@ -29,7 +31,6 @@
 [DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libquicktime
 [DEP] libsdl
 [DEP] libsm
 [DEP] libx11
@@ -48,6 +49,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] pango
+[DEP] patch
 [DEP] pkgconfig
 [DEP] renderproto
 [DEP] sed

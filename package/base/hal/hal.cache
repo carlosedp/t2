@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134323126 Sun Dec 11 18:45:26 2005
-[BUILDTIME] 45 (9)
-[SIZE] 3.12 MB, 241 files
+[TIMESTAMP] 1160366373 Mon Oct  9 03:59:33 2006
+[BUILDTIME] 35 (5)
+[SIZE] 2.03 MB, 207 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -18,7 +18,6 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] libusb
 [DEP] linux-header
@@ -26,16 +25,11 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
-[DEP] patch
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
-[DEP] popt
 [DEP] python
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython

@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134286750 Sun Dec 11 08:39:10 2005
-[BUILDTIME] 50 (9)
-[SIZE] 3.82 MB, 326 files
+[TIMESTAMP] 1160493602 Tue Oct 10 15:20:02 2006
+[BUILDTIME] 40 (5)
+[SIZE] 2.53 MB, 319 files
 
+[DEP] 00-dirtree
+[DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -25,4 +27,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] texinfo
 [DEP] util-linux

@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] X Trap Library
 
 [T] X Trap Library
@@ -25,9 +24,9 @@
 
 [L] OpenSource
 [S] Stable
-[V] 1.0.2
+[V] 1.0.1
 [P] X -----5---9 112.600
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 1416370607 xtrap-1.0.2.tar.bz2 http://xorg.freedesktop.org/releases/individual/app/
+[D] 1190742644 xtrap-1.0.1.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/

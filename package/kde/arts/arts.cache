@@ -1,11 +1,13 @@
 
-[TIMESTAMP] 1133982848 Wed Dec  7 20:14:08 2005
-[BUILDTIME] 85 (9)
-[SIZE] 4.96 MB, 203 files
+[TIMESTAMP] 1160291395 Sun Oct  8 07:09:55 2006
+[BUILDTIME] 115 (5)
+[SIZE] 4.72 MB, 198 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -23,8 +25,6 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imake
-[DEP] jack
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libice
 [DEP] libjpeg

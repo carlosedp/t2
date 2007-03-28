@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133850785 Tue Dec  6 07:33:05 2005
-[BUILDTIME] 15 (5)
-[SIZE] 0.29 MB, 25 files
+[TIMESTAMP] 1161366627 Fri Oct 20 17:50:27 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.22 MB, 16 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,14 +9,12 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
-[DEP] ffmpeg
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
 [DEP] imagemagick
-[DEP] lame
 [DEP] libmpeg2
 [DEP] linux-header
 [DEP] make
@@ -27,4 +25,3 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] zlib

@@ -1,20 +1,19 @@
 
-[TIMESTAMP] 1134038405 Thu Dec  8 11:40:05 2005
-[BUILDTIME] 40 (9)
-[SIZE] 1.56 MB, 166 files
+[TIMESTAMP] 1160362026 Mon Oct  9 02:47:06 2006
+[BUILDTIME] 35 (5)
+[SIZE] 1.37 MB, 159 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] libpng
 [DEP] linux-header
@@ -22,10 +21,8 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] numpy
 [DEP] patch
 [DEP] perl
-[DEP] pil
 [DEP] python
 [DEP] readline
 [DEP] sed
@@ -34,5 +31,4 @@
 [DEP] tcl
 [DEP] texinfo
 [DEP] util-linux
-[DEP] wxpython
 [DEP] zlib

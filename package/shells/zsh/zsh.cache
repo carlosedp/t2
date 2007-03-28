@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133878427 Tue Dec  6 15:13:47 2005
-[BUILDTIME] 70 (9)
-[SIZE] 7.40 MB, 1214 files
+[TIMESTAMP] 1160259981 Sat Oct  7 22:26:21 2006
+[BUILDTIME] 45 (5)
+[SIZE] 4.48 MB, 623 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,13 +14,11 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] libcap
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] pcre
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

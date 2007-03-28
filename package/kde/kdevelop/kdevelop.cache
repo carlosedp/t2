@@ -1,12 +1,10 @@
 
-[TIMESTAMP] 1171339106 Tue Feb 13 03:58:26 2007
-[BUILDTIME] 1195 (5)
-[SIZE] 31.37 MB, 1704 files
+[TIMESTAMP] 1160503280 Tue Oct 10 18:01:20 2006
+[BUILDTIME] 925 (5)
+[SIZE] 31.29 MB, 1704 files
 
 [DEP] 00-dirtree
-[DEP] acl
 [DEP] arts
-[DEP] attr
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -29,7 +27,6 @@
 [DEP] grep
 [DEP] gzip
 [DEP] imake
-[DEP] kdebase
 [DEP] kdelibs
 [DEP] kdesdk
 [DEP] libart_lgpl23
@@ -42,7 +39,6 @@
 [DEP] libsm
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxcursor
 [DEP] libxdmcp
 [DEP] libxext
@@ -67,5 +63,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xproto
 [DEP] zlib

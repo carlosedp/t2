@@ -1,12 +1,11 @@
 
-[TIMESTAMP] 1172378912 Sun Feb 25 04:48:32 2007
-[BUILDTIME] 45 (5) ERROR
-[SIZE] 1.14 MB, 234 files
+[TIMESTAMP] 1160537401 Wed Oct 11 03:30:01 2006
+[BUILDTIME] 35 (5) ERROR
+[SIZE] 0.02 MB, 16 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
-[DEP] bison
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
@@ -16,6 +15,7 @@
 [DEP] flex
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -25,7 +25,6 @@
 [DEP] libsm
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxft
@@ -41,4 +40,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xproto

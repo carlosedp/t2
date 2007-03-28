@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133842857 Tue Dec  6 05:20:57 2005
-[BUILDTIME] 35 (5)
-[SIZE] 2.41 MB, 236 files
+[TIMESTAMP] 1160646530 Thu Oct 12 09:48:50 2006
+[BUILDTIME] 30 (5)
+[SIZE] 2.40 MB, 229 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -29,8 +29,8 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] neXtaw
 [DEP] net-tools
+[DEP] nextaw
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134161328 Fri Dec  9 21:48:48 2005
-[BUILDTIME] 65 (9)
-[SIZE] 33.79 MB, 3224 files
+[TIMESTAMP] 1160419247 Mon Oct  9 18:40:47 2006
+[BUILDTIME] 55 (5)
+[SIZE] 22.74 MB, 1429 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -12,10 +12,11 @@
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dpkg
 [DEP] expat
 [DEP] findutils
 [DEP] flex
-[DEP] fltk1
+[DEP] fltk
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -28,7 +29,6 @@
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
-[DEP] libdrm
 [DEP] libice
 [DEP] libjpeg
 [DEP] libpng
@@ -45,15 +45,15 @@
 [DEP] libxrandr
 [DEP] libxrender
 [DEP] libxt
-[DEP] libxxf86vm
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] mesa
 [DEP] mktemp
+[DEP] ncurses
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig
+[DEP] readline
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles

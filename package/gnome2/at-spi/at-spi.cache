@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134032309 Thu Dec  8 09:58:29 2005
-[BUILDTIME] 60 (9)
-[SIZE] 1.78 MB, 125 files
+[TIMESTAMP] 1160357421 Mon Oct  9 01:30:21 2006
+[BUILDTIME] 50 (5)
+[SIZE] 3.26 MB, 343 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -18,8 +19,10 @@
 [DEP] gail
 [DEP] gawk
 [DEP] gcc
+[DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] glibmm
 [DEP] glitz
 [DEP] grep
 [DEP] gtk+

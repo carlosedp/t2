@@ -36,4 +36,3 @@ Not all files might be transfered."
 
 mail_or_display "Network backup" $log ; rm $log
 
-fixocr

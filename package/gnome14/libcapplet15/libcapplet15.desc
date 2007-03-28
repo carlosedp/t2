@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] GNOME Config Applet library v1.4 (compat)
 
 [T] GNOME Config Applet library
@@ -33,3 +32,4 @@
 [O] . $base/package/*/*/gnome14-conf.in
 
 [D] 3071988258 libcapplet-1.5.11.tar.bz2 ftp://archive.progeny.com/GNOME/sources/libcapplet/1.5/
+

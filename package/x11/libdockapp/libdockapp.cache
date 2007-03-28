@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134184747 Sat Dec 10 04:19:07 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.10 MB, 26 files
+[TIMESTAMP] 1160440449 Tue Oct 10 00:34:09 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.08 MB, 18 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -29,5 +30,6 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xaw3d
 [DEP] xextproto
 [DEP] xproto

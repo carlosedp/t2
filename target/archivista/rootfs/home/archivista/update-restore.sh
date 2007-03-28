@@ -17,7 +17,7 @@ fi
 # include shared code
 . ${0%/*}/Global.pm.in
 . ${0%/*}/perl-var.in
-. ${0%/*}/multi-cpu.in
+
 
 # include specified configuration values
 if [ ! -e $from/config ]; then
@@ -60,12 +60,6 @@ if [ "$update_root_perl_passwd" -a $full = 0 ]; then
 	fi
 fi
 
-# crontab
-if [ -f $from/crontab ]; then
-	echo "crontab"
-	[ $doit = 1 ] && cp -fv $from/crontab etc/
-fi
-
 # database slave mode
 if [ "$update_db_master_host" ]; then
 	echo "database slave setup"
@@ -95,22 +89,6 @@ if [ -e $from/ssh_host_key ]; then
 	  cp -fv $from/ssh_*key* etc/ssh/
 	  chmod 600 etc/ssh/ssh_*_key
 	fi
-fi
-
-# ssh enabled
-if [ "$update_ssh_enabled" ]; then
-	echo "SSH enabled"
-	if [ $doit = 1 ]; then
-		ln -sf ../init.d/sshd etc/rc.d/rc5.d/S25sshd
-		ln -sf ../init.d/sshd etc/rc.d/rc5.d/K75sshd
-	fi
-fi
-
-# vnc
-
-if [ -e $from/vnc.conf ]; then
-	echo "VNC enabled"
-	[ $doit = 1 ] && cp -fv $from/vnc.conf etc/
 fi
 
 # network
@@ -161,11 +139,10 @@ d; b loop
 fi
 
 # exim, incoming
-if [ "$update_mail_incoming" ]; then
+if [ "$update_incoming_mail" ]; then
 	echo "incoming mail server enabled"
 	if [ $doit = 1 ]; then
-		sed -i -e 's/^\([^# ]*local_interfaces \)/# \1/' \
-		       -e "s|^\(hostlist .*relay_from_hosts = 127.0.0.1\).*|\1 : $update_mail_relay|" \
+		sed -i 's/^\([^# ]*local_interfaces \)/# \1/' \
 		    etc/exim/configure
 	fi
 fi
@@ -272,12 +249,5 @@ if [ "$update_button_host" ]; then
 		             "$update_button_user"
 		set_perl_var '\$val{pw1}' $to/home/cvs/archivista/jobs/sane-button.pl \
 		             "$update_button_pw"
-	fi
-fi
-
-if [ "$update_multi_cpu" -a "$update_multi_cpu" != 0 ]; then
-	echo "multi CPU enabled"
-	if [ $doit = 1 ]; then
-		set_max_cpus $to/boot/grub/menu.lst $update_multi_cpu
 	fi
 fi

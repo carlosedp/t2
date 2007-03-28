@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133768259 Mon Dec  5 08:37:39 2005
-[BUILDTIME] 1065 (5)
-[SIZE] 69.00 MB, 2548 files
+[TIMESTAMP] 1160551433 Wed Oct 11 07:23:53 2006
+[BUILDTIME] 1280 (5)
+[SIZE] 105.58 MB, 3026 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,8 +9,9 @@
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
+[DEP] file
+[DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -35,8 +36,8 @@
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
+[DEP] mysql
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] python
 [DEP] qt
@@ -44,6 +45,6 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
+[DEP] xextproto
 [DEP] xproto
 [DEP] zlib

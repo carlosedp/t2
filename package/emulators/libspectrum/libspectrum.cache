@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1145521673 Thu Apr 20 10:27:53 2006
-[BUILDTIME] 100 (9)
-[SIZE] 0.68 MB, 13 files
+[TIMESTAMP] 1161367986 Fri Oct 20 18:13:06 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.47 MB, 13 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -10,13 +10,11 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
-[DEP] file
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
-[DEP] glibc32
 [DEP] grep
 [DEP] libgcrypt
 [DEP] libgpg-error

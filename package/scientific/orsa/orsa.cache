@@ -1,13 +1,13 @@
 
-[TIMESTAMP] 1134296093 Sun Dec 11 11:14:53 2005
-[BUILDTIME] 175 (9)
-[SIZE] 6.41 MB, 48 files
+[TIMESTAMP] 1160499303 Tue Oct 10 16:55:03 2006
+[BUILDTIME] 145 (5)
+[SIZE] 6.33 MB, 36 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cf
-[DEP] cln
 [DEP] coreutils
 [DEP] diffutils
 [DEP] expat
@@ -17,9 +17,7 @@
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
-[DEP] ginac
 [DEP] glibc
-[DEP] gmp
 [DEP] grep
 [DEP] gsl
 [DEP] imake
@@ -48,6 +46,7 @@
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
+[DEP] patch
 [DEP] qt
 [DEP] readline
 [DEP] sed

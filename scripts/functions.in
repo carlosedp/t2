@@ -369,31 +369,19 @@ postflist_static_lib() {
 # save the tag data in $desc_*.
 #
 parse_desc() {
-    unset ${!desc_*}
+	tag="`grep '^\[' $base/misc/share/PKG-DESC-FORMAT |
+	      sed 's, (\*),,; s,\] \[,|,g; s,\[,,; s,\],,;'`"
 
-    tags="`grep '^\[' $base/misc/share/PKG-DESC-FORMAT |
-           sed 's, (\*),,; s,\] \[,|,g; s,\[,,; s,\],,;'`"
-
-    descs=$confdir/$1.desc
-    [ -e $base/architecture/$arch/package/$pkg/$pkg.desc ] &&
-	 var_append descs ' ' $base/architecture/$arch/package/$pkg/$pkg.desc
-    [ -e $base/target/$target/package/$pkg/$pkg.desc ] &&
-	 var_append descs ' ' $base/target/$target/package/$pkg/$pkg.desc
-
-    for desc in $descs; do
-	echo_status "Reading $desc ..."
-	for tag in $tags; do
-		tagdata="`egrep "^\[($tag)\]" $desc |
+	for tag in $tag ; do
+		tagdata="`egrep "^\[($tag)\]" $confdir/$1.desc |
 		          cut -f2- -d']' | sed 's,^ ,,'`"
 		tag="`echo $tag | cut -f1 -d'|' | tr - _`"
-		# only overwrite defined tags
-		[ "$tagdata" ] && eval "desc_$tag=\"\$tagdata\""
+		eval "desc_$tag=\"\$tagdata\""
 	done
-    done
 
-    ver="`echo "$desc_V" | tail -n 1 | cut -f1 -d' '`"
-    extraver="`echo "$desc_V" | tail -n 1 | cut -s -f2- -d' '`"
-    [ -z "$extraver" ] && extraver="${sdever//DEV-*/DEV}"
+	ver="`echo "$desc_V" | tail -n 1 | cut -f1 -d' '`"
+	extraver="`echo "$desc_V" | tail -n 1 | cut -s -f2- -d' '`"
+	[ -z "$extraver" ] && extraver="${sdever//DEV-*/DEV}"
 }
 
 # This function is used for forcing a file to be in the flist
@@ -509,10 +497,8 @@ pkginstalled() {
 	fi
 }
 
-# pkgprefix [-t] [ <type> ] <package>
-# Returns the prefix or the location of a 'type' of an already built package,
-# or aborts the build if not yet installed.
-# When run in the test mode [-t] it returns an error code accordingly.
+# pkgprefix [-t] [<type>] <package>
+# returns the prefix or the location of a 'type' of an already build package
 #
 pkgprefix() {
 	local type= pkg=
@@ -531,20 +517,19 @@ pkgprefix() {
 
 	# test usual error causes
 	if [ -z "$pkg" ]; then
-		abort "pkgprefix: you must specify a package"
+		abortmsg="you must specify a package"
 	elif [ ! -f "$root/var/adm/packages/$pkg" ]; then
 		abortmsg="package $pkg is not present"
 	elif grep -q "^Prefix:" "$root/var/adm/packages/$pkg"; then
 		prefix=$( grep "^Prefix: " "$root/var/adm/packages/$pkg" | cut -d' ' -f2- )
 	else
-		abort "pkgprefix: $pkg record is to old (no Prefix: entry), please rebuild it."
+			abortmsg=`echo "$pkg record is old, please rebuild the package $pkg. As an alternative, you can insert a line into the file $root/var/adm/packages/$pkg containing the text below:\n\nPrefix: <prefix>" | fmt -w 55 | sed 's,$,\\n,g'`
 	fi
 
 	if [ "$dotest" ]; then
 		# test mode: abort or continue
 		if [ "$abortmsg" ]; then
-			echo "pkgprefix: $abortmsg" 1>&2
-			return 1
+			abort "pkgprefix: $abortmsg"
 		else
 			return 0
 		fi
@@ -605,9 +590,9 @@ pkggetdir() {
 #
 pkgchksum() {
   (
-	# expand to full path if only a package name was specified
+	# expand to full patch if only a package name was specified
 	[[ $1 == */* ]] || set $base/package/*/$1/
-	cd $1 || return 1
+	cd $1
 	# find all files (without hidden (e.g. .svn) files)
 	find . ! -path '*/.*' ! -name '*.cache' -print -exec cat \{\} \; \
 	2>/dev/null |
@@ -652,7 +637,7 @@ create_package_db() {
 			  cat $1/dependencies/$pkg
 			  echo -e "\027"
 
-			  cat $1/md5sums/$pkg
+			  cat $1/cksums/$pkg
 			  echo -e "\027"
 
 			  echo -e "\004"
@@ -776,7 +761,7 @@ build_this_package() {
 		saved_patchfiles="$patchfiles"
 		var_append patchfiles " " \
 		           "`ls $confdir/*.patch.${xsrctar/-[v0-9]*/} 2> /dev/null`"
-		if [ "$xsrctar" != none -a "$autoextract" = 1 ]; then
+		if [ $autoextract = 1 ]; then
 			cd $builddir
 			if [ -z "$custextract" ]; then
 				# No custom extraction, so determine what
@@ -914,7 +899,6 @@ build_this_package() {
 				hook_eval postmake
 			fi
 		else
-			echo_warning "The use of custmain is deprecated, please use hooks instead."
 			eval "$custmain"
 			for x in preconf premake inmake postmake; do
 				if eval "[ -n \"\$hookdirty_$x\" ]"; then
@@ -1022,9 +1006,7 @@ match_source_file() {
 				[ "${url:0:1}" == "-" ] && mirror="local" || mirror="mirror"
 				echo $base/download/${mirror}/${file:0:1}/$file
 			fi
-		done < <( grep -e "^\[D\].*$pattern" $base/package/*/$package/$package.desc \
-		          $base/architecture/$arch/package/$package/$package.desc \
-		          $base/target/$target/package/$package/$package.desc 2> /dev/null )
+		done < <( grep -e "^\[D\].*$pattern" $base/package/*/$package/$package.desc )
 	done
 	return $found
 }
@@ -1052,25 +1034,27 @@ populate_archdir()
 #
 detect_confdir()
 {
-	confdir=
-	for x in package/*/$pkg/$pkg.desc; do
-		[ -f "$x" ] || continue
-		if [ "$confdir" ]; then
+	confdir=""
+	if [ -z "$pkgdir" ] ; then
+	  for x in package/*/$pkg/$pkg.desc ; do
+		if [ -f "$x" ] ; then
+		  if [ "$confdir" ] ; then
 			echo_pkg_deny $stagelevel $pkg "in multiple trees"
 			echo "Package in multiple trees: $pkg !" \
 			  > $root/var/adm/logs/$stagelevel-$xpkg.err
 			exit 1
+		  fi
+		  x=${x#package/}; x=${x%%/*}
+		  confdir="$base/package/$x/$pkg"
+		  repository=$x
 		fi
-		x=${x#package/}; x=${x%%/*}
-		confdir="$base/package/$x/$pkg"
-		repository=$x
-	done
-
-	if [ -e architecture/$arch/package/$pkg/$pkg.desc ]
-	then confdir="$base/architecture/$arch/package/$pkg"; fi
-
-	if [ -e $base/target/$target/package/$pkg/$pkg.desc ]
-	then confdir="$base/target/$target/package/$pkg"; fi
+	  done
+	else
+	  if [ -f "$pkgdir/$pkg.desc" ] ; then
+		confdir="$pkgdir"
+		repository=extern
+	  fi
+	fi
 }
 
 # initialize standard vars and hooks
@@ -1098,8 +1082,8 @@ init_vars_and_hooks()
 	fi
 
 	if atstage cross; then
-		# everyting non-DESTDIR is passed in the specific packages
-		makeinstopt="$makeopt"' DESTDIR="$root" install'
+		makeinstopt="$makeopt"' DESTDIR="$root" DEST_DIR="$root"'
+		makeinstopt="$makeinstopt"' INSTROOT="$root" INSTALLROOT="$root" install'
 	else
 		makeinstopt="$makeopt"' install'
 	fi

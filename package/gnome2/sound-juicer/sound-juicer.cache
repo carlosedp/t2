@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1144937258 Thu Apr 13 16:07:38 2006
-[BUILDTIME] 100 (9)
-[SIZE] 1.73 MB, 116 files
+[TIMESTAMP] 1160467171 Tue Oct 10 07:59:31 2006
+[BUILDTIME] 20 (5)
+[SIZE] 1.75 MB, 114 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -11,14 +11,11 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
-[DEP] control-center
 [DEP] coreutils
-[DEP] dasher
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
 [DEP] expat
-[DEP] file
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
@@ -29,10 +26,12 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] gnome-doc-utils
 [DEP] gnome-icon-theme
 [DEP] gnome-keyring
 [DEP] gnome-media
+[DEP] gnome-panel
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gst-plugins-base
@@ -77,6 +76,7 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
+[DEP] python
 [DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed

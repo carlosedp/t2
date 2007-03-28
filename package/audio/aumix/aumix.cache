@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134066482 Thu Dec  8 19:28:02 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.25 MB, 41 files
+[TIMESTAMP] 1160371422 Mon Oct  9 05:23:42 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.17 MB, 31 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] autoconf
@@ -28,7 +29,9 @@
 [DEP] gtk+
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -53,4 +56,3 @@
 [DEP] tar
 [DEP] texinfo
 [DEP] xproto
-[DEP] zlib

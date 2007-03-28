@@ -1,14 +1,14 @@
 
-[TIMESTAMP] 1134020545 Thu Dec  8 06:42:25 2005
-[BUILDTIME] 120 (9)
-[SIZE] 1.24 MB, 71 files
+[TIMESTAMP] 1160351434 Sun Oct  8 23:50:34 2006
+[BUILDTIME] 100 (5)
+[SIZE] 1.07 MB, 56 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] courier-authlib
 [DEP] diffutils
 [DEP] fam
 [DEP] findutils

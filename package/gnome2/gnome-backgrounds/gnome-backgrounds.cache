@@ -1,9 +1,9 @@
 
-[TIMESTAMP] 1134048449 Thu Dec  8 14:27:29 2005
-[BUILDTIME] 10 (9)
-[SIZE] 1.88 MB, 84 files
+[TIMESTAMP] 1160365646 Mon Oct  9 03:47:26 2006
+[BUILDTIME] 5 (5)
+[SIZE] 1.28 MB, 85 files
 
-[DEP] autoconf
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,8 +13,10 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
+[DEP] glib
 [DEP] glibc
 [DEP] grep
+[DEP] libgnomeui
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -24,5 +26,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] texinfo
 [DEP] util-linux

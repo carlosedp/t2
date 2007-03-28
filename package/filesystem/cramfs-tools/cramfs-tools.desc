@@ -11,12 +11,11 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Linux cramfs tools
 
 [T] cramfs is a Linux filesystem designed to be simple, small, and to
 [T] compress things well. It is used on a number of embedded systems and
-[T] small devices.
+[T] small devices. 
 
 [U] http://sourceforge.net/projects/cramfs/
 

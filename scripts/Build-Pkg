@@ -29,6 +29,7 @@ update=0
 make_tar=''
 prefix="usr"
 prefix_auto=1
+pkgdir=""
 verbose=0
 xtrace=0
 debug=0
@@ -53,7 +54,7 @@ help_msg() {
 	echo "$spacer [ -root { <rootdir> | auto } ]            \\"
 	echo "$spacer [ -cfg <config> ]  [ -update ]            \\"
 	echo "$spacer [ -prefix <prefix-dir> ]  [ -norebuild ]  \\"
-	echo "$spacer [ -noclearsrc ]                           \\"
+	echo "$spacer [ -noclearsrc ]  [ -pkgdir <pkgdir> ]     \\"
 	echo "$spacer [ -id <id> ]  [ -debug ]  pkg-name(s)"
 	echo
 }
@@ -78,6 +79,7 @@ while [ "$1" ] ; do
 		-prefix)  options="$options $1 $2" ;
 				prefix_auto=0      ; prefix="$2"   ; shift ;;
 		-id)      options="$options $1 $2" ; id="$2"       ; shift ;;
+		-pkgdir)  options="$options $1 $2" ; pkgdir="$2"   ; shift ;;
 		-noclearsrc) options="$options $1" ; clear_src=0   ;;
 		-norebuild)  options="$options $1" ; norebuild=1   ;;
 		-*) help_msg ; exit 1 ;;
@@ -103,6 +105,7 @@ if [ -z "$root" -a $stagelevel -le 1 ] ||
 	else root="build/$SDECFG_ID"; fi
 fi
 
+[ "$pkgdir" -a "${pkgdir#/}" = "$pkgdir" ] && pkgdir="$base/$pkgdir"
 [ "$root" -a "${root#/}" = "$root" ] && root="$base/$root"
 
 # remove leading and trailing / on prefix and root
@@ -141,7 +144,7 @@ if [ "$chroot" = 1 ] ; then
 	cd "$xroot" || exit 1
 
 	x_mknod() {
-		if [ ! -c "$1" -a ! -b "$1" ]; then
+		if [ ! -e "$1" ]; then
 			mknod "$@"
 		fi
 	}
@@ -281,6 +284,7 @@ fi
 mkdir -p $root/var/adm/logs
 mkdir -p $root/var/adm/flists
 mkdir -p $root/var/adm/olists
+mkdir -p $root/var/adm/cksums
 mkdir -p $root/var/adm/md5sums
 mkdir -p $root/var/adm/packages
 mkdir -p $root/var/adm/dependencies
@@ -376,7 +380,7 @@ parse_desc $pkg
 
 echo_pkg_start $stagelevel $repository $xpkg $ver $extraver
 
-if [ "$SDECFG_PARANOIA_CHECK" = 1 ] ; then
+if [ "$SDECFG_PARANOIA_CHECK" = 1 -a -z "$pkgdir" ] ; then
         x="`./scripts/Check-PkgFormat $pkg`"
 	[ "$x" ] && abort "$x\nDisable the 'Paranoia Check' config `
 	                  `option to ignore such errors."
@@ -419,11 +423,14 @@ if [ -f $base/build/$SDECFG_ID/TOOLCHAIN/$toolsdir/lib/pkg_${pkg}_pre.conf ] ; t
 	. $base/build/$SDECFG_ID/TOOLCHAIN/$toolsdir/lib/pkg_${pkg}_pre.conf
 fi
 
-# read the package configuration, $confdir might differ from package/*/$pkg ...
 for x in $( get_expanded $base/target/%/pkg_$pkg.conf $targetchain ) \
-	$confdir/$pkg.conf $base/package/*/$pkg/$pkg.conf; do
+	$confdir/$pkg.conf ; do
 	if [ -f $x ]; then
-		echo_status "Reading package config: ${x#$base/}"
+		if [[ $x == */$pkg.conf ]]; then
+			echo_status "Reading package configuration from package directory."
+		else
+			echo_status "Reading package configuration from target directory."
+		fi
 		. $x
 		break
 	fi
@@ -541,8 +548,6 @@ abort() {
 		fixfile () {
 		  # we use .vanilla to not rediff backup .orig from patch
 		  [ -f \$1.vanilla ] || cp \$1 \$1.vanilla
-		  # maybe we do not have the editor yet?
-		  which \$EDITOR > /dev/null || EDITOR=nvi
 		  \$EDITOR \$1
 		}
 		fixfilediff() {
@@ -621,7 +626,7 @@ abort() {
 	[ -s "var/adm/parse-config/$xpkg" ] &&
 		echo "var/adm/parse-config/$xpkg" >> $builddir/flist.txt
 	for x in var/adm/flists/$xpkg var/adm/md5sums/$xpkg \
-	         var/adm/packages/$xpkg \
+	         var/adm/cksums/$xpkg var/adm/packages/$xpkg \
 	         var/adm/descs/$xpkg var/adm/dependencies/$xpkg ; do
 			touch $x ; echo "$x" >> $builddir/flist.txt
 	done
@@ -720,8 +725,9 @@ abort() {
 	echo Found `wc -l < var/adm/flists/$xpkg` "files for this package."
 	echo Found `wc -l < var/adm/olists/$xpkg` "orphaned files for this package."
 
-	echo "Clear (old) md5sums ..."
+	echo "Clear (old) md5sums and cksums ..."
 	echo -n > var/adm/md5sums/$xpkg
+	echo -n > var/adm/cksums/$xpkg
 
 	if [ "$SDECFG_FLIST" = "flwrapper" -o \
 	     "$SDECFG_FLIST" = "strace" ] && [ $stagelevel -gt 1 ] ; then
@@ -773,12 +779,15 @@ abort() {
 		sort -u $builddir/dependencies.txt > var/adm/dependencies/$xpkg
 	fi
 
-	echo -n "Creating md5sum files ..."
+	echo -n "Creating md5sum and cksum files ..."
 	getfiles < var/adm/flists/$xpkg > $builddir/files.lst
 	if [ -s $builddir/files.lst ] ; then
-		cat $builddir/files.lst |
-			grep -v '^var/adm/' | sed -e 's,^.*,"\0",' |
+		cat $builddir/files.lst | \
+			grep -v '^var/adm/' | sed -e 's,^.*,"\0",' | \
 			xargs -r md5sum > var/adm/md5sums/$xpkg
+		cat $builddir/files.lst | \
+			grep -v '^var/adm/' | sed -e 's,^.*,"\0",' | \
+			xargs -r cksum > var/adm/cksums/$xpkg
 	fi
 	echo ' done.'
 

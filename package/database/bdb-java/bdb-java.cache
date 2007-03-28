@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1171383525 Tue Feb 13 16:18:45 2007
+[TIMESTAMP] 1160557625 Wed Oct 11 09:07:05 2006
 [BUILDTIME] 10 (5) ERROR
-[SIZE] 0.02 MB, 7 files
+[SIZE] 0.01 MB, 8 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -14,6 +15,7 @@
 [DEP] glibc
 [DEP] gmime
 [DEP] grep
+[DEP] java-dirtree
 [DEP] jikes
 [DEP] kaffe
 [DEP] linux-header
@@ -22,3 +24,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

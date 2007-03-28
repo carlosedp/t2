@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134021140 Thu Dec  8 06:52:20 2005
-[BUILDTIME] 60 (9)
-[SIZE] 3.17 MB, 79 files
+[TIMESTAMP] 1160352035 Mon Oct  9 00:00:35 2006
+[BUILDTIME] 115 (5)
+[SIZE] 3.18 MB, 68 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -23,7 +24,6 @@
 [DEP] orbit2
 [DEP] perl
 [DEP] pkgconfig
-[DEP] popt
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

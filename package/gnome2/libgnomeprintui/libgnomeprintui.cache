@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134036724 Thu Dec  8 11:12:04 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.43 MB, 105 files
+[TIMESTAMP] 1160361239 Mon Oct  9 02:33:59 2006
+[BUILDTIME] 25 (5)
+[SIZE] 1.22 MB, 96 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -29,7 +30,9 @@
 [DEP] libglade
 [DEP] libgnomecanvas
 [DEP] libgnomeprint
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp

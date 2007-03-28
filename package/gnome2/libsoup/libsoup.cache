@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134065123 Thu Dec  8 19:05:23 2005
-[BUILDTIME] 25 (9)
-[SIZE] 1.09 MB, 74 files
+[TIMESTAMP] 1160370664 Mon Oct  9 05:11:04 2006
+[BUILDTIME] 25 (5)
+[SIZE] 1.20 MB, 75 files
 
+[DEP] 00-dirtree
+[DEP] apache
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -13,9 +15,9 @@
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
+[DEP] gnome-libs14
 [DEP] gnutls
 [DEP] grep
-[DEP] gtkdoc
 [DEP] libgcrypt
 [DEP] libgpg-error
 [DEP] libtasn1

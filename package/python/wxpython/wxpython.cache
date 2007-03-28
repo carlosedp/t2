@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134040969 Thu Dec  8 12:22:49 2005
-[BUILDTIME] 25 (9)
-[SIZE] 15.88 MB, 700 files
+[TIMESTAMP] 1160362927 Mon Oct  9 03:02:07 2006
+[BUILDTIME] 75 (5)
+[SIZE] 16.42 MB, 725 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -10,8 +10,8 @@
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
+[DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -19,7 +19,6 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnue-common
 [DEP] grep
 [DEP] gtk+
 [DEP] inputproto
@@ -33,9 +32,7 @@
 [DEP] libxslt
 [DEP] linux-header
 [DEP] mesa
-[DEP] numpy
 [DEP] pango
-[DEP] pil
 [DEP] pkgconfig
 [DEP] python
 [DEP] renderproto
@@ -44,4 +41,3 @@
 [DEP] tar
 [DEP] wxwidgets
 [DEP] xproto
-[DEP] zope

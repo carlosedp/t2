@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171309712 Mon Feb 12 19:48:32 2007
-[BUILDTIME] 110 (5)
-[SIZE] 21.23 MB, 1007 files
+[TIMESTAMP] 1160481327 Tue Oct 10 11:55:27 2006
+[BUILDTIME] 90 (5)
+[SIZE] 21.02 MB, 988 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -34,7 +34,6 @@
 [DEP] glitz
 [DEP] gnome-libs14
 [DEP] gnome-print10
-[DEP] gnomemm12
 [DEP] gpm
 [DEP] grep
 [DEP] gtk+
@@ -44,6 +43,7 @@
 [DEP] gtkmm12
 [DEP] guppi
 [DEP] imake
+[DEP] inputproto
 [DEP] kbproto
 [DEP] libcapplet15
 [DEP] libglade
@@ -51,11 +51,9 @@
 [DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libpthread-stubs
 [DEP] libsm
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxi
@@ -81,6 +79,5 @@
 [DEP] soup
 [DEP] sysfiles
 [DEP] tar
-[DEP] unixodbc
 [DEP] xproto
 [DEP] zlib

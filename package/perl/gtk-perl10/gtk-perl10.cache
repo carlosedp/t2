@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134127556 Fri Dec  9 12:25:56 2005
-[BUILDTIME] 70 (9)
-[SIZE] 2.08 MB, 139 files
+[TIMESTAMP] 1160396309 Mon Oct  9 12:18:29 2006
+[BUILDTIME] 55 (5)
+[SIZE] 1.72 MB, 121 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash
@@ -12,6 +13,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] gdk-pixbuf10

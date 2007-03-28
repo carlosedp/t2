@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134070842 Thu Dec  8 20:40:42 2005
-[BUILDTIME] 90 (9)
-[SIZE] 3.85 MB, 169 files
+[TIMESTAMP] 1160382359 Mon Oct  9 08:25:59 2006
+[BUILDTIME] 95 (5)
+[SIZE] 3.94 MB, 163 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -31,7 +32,6 @@
 [DEP] gnutls
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23

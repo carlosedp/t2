@@ -24,7 +24,6 @@ delete=0
 remove=0
 fulldelete=0
 newdelete=0
-newremove=0
 onlyupdated=0
 
 repository=""
@@ -32,17 +31,6 @@ stages="[0123456789]"
 copydir=""
 movedir=""
 logdir=""
-
-# uninstall sysroot package
-uninstall_pkg()
-{
-	pushd $1 > /dev/null
-	cut -d ' ' -f 2- var/adm/flists/$2 | tac | while read fn; do
-		if [ -d "$fn" ]; then rmdir "$fn" 
-		else rm -f "$fn"; fi
-	done
-	popd > /dev/null
-}
 
 while [ "$1" ] ; do
         case "$1" in
@@ -102,22 +90,19 @@ while [ "$1" ] ; do
 		fulldelete=1  ; shift ;;
 
 	    -newdelete)
-		newdelete=1   ; shift ;;
-
-	    -newremove)
-		newremove=1   ; shift ;;
+		newdelete=1  ; shift ;;
 
 	    -updated)
 		onlyupdated=1 ; shift ;;
 
 	    -dry-run)
-	        dryrun=1      ; shift ;;
+	        dryrun=1 ; shift ;;
 
 	    -*)
 x="${0//?/ }" ; x="${x#         }"
 echo "Usage: $0 [ -cfg config ] [ -repository repository ] \\"
 echo "  $x [ -copydir copydir | -movedir movedir ] [ -repstat ] \\"
-echo "  $x [ -stage stage ] [ -logdir logdir ] [ -remove ] [ -fulldelete ] -new[remove|delete] \\"
+echo "  $x [ -stage stage ] [ -logdir logdir ] [ -[full|new]delete ] \\"
 echo "  $x [ -updated ] [ -showerr ] [ -showtree ] [ -showdepc ] \\"
 echo "  $x [ -dry-run ] [ <package> ]"
 		exit 1 ;;
@@ -131,19 +116,17 @@ done
 . scripts/functions.in
 
 logdir="${logdir:-build/$SDECFG_ID/var/adm/logs}"
+pkgdir="${logdir%/*}/packages"
 
-if [ "$newdelete" = 1 -o "$newremove" = 1 ]; then
+if [ "$newdelete" = 1 ]; then
 	while read pkg cksum1
 	do
 		cksum2=$( pkgchksum package/*/$pkg/ )
 		if [ "$cksum1" != "$cksum2" ]; then
-			if [ "$newdelete" = 1 ]; then
-				echo "Removing package '$pkg' ..."
-				[ "$dryrun" = "1" ] || uninstall_pkg build/$SDECFG_ID $pkg
-				[ "$dryrun" = "1" ] || rm -f build/$SDECFG_ID/var/adm/*/?-$pkg.*
-			else
-				echo "Scheduling package '$pkg' for rebuild ..."
-				[ "$dryrun" = "1" ] || rm -f build/$SDECFG_ID/var/adm/*/?-$pkg.*
+			echo "Scheduling package '$pkg' for rebuild ..."
+			if [ ! "$dryrun" = "1" ]; then 
+				mine -rf -R build/$SDECFG_ID $pkg
+				rm -f build/$SDECFG_ID/var/adm/*/?-$pkg.*
 			fi
 		fi
 	done < <(
@@ -190,7 +173,7 @@ if [ "$1" ] ; then
 	elif [ "$remove" = 1 ] ; then
 		for x ; do  
 			echo "Scheduling package '$x' for rebuild ..."
-			uninstall_pkg build/$SDECFG_ID $x
+			mine -rf -R build/$SDECFG_ID $x
 			rm -f build/$SDECFG_ID/var/adm/*/?-$x.*
 		done
 	elif [ "$delete" = 1 ] ; then

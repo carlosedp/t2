@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133907156 Tue Dec  6 23:12:36 2005
-[BUILDTIME] 60 (9)
-[SIZE] 34.43 MB, 59 files
+[TIMESTAMP] 1160269310 Sun Oct  8 01:01:50 2006
+[BUILDTIME] 125 (5)
+[SIZE] 31.43 MB, 64 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -12,6 +12,7 @@
 [DEP] diffutils
 [DEP] expat
 [DEP] file
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -38,4 +39,5 @@
 [DEP] tar
 [DEP] xextproto
 [DEP] xf86vidmodeproto
+[DEP] xorg-server
 [DEP] xproto

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134029110 Thu Dec  8 09:05:10 2005
-[BUILDTIME] 20 (9)
-[SIZE] 3.21 MB, 47 files
+[TIMESTAMP] 1161444754 Sat Oct 21 15:32:34 2006
+[BUILDTIME] 70 (5)
+[SIZE] 3.18 MB, 43 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -10,7 +11,6 @@
 [DEP] diffutils
 [DEP] findutils
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -27,6 +27,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] tetex
+[DEP] texi2html
 [DEP] xproto
 [DEP] zlib

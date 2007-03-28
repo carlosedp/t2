@@ -16,7 +16,7 @@
 [I] The translations for the office-suite of the KDE project
 
 [T] KOffice is the full-featured office-suite of the KDE project.
-[T]
+[T] 
 [T] This release includes the following components: KWord (a frame-based,
 [T] full-featured word processor); KPresenter (a presentation application);
 [T] KSpread (a spreadsheet application); KIllustrator (a vector-drawing
@@ -40,6 +40,7 @@
 [O] . $base/package/*/*/kde-conf.in
 
 [SRC] .
+
 [D] 3690840971 koffice-l10n-de-1.6.2.tar.bz2 ftp://ftp.kde.org/pub/kde/stable/koffice-1.6.2/src/koffice-l10n/
 [D] 712351799 koffice-l10n-es-1.6.2.tar.bz2 ftp://ftp.kde.org/pub/kde/stable/koffice-1.6.2/src/koffice-l10n/
 [D] 3795267772 koffice-l10n-fr-1.6.2.tar.bz2 ftp://ftp.kde.org/pub/kde/stable/koffice-1.6.2/src/koffice-l10n/

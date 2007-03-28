@@ -1,19 +1,20 @@
 
-[TIMESTAMP] 1134168519 Fri Dec  9 23:48:39 2005
-[BUILDTIME] 225 (9)
-[SIZE] 9.11 MB, 14 files
+[TIMESTAMP] 1160424742 Mon Oct  9 20:12:22 2006
+[BUILDTIME] 225 (5)
+[SIZE] 11.09 MB, 8 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
+[DEP] findutils
+[DEP] freealut
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] gnupth
 [DEP] grep
 [DEP] libcdaudio
@@ -21,6 +22,7 @@
 [DEP] libjpeg
 [DEP] libpng
 [DEP] libsdl
+[DEP] libtiff
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
@@ -28,15 +30,13 @@
 [DEP] libxxf86vm
 [DEP] linux-header
 [DEP] mesa
-[DEP] numpy
-[DEP] pil
+[DEP] openal
+[DEP] patch
 [DEP] pkgconfig
 [DEP] python
 [DEP] scons
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] wxpython
 [DEP] xproto
 [DEP] zlib
-[DEP] zope

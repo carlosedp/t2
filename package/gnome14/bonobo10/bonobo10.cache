@@ -1,11 +1,12 @@
 
-[TIMESTAMP] 1171271912 Mon Feb 12 09:18:32 2007
-[BUILDTIME] 130 (5)
-[SIZE] 5.78 MB, 281 files
+[TIMESTAMP] 1160451352 Tue Oct 10 03:35:52 2006
+[BUILDTIME] 125 (5)
+[SIZE] 5.78 MB, 282 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] anjuta
+[DEP] at-spi
 [DEP] atk
 [DEP] audiofile
 [DEP] autoconf
@@ -26,7 +27,6 @@
 [DEP] gcc
 [DEP] gconf
 [DEP] gdk-pixbuf10
-[DEP] gedit
 [DEP] gettext
 [DEP] gimp
 [DEP] glabels
@@ -36,14 +36,13 @@
 [DEP] gmime
 [DEP] gnet
 [DEP] gnome-desktop
-[DEP] gnome-keyring
 [DEP] gnome-libs14
 [DEP] gnome-panel
 [DEP] gnome-print10
-[DEP] gnome-python-desktop
 [DEP] gnome-python-extras
 [DEP] gnome-utils
 [DEP] gnome-vfs
+[DEP] gok
 [DEP] grep
 [DEP] gtk+
 [DEP] gtk+12
@@ -55,7 +54,6 @@
 [DEP] indent
 [DEP] libbonobo
 [DEP] libbonoboui
-[DEP] libbtctl
 [DEP] libgda
 [DEP] libglade
 [DEP] libgnome
@@ -63,19 +61,15 @@
 [DEP] libgnomeprint
 [DEP] libgnomeui
 [DEP] libgsf
-[DEP] libgtop
 [DEP] libice
-[DEP] librsvg
 [DEP] libsm
 [DEP] libsoup
 [DEP] libwnck
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxi
-[DEP] libxklavier
 [DEP] libxml1
 [DEP] libxpm
 [DEP] linux-header
@@ -90,12 +84,11 @@
 [DEP] perl
 [DEP] pkgconfig
 [DEP] popt
-[DEP] pygobject
-[DEP] pygtk
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
+[DEP] util-linux
 [DEP] vte
 [DEP] xproto
 [DEP] zlib

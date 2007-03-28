@@ -1,17 +1,20 @@
 
-[TIMESTAMP] 1134115896 Fri Dec  9 09:11:36 2005
-[BUILDTIME] 65 (9)
-[SIZE] 3.24 MB, 226 files
+[TIMESTAMP] 1160385613 Mon Oct  9 09:20:13 2006
+[BUILDTIME] 25 (5)
+[SIZE] 3.30 MB, 222 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
+[DEP] anjuta
 [DEP] atk
 [DEP] audiofile
+[DEP] balsa
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] dbus
+[DEP] dasher
 [DEP] diffutils
 [DEP] docbookx
 [DEP] esound
@@ -22,18 +25,21 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
+[DEP] gdm
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
 [DEP] gnome-doc-utils
 [DEP] gnome-keyring
+[DEP] gnome-netstatus
 [DEP] gnome-panel
 [DEP] gnome-vfs
-[DEP] gnue-common
+[DEP] gnopernicus
+[DEP] gossip
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -64,22 +70,20 @@
 [DEP] mktemp
 [DEP] nautilus
 [DEP] net-tools
-[DEP] numpy
 [DEP] openssl
 [DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
-[DEP] pil
 [DEP] pkgconfig
 [DEP] popt
-[DEP] python
 [DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
-[DEP] wxpython
+[DEP] vino
 [DEP] xproto
+[DEP] yelp
 [DEP] zlib

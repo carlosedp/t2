@@ -1,16 +1,20 @@
 
-[TIMESTAMP] 1134042517 Thu Dec  8 12:48:37 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.19 MB, 30 files
+[TIMESTAMP] 1160363526 Mon Oct  9 03:12:06 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.12 MB, 19 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libice
 [DEP] libsm
 [DEP] libx11
@@ -19,11 +23,13 @@
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxmu
+[DEP] libxp
 [DEP] libxpm
 [DEP] libxt
 [DEP] linux-header
 [DEP] make
 [DEP] patch
+[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

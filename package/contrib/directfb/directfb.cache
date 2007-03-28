@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134012014 Thu Dec  8 04:20:14 2005
-[BUILDTIME] 60 (9)
-[SIZE] 3.29 MB, 234 files
+[TIMESTAMP] 1160347396 Sun Oct  8 22:43:16 2006
+[BUILDTIME] 75 (5)
+[SIZE] 2.02 MB, 236 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -18,7 +19,6 @@
 [DEP] libjpeg
 [DEP] libpng
 [DEP] libsdl
-[DEP] libvncserver
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
@@ -28,6 +28,7 @@
 [DEP] man
 [DEP] mktemp
 [DEP] net-tools
+[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
@@ -35,4 +36,6 @@
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
+[DEP] xextproto
+[DEP] xproto
 [DEP] zlib

@@ -11,12 +11,9 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
+[I] A modular X package
 
-[I] Device Color Characterization utility for X Color Management System
-
-[T] Xmsdb is used to load, query, or remove Device Color Characterization
-[T] data stored in properties on the root window of the screen as specified
-[T] in section 7, Device Color  Characterization, of the ICCCM.
+[T] A modular X package
 
 [U] http://www.X.org
 
@@ -32,4 +29,4 @@
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 326385591 xcmsdb-1.0.1.tar.bz2 http://xorg.freedesktop.org/releases/individual/app/
+[D] 326385591 xcmsdb-1.0.1.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/

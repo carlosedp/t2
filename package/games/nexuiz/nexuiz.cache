@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133771649 Mon Dec  5 09:34:09 2005
-[BUILDTIME] 55 (5)
-[SIZE] 161.21 MB, 16 files
+[TIMESTAMP] 1160553995 Wed Oct 11 08:06:35 2006
+[BUILDTIME] 25 (5)
+[SIZE] 160.96 MB, 14 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -9,6 +9,8 @@
 [DEP] binutils
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

@@ -38,10 +38,11 @@ chmod +x initramfs/init
 #
 arch_boot_cd_pre $isofsdir
 for x in `egrep 'X .* KERNEL .*' $base/config/$config/packages |
-          cut -d ' ' -f 5`; do
- kernel=${x/_*/}
- for moduledir in `grep lib/modules $build_root/var/adm/flists/$kernel |
-                   cut -d ' ' -f 2 | cut -d / -f 1-3 | uniq`; do
+          cut -d ' ' -f 5` ; do
+
+  kernel=${x/_*/}
+  moduledir="`grep lib/modules  $build_root/var/adm/flists/$kernel |
+              cut -d ' ' -f 2 | cut -d / -f 1-3 | uniq | head -n 1`"
   kernelver=${moduledir/*\/}
   initrd="initrd-$kernelver.img"
   kernelimg=`ls $build_root/boot/vmlinu?_$kernelver`
@@ -53,7 +54,7 @@ for x in `egrep 'X .* KERNEL .*' $base/config/$config/packages |
 
   arch_boot_cd_add $isofsdir $kernelver "$boot_title" \
                    /boot/$kernelimg /boot/$initrd
- done
 done
 
 arch_boot_cd_post $isofsdir
+

@@ -43,8 +43,7 @@ time find $build_root -mount -wholename $build_root/TOOLCHAIN -prune -o -printf 
 diff -u ../files-all ../files-wanted |
 sed -n -e '/var\/adm\/olist/d' -e '/var\/adm\/logs/d' \
        -e '/var\/adm\/dep-debug/d' -e '/var\/adm\/cache/d' -e 's/^-//p' > ../files-exclude
-echo "TOOLCHAIN
-proc/*
+echo "proc/*
 dev/*
 */share/doc/*
 var/adm/olist
@@ -54,20 +53,9 @@ var/adm/cache" >> ../files-exclude
 
 echo "Syncing root file-system (this may take some time) ..."
 [ -e $imagelocation/bin ] && v="-v" || v=""
-time rsync -artH $v --devices --specials --delete --delete-excluded \
-     --exclude-from ../files-exclude $build_root/ $imagelocation/
+time rsync -artH $v --delete --exclude-from ../files-exclude \
+      --exclude TOOLCHAIN --delete-excluded $build_root/ $imagelocation/
 rm ../files-{wanted,all,exclude}
-
-# avoid duplicate files on the medium and initrd anyway
-find $isofsdir/boot -type f | while read f; do
-	rm -f ./${f#$isofsdir} > /dev/null
-done
-for initrd in $isofsdir/boot/initrd*; do
-	zcat $initrd | cpio -i --list | grep '.ko$' |
-	while read f; do
-		rm -f ./$f > /dev/null
-	done
-done
 
 echo "Overlaying root file-system with target defined files ..."
 copy_and_parse_from_source $base/target/share/livecd/rootfs $imagelocation
@@ -88,5 +76,6 @@ umount proc
 umount dev
 
 echo "Squashing root file-system (this may take some time) ..."
-time mksquashfs * $isofsdir/live.squash -noappend -no-progress -no-exports
+time mksquashfs * $isofsdir/live.squash -noappend
 du -sh $isofsdir/live.squash
+

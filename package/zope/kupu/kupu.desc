@@ -20,7 +20,7 @@
 [U] http://www.medic.chalmers.se/~jmo/CPS/
 
 [A] Jean-Marc Orliaguet <jmo@ita.chalmers.se>
-[M] The T2 Project <t2@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/tool
 
@@ -32,3 +32,4 @@
 [O] . $base/package/*/zope/zope-conf.in
 
 [D] 752168024 kupu-1.2.1.tar.gz http://kupu.oscom.org/midcom-serveattachmentguid-6b4584286e6cd5bbf2f82f0a83ead0e2/
+

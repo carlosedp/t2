@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1145521822 Thu Apr 20 10:30:22 2006
-[BUILDTIME] 100 (9)
-[SIZE] 1.03 MB, 49 files
+[TIMESTAMP] 1161368131 Fri Oct 20 18:15:31 2006
+[BUILDTIME] 20 (5)
+[SIZE] 0.91 MB, 48 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -21,15 +21,18 @@
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
-[DEP] glibc32
+[DEP] glitz
 [DEP] grep
 [DEP] gtk+
 [DEP] inputproto
 [DEP] kbproto
 [DEP] lib765
+[DEP] libdsk
 [DEP] libgcrypt
 [DEP] libgpg-error
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libspectrum
 [DEP] libx11
 [DEP] libxau

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134249453 Sat Dec 10 22:17:33 2005
-[BUILDTIME] 90 (9)
-[SIZE] 4.39 MB, 85 files
+[TIMESTAMP] 1160473892 Tue Oct 10 09:51:32 2006
+[BUILDTIME] 75 (5)
+[SIZE] 4.91 MB, 72 files
 
 [DEP] 00-dirtree
 [DEP] acl
@@ -33,7 +33,6 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] gzip
-[DEP] howl
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
@@ -45,7 +44,6 @@
 [DEP] libgnomeui
 [DEP] libice
 [DEP] libjpeg
-[DEP] libmspack
 [DEP] libpng
 [DEP] libsm
 [DEP] libtiff

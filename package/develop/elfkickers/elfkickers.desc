@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] Collection of programs that deal with the ELF file format
 
 [T] The main purpose of these programs is to be illustrative and educational
@@ -21,7 +20,7 @@
 [U] http://www.muppetlabs.com/~breadbox/software/elfkickers.html
 
 [A] Brian Raiter <breadbox@muppetlabs.com>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/development
 
@@ -31,3 +30,4 @@
 [P] X -----5---9 800.000
 
 [D] 2896711091 ELFkickers-2.0a.tar.gz http://www.muppetlabs.com/~breadbox/pub/software/
+

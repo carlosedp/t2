@@ -12,9 +12,10 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] Htop is an interactive process viewer for Linux
+[I] htop is an interactive process viewer for Linux
 
-[T] Htop is an ncurses based interactive process viewer for Linux.
+[T] This is htop, an interactive process viewer for Linux.
+[T] It requires ncurses. Tested with Linux 2.4 and 2.6.
 
 [U] http://htop.sourceforge.net/
 
@@ -25,7 +26,8 @@
 
 [L] GPL
 [S] Stable
-[V] 0.6.5
+[V] 0.6.2
 [P] X -----5---9 184.600
 
-[D] 307350074 htop-0.6.5.tar.gz http://dl.sourceforge.net/sourceforge/htop/
+[D] 4263656982 htop-0.6.2.tar.gz http://dl.sourceforge.net/sourceforge/htop/
+

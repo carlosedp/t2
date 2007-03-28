@@ -12,7 +12,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] An image display program for X created from xloadimage
 
 [T] xli is an image display program for X, created by Graeme Gill from Jim
@@ -20,9 +19,9 @@
 [T] xli will view several types of images under X11, or load images onto
 [T] the X11 root window.
 
-[U] http://pantransit.reptiles.org/prog/#xli
+[U] http://pantransit.reptiles.org/prog/#xli	xli project page
 
-[A] Graeme Gill <smar@reptiles.org>
+[A] Graeme Gill <smar@reptiles.org> email for the actual maintaner.
 [M] The T2 Project <t2@t2-project.org>
 
 [C] extra/multimedia
@@ -33,3 +32,4 @@
 [P] O -----5---9 224.500
 
 [D] 3522960032 xli-1.17.0.tar.gz  http://pantransit.reptiles.org/prog/
+

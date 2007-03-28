@@ -1,8 +1,12 @@
 
-[TIMESTAMP] 1134289409 Sun Dec 11 09:23:29 2005
-[BUILDTIME] 25 (9)
-[SIZE] 0.42 MB, 79 files
+[TIMESTAMP] 1160496239 Tue Oct 10 16:03:59 2006
+[BUILDTIME] 40 (5)
+[SIZE] 0.35 MB, 71 files
 
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -14,6 +18,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
@@ -42,6 +47,7 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp

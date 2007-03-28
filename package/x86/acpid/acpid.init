@@ -17,7 +17,7 @@
 #
 # Desc: ACPI event daemon
 #
-# Runlevel: 10 rcX
+# Runlevel: 25 rcX
 #
 
 main_begin

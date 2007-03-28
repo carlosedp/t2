@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171362436 Tue Feb 13 10:27:16 2007
-[BUILDTIME] 130 (5)
-[SIZE] 0.97 MB, 38 files
+[TIMESTAMP] 1160533140 Wed Oct 11 02:19:00 2006
+[BUILDTIME] 140 (5)
+[SIZE] 0.95 MB, 39 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -18,8 +18,6 @@
 [DEP] curl
 [DEP] cyrus-sasl
 [DEP] cyrus-sasl2
-[DEP] dbus
-[DEP] dbus-glib
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
@@ -36,6 +34,7 @@
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
@@ -47,13 +46,11 @@
 [DEP] libidn
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libpthread-stubs
 [DEP] libsm
 [DEP] libtool
 [DEP] libwbxml2
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxcursor
 [DEP] libxdmcp
 [DEP] libxext
@@ -80,5 +77,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xproto
 [DEP] zlib

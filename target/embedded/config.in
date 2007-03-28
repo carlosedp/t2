@@ -64,7 +64,7 @@ s,^. \(.\)[^ ]*,X \11--------,;
 / bash /                { p; d; };
 / gawk /                { p; d; };
 / coreutils /           { p; d; };
-/ findutils /          { p; d; };
+/ find-utils /          { p; d; };
 / util-linux /          { p; d; };
 / procps /              { p; d; };
 / minised /             { p; d; };
@@ -175,7 +175,6 @@ EOT
 
 pkgfilter embedded_pkgfilter
 
-SDECFGSET_IMAGE='none'
 SDECFGSET_PKGFILE_TYPE='tar.bz2'
 SDECFGSET_PKGFILE_VER=1
 

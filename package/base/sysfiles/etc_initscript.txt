@@ -20,10 +20,6 @@
 # 
 # --- ROCK-COPYRIGHT-NOTE-END ---
 
-# Set umask to safe level, and enable core dumps.
-#
-umask 022
-ulimit -c 2097151
 PATH=/bin:/sbin:/usr/bin:/usr/sbin
 export PATH
 

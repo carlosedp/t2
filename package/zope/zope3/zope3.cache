@@ -1,14 +1,13 @@
 
-[TIMESTAMP] 1133777110 Mon Dec  5 11:05:10 2005
+[TIMESTAMP] 1160563000 Wed Oct 11 10:36:40 2006
 [BUILDTIME] 25 (5)
-[SIZE] 44.16 MB, 8547 files
+[SIZE] 69.45 MB, 11663 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] findutils
 [DEP] gcc
@@ -17,10 +16,8 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mutt
-[DEP] numpy
 [DEP] python
 [DEP] pyxml
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] wxpython

@@ -11,11 +11,11 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
+ 
+[I] a DiscJuggler to ISO converter
 
-[I] A DiscJuggler to ISO converter
-
-[T] The command line program cdi2iso converts DiscJuggler image to the
-[T] standard ISO-9660 format.
+[T] cdi2iso converts DiscJuggler image to the standard ISO-9660 format.
+[T] Usage is: cdi2iso image.cdi [image.iso]
 
 [U] http://developer.berlios.de/projects/cdi2iso/
 
@@ -24,9 +24,10 @@
 
 [C] extra/tool
 
-[L] GPL
+[L] OpenSource
 [S] Stable
 [V] 0.1
 [P] X -----5---9 800.000
 
 [D] 107248808 cdi2iso-0.1-src.tar.bz2 http://download.berlios.de/cdi2iso/
+ 

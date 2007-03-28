@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134058130 Thu Dec  8 17:08:50 2005
-[BUILDTIME] 280 (9)
-[SIZE] 9.51 MB, 110 files
+[TIMESTAMP] 1160367567 Mon Oct  9 04:19:27 2006
+[BUILDTIME] 165 (5)
+[SIZE] 9.22 MB, 162 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] bash
@@ -25,6 +26,7 @@
 [DEP] gtk+
 [DEP] imake
 [DEP] inputproto
+[DEP] java-dirtree
 [DEP] jikes
 [DEP] kbproto
 [DEP] libice
@@ -50,5 +52,4 @@
 [DEP] util-linux
 [DEP] xextproto
 [DEP] xproto
-[DEP] zip
 [DEP] zlib

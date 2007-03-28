@@ -22,7 +22,7 @@
 [U] http://dev.croup.de/proj/vserver-utils/
 
 [A] Benedikt Böhm <hollow@gentoo.org>
-[M] The T2 Project <t2@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/security
 
@@ -31,7 +31,8 @@
 [L] OpenSource
 
 [S] Alpha
-[V] r303
-[P] X -----5---9 400.000
+[V] 1.0.2
+[P] X -----5---9 200.400
 
-[D] X vserver-utils-svn-r303.tar.bz2 svn+http://dev.croup.de/repos/vserver-utils/trunk -r303
+[D] 3486505924 vserver-utils-1.0.2.tar.bz2 http://dev.gentoo.org/~hollow/vserver-utils/
+

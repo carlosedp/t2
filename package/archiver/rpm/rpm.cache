@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171146674 Sat Feb 10 22:31:14 2007
-[BUILDTIME] 170 (5) ERROR
-[SIZE] 0.01 MB, 6 files
+[TIMESTAMP] 1160349874 Sun Oct  8 23:24:34 2006
+[BUILDTIME] 175 (5)
+[SIZE] 7.15 MB, 175 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -11,6 +11,7 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] doxygen
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
@@ -25,7 +26,9 @@
 [DEP] net-tools
 [DEP] patch
 [DEP] perl
+[DEP] python
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] zlib

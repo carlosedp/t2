@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134028894 Thu Dec  8 09:01:34 2005
-[BUILDTIME] 135 (9)
-[SIZE] 9.05 MB, 718 files
+[TIMESTAMP] 1160355637 Mon Oct  9 01:00:37 2006
+[BUILDTIME] 100 (5)
+[SIZE] 8.87 MB, 698 files
 
+[DEP] 00-dirtree
 [DEP] acl
 [DEP] atk
 [DEP] attr
@@ -45,9 +46,12 @@
 [DEP] inputproto
 [DEP] kbproto
 [DEP] kdelibs
+[DEP] libice
+[DEP] libidn
 [DEP] libjpeg
 [DEP] libogg
 [DEP] libpng
+[DEP] libsm
 [DEP] libtool
 [DEP] libvorbis
 [DEP] libx11
@@ -61,6 +65,7 @@
 [DEP] libxp
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxscrnsaver
 [DEP] libxt
 [DEP] linux-header
 [DEP] m4
@@ -82,6 +87,5 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] valgrind
-[DEP] xine-lib
 [DEP] xproto
 [DEP] zlib

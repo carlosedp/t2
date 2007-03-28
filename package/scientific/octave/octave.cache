@@ -1,19 +1,21 @@
 
-[TIMESTAMP] 1133757392 Mon Dec  5 05:36:32 2005
-[BUILDTIME] 1280 (5)
-[SIZE] 50.21 MB, 1346 files
+[TIMESTAMP] 1160539951 Wed Oct 11 04:12:31 2006
+[BUILDTIME] 740 (5)
+[SIZE] 25.87 MB, 1543 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
+[DEP] desktop-file-utils
 [DEP] diffutils
 [DEP] fftw3
 [DEP] findutils
 [DEP] flex
 [DEP] gawk
 [DEP] gcc
+[DEP] geany
 [DEP] glibc
 [DEP] gnuplot
 [DEP] gperf
@@ -26,6 +28,8 @@
 [DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
+[DEP] patch
+[DEP] pcre
 [DEP] perl
 [DEP] readline
 [DEP] sed

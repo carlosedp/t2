@@ -1,12 +1,10 @@
 
-[TIMESTAMP] 1171393361 Tue Feb 13 19:02:41 2007
-[BUILDTIME] 70 (5)
-[SIZE] 1.68 MB, 42 files
+[TIMESTAMP] 1160574703 Wed Oct 11 13:51:43 2006
+[BUILDTIME] 45 (5)
+[SIZE] 1.65 MB, 43 files
 
 [DEP] 00-dirtree
-[DEP] acl
 [DEP] arts
-[DEP] attr
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -37,7 +35,6 @@
 [DEP] libsm
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxcursor
 [DEP] libxdmcp
 [DEP] libxext
@@ -61,5 +58,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xproto
 [DEP] zlib

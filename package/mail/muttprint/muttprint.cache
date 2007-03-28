@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171374906 Tue Feb 13 13:55:06 2007
+[TIMESTAMP] 1161453638 Sat Oct 21 18:00:38 2006
 [BUILDTIME] 5 (5)
-[SIZE] 1.95 MB, 84 files
+[SIZE] 1.96 MB, 85 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -15,7 +15,6 @@
 [DEP] grep
 [DEP] gzip
 [DEP] make
-[DEP] man
 [DEP] patch
 [DEP] sed
 [DEP] sysfiles

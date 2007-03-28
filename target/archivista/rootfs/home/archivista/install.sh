@@ -27,8 +27,6 @@ installall=0
 full= # passed to the update scripts to not take over e.g. the passwords
 auto=0
 
-title="Installation"
-
 while [ "$1" ]; do
 	case "$1" in
 		-auto) auto=1 ;;
@@ -83,8 +81,7 @@ for x in /dev/hd? /dev/sd? ; do
 	parts[$((i++))]="/dev/$x - Reformat whole disk"
 	
 	if [ $auto = 0 -a "$reason" ]; then
-		Xdialog --title "$title" --msgbox \
-		        "/dev/$x does not appear to be formated for Archivista:
+		Xdialog --msgbox "/dev/$x does not appear to be formated for Archivista:
 $reason" 0 0
 	else
 	    for y in /dev/$x[12]; do
@@ -112,12 +109,11 @@ if [ ${#parts[@]} -gt 0 ]; then
 	if [ $auto = 1 ]; then
 		part="${parts[0]}"
 	else
-		part=`Xdialog --title "$title" --stdout \
-		      --combobox "Please choose the disc partition
+		part=`Xdialog --stdout --combobox "Please choose the disc partition
 to install to:" 0 0 "${parts[@]}"` || exit
 	fi
 else
-	Xdialog --title "$title" --msgbox "No hard disk / partitions recognized." 0 0
+	Xdialog --msgbox "No hard disk / partitions recognized." 0 0
 	exit
 fi
 
@@ -129,7 +125,7 @@ fi
 
 update="${updates[0]}"
 if [ $auto = 0 -a ${#updates[@]} -gt 1 ]; then
-	update=`Xdialog --title "$title" --stdout --combobox "Take over configuration from a
+	update=`Xdialog --stdout --combobox "Take over configuration from a
 previous Archivista installation?" 0 0 "${updates[@]}"` || exit
 fi
 
@@ -150,39 +146,16 @@ if [ "$update" != "no" ]; then
 		${0%/*}/update-restore.sh -dry $full /tmp/update |
 		Xdialog --title "Recognized configuration" --logbox - 0 0 || exit
 	else
-		Xdialog --title "$title" --msgbox "Partition $update, selected to take
+		Xdialog --msgbox "Partition $update, selected to take
 over the configuration, could not be mounted." 0 0
         	exit
 	fi
 fi
 
-
-# default kernel
-kernels=`ls /boot/vmlinuz_* | sort -r | sed 's/.*vmlinuz_//'`
-eval `grep default_kernel= ${0%/*}/sort-kernel.awk | head -n 1`
-echo kernels: $kernels
-echo default: $default_kernel
-
-kernel_list=
-for kernel in $kernels; do
-	if [ $kernel = $default_kernel ]; then
-		kernel_list="$kernel_list $kernel $kernel on"
-	else
-		kernel_list="$kernel_list $kernel $kernel off"
-	fi
-done
-
-default_kernel=`Xdialog --title "$title" --stdout --no-tags --separator ' ' \
---radiolist "As alternatives to the default OS kernel ($default_kernel) the
-following kernel versions are available: Please note that
-using the default OS kernel is strongly recommended." 0 0 5 $kernel_list`
-
-
 # empty or reformat?
 if [ $installall = 1 ]; then
 	disk=${part%% *}
-	if [ $auto = 1 ] || Xdialog --title "$title" \
-	                            --yesno "Formating the whole disk $disk.
+	if [ $auto = 1 ] || Xdialog --yesno "Formating the whole disk $disk.
 All data will be lost!" 0 0; then
 
 		sfdisk -uM $disk << EOT
@@ -207,7 +180,6 @@ EOT
 		mkswap ${disk}3
 
 		format_w_progress ${disk}1
-		format_w_progress ${disk}2
 		format_w_progress ${disk}4
 
 		mount $part /mnt/target
@@ -221,7 +193,7 @@ if [ $installall = 0 ]; then
 
 	# might not be yet formated ...
 	if ! mount $part /mnt/target; then
-		if ! Xdialog --title "$title" --yesno "Partition $part is not yet formated.
+		if ! Xdialog --yesno "Partition $part is not yet formated.
 Format now?" 0 0; then
 			echo cancelled
 			exit
@@ -230,7 +202,7 @@ Format now?" 0 0; then
 		format_w_progress $part
 		mount $part /mnt/target
 	else
-		if ! Xdialog --title "$title" --yesno "Installing to partition $part.
+		if ! Xdialog --yesno "Installing to partition $part.
 All data will be lost!" 0 0; then
 			echo cancelled
 			umount /mnt/target
@@ -241,7 +213,7 @@ fi
 
 # sanity check to not install into the running system's RAM-disk
 if ! grep -q /mnt/target /proc/mounts; then
-	Xdialog --title "$title" --msgbox "Partiton could not be mounted. Aborting." 0 0
+	Xdialog --msgbox "Partiton could not be mounted. Aborting." 0 0
 	exit
 fi
 
@@ -250,7 +222,7 @@ if [ $installall -eq 1 ]; then
 	mount ${part%[0-9]}4	/mnt/target/home/data
 
 	if ! grep -q /mnt/target/home/data /proc/mounts; then
-		Xdialog --title "$title" --msgbox "Partiton could not be mounted. Aborting." 0 0
+		Xdialog --msgbox "Partiton could not be mounted. Aborting." 0 0
 		umount /mnt/target
 		exit
 	fi
@@ -261,7 +233,7 @@ fi
 
 rsync  -arvP --delete /mnt/live/ /mnt/target/ |
   sed -n 's/.* \([0-9]\+.[0-9]\)% .*/\1/p' |
-  Xdialog --title "$title" --progress "Installing system and database
+  Xdialog --title "Installing ..." --progress "Installing system and database
 to the selected partitions." 0 0
 
 # backup copies for publishing
@@ -286,7 +258,7 @@ EOT
 if [ "$update" != "no" ]; then
 	echo "restore config"
 	${0%/*}/update-restore.sh $full /tmp/update /mnt/target
-	Xdialog --title "$title" --msgbox "Configuration restored." 0 0
+	Xdialog --msgbox "Configuration restored." 0 0
 fi
 
 echo "installing boot loader ..."
@@ -295,7 +267,6 @@ mount --bind /dev /mnt/target/dev
 mount --bind /proc /mnt/target/proc
 
 # let the T2 stone module setup grub ,-)
-touch /mnt/target/boot/grub/menu.lst
 chroot /mnt/target stone -text grub <<-EOT
 1
 
@@ -309,25 +280,18 @@ EOT
 otherpart=`echo $part | tr 12 21`
 
 if [ $installall = 0 ] && mount $otherpart /mnt/update; then
+	echo "injecting other system's boot options into the grub menu"
+
 	tmp=`mktemp`
-
-	# sorting the entries regarding user selection
-	cat /mnt/target/boot/grub/menu.lst > $tmp
-	awk -f ${0%/*}/sort-kernel.awk $default_kernel < $tmp \
-	    > /mnt/target/boot/grub/menu.lst
-
-	# save the other system's entries
-	grep -A 1 -B 1 "root=$otherpart" /mnt/update/boot/grub/menu.lst |
-		sed -e 's/^--//' -e 's/vista Box/vista Box 2nd Installation/' > $tmp
-
-	# insert the other system's entry right before the MemTest entry
+	# save the other system' 1st grub entry
+	sed -n "/title/ {N; N; p; q}" /mnt/update/boot/grub/menu.lst > $tmp
+	# insert the other system's entry
 	sed -i "/MemTest/ { H; r $tmp
 	       N }" /mnt/target/boot/grub/menu.lst
 
 	umount /mnt/update
-	rm -fv $tmp
 
-	Xdialog --title "$title" --msgbox "The alternative system partition
+	Xdialog --msgbox "The alternative system partition
 was added to the boot menu." 0 0
 fi
 
@@ -347,10 +311,11 @@ if ! grep -q /mnt/target /proc/mounts; then
 	if [ $auto = 1 ]; then
 		shutdown -h 0
 	else
-		Xdialog --title "$title" --msgbox "Installation finished!
+		Xdialog --msgbox "Installation finished!
 You can safely reboot now." 0 0
 	fi
 else
-	Xdialog --title "$title" --msgbox "Target partition still mounted -
+	Xdialog --msgbox "Target partition still mounted -
 this indicates an error during installation." 0 0
 fi
+

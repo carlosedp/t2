@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] SELinux Tools
 
 [T] Security-enhanced Linux is a patch of the Linux® kernel and a number
@@ -35,3 +34,4 @@
 [P] O -----5---9 811.007
 
 [D] 1070786583 setools-2.2.tar.bz2 http://www.tresys.com/files/setools/
+

@@ -28,7 +28,7 @@
 [T]
 [T] This is a patched version (ergo unofficial) of qmail-scanner, that adds some
 [T] options focused in deal with spam and others features.
-[T]
+[T] 
 [T] Salvatore Toribio modified the code of qmail-scanner with the patch from Chris
 [T] Hine to block (quarantine) spam, based in the score of SpamAssassin, most of
 [T] the users don't know how to filter messages tagged as spam, and later he added
@@ -45,8 +45,8 @@
 
 [L] GPL
 [S] Stable
-[V] 2.00st-20060416
+[V] 1.25st-20050406
 [P] O -------7-9 800.000
 
-[D] 1400505392 qmail-scanner-2.00.tgz http://dl.sourceforge.net/sourceforge/qmail-scanner/
-[D] 3661380608 q-s-2.00st-20060416.patch.gz http://toribio.apollinare.org/qmail-scanner/download/
+[D] 4264434250 qmail-scanner-1.25.tgz http://dl.sourceforge.net/sourceforge/qmail-scanner/
+[D] 2987310235 q-s-1.25st-20050406.patch.gz http://toribio.apollinare.org/qmail-scanner/download/

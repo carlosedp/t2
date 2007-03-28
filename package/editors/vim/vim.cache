@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134140497 Fri Dec  9 16:01:37 2005
-[BUILDTIME] 95 (9)
-[SIZE] 15.27 MB, 1057 files
+[TIMESTAMP] 1160403665 Mon Oct  9 14:21:05 2006
+[BUILDTIME] 80 (5)
+[SIZE] 20.25 MB, 1479 files
 
+[DEP] 00-dirtree
 [DEP] acl
 [DEP] atk
 [DEP] attr
@@ -13,7 +14,6 @@
 [DEP] cf
 [DEP] coreutils
 [DEP] ctags
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
@@ -24,16 +24,12 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnue-common
 [DEP] gpm
 [DEP] grep
-[DEP] groff
 [DEP] gtk+
 [DEP] imake
 [DEP] inputproto
 [DEP] kbproto
-[DEP] less
-[DEP] libdnet
 [DEP] libelf
 [DEP] libice
 [DEP] libpng
@@ -53,13 +49,11 @@
 [DEP] linux-header
 [DEP] make
 [DEP] man
-[DEP] man-pages
+[DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
-[DEP] numpy
 [DEP] pango
 [DEP] perl
-[DEP] pil
 [DEP] pkgconfig
 [DEP] python
 [DEP] renderproto
@@ -67,7 +61,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] wxpython
+[DEP] util-linux
 [DEP] xproto
-[DEP] zlib
-[DEP] zope

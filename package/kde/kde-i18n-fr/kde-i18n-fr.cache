@@ -1,11 +1,10 @@
 
-[TIMESTAMP] 1134167558 Fri Dec  9 23:32:38 2005
-[BUILDTIME] 60 (9)
-[SIZE] 29.44 MB, 2396 files
+[TIMESTAMP] 1160423778 Mon Oct  9 19:56:18 2006
+[BUILDTIME] 45 (5)
+[SIZE] 31.37 MB, 2393 files
 
 [DEP] 00-dirtree
 [DEP] arts
-[DEP] autoconf
 [DEP] bash
 [DEP] bzip2
 [DEP] coreutils
@@ -16,12 +15,12 @@
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
+[DEP] kdeedu
+[DEP] kdegames
 [DEP] kdelibs
-[DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

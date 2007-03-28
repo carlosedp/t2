@@ -106,7 +106,7 @@ block_end
 comment ' '
 comment_id '- Architecture, CPU and Optimization' COMMENT_ARCHCPUOPT
 block_begin 7
-	choice SDECFG_ARCH "$SDECFG_ARCH" $CFGTEMP_ARCHLIST
+	choice SDECFG_ARCH $SDECFG_ARCH $CFGTEMP_ARCHLIST
 	SDECFG_ID="$SDECFG_ID-$SDECFG_ARCH"
 
 	if [ -f architecture/$SDECFG_ARCH/config.in ]
@@ -122,15 +122,31 @@ block_begin 7
 	# pkgsel in backward order
 	for target in $( get_reverted $targetchain ); do
 		if [ -f target/$target/pkgsel ]; then
-			pkgsel_parse target/$target/pkgsel
+			if [ target/$target/pkgsel -nt $cfgtmpdir/pkgsel.$target.awk ]
+			then
+				( echo "# created from 'target-pkgsel'"
+				  pkgsel_init
+				  pkgsel_parse < target/$target/pkgsel
+				  pkgsel_finish
+				) > $cfgtmpdir/pkgsel.$target.awk
+			fi
+
+			if [ -s $cfgtmpdir/pkgsel.$target.awk ]; then
+				pkgfilter awk -f $cfgtmpdir/pkgsel.$target.awk
+				[ "$SDECFG_LICENSE_ISSUE" = 0 ] && pkgchecklicense
+			else
+				comment 'WARNING! something went wrong with target-pkgsel'
+			fi
 		elif [ -f target/$target/pkgsel.awk ]; then
 			pkgfilter awk -f target/$target/pkgsel.awk
+			[ "$SDECFG_LICENSE_ISSUE" = 0 ] && pkgchecklicense
 		elif [ -f target/$target/pkgsel.sed ]; then
 			pkgfilter sed -f target/$target/pkgsel.sed
+			[ "$SDECFG_LICENSE_ISSUE" = 0 ] && pkgchecklicense
 		elif [ -f target/$target/pkgsel.in ]; then
 			. target/$target/pkgsel.in
+			[ "$SDECFG_LICENSE_ISSUE" = 0 ] && pkgchecklicense
 		fi
-		[ "$SDECFG_LICENSE_ISSUE" = 0 ] && pkgchecklicense
 	done
 
 block_end
@@ -216,7 +232,22 @@ if [ "$SDECFG_PKGSEL" = 1 -a -f config/$config/pkgsel ] ; then
 	fi
 	unset filter
 
-	pkgsel_parse config/$config/pkgsel
+	( echo "# created from 'pkgsel'"
+	  pkgsel_init
+	  pkgsel_parse < config/$config/pkgsel
+	  pkgsel_finish
+	) > $cfgtmpdir/pkgsel.awk
+
+	pkgout
+	gawk -f $cfgtmpdir/pkgsel.awk < config/$config/packages \
+			> $cfgtmpdir/packages.new 2> /dev/null
+	if [ -s $cfgtmpdir/packages.new ] ; then
+		mv $cfgtmpdir/packages.new config/$config/packages
+	else
+		rm -f $cfgtmpdir/packages.new
+		CFGTEMP_PKSEL_ERROR=1
+	fi
+	pkgin
 fi
 
 comment ' '
@@ -354,6 +385,9 @@ break packages!'
 	bool 'Enable c-compiler multilib support' SDECFG_MULTILIB 0
 
 	bool 'Disable National Language Support' SDECFG_DISABLE_NLS 0
+	if [ "$SDECFG_DISABLE_NLS" = 1 ] ; then
+		pkgremove gettext
+	fi
 
 	bool 'Automatic documentation creation' SDECFG_CREATE_DOCS 0
 

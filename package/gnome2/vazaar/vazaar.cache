@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133812011 Mon Dec  5 20:46:51 2005
-[BUILDTIME] 15 (5)
-[SIZE] 0.90 MB, 214 files
+[TIMESTAMP] 1160610559 Wed Oct 11 23:49:19 2006
+[BUILDTIME] 10 (5) ERROR
+[SIZE] 0.01 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -16,15 +16,16 @@
 [DEP] esound
 [DEP] expat
 [DEP] findutils
+[DEP] firefox
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gail
+[DEP] gawk
 [DEP] gcc
 [DEP] gconf
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glibmm
 [DEP] glitz
 [DEP] gnet
 [DEP] gnome-keyring
@@ -32,6 +33,8 @@
 [DEP] grep
 [DEP] gtk+
 [DEP] gtksourceview
+[DEP] inputproto
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -58,7 +61,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
@@ -67,8 +69,10 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
+[DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xproto
 [DEP] zlib

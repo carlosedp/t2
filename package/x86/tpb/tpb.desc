@@ -11,14 +11,13 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] ThinkPad Buttons
 
 [T] ThinkPad Buttons makes it possible to bind programs to the
 [T] ThinkPad Mail, Home, and Search buttons. It can run callback programs
 [T] upon state changes, and trigger several actions after different
 [T] events. It includes an on-screen display that shows the volume, mute,
-[T] brightness, and other information, and supports software mixers.
+[T] brightness, and other information, and supports software mixers. 
 
 [U] http://www.nongnu.org/tpb/
 

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134134276 Fri Dec  9 14:17:56 2005
-[BUILDTIME] 145 (9)
-[SIZE] 3.86 MB, 165 files
+[TIMESTAMP] 1161447675 Sat Oct 21 16:21:15 2006
+[BUILDTIME] 120 (5)
+[SIZE] 3.77 MB, 161 files
 
+[DEP] 00-dirtree
 [DEP] a52dec
 [DEP] autoconf
 [DEP] automake

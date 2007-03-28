@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1172387752 Sun Feb 25 07:15:52 2007
+[TIMESTAMP] 1160644062 Thu Oct 12 09:07:42 2006
 [BUILDTIME] 5 (5) ERROR
-[SIZE] 0.01 MB, 5 files
+[SIZE] 0.01 MB, 7 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] blackdown-jdk
 [DEP] coreutils
@@ -10,6 +11,7 @@
 [DEP] findutils
 [DEP] gcc
 [DEP] grep
+[DEP] java-dirtree
 [DEP] patch
 [DEP] sed
 [DEP] sysfiles

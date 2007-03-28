@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134071764 Thu Dec  8 20:56:04 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.43 MB, 34 files
+[TIMESTAMP] 1160382671 Mon Oct  9 08:31:11 2006
+[BUILDTIME] 25 (5)
+[SIZE] 0.44 MB, 30 files
 
+[DEP] 00-dirtree
+[DEP] arts
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -10,6 +12,7 @@
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
+[DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -45,4 +48,3 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] zlib

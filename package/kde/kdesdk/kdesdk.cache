@@ -1,17 +1,18 @@
 
-[TIMESTAMP] 1134180591 Sat Dec 10 03:09:51 2005
-[BUILDTIME] 555 (9)
-[SIZE] 15.88 MB, 1030 files
+[TIMESTAMP] 1160435806 Mon Oct  9 23:16:46 2006
+[BUILDTIME] 375 (5)
+[SIZE] 16.14 MB, 987 files
 
-[DEP] apr
-[DEP] apr-util
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] bdb
 [DEP] binutils
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
-[DEP] cyrus-sasl2
 [DEP] diffutils
 [DEP] expat
 [DEP] fam
@@ -21,15 +22,14 @@
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
-[DEP] gdbm
 [DEP] gettext
 [DEP] glibc
 [DEP] grep
 [DEP] imake
 [DEP] kdelibs
-[DEP] kdevelop
+[DEP] kdepim
+[DEP] kdewebdev
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libice
 [DEP] libidn
@@ -44,7 +44,6 @@
 [DEP] libxfixes
 [DEP] libxft
 [DEP] libxinerama
-[DEP] libxml
 [DEP] libxmu
 [DEP] libxrandr
 [DEP] libxrender
@@ -55,15 +54,11 @@
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
-[DEP] neon
 [DEP] net-tools
-[DEP] openldap
-[DEP] openssl
 [DEP] pcre
 [DEP] perl
 [DEP] qt
 [DEP] sed
-[DEP] subversion
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

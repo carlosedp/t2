@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133742867 Mon Dec  5 01:34:27 2005
-[BUILDTIME] 370 (5)
-[SIZE] 11.91 MB, 4062 files
+[TIMESTAMP] 1160529290 Wed Oct 11 01:14:50 2006
+[BUILDTIME] 315 (5)
+[SIZE] 10.76 MB, 927 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -26,12 +26,15 @@
 [DEP] libsdl
 [DEP] libsdl_gfx
 [DEP] libsm
+[DEP] libtool
 [DEP] libvorbis
 [DEP] libx11
 [DEP] libxau
 [DEP] libxdmcp
 [DEP] libxext
+[DEP] libxi
 [DEP] libxmu
+[DEP] libxslt
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
@@ -41,6 +44,7 @@
 [DEP] net-tools
 [DEP] patch
 [DEP] perl
+[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

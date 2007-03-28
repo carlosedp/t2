@@ -1,5 +1,4 @@
 vfat
 msdos
 hfsplus
-squashfs
 *

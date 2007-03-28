@@ -1,5 +1,5 @@
 
-[TIMESTAMP] 1133831909 Tue Dec  6 02:18:29 2005
+[TIMESTAMP] 1160632488 Thu Oct 12 05:54:48 2006
 [BUILDTIME] 5 (5)
 [SIZE] 0.03 MB, 9 files
 
@@ -7,6 +7,7 @@
 [DEP] bash
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

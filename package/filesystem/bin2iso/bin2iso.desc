@@ -12,10 +12,12 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A Bin to ISO converter
+[I] a Bin to ISO converter
 
-[T] The command line program bin2iso converts BIN image files to standard
-[T] ISO image files.
+[T] bin2iso converts BIN image files to standard ISO image files.
+[T]
+[T] The program is actually very simple to use. All you normally do is
+[T] bin2iso image.bin [image.iso] No help provided. 
 
 [U] http://mange.dynup.net/linux/bin2iso/
 
@@ -30,3 +32,4 @@
 [P] X -----5---9 800.000
 
 [D] 117263323 bin2iso.c http://mange.dynup.net/linux/bin2iso/
+

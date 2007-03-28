@@ -21,15 +21,15 @@ extend_initrd()
 	local from=$2
 
 	echo "Extending initrd archive ..."
-	echo "Initrd: ${initrd/$build_root/\$root}"
-	echo "  from: ${from/$build_root/\$root}"
+	echo "Initrd: $initrd"
+	echo "  from: $from"
 
 	(
 	  # extract archive
 	  rm -rf $initrd.dir ;  mkdir $initrd.dir
 	  cd $initrd.dir
 
-	  gunzip -c $initrd | cpio -i
+	  gunzip -c < $initrd | cpio -i
 
 	  # copy extensions
 	  cd $from
@@ -37,9 +37,11 @@ extend_initrd()
 	
 	  # create archive
 	  cd $initrd.dir
-	  find . | cpio -o -H newc | gzip -c9 > $initrd
+	  find * | cpio -o -H newc --file $initrd.cpio
+	  gzip -c -9 $initrd.cpio > $initrd
 	)
 
 	# cleanup
+	rm $initrd.cpio
 	rm -rf $initrd.dir
 }

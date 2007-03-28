@@ -1,19 +1,17 @@
 
-[TIMESTAMP] 1133912015 Wed Dec  7 00:33:35 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.35 MB, 78 files
+[TIMESTAMP] 1160270510 Sun Oct  8 01:21:50 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.35 MB, 70 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdftopcf
+[DEP] bigreqsproto
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] font-alias
-[DEP] font-misc-cyrillic
-[DEP] font-screen-cyrillic
-[DEP] font-winitzki-cyrillic
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

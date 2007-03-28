@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171145146 Sat Feb 10 22:05:46 2007
+[TIMESTAMP] 1160348220 Sun Oct  8 22:57:00 2006
 [BUILDTIME] 5 (5)
-[SIZE] 0.12 MB, 9 files
+[SIZE] 0.11 MB, 9 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -13,6 +13,7 @@
 [DEP] diffutils
 [DEP] findutils
 [DEP] fuse
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -26,3 +27,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

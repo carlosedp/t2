@@ -1,11 +1,12 @@
 
-[TIMESTAMP] 1171270744 Mon Feb 12 08:59:04 2007
-[BUILDTIME] 10 (5) ERROR
-[SIZE] 0.01 MB, 6 files
+[TIMESTAMP] 1134318357 Sun Dec 11 17:25:57 2005
+[BUILDTIME] 10 (9) ERROR
+[SIZE] 0.02 MB, 7 files
 
 [DEP] alsa-lib
 [DEP] autoconf
 [DEP] automake
+[DEP] avifile
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -31,3 +32,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

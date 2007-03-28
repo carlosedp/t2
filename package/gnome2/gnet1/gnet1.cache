@@ -1,10 +1,12 @@
 
-[TIMESTAMP] 1134129896 Fri Dec  9 13:04:56 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.74 MB, 73 files
+[TIMESTAMP] 1160397621 Mon Oct  9 12:40:21 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.63 MB, 60 files
 
+[DEP] 00-dirtree
 [DEP] anjuta
 [DEP] at-spi
+[DEP] atk
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -24,13 +26,18 @@
 [DEP] glibc
 [DEP] gmime
 [DEP] gnet
+[DEP] gnome-desktop
 [DEP] gnome-panel
+[DEP] gnome-python-extras
+[DEP] gnome-utils
+[DEP] gnome-vfs
+[DEP] gok
 [DEP] grep
-[DEP] gstreamer
 [DEP] gtk+
 [DEP] gtkdoc
 [DEP] gtkglext
 [DEP] gtksourceview
+[DEP] gtkspell
 [DEP] libbonobo
 [DEP] libbonoboui
 [DEP] libgda
@@ -40,20 +47,19 @@
 [DEP] libgnomeprint
 [DEP] libgnomeui
 [DEP] libgsf
-[DEP] librsvg
 [DEP] libsoup
 [DEP] libwnck
-[DEP] linphone
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] pkgconfig
-[DEP] rhythmbox
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] texinfo
 [DEP] util-linux
+[DEP] vte

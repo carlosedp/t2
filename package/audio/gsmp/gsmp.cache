@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1160402772 Mon Oct  9 14:06:12 2006
+[BUILDTIME] 25 (5) ERROR
+[SIZE] 0.02 MB, 9 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gtkmm12
+[DEP] libmad
+[DEP] libogg
+[DEP] libsigc++1
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] twm
+[DEP] util-linux

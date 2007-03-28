@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1139994889 Wed Feb 15 10:14:49 2006
-[BUILDTIME] 100 (9)
-[SIZE] 0.20 MB, 50 files
+[TIMESTAMP] 1160327978 Sun Oct  8 17:19:38 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.12 MB, 49 files
 
 [DEP] 00-dirtree
 [DEP] aspell
@@ -21,11 +21,14 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] grep
 [DEP] gtk+
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor

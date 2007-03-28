@@ -1,9 +1,11 @@
 
-[TIMESTAMP] 1133953283 Wed Dec  7 12:01:23 2005
-[BUILDTIME] 25 (9)
-[SIZE] 0.64 MB, 26 files
+[TIMESTAMP] 1160279992 Sun Oct  8 03:59:52 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.56 MB, 15 files
 
+[DEP] 00-dirtree
 [DEP] bash
+[DEP] bigreqsproto
 [DEP] binutils
 [DEP] bzip2
 [DEP] cf

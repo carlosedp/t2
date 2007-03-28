@@ -11,12 +11,11 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A drum machine/rhythm programmer
 
 [T] Hydrogen is an advanced drum machine for GNU/Linux.
 [T] It's main goal is to bring professional yet simple and
-[T] intuitive pattern-based drum programming.
+[T] intuitive pattern-based drum programming. 
 
 [U] http://www.hydrogen-music.org/
 

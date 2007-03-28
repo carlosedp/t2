@@ -27,7 +27,11 @@ X pcre
 X perl-xml-parser
 X libusb
 X libidl
+X libxml
+X libxslt
 X sudo
+X ppp
+X cvs
 
 # graphics
 X libart_lgpl23
@@ -61,15 +65,16 @@ X arts
 X kdelibs
 
 # multimedia
-X xvid
-X ffmpeg
+#X xmms    we don't want gtk+12 stuff here
+X xine
 X mplayer
 X mplayer-fonts
+X xvid
 
 # sound
-X alsa-utils alsa-lib
-X libogg
-X libvorbis
+X alsa
+X alsa-driver
+X ogg-vorbis
 X cdrdao
 X libcdio
 X lame
@@ -80,8 +85,9 @@ X taglib
 X firefox
 X xpdf
 
-# CIFS support
+# server
 X samba
+X exim
 
 # security
 X gnupg

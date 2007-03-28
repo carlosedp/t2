@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1172379451 Sun Feb 25 04:57:31 2007
-[BUILDTIME] 20 (5) ERROR
-[SIZE] 0.01 MB, 7 files
+[TIMESTAMP] 1160569032 Wed Oct 11 12:17:12 2006
+[BUILDTIME] 80 (5)
+[SIZE] 8.71 MB, 332 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -11,39 +11,56 @@
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
-[DEP] cvs
+[DEP] curl
 [DEP] diffutils
+[DEP] directfb
+[DEP] ecore
+[DEP] edje
 [DEP] eet
 [DEP] embryo
+[DEP] evas
+[DEP] expat
 [DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glibc
 [DEP] gnutls
 [DEP] grep
-[DEP] gzip
 [DEP] imake
 [DEP] imlib2
 [DEP] libgcrypt
 [DEP] libgpg-error
 [DEP] libice
+[DEP] libidn
+[DEP] libjpeg
 [DEP] libprelude
 [DEP] libtasn1
 [DEP] libtool
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
+[DEP] libxcursor
 [DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxinerama
+[DEP] libxp
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxscrnsaver
 [DEP] linux-header
 [DEP] m4
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
+[DEP] openssl
 [DEP] pam
-[DEP] patch
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xproto
+[DEP] zlib

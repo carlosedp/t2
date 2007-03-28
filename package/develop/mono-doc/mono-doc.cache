@@ -1,13 +1,15 @@
 
-[TIMESTAMP] 1171138376 Sat Feb 10 20:12:56 2007
+[TIMESTAMP] 1160508808 Tue Oct 10 19:33:28 2006
 [BUILDTIME] 10 (5)
-[SIZE] 8.02 MB, 59 files
+[SIZE] 7.00 MB, 47 files
 
 [DEP] 00-dirtree
 [DEP] bash
+[DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
@@ -17,4 +19,5 @@
 [DEP] net-tools
 [DEP] sed
 [DEP] sysfiles
-[DEP] unzip
+[DEP] tar
+[DEP] util-linux

@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1160452990 Tue Oct 10 04:03:10 2006
+[BUILDTIME] 50 (5)
+[SIZE] 2.14 MB, 227 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gwenhywfar
+[DEP] libtool
+[DEP] libusb
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openct
+[DEP] opensc
+[DEP] openssl
+[DEP] pcsc-lite
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] sysfsutils
+[DEP] tar
+[DEP] util-linux

@@ -1,9 +1,11 @@
 
-[TIMESTAMP] 1133919734 Wed Dec  7 02:42:14 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.40 MB, 39 files
+[TIMESTAMP] 1160271605 Sun Oct  8 01:40:05 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.34 MB, 31 files
 
+[DEP] 00-dirtree
 [DEP] bash
+[DEP] bigreqsproto
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
@@ -12,16 +14,11 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnutls
 [DEP] grep
 [DEP] inputproto
 [DEP] kbproto
-[DEP] libgcrypt
-[DEP] libgpg-error
 [DEP] libice
-[DEP] libprelude
 [DEP] libsm
-[DEP] libtasn1
 [DEP] libx11
 [DEP] libxau
 [DEP] libxaw
@@ -43,8 +40,8 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] twm
 [DEP] util-linux
 [DEP] xextproto
 [DEP] xineramaproto
 [DEP] xproto
-[DEP] zlib

@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A small set of utilities for simple operations on PDF files
 
 [T] A small set of utilities for simple operations on PDF files.
@@ -25,8 +24,8 @@
 
 [U] http://www.warwick.ac.uk/go/pdfjam
 
-[A] David Firth
-[M] The T2 Project <t2@t2-project.org>
+[A] David Firth 
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/text
 
@@ -36,3 +35,4 @@
 [P] X -----5---9 800.000
 
 [D] 1156818567 pdfjam_1.20.tgz http://www.warwick.ac.uk/go/pdfjam/
+

@@ -1,14 +1,17 @@
 
-[TIMESTAMP] 1134269774 Sun Dec 11 03:56:14 2005
-[BUILDTIME] 155 (9)
-[SIZE] 9.10 MB, 245 files
+[TIMESTAMP] 1160483605 Tue Oct 10 12:33:25 2006
+[BUILDTIME] 135 (5)
+[SIZE] 6.62 MB, 224 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] blackdown-jdk
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] dosfstools
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -17,6 +20,8 @@
 [DEP] make
 [DEP] ncurses
 [DEP] net-tools
+[DEP] patch
+[DEP] pcmciautils
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles

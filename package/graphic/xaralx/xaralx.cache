@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1144342534 Thu Apr  6 16:55:34 2006
-[BUILDTIME] 625 (5)
-[SIZE] 7.46 MB, 7 files
+[TIMESTAMP] 1160618410 Thu Oct 12 02:00:10 2006
+[BUILDTIME] 850 (5)
+[SIZE] 9.84 MB, 7 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -29,8 +29,10 @@
 [DEP] gzip
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libjpeg
 [DEP] libpng
+[DEP] libsm
 [DEP] libtiff
 [DEP] libtool
 [DEP] libx11
@@ -41,6 +43,7 @@
 [DEP] libxfixes
 [DEP] libxi
 [DEP] libxinerama
+[DEP] libxml
 [DEP] libxrandr
 [DEP] libxrender
 [DEP] libxxf86vm

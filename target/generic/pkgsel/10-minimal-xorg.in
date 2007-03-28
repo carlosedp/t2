@@ -18,10 +18,6 @@
 # reuse the minimal
 include target/generic/pkgsel/00-minimal.in
 
-# new xcb deps
-X libxml
-X libxslt
-
 # needed by xsm:
 X netkit-rsh
 
@@ -48,7 +44,7 @@ X mkfontscale
 X xcursorgen
 X xcursor-themes
 X xtrans
-X libxau
+X xau
 X xcmiscproto
 X xkbcomp
 X xkbdata

@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1133985343 Wed Dec  7 20:55:43 2005
-[BUILDTIME] 60 (9)
-[SIZE] 15.98 MB, 258 files
+[TIMESTAMP] 1160292253 Sun Oct  8 07:24:13 2006
+[BUILDTIME] 140 (5)
+[SIZE] 14.99 MB, 245 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash

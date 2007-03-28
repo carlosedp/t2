@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171144534 Sat Feb 10 21:55:34 2007
-[BUILDTIME] 50 (5)
-[SIZE] 1.72 MB, 48 files
+[TIMESTAMP] 1160347816 Sun Oct  8 22:50:16 2006
+[BUILDTIME] 45 (5)
+[SIZE] 1.76 MB, 49 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -24,3 +24,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

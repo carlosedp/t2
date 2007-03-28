@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134011100 Thu Dec  8 04:05:00 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.05 MB, 13 files
+[TIMESTAMP] 1160346879 Sun Oct  8 22:34:39 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.04 MB, 8 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2

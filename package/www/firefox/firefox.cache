@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1141420632 Fri Mar  3 22:17:12 2006
-[BUILDTIME] 615 (5)
-[SIZE] 43.45 MB, 3274 files
+[TIMESTAMP] 1160524126 Tue Oct 10 23:48:46 2006
+[BUILDTIME] 950 (5)
+[SIZE] 45.44 MB, 3539 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -21,6 +21,7 @@
 [DEP] gconf
 [DEP] glib
 [DEP] glibc
+[DEP] glitz
 [DEP] gnome-keyring
 [DEP] gnome-vfs
 [DEP] grep
@@ -31,6 +32,7 @@
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
+[DEP] libdnet
 [DEP] libgnome
 [DEP] libgnomecanvas
 [DEP] libgnomeui
@@ -56,6 +58,7 @@
 [DEP] linux-header
 [DEP] make
 [DEP] net-tools
+[DEP] nvu
 [DEP] orbit2
 [DEP] pango
 [DEP] patch

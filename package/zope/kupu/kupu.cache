@@ -1,5 +1,5 @@
 
-[TIMESTAMP] 1133778633 Mon Dec  5 11:30:33 2005
+[TIMESTAMP] 1160564516 Wed Oct 11 11:01:56 2006
 [BUILDTIME] 5 (5)
 [SIZE] 1.80 MB, 435 files
 
@@ -8,6 +8,7 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc

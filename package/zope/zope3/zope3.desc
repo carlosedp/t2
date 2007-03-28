@@ -12,25 +12,26 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] Zope application server
+[I] Zope application server  
 
-[T] Zope is an open source application server for building content
-[T] management systems, intranets, portals, and custom applications.
+[T] Zope is an open source application server for building content 
+[T] management systems, intranets, portals, and custom applications. 
 
 [U] http://www.zope.org/Products/ZopeX3/
 
 [A] Zope Corporation <www.zope.com>
-[A] Zope Community <http://www.zope.org/>
-[M] The T2 Project <t2@t2-project.org>
+[A] Zope Community <http://www.zope.org/> 
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/server 
 
-[E] python
+[E] python 
 
-[L] OpenSource
+[L] OpenSource 
 
 [S] Stable
-[V] 3.3.0
+[V] 3.2.1
 [P] X -----5---9 300.000
 
-[D] 3340235035 Zope-3.3.0.tgz http://www.zope.org/Products/Zope3/3.3.0/
+[D] 2339532423 Zope-3.2.1.tgz http://www.zope.org/Products/Zope3/3.2.1/
+

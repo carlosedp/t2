@@ -12,7 +12,7 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A CloneCD to ISO converter
+[I] a CloneCD to ISO converter
 
 [T] CCD2iso converts CloneCD image files to standard ISO image files.
 
@@ -23,9 +23,10 @@
 
 [C] extra/tool
 
-[L] GPL
+[L] OpenSource
 [S] Stable
-[V] 0.3
+[V] 0.2
 [P] X -----5---9 800.000
 
-[D] 4071961053 ccd2iso-0.3.tar.gz http://dl.sourceforge.net/sourceforge/ccd2iso/
+[D] 1240014291 ccd2iso-0.2.tar.gz http://dl.sourceforge.net/sourceforge/ccd2iso/
+ 

@@ -1,13 +1,11 @@
 
-[TIMESTAMP] 1171227024 Sun Feb 11 20:50:24 2007
-[BUILDTIME] 1155 (5)
-[SIZE] 48.32 MB, 2363 files
+[TIMESTAMP] 1160417271 Mon Oct  9 18:07:51 2006
+[BUILDTIME] 1315 (5)
+[SIZE] 48.47 MB, 2476 files
 
 [DEP] 00-dirtree
-[DEP] acl
 [DEP] alsa-lib
 [DEP] arts
-[DEP] attr
 [DEP] audiofile
 [DEP] autoconf
 [DEP] automake
@@ -36,12 +34,9 @@
 [DEP] gpgme
 [DEP] grep
 [DEP] imake
-[DEP] jack
-[DEP] kdebase
 [DEP] kdelibs
 [DEP] kdewebdev
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libgpg-error
 [DEP] libice
@@ -55,7 +50,6 @@
 [DEP] libvorbis
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxcursor
 [DEP] libxdmcp
 [DEP] libxext
@@ -86,5 +80,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xproto
 [DEP] zlib

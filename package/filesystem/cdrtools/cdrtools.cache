@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1168516536 Thu Jan 11 11:55:36 2007
-[BUILDTIME] 35 (5)
-[SIZE] 2.97 MB, 39 files
+[TIMESTAMP] 1160421053 Mon Oct  9 19:10:53 2006
+[BUILDTIME] 50 (5)
+[SIZE] 2.92 MB, 40 files
 
 [DEP] 00-dirtree
 [DEP] acl
@@ -9,6 +9,7 @@
 [DEP] attr
 [DEP] bash
 [DEP] binutils
+[DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils

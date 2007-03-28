@@ -1,20 +1,19 @@
 
-[TIMESTAMP] 1134184939 Sat Dec 10 04:22:19 2005
-[BUILDTIME] 20 (9)
-[SIZE] 0.90 MB, 43 files
+[TIMESTAMP] 1160440516 Tue Oct 10 00:35:16 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.97 MB, 38 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] bash
 [DEP] bdb33
 [DEP] binutils
-[DEP] bison
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
 [DEP] findutils
-[DEP] flac
 [DEP] gawk
 [DEP] gcc
 [DEP] gdk-pixbuf10
@@ -27,6 +26,7 @@
 [DEP] imlib
 [DEP] jack
 [DEP] libice
+[DEP] libsdl
 [DEP] libsm
 [DEP] libsndfile
 [DEP] libx11
@@ -44,4 +44,3 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xproto
-[DEP] zlib

@@ -1,21 +1,19 @@
 
-[TIMESTAMP] 1133970445 Wed Dec  7 16:47:25 2005
-[BUILDTIME] 40 (9)
-[SIZE] 2.77 MB, 167 files
+[TIMESTAMP] 1160285933 Sun Oct  8 05:38:53 2006
+[BUILDTIME] 35 (5)
+[SIZE] 2.73 MB, 155 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cgilib
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] findutils
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] gnue-common
 [DEP] grep
 [DEP] libart_lgpl23
 [DEP] libpng
@@ -23,14 +21,11 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] numpy
 [DEP] perl
-[DEP] pil
 [DEP] python
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
 [DEP] tcl
 [DEP] util-linux
-[DEP] wxpython
 [DEP] zlib

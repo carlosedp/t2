@@ -12,10 +12,12 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] A PDI to ISO converter
+[I] a PDI to ISO converter
 
-[T] Pdi2iso is a very simple utility to convert an instant copy bin image
-[T] to the standard ISO-9660 format.
+[T] pdi2iso converts nrg image files to standard ISO image files.
+[T]
+[T] The program is actually very simple to use. All you normally do is
+[T] pdi2iso [--cue] [BASENAME.pdi] --cue = generate cue files
 
 [U] http://developer.berlios.de/projects/pdi2iso/
 
@@ -24,9 +26,10 @@
 
 [C] extra/tool
 
-[L] GPL
+[L] OpenSource
 [S] Stable
 [V] 0.1
 [P] X -----5---9 800.000
 
 [D] 3751285077 pdi2iso-0.1-src.tar.bz2 http://download.berlios.de/pdi2iso/
+

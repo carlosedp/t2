@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1172377716 Sun Feb 25 04:28:36 2007
-[BUILDTIME] 30 (5)
-[SIZE] 7.07 MB, 157 files
+[TIMESTAMP] 1160510680 Tue Oct 10 20:04:40 2006
+[BUILDTIME] 25 (5)
+[SIZE] 5.41 MB, 130 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -10,14 +10,12 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] firefox
 [DEP] gawk
 [DEP] gcc
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] gnome-libs14
-[DEP] gnome-sharp
 [DEP] grep
 [DEP] gtk-sharp2
 [DEP] gtkmozembed-sharp
@@ -34,3 +32,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux

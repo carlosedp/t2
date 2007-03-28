@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134114704 Fri Dec  9 08:51:44 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.50 MB, 127 files
+[TIMESTAMP] 1160384441 Mon Oct  9 09:00:41 2006
+[BUILDTIME] 25 (5)
+[SIZE] 1.68 MB, 129 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] atk
 [DEP] audiofile
@@ -10,6 +11,7 @@
 [DEP] binutils
 [DEP] bzip2
 [DEP] cairo
+[DEP] cf
 [DEP] coreutils
 [DEP] diffutils
 [DEP] esound
@@ -20,17 +22,19 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
 [DEP] gnome-doc-utils
+[DEP] gnome-icon-theme
 [DEP] gnome-keyring
 [DEP] gnome-libs14
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
+[DEP] imake
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -40,6 +44,8 @@
 [DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
+[DEP] libgnomeprint
+[DEP] libgnomeprintui
 [DEP] libgnomeui
 [DEP] libgpg-error
 [DEP] libice
@@ -61,7 +67,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
@@ -71,7 +76,9 @@
 [DEP] pkgconfig
 [DEP] popt
 [DEP] renderproto
+[DEP] seamonkey
 [DEP] sed
+[DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

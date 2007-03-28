@@ -1,9 +1,8 @@
 
-[TIMESTAMP] 1171383469 Tue Feb 13 16:17:49 2007
-[BUILDTIME] 30 (5)
-[SIZE] 0.62 MB, 67 files
+[TIMESTAMP] 1161453763 Sat Oct 21 18:02:43 2006
+[BUILDTIME] 20 (5) ERROR
+[SIZE] 0.02 MB, 8 files
 
-[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] automake
 [DEP] bash
@@ -24,16 +23,15 @@
 [DEP] glitz
 [DEP] grep
 [DEP] imake
+[DEP] inputproto
 [DEP] kbproto
 [DEP] libice
-[DEP] libjpeg
 [DEP] libpng
-[DEP] libpthread-stubs
+[DEP] libsm
 [DEP] libsvg
 [DEP] libsvg-cairo
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxcursor
 [DEP] libxdmcp
 [DEP] libxext
@@ -47,15 +45,13 @@
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] patch
 [DEP] perl
 [DEP] pkgconfig
-[DEP] randrproto
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xextproto
 [DEP] xineramaproto
 [DEP] xproto
-[DEP] zlib

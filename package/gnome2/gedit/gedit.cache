@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134072577 Thu Dec  8 21:09:37 2005
-[BUILDTIME] 55 (9)
-[SIZE] 12.90 MB, 284 files
+[TIMESTAMP] 1160382942 Mon Oct  9 08:35:42 2006
+[BUILDTIME] 45 (5)
+[SIZE] 13.70 MB, 305 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] aspell
 [DEP] atk
@@ -14,29 +15,27 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] docbookx
-[DEP] eel
 [DEP] esound
 [DEP] expat
-[DEP] fam
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
-[DEP] gail
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
+[DEP] gdm
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnome-desktop
+[DEP] gnome-doc-utils
 [DEP] gnome-keyring
-[DEP] gnome-menus
+[DEP] gnome-libs14
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
 [DEP] gtksourceview
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
@@ -63,6 +62,7 @@
 [DEP] libxml
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxslt
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
@@ -74,10 +74,12 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
+[DEP] pygobject
+[DEP] pygtk
+[DEP] python
 [DEP] renderproto
 [DEP] scrollkeeper
 [DEP] sed
-[DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

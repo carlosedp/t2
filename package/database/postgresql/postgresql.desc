@@ -26,14 +26,14 @@
 
 [A] PostgreSQL Global Development group
 [A] General Users List <pgsql-general@postgresql.org>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@t2-project.org>
 
 [C] extra/database
 [F] JAIL
 
 [L] OpenSource
 [S] Stable
-[V] 8.2.3
+[V] 8.1.8
 [P] X -----5---9 126.000
 
-[D] 4184924376 postgresql-8.2.3.tar.bz2 ftp://ftp.postgresql.org/pub/source/v8.2.3/
+[D] 3061004138 postgresql-8.1.8.tar.bz2 ftp://ftp.postgresql.org/pub/source/v8.1.8/

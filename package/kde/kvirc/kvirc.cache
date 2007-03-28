@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134232207 Sat Dec 10 17:30:07 2005
-[BUILDTIME] 485 (9)
-[SIZE] 16.36 MB, 1606 files
+[TIMESTAMP] 1160468483 Tue Oct 10 08:21:23 2006
+[BUILDTIME] 350 (5)
+[SIZE] 16.33 MB, 1600 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
@@ -25,8 +26,8 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imake
-[DEP] jack
 [DEP] kdelibs
+[DEP] kdewebdev
 [DEP] libart_lgpl23
 [DEP] libdrm
 [DEP] libice

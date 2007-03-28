@@ -70,12 +70,11 @@ X ifenslave
 X pcmciautils
 X libol
 X hdparm
-X sdparm
 X memtester
 X sdparm
 X lcap
 X device-mapper
-X lvm2
+X lvm
 X raidtools
 X hddtemp
 X smartmontools
@@ -98,8 +97,9 @@ X prngd
 # shells++
 X bashcompletion
 X kiss
-X mc-mp
+X mc
 
+X mesa-demos
 X cairo
 X rman
 # needed for some legacy crupt, e.g. transfig
@@ -162,7 +162,6 @@ X kde/k*-i18n*
 
 X enlightenment16
 X e17/*
-O emphasis
 
 X gimp-print
 
@@ -177,8 +176,6 @@ X libglade
 X gconf
 X glibmm
 X gtkmm
-X pygobject
-X pycairo
 X pygtk
 X libbonobo
 X gnome-keyring
@@ -190,7 +187,6 @@ X libgnome
 X libbonoboui
 X gail
 X libgnomeui
-X icon-naming-utils
 X gnome-icon-theme
 X libgnomecups
 X libgnomeprint
@@ -240,11 +236,9 @@ X openal
 X freealut
 X rezound
 X taglib
-X libgpod
-X libiriverdb
 X umix
 X vorbis-tools
-X amarok
+X audacious
 
 # graphic
 X a2ps
@@ -290,7 +284,6 @@ X dvbd
 X ffmpeg
 X fftw
 X flac
-X libiec61883
 X kino
 X klear
 X libcss
@@ -370,15 +363,15 @@ X mono-xsp
 X patch*
 X pwlib
 X scons
+X subversion
 X swig
 X swi-prolog
 X tla
 X openjade
 
 X perl perl
-X perl-libxml
+X perl-libxml1
 X perl-xml-parser
-X perl-xml-simple
 X python python
 X ruby ruby
 
@@ -408,7 +401,9 @@ X gpa
 X gpgme
 X libgpg-error
 X nmap
+X openssl
 X cyrus-sasl2
+X openssh
 X keynote
 
 # some mail stuff
@@ -430,6 +425,7 @@ X perl-html-parser
 X spamassassin
 
 # filesystem
+X disktype
 X sysfsutils
 X squashfs-tools
 X fam
@@ -448,10 +444,11 @@ X reiserfsprogs
 X jfsutils
 X xfsprogs
 X genromfs
+X udev
 X nfs-utils
 X cramfs-tools
 X unionfs
-X aufs
+X parted
 X ntfsprogs
 X qtparted
 
@@ -463,12 +460,15 @@ X tdb
 X sqlite
 
 # some network stuff
+X rocknet
 X dbus
-X dbus-glib
 X net-tools
 X iproute2
 X iptables
 X ethtool
+X wireless-tools
+X dhcp
+X ppp
 X ipsec-tools
 X bridge-utils
 X isakmpd
@@ -483,8 +483,12 @@ X howl
 X netkit-*
 X bluez*
 X gsmlib
+X neon
+X apr
+X apr-util
 X samba
 X apache
+X subversion
 X libowfat
 X ncp
 X ntp
@@ -501,22 +505,16 @@ X ifplugd
 X acx100
 X adm8211
 X at76c503a
-X rt2400
-X rt2500
-X rt2570
-X rt61
 X bcm43xx-fw
 X ipw2100-fw
 X ipw2200-fw
-X d80211
-X iwlwifi
 X madwifi
 X slmodem
-X wpa_supplicant
+X hostap
+X curl
 X wget
 
 # emulator
-X qemu
 X wine
 
 # scientific
@@ -528,9 +526,3 @@ X qcad
 X pwlib
 X openh323
 
-# x11 libs
-X cairomm
-
-# theming
-X neutral
-X dotcurve

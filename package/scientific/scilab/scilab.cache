@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171343121 Tue Feb 13 05:05:21 2007
+[TIMESTAMP] 1160508596 Tue Oct 10 19:29:56 2006
 [BUILDTIME] 145 (5)
-[SIZE] 48.75 MB, 5711 files
+[SIZE] 48.82 MB, 5712 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -21,7 +21,6 @@
 [DEP] libsm
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxmu
@@ -39,5 +38,6 @@
 [DEP] tar
 [DEP] tcl
 [DEP] tk
+[DEP] util-linux
 [DEP] xaw3d
 [DEP] xproto

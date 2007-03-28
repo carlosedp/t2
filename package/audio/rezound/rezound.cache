@@ -1,12 +1,13 @@
 
-[TIMESTAMP] 1133794623 Mon Dec  5 15:57:03 2005
-[BUILDTIME] 205 (5)
-[SIZE] 3.81 MB, 26 files
+[TIMESTAMP] 1160589731 Wed Oct 11 18:02:11 2006
+[BUILDTIME] 185 (5)
+[SIZE] 4.36 MB, 24 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] audiofile
 [DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bison

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1138746127 Tue Jan 31 23:22:07 2006
-[BUILDTIME] 100 (9)
-[SIZE] 0.56 MB, 35 files
+[TIMESTAMP] 1160263951 Sat Oct  7 23:32:31 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.58 MB, 33 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -9,6 +9,7 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] electricfence
 [DEP] findutils
 [DEP] flex
 [DEP] gawk

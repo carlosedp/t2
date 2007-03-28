@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133741506 Mon Dec  5 01:11:46 2005
-[BUILDTIME] 90 (5)
-[SIZE] 8.02 MB, 116 files
+[TIMESTAMP] 1160528003 Wed Oct 11 00:53:23 2006
+[BUILDTIME] 80 (5)
+[SIZE] 8.18 MB, 108 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
@@ -27,13 +27,15 @@
 [DEP] glibc
 [DEP] glitz
 [DEP] gnome-keyring
+[DEP] gnome-libs14
 [DEP] gnome-panel
 [DEP] gnome-vfs
 [DEP] gossip
 [DEP] grep
 [DEP] gtk+
-[DEP] gtkdoc
+[DEP] inputproto
 [DEP] jack
+[DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
@@ -61,6 +63,7 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
+[DEP] ncurses
 [DEP] net-tools
 [DEP] openssl
 [DEP] orbit2
@@ -70,9 +73,12 @@
 [DEP] perl-xml-parser
 [DEP] pkgconfig
 [DEP] popt
+[DEP] readline
+[DEP] renderproto
 [DEP] sed
 [DEP] speex
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xproto
 [DEP] zlib

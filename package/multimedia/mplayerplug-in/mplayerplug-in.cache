@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134251391 Sat Dec 10 22:49:51 2005
-[BUILDTIME] 20 (9)
-[SIZE] 1.26 MB, 38 files
+[TIMESTAMP] 1160524469 Tue Oct 10 23:54:29 2006
+[BUILDTIME] 15 (5)
+[SIZE] 1.25 MB, 32 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -12,6 +13,7 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
+[DEP] firefox
 [DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
@@ -20,6 +22,7 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gtk+
 [DEP] imake
@@ -38,7 +41,6 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
 [DEP] pango
 [DEP] pkgconfig

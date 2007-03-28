@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133906663 Tue Dec  6 23:04:23 2005
-[BUILDTIME] 555 (9)
-[SIZE] 33.44 MB, 1327 files
+[TIMESTAMP] 1160268808 Sun Oct  8 00:53:28 2006
+[BUILDTIME] 420 (5)
+[SIZE] 20.84 MB, 1243 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -51,12 +51,11 @@
 [DEP] linux-header
 [DEP] m4
 [DEP] make
-[DEP] mesa
-[DEP] mkfontscale
 [DEP] mktemp
 [DEP] ncurses
 [DEP] net-tools
 [DEP] panoramixproto
+[DEP] patch
 [DEP] perl
 [DEP] pkgconfig
 [DEP] printproto

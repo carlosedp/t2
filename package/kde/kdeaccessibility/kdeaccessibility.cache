@@ -1,11 +1,14 @@
 
-[TIMESTAMP] 1134189243 Sat Dec 10 05:34:03 2005
-[BUILDTIME] 210 (9)
-[SIZE] 14.21 MB, 2875 files
+[TIMESTAMP] 1160442699 Tue Oct 10 01:11:39 2006
+[BUILDTIME] 160 (5)
+[SIZE] 14.55 MB, 2926 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -26,11 +29,10 @@
 [DEP] grep
 [DEP] imake
 [DEP] inputproto
-[DEP] jack
 [DEP] kbproto
 [DEP] kdelibs
+[DEP] kdewebdev
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
 [DEP] libice
 [DEP] libidn
@@ -55,12 +57,14 @@
 [DEP] libxtst
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
 [DEP] nas
 [DEP] net-tools
 [DEP] perl
+[DEP] pixieplus
 [DEP] qt
 [DEP] sed
 [DEP] sysfiles

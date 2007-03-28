@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134125216 Fri Dec  9 11:46:56 2005
-[BUILDTIME] 35 (9)
-[SIZE] 0.86 MB, 33 files
+[TIMESTAMP] 1160394868 Mon Oct  9 11:54:28 2006
+[BUILDTIME] 20 (5)
+[SIZE] 0.67 MB, 22 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -11,9 +12,9 @@
 [DEP] findutils
 [DEP] gawk
 [DEP] gcc
+[DEP] glib
 [DEP] glibc
 [DEP] gnupg
-[DEP] gnupg2
 [DEP] gnupth
 [DEP] grep
 [DEP] libgpg-error
@@ -22,6 +23,7 @@
 [DEP] mktemp
 [DEP] net-tools
 [DEP] perl
+[DEP] pkgconfig
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

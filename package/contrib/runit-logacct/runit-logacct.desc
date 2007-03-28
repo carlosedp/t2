@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] runit companion for user related tasks
 
 [T] set of replacement tools included on sysvinit, but needed for runit
@@ -24,8 +23,8 @@
 [T]  * mesg
 [T]  * wall
 
-[A] The T2 Project <t2@t2-project.org>
-[M] The T2 Project <t2@t2-project.org>
+[A] Alejandro Mery <amery@geeks.cl>
+[M] Alejandro Mery <amery@geeks.cl>
 
 [C] extra/tool
 
@@ -35,3 +34,4 @@
 [P] O -----5---9 800.000
 
 [D] 429436289 runit-logacct-0.0.tar.bz2 http://dl.geeks.cl/oss/runit-logacct/
+

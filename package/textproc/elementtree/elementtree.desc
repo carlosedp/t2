@@ -11,7 +11,6 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
-
 [I] A simple but flexible container object
 
 [T] The Element type is a simple but flexible container object, designed to
@@ -20,12 +19,12 @@
 [T] list and a Python dictionary.
 [T]
 [T] The Element type is available as a pure-Python implementation for Python
-[T] 1.5.2 and later.
+[T] 1.5.2 and later. 
 
 [U] http://effbot.org/zone/element-index.htm
 
 [A] Fredrik Lundh <fredrik@pythonware.com>
-[M] The T2 Project <t2@t2-project.org>
+[M] Alejandro Mery <amery@geeks.cl>
 
 [C] base/library
 

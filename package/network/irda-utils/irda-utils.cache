@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134247666 Sat Dec 10 21:47:46 2005
-[BUILDTIME] 15 (9)
-[SIZE] 0.11 MB, 27 files
+[TIMESTAMP] 1160473017 Tue Oct 10 09:36:57 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.11 MB, 25 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -11,6 +11,7 @@
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
@@ -25,6 +26,7 @@
 [DEP] perl
 [DEP] sed
 [DEP] sysfiles
-[DEP] sysstat
 [DEP] tar
 [DEP] util-linux
+[DEP] xaw3d
+[DEP] xen-tools

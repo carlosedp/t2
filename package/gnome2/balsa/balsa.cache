@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134074140 Thu Dec  8 21:35:40 2005
-[BUILDTIME] 40 (9)
-[SIZE] 5.24 MB, 167 files
+[TIMESTAMP] 1160383525 Mon Oct  9 08:45:25 2006
+[BUILDTIME] 45 (5)
+[SIZE] 5.33 MB, 157 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] aspell
 [DEP] atk
@@ -23,29 +24,31 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] gconf
+[DEP] gconf-editor
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
 [DEP] gmime
+[DEP] gnome-icon-theme
 [DEP] gnome-keyring
-[DEP] gnome-libs14
 [DEP] gnome-vfs
+[DEP] gossip
 [DEP] grep
 [DEP] gtk+
-[DEP] howl
+[DEP] gtkhtml
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
 [DEP] libbonoboui
 [DEP] libesmtp
+[DEP] libglade
 [DEP] libgnome
 [DEP] libgnomecanvas
 [DEP] libgnomeprint
 [DEP] libgnomeprintui
 [DEP] libgnomeui
-[DEP] libgtkhtml
 [DEP] libice
 [DEP] libjpeg
 [DEP] libpng

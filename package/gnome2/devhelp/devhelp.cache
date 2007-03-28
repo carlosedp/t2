@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1134070121 Thu Dec  8 20:28:41 2005
-[BUILDTIME] 25 (9)
-[SIZE] 0.59 MB, 94 files
+[TIMESTAMP] 1160381954 Mon Oct  9 08:19:14 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.53 MB, 89 files
 
 [DEP] 00-dirtree
 [DEP] atk
@@ -22,16 +22,17 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnome-vfs
+[DEP] gnome-libs14
 [DEP] grep
 [DEP] gtk+
 [DEP] gtkmm
-[DEP] howl
 [DEP] inputproto
 [DEP] kbproto
-[DEP] libbonobo
 [DEP] libglade
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
+[DEP] libwnck
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -43,20 +44,20 @@
 [DEP] libxml
 [DEP] libxrandr
 [DEP] libxrender
+[DEP] libxres
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
-[DEP] seamonkey
 [DEP] net-tools
-[DEP] openssl
 [DEP] orbit2
 [DEP] pango
 [DEP] perl
 [DEP] perl-xml-parser
 [DEP] pkgconfig
-[DEP] popt
 [DEP] renderproto
+[DEP] seamonkey
 [DEP] sed
+[DEP] startup-notification
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux

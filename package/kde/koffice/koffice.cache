@@ -1,17 +1,21 @@
 
-[TIMESTAMP] 1134177464 Sat Dec 10 02:17:44 2005
-[BUILDTIME] 3270 (9)
-[SIZE] 56.39 MB, 4359 files
+[TIMESTAMP] 1160433118 Mon Oct  9 22:31:58 2006
+[BUILDTIME] 2425 (5)
+[SIZE] 75.76 MB, 5385 files
 
+[DEP] 00-dirtree
 [DEP] alsa-lib
 [DEP] arts
 [DEP] audiofile
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
+[DEP] encodings
 [DEP] esound
 [DEP] expat
 [DEP] fam
@@ -23,18 +27,17 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] gnome-libs14
 [DEP] grep
 [DEP] imagemagick
 [DEP] imake
 [DEP] inputproto
-[DEP] jack
 [DEP] kdebindings
 [DEP] kdelibs
+[DEP] kdewebdev
 [DEP] lcms
 [DEP] libart_lgpl23
-[DEP] libdnet
 [DEP] libdrm
+[DEP] libexif
 [DEP] libgsf
 [DEP] libice
 [DEP] libidn
@@ -63,21 +66,26 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
+[DEP] mkfontdir
+[DEP] mkfontscale
 [DEP] mktemp
 [DEP] mysql
 [DEP] nas
 [DEP] ncurses
 [DEP] net-tools
+[DEP] openexr
 [DEP] openssl
-[DEP] patch
 [DEP] pcre
 [DEP] perl
 [DEP] pkgconfig
+[DEP] postgresql
 [DEP] python
 [DEP] qt
 [DEP] readline
+[DEP] ruby
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar

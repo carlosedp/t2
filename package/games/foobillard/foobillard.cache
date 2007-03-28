@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133745319 Mon Dec  5 02:15:19 2005
-[BUILDTIME] 15 (5)
-[SIZE] 1.31 MB, 49 files
+[TIMESTAMP] 1160531413 Wed Oct 11 01:50:13 2006
+[BUILDTIME] 10 (5)
+[SIZE] 1.25 MB, 40 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -29,6 +29,7 @@
 [DEP] libxext
 [DEP] libxi
 [DEP] libxmu
+[DEP] libxp
 [DEP] libxpm
 [DEP] libxt
 [DEP] libxxf86vm

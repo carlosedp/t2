@@ -1,11 +1,10 @@
 
-[TIMESTAMP] 1171367368 Tue Feb 13 11:49:28 2007
+[TIMESTAMP] 1160537102 Wed Oct 11 03:25:02 2006
 [BUILDTIME] 25 (5)
-[SIZE] 2.93 MB, 649 files
+[SIZE] 2.71 MB, 646 files
 
 [DEP] 00-dirtree
 [DEP] alsa-lib
-[DEP] anjuta
 [DEP] atk
 [DEP] audiofile
 [DEP] bash
@@ -13,8 +12,6 @@
 [DEP] bzip2
 [DEP] cairo
 [DEP] coreutils
-[DEP] dbus
-[DEP] dbus-glib
 [DEP] diffutils
 [DEP] esound
 [DEP] expat
@@ -28,12 +25,12 @@
 [DEP] glib
 [DEP] glibc
 [DEP] glitz
-[DEP] gnome-icon-theme
 [DEP] gnome-keyring
 [DEP] gnome-python
 [DEP] gnome-vfs
 [DEP] grep
 [DEP] gtk+
+[DEP] inputproto
 [DEP] kbproto
 [DEP] libart_lgpl23
 [DEP] libbonobo
@@ -47,12 +44,10 @@
 [DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libpthread-stubs
 [DEP] librsvg
 [DEP] libsm
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxml
 [DEP] libxrender
@@ -70,11 +65,11 @@
 [DEP] pygtk
 [DEP] pyorbit
 [DEP] python
-[DEP] rat
 [DEP] renderproto
 [DEP] sed
-[DEP] setuptools
 [DEP] shared-mime-info
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] xproto
+[DEP] zlib

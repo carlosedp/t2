@@ -1,26 +1,22 @@
 
-[TIMESTAMP] 1173280806 Wed Mar  7 15:20:06 2007
-[BUILDTIME] 315 (5)
-[SIZE] 16.54 MB, 479 files
+[TIMESTAMP] 1161453545 Sat Oct 21 17:59:05 2006
+[BUILDTIME] 245 (5)
+[SIZE] 12.70 MB, 452 files
 
 [DEP] 00-dirtree
 [DEP] a52dec
 [DEP] alsa-lib
-[DEP] atk
+[DEP] avahi
 [DEP] bash
 [DEP] binutils
 [DEP] bison
 [DEP] bzip2
-[DEP] cairo
 [DEP] cf
 [DEP] coreutils
 [DEP] dbus
-[DEP] dbus-glib
 [DEP] diffutils
-[DEP] faac
 [DEP] ffmpeg
 [DEP] findutils
-[DEP] fontconfig
 [DEP] freetype
 [DEP] fribidi
 [DEP] gawk
@@ -29,17 +25,15 @@
 [DEP] gettext
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] gnome-libs14
 [DEP] gnome-vfs
 [DEP] gnutls
 [DEP] grep
-[DEP] gtk+
 [DEP] gzip
+[DEP] hal
 [DEP] imake
-[DEP] kbproto
 [DEP] lame
-[DEP] libavc1394
+[DEP] libbonobo
 [DEP] libcdio
 [DEP] libdvbpsi3
 [DEP] libdvdread
@@ -52,48 +46,38 @@
 [DEP] libmad
 [DEP] libmatroska
 [DEP] libmpeg2
-[DEP] libnotify
 [DEP] libogg
 [DEP] libpng
-[DEP] libpthread-stubs
-[DEP] libraw1394
 [DEP] libsdl
 [DEP] libsdl_image
 [DEP] libsm
-[DEP] libtar
-[DEP] libtheora
+[DEP] libtasn1
 [DEP] libtiff
 [DEP] libvorbis
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxinerama
 [DEP] libxml
-[DEP] libxrender
-[DEP] libxt
 [DEP] libxv
 [DEP] libxxf86vm
 [DEP] linux-header
-[DEP] lirc
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
+[DEP] mozplugger
 [DEP] net-tools
 [DEP] orbit2
-[DEP] pango
 [DEP] perl
 [DEP] pkgconfig
-[DEP] renderproto
-[DEP] seamonkey
 [DEP] sed
 [DEP] speex
 [DEP] subversion
 [DEP] sysfiles
 [DEP] sysfsutils
 [DEP] tar
-[DEP] twolame
+[DEP] util-linux
 [DEP] vcdimager
 [DEP] videoproto
 [DEP] wxwidgets
@@ -102,5 +86,4 @@
 [DEP] xf86vidmodeproto
 [DEP] xineramaproto
 [DEP] xproto
-[DEP] xvid
 [DEP] zlib

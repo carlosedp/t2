@@ -1,14 +1,12 @@
 
-[TIMESTAMP] 1171134175 Sat Feb 10 19:02:55 2007
+[TIMESTAMP] 1160335924 Sun Oct  8 19:32:04 2006
 [BUILDTIME] 45 (5)
-[SIZE] 1.77 MB, 11 files
+[SIZE] 1.31 MB, 12 files
 
 [DEP] 00-dirtree
-[DEP] atk
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
-[DEP] cairo
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
@@ -20,36 +18,30 @@
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
-[DEP] glitz
 [DEP] grep
-[DEP] gtk+
 [DEP] imake
+[DEP] inputproto
 [DEP] kbproto
-[DEP] libexif
 [DEP] libice
 [DEP] libjpeg
 [DEP] libpng
-[DEP] libpthread-stubs
-[DEP] librsvg
 [DEP] libsm
 [DEP] libtiff
 [DEP] libungif
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxrender
 [DEP] linux-header
 [DEP] make
 [DEP] mktemp
 [DEP] net-tools
-[DEP] pango
+[DEP] patch
 [DEP] pkgconfig
-[DEP] poppler
 [DEP] renderproto
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] udev
+[DEP] util-linux
 [DEP] xproto
 [DEP] zlib

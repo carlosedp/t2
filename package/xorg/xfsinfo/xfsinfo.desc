@@ -11,10 +11,9 @@
 [COPY] the Free Software Foundation; version 2 of the License. A copy of the
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
+[I] A modular X package
 
-[I] X font server information utility
-
-[T] Xfsinfo is a utility for displaying information about an X font server.
+[T] A modular X package
 
 [U] http://www.X.org
 
@@ -30,4 +29,4 @@
 
 [O] . package/*/*/modular-x-conf.in
 
-[D] 3478399895 xfsinfo-1.0.1.tar.bz2 http://xorg.freedesktop.org/releases/individual/app/
+[D] 3478399895 xfsinfo-1.0.1.tar.bz2 http://xorg.freedesktop.org/releases/X11R7.0/src/everything/

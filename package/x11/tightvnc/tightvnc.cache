@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133834475 Tue Dec  6 03:01:15 2005
-[BUILDTIME] 45 (5)
-[SIZE] 1.65 MB, 46 files
+[TIMESTAMP] 1160636653 Thu Oct 12 07:04:13 2006
+[BUILDTIME] 60 (5)
+[SIZE] 1.58 MB, 37 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -12,6 +12,7 @@
 [DEP] cf
 [DEP] coreutils
 [DEP] diffutils
+[DEP] findutils
 [DEP] fontconfig
 [DEP] gawk
 [DEP] gcc
@@ -33,6 +34,7 @@
 [DEP] libxt
 [DEP] linux-header
 [DEP] make
+[DEP] patch
 [DEP] rman
 [DEP] sed
 [DEP] sysfiles

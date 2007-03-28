@@ -1,15 +1,13 @@
 
-[TIMESTAMP] 1129543172 Mon Oct 17 11:59:32 2005
-[CONFIG-ID] 2.2.0-alpha-x86-pentium-mmx-reference
-[BUILDTIME] 52205 (5)
-[SIZE] 9.07 MB, 262 files
+[TIMESTAMP] 1160518598 Tue Oct 10 22:16:38 2006
+[BUILDTIME] 165 (5)
+[SIZE] 9.18 MB, 255 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
 [DEP] coreutils
-[DEP] dbus
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
@@ -18,7 +16,6 @@
 [DEP] gawk
 [DEP] gcc
 [DEP] glibc
-[DEP] glproto
 [DEP] grep
 [DEP] libdrm
 [DEP] libice
@@ -40,12 +37,10 @@
 [DEP] linux-header
 [DEP] make
 [DEP] mesa
-[DEP] numpy
 [DEP] python
 [DEP] qt
 [DEP] sed
 [DEP] sip
 [DEP] sysfiles
 [DEP] tar
-[DEP] wxpython
 [DEP] zlib

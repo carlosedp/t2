@@ -1,8 +1,10 @@
 
-[TIMESTAMP] 1134200769 Sat Dec 10 08:46:09 2005
-[BUILDTIME] 45 (9)
-[SIZE] 4.55 MB, 122 files
+[TIMESTAMP] 1160449826 Tue Oct 10 03:10:26 2006
+[BUILDTIME] 50 (5)
+[SIZE] 4.56 MB, 111 files
 
+[DEP] 00-dirtree
+[DEP] aspell
 [DEP] atk
 [DEP] autoconf
 [DEP] bash
@@ -25,10 +27,13 @@
 [DEP] gpgme
 [DEP] grep
 [DEP] gtk+
+[DEP] gtkspell
 [DEP] inputproto
 [DEP] kbproto
 [DEP] libgpg-error
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor

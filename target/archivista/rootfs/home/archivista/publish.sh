@@ -41,18 +41,6 @@ cleanup ()
 	rm -rf boot root
 }
 
-# if there are files present from previous runs ask whether to finally delete
-if ls $livedir/*.iso > /dev/null 2> /dev/null; then
-	if Xdialog --title 'Archive publishing' --yesno \
-	           "There are archive files present from previous runs:
-
-`ls $livedir/*.iso`
-
-Delete these archives now?" 0 0; then
-		rm -fv $livedir/*.iso
-	fi
-fi
-
 # database selection from the user
 cd $dbdir
 i=0
@@ -135,9 +123,8 @@ for dir in /* ; do
 			sed -i '/^[^ ]*dev[^ ]* /d' root/etc/fstab
 			rm root/etc/mtab* root/etc/conf/network || true
 			rm root/etc/net-backup.conf root/etc/rsync-backup.conf || true
-			rm root/etc/{mail,vnc,wodim}.conf || true
+			rm root/etc/mail.conf || true
 			rm root/etc/ssh/*key* || true
-			rm root/etc/rc.d/rc5.d/*{cups,sshd} || true
 			sed -i '/home\/archivista\//d' root/etc/crontab
 			continue
 			;;
@@ -203,7 +190,6 @@ unint_xdialog_w_file ()
 	done
 }
 
-
 rc apache stop
 rc mysql stop
 
@@ -249,9 +235,6 @@ fi
 
 # copy initrd, grub, ...
 cp -ar /boot-cd boot
-# an installation from USB stick has no cd devices anymore, ...
-# translate them back to cd
-sed -i 's/(hd.*,.*)/(cd)/' boot/grub/menu.lst 
 
 # mkisofs, heavily copied out of the T2 sources, since there we add all the
 # magic glue automagically ,-)))
@@ -287,65 +270,125 @@ rc apache start
 
 cleanup
 
-
 ### ISO generation END ###
 
-# remove when compressed, as it is now inside the ISO in that case
-[ "$uncompr" ] || rm -fv live.squash
-
-# until the user has written the copies he demands ...
-while true; do
-
-# when uncompressed we must write it the USB device, otherwise we ask
-# whether to write it and how
-kind=USB
-write_err=0
 if [ -z "$uncompr" ]; then
-	kind=`Xdialog --title 'Archive publishing' --stdout --no-tags --seperator ' ' \
-	              --radiolist \
-"The compressed archive image is $(ls -sh $isoname | sed 's/ .*// ; s/\([MGT]\)/ \1B/') \
+	rm live.squash
+	Xdialog --title 'Archive publishing' \
+	        --yesno "Disc image generation completed.
+The compressed ISO image is `ls -sh $isoname | sed 's/ .*// ; s/\([MGT]\)/ \1B /'` \
 and named
 $PWD/$isoname.
-Please choose a device type to write it to:" 0 0 3 \
-USB USB on ISO CD/DVD off` || break
+Do you want to copy the archive to an USB device?" 0 0 || exit
 fi
 
-if [ "$kind" = ISO ]; then
-	archived=0
-	while [ $archived -eq 0 ]; do
-		# use the external Write Optical DIsc Media script
-		archived=1
-		set -x
-		${0%/*}/wodim.sh $isoname || archived=0
-		set +x
-		if [ $archived = 0 ]; then
-			Xdialog --title "Archive publishing" --yesno "There was an error writing the media.
-Do you want to try again to write the archive image?" 0 0 || break
+### USB device install BEGIN ###
+
+# prevent hotplug backup
+usblog=`mktemp`
+touch /tmp/hot.lock
+rc hal stop
+
+# wait for a stick injection
+usbdev=
+
+get_device_list () {
+# from livecd init, best kept in sync ,-) -ReneR
+	for x in /sys/block/*/device; do
+		case "`ls -l $x`" in
+	     */usb*|*/ieee1394) : ;;
+	     *) continue ;;
+		esac
+		x=${x%/device}; x=/dev/${x#/sys/block/}
+		echo -n " $x "
+		done
+}
+
+archived=0
+while [ $archived -eq 0 ]; do
+
+Xdialog --ok-label Cancel --title "Archive publishing" \
+        --msgbox "Waiting for USB device. Please insert
+the device you want to use." 0 0 &
+
+initial_list="`get_device_list`"
+dev=
+while [ -z "$dev" ] && jobs %- ; do # while no device and not cancel
+	sleep 1
+	# get a new list
+	new_list="`get_device_list`"
+
+	# is there a new one?
+	new_one=0
+	for d in $new_list; do
+		if [ "${initial_list/ $d /}" = "$initial_list" ]; then
+			new_one=1
+			[ -e "$d" ] && dev=$d	# u/dev device node exits?
 		fi
 	done
-	[ $archived = 0 ] && write_err=1
-else # USB
-	# additionally inject the non-ISO live.squash in the uncompressed case
+	if [ $new_one -eq 0 ]; then
+		# update the list, so pulling a device and inserting one works (both sda)
+  	initial_list="$new_list"
+	fi
+done
+usbdev=$dev
+
+
+kill %- 2> /dev/null || true # the Xdialog
+if [ -z "$usbdev" ]; then
+	rm /tmp/hot.lock
+	rc hal start
+	exit
+fi
+
+sleep 1 # work around to let the above job disappear ...
+
+if ! Xdialog --title "Archive publishing" --yesno \
+"Really copy the archive to the USB device ($usbdev)?
+All data will be lost!" 0 0; then
+	continue
+fi
+
+# convert it, multi threaded displaying
+Xdialog --no-close --no-buttons --title "Copying archive to USB device" \
+        --logbox $usblog 25 80 &
+
+# additionally inject the non-ISO live.squash in the uncompressed case
+if [ "$uncompr" ]; then
+	lq=live.squash
+	fs="-fs ext2"
+else
 	lq=
 	fs=
-	if [ "$uncompr" ]; then
-		lq=live.squash
-		fs="-fs ext2"
-	fi
-
-	# like the iso2stick.sh just with graphical frontend
-	${0%/*}/cd2stick.sh -title "Archive publishing" $fs $isoname $lq || write_err=1
 fi
 
-Xdialog --title 'Archive publishing' --yesno \
-        "Write more copies to attached devices?" 0 0 || break
+echo -e "Copying archive to USB device ($usbdev):\n" > $usblog
+set -x
+${0%/*}/iso2stick.sh $fs ./$isoname $usbdev $lq >> $usblog 2>&1 &
+set +x
+
+if ! wait %2 ; then  # wait for the iso2stick
+	Xdialog --title "Archive publishing" --msgbox \
+	        "There was an error copying the archive." 0 0
+	kill %- 2> /dev/null # the Xdialog
+	continue
+fi
+kill %- 2> /dev/null # the Xdialog
+archived=1
+
 done
 
+rm /tmp/hot.lock $usblog
+rc hal start
+
+### USB device install END ###
+
+Xdialog --no-cancel --title "Archive publishing" \
+        --msgbox "Archive copied to the USB device." 0 0
+
 # do not ask when uncompressed, the ISO is boot code only in this case
-if [ "$uncompr" ]; then
-	rm -fv $isoname live.squash
-else
-	Xdialog --default-no --title "Archive publishing" \
-	        --yesno "Delete published archive now?" 0 0 &&
-		rm -v $isoname
+if [ "$uncompr" ] || Xdialog --default-no --title "Archive publishing" \
+           --yesno "Delete published archive now?" 0 0; then
+	rm -v ./$isoname
 fi
+

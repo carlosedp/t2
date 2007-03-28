@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1172744780 Thu Mar  1 10:26:20 2007
-[BUILDTIME] 305 (5)
-[SIZE] 6.55 MB, 19 files
+[TIMESTAMP] 1160512650 Tue Oct 10 20:37:30 2006
+[BUILDTIME] 220 (5)
+[SIZE] 5.70 MB, 19 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -24,4 +24,5 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] util-linux
 [DEP] zlib

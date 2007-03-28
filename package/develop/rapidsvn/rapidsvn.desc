@@ -26,8 +26,9 @@
 [C] extra/tool extra/development
 
 [L] GPL
-[S] Beta
-[V] 0.9.4
+[S] Alpha
+[V] 0.9.1
 [P] X -----5---9 800.000
 
-[D] 3749445969 rapidsvn-0.9.4.tar.gz http://www.rapidsvn.org/download/release/0.9.4/
+[D] 4206840994 rapidsvn-0.9.1.tar.gz http://rapidsvn.org/download/
+

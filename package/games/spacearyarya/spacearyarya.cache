@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1133750931 Mon Dec  5 03:48:51 2005
+[TIMESTAMP] 1160535170 Wed Oct 11 02:52:50 2006
 [BUILDTIME] 5 (5)
-[SIZE] 0.61 MB, 43 files
+[SIZE] 0.59 MB, 39 files
 
 [DEP] 00-dirtree
 [DEP] autoconf
@@ -13,7 +13,6 @@
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

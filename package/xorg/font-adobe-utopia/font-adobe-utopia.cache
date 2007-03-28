@@ -1,19 +1,17 @@
 
-[TIMESTAMP] 1133910206 Wed Dec  7 00:03:26 2005
-[BUILDTIME] 35 (9)
-[SIZE] 12.48 MB, 813 files
+[TIMESTAMP] 1160270149 Sun Oct  8 01:15:49 2006
+[BUILDTIME] 15 (5)
+[SIZE] 2.90 MB, 406 files
 
+[DEP] 00-dirtree
 [DEP] bash
 [DEP] bdftopcf
+[DEP] bigreqsproto
 [DEP] bzip2
 [DEP] coreutils
 [DEP] diffutils
 [DEP] findutils
 [DEP] font-adobe
-[DEP] font-alias
-[DEP] font-bh
-[DEP] font-bh-lucidatypewriter
-[DEP] font-bitstream
 [DEP] font-util
 [DEP] gawk
 [DEP] gcc
@@ -29,5 +27,4 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
-[DEP] terminus-font
 [DEP] util-linux

@@ -1,8 +1,11 @@
 
-[TIMESTAMP] 1134284366 Sun Dec 11 07:59:26 2005
-[BUILDTIME] 45 (9)
-[SIZE] 1.29 MB, 98 files
+[TIMESTAMP] 1160492283 Tue Oct 10 14:58:03 2006
+[BUILDTIME] 50 (5)
+[SIZE] 1.30 MB, 90 files
 
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
 [DEP] bash
 [DEP] binutils
 [DEP] bzip2
@@ -45,6 +48,7 @@
 [DEP] libxt
 [DEP] libxxf86vm
 [DEP] linux-header
+[DEP] m4
 [DEP] make
 [DEP] mesa
 [DEP] mktemp
@@ -55,5 +59,6 @@
 [DEP] sysfiles
 [DEP] tar
 [DEP] util-linux
+[DEP] xmule
 [DEP] xproto
 [DEP] zlib

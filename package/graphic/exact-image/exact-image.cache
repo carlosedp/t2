@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1157470963 Tue Sep  5 17:42:43 2006
-[BUILDTIME] 100 (9)
-[SIZE] 3.47 MB, 14 files
+[TIMESTAMP] 1160573603 Wed Oct 11 13:33:23 2006
+[BUILDTIME] 25 (5)
+[SIZE] 3.52 MB, 13 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -15,7 +15,6 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
-[DEP] gawk
 [DEP] gcc
 [DEP] glibc
 [DEP] grep

@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171358866 Tue Feb 13 09:27:46 2007
+[TIMESTAMP] 1160530318 Wed Oct 11 01:31:58 2006
 [BUILDTIME] 25 (5)
-[SIZE] 33.56 MB, 2632 files
+[SIZE] 33.55 MB, 2633 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -17,7 +17,6 @@
 [DEP] libdrm
 [DEP] libx11
 [DEP] libxau
-[DEP] libxcb
 [DEP] libxdmcp
 [DEP] libxext
 [DEP] libxxf86vm

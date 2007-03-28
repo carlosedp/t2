@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134281511 Sun Dec 11 07:11:51 2005
-[BUILDTIME] 60 (9)
-[SIZE] 2.35 MB, 38 files
+[TIMESTAMP] 1160491222 Tue Oct 10 14:40:22 2006
+[BUILDTIME] 50 (5)
+[SIZE] 2.42 MB, 31 files
 
+[DEP] 00-dirtree
 [DEP] autoconf
 [DEP] bash
 [DEP] binutils
@@ -11,6 +12,7 @@
 [DEP] diffutils
 [DEP] expat
 [DEP] findutils
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc

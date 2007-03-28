@@ -1,7 +1,7 @@
 
-[TIMESTAMP] 1171298762 Mon Feb 12 16:46:02 2007
+[TIMESTAMP] 1160472844 Tue Oct 10 09:34:04 2006
 [BUILDTIME] 5 (5)
-[SIZE] 5.95 MB, 10 files
+[SIZE] 5.95 MB, 11 files
 
 [DEP] 00-dirtree
 [DEP] bash
@@ -12,7 +12,6 @@
 [DEP] gcc
 [DEP] glibc
 [DEP] grep
-[DEP] latex2html
 [DEP] make
 [DEP] patch
 [DEP] sed

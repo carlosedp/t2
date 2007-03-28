@@ -20,7 +20,7 @@
 [U] http://www.medic.chalmers.se/~jmo/CPS/
 
 [A] Jean-Marc Orliaguet <jmo@ita.chalmers.se>
-[M] The T2 Project <t2@t2-project.org>
+[M] Christian Wiese <jeru@ixplanet.org>
 
 [C] extra/tool
 
@@ -32,3 +32,4 @@
 [O] . $base/package/*/zope/zope-conf.in
 
 [D] 716153785 CPSSkins2.2.2.tgz http://www.medic.chalmers.se/~jmo/CPS/
+

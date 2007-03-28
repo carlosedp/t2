@@ -1,15 +1,22 @@
 
-[TIMESTAMP] 1133831665 Tue Dec  6 02:14:25 2005
-[BUILDTIME] 195 (5)
-[SIZE] 51.33 MB, 694 files
+[TIMESTAMP] 1160632169 Thu Oct 12 05:49:29 2006
+[BUILDTIME] 175 (5)
+[SIZE] 51.16 MB, 695 files
 
 [DEP] 00-dirtree
 [DEP] bash
 [DEP] binutils
+[DEP] bitstream-vera-fonts
 [DEP] bzip2
+[DEP] cheapskatefonts
 [DEP] coreutils
+[DEP] dejavu-ttf-fonts
 [DEP] diffutils
+[DEP] expat
 [DEP] findutils
+[DEP] font-bh-ttf
+[DEP] font-ibm-type1
+[DEP] fontconfig
 [DEP] freetype
 [DEP] gawk
 [DEP] gcc
@@ -18,6 +25,7 @@
 [DEP] glibc
 [DEP] grep
 [DEP] imagemagick
+[DEP] john-stracke-fonts
 [DEP] lcms
 [DEP] libice
 [DEP] libjpeg
@@ -36,5 +44,6 @@
 [DEP] sed
 [DEP] sysfiles
 [DEP] tar
+[DEP] tex-ttf
 [DEP] util-linux
 [DEP] zlib

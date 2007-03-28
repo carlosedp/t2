@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134211087 Sat Dec 10 11:38:07 2005
-[BUILDTIME] 10 (9)
-[SIZE] 0.10 MB, 18 files
+[TIMESTAMP] 1160457046 Tue Oct 10 05:10:46 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.05 MB, 11 files
 
+[DEP] 00-dirtree
 [DEP] apache
 [DEP] apr
 [DEP] apr-util

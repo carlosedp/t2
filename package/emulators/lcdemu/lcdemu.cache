@@ -1,8 +1,9 @@
 
-[TIMESTAMP] 1134003471 Thu Dec  8 01:57:51 2005
-[BUILDTIME] 5 (9)
-[SIZE] 0.08 MB, 14 files
+[TIMESTAMP] 1160342794 Sun Oct  8 21:26:34 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.04 MB, 7 files
 
+[DEP] 00-dirtree
 [DEP] atk
 [DEP] bash
 [DEP] binutils
@@ -14,6 +15,7 @@
 [DEP] findutils
 [DEP] fontconfig
 [DEP] freetype
+[DEP] gawk
 [DEP] gcc
 [DEP] glib
 [DEP] glibc
@@ -22,7 +24,9 @@
 [DEP] gtk+
 [DEP] inputproto
 [DEP] kbproto
+[DEP] libice
 [DEP] libpng
+[DEP] libsm
 [DEP] libx11
 [DEP] libxau
 [DEP] libxcursor
@@ -46,4 +50,3 @@
 [DEP] tar
 [DEP] util-linux
 [DEP] xproto
-[DEP] zlib
