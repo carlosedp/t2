@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1160471912 Tue Oct 10 09:18:32 2006
+[BUILDTIME] 40 (5)
+[SIZE] 2.59 MB, 292 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libcap
+[DEP] libelf
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mdnsresponder
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

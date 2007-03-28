@@ -1,0 +1,48 @@
+
+[TIMESTAMP] 1160498554 Tue Oct 10 16:42:34 2006
+[BUILDTIME] 180 (5)
+[SIZE] 14.28 MB, 185 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bc
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libdrm
+[DEP] libice
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_image
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxi
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xproto
+[DEP] zlib

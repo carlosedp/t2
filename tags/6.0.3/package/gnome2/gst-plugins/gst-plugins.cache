@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1160404898 Mon Oct  9 14:41:38 2006
+[BUILDTIME] 10 (5) ERROR
+[SIZE] 0.01 MB, 7 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] gtkdoc
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] orbit2
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] transfig
+[DEP] util-linux

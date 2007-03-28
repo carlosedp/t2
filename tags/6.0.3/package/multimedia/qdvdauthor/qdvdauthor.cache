@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1160622296 Thu Oct 12 03:04:56 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.17 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] dvdauthor
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] mjpegtools
+[DEP] qt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

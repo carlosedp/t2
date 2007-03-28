@@ -1,0 +1,55 @@
+
+[TIMESTAMP] 1161452232 Sat Oct 21 17:37:12 2006
+[BUILDTIME] 105 (5)
+[SIZE] 4.88 MB, 354 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] divx4linux
+[DEP] expat
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] grep
+[DEP] imagemagick
+[DEP] imake
+[DEP] lame
+[DEP] lcms
+[DEP] libdvdread
+[DEP] libice
+[DEP] libjpeg
+[DEP] libmpeg2
+[DEP] libsm
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxaw
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxmu
+[DEP] libxpm
+[DEP] libxt
+[DEP] libxv
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] videoproto
+[DEP] xextproto
+[DEP] xproto
+[DEP] zlib

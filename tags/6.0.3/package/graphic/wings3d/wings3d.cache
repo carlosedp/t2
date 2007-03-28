@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1160643641 Thu Oct 12 09:00:41 2006
+[BUILDTIME] 30 (5)
+[SIZE] 1.04 MB, 171 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] erlang-otp
+[DEP] esdl
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] mesa
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

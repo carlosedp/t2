@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1160434467 Mon Oct  9 22:54:27 2006
+[BUILDTIME] 35 (5)
+[SIZE] 38.96 MB, 1720 files
+
+[DEP] 00-dirtree
+[DEP] arts
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] kde-i18n-de
+[DEP] kde-i18n-es
+[DEP] kde-i18n-fr
+[DEP] kde-i18n-it
+[DEP] kdelibs
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

@@ -1,0 +1,19 @@
+
+[TIMESTAMP] 1160472867 Tue Oct 10 09:34:27 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.51 MB, 99 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] m4
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

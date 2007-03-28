@@ -1,0 +1,60 @@
+
+[TIMESTAMP] 1160461484 Tue Oct 10 06:24:44 2006
+[BUILDTIME] 450 (5)
+[SIZE] 27.08 MB, 540 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] arts
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] lame
+[DEP] libdrm
+[DEP] libice
+[DEP] libpng
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxft
+[DEP] libxinerama
+[DEP] libxmu
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxt
+[DEP] libxv
+[DEP] libxvmc
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] lirc
+[DEP] make
+[DEP] mesa
+[DEP] patch
+[DEP] perl
+[DEP] qt
+[DEP] randrproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] videoproto
+[DEP] xextproto
+[DEP] xf86vidmodeproto
+[DEP] xineramaproto
+[DEP] xproto
+[DEP] zlib

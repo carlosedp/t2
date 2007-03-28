@@ -1,0 +1,58 @@
+
+[TIMESTAMP] 1160593130 Wed Oct 11 18:58:50 2006
+[BUILDTIME] 75 (5)
+[SIZE] 7.86 MB, 459 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] flac
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] libdrm
+[DEP] libice
+[DEP] libidn
+[DEP] liblrdf
+[DEP] libpng
+[DEP] libsm
+[DEP] libsndfile
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxft
+[DEP] libxinerama
+[DEP] libxml
+[DEP] libxmu
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxt
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] patch
+[DEP] pkgconfig
+[DEP] qt
+[DEP] raptor
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

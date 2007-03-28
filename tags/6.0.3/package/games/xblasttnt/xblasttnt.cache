@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1160543104 Wed Oct 11 05:05:04 2006
+[BUILDTIME] 15 (5)
+[SIZE] 7.05 MB, 897 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gccmakedep
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxt
+[DEP] linux-header
+[DEP] make
+[DEP] rman
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto

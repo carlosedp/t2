@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1160355278 Mon Oct  9 00:54:38 2006
+[BUILDTIME] 100 (5)
+[SIZE] 6.13 MB, 268 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] fam
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-libs14
+[DEP] gnome-mime-data
+[DEP] grep
+[DEP] libbonobo
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] orbit2
+[DEP] pango
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib

@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1160278807 Sun Oct  8 03:40:07 2006
+[BUILDTIME] 15 (5)
+[SIZE] 0.44 MB, 42 files
+
+[DEP] 00-dirtree
+[DEP] apr
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] cyrus-sasl2
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] expat
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openldap
+[DEP] openssl
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

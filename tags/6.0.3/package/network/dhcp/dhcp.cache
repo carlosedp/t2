@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1160491432 Tue Oct 10 14:43:52 2006
+[BUILDTIME] 15 (5)
+[SIZE] 2.54 MB, 67 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] groff
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

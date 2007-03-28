@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1161444754 Sat Oct 21 15:32:34 2006
+[BUILDTIME] 70 (5)
+[SIZE] 3.18 MB, 43 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] lame
+[DEP] libsdl
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] linux-header
+[DEP] make
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texi2html
+[DEP] xproto
+[DEP] zlib

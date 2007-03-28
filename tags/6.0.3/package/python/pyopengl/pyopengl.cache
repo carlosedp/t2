@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1160630915 Thu Oct 12 05:28:35 2006
+[BUILDTIME] 100 (5)
+[SIZE] 19.07 MB, 1527 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freeglut
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libx11
+[DEP] libxext
+[DEP] libxi
+[DEP] libxmu
+[DEP] linux-header
+[DEP] mesa
+[DEP] numpy
+[DEP] python
+[DEP] sed
+[DEP] swig
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto

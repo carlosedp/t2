@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1160508596 Tue Oct 10 19:29:56 2006
+[BUILDTIME] 145 (5)
+[SIZE] 48.82 MB, 5712 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] blackdown-jdk
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libice
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxmu
+[DEP] libxp
+[DEP] libxpm
+[DEP] libxt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] ocaml
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] tk
+[DEP] util-linux
+[DEP] xaw3d
+[DEP] xproto

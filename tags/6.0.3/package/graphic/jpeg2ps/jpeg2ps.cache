@@ -1,0 +1,19 @@
+
+[TIMESTAMP] 1160286372 Sun Oct  8 05:46:12 2006
+[BUILDTIME] 0 (5)
+[SIZE] 0.03 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

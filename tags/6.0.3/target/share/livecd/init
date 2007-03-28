@@ -1,0 +1,102 @@
+#!/bin/sh
+# Copyright Rene Rebe <rene@exactcode.de>
+
+echo "T2 early userspace ..."
+
+PATH=/sbin:/bin
+
+echo "Mounting /dev, /proc and /sys ..."
+mount -t tmpfs none /dev
+mount -t proc  none /proc
+mount -t usbfs none /proc/bus/usb
+mount -t sysfs none /sys
+ln -s /proc/self/fd /dev/fd
+
+# later on we might reverse these, that is run udevstart first,
+# and let udev add new ones as hotplug agents ...
+
+echo "Running hotplug++ hardware detection ..."
+/sbin/hotplug++ -synth
+echo "/sbin/hotplug++" > /proc/sys/kernel/hotplug
+
+echo "Loading additional subsystem and filesystem driver ..."
+# well some hardcoded help for now ...
+for x in sbp2 ide-generic ide-disk ide-cd sd_mod sr_mod ag; do
+	modprobe $x 2> /dev/null
+done
+
+# the modular filesystems ...
+for x in /lib/modules/*/kernel/fs/{*/,}*.*o ; do
+	x=${x##*/} ; x=${x%.*o}
+	modprobe $x
+done
+
+echo "Populating /dev (udev) ..."
+/sbin/udevstart
+
+live="live=live.squash `cat /proc/cmdline`" ; live=${live##*live=} ; live=${live%% *}
+echo "Searching for media with $live image ..."
+mkdir -p /{media,mnt}/live
+i=0
+while [ $i -le 14 ]; do
+  for x in /sys/block/*/device; do
+    x=${x%/device}; x=${x#/sys/block/}
+    [ "$x" = "*" ] && continue
+    case "`ls -l /sys/block/$x/device`" in 
+      */usb*|*/ieee1394) : ;;
+      *) [ "`cat /sys/block/$x/removable`" = 1 ] || continue ;;
+    esac
+    x=/dev/$x
+    for x in ${x}* ; do
+      [ -e $x ] || continue
+      fs=`disktype $x 2>/dev/null |
+          sed -e '/file system/!d' -e 's/file system.*//' -e 's/ //g' \
+              -e 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/' \
+              -e 's/fat.*/vfat/' | sed -n '$p'`
+      [ $i -gt 2 ] && echo "Testing device $x, type $fs ..."
+      if mount -t $fs -o ro $x /media/live 2>/dev/null; then
+	[ $i -gt 0 ] && echo "Successfully mounted $x ..."
+	if [ -f /media/live/$live ]; then
+	  echo "Found the $live image on $x."
+
+	  if losetup /dev/loop0 /media/live/$live &&
+	     mount -t squashfs -o ro /dev/loop0 /mnt/live
+	  then
+	    # create symlinks to the live content
+	    mkdir -p /tmp
+	    mv /lib /bin /tmp/
+	    for x in /mnt/live/* ; do
+		x=${x#/mnt/live/}
+		case $x in
+		  dev|proc|sys|media|mnt|tmp) continue ;;
+		esac
+		if [ -e /$x ]; then
+#			echo "Removing /$x ..."
+			/tmp/bin/rm -rf /$x
+		fi
+#		echo "Linking /mnt/live/$x /$x"
+		/tmp/bin/ln -s /mnt/live/$x /$x
+	    done
+
+#	    /tmp/bin/ls -l / /tmp
+#	    echo "Removing /tmp/bin"
+	    /tmp/bin/rm -rf /tmp/bin
+
+	    exec /init2 $*
+	  else
+	    echo "Failed to loop-mount $live."
+	    losetup -d /dev/loop0
+	  fi
+	else
+	  echo "No $live image found."
+	fi
+	umount /media/live
+      fi
+    done
+  done
+  : $(( i++ ))
+  sleep 1
+done
+
+echo "No live media found, giving up. Debug shell:"
+exec /bin/sh

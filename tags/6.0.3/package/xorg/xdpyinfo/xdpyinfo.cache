@@ -1,0 +1,49 @@
+
+[TIMESTAMP] 1160271628 Sun Oct  8 01:40:28 2006
+[BUILDTIME] 5 (5)
+[SIZE] 0.05 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bigreqsproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] dmxproto
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libdmx
+[DEP] libx11
+[DEP] libxau
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxp
+[DEP] libxrender
+[DEP] libxtst
+[DEP] libxxf86dga
+[DEP] libxxf86misc
+[DEP] libxxf86vm
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] printproto
+[DEP] recordproto
+[DEP] renderproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xextproto
+[DEP] xf86dgaproto
+[DEP] xf86miscproto
+[DEP] xf86vidmodeproto
+[DEP] xineramaproto
+[DEP] xproto

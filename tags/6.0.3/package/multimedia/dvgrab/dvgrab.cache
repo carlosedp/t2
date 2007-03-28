@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1160527019 Wed Oct 11 00:36:59 2006
+[BUILDTIME] 10 (5)
+[SIZE] 0.18 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] a52dec
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libavc1394
+[DEP] libdv
+[DEP] libjpeg
+[DEP] libmpeg3
+[DEP] libogg
+[DEP] libpng
+[DEP] libraw1394
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
