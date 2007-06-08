@@ -146,6 +146,7 @@ X cvs
 X cmake
 X cdrkit
 X popt
+X libcap
 X squashfs-tools
 X unionfs
 
