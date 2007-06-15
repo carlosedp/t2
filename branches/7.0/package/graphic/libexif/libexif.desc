@@ -21,14 +21,15 @@
 
 [U] http://libexif.sourceforge.net
 
-[A] Someone
+[A] Curtis Galloway <curtisg@users.sourceforge.net> {original author}
+[A] Lutz Müller <lutz@users.sourceforge.net>{rewrite from scratch}
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] extra/multimedia
 
 [L] GPL
 [S] Stable
-[V] 0.6.15
+[V] 0.6.16
 [P] X -----5---9 112.550
 
-[D] 2787561146 libexif-0.6.15.tar.bz2 http://dl.sourceforge.net/sourceforge/libexif/
+[D] 2038827539 libexif-0.6.16.tar.bz2 http://dl.sourceforge.net/sourceforge/libexif/
