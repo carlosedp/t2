@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1172378912 Sun Feb 25 04:48:32 2007
+[BUILDTIME] 45 (5) ERROR
+[SIZE] 1.14 MB, 234 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] flex
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] lesstif
+[DEP] libice
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxft
+[DEP] libxp
+[DEP] libxpm
+[DEP] libxrender
+[DEP] libxt
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto

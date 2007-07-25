@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1171313829 Mon Feb 12 20:57:09 2007
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 0.02 MB, 6 files
+
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] grep
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openjade
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
