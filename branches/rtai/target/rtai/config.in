@@ -12,7 +12,7 @@
 # GNU General Public License can be found in the file COPYING.
 # --- T2-COPYRIGHT-NOTE-END ---
 
-#Description: RTAI based Hard Real time embedded distribution
+#Description: RTAI based Hard Real time embedded OS (under development!)
 
 embedded_pkgfilter() {
         sed '
@@ -30,14 +30,26 @@ s,^. \(.\)[^ ]*,X \11--------,;
 
 pkgfilter embedded_pkgfilter
 
-# SDECFGSET_IMAGE='none'
+SDECFGSET_IMAGE='none'
 SDECFGSET_PKGFILE_TYPE='none'
 SDECFGSET_PKGFILE_VER=0
+SDECFGSET_EXPERT='1'
 
 SDECFGSET_LIBC='uclibc'
 SDECFGSET_INIT='busybox'
 
+# kernel options
+SDECFGSET_PKG_LINUX_CUSTCONFIG='1'
+SDECFGSET_PKG_LINUX_CUSTCONFIG_FILE='./home/tester/'
+SDECFGSET_PKG_LINUX_CONFIG_STYLE='none'
+SDECFGSET_PKG_LINUX_KEEP_SRC='1'
+SDECFGSET_PKG_LINUX_USE26MODTOOLS='1'
+SDECFGSET_PKG_LINUX_ACPI_INITRD='0'
+
 SDECFGSET_OPT='size'
+
+#Architecture
+SDECFGSET_X86_OPT='pentium2'
 
 SDECFGSET_DO_REBUILD_STAGE=0
 SDECFGSET_DISABLE_NLS=1

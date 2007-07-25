@@ -45,6 +45,6 @@ X genext2fs
 # X mtd-tools
 # X lzma
 
-# comedi
-# comedi-driver
-# rtai
+# X comedi
+X comedi-driver
+X rtai
