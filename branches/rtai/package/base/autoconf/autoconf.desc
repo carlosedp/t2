@@ -38,9 +38,9 @@
 
 [L] GPL
 [S] Stable
-[V] 2.59
+[V] 2.61
 [P] X 01-3-5---9 102.001
 
 [O] export EMACS=no
 
-[D] 3602930607 autoconf-2.59.tar.bz2 ftp://ftp.gnu.org/pub/gnu/autoconf/
+[D] 0 autoconf-2.61.tar.bz2 ftp://ftp.gnu.org/pub/gnu/autoconf/
