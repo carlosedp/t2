@@ -1,10 +1,16 @@
 O *
+# These packages needed to compile other packages. Do not remove them!
 X 00-dirtree
 X linux-header
 X linux26
-
 X binutils
 X gcc
+
+# These packages needed to compile comedi from cvs
+X autoconf
+
+
+# X squashfs-tools --> error: unable to compile
 
 X ncurses
 X readline
