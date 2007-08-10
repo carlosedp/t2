@@ -1,0 +1,17 @@
+
+[TIMESTAMP] 1171385945 Tue Feb 13 16:59:05 2007
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 0.02 MB, 15 files
+
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] grep
+[DEP] jikes
+[DEP] kaffe
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

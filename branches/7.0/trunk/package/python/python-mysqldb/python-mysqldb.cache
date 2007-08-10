@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1182447308 Thu Jun 21 17:35:08 2007
+[BUILDTIME] 5 (5)
+[SIZE] 0.01 MB, 6 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] mysql
+[DEP] python
+[DEP] rat
+[DEP] sed
+[DEP] setuptools
+[DEP] sysfiles
+[DEP] tar

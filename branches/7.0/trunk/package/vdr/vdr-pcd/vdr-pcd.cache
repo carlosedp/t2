@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1171400138 Tue Feb 13 20:55:38 2007
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 0.01 MB, 6 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] vdr
