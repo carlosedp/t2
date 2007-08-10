@@ -1,3 +1,0 @@
-sshd
-/var/run/sshd.pid
-/opt/diet/sbin/sshd

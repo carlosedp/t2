@@ -1,2 +1,0 @@
-run	D_bindir/memcached -u memcached -l 127.0.0.1 -p 11211
-log	memcached

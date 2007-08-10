@@ -1,3 +1,0 @@
-input	/proc/kmsg
-log	kernel
-run	socklog ucspi

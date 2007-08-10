@@ -1,5 +1,0 @@
-remount
-mountall
-hostname
-ifconfiglo
-fgetty
