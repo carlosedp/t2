@@ -1,0 +1,50 @@
+O *
+X 00-dirtree
+X linux-header
+X linux26
+
+X binutils
+X gcc
+
+X ncurses
+X readline
+X libowfat
+X zlib
+X libpcap
+# X openssl
+
+# X minit
+# X fgetty
+X uclibc
+X busybox
+# X pdksh
+
+# X arptables
+# X ebtables
+# X iptables
+# X iproute
+
+# X vlan
+# X bridge-utils
+# X ppp
+
+# Disabled for now
+# X quagga
+X dropbear
+
+# X rsync
+# X curl
+
+# X wireless-tools
+# X hostapd
+# X hostap-utils
+# X wpa_supplicant
+
+X genext2fs
+# Unable to compile mtd-tools
+# X mtd-tools
+# X lzma
+
+# comedi
+# comedi-driver
+# rtai
