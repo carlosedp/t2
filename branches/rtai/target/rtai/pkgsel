@@ -7,7 +7,7 @@ X binutils
 X gcc
 
 # These packages needed to compile comedi from cvs
-X autoconf
+# X autoconf
 
 
 # X squashfs-tools --> error: unable to compile
