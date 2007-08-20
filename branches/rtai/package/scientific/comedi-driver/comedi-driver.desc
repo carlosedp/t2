@@ -29,7 +29,7 @@
 [L] GPL
 [S] Beta
 [V] 0.7.74
-[P] O -----5---9 800.000
+[P] O -1------9 800.000
 
 [D] 0 comedi-0.7.74.tar.gz http://www.comedi.org/download/
 # [D] X comedi-driver.tar cvs://:pserver:anonymous@cvs.comedi.org:/cvs/comedi comedi -D 2007-06-10
