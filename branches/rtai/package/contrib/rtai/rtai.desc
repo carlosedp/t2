@@ -21,14 +21,14 @@
 [U] http://www.rtai.org
 
 [A] Paolo Mantegazza
-[M] The T2 Project <t2@t2-project.org>
+[M] Deniss Kulandin <denisk@t2-project.org>
 
 [C] base/kernel
 
 [L] GPL
 [S] Stable
-[V] 3.5
+[V] 3.5-cv
 [P] O -1-------9 101.000
 
-[D] 0 rtai-3.5.tar.bz2  https://www.rtai.org/RTAI/
-
+#[D] 0 rtai-3.5.tar.bz2  https://www.rtai.org/RTAI/
+[D] 0 rtai-3.5-cv.tar.bz2 https://www.rtai.org/RTAI/
