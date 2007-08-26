@@ -62,6 +62,7 @@ X genext2fs
 # Unable to compile mtd-tools
 # X mtd-tools
 # X lzma
+# X udev
 
 X comedi
 X comedi-driver
