@@ -1,2 +1,0 @@
-run	D_sbindir/pound -v -f D_sysconfdir/pound.cfg
-log	pound
