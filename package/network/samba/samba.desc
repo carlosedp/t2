@@ -32,10 +32,11 @@
 [M] Rene Rebe <rene@2-project.org>
 
 [C] extra/server
+[F] CROSS
 
 [L] GPL
 [S] Stable
-[V] 3.0.25b
-[P] X -----5---9 128.500
+[V] 3.0.26a
+[P] X -----5---9 130.500
 
-[D] 2694920543 samba-3.0.25b.tar.gz http://ftp.samba.org/samba/ftp/stable/
+[D] 1948929096 samba-3.0.26a.tar.gz http://ftp.samba.org/samba/ftp/stable/
