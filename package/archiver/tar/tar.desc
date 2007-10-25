@@ -21,6 +21,8 @@
 [T] compression/decompression, remote archives and special features that allow
 [T] 'tar' to be used for incremental and full backups.
 
+[U] http://www.gnu.org/software/tar/
+
 [A] John Gilmore and Jay Fenlason
 [M] Rene Rebe <rene@t2-project.org>
 
@@ -29,7 +31,7 @@
 
 [L] GPL
 [S] Stable
-[V] 1.18
+[V] 1.19
 [P] X 01---5---9 108.300
 
-[D] 2358965171 tar-1.18.tar.bz2 ftp://ftp.gnu.org/gnu/tar/
+[D] 2214588847 tar-1.19.tar.bz2 ftp://ftp.gnu.org/gnu/tar/
