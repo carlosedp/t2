@@ -33,6 +33,8 @@
 [F] CROSS NOPARALLEL LIBC
 [C] extra/base
 
+[R] - ia64 sparc64 mips64
+
 [L] GPL
 [S] Beta
 [V] 0.9.29
