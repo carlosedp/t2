@@ -28,6 +28,7 @@ X perl-xml-parser
 X libusb
 X libidl
 X sudo
+X python
 
 # graphics
 X libart
@@ -67,7 +68,8 @@ X mplayer
 X mplayer-fonts
 
 # sound
-X alsa-utils alsa-lib
+X alsa-utils
+X alsa-lib
 X libogg
 X libvorbis
 X cdrdao
