@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1171452071 Wed Feb 14 11:21:11 2007
+[BUILDTIME] 65 (5) ERROR
+[SIZE] 14.29 MB, 993 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] cups
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] hpijs
+[DEP] libjpeg
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-snmp
+[DEP] net-tools
+[DEP] openssl
+[DEP] patch
+[DEP] python
+[DEP] rat
+[DEP] sane-backends
+[DEP] sed
+[DEP] setuptools
+[DEP] sysfiles
+[DEP] tar

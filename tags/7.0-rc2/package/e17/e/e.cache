@@ -1,0 +1,49 @@
+
+[TIMESTAMP] 1172379451 Sun Feb 25 04:57:31 2007
+[BUILDTIME] 20 (5) ERROR
+[SIZE] 0.01 MB, 7 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] cvs
+[DEP] diffutils
+[DEP] eet
+[DEP] embryo
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] gzip
+[DEP] imake
+[DEP] imlib2
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libice
+[DEP] libprelude
+[DEP] libtasn1
+[DEP] libtool
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pam
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto

@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1171192863 Sun Feb 11 11:21:03 2007
+[BUILDTIME] 15 (5) ERROR
+[SIZE] 0.02 MB, 6 files
+
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gtkmm12
+[DEP] libmad
+[DEP] libogg
+[DEP] libsigc++1
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

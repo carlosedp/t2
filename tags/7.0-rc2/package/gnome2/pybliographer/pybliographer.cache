@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1171269803 Mon Feb 12 08:43:23 2007
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 0.02 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] font-alias
+[DEP] font-cursor-misc
+[DEP] font-misc-misc
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] mktemp
+[DEP] pkgconfig
+[DEP] python
+[DEP] rat
+[DEP] recode
+[DEP] sed
+[DEP] setuptools
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xauth
+[DEP] xorg-server
