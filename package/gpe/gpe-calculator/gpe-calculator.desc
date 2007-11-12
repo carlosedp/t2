@@ -22,7 +22,6 @@
 [M] Susanne Klaus <susan@t2-project.org>
 
 [C] extra/desktop/gpe
-[F] CROSS
 
 [L] GPL
 [S] Stable
@@ -30,4 +29,4 @@
 [P] X -----5---9 209.900
 
 [O] . $base/package/*/*/gpe-conf.in
-[D] 1226428235 gpe-calculator-0.2.tar.gz http://gpe.linuxtogo.org/download/source/
+[D] 1226428235 gpe-calculator-0.2.tar.gz ftp://ftp.handhelds.org/projects/gpe/source/

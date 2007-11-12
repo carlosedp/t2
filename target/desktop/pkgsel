@@ -31,7 +31,6 @@ O pmud
 X rng-tools
 X libelf
 X bonnie++
-X atop
 X gmp
 X gsl
 X cpufrequtils
@@ -145,11 +144,8 @@ X kdeutils
 X koffice
 X yakuake
 X k3b*
-
 X libkexif
-X libkipi
-X libkexiv2
-X libkdcraw
+X lbkipi
 X digikam*
 X kde/k*-i18n*
 
@@ -383,6 +379,7 @@ X fetchmail
 X mailx
 X mew
 X pine
+X mutt
 X procmail
 X thunderbird
 

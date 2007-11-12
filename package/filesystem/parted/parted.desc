@@ -26,11 +26,10 @@
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] extra/filesystem
-[F] CROSS
 
 [L] GPL
 [S] Stable
-[V] 1.8.8
+[V] 1.8.7
 [P] X ---3-----9 218.900
 
-[D] 722049147 parted-1.8.8.tar.gz http://ftp.gnu.org/gnu/parted/
+[D] 3218958851 parted-1.8.7.tar.gz http://ftp.gnu.org/gnu/parted/

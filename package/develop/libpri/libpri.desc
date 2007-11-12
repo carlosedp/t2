@@ -22,11 +22,10 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] extra/development
-[F] CROSS
 
 [L] GPL
 [S] Stable
-[V] 1.4.2
+[V] 1.4.1
 [P] X -----5---9 800.000
 
-[D] 3756988905 libpri-1.4.2.tar.gz http://ftp.digium.com/pub/libpri/releases/
+[D] 4258716833 libpri-1.4.1.tar.gz http://ftp.digium.com/pub/libpri/releases/

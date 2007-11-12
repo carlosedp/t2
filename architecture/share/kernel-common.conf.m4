@@ -21,18 +21,6 @@ dnl
 CONFIG_SMP=y
 CONFIG_IRQ_ALL_CPUS=y
 
-dnl No HZ and HPET, if the arch has it ...
-dnl
-CONFIG_HPET=y
-CONFIG_HIGH_RES_TIMERS=y
-CONFIG_NO_HZ=y
-
-dnl just the default, a arch or target might still set other defaults
-# CONFIG_PREEMPT_RT is not set
-CONFIG_PREEMPT_NONE=y
-
-CONFIG_KEXEC=y
-
 dnl Power Management
 dnl
 CONFIG_PM=y
@@ -44,6 +32,10 @@ dnl CPU frequency scaling is nice to have
 dnl
 CONFIG_CPU_FREQ=y
 CONFIG_CPU_FREQ_26_API=y
+
+dnl integrated .config is quite big - and we ship them in /boot/kconfig_ anyway
+dnl
+# CONFIG_IKCONFIG is not set
 
 dnl PCI name database is also quite big (another >80kB) - so let's use user-
 dnl space tools like lspci to use a non-kernel database
@@ -121,7 +113,6 @@ CONFIG_INPUT_MOUSEDEV=y
 CONFIG_INPUT_JOYDEV=m
 CONFIG_INPUT_JOYSTICK=y
 CONFIG_INPUT_TOUCHSCREEN=y
-CONFIG_INPUT_TABLET=y
 CONFIG_INPUT_MISC=y
 CONFIG_INPUT_EVBUG=m
 CONFIG_SERIO_PCIPS2=y

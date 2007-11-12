@@ -12,13 +12,12 @@
 [COPY] GNU General Public License can be found in the file COPYING.
 [COPY] --- T2-COPYRIGHT-NOTE-END ---
 
-[I] Free NX server implementation
+[I] Helpers ot make NX more userfriendly
 
-[T] FreeNX is a free server implementation of NoMachine.com OSS NX
-[T] components. NX allows usage of X-connections over real slow
-[T] links with high latency and low bandwidth, like a Modem or ISDN.
+[T] FreeNX is a set of helper scripts written in bash, that makde
+[T] the bare NX applications more userfriendly.
 
-[U] http://freenx.berlios.de
+[U] https://mail.kde.org/mailman/listinfo/freenx-knx
 
 [A] Fabian Franz <FabianFranz@gmx.de>
 [M] Rene Rebe <rene@t2-project.org>
@@ -28,7 +27,7 @@
 
 [L] GPL
 [S] Stable
-[V] 0.7.1
+[V] 0.4.2
 [P] X -----5---9 800.000
 
-[D] 1709032331 freenx-0.7.1.tar.gz http://download.berlios.de/freenx/
+[D] 1482215470 freenx-0.4.2.tar.gz http://download.berlios.de/freenx/

@@ -30,11 +30,10 @@
 [M] T2 Project <t2@t2-project.org>
 
 [C] extra/tool
-[F] CROSS
 
 [L] GPL
 [S] Beta
-[V] 0.12.1
+[V] 0.12
 [P] X -----5---9 800.000
 
-[D] 2132057594 ufraw-0.12.1.tar.gz http://dl.sourceforge.net/sourceforge/ufraw/
+[D] 2615858922 ufraw-0.12.tar.gz http://dl.sourceforge.net/sourceforge/ufraw/

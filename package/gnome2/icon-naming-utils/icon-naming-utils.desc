@@ -25,13 +25,12 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] extra/icon extra/desktop/gnome
-[F] CROSS
 
 [L] GPL
 [S] Beta
-[V] 0.8.6
+[V] 0.8.2
 [P] X -----5---9 144.700
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 4064946261 icon-naming-utils-0.8.6.tar.gz http://tango-project.org/releases/
+[D] 2322991922 icon-naming-utils-0.8.2.tar.gz http://tango-project.org/releases/

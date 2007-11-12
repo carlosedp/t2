@@ -29,7 +29,7 @@
 [L] LGPL
 
 [S] Stable
-[V] 1.1
+[V] 0.3.10
 [P] X -----5---9 120.000
 
-[D] 1327858735 libtasn1-1.1.tar.gz ftp://ftp.gnutls.org/pub/gnutls/libtasn1/
+[D] 3761890014 libtasn1-0.3.10.tar.gz ftp://ftp.gnutls.org/pub/gnutls/libtasn1/

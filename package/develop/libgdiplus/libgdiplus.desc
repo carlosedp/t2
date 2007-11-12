@@ -23,12 +23,11 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] base/library
-[F] CROSS
 
 [L] LGPL
 [S] Stable
-[V] 1.2.5
+[V] 1.2.4
 [P] X -----5---9 131.000
 
 [CV-URL] http://go-mono.com/sources-stable/
-[D] 1470672189 libgdiplus-1.2.5.tar.bz2 http://go-mono.com/sources/libgdiplus/
+[D] 3380996069 libgdiplus-1.2.4.tar.bz2 http://go-mono.com/sources/libgdiplus/

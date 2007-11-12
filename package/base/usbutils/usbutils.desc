@@ -27,11 +27,11 @@
 
 [C] base/system
 
-[F] CROSS AUTOMAKE-QUIRK
+[F] AUTOMAKE-QUIRK
 
 [L] GPL
 [S] Stable
-[V] 0.73
+[V] 0.72
 [P] X -----5---9 149.000
 
-[D] 3467067867 usbutils-0.73.tar.gz http://dfn.dl.sourceforge.net/sourceforge/linux-usb/
+[D] 1187204070 usbutils-0.72.tar.gz http://dfn.dl.sourceforge.net/sourceforge/linux-usb/

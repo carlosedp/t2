@@ -26,8 +26,6 @@
 [C] base/tool
 [F] CROSS
 
-[R] + x86 x86-64
-
 [L] GPL
 [S] Beta
 [V] 2007-02-23

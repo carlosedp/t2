@@ -23,13 +23,12 @@
 [M] Susanne Klaus <vadja@gmx.de>
 
 [C] extra/development extra/base extra/desktop/gnome
-[F] CROSS
 
 [L] LGPL
 [S] Stable
-[V] 2.20.1.1
+[V] 2.18.0
 [P] X -----5---9 143.500
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 109136259 libgnome-2.20.1.1.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/libgnome/2.20/
+[D] 4037808771 libgnome-2.18.0.tar.bz2 http://ftp.gnome.org/pub/GNOME/sources/libgnome/2.18/

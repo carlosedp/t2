@@ -31,11 +31,10 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] extra/emulator
-[F] CROSS
 
 [L] GPL
 [S] Beta
-[V] 0.72
+[V] 0.71
 [P] X -----5---9 210.300
 
-[D] 4002534980 dosbox-0.72.tar.gz http://dl.sourceforge.net/sourceforge/dosbox/
+[D] 3307608608 dosbox-0.71.tar.gz http://dl.sourceforge.net/sourceforge/dosbox/

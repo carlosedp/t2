@@ -34,11 +34,10 @@
 [M] Susanne Klaus <susan@t2-project.org>
 
 [C] extra/desktop/gpe
-[F] CROSS
 
 [L] GPL
 [S] Stable
 [V] 2.8
 [P] X -----5---9 209.900
 
-[D] 475174401 gpe-appmgr-2.8.tar.gz http://gpe.linuxtogo.org/download/source/
+[D] 475174401 gpe-appmgr-2.8.tar.gz ftp://ftp.handhelds.org/projects/gpe/source/

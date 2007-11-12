@@ -34,9 +34,8 @@
 
 [L] GPL
 [S] Stable
-[V] 1.21
+[V] 1.20
 [P] X -----5---9 800.000
 
-[CV-URL] http://www.atcomputing.nl/Tools/atop/download.html
-[D] 2005263532 atop-1.21.tar.gz http://www.atconsultancy.nl/atop/packages/
+[D] 685722440 atop-1.20.tar.gz http://www.atconsultancy.nl/atop/packages/
 [D] 2088184228 atoppatch-kernel-2.6.21.tar.gz http://www.atconsultancy.nl/atop/packages/

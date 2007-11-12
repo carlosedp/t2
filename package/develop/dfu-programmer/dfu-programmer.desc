@@ -27,11 +27,10 @@
 [M] Susanne Klaus <vadja@gmx.de>
 
 [C] extra/development
-[F] CROSS
 
 [L] GPL
 [S] Beta
-[V] 0.4.3
+[V] 0.4.2
 [P] X -----5---9 194.800
 
-[D] 2282866230 dfu-programmer-0.4.3.tar.gz http://dl.sourceforge.net/sourceforge/dfu-programmer/
+[D] 78228052 dfu-programmer-0.4.2.tar.gz http://dl.sourceforge.net/sourceforge/dfu-programmer/

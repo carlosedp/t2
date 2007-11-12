@@ -172,14 +172,23 @@ if [ "$rep" != "*" ]; then
 	exit
 fi
 
+rep=${dir/\/$package/}
+maintainer='The T2 Project <t2@t2-project.org>'
+
+echo -n "Creating package/$dir ... "
 if [ -e package/$dir ] ; then
 	echo "failed"
 	echo -e "\tpackage/$dir already exists!\n"
 	exit
 fi
-rep=${dir/\/$package/}
+if mkdir -p package/$dir ; then
+	echo "ok"
+else
+	echo "failed"
+	exit
+fi
 
-maintainer='The T2 Project <t2@t2-project.org>'
+cd package/$dir
 rc="ROCK-COPYRIGHT"
 download_file=
 download_url=
@@ -188,16 +197,6 @@ if ! read_fm_config $1; then
     echo "Error or wrong freshmeat package name"
     exit 1
 fi
-
-echo -n "Creating package/$dir ... "
-if mkdir -p package/$dir ; then
-	echo "ok"
-else    
-	echo "failed"
-	exit
-fi
-
-cd package/$dir
 
 echo -n "Creating $package.desc ... "
 
@@ -248,8 +247,7 @@ EOF
 fi
 
 echo "ok"
-
 echo "Remember to fill in the TODO's:"
-cd - > /dev/null
+cd -
 grep TODO package/$dir/$package.*
 echo

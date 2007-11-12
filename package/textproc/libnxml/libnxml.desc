@@ -24,11 +24,10 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] base/library
-[F] CROSS
 
 [L] LGPL
 [S] Beta
-[V] 0.18.1
+[V] 0.18.0
 [P] X -----5---9 300.000
 
-[D] 1353494608 libnxml-0.18.1.tar.gz http://autistici.org/bakunin/libnxml/
+[D] 864289669 libnxml-0.18.0.tar.gz http://autistici.org/bakunin/libnxml/

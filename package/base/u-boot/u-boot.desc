@@ -26,10 +26,13 @@
 [F] CROSS
 [R] + avr32 arm m68k mips mips64 powerpc x86
 
-[V] 1.2.0
+[V] 1.1.4
 [S] Stable
 [L] GPL
 
 [P] O -1-------- 100.000
 
-[D] 3945097412 u-boot-1.2.0.tar.bz2 ftp://ftp.denx.de/pub/u-boot/
+[O] var_insert patchfiles ' ' "`match_source_file -p patch`"
+
+[D] 1214633857 u-boot-1.1.4.tar.bz2 http://dl.sourceforge.net/sourceforge/u-boot/
+[D] 440668189 u-boot-1.1.4-avr1.patch.bz2 http://avr32linux.org/twiki/pub/Main/UbootPatches/

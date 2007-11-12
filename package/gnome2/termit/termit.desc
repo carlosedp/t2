@@ -23,13 +23,12 @@
 [M] The T2 Project <t2@t2-project.org>
 
 [C] extra/shell
-[F] CROSS
 
 [L] GPL
 [S] Stable
-[V] 1.0.3
+[V] 1.0.1
 [P] X -----5---9 800.000
 
 [O] . $base/package/*/*/gnome2-conf.in
 
-[D] 2664017665 termit-1.0.3.tar.gz http://termit.googlecode.com/files/
+[D] 2085731989 termit-1.0.1.tar.gz http://termit.googlecode.com/files/

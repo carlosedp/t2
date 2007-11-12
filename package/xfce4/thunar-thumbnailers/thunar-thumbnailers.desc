@@ -26,13 +26,12 @@
 [M] Johan <linuxmasterjedi@free.fr>
 
 [C] extra/desktop/xfce
-[F] CROSS
 
 [L] GPL
 [S] Alpha
-[V] 0.3.0
+[V] 0.2.2
 [P] X -----5---9 800.000
 
 [O] . $base/package/xfce4/*/xfce4-conf.in
 
-[D] 2500581124 thunar-thumbnailers-0.3.0.tar.bz2 http://goodies.xfce.org/releases/thunar-thumbnailers/
+[D] 917765972 thunar-thumbnailers-0.2.2.tar.bz2 http://goodies.xfce.org/releases/thunar-thumbnailers/

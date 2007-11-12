@@ -26,11 +26,10 @@
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] extra/network
-[F] CROSS
 
 [L] GPL
 [S] Stable
-[V] 3.6.1
+[V] 3.5.12
 [P] X -----5---9 203.400
 
-[D] 195611477 lftp-3.6.1.tar.bz2 http://ftp.yars.free.net/pub/source/lftp/
+[D] 943138467 lftp-3.5.12.tar.bz2 http://ftp.yars.free.net/pub/source/lftp/

@@ -125,15 +125,15 @@ block_end
 block_begin 7
 	# pkgsel in backward order
 	for target in $( get_reverted $targetchain ); do
-		[ -f target/$target/pkgsel ] &&
+		if [ -f target/$target/pkgsel ]; then
 			pkgsel_parse target/$target/pkgsel
-		[ -f target/$target/pkgsel.awk ] &&
+		elif [ -f target/$target/pkgsel.awk ]; then
 			pkgfilter awk -f target/$target/pkgsel.awk
-		[ -f target/$target/pkgsel.sed ] &&
+		elif [ -f target/$target/pkgsel.sed ]; then
 			pkgfilter sed -f target/$target/pkgsel.sed
-		[ -f target/$target/pkgsel.in ] &&
+		elif [ -f target/$target/pkgsel.in ]; then
 			. target/$target/pkgsel.in
-
+		fi
 		[ "$SDECFG_LICENSE_ISSUE" = 0 ] && pkgchecklicense
 	done
 

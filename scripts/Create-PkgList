@@ -40,7 +40,7 @@ END {
 
 FNR == 1 {
 	split(FILENAME, a, /\//);
-	pkgtree=a[1]; package=a[2];
+	pkgtree=a[2]; package=a[3];
 	defset="X"; pri="999.999";
 	stages="-----------";
 	ver="0000"; categories=""
@@ -92,4 +92,4 @@ FNR == 1 {
 	  # not found: remove it
 	  pkgtree="";
 	}
-}' | (cd package ; gawk -f - */*/*.desc ) | sort -k3
+}' | gawk -f - package/*/*/*.desc | sort -k3

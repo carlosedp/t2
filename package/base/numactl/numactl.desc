@@ -33,9 +33,9 @@
 
 [L] GPL
 [S] Beta
-[V] 1.0.2
+[V] 0.9.11
 [P] X -----5---9 120.000
 
 [R] + x86 x86-64 powerpc64
 
-[D] 2652188848 numactl-1.0.2.tar.gz ftp://ftp.suse.com/pub/people/ak/numa/
+[D] 808568440 numactl-0.9.11.tar.gz ftp://ftp.suse.com/pub/people/ak/numa/

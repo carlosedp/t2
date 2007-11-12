@@ -26,11 +26,10 @@
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] extra/graphic
-[F] CROSS
 
 [L] APL
 [S] Stable
-[V] 1.51
+[V] 1.47
 [P] X -----5---9 400.000
 
-[D] 3729041837 leptonlib-1.51.tar.gz http://www.leptonica.com/source/
+[D] 1209322604 leptonlib-1.47.tar.gz http://www.leptonica.com/source/
