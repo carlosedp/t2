@@ -3,12 +3,12 @@
 MacRISC MacRISC3 MacRISC4
 </COMPATIBLE>
 <DESCRIPTION>
-T2 SDE
+T2 GNU/Linux PPC bootloader
 </DESCRIPTION>
 <BOOT-SCRIPT>
 " screen" output
 load-base release-load-area
-boot cd:,\boot\yaboot
+boot cd:,\\yaboot
 </BOOT-SCRIPT>
 <OS-BADGE-ICONS>
 1010

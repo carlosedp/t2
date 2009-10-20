@@ -32,12 +32,12 @@
 [M] Rene Rebe <rene@t2-project.org>
 
 [C] base/boot
-[F] CROSS NOPARALLEL
+[F] CROSS
 [R] + sparc sparc64
 
 [L] GPL
 [S] Stable
-[V] 1.4.14_git
+[V] 1.4.13
 [P] X -1---5---9 202.400
 
-[D] 3500946658 silo-1.4.14_git2.tar.gz !http://git.kernel.org/?p=linux/kernel/git/bcollins/silo.git;a=snapshot;h=a55764ceef83086d00b5f7b8b3027b517fc4ca23;sf=tgz
+[D] 1275154306 silo-1.4.13.tar.bz2 http://silo.auxio.org/pub/silo/
