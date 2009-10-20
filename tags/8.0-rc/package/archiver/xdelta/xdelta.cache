@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1173432092 Fri Mar  9 09:21:32 2007
+[BUILDTIME] 20 (5)
+[SIZE] 0.55 MB, 23 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] libtool
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] zlib

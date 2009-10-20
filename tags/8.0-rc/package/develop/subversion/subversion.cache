@@ -1,0 +1,49 @@
+
+[TIMESTAMP] 1237645268 Sat Mar 21 15:21:08 2009
+[BUILDTIME] 200 (5)
+[SIZE] 16.94 MB, 480 files
+
+[DEP] 00-dirtree
+[DEP] apache
+[DEP] apr
+[DEP] apr-util
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] blackdown-jdk
+[DEP] bzip2
+[DEP] coreutils
+[DEP] cyrus-sasl
+[DEP] cyrus-sasl2
+[DEP] dbus
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] expat
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] neon
+[DEP] net-tools
+[DEP] openldap
+[DEP] openssl
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] python-mysqldb
+[DEP] rat
+[DEP] ruby
+[DEP] sed
+[DEP] setuptools
+[DEP] sqlite
+[DEP] swig
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

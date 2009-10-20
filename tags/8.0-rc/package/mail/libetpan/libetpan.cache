@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1235359136 Mon Feb 23 04:18:56 2009
+[BUILDTIME] 50 (5)
+[SIZE] 2.36 MB, 150 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libidn
+[DEP] liblockfile
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

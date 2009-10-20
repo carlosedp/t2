@@ -1,0 +1,66 @@
+
+[TIMESTAMP] 1226807460 Sun Nov 16 04:51:00 2008
+[BUILDTIME] 1075 (5)
+[SIZE] 201.96 MB, 11755 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] cups
+[DEP] dbus
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] expat
+[DEP] findutils
+[DEP] fixesproto
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] inputproto
+[DEP] kbproto
+[DEP] libdrm
+[DEP] libice
+[DEP] libjpeg
+[DEP] libmng
+[DEP] libpng
+[DEP] libsm
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcursor
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] makedepend
+[DEP] mesa
+[DEP] mysql
+[DEP] nas
+[DEP] ncurses
+[DEP] openssl
+[DEP] pam
+[DEP] pkgconfig
+[DEP] postgresql
+[DEP] randrproto
+[DEP] readline
+[DEP] renderproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xextproto
+[DEP] xineramaproto
+[DEP] xproto
+[DEP] zlib

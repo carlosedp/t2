@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1235324292 Sun Feb 22 18:38:12 2009
+[BUILDTIME] 5 (5)
+[SIZE] 6.03 MB, 89 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] fltk1
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxpm
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto
+[DEP] zlib
