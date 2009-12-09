@@ -1,0 +1,41 @@
+# deselect all
+O *
+
+# just for the toolchain
+X linux-header
+X binutils
+X gmp
+X mpfr
+X gcc
+X autoconf
+X automake
+X libtool
+
+# the real payload
+X 00-dirtree
+X sysfiles
+X linux26
+
+X grub
+# TODO: only select syslinux if it's requested as "CD (ISO) loader"
+X syslinux
+
+X busybox
+X zlib
+X dropbear
+X mc-mp
+X links
+
+# standard initrd (for the beginning, should be optimized away)
+X dietlibc
+X udev
+X pdksh
+X module-init-tools
+X minised
+X disktype
+X embutils
+X mkinitrd
+
+# for the livecd / usb stick setup
+X squashfs-tools
+X aufs

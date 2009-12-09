@@ -1,0 +1,66 @@
+
+[TIMESTAMP] 1225199847 Tue Oct 28 14:17:27 2008
+[BUILDTIME] 10 (5)
+[SIZE] 0.58 MB, 77 files
+
+[DEP] 00-dirtree
+[DEP] asciidoc
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] cmake
+[DEP] coreutils
+[DEP] dbus
+[DEP] diffutils
+[DEP] docbookx
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] glitz
+[DEP] gperf
+[DEP] grep
+[DEP] gzip
+[DEP] imlib2
+[DEP] kbproto
+[DEP] libev
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxml
+[DEP] libxrender
+[DEP] libxslt
+[DEP] linux-header
+[DEP] lua
+[DEP] luadoc
+[DEP] luafilesystem
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openbox
+[DEP] pango
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] python
+[DEP] rat
+[DEP] readline
+[DEP] renderproto
+[DEP] sed
+[DEP] setuptools
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xcb-util
+[DEP] xmlto
+[DEP] xproto
+[DEP] zlib

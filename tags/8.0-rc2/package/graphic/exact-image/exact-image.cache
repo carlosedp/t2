@@ -1,0 +1,50 @@
+
+[TIMESTAMP] 1209810304 Sat May  3 12:25:04 2008
+[BUILDTIME] 35 (5)
+[SIZE] 9.62 MB, 20 files
+
+[DEP] 00-dirtree
+[DEP] agg
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] eet
+[DEP] evas
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] jasper
+[DEP] lcms
+[DEP] libice
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsm
+[DEP] libtiff
+[DEP] libungif
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxrender
+[DEP] linux-header
+[DEP] lua
+[DEP] make
+[DEP] patch
+[DEP] perl
+[DEP] php
+[DEP] pkgconfig
+[DEP] python
+[DEP] renderproto
+[DEP] ruby
+[DEP] sed
+[DEP] swig
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto
+[DEP] zlib

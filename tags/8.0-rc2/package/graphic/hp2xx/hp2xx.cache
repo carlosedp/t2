@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1235457988 Tue Feb 24 07:46:28 2009
+[BUILDTIME] 5 (5)
+[SIZE] 0.24 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] xproto
+[DEP] zlib

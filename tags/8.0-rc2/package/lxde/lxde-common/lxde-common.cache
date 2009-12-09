@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1256565672 Mon Oct 26 14:01:12 2009
+[BUILDTIME] 100 (9)
+[SIZE] 8.80 MB, 6263 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openbox
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

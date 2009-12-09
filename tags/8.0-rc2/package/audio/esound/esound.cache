@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1233621119 Tue Feb  3 00:31:59 2009
+[BUILDTIME] 15 (5)
+[SIZE] 0.30 MB, 41 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libtool
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcp_wrappers
+[DEP] udev

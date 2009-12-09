@@ -1,0 +1,25 @@
+
+[TIMESTAMP] 1237463194 Thu Mar 19 12:46:34 2009
+[BUILDTIME] 5 (5)
+[SIZE] 2.25 MB, 12 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] git
+[DEP] glibc
+[DEP] gpac
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] udev
+[DEP] yasm
