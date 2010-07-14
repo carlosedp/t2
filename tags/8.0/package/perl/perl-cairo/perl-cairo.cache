@@ -1,0 +1,39 @@
+
+[TIMESTAMP] 1191575724 Fri Oct  5 11:15:24 2007
+[BUILDTIME] 5 (5)
+[SIZE] 0.22 MB, 20 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] glitz
+[DEP] grep
+[DEP] kbproto
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] perl
+[DEP] perl-archive-tar
+[DEP] perl-extutils-depends
+[DEP] perl-extutils-pkgconfig
+[DEP] perl-test-number-delta
+[DEP] pkgconfig
+[DEP] renderproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto

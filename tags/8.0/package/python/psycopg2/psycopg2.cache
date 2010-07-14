@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1182287382 Tue Jun 19 21:09:42 2007
+[BUILDTIME] 5 (5)
+[SIZE] 0.17 MB, 20 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] postgresql
+[DEP] python
+[DEP] sed
+[DEP] setuptools
+[DEP] sysfiles
+[DEP] tar

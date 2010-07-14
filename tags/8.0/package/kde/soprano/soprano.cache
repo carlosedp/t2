@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1233768382 Wed Feb  4 17:26:22 2009
+[BUILDTIME] 60 (5)
+[SIZE] 2.35 MB, 188 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] clucene
+[DEP] cmake
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] libice
+[DEP] libidn
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] openssl
+[DEP] qimageblitz
+[DEP] qt4
+[DEP] raptor
+[DEP] rasqal
+[DEP] redland
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

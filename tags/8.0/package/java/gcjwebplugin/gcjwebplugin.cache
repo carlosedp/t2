@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1171439685 Wed Feb 14 07:54:45 2007
+[BUILDTIME] 10 (5) ERROR
+[SIZE] 0.02 MB, 6 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] blackdown-jdk
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] patch
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

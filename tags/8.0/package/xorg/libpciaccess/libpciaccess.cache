@@ -1,0 +1,25 @@
+
+[TIMESTAMP] 1235239857 Sat Feb 21 19:10:57 2009
+[BUILDTIME] 5 (5)
+[SIZE] 0.08 MB, 12 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bigreqsproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libpthread-stubs
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

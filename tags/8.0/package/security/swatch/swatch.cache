@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1235612110 Thu Feb 26 02:35:10 2009
+[BUILDTIME] 0 (5)
+[SIZE] 0.11 MB, 21 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] perl
+[DEP] perl-date-calc
+[DEP] perl-time-date
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

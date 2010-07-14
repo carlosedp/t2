@@ -1,0 +1,38 @@
+
+[TIMESTAMP] 1238055467 Thu Mar 26 09:17:47 2009
+[BUILDTIME] 60 (5)
+[SIZE] 6.13 MB, 904 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] faac
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] lame
+[DEP] libogg
+[DEP] libtheora
+[DEP] libtool
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mysql
+[DEP] net-tools
+[DEP] openssl
+[DEP] pam
+[DEP] pcre
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] udev
+[DEP] x264
+[DEP] zlib

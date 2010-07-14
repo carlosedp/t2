@@ -1,0 +1,51 @@
+
+[TIMESTAMP] 1232398497 Mon Jan 19 20:54:57 2009
+[BUILDTIME] 20 (5)
+[SIZE] 14.35 MB, 632 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] glitz
+[DEP] grep
+[DEP] gtk+
+[DEP] kbproto
+[DEP] libglade
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxml
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] pycairo
+[DEP] pygobject
+[DEP] python
+[DEP] renderproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xcb-util
+[DEP] xproto
+[DEP] zlib

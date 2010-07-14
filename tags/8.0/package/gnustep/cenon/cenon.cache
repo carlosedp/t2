@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1235456598 Tue Feb 24 07:23:18 2009
+[BUILDTIME] 25 (5)
+[SIZE] 6.28 MB, 285 files
+
+[DEP] 00-dirtree
+[DEP] aspell
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gmp
+[DEP] gnustep-base
+[DEP] gnustep-gui
+[DEP] gnustep-make
+[DEP] gnutls
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libice
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsm
+[DEP] libtasn1
+[DEP] libtiff
+[DEP] libungif
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

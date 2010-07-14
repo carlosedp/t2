@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1235473219 Tue Feb 24 12:00:19 2009
+[BUILDTIME] 10 (5)
+[SIZE] 0.09 MB, 14 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] device-mapper
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

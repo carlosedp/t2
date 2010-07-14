@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1234431549 Thu Feb 12 10:39:09 2009
+[BUILDTIME] 35 (5)
+[SIZE] 24.07 MB, 132 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] iulib
+[DEP] leptonlib
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_gfx
+[DEP] libtiff
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openfst
+[DEP] python
+[DEP] python-mysqldb
+[DEP] rat
+[DEP] sed
+[DEP] setuptools
+[DEP] subversion
+[DEP] sysfiles
+[DEP] tar
+[DEP] tesseract
+[DEP] zlib
