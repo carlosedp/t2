@@ -1,0 +1,65 @@
+
+[TIMESTAMP] 1234122880 Sun Feb  8 19:54:40 2009
+[BUILDTIME] 45 (5)
+[SIZE] 10.69 MB, 510 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] attr
+[DEP] automoc4
+[DEP] bash
+[DEP] binutils
+[DEP] boost
+[DEP] bzip2
+[DEP] clucene
+[DEP] cmake
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] expat
+[DEP] fam
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] kdelibs
+[DEP] libice
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsm
+[DEP] libungif
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcursor
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxft
+[DEP] libxi
+[DEP] libxml
+[DEP] libxpm
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxtst
+[DEP] linux-header
+[DEP] make
+[DEP] openssl
+[DEP] pcre
+[DEP] phonon
+[DEP] pkgconfig
+[DEP] qimageblitz
+[DEP] qt4
+[DEP] sed
+[DEP] soprano
+[DEP] strigi
+[DEP] sword
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

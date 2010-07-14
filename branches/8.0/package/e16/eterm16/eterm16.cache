@@ -1,0 +1,47 @@
+
+[TIMESTAMP] 1235410859 Mon Feb 23 18:40:59 2009
+[BUILDTIME] 20 (5)
+[SIZE] 3.31 MB, 118 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] enlightenment16
+[DEP] findutils
+[DEP] freetype
+[DEP] freetype1
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] groff
+[DEP] imake
+[DEP] imlib2
+[DEP] libast
+[DEP] libice
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxmu
+[DEP] libxres
+[DEP] libxt
+[DEP] linux-header
+[DEP] make
+[DEP] man
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] pcre
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xextproto
+[DEP] xproto
+[DEP] zlib

@@ -1,0 +1,39 @@
+
+[TIMESTAMP] 1234131762 Sun Feb  8 22:22:42 2009
+[BUILDTIME] 80 (5)
+[SIZE] 0.01 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] aspell
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] libice
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxscrnsaver
+[DEP] linux-header
+[DEP] make
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] qimageblitz
+[DEP] qt
+[DEP] qt4
+[DEP] scrnsaverproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xproto
+[DEP] zlib

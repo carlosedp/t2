@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1171383525 Tue Feb 13 16:18:45 2007
+[BUILDTIME] 10 (5) ERROR
+[SIZE] 0.02 MB, 7 files
+
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gmime
+[DEP] grep
+[DEP] jikes
+[DEP] kaffe
+[DEP] linux-header
+[DEP] net-tools
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

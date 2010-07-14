@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1171298762 Mon Feb 12 16:46:02 2007
+[BUILDTIME] 5 (5)
+[SIZE] 5.95 MB, 10 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] latex2html
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex

@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1234132121 Sun Feb  8 22:28:41 2009
+[BUILDTIME] 85 (5)
+[SIZE] 6.62 MB, 180 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] ladspa
+[DEP] libsamplerate
+[DEP] libsndfile
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] python
+[DEP] readline
+[DEP] ruby
+[DEP] sed
+[DEP] setuptools
+[DEP] sysfiles
+[DEP] tar
+[DEP] zope

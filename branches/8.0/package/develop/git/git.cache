@@ -1,0 +1,45 @@
+
+[TIMESTAMP] 1227173599 Thu Nov 20 10:33:19 2008
+[BUILDTIME] 125 (5)
+[SIZE] 82.12 MB, 820 files
+
+[DEP] 00-dirtree
+[DEP] asciidoc
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] docbookx
+[DEP] expat
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] graphviz
+[DEP] grep
+[DEP] libidn
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] perl
+[DEP] perl-error
+[DEP] python
+[DEP] rat
+[DEP] sed
+[DEP] setuptools
+[DEP] sqlite
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] texinfo
+[DEP] tk
+[DEP] util-linux
+[DEP] xmlto
+[DEP] zlib
