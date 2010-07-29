@@ -13,5 +13,5 @@
 # --- T2-COPYRIGHT-NOTE-END ---
 
 # Filter gnome-config, as most gnome2* configure scripts appear to run it?
-pkgprefix -t gnome-libs14 &&
-var_append flistrfilter '|' ".*:	`pkgprefix gnome-libs14`/bin/gnome-config$"
+pkgprefix -t gnome-libs14 2>/dev/null &&
+var_append flistrfilter '|' ".*:	/`pkgprefix gnome-libs14`/bin/gnome-config"
