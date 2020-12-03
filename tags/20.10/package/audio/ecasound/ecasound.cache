@@ -1,0 +1,37 @@
+
+[TIMESTAMP] 1280324241 Wed Jul 28 13:37:21 2010
+[BUILDTIME] 90 (5)
+[SIZE] 6.82 MB, 186 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] ladspa
+[DEP] liblo
+[DEP] liboil
+[DEP] libsamplerate
+[DEP] libsndfile
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] python
+[DEP] readline
+[DEP] ruby
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

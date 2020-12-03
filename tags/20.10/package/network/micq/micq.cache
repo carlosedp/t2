@@ -1,0 +1,33 @@
+
+[TIMESTAMP] 1279638737 Tue Jul 20 17:12:17 2010
+[BUILDTIME] 15 (5)
+[SIZE] 2.23 MB, 70 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] linux-header
+[DEP] make
+[DEP] man
+[DEP] mktemp
+[DEP] net-tools
+[DEP] nmap
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] po4a
+[DEP] rpm
+[DEP] sed
+[DEP] shadow
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl

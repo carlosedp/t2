@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1279636297 Tue Jul 20 16:31:37 2010
+[BUILDTIME] 30 (5)
+[SIZE] 0.95 MB, 56 files
+
+[DEP] 00-dirtree
+[DEP] attr
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] fuse
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

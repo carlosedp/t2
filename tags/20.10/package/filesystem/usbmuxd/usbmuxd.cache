@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1601398180 Tue Sep 29 18:49:40 2020
+[BUILDTIME] 100 (9)
+[SIZE] 0.09 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libimobiledevice
+[DEP] libplist
+[DEP] libusb
+[DEP] libusbmuxd
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] udev
+[DEP] zstd

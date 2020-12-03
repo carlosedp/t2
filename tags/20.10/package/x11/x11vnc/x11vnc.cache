@@ -1,0 +1,49 @@
+
+[TIMESTAMP] 1279623302 Tue Jul 20 12:55:02 2010
+[BUILDTIME] 20 (5)
+[SIZE] 2.24 MB, 23 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] xorgproto
+[DEP] diffutils
+[DEP] emacs
+[DEP] findutils
+[DEP] xorgproto
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] xorgproto
+[DEP] libice
+[DEP] libjpeg
+[DEP] libsdl
+[DEP] libvncserver
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxtst
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] zlib

@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1599239306 Fri Sep  4 19:08:26 2020
+[BUILDTIME] 200 (9)
+[SIZE] 15.35 MB, 468 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] attr
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libaio
+[DEP] libtirpc
+[DEP] liburcu
+[DEP] libxml
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] python
+[DEP] python2
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xz
+[DEP] zlib
+[DEP] zstd

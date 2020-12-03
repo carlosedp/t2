@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1279684954 Wed Jul 21 06:02:34 2010
+[BUILDTIME] 30 (5)
+[SIZE] 2.30 MB, 145 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] blackdown-jdk
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] java-dirtree
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

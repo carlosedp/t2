@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1279490714 Mon Jul 19 00:05:14 2010
+[BUILDTIME] 5 (5)
+[SIZE] 2.22 MB, 141 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

@@ -1,0 +1,47 @@
+
+[TIMESTAMP] 1280282400 Wed Jul 28 02:00:00 2010
+[BUILDTIME] 45 (5)
+[SIZE] 5.59 MB, 503 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] bdftopcf
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gpm
+[DEP] grep
+[DEP] gzip
+[DEP] imake
+[DEP] xorgproto
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libsdl
+[DEP] libsndfile
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mkfontdir
+[DEP] mkfontscale
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] shadow
+[DEP] slang
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

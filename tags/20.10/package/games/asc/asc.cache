@@ -1,0 +1,48 @@
+
+[TIMESTAMP] 1234409680 Thu Feb 12 03:34:40 2009
+[BUILDTIME] 160 (5)
+[SIZE] 34.60 MB, 20 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] boost
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] expat
+[DEP] findutils
+[DEP] flac
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libmikmod
+[DEP] libogg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_image
+[DEP] libsdl_mixer
+[DEP] libsdl_sound
+[DEP] libsigc++12
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] physfs
+[DEP] pkgconfig
+[DEP] sed
+[DEP] speex
+[DEP] sysfiles
+[DEP] tar
+[DEP] xvid
+[DEP] zip
+[DEP] zlib

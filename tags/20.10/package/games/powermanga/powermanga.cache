@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1188803620 Mon Sep  3 09:13:40 2007
+[BUILDTIME] 15 (5)
+[SIZE] 33.61 MB, 793 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_mixer
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxxf86dga
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

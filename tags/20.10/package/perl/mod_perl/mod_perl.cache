@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1280336140 Wed Jul 28 16:55:40 2010
+[BUILDTIME] 35 (5)
+[SIZE] 5.01 MB, 432 files
+
+[DEP] 00-dirtree
+[DEP] apache
+[DEP] apr
+[DEP] apr-util
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] perl
+[DEP] perl-io-socket-ssl
+[DEP] perl-libwww
+[DEP] perl-net-ssleay
+[DEP] perl-uri
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

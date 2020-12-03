@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1552934923 Mon Mar 18 19:48:43 2019
+[BUILDTIME] 885 (9)
+[SIZE] 0.01 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] cmake
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] ncurses
+[DEP] patch
+[DEP] pkgconfig
+[DEP] python2
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib
+[DEP] zstd

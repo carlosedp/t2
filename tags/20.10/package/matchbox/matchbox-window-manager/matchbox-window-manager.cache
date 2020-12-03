@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1280317613 Wed Jul 28 11:46:53 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.18 MB, 46 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] glibc
+[DEP] gpe-minicalc
+[DEP] grep
+[DEP] xorgproto
+[DEP] libmatchbox
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxft
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] matchbox-desktop
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openbox
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] zlib

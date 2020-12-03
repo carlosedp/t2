@@ -1,0 +1,4 @@
+There is not much polishing left:
+* secure X to only allow localhost
+* archivista files
+  - download the default db from somewhere

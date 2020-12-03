@@ -1,0 +1,47 @@
+
+[TIMESTAMP] 1446386854 Sun Nov  1 14:07:34 2015
+[BUILDTIME] 0 (5)
+[SIZE] 0.08 MB, 11 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] xorgproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] fontconfig
+[DEP] xorgproto
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] xorgproto
+[DEP] grep
+[DEP] xorgproto
+[DEP] libdrm
+[DEP] libevdev
+[DEP] libinput
+[DEP] libpciaccess
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] mtdev
+[DEP] net-tools
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] udev
+[DEP] xorgproto
+[DEP] xf86-input-acecad
+[DEP] xorgproto
+[DEP] xorg-server
+[DEP] xorg-util-macros
+[DEP] xorgproto

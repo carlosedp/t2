@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1387475813 Thu Dec 19 18:56:53 2013
+[BUILDTIME] 20 (9)
+[SIZE] 0.78 MB, 14 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] xorgproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] xorgproto
+[DEP] glu
+[DEP] grep
+[DEP] imake
+[DEP] xorgproto
+[DEP] libdrm
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxrender
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

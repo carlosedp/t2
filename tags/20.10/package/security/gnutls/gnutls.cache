@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1600635075 Sun Sep 20 20:51:15 2020
+[BUILDTIME] 100 (9)
+[SIZE] 8.19 MB, 1241 files
+
+[DEP] 00-dirtree
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gmp
+[DEP] grep
+[DEP] gzip
+[DEP] libatomic_ops
+[DEP] libffi
+[DEP] libtasn1
+[DEP] libunistring
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] nettle
+[DEP] openssl
+[DEP] pcre
+[DEP] pkgconfig
+[DEP] sed
+[DEP] tar
+[DEP] zstd

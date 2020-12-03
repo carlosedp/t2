@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1280276739 Wed Jul 28 00:25:39 2010
+[BUILDTIME] 60 (5)
+[SIZE] 7.83 MB, 432 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] dbus
+[DEP] diffutils
+[DEP] doxygen
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] hal
+[DEP] libexif
+[DEP] libgd
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtool
+[DEP] libusb
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxpm
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

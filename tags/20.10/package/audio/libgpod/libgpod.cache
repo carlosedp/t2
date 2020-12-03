@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1280264022 Tue Jul 27 20:53:42 2010
+[BUILDTIME] 15 (5)
+[SIZE] 1.64 MB, 51 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] dbus
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkdoc
+[DEP] hal
+[DEP] libipoddevice
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] python
+[DEP] sed
+[DEP] sgutils
+[DEP] sysfiles
+[DEP] taglib
+[DEP] tar
+[DEP] zlib

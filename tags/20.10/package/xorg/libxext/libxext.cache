@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1279508360 Mon Jul 19 04:59:20 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.36 MB, 91 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] xorgproto
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] fontconfig
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] xorgproto
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

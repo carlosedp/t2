@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1280268738 Tue Jul 27 22:12:18 2010
+[BUILDTIME] 20 (5)
+[SIZE] 0.41 MB, 28 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] libsdl
+[DEP] libtool
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] portaudio
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

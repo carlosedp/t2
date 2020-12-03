@@ -1,0 +1,50 @@
+
+[TIMESTAMP] 1280287961 Wed Jul 28 03:32:41 2010
+[BUILDTIME] 15 (5)
+[SIZE] 0.40 MB, 17 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] faac
+[DEP] faad
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] flac
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] jack
+[DEP] lame
+[DEP] libao
+[DEP] libid3tag
+[DEP] libidn
+[DEP] libmad
+[DEP] libmpcdec
+[DEP] libogg
+[DEP] libsamplerate
+[DEP] libtheora
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mdnsresponder
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sqlite
+[DEP] sysfiles
+[DEP] tar
+[DEP] valgrind
+[DEP] x264
+[DEP] zlib

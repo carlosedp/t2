@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1279628738 Tue Jul 20 14:25:38 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.19 MB, 18 files
+
+[DEP] 00-dirtree
+[DEP] apache
+[DEP] apr
+[DEP] apr-util
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] perl
+[DEP] ruby
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

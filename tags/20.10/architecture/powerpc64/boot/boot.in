@@ -1,0 +1,2 @@
+# for powerpc64 we simply reuse the powerpc boot-loader glue
+. $base/architecture/powerpc/boot/boot.in

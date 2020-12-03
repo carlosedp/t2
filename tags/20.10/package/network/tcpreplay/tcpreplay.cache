@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1280335824 Wed Jul 28 16:50:24 2010
+[BUILDTIME] 15 (5)
+[SIZE] 1.63 MB, 15 files
+
+[DEP] 00-dirtree
+[DEP] autogen
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] guile
+[DEP] libdnet
+[DEP] libpcap
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

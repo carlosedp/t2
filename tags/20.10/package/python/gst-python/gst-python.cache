@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1280407937 Thu Jul 29 12:52:17 2010
+[BUILDTIME] 15 (5)
+[SIZE] 1.15 MB, 82 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gst-plugins-base
+[DEP] gstreamer
+[DEP] libffi
+[DEP] libnice
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] pygobject
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

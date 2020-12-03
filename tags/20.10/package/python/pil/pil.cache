@@ -1,0 +1,25 @@
+
+[TIMESTAMP] 1280319782 Wed Jul 28 12:23:02 2010
+[BUILDTIME] 10 (5)
+[SIZE] 1.36 MB, 180 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] lcms
+[DEP] libjpeg
+[DEP] linux-header
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1280290937 Wed Jul 28 04:22:17 2010
+[BUILDTIME] 25 (5)
+[SIZE] 1.61 MB, 76 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bind
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] mysql
+[DEP] nagios
+[DEP] net-tools
+[DEP] netkit-base
+[DEP] openssl
+[DEP] perl
+[DEP] perl-net-snmp
+[DEP] procps
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

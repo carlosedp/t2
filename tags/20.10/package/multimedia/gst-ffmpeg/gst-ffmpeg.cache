@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1280407779 Thu Jul 29 12:49:39 2010
+[BUILDTIME] 110 (5)
+[SIZE] 4.30 MB, 12 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gst-plugins-base
+[DEP] gstreamer
+[DEP] liboil
+[DEP] libsdl
+[DEP] libxext
+[DEP] libxml
+[DEP] libxv
+[DEP] libxvmc
+[DEP] linux-header
+[DEP] lzo
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] xorgproto
+[DEP] yasm
+[DEP] zlib

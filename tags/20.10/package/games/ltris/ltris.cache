@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1279673190 Wed Jul 21 02:46:30 2010
+[BUILDTIME] 10 (5)
+[SIZE] 1.01 MB, 42 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] findutils
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] libsdl
+[DEP] libsdl_mixer
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
