@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1279571748 Mon Jul 19 22:35:48 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.40 MB, 25 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libgd
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libx11
+[DEP] libxpm
+[DEP] linux-header
+[DEP] make
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

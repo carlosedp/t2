@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1280287008 Wed Jul 28 03:16:48 2010
+[BUILDTIME] 15 (5)
+[SIZE] 1.47 MB, 37 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libcdio
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] perl
+[DEP] perl-gettext
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

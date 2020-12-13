@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1280268453 Tue Jul 27 22:07:33 2010
+[BUILDTIME] 85 (5)
+[SIZE] 15.53 MB, 484 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gobject-introspection
+[DEP] grep
+[DEP] gtkdoc
+[DEP] gvfs
+[DEP] intltool
+[DEP] libffi
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] mysql
+[DEP] ncurses
+[DEP] net-tools
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] postgresql
+[DEP] python
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

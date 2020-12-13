@@ -1,0 +1,66 @@
+
+[TIMESTAMP] 1418231905 Wed Dec 10 17:18:25 2014
+[BUILDTIME] 15 (5) ERROR
+[SIZE] 1.83 MB, 52 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] coreutils
+[DEP] dbus
+[DEP] dbus-glib
+[DEP] diffutils
+[DEP] enchant
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gdk-pixbuf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-icon-theme
+[DEP] gnome-menus
+[DEP] gparted
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkspell
+[DEP] harfbuzz
+[DEP] xorgproto
+[DEP] libffi
+[DEP] libical
+[DEP] libnotify
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] librsvg
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcomposite
+[DEP] libxcursor
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxml
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pango
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] xz
+[DEP] zlib

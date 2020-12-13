@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1280247841 Tue Jul 27 16:24:01 2010
+[BUILDTIME] 20 (5)
+[SIZE] 1.53 MB, 67 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] patch
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorgproto

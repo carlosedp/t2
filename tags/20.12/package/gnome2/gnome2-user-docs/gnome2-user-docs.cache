@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1279584377 Tue Jul 20 02:06:17 2010
+[BUILDTIME] 5 (5)
+[SIZE] 1.93 MB, 148 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-doc-utils
+[DEP] grep
+[DEP] make
+[DEP] net-tools
+[DEP] rarian
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

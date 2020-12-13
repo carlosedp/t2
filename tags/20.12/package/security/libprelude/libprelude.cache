@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1280283129 Wed Jul 28 02:12:09 2010
+[BUILDTIME] 60 (5)
+[SIZE] 8.21 MB, 175 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] gtkdoc
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libtasn1
+[DEP] libtool
+[DEP] linux-header
+[DEP] lua
+[DEP] m4
+[DEP] make
+[DEP] ncurses
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] readline
+[DEP] ruby
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

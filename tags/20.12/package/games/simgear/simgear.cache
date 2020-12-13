@@ -1,0 +1,45 @@
+
+[TIMESTAMP] 1273658008 Wed May 12 09:53:28 2010
+[BUILDTIME] 90 (5)
+[SIZE] 8.77 MB, 272 files
+
+[DEP] 00-dirtree
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] boost
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freealut
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libdrm
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxrender
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] net-tools
+[DEP] openal
+[DEP] osg
+[DEP] perl
+[DEP] plib
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] zlib

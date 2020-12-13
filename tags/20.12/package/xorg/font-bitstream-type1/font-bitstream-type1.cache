@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1279513837 Mon Jul 19 06:30:37 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.45 MB, 21 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] xorgproto
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] font-adobe-utopia-type1
+[DEP] font-bh-type1
+[DEP] font-util
+[DEP] fontconfig
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libpthread-stubs
+[DEP] linux-header
+[DEP] make
+[DEP] mkfontdir
+[DEP] mkfontscale
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

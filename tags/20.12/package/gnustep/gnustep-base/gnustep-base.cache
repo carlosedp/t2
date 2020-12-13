@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1280277329 Wed Jul 28 00:35:29 2010
+[BUILDTIME] 50 (5)
+[SIZE] 7.22 MB, 925 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] ffcall
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gmp
+[DEP] gnustep-make
+[DEP] gnutls
+[DEP] grep
+[DEP] gzip
+[DEP] libffi
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libtasn1
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] mdnsresponder
+[DEP] net-tools
+[DEP] openssl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

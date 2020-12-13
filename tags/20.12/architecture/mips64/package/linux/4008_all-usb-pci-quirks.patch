@@ -1,0 +1,14 @@
+diff --git a/drivers/usb/host/pci-quirks.c b/drivers/usb/host/pci-quirks.c
+index 3625a5c1a41b..b69e11dcace4 100644
+--- a/drivers/usb/host/pci-quirks.c
++++ b/drivers/usb/host/pci-quirks.c
+@@ -716,6 +716,9 @@ static void quirk_usb_handoff_uhci(struct pci_dev *pdev)
+ 	unsigned long base = 0;
+ 	int i;
+ 
++	if (!pci_enable_device(pdev))
++		return;
++
+ 	if (!pio_enabled(pdev))
+ 		return;
+ 

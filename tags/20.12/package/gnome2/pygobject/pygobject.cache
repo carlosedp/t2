@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1279560403 Mon Jul 19 19:26:43 2010
+[BUILDTIME] 20 (5)
+[SIZE] 2.98 MB, 211 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] gobject-introspection
+[DEP] grep
+[DEP] libffi
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] pycairo
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

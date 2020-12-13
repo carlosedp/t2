@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1280265761 Tue Jul 27 21:22:41 2010
+[BUILDTIME] 35 (5)
+[SIZE] 2.93 MB, 115 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bluez
+[DEP] bzip2
+[DEP] coreutils
+[DEP] dbus
+[DEP] dbus-glib
+[DEP] diffutils
+[DEP] eggdbus
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] fuse
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gstreamer
+[DEP] hal
+[DEP] intltool
+[DEP] libcdio
+[DEP] libgcrypt
+[DEP] libgnome-keyring
+[DEP] libgpg-error
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] orbit2
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

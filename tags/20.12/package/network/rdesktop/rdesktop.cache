@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1279676557 Wed Jul 21 03:42:37 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.34 MB, 48 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libao
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libsamplerate
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

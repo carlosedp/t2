@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1280297829 Wed Jul 28 06:17:09 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.90 MB, 66 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libsdl_gfx
+[DEP] libsdl_image
+[DEP] libsdl_mixer
+[DEP] libsdl_net
+[DEP] libsdl_ttf
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] smpeg
+[DEP] sysfiles
+[DEP] tar

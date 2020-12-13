@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1280333814 Wed Jul 28 16:16:54 2010
+[BUILDTIME] 5 (5)
+[SIZE] 42.38 MB, 2349 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] imlib2
+[DEP] libdvdread
+[DEP] libpng
+[DEP] libx11
+[DEP] libxext
+[DEP] linux-header
+[DEP] pkgconfig
+[DEP] pygobject
+[DEP] python
+[DEP] pyxml
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib
