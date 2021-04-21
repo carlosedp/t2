@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1280275074 Tue Jul 27 23:57:54 2010
+[BUILDTIME] 15 (5)
+[SIZE] 1.08 MB, 27 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gnupg
+[DEP] gnupg2
+[DEP] gnupth
+[DEP] grep
+[DEP] libassuan
+[DEP] libgpg-error
+[DEP] libtool
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] perl
+[DEP] perl-gettext
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

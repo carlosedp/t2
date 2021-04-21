@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1279589297 Tue Jul 20 03:28:17 2010
+[BUILDTIME] 40 (5)
+[SIZE] 1.99 MB, 65 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] attr
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] lame
+[DEP] libmad
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] unzip

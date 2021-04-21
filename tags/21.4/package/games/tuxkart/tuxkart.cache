@@ -1,0 +1,43 @@
+
+[TIMESTAMP] 1279674987 Wed Jul 21 03:16:27 2010
+[BUILDTIME] 10 (5)
+[SIZE] 9.37 MB, 217 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libdrm
+[DEP] libice
+[DEP] libsm
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxmu
+[DEP] libxrender
+[DEP] libxt
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] nas
+[DEP] net-tools
+[DEP] patch
+[DEP] plib
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

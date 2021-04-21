@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1279710784 Wed Jul 21 13:13:04 2010
+[BUILDTIME] 20 (5)
+[SIZE] 1.55 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] linux-header
+[DEP] lzo
+[DEP] m4
+[DEP] make
+[DEP] ncurses
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

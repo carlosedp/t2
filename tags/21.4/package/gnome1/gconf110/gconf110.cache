@@ -1,0 +1,48 @@
+
+[TIMESTAMP] 1280266200 Tue Jul 27 21:30:00 2010
+[BUILDTIME] 15 (5)
+[SIZE] 1.88 MB, 80 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] bdb
+[DEP] bdb33
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+12
+[DEP] gtkdoc
+[DEP] guile
+[DEP] indent
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxi
+[DEP] libxml1
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] oaf10
+[DEP] orbit10
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] popt
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] zlib

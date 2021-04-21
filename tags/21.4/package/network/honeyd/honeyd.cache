@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1279651647 Tue Jul 20 20:47:27 2010
+[BUILDTIME] 20 (5)
+[SIZE] 1.31 MB, 66 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libdnet
+[DEP] libdnsres
+[DEP] libevent
+[DEP] libpcap
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] ncurses
+[DEP] net-tools
+[DEP] pcre
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

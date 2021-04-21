@@ -1,0 +1,53 @@
+
+[TIMESTAMP] 1616624486 Wed Mar 24 23:21:26 2021
+[BUILDTIME] 100 (9)
+[SIZE] 11.73 MB, 281 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] at-spi2
+[DEP] attr
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] dbus
+[DEP] dbus-glib
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gconf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gnome-mime-data
+[DEP] grep
+[DEP] gtk+
+[DEP] gtk
+[DEP] gtkdoc
+[DEP] intltool
+[DEP] keyutils
+[DEP] krb5
+[DEP] libffi
+[DEP] libressl
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] openssl
+[DEP] orbit2
+[DEP] pango
+[DEP] pcre
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pkgconfig
+[DEP] python
+[DEP] sed
+[DEP] tar
+[DEP] util-linux
+[DEP] xz
+[DEP] zlib
+[DEP] zstd

@@ -1,0 +1,56 @@
+
+[TIMESTAMP] 1279627229 Tue Jul 20 14:00:29 2010
+[BUILDTIME] 30 (5)
+[SIZE] 3.96 MB, 314 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] xorgproto
+[DEP] libice
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libsm
+[DEP] libtiff
+[DEP] libtool
+[DEP] libgif
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxft
+[DEP] libxpm
+[DEP] libxrender
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] nmap
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] rpm
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] xorgproto
+[DEP] zlib

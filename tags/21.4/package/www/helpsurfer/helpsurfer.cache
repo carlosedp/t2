@@ -1,0 +1,46 @@
+
+[TIMESTAMP] 1420819087 Fri Jan  9 15:58:07 2015
+[BUILDTIME] 0 (5) ERROR
+[SIZE] 0.01 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gdk-pixbuf
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+2
+[DEP] harfbuzz
+[DEP] xorgproto
+[DEP] libgtkhtml
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libsystem
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxml
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] pango
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

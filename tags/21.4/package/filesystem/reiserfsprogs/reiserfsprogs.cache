@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1611074029 Tue Jan 19 17:33:49 2021
+[BUILDTIME] 5 (9)
+[SIZE] 0.81 MB, 37 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] patch
+[DEP] sed
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib
+[DEP] zstd

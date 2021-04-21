@@ -1,0 +1,61 @@
+
+[TIMESTAMP] 1279693973 Wed Jul 21 08:32:53 2010
+[BUILDTIME] 15 (5)
+[SIZE] 2.51 MB, 280 files
+
+[DEP] 00-dirtree
+[DEP] alsa-tools
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] glitz
+[DEP] grep
+[DEP] gtk+2
+[DEP] gzip
+[DEP] xorgproto
+[DEP] libglade
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] librsvg
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcomposite
+[DEP] libxcursor
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxml
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xcb-util
+[DEP] xorgproto
+[DEP] zlib

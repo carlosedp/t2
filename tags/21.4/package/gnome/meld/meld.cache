@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1616623147 Wed Mar 24 22:59:07 2021
+[BUILDTIME] 100 (9)
+[SIZE] 2.81 MB, 203 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] intltool
+[DEP] libxml
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] pulseaudio
+[DEP] python
+[DEP] sed
+[DEP] tar
+[DEP] zstd

@@ -1,0 +1,52 @@
+
+[TIMESTAMP] 1293478999 Mon Dec 27 20:43:19 2010
+[BUILDTIME] 150 (5)
+[SIZE] 249.44 MB, 30797 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] doxygen
+[DEP] expat
+[DEP] findutils
+[DEP] font-bh-ttf
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gdbm
+[DEP] glibc
+[DEP] graphviz
+[DEP] grep
+[DEP] groff
+[DEP] iat
+[DEP] libffi
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxft
+[DEP] libxrender
+[DEP] libxscrnsaver
+[DEP] linux-header
+[DEP] make
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openssl
+[DEP] owb
+[DEP] pango
+[DEP] pkgconfig
+[DEP] readline
+[DEP] rubygems
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl
+[DEP] tk
+[DEP] xorgproto
+[DEP] zlib

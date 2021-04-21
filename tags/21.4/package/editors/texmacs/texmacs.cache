@@ -1,0 +1,37 @@
+
+[TIMESTAMP] 1279791263 Thu Jul 22 11:34:23 2010
+[BUILDTIME] 65 (5)
+[SIZE] 19.78 MB, 2695 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gmp
+[DEP] grep
+[DEP] guile
+[DEP] gzip
+[DEP] imake
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libtool
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] zlib

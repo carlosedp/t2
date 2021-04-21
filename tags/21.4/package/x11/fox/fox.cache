@@ -1,0 +1,47 @@
+
+[TIMESTAMP] 1279546580 Mon Jul 19 15:36:20 2010
+[BUILDTIME] 285 (5)
+[SIZE] 9.96 MB, 307 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libdrm
+[DEP] libice
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcursor
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] net-tools
+[DEP] perl
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] texinfo
+[DEP] xorgproto
+[DEP] zlib

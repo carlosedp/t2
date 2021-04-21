@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1280336081 Wed Jul 28 16:54:41 2010
+[BUILDTIME] 15 (5)
+[SIZE] 1.97 MB, 149 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] freetype
+[DEP] freetype1
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libgif
+[DEP] linux-header
+[DEP] make
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] t1lib
+[DEP] tar
+[DEP] zlib

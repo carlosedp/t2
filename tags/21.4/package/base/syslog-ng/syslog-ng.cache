@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1279637747 Tue Jul 20 16:55:47 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.17 MB, 20 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] dmalloc
+[DEP] eventlog
+[DEP] findutils
+[DEP] flex
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcp_wrappers

@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1279651180 Tue Jul 20 20:39:40 2010
+[BUILDTIME] 20 (5)
+[SIZE] 2.11 MB, 166 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] net-snmp
+[DEP] net-tools
+[DEP] openssl
+[DEP] qt4
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1280293265 Wed Jul 28 05:01:05 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.58 MB, 18 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] ccrtp
+[DEP] commonc++
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

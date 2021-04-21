@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1388161599 Fri Dec 27 16:26:39 2013
+[BUILDTIME] 10 (9)
+[SIZE] 0.02 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gccmakedep
+[DEP] glibc
+[DEP] glu
+[DEP] grep
+[DEP] imake
+[DEP] xorgproto
+[DEP] libx11
+[DEP] libxi
+[DEP] libxmu
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

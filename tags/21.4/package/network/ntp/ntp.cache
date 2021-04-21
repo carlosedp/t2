@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1280286041 Wed Jul 28 03:00:41 2010
+[BUILDTIME] 35 (5)
+[SIZE] 3.50 MB, 315 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libcap
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mdnsresponder
+[DEP] net-snmp
+[DEP] net-tools
+[DEP] openssl
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcp_wrappers

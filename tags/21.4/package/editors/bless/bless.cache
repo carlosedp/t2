@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1280330354 Wed Jul 28 15:19:14 2010
+[BUILDTIME] 5 (5)
+[SIZE] 1.07 MB, 82 files
+
+[DEP] 00-dirtree
+[DEP] alsa-tools
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] findutils
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk-sharp2
+[DEP] make
+[DEP] mono
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] rarian
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
