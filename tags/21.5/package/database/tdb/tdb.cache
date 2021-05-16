@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1280279609 Wed Jul 28 01:13:29 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.33 MB, 18 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libcap
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

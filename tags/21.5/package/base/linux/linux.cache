@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1381760117 Mon Oct 14 14:15:17 2013
+[BUILDTIME] 1420 (9)
+[SIZE] 126.24 MB, 3896 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bc
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] cpio
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mkinitrd
+[DEP] module-init-tools
+[DEP] modutils
+[DEP] net-tools
+[DEP] patch
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

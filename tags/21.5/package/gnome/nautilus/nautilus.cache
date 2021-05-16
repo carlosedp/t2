@@ -1,0 +1,19 @@
+
+[TIMESTAMP] 1552591466 Thu Mar 14 20:24:26 2019
+[BUILDTIME] 100 (9)
+[SIZE] 0.01 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] grep
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zstd

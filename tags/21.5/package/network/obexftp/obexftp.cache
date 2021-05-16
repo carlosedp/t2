@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1280278236 Wed Jul 28 00:50:36 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.39 MB, 51 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bluez
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libusb
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openobex
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] ruby
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcl

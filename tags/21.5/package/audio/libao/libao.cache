@@ -1,0 +1,39 @@
+
+[TIMESTAMP] 1280253433 Tue Jul 27 17:57:13 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.22 MB, 63 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] esound
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libsm
+[DEP] libtool
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxt
+[DEP] linux-header
+[DEP] make
+[DEP] nas
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux

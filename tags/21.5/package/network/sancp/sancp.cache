@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1279667817 Wed Jul 21 01:16:57 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.16 MB, 13 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libpcap
+[DEP] libprelude
+[DEP] libtasn1
+[DEP] libtool
+[DEP] linux-header
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

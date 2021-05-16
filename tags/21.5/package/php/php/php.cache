@@ -1,0 +1,45 @@
+
+[TIMESTAMP] 1280282914 Wed Jul 28 02:08:34 2010
+[BUILDTIME] 155 (5)
+[SIZE] 18.52 MB, 498 files
+
+[DEP] 00-dirtree
+[DEP] apache
+[DEP] apr
+[DEP] apr-util
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] bzip2
+[DEP] coreutils
+[DEP] curl
+[DEP] cyrus-sasl2
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libmcrypt
+[DEP] libpng
+[DEP] libtool
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] mysql
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openldap
+[DEP] openssl
+[DEP] patch
+[DEP] pcre
+[DEP] perl
+[DEP] postgresql
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

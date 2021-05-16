@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1390905455 Tue Jan 28 10:37:35 2014
+[BUILDTIME] 195 (9)
+[SIZE] 15.11 MB, 548 files
+
+[DEP] 00-dirtree
+[DEP] apache
+[DEP] apr
+[DEP] apr-util
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] glibc32
+[DEP] grep
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] patch
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] sed
+[DEP] serf
+[DEP] sqlite
+[DEP] swig
+[DEP] sysfiles
+[DEP] tar
+[DEP] util-linux
+[DEP] zlib

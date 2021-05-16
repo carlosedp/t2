@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1611498029 Sun Jan 24 15:20:29 2021
+[BUILDTIME] 10 (9)
+[SIZE] 0.49 MB, 51 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] binutils
+[DEP] coreutils
+[DEP] dash
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gmp
+[DEP] gnutls
+[DEP] grep
+[DEP] libao
+[DEP] libice
+[DEP] libsamplerate
+[DEP] libtasn1
+[DEP] libunistring
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcursor
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] nettle
+[DEP] pkgconfig
+[DEP] sed
+[DEP] tar
+[DEP] xorgproto
+[DEP] zstd

@@ -1,0 +1,44 @@
+
+[TIMESTAMP] 1280317315 Wed Jul 28 11:41:55 2010
+[BUILDTIME] 155 (5)
+[SIZE] 9.75 MB, 111 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] hdf5
+[DEP] jasper
+[DEP] libice
+[DEP] libidn
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsm
+[DEP] libtiff
+[DEP] libgif
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] postgresql
+[DEP] sed
+[DEP] sqlite
+[DEP] sysfiles
+[DEP] tar
+[DEP] unixodbc
+[DEP] util-linux
+[DEP] xerces-c
+[DEP] zlib

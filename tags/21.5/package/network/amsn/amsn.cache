@@ -1,0 +1,20 @@
+
+[TIMESTAMP] 1279724786 Wed Jul 21 17:06:26 2010
+[BUILDTIME] 5 (5)
+[SIZE] 6.43 MB, 825 files
+
+[DEP] 00-dirtree
+[DEP] alsa-tools
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto

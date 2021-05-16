@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1279634262 Tue Jul 20 15:57:42 2010
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 0.01 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glib
+[DEP] grep
+[DEP] gtk+2
+[DEP] jack
+[DEP] libgnomecanvas
+[DEP] liblrdf
+[DEP] libsamplerate
+[DEP] libxml
+[DEP] ncurses
+[DEP] patch
+[DEP] pkgconfig
+[DEP] python
+[DEP] raptor
+[DEP] scons
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

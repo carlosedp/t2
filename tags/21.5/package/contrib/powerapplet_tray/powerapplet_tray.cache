@@ -1,0 +1,54 @@
+
+[TIMESTAMP] 1420818940 Fri Jan  9 15:55:40 2015
+[BUILDTIME] 0 (5)
+[SIZE] 0.03 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freememapplet_tray
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gdk-pixbuf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+2
+[DEP] harfbuzz
+[DEP] xorgproto
+[DEP] libffi
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcomposite
+[DEP] libxcursor
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] linux-header
+[DEP] pango
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] vobcopy
+[DEP] xorgproto
+[DEP] zlib

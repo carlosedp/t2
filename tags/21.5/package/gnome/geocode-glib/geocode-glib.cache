@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1616623102 Wed Mar 24 22:58:22 2021
+[BUILDTIME] 100 (9)
+[SIZE] 0.61 MB, 58 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] glibc32
+[DEP] gobject-introspection
+[DEP] grep
+[DEP] icu4c
+[DEP] imagemagick
+[DEP] json-glib
+[DEP] libffi
+[DEP] libpsl
+[DEP] libsoup
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] meson
+[DEP] ninja
+[DEP] pcre
+[DEP] pkgconfig
+[DEP] python
+[DEP] reiser4progs
+[DEP] sed
+[DEP] sqlite
+[DEP] tar
+[DEP] util-linux
+[DEP] xz
+[DEP] zlib
+[DEP] zstd

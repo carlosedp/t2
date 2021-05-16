@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1608158008 Wed Dec 16 23:33:28 2020
+[BUILDTIME] 100 (9)
+[SIZE] 45.14 MB, 146 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] duplicity
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+
+[DEP] itstool
+[DEP] linux-header
+[DEP] make
+[DEP] meson
+[DEP] net-tools
+[DEP] ninja
+[DEP] pexpect
+[DEP] ptyprocess
+[DEP] python
+[DEP] sed
+[DEP] tar
+[DEP] zstd

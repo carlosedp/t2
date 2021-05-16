@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1280292022 Wed Jul 28 04:40:22 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.53 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bzip2
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gmp
+[DEP] grep
+[DEP] icu4c
+[DEP] libuninum
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tre
+[DEP] utf8proc

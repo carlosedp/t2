@@ -1,0 +1,38 @@
+
+[TIMESTAMP] 1507107327 Wed Oct  4 10:55:27 2017
+[BUILDTIME] 100 (9)
+[SIZE] 3.38 MB, 264 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] coreutils
+[DEP] diffutils
+[DEP] docbookx
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] glibc32
+[DEP] grep
+[DEP] gtk+
+[DEP] libglade
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] mktemp
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] perl-xml-parser
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xz
+[DEP] zlib
+[DEP] zstd
