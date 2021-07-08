@@ -1,0 +1,20 @@
+
+[TIMESTAMP] 1280332359 Wed Jul 28 15:52:39 2010
+[BUILDTIME] 0 (5)
+[SIZE] 1.90 MB, 512 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] gnue-common
+[DEP] gnue-forms
+[DEP] grep
+[DEP] python
+[DEP] pyxml
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

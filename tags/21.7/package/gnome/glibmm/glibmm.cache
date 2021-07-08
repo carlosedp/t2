@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1616624310 Wed Mar 24 23:18:30 2021
+[BUILDTIME] 100 (9)
+[SIZE] 56.10 MB, 2371 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] imagemagick
+[DEP] libffi
+[DEP] libsigc++
+[DEP] linux-header
+[DEP] make
+[DEP] meson
+[DEP] mm-common
+[DEP] ninja
+[DEP] pcre
+[DEP] python
+[DEP] sed
+[DEP] tar
+[DEP] tbb
+[DEP] util-linux
+[DEP] zlib
+[DEP] zstd

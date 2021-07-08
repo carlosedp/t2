@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1279933331 Sat Jul 24 01:02:11 2010
+[BUILDTIME] 5 (5)
+[SIZE] 1.42 MB, 137 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] perl
+[DEP] perl-html-parser
+[DEP] perl-libwww
+[DEP] perl-uri
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

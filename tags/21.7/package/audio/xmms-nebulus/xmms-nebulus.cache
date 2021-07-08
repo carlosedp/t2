@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1280297574 Wed Jul 28 06:12:54 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.48 MB, 10 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+12
+[DEP] imake
+[DEP] libice
+[DEP] libpthread-stubs
+[DEP] libsdl
+[DEP] libsdl_ttf
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxi
+[DEP] linux-header
+[DEP] make
+[DEP] mesa
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xmms
+[DEP] zlib

@@ -1,0 +1,54 @@
+
+[TIMESTAMP] 1173903904 Wed Mar 14 21:25:04 2007
+[BUILDTIME] 100 (9)
+[SIZE] 3.09 MB, 102 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] atk
+[DEP] audacious
+[DEP] audiofile
+[DEP] bash
+[DEP] binutils
+[DEP] cairo
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] esound
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] glitz
+[DEP] grep
+[DEP] gtk+2
+[DEP] jack
+[DEP] xorgproto
+[DEP] libmad
+[DEP] libogg
+[DEP] libpng
+[DEP] libsamplerate
+[DEP] libsdl
+[DEP] libsndfile
+[DEP] libvorbis
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxml
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] mcs
+[DEP] openssl
+[DEP] pango
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] taglib
+[DEP] util-linux
+[DEP] xorgproto
+[DEP] zlib

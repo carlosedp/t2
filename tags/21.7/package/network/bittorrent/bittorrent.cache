@@ -1,0 +1,18 @@
+
+[TIMESTAMP] 1280287840 Wed Jul 28 03:30:40 2010
+[BUILDTIME] 0 (5)
+[SIZE] 7.28 MB, 553 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] twisted

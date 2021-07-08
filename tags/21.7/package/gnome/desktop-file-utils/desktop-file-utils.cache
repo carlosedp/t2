@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1552593061 Thu Mar 14 20:51:01 2019
+[BUILDTIME] 100 (9)
+[SIZE] 0.21 MB, 18 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] libidn
+[DEP] linux-header
+[DEP] make
+[DEP] mew
+[DEP] net-tools
+[DEP] pcre
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zstd

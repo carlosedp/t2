@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1280284602 Wed Jul 28 02:36:42 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.09 MB, 14 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] curl
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] ladspa
+[DEP] ladspa-caps
+[DEP] libidn
+[DEP] libxml
+[DEP] libxslt
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] raptor
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

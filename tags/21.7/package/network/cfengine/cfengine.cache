@@ -1,0 +1,40 @@
+
+[TIMESTAMP] 1279593253 Tue Jul 20 04:34:13 2010
+[BUILDTIME] 25 (5)
+[SIZE] 5.89 MB, 188 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] attr
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bison
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] flex
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libgd
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxpm
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] pcre
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

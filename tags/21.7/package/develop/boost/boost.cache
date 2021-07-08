@@ -1,0 +1,22 @@
+
+[TIMESTAMP] 1279565302 Mon Jul 19 20:48:22 2010
+[BUILDTIME] 200 (5)
+[SIZE] 74.53 MB, 7959 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] boost-jam
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

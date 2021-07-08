@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1280314022 Wed Jul 28 10:47:02 2010
+[BUILDTIME] 215 (5)
+[SIZE] 8.07 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flac
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libmad
+[DEP] libogg
+[DEP] libsdl
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] sed
+[DEP] subversion
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

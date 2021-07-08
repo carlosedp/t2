@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1279529168 Mon Jul 19 10:46:08 2010
+[BUILDTIME] 60 (5)
+[SIZE] 11.92 MB, 1048 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] attr
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] dbus
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libtiff
+[DEP] libusb
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] openslp
+[DEP] openssl
+[DEP] pam
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1280285445 Wed Jul 28 02:50:45 2010
+[BUILDTIME] 220 (5)
+[SIZE] 45.02 MB, 173 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] faac
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gsm
+[DEP] lame
+[DEP] libjpeg
+[DEP] libogg
+[DEP] libsdl
+[DEP] libtheora
+[DEP] libtiff
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] pkgconfig
+[DEP] ptlib
+[DEP] ruby
+[DEP] sed
+[DEP] spandsp
+[DEP] speex
+[DEP] swig
+[DEP] sysfiles
+[DEP] tar
+[DEP] x264
+[DEP] zlib

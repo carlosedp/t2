@@ -1,0 +1,28 @@
+
+[TIMESTAMP] 1280333785 Wed Jul 28 16:16:25 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.11 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] automake
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib12
+[DEP] glibc
+[DEP] grep
+[DEP] libcdaudio
+[DEP] linux-header
+[DEP] make
+[DEP] ncurses
+[DEP] net-tools
+[DEP] perl
+[DEP] perl-gettext
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

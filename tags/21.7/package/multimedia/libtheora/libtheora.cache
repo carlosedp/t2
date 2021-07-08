@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1280265898 Tue Jul 27 21:24:58 2010
+[BUILDTIME] 20 (5)
+[SIZE] 3.02 MB, 106 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] doxygen
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] ghostscript
+[DEP] glibc
+[DEP] grep
+[DEP] libogg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] transfig
+[DEP] zlib

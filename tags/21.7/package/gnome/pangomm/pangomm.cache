@@ -1,0 +1,46 @@
+
+[TIMESTAMP] 1280264136 Tue Jul 27 20:55:36 2010
+[BUILDTIME] 15 (5)
+[SIZE] 3.38 MB, 302 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] cairo
+[DEP] cairomm
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] glibmm
+[DEP] glitz
+[DEP] grep
+[DEP] xorgproto
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libsigc++
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pango
+[DEP] perl
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xcb-util
+[DEP] xorgproto
+[DEP] zlib

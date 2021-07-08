@@ -1,0 +1,35 @@
+
+[TIMESTAMP] 1279682341 Wed Jul 21 05:19:01 2010
+[BUILDTIME] 50 (5)
+[SIZE] 11.87 MB, 3826 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libpcap
+[DEP] libprelude
+[DEP] libtasn1
+[DEP] libtool
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mysql
+[DEP] net-tools
+[DEP] openssl
+[DEP] pcre
+[DEP] postgresql
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

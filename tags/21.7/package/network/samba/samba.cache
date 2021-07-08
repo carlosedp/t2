@@ -1,0 +1,53 @@
+
+[TIMESTAMP] 1622978884 Sun Jun  6 13:28:04 2021
+[BUILDTIME] 185 (9)
+[SIZE] 63.21 MB, 1152 files
+
+[DEP] 00-dirtree
+[DEP] acl
+[DEP] attr
+[DEP] binutils
+[DEP] coreutils
+[DEP] cups
+[DEP] dash
+[DEP] dbus
+[DEP] diffutils
+[DEP] docbookx
+[DEP] file
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] gmp
+[DEP] gnutls
+[DEP] grep
+[DEP] icu4c
+[DEP] libcap
+[DEP] libtasn1
+[DEP] libtirpc
+[DEP] libunistring
+[DEP] libxslt
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] ncurses
+[DEP] nettle
+[DEP] openssl
+[DEP] pam
+[DEP] patch
+[DEP] pcre
+[DEP] perl
+[DEP] perl-parse-yapp
+[DEP] popt
+[DEP] python
+[DEP] readline
+[DEP] rpcsvc-proto
+[DEP] sed
+[DEP] tar
+[DEP] util-linux
+[DEP] valgrind
+[DEP] xfsprogs
+[DEP] zlib
+[DEP] zstd

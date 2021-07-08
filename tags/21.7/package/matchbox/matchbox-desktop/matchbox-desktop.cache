@@ -1,0 +1,41 @@
+
+[TIMESTAMP] 1280317555 Wed Jul 28 11:45:55 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.15 MB, 27 files
+
+[DEP] 00-dirtree
+[DEP] alsa-tools
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] expat
+[DEP] file
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] xorgproto
+[DEP] libmatchbox
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] libxft
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] zlib

@@ -1,0 +1,26 @@
+
+[TIMESTAMP] 1280300228 Wed Jul 28 06:57:08 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.77 MB, 85 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] directfb
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] linux-header
+[DEP] magicpoint
+[DEP] make
+[DEP] net-tools
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

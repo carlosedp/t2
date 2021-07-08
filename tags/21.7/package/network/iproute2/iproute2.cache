@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1279639417 Tue Jul 20 17:23:37 2010
+[BUILDTIME] 10 (5)
+[SIZE] 1.22 MB, 93 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] bison
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] iptables
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] patch
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

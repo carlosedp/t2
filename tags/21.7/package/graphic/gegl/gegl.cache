@@ -1,0 +1,66 @@
+
+[TIMESTAMP] 1280274377 Tue Jul 27 23:46:17 2010
+[BUILDTIME] 50 (5)
+[SIZE] 2.15 MB, 240 files
+
+[DEP] 00-dirtree
+[DEP] atk
+[DEP] babl
+[DEP] bash
+[DEP] binutils
+[DEP] bitstream-vera-fonts
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] ffmpeg
+[DEP] file
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] glitz
+[DEP] gnome-print10
+[DEP] grep
+[DEP] gtk+2
+[DEP] john-stracke-fonts
+[DEP] xorgproto
+[DEP] liberation-fonts
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] librsvg
+[DEP] libsdl
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcomposite
+[DEP] libxcursor
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxml
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] linux-header
+[DEP] lua
+[DEP] magicpoint
+[DEP] make
+[DEP] net-tools
+[DEP] pango
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] xorgproto
+[DEP] ruby
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tex-ttf
+[DEP] xcb-util
+[DEP] xorgproto
+[DEP] zlib

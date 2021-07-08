@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1279627077 Tue Jul 20 13:57:57 2010
+[BUILDTIME] 50 (5)
+[SIZE] 2.93 MB, 205 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] gwenhywfar
+[DEP] libgcrypt
+[DEP] libgpg-error
+[DEP] libtasn1
+[DEP] libtool
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pcsc-lite
+[DEP] sed
+[DEP] sysfiles
+[DEP] sysfsutils
+[DEP] tar
+[DEP] zlib

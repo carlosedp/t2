@@ -1,0 +1,27 @@
+
+[TIMESTAMP] 1279719387 Wed Jul 21 15:36:27 2010
+[BUILDTIME] 15 (5)
+[SIZE] 0.14 MB, 28 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] ilmbase
+[DEP] libjpeg
+[DEP] libpng
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openexr
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

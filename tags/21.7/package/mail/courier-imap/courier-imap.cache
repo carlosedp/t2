@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1280281506 Wed Jul 28 01:45:06 2010
+[BUILDTIME] 80 (5)
+[SIZE] 0.77 MB, 49 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] coreutils
+[DEP] courier-authlib
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gdbm
+[DEP] glibc
+[DEP] gnutls
+[DEP] grep
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] pcre
+[DEP] perl
+[DEP] pkgconfig
+[DEP] procps
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

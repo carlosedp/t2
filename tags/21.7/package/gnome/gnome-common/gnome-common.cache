@@ -1,0 +1,20 @@
+
+[TIMESTAMP] 1616621980 Wed Mar 24 22:39:40 2021
+[BUILDTIME] 100 (9)
+[SIZE] 0.05 MB, 11 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] make
+[DEP] net-tools
+[DEP] sed
+[DEP] tar
+[DEP] zstd

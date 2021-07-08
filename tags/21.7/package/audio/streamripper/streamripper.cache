@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1279703628 Wed Jul 21 11:13:48 2010
+[BUILDTIME] 10 (5)
+[SIZE] 0.15 MB, 7 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] faad
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] libmad
+[DEP] libogg
+[DEP] libvorbis
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] perl
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1279638663 Tue Jul 20 17:11:03 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.18 MB, 10 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libcap
+[DEP] linux-header
+[DEP] make
+[DEP] openssl
+[DEP] pam
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] tcp_wrappers

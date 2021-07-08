@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1280254437 Tue Jul 27 18:13:57 2010
+[BUILDTIME] 125 (5)
+[SIZE] 4.78 MB, 1630 files
+
+[DEP] 00-dirtree
+[DEP] autoconf
+[DEP] automake
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] e2fsprogs
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libtool
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] openssl
+[DEP] pam
+[DEP] perl
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

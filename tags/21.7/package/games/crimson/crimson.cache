@@ -1,0 +1,29 @@
+
+[TIMESTAMP] 1280298719 Wed Jul 28 06:31:59 2010
+[BUILDTIME] 30 (5)
+[SIZE] 1.74 MB, 63 files
+
+[DEP] 00-dirtree
+[DEP] alsa-tools
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] findutils
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libsdl
+[DEP] libsdl_mixer
+[DEP] libsdl_net
+[DEP] libsdl_ttf
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

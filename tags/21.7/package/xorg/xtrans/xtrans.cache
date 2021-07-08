@@ -1,0 +1,24 @@
+
+[TIMESTAMP] 1279507790 Mon Jul 19 04:49:50 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.24 MB, 18 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] xorgproto
+[DEP] binutils
+[DEP] xorgproto
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libpthread-stubs
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

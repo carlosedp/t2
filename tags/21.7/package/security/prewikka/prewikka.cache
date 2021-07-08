@@ -1,0 +1,19 @@
+
+[TIMESTAMP] 1279653790 Tue Jul 20 21:23:10 2010
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 2.05 MB, 213 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] cheetah
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] gettext
+[DEP] grep
+[DEP] libprelude
+[DEP] python
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

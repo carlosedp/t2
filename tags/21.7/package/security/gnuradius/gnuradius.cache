@@ -1,0 +1,36 @@
+
+[TIMESTAMP] 1280336760 Wed Jul 28 17:06:00 2010
+[BUILDTIME] 35 (5)
+[SIZE] 2.25 MB, 109 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] emacs
+[DEP] file
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glibc
+[DEP] gmp
+[DEP] grep
+[DEP] groff
+[DEP] guile
+[DEP] libidn
+[DEP] libtool
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] ncurses
+[DEP] net-tools
+[DEP] pam
+[DEP] perl
+[DEP] perl-gettext
+[DEP] readline
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

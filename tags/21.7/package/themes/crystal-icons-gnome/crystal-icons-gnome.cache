@@ -1,0 +1,17 @@
+
+[TIMESTAMP] 1279599822 Tue Jul 20 06:23:42 2010
+[BUILDTIME] 5 (5)
+[SIZE] 11.05 MB, 2608 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

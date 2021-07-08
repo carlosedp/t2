@@ -1,0 +1,31 @@
+
+[TIMESTAMP] 1279664954 Wed Jul 21 00:29:14 2010
+[BUILDTIME] 5 (5)
+[SIZE] 0.10 MB, 10 files
+
+[DEP] 00-dirtree
+[DEP] alien
+[DEP] autoconf
+[DEP] bash
+[DEP] binutils
+[DEP] bison
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] flex
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] librsync
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] net-tools
+[DEP] perl
+[DEP] popt
+[DEP] sed
+[DEP] sqlite2
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

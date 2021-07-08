@@ -1,0 +1,32 @@
+
+[TIMESTAMP] 1280276550 Wed Jul 28 00:22:30 2010
+[BUILDTIME] 70 (5)
+[SIZE] 1.11 MB, 43 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] coreutils
+[DEP] cyrus-sasl2
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] libidn
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] mysql
+[DEP] net-tools
+[DEP] openldap
+[DEP] openssl
+[DEP] pam
+[DEP] postgresql
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] zlib

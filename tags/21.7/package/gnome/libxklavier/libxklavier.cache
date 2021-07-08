@@ -1,0 +1,50 @@
+
+[TIMESTAMP] 1610730366 Fri Jan 15 18:06:06 2021
+[BUILDTIME] 100 (9)
+[SIZE] 0.68 MB, 40 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] file
+[DEP] findutils
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] gobject-introspection
+[DEP] grep
+[DEP] gtk+
+[DEP] gtkdoc
+[DEP] iso-codes
+[DEP] libcanberra
+[DEP] libffi
+[DEP] libpthread-stubs
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdmcp
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxkbfile
+[DEP] libxml
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] pcre
+[DEP] perl
+[DEP] pkgconfig
+[DEP] python
+[DEP] sed
+[DEP] tar
+[DEP] util-linux
+[DEP] vala
+[DEP] xorg-server
+[DEP] xorgproto
+[DEP] xz
+[DEP] zlib
+[DEP] zstd

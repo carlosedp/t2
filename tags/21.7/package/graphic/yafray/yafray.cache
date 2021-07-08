@@ -1,0 +1,23 @@
+
+[TIMESTAMP] 1279721105 Wed Jul 21 16:05:05 2010
+[BUILDTIME] 5 (5) ERROR
+[SIZE] 0.01 MB, 6 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] ilmbase
+[DEP] linux-header
+[DEP] ncurses
+[DEP] openexr
+[DEP] python
+[DEP] scons
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

@@ -1,0 +1,62 @@
+
+[TIMESTAMP] 1420819078 Fri Jan  9 15:57:58 2015
+[BUILDTIME] 5 (5)
+[SIZE] 0.93 MB, 17 files
+
+[DEP] 00-dirtree
+[DEP] alsa-lib
+[DEP] alsaplayer
+[DEP] atk
+[DEP] bash
+[DEP] bdb
+[DEP] binutils
+[DEP] cairo
+[DEP] coreutils
+[DEP] diffutils
+[DEP] expat
+[DEP] findutils
+[DEP] fontconfig
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gdk-pixbuf
+[DEP] gettext
+[DEP] glib
+[DEP] glibc
+[DEP] grep
+[DEP] gtk+2
+[DEP] harfbuzz
+[DEP] jack
+[DEP] xorgproto
+[DEP] ladspa
+[DEP] libffi
+[DEP] libpng
+[DEP] libpthread-stubs
+[DEP] libsamplerate
+[DEP] libsndfile
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxcomposite
+[DEP] libxcursor
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxinerama
+[DEP] libxrandr
+[DEP] libxrender
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] openbox
+[DEP] pango
+[DEP] pixman
+[DEP] pkgconfig
+[DEP] portaudio
+[DEP] xorgproto
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] zlib

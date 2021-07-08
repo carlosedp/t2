@@ -1,0 +1,34 @@
+
+[TIMESTAMP] 1227687912 Wed Nov 26 09:25:12 2008
+[BUILDTIME] 5 (5)
+[SIZE] 0.05 MB, 8 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] cf
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] imake
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxext
+[DEP] linux-header
+[DEP] lirc
+[DEP] make
+[DEP] ncurses
+[DEP] net-tools
+[DEP] patch
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
+[DEP] xorgproto
+[DEP] xine-lib
+[DEP] xorgproto
+[DEP] zlib

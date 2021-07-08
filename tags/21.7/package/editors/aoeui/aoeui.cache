@@ -1,0 +1,21 @@
+
+[TIMESTAMP] 1280330334 Wed Jul 28 15:18:54 2010
+[BUILDTIME] 0 (5)
+[SIZE] 0.19 MB, 12 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] findutils
+[DEP] gcc
+[DEP] glibc
+[DEP] grep
+[DEP] gzip
+[DEP] linux-header
+[DEP] m4
+[DEP] make
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar

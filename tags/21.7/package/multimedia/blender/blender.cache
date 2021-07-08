@@ -1,0 +1,62 @@
+
+[TIMESTAMP] 1280330816 Wed Jul 28 15:26:56 2010
+[BUILDTIME] 555 (5)
+[SIZE] 26.62 MB, 8 files
+
+[DEP] acl
+[DEP] alsa-lib
+[DEP] attr
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] ffmpeg
+[DEP] findutils
+[DEP] freealut
+[DEP] freetype
+[DEP] gawk
+[DEP] gcc
+[DEP] gettext
+[DEP] git
+[DEP] glibc
+[DEP] gnupth
+[DEP] gpac
+[DEP] grep
+[DEP] ilmbase
+[DEP] imlib2
+[DEP] xorgproto
+[DEP] libcdaudio
+[DEP] libdrm
+[DEP] libjpeg
+[DEP] libpng
+[DEP] libsdl
+[DEP] libtiff
+[DEP] libx11
+[DEP] libxau
+[DEP] libxcb
+[DEP] libxdamage
+[DEP] libxext
+[DEP] libxfixes
+[DEP] libxi
+[DEP] libxrender
+[DEP] libxv
+[DEP] libxvmc
+[DEP] libxxf86vm
+[DEP] linux-header
+[DEP] mesa
+[DEP] ncurses
+[DEP] net-tools
+[DEP] openal
+[DEP] openexr
+[DEP] openjpeg
+[DEP] perl
+[DEP] python
+[DEP] scons
+[DEP] sed
+[DEP] subversion
+[DEP] sysfiles
+[DEP] tar
+[DEP] tetex
+[DEP] xorgproto
+[DEP] yasm
+[DEP] zlib

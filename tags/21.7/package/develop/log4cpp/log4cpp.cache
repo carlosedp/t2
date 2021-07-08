@@ -1,0 +1,30 @@
+
+[TIMESTAMP] 1280329295 Wed Jul 28 15:01:35 2010
+[BUILDTIME] 30 (5)
+[SIZE] 12.74 MB, 1422 files
+
+[DEP] 00-dirtree
+[DEP] bash
+[DEP] binutils
+[DEP] coreutils
+[DEP] diffutils
+[DEP] doxygen
+[DEP] file
+[DEP] findutils
+[DEP] fontconfig
+[DEP] gawk
+[DEP] gcc
+[DEP] glibc
+[DEP] graphviz
+[DEP] grep
+[DEP] libtool
+[DEP] linux-header
+[DEP] make
+[DEP] net-tools
+[DEP] owb
+[DEP] pango
+[DEP] patch
+[DEP] pkgconfig
+[DEP] sed
+[DEP] sysfiles
+[DEP] tar
